@@ -1,0 +1,7 @@
+node_modules
+.env
+.DS_Store
+leads.csv
+sms_targets.csv
+call_targets.csv
+*.log
