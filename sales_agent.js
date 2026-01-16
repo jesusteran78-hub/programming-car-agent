@@ -57,6 +57,10 @@ const openai = new OpenAI({ apiKey: OPENAI_API_KEY });
 // RUTAS
 // ==========================================
 
+// Webhook verification (GET probe for Whapi/Providers)
+app.get('/webhook', (req, res) => res.send('Webhook Active'));
+app.get('/', (req, res) => res.send('Sales Agent Active'));
+
 // Webhook que recibe mensajes de Whapi
 app.post('/webhook', async (req, res) => {
     console.log('📩 Webhook recibido:', JSON.stringify(req.body, null, 2));
@@ -80,7 +84,8 @@ app.post('/webhook', async (req, res) => {
         console.log(`🤖 Agente: ${aiResponse}`);
 
         // 🗣️ RESPONDER (Enviar a Whapi)
-        await sendToWhapi(senderNumber, aiResponse);
+        const sentResult = await sendToWhapi(senderNumber, aiResponse);
+        console.log('📤 Resultado envío Whapi:', JSON.stringify(sentResult));
 
         // 📝 AUDITAR (Guardar para revisión de Jesus y Antigravity)
         const logEntry = `[${new Date().toLocaleString()}] CLIENTE (${senderNumber}): ${userText}\n` +
@@ -197,6 +202,52 @@ async function sendToWhapi(chatId, text) {
     const data = await response.json();
     return data;
 }
+
+// API Endpoint for Dashboard
+// --- JOB SYSTEM FOR VIDEO GEN (To avoid timeouts) ---
+const jobs = new Map();
+
+app.post('/api/video/start', async (req, res) => {
+    console.log("🎬 Solicitud de video recibida del Dashboard:", req.body);
+    const { title, idea, image } = req.body;
+    const jobId = Date.now().toString(); // Simple ID
+
+    // Initial State
+    jobs.set(jobId, { status: 'processing', steps: ['Iniciando...'], result: null });
+
+    console.log(`🎬 JOB ${jobId} STARTED: ${title}`);
+
+    // Start background process (Fire & Forget)
+    (async () => {
+        try {
+            const { generateViralVideo } = require('./video_engine');
+
+            // Step updates could be implemented in video_engine if passed a callback, 
+            // but for now we just wait for final result.
+
+            const result = await generateViralVideo(title, idea, image);
+            jobs.set(jobId, { status: 'completed', steps: ['Done'], result: result });
+            console.log(`✅ JOB ${jobId} COMPLETED`);
+
+        } catch (error) {
+            console.error(`❌ JOB ${jobId} FAILED:`, error);
+            jobs.set(jobId, { status: 'failed', error: error.message });
+        }
+    })();
+
+    res.json({ success: true, jobId });
+});
+
+app.get('/api/video/status/:id', (req, res) => {
+    const jobId = req.params.id;
+    const job = jobs.get(jobId);
+
+    if (!job) {
+        return res.status(404).json({ success: false, error: 'Job not found' });
+    }
+    res.json({ success: true, job });
+});
+// ----------------------------------------------------
 
 app.listen(PORT, () => {
     console.log(`🚀 Agente de Ventas escuchando en puerto ${PORT}`);

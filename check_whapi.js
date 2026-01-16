@@ -1,4 +1,5 @@
-const WHAPI_TOKEN = 'YZYalrtUh68ssCRhP44mUK7MYDHWxPLn';
+require('dotenv').config();
+const WHAPI_TOKEN = process.env.WHAPI_TOKEN;
 const POSSIBLE_IDS = ['ROCKET-KT8RB', '17864782531', '7864782531'];
 
 async function checkChannels() {

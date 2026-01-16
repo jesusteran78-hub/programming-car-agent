@@ -6,7 +6,7 @@ const { format } = require('@fast-csv/format');
 // CONFIGURACIÓN (¡EDITA ESTO!)
 // ==========================================
 // ==========================================
-const WHAPI_TOKEN = 'YZYalrtUh68ssCRhP44mUK7MYDHWxPLn'; // Token actualizado
+const WHAPI_TOKEN = process.env.WHAPI_TOKEN;
 const CHANNEL_ID = 'ROCKET-KT8RB'; // <--- ID DEL CANAL DETECTADO
 const INPUT_FILE = 'sms_targets.csv';
 const MESSAGE_TEMPLATE = `Hi {Name}, saw you work on GM transmissions.
