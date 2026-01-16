@@ -107,6 +107,8 @@ app.post('/webhook', async (req, res) => {
 const { createClient } = require('@supabase/supabase-js');
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
+const { decodeVIN } = require('./vin_decoder');
+
 async function getAIResponse(userMessage, senderNumber, userImage = null) {
     try {
         // 1. Identificar al CLiente (Lead)
@@ -158,42 +160,95 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
         ];
 
         // Añadimos el mensaje actual
-        // SI HAY IMAGEN: Usamos el formato multimodal de GPT-4o
-        if (userImage) {
-            messagesForAI.push({
+        const currentUserMsg = userImage ?
+            {
                 role: "user",
                 content: [
-                    { type: "text", text: userMessage || "Aquí está la foto de mi VIN/Auto. Analízala." },
+                    { type: "text", text: userMessage || "Aquí está la foto de mi VIN/Auto. Analízala y decodifica el VIN si es visible." },
                     { type: "image_url", image_url: { url: userImage } }
                 ]
+            } :
+            { role: "user", content: userMessage };
+
+        messagesForAI.push(currentUserMsg);
+
+        // --- DEFINICIÓN DE HERRAMIENTAS (TOOLS) ---
+        const tools = [
+            {
+                type: "function",
+                function: {
+                    name: "lookup_vin",
+                    description: "Busca detalles técnicos de un vehículo (Año, Marca, Modelo, Motor) usando su VIN. Úsalo SIEMPRE que identifiques un VIN.",
+                    parameters: {
+                        type: "object",
+                        properties: {
+                            vin: {
+                                type: "string",
+                                description: "El número de identificación del vehículo (17 caracteres)."
+                            }
+                        },
+                        required: ["vin"]
+                    }
+                }
+            }
+        ];
+
+        // --- BUCLE DE RAZONAMIENTO (TOOL CALLING LOOP) ---
+        let finalReply = "";
+        let steps = 0;
+        const MAX_STEPS = 5; // Evitar bucles infinitos
+
+        while (steps < MAX_STEPS) {
+            steps++;
+
+            // Llamada a OpenAI
+            const completion = await openai.chat.completions.create({
+                messages: messagesForAI,
+                model: "gpt-4o",
+                tools: tools,
+                tool_choice: "auto"
             });
-        } else {
-            // SOLO TEXTO
-            messagesForAI.push({ role: "user", content: userMessage });
+
+            const choice = completion.choices[0];
+            const message = choice.message;
+
+            // Si el modelo quiere hablar (finalizar), rompemos el bucle
+            if (!message.tool_calls) {
+                finalReply = message.content;
+                break;
+            }
+
+            // Si el modelo quiere usar herramientas
+            messagesForAI.push(message); // Agregamos la intención de llamada al historial
+
+            for (const toolCall of message.tool_calls) {
+                if (toolCall.function.name === 'lookup_vin') {
+                    const args = JSON.parse(toolCall.function.arguments);
+                    console.log(`🔧 GPT Tool Call: lookup_vin(${args.vin})`);
+
+                    // EJECUTAR LA HERRAMIENTA
+                    const vinData = await decodeVIN(args.vin);
+
+                    // Respondemos con el resultado
+                    messagesForAI.push({
+                        tool_call_id: toolCall.id,
+                        role: "tool",
+                        name: "lookup_vin",
+                        content: JSON.stringify(vinData)
+                    });
+                }
+            }
+            // El bucle continuará y OpenAI verá el resultado de la herramienta en la siguiente iteración
         }
 
-        // NOTA: Como ya añadimos el mensaje actual al array 'messagesForAI', 
-        // no necesitamos insertarlo en la BBDD 'conversations' ANTES de llamar a OpenAI si queremos ser estrictos con el orden,
-        // PERO el código original insertaba en BBDD aparte.
-        // MANTENDREMOS la lógica original de insertar en BBDD, pero ojo:
-        // Si hay imagen, guardar solo el texto o un indicador de [IMAGEN] en la base de datos de texto plano.
-
-        // 4. Enviar a OpenAI
-        const completion = await openai.chat.completions.create({
-            messages: messagesForAI,
-            model: "gpt-4o",
-        });
-
-        const reply = completion.choices[0].message.content;
-
-        // 5. Guardar respuesta del AGENTE en la BBDD
+        // 5. Guardar respuesta FINAL del AGENTE en la BBDD
         await supabase.from('conversations').insert({
             lead_id: leadId,
             role: 'assistant',
-            content: reply
+            content: finalReply
         });
 
-        return reply;
+        return finalReply;
 
     } catch (e) {
         console.error("Error Critical (Supabase/OpenAI):", e);
