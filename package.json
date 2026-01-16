@@ -12,6 +12,7 @@
   "dependencies": {
     "@anthropic-ai/sdk": "^0.71.2",
     "@modelcontextprotocol/sdk": "^1.25.2",
+    "@supabase/supabase-js": "^2.90.1",
     "body-parser": "^2.2.2",
     "cors": "^2.8.5",
     "csv-parser": "^3.2.0",

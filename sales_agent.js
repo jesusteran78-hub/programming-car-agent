@@ -96,47 +96,80 @@ app.post('/webhook', async (req, res) => {
     }
 });
 
-// Función para hablar con GPT-4o
-// Memoria temporal (se borra si reinicias el servidor, pero perfecto para chats activos)
-const conversations = {};
+// Función para hablar con GPT-4o con MEMORIA PERSISTENTE (Supabase)
+const { createClient } = require('@supabase/supabase-js');
+const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
-// Función para hablar con GPT-4o con MEMORIA
 async function getAIResponse(userMessage, senderNumber) {
     try {
-        // 1. Recuperar historia o iniciarla
-        if (!conversations[senderNumber]) {
-            conversations[senderNumber] = [
-                { role: "system", content: SYSTEM_PROMPT }
-            ];
+        // 1. Identificar al CLiente (Lead)
+        let leadId;
+
+        // Buscar si ya existe
+        let { data: lead, error } = await supabase
+            .from('leads')
+            .select('id, name')
+            .eq('phone', senderNumber)
+            .single();
+
+        if (lead) {
+            leadId = lead.id;
+        } else {
+            // Si no existe, crearlo
+            const { data: newLead, error: createError } = await supabase
+                .from('leads')
+                .insert([{ phone: senderNumber, name: "WhatsApp User" }])
+                .select()
+                .single();
+
+            if (createError) throw createError;
+            leadId = newLead.id;
         }
 
-        const history = conversations[senderNumber];
+        // 2. Guardar el mensaje del USUARIO en la BBDD
+        await supabase.from('conversations').insert({
+            lead_id: leadId,
+            role: 'user',
+            content: userMessage
+        });
 
-        // 2. Agregar mensaje del usuario
-        history.push({ role: "user", content: userMessage });
+        // 3. Recuperar Historial Reciente (Últimos 10 mensajes para contexto)
+        const { data: historyData } = await supabase
+            .from('conversations')
+            .select('role, content')
+            .eq('lead_id', leadId)
+            .order('created_at', { ascending: false }) // Traer los más nuevos primero
+            .limit(10);
 
-        // 3. Limitar memoria (últimos 20 mensajes para ahorrar tokens y no confundirlo)
-        // Mantenemos siempre el System Prompt (índice 0)
-        if (history.length > 21) {
-            history.splice(1, 1); // Borrar el mensaje más antiguo después del System Prompt
-        }
+        // Ordenamos cronológicamente (antiguo -> nuevo) para GPT
+        const dbHistory = historyData ? historyData.reverse() : [];
 
-        // 4. Enviar TODO el historial a OpenAI
+        // Construimos el array para OpenAI (System Prompt + Historia)
+        const messagesForAI = [
+            { role: "system", content: SYSTEM_PROMPT },
+            ...dbHistory.map(msg => ({ role: msg.role, content: msg.content }))
+        ];
+
+        // 4. Enviar a OpenAI
         const completion = await openai.chat.completions.create({
-            messages: history,
+            messages: messagesForAI,
             model: "gpt-4o",
         });
 
         const reply = completion.choices[0].message.content;
 
-        // 5. Guardar respuesta del bot en la historia
-        history.push({ role: "assistant", content: reply });
+        // 5. Guardar respuesta del AGENTE en la BBDD
+        await supabase.from('conversations').insert({
+            lead_id: leadId,
+            role: 'assistant',
+            content: reply
+        });
 
         return reply;
 
     } catch (e) {
-        console.error("Error OpenAI:", e);
-        return "Disculpa, estoy consultando la base de datos técnica. Dame un momento.";
+        console.error("Error Critical (Supabase/OpenAI):", e);
+        return "Dame un segundo, estoy actualizando mi base de datos...";
     }
 }
 

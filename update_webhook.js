@@ -2,7 +2,7 @@
 require('dotenv').config();
 
 const WHAPI_TOKEN = process.env.WHAPI_TOKEN;
-const NEW_URL = 'https://sixty-meals-follow.loca.lt/webhook';
+const NEW_URL = 'https://programming-car-agent-alex-agent.tojkrl.easypanel.host/webhook';
 
 async function updateWebhook() {
     console.log(`Updating Whapi webhook to: ${NEW_URL}`);
