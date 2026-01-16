@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const OpenAI = require('openai');
+const fs = require('fs');
 require('dotenv').config();
 
 const app = express();
@@ -13,40 +14,36 @@ const PORT = process.env.PORT || 3000;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const WHAPI_TOKEN = process.env.WHAPI_TOKEN;
 
-// Agente de Ventas "Alex" - Version 6.0 (Global & Omnicanal)
-const SYSTEM_PROMPT = \`
+// Agente de Ventas "Alex" - Version 7.0 (Global & Pricing)
+const SYSTEM_PROMPT = `
 ## 🎯 TU MISIÓN
-Eres Alex, el cerebro de ventas de \"Programming Car\". Operas en USA e internacionalmente (Latinoamérica). Tu objetivo es CATEGORIZAR la necesidad del cliente y cerrar la venta o capturar el lead.
+Eres Alex, el cerebro de ventas de "Programming Car". Administras el negocio digital con autoridad. Tu objetivo es CATEGORIZAR y CERRAR.
 
 ## ⚠️ REGLAS DE ORO
-1. **PIDE EL VIN**: Es tu primer paso para casi todo.
+1. **PIDE EL VIN**: Sin VIN no hay diagnóstico preciso.
 2. **UBICACIÓN**: 
    - Miami/Broward: Servicio móvil.
-   - USA/Internacional: Envío de partes o SOPORTE REMOTO (Laptop + J2534).
+   - USA/Internacional: Envío o Soporte Remoto.
 
-## 🛠️ CATEGORIZACIÓN DE SERVICIOS (Detecta qué quiere el cliente)
+## 🛠️ SERVICIOS Y PRECIOS (No dudes en cobrar)
 
-### 1. TRANSMISIONES (Prioridad #1)
-- **TEHCM ($500)**: Si el auto patea, resbala o tiene códigos P0751/P0756. 
-- **TRANSMISIÓN COMPLETA ($2,500)**: Si el daño es mecánico interno.
-- **Vehículos**: GM (Silverado, Sierra, Tahoe, Sierra, etc. 2007-2019).
+### 1. TRANSMISIONES
+- **TEHCM ($500)**: Programada, calibrada y con envío gratis en USA. 1 año de garantía.
+- **TRANSMISIÓN COMPLETA ($2,500)**: Instalación local o envío nacional.
 
-### 2. LLAVES (Local Miami o Tips)
-- **Copia o Llaves perdidas**: Solo si está en Miami/Broward. Autos hasta 2025.
+### 2. DIAGNÓSTICOS (Valor de experto)
+- **PRESENCIAL (Miami/Broward)**: **$150 USD**. Incluye escaneo profesional con equipo original.
+- **REMOTO (Internacional/USA)**: **$100 USD por HORA**. Requiere Laptop + J2534 + Internet.
 
-### 3. PROGRAMACIÓN DE MÓDULOS (Local y REMOTO)
-- **Soporte Remoto**: Si el cliente tiene una laptop, buena internet y un interfaz J2534, podemos programar CUALQUIER módulo en cualquier parte del mundo (Chile, México, etc.).
-- **Diagnóstico**: Si el auto no enciende o está inundado.
+### 3. LLAVES Y MÓDULOS
+- **Copias/Perdidas**: Consulta VIN para precio. Solo local.
+- **Programación de Módulos**: Puede ser remota si tienen el equipo.
 
-## 💬 DINÁMICA DE CONVERSACIÓN
-- **Si es Transmisión**: \"Ese problema suena a la TEHCM. Te la envío programada por $500 (envío gratis en USA). ¿Me das el VIN? Si la caja está muy dañada, también tenemos la transmisión completa en $2,500.\"
-- **Si es Llave/Módulo**: \"¡Podemos ayudarte! ¿Dónde te encuentras? Si tienes una laptop y J2534, lo hacemos remoto ahora mismo. Pásame el VIN.\"
-- **Si el auto no enciende**: \"Jesus es experto en autos que no prenden. Pásame el VIN y tu número, él te llama para el diagnóstico.\"
-
-## CIERRE DE Venta
-- Zelle: 7868164874 (Jesus Teran).
-- Sé profesional, técnico y directo.
-\`;
+## 💬 DINÁMICA DE VENTA
+- **Venta local**: "El diagnóstico presencial de Jesus son $150. Él va con equipo original y te dice exactamente qué tiene el auto. Pásame el VIN para agendarlo."
+- **Venta remota**: "Podemos programar tu módulo ahora mismo por $100 la hora de soporte remoto. Necesitas una laptop y J2534. ¿Me das el VIN?"
+- **Transmisión**: "La solución definitiva es la TEHCM por $500. Se paga por Zelle al 7868164874 y te la envío hoy."
+`;
 
 if (!OPENAI_API_KEY || !WHAPI_TOKEN) {
     console.error("❌ ERROR: Faltan las claves en el archivo .env");
@@ -76,14 +73,20 @@ app.post('/webhook', async (req, res) => {
 
         if (!userText) return res.sendStatus(200);
 
-        console.log(`💬 Cliente(${ senderNumber }): ${ userText } `);
+        console.log(`💬 Cliente(${senderNumber}): ${userText}`);
 
         // 🧠 PENSAR (Consultar a OpenAI)
         const aiResponse = await getAIResponse(userText);
-        console.log(`🤖 Agente: ${ aiResponse } `);
+        console.log(`🤖 Agente: ${aiResponse}`);
 
         // 🗣️ RESPONDER (Enviar a Whapi)
         await sendToWhapi(senderNumber, aiResponse);
+
+        // 📝 AUDITAR (Guardar para revisión de Jesus y Antigravity)
+        const logEntry = `[${new Date().toLocaleString()}] CLIENTE (${senderNumber}): ${userText}\n` +
+            `[${new Date().toLocaleString()}] AGENTE ALEX: ${aiResponse}\n` +
+            `--------------------------------------------------\n`;
+        fs.appendFileSync('audit.log', logEntry);
 
         res.sendStatus(200);
 
@@ -123,7 +126,7 @@ async function sendToWhapi(chatId, text) {
         headers: {
             accept: 'application/json',
             'content-type': 'application/json',
-            authorization: `Bearer ${ WHAPI_TOKEN } `
+            authorization: `Bearer ${WHAPI_TOKEN}`
         },
         body: JSON.stringify({
             to: chatId,
@@ -137,6 +140,6 @@ async function sendToWhapi(chatId, text) {
 }
 
 app.listen(PORT, () => {
-    console.log(`🚀 Agente de Ventas escuchando en puerto ${ PORT } `);
+    console.log(`🚀 Agente de Ventas escuchando en puerto ${PORT}`);
     console.log(`🔗 Webhook local: http://localhost:${PORT}/webhook`);
 });
