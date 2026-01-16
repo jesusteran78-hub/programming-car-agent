@@ -74,13 +74,15 @@ app.post('/webhook', async (req, res) => {
 
         const senderNumber = incomingMsg.chat_id; // ID del chat (ej: 1786...@s.whatsapp.net)
         const userText = incomingMsg.text?.body || "";
+        const userImage = incomingMsg.image?.link || null; // Link a la imagen de Whapi
 
-        if (!userText) return res.sendStatus(200);
+        if (!userText && !userImage) return res.sendStatus(200);
 
-        console.log(`💬 Cliente(${senderNumber}): ${userText}`);
+        console.log(`💬 Cliente(${senderNumber}): ${userText || '[IMAGEN RECIBIDA]'}`);
 
         // 🧠 PENSAR (Consultar a OpenAI)
-        const aiResponse = await getAIResponse(userText, senderNumber);
+        // Pasamos tanto texto como imagen a la función
+        const aiResponse = await getAIResponse(userText, senderNumber, userImage);
         console.log(`🤖 Agente: ${aiResponse}`);
 
         // 🗣️ RESPONDER (Enviar a Whapi)
@@ -105,7 +107,7 @@ app.post('/webhook', async (req, res) => {
 const { createClient } = require('@supabase/supabase-js');
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
-async function getAIResponse(userMessage, senderNumber) {
+async function getAIResponse(userMessage, senderNumber, userImage = null) {
     try {
         // 1. Identificar al CLiente (Lead)
         let leadId;
@@ -135,7 +137,7 @@ async function getAIResponse(userMessage, senderNumber) {
         await supabase.from('conversations').insert({
             lead_id: leadId,
             role: 'user',
-            content: userMessage
+            content: userMessage || `[ENVIÓ UNA FOTO: ${userImage || 'Sin Link'}]`
         });
 
         // 3. Recuperar Historial Reciente (Últimos 10 mensajes para contexto)
@@ -150,10 +152,31 @@ async function getAIResponse(userMessage, senderNumber) {
         const dbHistory = historyData ? historyData.reverse() : [];
 
         // Construimos el array para OpenAI (System Prompt + Historia)
-        const messagesForAI = [
+        let messagesForAI = [
             { role: "system", content: SYSTEM_PROMPT },
             ...dbHistory.map(msg => ({ role: msg.role, content: msg.content }))
         ];
+
+        // Añadimos el mensaje actual
+        // SI HAY IMAGEN: Usamos el formato multimodal de GPT-4o
+        if (userImage) {
+            messagesForAI.push({
+                role: "user",
+                content: [
+                    { type: "text", text: userMessage || "Aquí está la foto de mi VIN/Auto. Analízala." },
+                    { type: "image_url", image_url: { url: userImage } }
+                ]
+            });
+        } else {
+            // SOLO TEXTO
+            messagesForAI.push({ role: "user", content: userMessage });
+        }
+
+        // NOTA: Como ya añadimos el mensaje actual al array 'messagesForAI', 
+        // no necesitamos insertarlo en la BBDD 'conversations' ANTES de llamar a OpenAI si queremos ser estrictos con el orden,
+        // PERO el código original insertaba en BBDD aparte.
+        // MANTENDREMOS la lógica original de insertar en BBDD, pero ojo:
+        // Si hay imagen, guardar solo el texto o un indicador de [IMAGEN] en la base de datos de texto plano.
 
         // 4. Enviar a OpenAI
         const completion = await openai.chat.completions.create({
