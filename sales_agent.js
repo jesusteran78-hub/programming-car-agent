@@ -105,15 +105,15 @@ async function getAIResponse(userMessage, senderNumber) {
         // 1. Identificar al CLiente (Lead)
         let leadId;
 
-        // Buscar si ya existe
-        let { data: lead, error } = await supabase
+        // Buscar si ya existe (Usamos limit(1) por si hay duplicados en la tabla antigua)
+        let { data: leadsFound, error } = await supabase
             .from('leads')
             .select('id, name')
             .eq('phone', senderNumber)
-            .single();
+            .limit(1);
 
-        if (lead) {
-            leadId = lead.id;
+        if (leadsFound && leadsFound.length > 0) {
+            leadId = leadsFound[0].id; // Usamos el primero que encontremos
         } else {
             // Si no existe, crearlo
             const { data: newLead, error: createError } = await supabase
