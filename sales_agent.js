@@ -76,7 +76,7 @@ app.post('/webhook', async (req, res) => {
         console.log(`💬 Cliente(${senderNumber}): ${userText}`);
 
         // 🧠 PENSAR (Consultar a OpenAI)
-        const aiResponse = await getAIResponse(userText);
+        const aiResponse = await getAIResponse(userText, senderNumber);
         console.log(`🤖 Agente: ${aiResponse}`);
 
         // 🗣️ RESPONDER (Enviar a Whapi)
@@ -97,20 +97,46 @@ app.post('/webhook', async (req, res) => {
 });
 
 // Función para hablar con GPT-4o
-async function getAIResponse(userMessage) {
+// Memoria temporal (se borra si reinicias el servidor, pero perfecto para chats activos)
+const conversations = {};
+
+// Función para hablar con GPT-4o con MEMORIA
+async function getAIResponse(userMessage, senderNumber) {
     try {
+        // 1. Recuperar historia o iniciarla
+        if (!conversations[senderNumber]) {
+            conversations[senderNumber] = [
+                { role: "system", content: SYSTEM_PROMPT }
+            ];
+        }
+
+        const history = conversations[senderNumber];
+
+        // 2. Agregar mensaje del usuario
+        history.push({ role: "user", content: userMessage });
+
+        // 3. Limitar memoria (últimos 20 mensajes para ahorrar tokens y no confundirlo)
+        // Mantenemos siempre el System Prompt (índice 0)
+        if (history.length > 21) {
+            history.splice(1, 1); // Borrar el mensaje más antiguo después del System Prompt
+        }
+
+        // 4. Enviar TODO el historial a OpenAI
         const completion = await openai.chat.completions.create({
-            messages: [
-                { role: "system", content: SYSTEM_PROMPT },
-                { role: "user", content: userMessage }
-            ],
+            messages: history,
             model: "gpt-4o",
         });
 
-        return completion.choices[0].message.content;
+        const reply = completion.choices[0].message.content;
+
+        // 5. Guardar respuesta del bot en la historia
+        history.push({ role: "assistant", content: reply });
+
+        return reply;
+
     } catch (e) {
         console.error("Error OpenAI:", e);
-        return "Disculpa, estoy revisando el inventario. Te escribo en un momento.";
+        return "Disculpa, estoy consultando la base de datos técnica. Dame un momento.";
     }
 }
 
