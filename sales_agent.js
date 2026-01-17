@@ -418,9 +418,15 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
 
     } catch (e) {
         console.error("Error Critical (Supabase/OpenAI):", e);
-        if (e.response) {
-            console.error("OpenAI Response Data:", JSON.stringify(e.response.data));
-        }
+        const errorDetail = e.response ? JSON.stringify(e.response.data) : e.message;
+
+        // LOG ERROR TO DB SO WE CAN SEE IT
+        await supabase.from('conversations').insert({
+            lead_id: leadId,
+            role: 'system',
+            content: `❌ SYSTEM ERROR: ${errorDetail}`
+        });
+
         return "Dame un segundo, estoy actualizando mi base de datos...";
     }
 }
