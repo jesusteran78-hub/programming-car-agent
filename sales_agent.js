@@ -287,6 +287,16 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
             steps++;
 
             // Llamada a OpenAI
+            // DEBUG: Log last message payload to DB to see what AI gets
+            const lastMsg = messagesForAI[messagesForAI.length - 1];
+            if (lastMsg.role === 'user' && Array.isArray(lastMsg.content)) {
+                await supabase.from('conversations').insert({
+                    lead_id: leadId,
+                    role: 'system',
+                    content: `🔍 DEBUG PAYLOAD: ${JSON.stringify(lastMsg.content)}`
+                });
+            }
+
             const completion = await openai.chat.completions.create({
                 messages: messagesForAI,
                 model: "gpt-4o",
