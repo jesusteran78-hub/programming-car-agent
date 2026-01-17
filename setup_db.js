@@ -1,4 +1,3 @@
-
 const { createClient } = require('@supabase/supabase-js');
 
 // 1. Configuración (Hardcoded para setup único con la llave ADMIN)
@@ -8,10 +7,10 @@ const SUPABASE_KEY = 'sb_secret_I-WDDGh2jIYgkHwk0naeHw_S-RM1GZp'; // ADMIN SECRE
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 async function setupDatabase() {
-    console.log('🚧 Iniciando construcción de Base de Datos...');
+  console.log('🚧 Iniciando construcción de Base de Datos...');
 
-    // SQL para crear tablas
-    const sql = `
+  // SQL para crear tablas
+  const sql = `
     -- Tabla de Leads (Clientes)
     CREATE TABLE IF NOT EXISTS leads (
       id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
@@ -39,26 +38,26 @@ async function setupDatabase() {
     -- Por ahora dejamos el acceso restringido a server-side (Service Role).
   `;
 
-    // Supabase no tiene un método directo "query" en la librería JS cliente para DDL (Create Table).
-    // TRUCO: Usamos la función RPC si existiera, o usamos el dashboard. 
-    // PERO, como tenemos la SERVICE ROLE KEY, podemos usar la REST API para SQL? No directamente.
-    // MEJOR ENFOQUE: Usaremos el "SQL Editor" de Supabase via código? No se puede fácilmente sin una función rpc.
+  // Supabase no tiene un método directo "query" en la librería JS cliente para DDL (Create Table).
+  // TRUCO: Usamos la función RPC si existiera, o usamos el dashboard.
+  // PERO, como tenemos la SERVICE ROLE KEY, podemos usar la REST API para SQL? No directamente.
+  // MEJOR ENFOQUE: Usaremos el "SQL Editor" de Supabase via código? No se puede fácilmente sin una función rpc.
 
-    // CORRECCIÓN: La librería JS cliente NO permite correr `CREATE TABLE` directamente.
-    // Tengo que pedirle al usuario que copie y pegue el SQL en el Dashboard,
-    // O usar la "Management API" si estuviera disponible (que es beta).
+  // CORRECCIÓN: La librería JS cliente NO permite correr `CREATE TABLE` directamente.
+  // Tengo que pedirle al usuario que copie y pegue el SQL en el Dashboard,
+  // O usar la "Management API" si estuviera disponible (que es beta).
 
-    // SIN EMBARGO, voy a intentar usar el endpoint 'rpc' si existe alguna función predefinida, 
-    // pero lo más robusto "Agentic" es crear una función para ejecutar SQL si no existe.
-    // ... Espera, esto se complica. 
+  // SIN EMBARGO, voy a intentar usar el endpoint 'rpc' si existe alguna función predefinida,
+  // pero lo más robusto "Agentic" es crear una función para ejecutar SQL si no existe.
+  // ... Espera, esto se complica.
 
-    // MEJOR ESTRATEGIA: 
-    // Voy a crear un archivo .sql y pedirle al usuario que lo pegue en el "SQL Editor" de Supabase.
-    // Es la forma 100% segura de que funcione sin inventar hacks.
+  // MEJOR ESTRATEGIA:
+  // Voy a crear un archivo .sql y pedirle al usuario que lo pegue en el "SQL Editor" de Supabase.
+  // Es la forma 100% segura de que funcione sin inventar hacks.
 
-    console.log('❌ ERROR INTENCIONAL: La librería JS no permite crear tablas por seguridad.');
-    console.log('✅ SOLUCIÓN: He generado un archivo "schema.sql".');
-    console.log('👉 Ve al SQL Editor en Supabase y pega el contenido.');
+  console.log('❌ ERROR INTENCIONAL: La librería JS no permite crear tablas por seguridad.');
+  console.log('✅ SOLUCIÓN: He generado un archivo "schema.sql".');
+  console.log('👉 Ve al SQL Editor en Supabase y pega el contenido.');
 }
 
 setupDatabase();

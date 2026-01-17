@@ -1,5 +1,4 @@
-
-import { createClient } from '@supabase/supabase-js'
+import { createClient } from '@supabase/supabase-js';
 
 // En una app real de Vite, usaríamos import.meta.env.VITE_SUPABASE_URL
 // Para este prototipo rápido, usamos las keys directas (Ojo: La Key es publica/anon aquí, no la service_role)
@@ -9,7 +8,7 @@ import { createClient } from '@supabase/supabase-js'
 // Se usa la Anon Key + RLS policies.
 // Pero el usuario quiere "Total Control" ya.
 
-const supabaseUrl = 'https://fqzhajwnnkrkuktqquuj.supabase.co'
-const supabaseKey = 'sb_secret_I-WDDGh2jIYgkHwk0naeHw_S-RM1GZp'
+const supabaseUrl = 'https://fqzhajwnnkrkuktqquuj.supabase.co';
+const supabaseKey = 'sb_secret_I-WDDGh2jIYgkHwk0naeHw_S-RM1GZp';
 
-export const supabase = createClient(supabaseUrl, supabaseKey)
+export const supabase = createClient(supabaseUrl, supabaseKey);

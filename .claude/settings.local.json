@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run lint)",
+      "Bash(node -e:*)",
+      "Bash(npm run build:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nrefactor: Add ESLint/Prettier, structured logging, and code quality fixes\n\n- Add ESLint + Prettier configuration with scripts \\(lint, format\\)\n- Create logger.js for structured logging with levels \\(DEBUG/INFO/WARN/ERROR\\)\n- Replace console.log with logger in production files\n- Fix all 104 ESLint errors \\(regex escapes, var->let, undefined vars\\)\n- Update CLAUDE.md with complete project documentation\n- Format entire codebase with Prettier\n- Exclude debug/test scripts from lint rules\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}

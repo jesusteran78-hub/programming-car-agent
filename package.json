@@ -1,8 +1,13 @@
 {
-  "name": "orbital-hubble",
+  "name": "programming-car-os",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "sales_agent.js",
   "scripts": {
+    "start": "node sales_agent.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -22,5 +27,9 @@
     "fast-csv": "^5.0.5",
     "google-libphonenumber": "^3.2.43",
     "openai": "^6.16.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5"
   }
 }
