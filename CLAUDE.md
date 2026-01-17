@@ -16,7 +16,6 @@ Core Agent "Alex" handles sales via WhatsApp (Whapi.cloud), utilizing GPT-4o for
 
 ## Commands
 - `node sales_agent.js` — Start the Sales Agent
-- `node test_fix.js` — Run internal logic verification
 
 ## Code Style
 - Use `require` (CommonJS) for backend compatibility.
@@ -25,6 +24,20 @@ Core Agent "Alex" handles sales via WhatsApp (Whapi.cloud), utilizing GPT-4o for
 - logs: `console.log` for info, `fs.appendFileSync('audit.log')` for critical interaction records.
 
 ---
+
+## How I Want You to Work
+### Before Coding
+- **Plan**: Analyze the task and draft an approach.
+- **Ask**: Clarifying questions if unsure.
+
+### While Coding
+- **No Placeholders**: Write complete, working code.
+- **Simplicity**: Readable code over clever one-liners.
+- **One Change at a Time**: Verify as you go.
+
+### After Coding
+- **Verify**: Code compiles and logic holds.
+- **Lint/Format**: Ensure clean syntax.
 
 ## Verification Loop
 1. Code compiles (node check).
