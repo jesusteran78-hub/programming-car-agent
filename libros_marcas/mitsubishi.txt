@@ -1,0 +1,1937 @@
+@o @ <
+
+rs
+
+AUTO LOCK SERVICE, INC’
+
+2021
+
+AutoSmart ™
+by Michael Hyde
+
+MITSUBISHI
+
+DISCLAIMER: E
+A wide variety of key-programmers have been added to this book. Most key programmer companies are
+not based in the U.S, Some of their application charts have many mistakes. In some cases, you:will need
+
+| to check with your key programmer supplier to see if the vehicle you are working on is supported by their
+| tool. There is always a risk in damaging the vehicle electronics when you-connect to the vehicle through
+
+the OBD port if you are not using an OEM diagnostic tool. You as the locksmith take on this risk every
+time you perform work on a vehicle.
+
+If you have any doubt about what part to use, make sure you check with the dealer and have them run
+the VIN to get you the right part number, Remember, ultimately it is your responsibility to obtain the
+correct part. Part numbers and FGC information has been researched and verified as best as possible.
+Butno system is perfect or without errors. Car manufacturers part numbers and applications guides
+contain mistakes of their own. Therefore, we cannot guarantee or warranty that the part we show for a
+
+| particular vehicle is the absolute right one.
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+MITSUBISHI - 1
+2021
+
+- AutoSmart Asian Book
+MITSUBISHI Table of Contents _
+
+MAKE
+
+MODEL
+
+TYPE
+
+ |SECTION ©
+
+pe5uaoeoeee
+
+|+YEARS PAGE ©
+| 3000GT_ 4991-99 _—| Key | MITS-S1
+Cordia 1982-90 Key — _| MITS-S2
+i ee 2000-04 Key MITS-S8 a2
+Diamante — a= ; : =
+1992-99 Key MITS-S1 4
+Eclipse | 2007-12 Key _ /MITS-SQ__ 44
+| 2007 Models - Some 2007 Eclipse models will use the 2007 keyway with 30010-32009 codes
+Eclipse and some will use the 2006 keyway with the codes F001-1571 series. YOU willneedto == |
+= determine which keyway is used to determine the proper key. a
+2006 Key MITS-S11__ = 16 -
+Eclipse | 2000-05 Key _ MITS-S12 Dee
+- 1990-99 _| Key MITS-S1 4
+ee | 2018-21 Proximity | MITS-S14 a
+Eclipse Cross :
+_ | 2018-21 Key MITS-S9 id= =
+_| Endeavor 2007-11 Key |MITS-SQ. 214
+| 2007 Models - Some 2007 Endeavor models will use the 2007 keyway with 30010-32009. codes
+Endeavor | and some will use the 2006 keyway with the codes FO01-1571 series. YOU willneedto
+MITSUBISHI determine which keyway is used to determine the proper key. : - S
+Endeavor 2006 Key | MITS-S11 18
+SplitYearsfor (2004-05 | Key (4D61) |MITS-S12.__ 27
+Endeavor | Transponder -}————— —— =
+= Chip ~=|2004-05 | Key (PH46)__| MITS-S13 22
+Expo _ ‘{is92-09° | Key MiTS-S1_-—-
+Different {1985-96 _| Key (wiTt)_| MITS-S1
+keyways :
+Fuso == depending = 1985- 96 _| Key (0C3) _ MITS-S2 - :
+onmodel. |1985-96 | Key (Fu2)__| MITS-S7 A
+Galant 2007-12 : __[ Key | MITS-S9 ae
+: 2007 Models - Some 2007 Galant models will use the 2007 keyway with 30010 -32009 codes
+Galant : and some will use the 2006 keyway with the codes FO01-1571 series. YOU willneedto —
+: determine which keyway is used to determine the proper key. =
+2006 = ==|Key — | MISSn- 18
+2004-05 —_| Key MITS-S13 2.
+‘Galant {2000-03 |Key ——s ||MITS-Si2_|_—20
+1999 _—| Key" /MITS-S3__ =
+1989-98 |Key | MITS-S1
+
+2 - MITSUBISHI
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeeoeeeeeeeee ©
+@
+
+¢ C
+
+¢
+
+©9eoo 0:06 04
+
+¢
+
+¢
+
+2021 - AutoSmart Asian Book
+
+MITSUBISHI Table of Contents
+
+©'0,0¢6 <¢€
+
+MAKE MODEL YEARS TYPE SECTION PAGE
+Galant -|1985-88 Key MITS-S2 6
+I-Miev 2011-17 Key MITS-S9 14
+
+2008-17 Proximity MITS-S14 24
+Lancer 2008-16 Key MITS-S10 16
+2002-06 Key MITS-S6 10
+2008-15 Proximity MITS-S14 24
+Lancer EVO
+2003-07 Key MITS-S17 30
+2014-21 Proximity MITS-S14 24
+: 2014-21 © Key MITS-S10 16
+Mirage
+1993-02 © Key MITS-S6 10
+1989-92 Key MITS-S1 4
+2001-06 Key MITS-S8 12
+| Montero 1992-00 Key MITS-S1
+: 1983-91 Key MITS-S2
+: : a 2000-04 Key MITS-S8 12
+: Montero Sport
+MITSUBISHI 1997-99 Key MITS-S1 4
+_| 2007-18 Proximity MITS-S15 26
+= 2007-18 Key MITS-S10 16
+Outlander
+2004-06 Key MITS-S16 28
+: 2003 Key MITS-S6 10
+Outlander PHEV | 2018-21 Proximity MITS-S14 — 24
+= ; 2011-21 Proximity | MITS-S15 26
+Outlander Sport
+2011-21 Key | MITS-S10 16
+Pick Up. 1983-96 Key MITS-S2
+== | 1990-91 Key | MITS-S4
+Precis
+ae 1987-89 Key MITS-S5 2)
+Raider 2006-09 Key MITS-S18 32
+Sigma 1982-90 Key MITS-S2 6
+Starion 1982-90 Key MITS-S2 6
+| Tredia | 1982-90 Key MITS-S2 6
+Van — 1987-90 Key MITS-S2 6
+Gio, 2021 AutoSmart™ by Michael Hyde
+
+MITSUBISHI - 3
+MITS-S4 SECTION —
+
+1991-993000GT | 1992-99 Diamante 1990-99 Eclipse 1992-99 Expo”
+
+1997-99
+Montero Sport
+
+1985-96 FUSO 1989-98 Galant 1989-92 Mirage 1992-00 Montero
+
+| caro# | ime | macs | Startcut | cut to Cut | Air Bags | Ign Retainer
+
+| STYLE
+
+E 5000-7679 | DbiSided Active
+NATIONAL: KEYLINE: co: JET: JMA: STRATTEC: DEALER:
+KEYS > MIT = =| sa |= X76 MIT1 MA | es
+Determinator: JAP 1 Lishi: MIT8 AccuReader: n/a EEZ Reader: n/a Cobra: n/a :
+> 3000GT  _| > Fob Remote: MB920014 (1992-99) FCC Info: E4EG8DA|308MHz
+__ | > Diamante > Fob Remote: MR238004 (1998, others were discontinued) FCC Info: E4EG8DF E 308 MHz
+“ea >Galant > Fob Remote: MBg20014 (1994- 95) FCC Info: E4EGBDA | 308 MHz
+= == > Fob Remote: MR587977 or ILCO# RKE-MITS- 3B3 (1998- -00) FCC: E4EG8D- 522M- wae 315
+oe > Fob Remote: MB920014 (1994-97) FCC Info: E4EG8DA | 308 MHz
+
+MB920014 -MR587977 _MR238004
+
+= NO TRANSPONDER Se
+
+- Code Series: E 5001-7679
+> SPACING DEPTHS
+
+: a2 5s oe 1= .325
+
+1 2 3 7 s
+oa === See) See 2=.297
+py 098 | 181 | .264 | 346 | .429 | .512 | 594 | .677 | cutto | 3=.270
+Co oe SS | a ee
+ie HPC Curtis Clipper | Pak-A-Punch| ITL | -083
+Cam: DC50 ee z
+
+==] CF88 / XF88 Carriage: TOY-50X PAK-GO4 6 |
+
+4- MITSUBISHI 5 ee ©1994, 2021 AutoSmart™ by Michael Hyde
+
+reeeCoeoeoeaeeeeeees
+
+pe5o5ue5u50e
+e020 02,0 6
+
+(
+
+¢
+
+continued - MITS-S1 SECTION.
+
+“Codes: | Passenger door lack will have a code on it.
+Decoders: | Determinator: JAP 1 Lishi: MIT 8 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTE: 1992-95 MONTERO - Mitsubishi made a big goof-up and put all the tumblers in the gas door lock. Unlock the
+z vehicle and pull gas door release, located on right side of steering column. The gas-door will then open,
+remove the lock and decode to make master key. Some models have had the tumblers removed by the dealer
+or the locksmith because of the vehicle being stolen, previously.
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock for a working key.
+Method #3 Remove passenger door cylinder and read code stamped on lock.
+Method #4 Disassemble door cylinder or trunk cylinder, and decode wafers to make master key.
+0/O0/0/0)0} 0} 0/6 [> Ignition
+-|0}0|0|0| 0} 0] 0} 0 }> Doors & Trunk / Hatch
+O}O|O |} |> Glove Box
+1/21/3/4/5|6|7/8
+a :
+
+K
+
+Looking for ILCO Look-Alike Flip Keys,
+
+RKE Remote Keyless Entry —=—HIC0
+
+& Proximity Fobs?
+
+We have them on the shelf - ready to ship.
+National Auto Lock Service, Inc
+
+1-650-875-0125 or www.Laserkey.com
+
+©1994, 2021 AutoSmart™ by Michael Hyde : MITSUBISHI - 5
+MITS-S2 SECTION
+
+1982-90 Cordia | 1985-96 Fuso 1985-88 Galant 1983-91 Montero
+
+1983-96 Pick Up | 1982-90 Sigma 1987-90 Van
+
+1982-90 Starion | 1982-90Tredia |
+
+ign Retainer
+Roll Pin
+
+macs | StartCut | CuttoCut | Air Bags
+
+3-098 =098
+
+CODES “| STW | | ms |
+
+ H01-5143 DblSided |
+
+CARD# 2
+XF80_
+
+MASTER
+
+NATIONAL: | —_KEYLINE: ICO: JET: JMA: ~ STRATTEC: DEALER:
+KEYS > Dee na | XB DC3_ =] MIT-2IP |~ aa | — —nla
+
+Determinator: MIT 2 Lishi: n/a ___| AccuReader: n/a EEZ Reader: X121/DC3 | Cobra: n/a
+
+@ No tRANsPonveR |
+
+Code Series: H 01-5143
+
+_ Bow : SPACING
+
+a ae 3 1 a ios Gg a
+= = 22 2=.256
+
+098 | 197 | .295 | .394 | .492 | .591 | | Gutte = .236
+—_—__| Cut | 4=.217 |
+098 |
+
+DEPTHS |
+
+HPC-_ Curtis Clipper Pak-A-Punch ITL
+
+Cam: DC-1
+Carriage: DC-1_
+
+Hid]ad 8 30VdS
+
+_ XF80 PAK CA 0 gr
+
+Codes: | The passenger door cylinder should havea code onit.
+
+Decoders: | Determinator: MIT2 _| Lishi: n/a | AccuReader: n/a EEZReader: DC3  —| Cobra: n/a
+
+Method #2 Use EEZ-Reader to determine door cuts for master key. Lube cylinder well.
+
+‘Method #3 Remove passenger door cylinder and read code stamped on lock. © ==
+
+Method #4 Use the Aero Lock tryout set T0-18 (XI21Keyway). = — a
+
+Method #5 Disassemble door cylinder and decode wafers to make master key, _
+
+| © |> Ignition
+> Doors
+
+Method #1 Check owners manual for code, written in by the dealer. = —— Pe z
+
+6 - MITSUBISHI : 58 ©1994, 2021 AutoSmart™ by Michael Hyde
+
+Ppeeeeeceeoeeeeoeeeeeeeees
+MITS-S3 SECTION
+
+® @ 02,60 @ <
+
+@ <«
+
+C
+
+®@®e'e 8 <«
+
+¢
+
+1999 Galant
+| stme | carpe | im# | macs | Startcut | Cuttocut | AirBags | IgnRetainer
+F 01-1571 Dbl Sided CF306 TA Z 985 083 eS | Active
+MASTER NATIONAL: KEYLINE: ILCO: JET: _JMA: STRATTEC: DEALER:
+MIT6 BMIT6-P. — X263 MIT6 MIT-18 692566 n/a
+KEYS > ae
+: Determinator: MIT 1- Lishi: MITS/MIT6 AccuReader: n/a EEZ Reader: MITS99 Cobra: n/a
+> Fob Remote: MR301714 or ILCO# RKE-MITS-2B1 - FCC Info: HYQI2ABA | 315 MHz
+ILCO# RKE-MITS-2B1
+@ No TRANSPONDER
+> Code Series: F 01-1571
+a4 Bow : -— SPACING age
+l=.
+3 1 2 3 4 5 6 7 8 = 302
+Py 985 | .902 | .820 | .737 | 655 | .572 | .491 | .407 | cutto | 3=.276
+Oo Cut: 4=.251 fre)
+m HPC Curtis Clipper | Pak-A-Punch| —ITL ed =
+4 :
+Cam: DC-5
+= —_ Carriage: DC-5A es sy
+Codes: | No codes on any locks.
+Decoders: | Determinator: MIT1 Lishi; MIT9/MIT6 _ | AccuReader: n/a EEZ Reader: MITS99 | Cobra: n/a
+NOTES: There is usually manual trunk release lever next to the driver's seat.
+- Method #1 Remove and disassemble trunk cylinder, and decode wafers to make a master key.
+
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock for a working key.
+
+Method #3 = — Remove and disassemble door cylinder, and decode wafers to make a master key.
+0/0}0|0/0/0/0}O}> Ignition
+0/0/0/}0/0;,0} 0) 0 }> Doors
+0/0) 0}0}0/0/0}0)}> Trunk / Hatch
+1}2/3|4/5/6|7/8
+
+MITSUBISHI - 7
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+MITS-S4 SECTION
+Meeedain 1990-91Precis  _ 2 eee
+
+ign Retainer
+
+CODES | ste | caro# | im | macs | Startcut | cuttocut | AirBags
+
+X 1001-2000 | DbiSided | cr2n | 517 3 | 098 | 098 No Active
+MASTER =
+NATIONAL: KEYLINE:- ILCO: JET: — %JMA: STRAT TEE: - DEALER:
+KEYS > HY5 nla xia7. =] ~~ «HY5 _‘Hy-3 n/a na
+Determinator: HYU 4 Lishi: n/a AccuReader: n/a EEZ Reader: n/a | Cobra: n/a
+
+| NO TRANSPONDER
+
+Code Series: X 1001-2000 =
+Bow ‘SPACING = =tp | See
+> =e = = jet
+o 2 a. 4 5 6 Tl Gece | 2= 264
+ffi = = 098 3=.244
+Wy 098 | 197 | 205 | 304 | 492 | 591 | 689 | | 45 oa
+m HPC Curtis Clipper Pak-A-Punch |_ ITE
+a] 3 ==
+= Cam: MZ-3 Le a!
+= CF301 Carriage: DC-2E - PAK-HY1 231 =
+Codes: | No codes on any locks. :
+Decoders: |Determinator; HYU4 | Lishi: na _-—_| AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTE- Always check the trunk lock for ease of removal. Since Hyundai's do not have codes on their
+- locks it may be easier to remove the trunk lock and decode the tumblers inthe lock,
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock. Sime :
+Method #3 Disassemble door cylinder and decode wafers to make master key, = _.
+“TIP ==—_—sif you see a number on the wafer, it is opposite of what it is supposed to be. _
+
+Ex: 4=1/ 3=2/ 2=3/1=4 ~
+
+|||] [> Ignition
+O/0/|0/O}> Doors —
+
+O} O} | @}> Trunk / Hatch
+22 ia
+
+8 - MITSUBISHI == Se ©1994, 2021 AutoSmart™ by Michael Hyde
+
+a i ee
+
+pe00ee 0
+
+peo50a0e8 e6 ©
+
+)
+
+>
+eo e@ 6 <«
+
+@e oe
+
+¢
+
+¢
+
+(
+
+®o @e0 €
+
+oeeo
+
+MITS-S5 SECTION ©
+
+STYLE
+
+1987-89 Precis
+| carpe |
+
+ITL#
+
+macs | StartCut | Cuttocut | Air Bags
+
+| Ign Retainer
+
+X 01-1000 Dbl Sided 231 3 098 ‘Active
+MASTER
+NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: DEALER:
+KEYS > HY¥2 nla X160 HY2 nla nla n/a
+Determinator: HYU 4 Lishi: n/a AccuReader: n/a £EZ Reader: n/a Cobra: n/a
+@ No TRANsPonDER
+& Code Series: X 01-1000
+Bow SPACING Tip aeeih
+> : = =
+(@) 1 Zz $ : 4 : 5 6 F Cutto Cut: 2= .200
+mi 098 3 =.236
+pay 098 | 197 | .295 | 394 | 492 | 591 | 689 | | 4=.213
+o S
+a HPC Curtis Clipper Pak-A-Punch ITL
+ar 72 ae
+Cam: MZ-3 =F
+a : 2
+_ CF301 - Carriage: DC-2E PAK-HY1 231
+Codes: | No codes on any locks,
+Decoders: | Determinator: HYU4 _| Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTE- Always check the trunk lock for ease of removal. Since Hyundai's & Kia's do not have codes
+on their locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 —_ Use a Lock Decoder/Reader tool to decode the door lock. —_
+- Method #3 Use Try-Out Keys. Use Aero Lock tryout set TO-42
+Method #4 _Disassemble door cylinder and decode wafers to make master key.
+*TIP. If you seea number on the wafer, it is opposite of what it is supposed to be.
+
+Ex: 4=1/ 3=2/ 2=3/ t=4
+
+O,O/O);0;0/;0)0
+O/O0/0,0/0/0;0
+O/O/0,);0)0/0/0
+15 2-3-4 1516) 7
+
+> Ignition
+> Doors —
+> Trunk / Hatch
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+MITSUBISHI - 9
+WISE SEONONET ce Seer Pee es 7,
+
+2002-06 Lancer 1993-02 Mirage _ 2003 Outlander
+
+| stve | carp | ima | macs | Startcut | cuttocut | AirBags | Ign Retainer
+
+/- 30010-32009 Dbl Sided | CX89 _Active
+
+MASTER : ~ — : was —
+: NATIONAL: __ KEYLINE: ILCO:= = JET: JMA: STRATTEC: — ~ DEALER:
+
+KEYS > MIT3. nla X224 MIT3 MIT-14D | 692071 nla
+
+ Determinator: JAP 2 Lishi: MIT 11 ‘AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+|» Lancer —_| > Fob Remote: MR587983 or ILCO# RKE-MITS-2B2 - FCC Info: OUCG8D-525M-A | 314 MHz
+
+Hs ” > Mirage > Fob Remote: (Installed at port of entry) FCC Info: GOH-MM6-101890 | 315 MHz
+
+> Outlander _ [> Fob Remote: MR587983 or ILCO# RKE-MITS-2B2 - FCC Info: OUCG8D-525M-A | 314 MHz
+
+ARM DISARM
+
+RKE-MITS-2B2 «=F: GOH-MM6-101890
+
+| NO TRANSPONDER Se. ao 2532
+
+Code Series: 30010-32009
+
+2 : SPACING DEPTHS
+; == = 1=.310
+a= 2 = fF 2|2 :
+
++ SS SS Se
+peg 098 | isi | .264 | .346 | .429 | .512 | 594 | .677 | cutto | 3=.279
+> 222e2e : : = | Cut: | 4=.263
+BL HPC Curtis Clipper | Pak-A-Punch,; [TL | 055_| 5= -249
+
+5 -|— — Cam: GM-5 2 : = ===
+
+<= = 4 - =: =
+
+=e Carriage: GM-5B eae = ae.
+
+Codes: ‘The passenger door-cylinder should havea codeonit,
+
+Decoders: | Determinator: JAP 2 Lishi: MITT _|Aecufeader: nla = = _-| EEZ Reader: nla Cobra: n/a
+_ Method #1 Use a Lock Decoder/Reader tool to decode the door lock. : —
+
+Method #2 ~ Remove passenger door cylinder: and read code stamped on lock if the car has one, otherwise —_ lock.
+
+Method #3 Disassemble door cylinder or trunk cylinder, and: decode wafers to = master key.
+O}oO}o|o}o}o}oO}oO}> Ignition
+0/0}0/0)0} 0/0} }> Doors
+O0|0|0/0/0/O}O|O}> Trunk / Hatch
+1]/2/3/4|/5};6}/7/8
+
+10 - MITSUBISHI =2 : ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeoe5eeeeeeeee
+
+»>@@6@®@
+
+»>@e6e 6
+© 6 080606 06:60:80 080, 8 @ ¢
+
+¢
+
+0';e,e@ @ ¢
+
+MITS-S7 SECTION
+
+MASTER
+KEYS >
+
+STYLE
+
+1985-96 Fuso
+
+| carps | im# | macs | startcut | cuttocut | AirBags | Ign Retainer
+
+8100-9113 | Dbl Sided 2 223 Active
+NATIONAL: KEYLINE: JET: 4MA: STRATTEC: DEALER:
+FU2 n/a FU2 n/a MIT-11D n/a n/a
+Determinator: n/a Lishi: n/a AccuReader:_n/a EEZ Reader: n/a Cobra: n/a
+
+e NO TRANSPONDER
+
+Code Series: 8100-9113
+Pm = «Bow SPACING Tip DEPTHS
+> x 2 3 4 5 4-6 7 8 ees
+ra 2 = .283
+iy) -907 | .809 | .711 | .613 | .515 | .417 | .319 | .221 | cutto | 3=.251
+& : Cut:
+o HPC Curtis Clipper | Pak-A-Punch ITL 098
+Uv Cam: HD-9
+4 ne __ Carriage: FS-1A he le
+NOTES: FRAMON - Use FD84 spacing clip and start first cut at .223”
+Codes: | The passenger door cylinder may or may not have a code on it.
+Decoders: | Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Remove passenger door cylinder and read code stamped on lock.
+Method #3 Disassemble door cylinder or trunk cylinder, and decode wafers to make master key.
+Method #4 Impression locks.
+©1994, 2021 AutoSmart™ by Michael Hyde MITSUBISHI - 11
+‘MITS.$8 SECTION :
+
+oe
+
+ee
+_ MASTER ——>
+
+ao woke en | ig yer | IMA: ~ | smparrec: | DEALER: =e =
+= 5907793 a] MITI2- PEA |) MIT12-PT MITI2-PHT | TP26MITI2P 5907793 -MR587315 =
+
+KEYS =>
+
+Deteminatoc APY =  Lishi: MITS [cerca a EEZ Reader: nla ~— T cobra: n/a | =
+"| > Fob Remote: MR587979 or ILCO# AKE-MITS-481 (2000-04) FCC: oucasD- “S22M-A | 315 wz |
+_|> Fob Remote: MR58798i (2004) FCC Info: OUCG8D-525M- nia MHz
+
+> > Fob Remote: MR587977 or ILCO# RKE- MITS 383 - - FCC Info:  OUCGEL 522M- A316. Miz
+
+eee
+
+: |» Diamante
+
+> Fob Remote: MR587978 or ILCO# RKE- MITS-2B3 (2000- -03, 2 Btn) FCC: ‘oucGsD- 522M- Al 315
+
+Montero = = > Fob Remote: “MR87877 or LCF RKE-MITS-3B3 3 (2000-03, 3 Btn) Fcc: OUCG8D- 522M-A ust 315
+SPORT
+
+oy
+
+» @
+
+TRUNK
+
+2 ies Series: E 5001-7679
+a — _ SPACING
+
+Aes 4 5 46 Fe
+a1 | 264 | 346 | .429 | 512 |
+
+Curtis Clipper
+
+Carriage: TOY-50X |. = = oe
+
+Hidsad 8 utah
+
+(OPIN CODE
+REQUIRED | |
+
+E (v Horwre 2E==
+
+G
+
+Z _Note: *Many key emprenee can bypass the P PIN. Check t to see if your ‘key programmer supports your =e
+ce MITSU BISHI 3 ==
+
+AUTEL IM608
+
+q w2aNodeNvaL
+
+a
+
+©1994, 2021 AutoSmart™ by Michael Hyde =
+
+a
+oe © 02,0 @ ¢
+
+¢
+
+eoeeoe0en
+
+C
+
+eeoen
+
+Chip Information & Notes"
+
+continued - MITS-S8 SECTION
+
+Transponder: Standard Equipment Chip: 4D61 (N)
+
+Reusable: Yes
+
+a > Mike's Tip: Key Programmer Required. Test key is MIT8.
+
+Pp === z = == =s
+
+>2, Cloner Machine Information :
+
+” — = : : =
+
+o (DIAG BOX) (CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LD. \( scorPio \)( wo |
+
+S Kena CN900 Rw4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE | | TANGO MINI TOOL
+
+= 7] Yes | Yes — = Yes _ M1 Yes? Yes M1 Yes? | Yes? Yes
+Blue Chip& | | —_CN2/5 EH3&“K" || TPX2& GK100/TK100 | | CNS or TPX2 | | CN5 or TPX2 | | VVDIChip
+‘Mits Shell | | & Mits Shell Blade || MitsShell | | &MitsBlade | | &MitsShell | | &Mits Shell | | & Mits Shell
+
+_ “4 - Requires Internet Access to complete cloning. *2 - Requires Philips Crypto Update. “3 - Requires Texas Crypto update.
+
+Codes: The passenger door cylinder may or may not have a code on it.
+
+‘AccuReader: n/a EEZ Reader: n/a
+
+Decoders: | Determinator: JAP 1 Lishi: MIT3 Cobra: n/a
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock for a working key.
+
+~ Method #3 = Remove passenger door cylinder and read code stamped on lock.
+
+Method #4
+
+Disassemble door cylinder or trunk cylinder, and decode wafers to make master key.
+
+6/O/}0/0/0/0 }> Ignition
+olojolojojo
+
+| 0| 0] 0 |> Glove Box
+|3l4alslel7is
+
+> Doors & Trunk / Hatch
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+MITSUBISHI - 13 —
+
+MITS-S9 SECTION
+
+- 2007-12 Eclipse 2018-21 Eclipse Cross
+
+2007-12 Galant 2011-17 I-Miev
+
+2007-11 Endeavor
+
+| srme | caro# | ms | macs | Startcut | Cuttocut | AirBags | ignRetainer §
+
+30010-32009 | DblSided | CX89_ Active
+NATIONAL: KEYLINE: co; set: | Ma: | STRATTEC: | _ DEALER:
+MASTER MIT3-CAN n/a MITI7A-PT | MITI7-PHT | TPI2-MIT-8D.P2 | n/a _ See below
+ MeYs Oo Determinator: JAP 2 Lishi: MITi1 | AccuReader: n/a EEZ Reader: n/a —| Cobra: n/a :
+> Mike's Tip: Transponder system. Key Programmer is required. Test key X224/MIT3. eS
+> Mike’ 's Tip: If you have trouble programming a aftermarket key (non-dealer) you will need to eek in the
+_ dealer oem factory key. This is always a risk on Mitsubishi vehicles. :
+» aR | > Remote Key: MN141545 or ILCO# RHK-MITS-4B2 - FCC Info: OUCG8D-620M- -A | 314 MHz
+> Eclipse Cross | > Remote Key: 6370C135 - FCC Info: OUCIIGEN | 314 MHz :
+vam > Endeavor —_| > Remote Key: 6370A364 or ILCO# RHK-MITS-3B1 - FCC Info: OUCG8D-620M-A | 314MHz
+: > Galant > Remote Key: MN141545 or ILCO# RHK- MITS- -4B2 - FCC Info: OUCGRD- 8 A [314 MHz _
+> I-Miev > Remote Key: 6370B519 - FCC Info: OUCG8D-625M-A-HF |315 MHz oS =
+
+ILCO# RHK-MITS-3B1
+
+Code Series: 30010-32009
+
+2 | :
+
+RY SPACING | “ip | DEPTHS ©
+: === 1= .310
+
+i o 4 5 6 ==
+
+ma Ss 2 =.295
+
+pe 098 | 181 | .264 | .346 | .429 | 512 | .594 | .677 | cutto | 3=.279 |
+
+= = == | Cur | 4=.263
+
+i HPC Curtis Clipper Pak-A-Punch Te {= 083 -| 5=.249
+Cam: GM-5 2 ==
+
+ok = =
+
+___ CX89 Carriage: GM-5B | PAK-G06 507
+
+14-MITSUBISH] — === a ©1994, 2021 AutoSmart™ by Michael Hyde
+
+Pee CCC SOE HOOHEOHOSOOCEE ES
+C
+
+@6 08,06 «
+
+¢
+
+¢
+
+oe 6006
+
+C
+
+continued - MITS-S9 SECTION
+
+Chip Information & Notes
+
+Transponder: Standard Equipment
+
+Chip: see below s
+
+Reusable: No
+
+> Mike's Tip: Key Programmer Required. Test key is MIT3.
+
+Cloner Machine Information - For All - except Eclipse Cross (PH46)
+
+ae SMART PRO
+
+[v AUTO PRO PAD |
+
+€ AUTEL IM608
+
+(DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE |) (LD. ) (SCORPIO ) ( wo)
+eis CN900 RW4+ TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+M1 Yes M1 Yes Yes? M1 Yes? 1 Yes! M1 Yes':2 M1 Yes'2 M1 Yes
+Green Chip CN3 GTI Chip & TPX4 & Gk100/TK100 | | CN3 or TPX4 | | CN3 or TPX4 | | VVDIChip
+Bary] | &Mits Shell | | &Mits Shell | | Mits Shell Mits Shell | | &Mits Blade | | &Mits Shell | | &MitsShell | | &Mits Shell
+= *4 - Requires Internet Access to complete cloning: *2-- Requires Philips owe Update.
+: = Cloner Machine e Information - “for Eclipse Cross (HiTag 3 PH52)
+Uv
+. (DIAG == (CHINA > (iicoisica) ( JMAUSA ) ( KEYLINE) (LD. ) ( Scorpio.) (. wo)
+CLONE
+5 ee CN900 _ RW4+ TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+@_No @ No @® No ® No @ No ® No @® No @ No
+A
+Programmer & Diagnostic Tools _
+“Factory Tool | ( PINCODE ) ( rconemvppRO| {x TDB1000 ¥ HOTWIRE
+REQUIRED
+J2534 &
+Supscription | | Yes*
+
+Note: *Many key programmers can bypass the PIN. Check to see if your key programmer supports your vehicle.
+
+Codes: | The passenger door cylinder should have a code on it - otherwise check the drivers door lock.
+
+Decoders: | Determinator: JAP 2 Lishi: MIT11 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Remove passenger door cylinder and read code stamped on lock if the car has one, otherwise drivers lock.
+Method #3
+
+Disassemble door cylinder or trunk cylinder, and decode wafers to make master key.
+
+|0/0|0)0/0}0| 0) 0 }> Ignition
+£O/}/O}0O)0|/0/0}0}|0}> Doors
+0/0/0}0/0] |] 0 )> Trunk / Hatch*
+£121314/5/6)7:8 :
+=== *If Equipped
+©1994, 2021 AutoSmart™ by Michael Hyde MITSUBISHI - 15
+MITS-S410 SECTION
+
+2011-21 Outlander Sport
+
+- 2008-16 Lancer 2014-21Mirage | 2007-18 Outlander
+
+| Cutto Cut |
+
+| STYLE |
+
+| cARD# | im | macs | StartCut
+
+Air Bags [igetitaner =
+
+30010-32009 Dbl Sided CX89 Active
+NATIONAL: = | — KEYLINE: ICO: JET: JMA: ~ STRATTEC: DEALER:
+MIT3-CAN n/a MITI7A-PT | MITI7-PHT | TP12-MIT-8D.P2 nla : see below ==
+_ MASTER | Determinator: JAP 2 Lishi: MIT 11 AccuReader: nia _—*| EZ Reader: n/a Cobra: n/a
+ug Mike's Tip: Transponder system. Key Programmer is required. Test key x224/MIT3 =
+> Mike’s Tip: If you have trouble programming a aftermarket key (non-dealer) you will need to program in = 22
+dealer oem factory key. This is always a risk on Mitsubishi vehicles, — i == =
+> Mike's Tip: Check the-VIN with the Dealer for correct part. ee variations possible depending ontrim. _
+> Remote Key: 63704148 (2008-14, No Trunk Button) FCC Info: OUCG8D-625M-A | 314 MHz |
+> Lancer > Remote Key: 6370A477 (2008- 14, with Trunk Button) FCC Info: oucGsD- 625M-A ‘| 314 MHz
+> Remote eee (2015 -16) FCC Info: OUCJIB6N | 315 MHz :
+> Remote Key: 6370B711 (2014-15) FCC Info: OUCG8D-625M-A-HF | 315 MHz
+Remote |? Mirage = —
+is > Remote Key: 6370B904 (2017-21) FCC Info: OUCJI66N | 315 MHz
+> Remote Key: 6370B944 (2017-18) FCC Info: OUCJIG6N | 315 MHz
+> Outlander ——= == = ===
+a= _ | > Remote Key: 6370A148 (2007-16) FCC Info: OUCG8D-625M-A | 315 MHz
+> Outlander > Remote Key: 6370B944 (2016-21) FCC Info: QUCJI66N | 315 MHz
+Sport > Remote Key: € nee ras en FCC Info: ‘OUCG8D- 625M-A ise MHz
+
+6370A148, 6370B711
+
+6370A477, 63708944
+
+63708904
+
+16- MITSUBISH|
+
+¢2] — =
+
+2 SPACING Le ~ | DEPTHS
+: 3 J===F = === 1=.310—>
+
+1 2 5 4 > ==
+
+2 66 === : : oe (2=.295
+
+Poy 098 | 181 | .264 | .346 | .429 | .512 | 594 | 677 | cutto | 3=.279
+
+o 222 : : _| Cut | 4=.263
+
+a HPC | —CurtisClipper | Pak-A-Punch|  ITL _ 083 | 5 =.249
+
+— — — = ; === ——_
+
+= Cam: GM-5 SAA
+= Oxe8. Carriage: GM-5B — PAK-G06 507
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+peoceoaeeee 6
+
+pee5aeenueeees
+@o'e 006
+
+©96e@ee0e080880 08 6 ¢
+
+¢
+
+¢
+
+continued - MITS-S10 SECTION ©
+
+‘ChipInformation&Notes
+
+Transponder: Standard Equipment _ oe Philips 46 Reusable: No
+
+> Mike's hs et Programmer Required. Test key i is MIT3.
+
+Cloner Machine Information — all
+
+4- - Requires Internet Access to ea cloning. *2- ——— sy Cpe Update. 3- Requires Texas Crypto wae.
+
+= (DIAG BOX) (CHINA ) (ALCOISILCA ) (JMAUSA ) ( KEYLINE \ (LD. ™\ ( scorPio ) ( wo)
+7 eed cN900 RW4+ TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+> : -
+
+> MH Yes MYes || Yes? M1 Yes? M1 Yes! M1 Yes‘? M1 Yest2 fv] Yes
+we Green Chip || __CN3 GTI Chip & TPX4 & GK100/TK100 | | CN3 or TPX4 | | CN3 or TPX4 | | VVDIChip
+fo} | &Mits Shell | | &Mits Shell | | Mits Shell Mits Shell &Mits Blade | | &Mits Shell | | &Mits Shell | | & Mits Shell
+2 |
+
+\s)
+
+m
+
+A=
+
+“Programmer & Diagnostic Tools 0 eee
+
+t Factory Tool.
+
+PIN CODE :
+_ REQUIRED © | a TCODE/MVP PRO 1 TDB1000 [v HOTWIRE
+
+J2534 &
+Supscription
+
+_Yest= [- SMART PRO ¢ AUTO PRO PAD ¢ AUTEL IM608
+
+Note: *Many key programmers can bypass the PIN. Check to see if your key programmer supports your vehicle.
+
+Codes: The passenger door cylinder should have a code on it - otherwise check the drivers door lock.
+
+Decoders: | Determinator: JAP 2 ‘Lishis MITT AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use-a Lock Decoder/Reader tool to decode the door lock. :
+~Method#2 Remove passenger door cylinder and read code stamped on lock if the car has one, otherwise drivers lock.
+Method #3 Disassemble door cylinder or trunk cylinder, and decode wafers to make master key.
+: o/0/0}0/0}0}0]0)}> Ignition
+a Oo O;0|0/0O}0|O}> Doors
+3 O}0}0}0/0/0/0]0)> Trunk / Hatch
+1121/3145 6/7\8
+~ ©1994, 2021 AutoSmart™ by Michael Hyde : MITSUBISHI - 17
+
+WITS-S14 SECTION
+
+ee ee
+
+peeee0ee0 @
+
+‘a
+
+2006 Eclipse ~ 2006 Endeavor 2006Galant ———s
+stvie | carps | ms | macs | Start Cut | cuttocut | AirBags | Ign Retainer ie
+F 01-1571 Dbl Sided | CF306 | 171 2 | 985 | 083 Yes ‘Active |
+MASTER NATIONAL: KEYLINE: Me
+weys> | MITE-CAN n/a___| MITI6A-PT | MITI6-PHT | TPI2MITIBP | 692562 see below
+Determinator: MIT1 ‘| Lishi: MIT9MIT6 | AccuReader: n/a -—*| EEZ Reader: MITS99._—_| Cobra: n/a :
+> Mike's Tip: Transponder system. Key Programmer is required. Test key MIT6
+> Eclipse > Remote Key: MN141381 or ILCO# RHK-MITS-481 - FCC Info: OUCG8D-620M-A | 314 MHz = =
+— > Endeavor _| > Remote Key: MN141383 or ILCO# RHK-MITS-3B2 - FCC Info: OUCG8D-620M-A|314MHz
+> Galant > Remote Key: MN141381 or ILCO# RHK-MITS-4B1 - FCC Info: OUCG8D-620M-A | 314 MHz =
+pee Code Series: F 01-1571 :
+> 2 SPACING || DEPTHS | —
+= i= 327 E
+1 2. 3 4 =| a | Z
+m : ot ge 8 Sg = == 2 = 302
+pam 985 | .902 | .820 | .737 | .655 | .572 | -491 | .407 | cutto | 3=.276 :
+—=———— : os = ~=6GE 4 = 251
+st HPC Curtis Clipper | Pak-A-Punch| ITL | 83
+or = —
+: === Cam: DC-5 a = = 2|= =
+= 2 oe Carriage: DC-5A onda. = ut ==
+
+peeooa5uece
+
+18 - MITSUBISHI ~ 22 5 ee _ ©1994, 2021 AutoSmart™ by Michael Hyde
+
+(
+
+@' ee:
+
+¢
+
+¢
+
+©@e0 €2606 6 06 6' 0:0 6:
+
+continued - MITS-§11 SECTION
+
+Chip Information & Notes _
+
+Transponder: Standard Equipment
+
+Chip: Philips 46
+
+Reusable: No
+
+> Mike's Tip: Key Programmer Required. Test key is MIT6.
+
+Cloner Machine Information _
+
+(v SMART PRO
+
+(? AUTO PRO PAD
+
+(> AUTEL IM608
+
+= (DIAG BOX) (CHINA ) (ILcorsicA) ( JMAUSA ) ( KEYLINE ) (LD. )( scorPiOo \)( wo )
+7 eae CN900 ~ RW4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+> - -
+Z MYes || M Yes M1 Yes? 1 Yes? M1 Yes! 1 Yes'2 1 Yes! iv] Yes
+ob Green Chip CN3 GTI Chip & TPX4 & Gk100/TK100 | | CN3 or TPX4 | | CN3 or TPX4 | | VVDIChip
+Fey] | &Mits Shell | | &Mits Shell | | Mits Shell | | _ Mits Shell &Mits Blade | | &Mits Shell | | &Mits Shell | | & Mits Shell
+S “4 = Requires Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+= Programmer & Diagnostic Tools _ : :
+
+Factory Tool PIN CODE = =.
+
+REGUS Y TCODE/MVP PRO| | x TDB1000 VY HOTWIRE
+J2534 &
+Supscription Yes *
+
+Note: *Many key programmers can bypass the PIN. Check to see if your key programmer supports your vehicle.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: MIT1 _| Lishi: n/a AccuReader: n/a EEZ Reader: MITS99 _ | Cobra: n/a
+
+NOTES: There is usually manual trunk release lever next to the driver's seat.
+
+Method #1 Remove and disassemble trunk cylinder, and decode wafers to make a master key.
+
+Method #2 — Use a Lock Decoder/Reader tool to decode the door lock for a working key.
+
+Method #3 Remove and disassemble door cylinder, and decode wafers to make a master key.
+0/O0/0/0}0)| 0] O)> Ignition
+0)0/0|0/G/| 0} Q|> Doors
+O}O}O|8}8} 0] O}> Trunk / Hatch
+2\|37415|/617)8
+
+©1994, 2021 AutoSmart™ by Michael Hyde MITSUBISHI - 19
+
+MITS. $12 SECTION
+
+2000-03 Galant
+l
+
+2000-05 Eclipse 2004-05 Endeavor
+
+[sme | carpe | im# | macs | Startcut | Cuttocut hir Bags. | ign Retainer
+
+F 01-1571 Dbl Sided | CF306— Active
+NATIONAL: KEYLINE: ICO: JET: JMA: STRATTEC: DEALER:
+MASTER 692564 BMIT13-PT | MIT13-PT | MITI3-PHT | TP26MITISP | 692564 see below :
+KEYS > _| Determinator: MIT 1 lish: MIT9 MIT6 | AccuReader: n/a | EEZReader: MITS99__| Cobra: n/a
+> Mike’s Tip: Transponder system. Key. Programmer i is required. Test key MIT6
+> Mike’s Tip: Some Endeavor models use the “N” transponder chip and some use the “A” jranapoivier chip.
+STRATTEC 692562 or 692020 (“A” Chip) or STRATTEC 690648 or 692564 ("N" Chip)
+— ** CHECK WITH DEALER FOR CORRECT FOB REMOTE BASED ON YOUR VIN**
+> Fob Remote: MR587859 or ILCO# RKE- MITS-2B1 (2000- 01) FCC Info: HYQI2ABA | 315 MHz
+> Fob Remote: MR587983 or ILCO# RKE-MITS-2B2 (2000-05) FCC: OUCG8D-525M-A | 314 MHz
+> Eclipse | > Fob Remote: MR587982 or ILCO# RKE-MITS-3B1 (2002-05) FCC: OUCG8D-525M-A | 314 MHz
+: > Fob Remote: MR587981 (2003-05) FCC Info: OUCG8D-525M-A | 314 MHz .
+wide > Fob Remote: MR587980 or ILCO# RKE-MITS-3B2 (2003-05) FCC: OUCG8D-525M-A | 314 MHz
+> Endeavor _| > Fob Remote: MR587982 or ILCO# RKE-MITS-3B1 - FCC Info: OUCG8D-525M-A | 314 MHz
+> Fob Remote: MR587858 or ILCO# RKE-MITS-2B1 (1999-01) FCC Info: HYQI2ABA | 315 MHz
+> Fob Remote: MR587859 (1999- 01) FCC Info: HYQI2ABA | 315 MHz ~
+Jo > Fob Remote: MR587980 or ILCO# RKE-MITS-3B2 (2002-05) FCC: OUCG8D-525M- A A 314 MHz =
+> Fob Remote: MR587981 (2002 05) FCC Info: QUCG8D-525M-A | 314 MHz
+
+LOCK
+
+UNLOCK
+Css, — *
+
+MR587980, MR587981
+
+— 1LCO# RKE-MITS-3B1 __MR587983, MR587858
+
+ce Code Series: F 01-1571 = == =
+Z| SPACING — DEPTHS
+1=.327
+1 2 4 S272 2 Be || == =
+C= z ot eee Ee ae
+Pay 985 | 902 | .820 | .737 | .655 | .572 | .491 | .407 | cutto | 3=.276
+s) a UE | t= 281 =
+m HPC Curtis Clipper | Pak-A-Punch| ITL | -983 -<
+a= oO
+ond ==
+Cam: DC-5 == =
+= = Carriage: DC-5A Me; ef
+
+20 - MITSUBISHI
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+DPeeeeeeaeeeeeeeeeeeoee se 6
+©eo @©:0606090 0,00 «€
+
+(
+
+¢
+
+continued - MITS-§12 SECTION
+
+Chip Information & Notes —
+
+Transponder: Standard Equipment 25
+
+Chip: 4D61 (N)
+
+Reusable: Yes
+
+> Mike's Tip: Key Programmer Required.
+
+Test key is MIT6.
+
+Cloner Machine Information —__
+
+*4 - Requires Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - May Require Texas Crypto update.
+
+Programmer & Diagnostic Tools —
+
+= ‘(DIAG BOX) ( CHINA ) (iLcorsitca) ( JMAUSA ) ( KEYLINE )( LD. ) ( scorpio \)( wo)
+= Pe CN900 Rw4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+> =
+
+Z {¥] Yes [J Yes [J] Yes M1 Yes? Yes Yes? M1 Yes? {VJ Yes
+- Blue Chip & CN2/5 EH3a“k” || TPX2& | | Gk100/TK100| | CN5orTPX2 | | CNS orTPX2 | | VVDIChip _
+Foy] | Mits Shell | | & Mits Shel Blade Mits Shell &Mits Blade | | &Mits Shell | | &MitsShell | | & Mits Shell
+Zz
+
+1s)
+
+mi
+
+A
+
+L PIN CODE
+REQUIRED
+
+[v toooEnve PRO| [x rostoo
+
+(v HO
+
+TWIRE
+
+(v SMART PRO
+
+(v AUTO PRO PAD
+
+(> AUTEL IM608
+
+Note: *Many key programmers can bypass the PIN. Check to see if your key programmer supports your vehicle.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: MIT1 Lishi: n/a AccuReader: n/a FEZ Reader: MITS99 _| Cobra: n/a
+
+NOTES: There is usually manual trunk release lever next to the driver's seat.
+
+Method #1 Remove and disassemble trunk cylinder, and decode wafers to make a master key.
+
+Method #2 "Use a Lock Decoder/Reader tool to decode the door lock for a working key.
+
+Method #3 Remove and disassemble door cylinder, and decode wafers to make a master key.
+0/0/06} 0} 0] O)}> Ignition
+0/0)0)0)0/O} Q}> Doors
+O|0|0}0}0}0}O)> Trunk7 Hatch
+213,4,516|7\8
+
+©1994, 2021 AutoSmart™ by Michael Hyde MITSUBISHI - 21
+MITS- $13 SECTI ION
+
+MASTER
+KEYS >
+
+~ 2004- 05 Endanvor == : : 2004-05 iar
+
+| srme | carpe | me | macs | startCut | Cuttocut | AirBags pore =
+
+- F01-1571 Dbl Sided | CF306 | Active
+NATIONAL: KEYLINE: wo; =| JET: ~S | JMA STRATTEC: | DEALER; = |
+692562 n/a__| MITIGA-PT | MITI6-PHT | TPI2MITIBP | 692562 | see below
+
+Determinator: MIT Lishi: MIT9 MIT6 | AccuReader: n/a ‘(| EEZ Reader: MITS99.-—_‘| Cobra: n/a
+
+> Mike's Tip: Transponder system. Key Programmer is required. Test key MIT6
+
+> Mike's Tip: So
+
+me Endeavor models use the “N” transponder chip and some use the "A" transponder chip. —
+-STRATTEC 692562 or 692020 ("A” Chip) or STRATTEC 690648 or 692564 ("N° Chip)
+
+Remote
+Info >
+
+_ ** CHECK WITH DEALER FOR CORRECT FOB REMOTE BASED ON YOUR VIN **
+
+> Endeavor
+
+> Fob Remote: MR587982 or ILCO# RKE-MITS-3B1 - FCC Info: OUCG8D-525M- A A 314 MHz
+
+> Fob Remote: MR587980 - FCC Info: OUCG8D-525M-A | 314 MHz
+
+» Galant
+
+> Fob Remote: MR587981 - FCC Info: OUCG8D-525M-A | 314 MHz
+
+LOCK
+
+UNLOCK
+— as
+
+MR587980,MR587981 = =~—«sILCO# RKE-MITS-3B1
+
+Code Series: F 01-1571
+
+_Bow SPACING : ip __| DEPTHS
+= a _ | 1=.327
+1 . 4 5 6 (7 26 2 = 302
+
+985 | .902 | .820 | .737 | .655 | .572 | .491 | .407 | cutto | 3=.276
+
+Cut: 4=.251
+
+HPC
+
+Curtis Clipper | Pak-A-Punch nm 1
+
+H1dad 8 30VdS
+
+CF306
+
+Cam:DC
+
+Carriage: DC-5A
+
+= n/a =i =
+
+22 - MITSUBISHI
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+»>©00000686800
+
+)
+
+pee
+
+:
+
+i}
+
+)
+
+oe 6€060606 06 0' 0608006 6@@ «
+
+¢
+
+ee
+
+¢
+
+continued - MITS-§13 SECTION
+
+Chip Information & Notes.
+
+Transponder: Standard Equipment
+
+Chip: Philips 46
+
+Reusable: No
+
+> Mike's Tip: Key Programmer Required. Test key is MIT6.
+
+Cloner Machine Information __
+
+“4 - Requires Internet Access to complete cloning. *2-Requires Philips Crypto Update.
+
+*3.- Requires Texas Crypto update.
+
+z (DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE \( LD. \( scorPIO \( wo )
+CLONE CN900 Rw4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+
+os WIZARD :
+
+S M1 Yes MI Yes M1 Yes? M1 Yes? M1 Yes'2 MI Yes! M1 Yes':2 fv] Yes
+
+o Green Chip CN3 GTIChip & TPX4 & GK100/TK100 | | CN3 or TPX4 | | CN3 or TPX4 | | VVDIChip
+
+fey) | &Mits Shell | | & Mits Shell | | Mits Shell Mits Shell &Mits Blade | | &MitsShell | | &Mits Shell | | & Mits Shell
+
+=
+
+Oo
+
+m
+
+A
+
+Programmer & Diagnostic Tools —
+
+ee
+
+MUT Ill
+
+PIN CODE
+REQUIRED
+
+Yes *
+
+[- TCODE/MVP PRO
+
+( TDB1000
+
+(v HOTWIRE
+
+[v SMART PRO
+
+[- AUTO PRO PAD
+
+(2 AUTEL IM608
+
+Note: *Many key programmers can bypass the PIN. Check to see if your key programmer supports your vehicle.
+
+Codes: | No codes on any locks. —
+
+Decoders: | Determinator: MIT 1 Lishi-n/a AccuReader: n/a FEZ Reader: MITS99 _ | Cobra: n/a
+NOTES; ..__ thereis usually manual trunk release lever next to the driver's seat.
+Method #1 Remove and disassemble trunk cylinder, and decode wafers to make a master key.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock for a working key.
+Method #3
+
+Remove and disassemble door cylinder, and decode wafers to make a master key.
+
+-|0 00
+hm O
+oo oO Fl
+SiO O10
+ajooo
+eM!
+
+S70) CO]
+reid io oO
+
+> Ignition
+> Doors
+> Trunk / Hatch
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+MITSUBISHI - 23
+
+MITS- 814 SECTION
+
+2018-21 siecle Cross
+
+-2008-17Lancer
+
+-2018- 21 Outlander PHEV
+|
+
+2014-21 Mirage
+
+2008-15 bones Evo
+
+| STYLE cARD# | iTLe | MACS | Startcut | Cutto Cut
+
+Air Bags lien Retainer Ee
+
+30010-32009 | Dbl Sided “Active.
+MASTER oS Beaty System - VIN search from Dealer for correct Part,
+KEYS > ‘2 Emergency Key Blade: 6370A770 or 6370C155 or 6370C158 =
+: Determinator: JAP2 Lishi: MIT11 AccuReader: n/a EEZReader:n/a_ — —_| Cobra: na :
+
+> Mike's Tip: Proximity Transponder system. Key Programmer i is required, Test key x224/MIT3 |
+
+> Eclipse Cross | > Prox: 86378639 - FCC Info: OUCGHR-MO13 | 315 MHz = 2
+
+>Lancer ——_—'| > Prox: 8637A228 - FCC Info: OUC644M-KEY-N | 315 MHz
+> Prox: 8637A228 - FCC Info: OUC644M-KEY-N | 315 MHz
+
+Remote — > Lancer EVO
+
+iies > Prox: 86378885 - - FEC Info: OUC644M- KEY-N | 315 MHz
+
+> Prox: 8637B153 (2014-18) (Emerg Key: 6370C158) FCC Info: oUcé44M- KEN 318 ak
+
+> Mirage
+= = > Prox: Check the VIN with Dealer for correct part.
+
+» Outlander PHEV | > Prox: 8637B666 (Emerg Key: 6370158) FCC Info: OUC644M-KEY-N | 315 MHz
+
+- 8637B666
+
+” oe —— = = = =
+2 SPACING _ -DEPTHS |
+eee 1=.310
+
+- : a
+ozs = Ae pe
+Pog 098 | 181 | .264 | 346 | .429 | .512 | -594 | -677 | cutto | 3=.279 2
+> Sate = | cut: | 4=.263 3
+m HPC | CurtisClipper | Pak-A-Punch| {TL _ =| aa 5 =.249 ae
+cond = - . = — ic : : =| = : =
+
+= =| — Cam: GM-5 =
+me °°? | Carriage: GM-58 | PAK-G08 ==
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+24 - MITSUBISHI ee eS
+
+peoaneeneeeeeeeeees 8
+
+»5e@ @
+
+or
+continued - MITS-§14 SECTION
+
+Chip Information & Notes
+
+Chip: Integrated Circuit Board Reusable: No (Must be unlocked)
+
+ear > Mike's Tip: PIN CODE is Required for Programming. Test key is X224/MIT3
+A
+= No Cloning for this Proximity System
+a Programmer & Diagnostic Tools
+g
+
+Factory Tool
+0 fe el ie (v TCODE/MVP PRO [v ABRITES (v HOTWIRE
+m —— -
+Zz J2534 &
+
+Supscription — (v SMART PRO (« AUTO PRO PAD (x AUTEL IM608
+
+Note: *Many key programmers can bypass the PIN. Check to see if your key programmer supports your vehicle.
+
+Codes: | The passenger door cylinder should have a code on it - otherwise check the drivers door lock.
+
+Decoders: | Determinator: JAP 2 Lishi: MIT 11 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Remove passenger door cylinder and read code stamped on lock if the car has one, otherwise drivers lock.
+Method #3 Disassemble door cylinder or trunk cylinder, and decode wafers to make master key.
+0/0)0|0/0}0}0 [0 )> Ignition
+0O/O\|0|0/0j0/0}O/> Doors
+O0/0,0|0/0}0}0|O)}> Trunk / Hatch
+1:2) 3 |425 26/27
+
+AVDI | Key Programming | Security | ECU Programming
+
+.D.D.LT.c. For sales and information, please contact Brian
+AB R ITES P. 205.276.3656 | keymasterlsw@yahoo.com ABRITES USA
+
+www.abritesusa.com
+
+©1994, 2021 AutoSmart™ by Michael Hyde MITSUBISHI - 25
+MITS-S15 SECTION 2as>
+
+2007-18 Outlander _ 2011-21 | Outlander sport 2
+
+|
+
+j Cut to Cut | Air Bags ign R Retainer
+
+| stve | CARDS 2 TL
+Dbl Sided
+
+macs | Start Cut
+
+30010-32009
+
+MASTER. : Proximity System - VIN search from Dealer for correct Part.
+KEYS | Determinator: JAP2 | Lishi: MITi| | AccuReader: n/a —_—*| EZ Reader: na _—_—| Cobra: n/a
+
+_|> Mike's Tip: Proximity Transponder system. Key Programmer is required. Test key X224/MIT3 _
+
+mA Non PROX key can also be programmed | in, using the 2004 Outlander key asa cheaper 2 alternative cuniaso. |
+
+= _ | > Prox: 8637A817 (2014-18) (Key Blade 6370155) FCC Info: OUC644M-KEY-N | 315 MHz :
+
+> Outlander > Prox: 8637A316 (2008- -13) (Key Blade 6370C155) FCC Info: OUC644M- -KEY-N | 315 Mi
+
+Remote
+
+ae = _| > Prox: B637A025 (2007) (E- _ 6370A362) FCC Info: oucaaD- -640M “KEY- N [a 315 MHz
+
+> Outlander :
+Sport
+
+> Prox: “Check the VIN with Dealer for correct part.
+
+—6370A362 _ Sagas
+= — 8637A316
+
+8637A025
+
+SPACING DEPTHS
+
+z ae = See |
+ope et | 4 | 8 er | 2=.295
+
+098 | 181 | .264 | .346 | .429 | .512 | .594 | .677 | cutto | 3=.279
+Z == aS == Cut: | 4=.263 |
+
+Hid3d 8? S30VdS
+“ gg1o0ceo
+
+HPC Curtis Clipper im. |_ 983: «| 5 =.249 |
+aa 2 se = Ca GMS ee :
+ROS = came ames |.) ee
+26 - MITSUBISHI = eS ©1994, 2021 AutoSmart™ by Michael Hyde
+
+eeoo0eee0
+
+“i a a ar
+
+2°
+
+)
+
+9e@€e086
+
+e:
+continued - MITS-$815 SECTION
+
+Chip Information & Notes
+
+Chip: Integrated Circuit Board Reusable: No (Must be unlocked)
+
+Ear] > Mike's Tip: PIN CODE is Required for Programming. Test key is X224/MIT3
+P,)
+= No Cloning for this Proximity System
+= Programmer & Diagnostic Tools
+2
+
+Factory Tool
+=) Sees PINGODE | | TCODE/MVPPRO| | ABRITES Y HOTWIRE
+m REQUIRED
+A J2534 &
+
+Supscription Yea.* (v SMART PRO (« AUTO PRO PAD (« AUTEL IM608
+
+Note: *Many key programmers can bypass the PIN. Check to see if your key programmer supports your vehicle.
+
+Codes: | The passenger door cylinder should have a code on it - otherwise check the drivers door lock.
+
+Decoders: | Determinator: JAP 2 Lishi: MIT 11 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #2 Remove passenger door cylinder and read code stamped on lock if the car has one, otherwise drivers lock.
+
+Method #3 Disassemble door cylinder or trunk cylinder, and decode wafers to make master key.
+0/0/0/0|0)0/0/0}> Ignition
+0}0;0/}0;0;0| Oj G}> Doors
+O/0;0}0|0}0|0O}O)>Trunk/ Hatch
+1/2/3/4|5/6]7|8
+
+AVDI | Key Programming | Security | ECU Programming
+
+.Pp.D.1-TE. For sales and information, please contact Brian
+ABRI + ES P. 205.276.3656 | keymasterisw@yahoo.com ABRITES USA
+
+www.abritesusa.com
+
+©7994, 2021 AutoSmart™ by Michael Hyde MITSUBISHI - 27
+MITS-S16 SECTION = Ee te ae
+
+2004-06 Outlander | =
+
+| carps | im | macs | startcut | cuttocut | AirBags
+
+| STYLE | Ign Retainer
+
+Dbl Sided
+
+30010-32009 Active
+
+Dealer Key: MN141307 - Master Key
+
+- Available from National Auto Lock Service -
+
+MASTER
+
+Keys > _ | Determinator: JAP 2 Lishi: MIT 1 AccuReader: n/a _| EEZ Reader: n/a Cobra: n/a
+
+> Mike's Tip: Transponder system. PIN Code is 7129 or 8A42. Test key X224/ MIT3 :
+
+Z Mike's Tip: If you have trouble programming a aftermarket key (non-dealer) you will need to program in the.
+dealer oem factory key. This is aaayee a risk. on Mitsubishi vehicles. _
+
+ae '|> Outlander —_| > Fob Remote: MR587983 or ILCO# RKE-MITS-282 - Fe Info: OUCG8D-525M-A | 314 MHz
+
+— ILCO# RKE-MITS-2B2
+
+Code Series: 30010-32009 _===
+== : DEPTHS
+
+o
+2 SPACING
+_— <I 1=.310
+2 4
+“ ———_— 2 : 2% = .295
+- _481 | .264 | .346 | .429 | .512 | 594 | .677 | cutto | 3=.279
+oO == oe Cut: | 4=.263
+m HPC | CurtisClipper | Pak-A-Punch| ITL | 83 | 5=.249
+= Bec Com Gis PAK-Gos | 507
+
+Carriage: GM-5B =
+
+28-MITSUBISH| SS ©1994, 2021 AutoSmart™ by Michael Hyde _
+
+véeesieorege@eeeéeovuaeeeeeee ee
+oe2@2e@ 00° 00 @
+
+¢
+
+@e-
+
+©®eeeoe ee @ t
+
+continued - MITS-S16 SECTION
+
+Chip Information & Notes _
+
+Transponder: Standard Equipment
+
+Chip: Philips-46
+
+Reusable: No
+
+> Mike's Tip: Key Programmer Required. Test key is MIT3.
+
+Cloner Machine Information —=-__
+
+| Supscription Yes *
+
+= (DIAG BOX) ( CHINA ) (ILCOISILCA\ ( JMAUSA ) ( KEYLINE ){  L.D. \( scorPIO \( wo! )
+pee) tone cN900 ~ RW4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO | | MINI TOOL
+p> = =
+> M Yes _ M1 Yes M1 Yes* M1 Yes? M1 Yes':2 M1 Yes'2 M1 Yes'2 fw] Yes
+SL | Green Chip cn3 | | GTIChipa& TPX4& | | Gk100/TK100| | CN3 or TPX4 | | CN3 or TPX4 | | VVDIChip
+U =
+Fey) | &Mits Shell | | &Mits Shell | | Mits Shell | | Mits Shell &Mits Blade | | &Mits Shell | | &MitsShell | | & Mits Shell |
+S : *4 - Requires Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+WE Programmer & Diagnostic Tools ; : 3
+7 = lage
+
+FactoryTool | ( PINCODE ) (. _
+
+| | peouinep | |“ TCODE/MVP PRO] | x TDB1000 ¥ HOTWIRE
++J2534 & 2
+
+C SMART PRO
+
+[v AUTO PRO PAD
+
+(2 AUTEL IM608
+
+Note: *Many key programmers can bypass the PIN. Check to see if your key programmer supports your vehicle.
+
+Codes: The passenger door cylinder should have a code on it - otherwise check the drivers door lock.
+
+Decoders: | Determinator: JAP 2 Lishi: MIT TI AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Remove passenger door cylinder and read code stamped on lock if the car has one, otherwise drivers lock.
+Disassemble door cylinder or trunk cylinder, and decode wafers to make master key.
+
+Method #3
+
+O/0/0/0}0}0/0}O)> Ignition
+
+| G)6s0 |e) 0 | O10 |> Boors
+O|/0|0/0}0|G/ 0} B}> Trunk / Hatch
+12131415 61718
+
+_ ©1994, 2021 AutoSmart™ by Michael Hyde
+
+MITSUBISHI - 29
+[SIME
+
+2003-07 Lancer EVO |
+
+| caro¢ | im# | macs | Startcut |
+
+Cut to Cut | Air Bags | Ign Retainer
+
+30010-32009 | DblSided | CX89 Active
+MASTER = : 4 —
+NATIONAL: KEYLINE: ILCO: JET: _ IMA: -STRATIEC: | __ DEALER:
+KEYS? | MITS-EVO-KEY | MITSI4-PT | MITI4-PT n/a TP26-MIT-8DP nla MR587430
+Determinator: JAP 2 Lishi: MIT 11 AccuReader: n/a EEZ Reader: n/a Cobra: na
+» Mike's Tip: Transponder system. Key Programmer i is required. Test key X224/MIT3 —
+More > Mike's Tip: If you have trouble programming a aftermarket key (non-dealer) you will niead to program in the
+dealer oem factory key. This is always a risk on Mitsubishi vehicles. =
+
+Info a
+
+> Remote Key: MR587983 or ILCO# RKE-MITS-2B2 (2003- 06) FCC Info: OUCG8D-525M-A En MHz
+
+ ILCO#RKE-MITS-2B2
+
+Code Series: 30010-32009
+
+Hidad % 30VdS
+
+| DEPTHS
+
+“1=.310- 5
+2=.295
+3 =.279
+4=.263__
+5 = .249
+
+30 - MITSUBISHI _
+
+_Bow SPACING = == =p
+1 3 | 4 |-5=E-6 | 7 7
+098 181 264 | .346 | 429 512 = 594 | -677 | Cutto |
+= 2 = = = ao Cut:
+HPC Curtis Clipper | Pak-A-Punch 2 AL aes
+PF: : Garans GM SP oe Ee a
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+pee eee eoeeeeeeeeeee
+
+96686
+© @ 0600 @ «
+
+®
+
+©
+
+#eeen0gcoe0d ed0ae 00d
+
+continued - MITS-S17 SECTION
+
+Chip Information & Notes —
+
+Transponder: Standard eee
+
+Chip: 4D61_
+
+Reusable: Yes
+
+> Mike's Tip: Key Sega: Required. Test key X224/MIT3
+
+Cloner Machine Information _ = 8
+
+= (DIAG BOX ) ( CHINA ) (ILCOISLCA ( JMAUSA ) ( KEYLINE )( LD. \( scorPiO \( wo! )
+2 Aetee CN900 Rw4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE | | TANGO MINI TOOL
+> = = = =
+z M1 Yes M1 Yes Yes M1 Yes? M1 Yes MI Yes? M1 Yes? fv] Yes
+~ Blue Chip & CN2/5 EH3 & "P” TPX2& | | Gk100/TK100| | CN5 or TPX2 | | CN5orTPX2 | | VVDIChip
+fe) Mits Shell & Mits Shell Blade — Mits Shell -& Mits Blade _& Mits Shell & Mits Shell & Mits Shell
+S ie Requires Internet Access to = cloning. *2- Requires Philips Crypto Update. *3 - May Require Texas Crypto update.
+- Programmer & Diagnostic Tools __ oe : a
+(Factory Tool PINCODE | | TCODE/MVP PRO| | x TDB1000 V HOTWIRE
+REQUIRED
+—~MUT III
+
+Yes *
+
+: [v SMART PRO
+
+[v AUTO PRO PAD
+
+€ AUTEL IM608
+
+Note: *Many key programmers can bypass the PIN. Check to see if your key programmer supports your vehicle.
+
+Codes: | The passenger door cylinder should have a code on it - otherwise check the drivers door lock.
+
+Decoders: | Determinator: JAP 2 -Lishi: MIT 1 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2, Remove passenger door cylinder and read code stamped on lock if the car has one, otherwise drivers lock.
+Method #3
+
+Disassemble door cylinder or trunk cylinder, and decode wafers to make master key.
+
+0/0/}O/}0/0}0/0}O)}> Ignition
+O/O0/0}0/0/0]0/0)> Doors
+O|0/0}0|0}0 | O/ o|> Trunk / Hatch
+1/2/3/4/5|6/7/8
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+MITSUBISHI - 31
+wITSS4OSECHONT = = Sa .
+
+__— 2006-09 Raider —
+| stvie | carpe | im# | macs | StartCut | CuttoCut| AirBags
+M1-2618 | DbiSided | CX102 | 69 2 0 oe | ies
+
+| Ign Retainer
+Active
+
+NATIONAL: | —KEYLINE: | ——_ILCO: JET: — JMA: ~——_| _STRATTEC: — DEALER:
+
+MASTERS] CHRY-CAN-KEY | BY165-PT YI64-PT | YI65-PHT | TP12-CHRI5P| 692352 | OSI70631AA
+
+KEYS > |
+
+Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 | Cobra: KDC8
+
+Remote key may be needed to shut off the factory alarm - before key programming is possible.
+
+> Mike's Tip: This model is a Dodge Dakota is disguise, made for Mitsubishi by Dodge. Test key is Y157 / Y159.
+
+> Remote Key: 05170631AA or ILCO# RHK-CHRY-3B2 - FCC Info: KOBDTO4A | 315 MHz
+
+Chip Information & Notes
+
+Transponder: Optional. i Chip: Philips 46
+
+| Reusable: No (Must be Unlocked) i
+
+> Mike's Tip: Key Programmer & PIN Required. Test key is Y157 / Y159. == = = 7.
+
+Cloner Machine Information =
+
+(DIAG BOX) (CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LD. ) ( SCORPIO )( wo |)
+
+ere cngoo || RWw4 | |TRS-S000/EVO| | 884 Ultegra | | MIRACLONE || TANGO | | MINI TOOL
+
+YAGNOdSNVYL
+
+| EH3-P & “A” TPX4& | | Gk100/TK100| | MostChips | | Most Chips | | VVDIChip
+Blade | | Y160Shel | | &Y160Blade | | &Y160Shell | | &Y160Shell | | & Mits Shell
+
+Green Chip
+— &Shell _
+
+| CN3& Shell |
+
++4 - Requires Internet Access to complete cloning.
+
+MyYes || MyYes* || MYes? || M Yes? AWeEs |b wives Tl wyes? || wyYes |
+
+3 - Requires Texas Crypto update. :
+
+yea 2c ll pepper
+
+‘a ee ee ee ee ee ae ee
+eeeoaoeonnewooooaooeer
+
+ee @e ¢
+
+sJ22 22 mus S Sao = 25 ‘continued - MITS-S48 SECTION
+
+"Programmer & Diagnostic Tools 2 = ee
+BR (factory Too!) (PINCODE)
+= > je REQUIRED — : == ae =
+z DRB ie TCODE/MVP PRO (. TDB1000 (v HOTWIRE
+(e2) = Ss... 2 == == =. : : ==
+ze | StarScan | | [VW] Yes —_s :
+z ects A-digit — (v SMART PRO _ (v AUTO PRO PAD ¢ AUTEL IM608
+2 wiTECHe PIN Needed | 2222 : : =
+| ~ @e : = = :
+; 2s Check with sa key programmer supplier to see if your vehicle is supported.
+
+aS SPACING © = DEPTHS
+A Faq, (9 |. 32 4=4- 5 Sj 2 |) 8 se | 1=.340
+a. =| =2 7-5 og2 | 2=.315
+Wis 941 | 849 | 757 | 665 | .573 | 481 | 389 | 207 | “| 3 D909
+eo 2 = = 4= 265 =
+5 | cam: —— : Los 8
+= hi Curtis ; Clipper: CHRY-5 CHRY-5 | Pak-A-Punch: | PAK-C5 e
+
+FRAMON: lay tin stop tip flat os left side of vise, Set first cut at.310
+
+Codes: No Codes on any = _ ==
+
+“Decoders: | Determinator: CHR2 | Lishi: CY24 | AccuReader: CHRY8 | EEZ Reader: 157 | Cobra: KDCB
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock and progression the remaining cut for the ignition.
+_ Method #2 —_Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set T0-93.
+
+Method #3 Remove a door or trunk cylinder and decode it and progression the remaining cut for the ignition.
+
+= o,oO|;o\o\0 Fal ol> ignition
+252 25.8) 8.) B CO |> Doors -
+O}0}0}0/}0}|O | O}> Trunk (if ete
+2[alalstel7 [3]
+
+IGNLOCK | DOORLOCK | TAILGATELOCK
+
+: Pu s | Coded Uncoded |
+= 2006-09 ‘| Raider PickUp _ -704650C | 704650 | 703691 | 708553 702785* 703927
+= - — — = - =) = = = = = = = =
+
+= |* lf equipped.
+
+©1994, 2021 AutoSmart™ by Michael Hyde = z _= = MITSUBISHI - 33
+aD ‘Transponder Information - MITSUBIS 32 =S
+
+Proximity Information =
+
+Proximity Ignition with TWISTY Knob Insert the metal emergency key _
+(Squeeze the sides to release the knob) __ _and slide on the proximity remote. _
+
+peeeeeeeeeoeees
+
+= This is the correct position —
+for programming the
+proximity remote.
+
+_ Anon-prox key can also be ee
+_ programmed to start the car. : :
+
+There have been many after-market
+versions of this key - BUT the dealer
+_ key is always the most reliable. ce
+
+__ ©1994, 2021 AutoSmart™ by Michael Hyde
+
+re
+
+34 - MITSUBISHI

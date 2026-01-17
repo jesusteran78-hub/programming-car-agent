@@ -1,0 +1,2496 @@
+© 6 00 @ @ «
+
+¢
+
+2021
+
+AutoSmart ™
+by Michael Hyde
+
+JAGUAR
+
+LAND ROVER
+
+__DISCLAIMER: :
+
+| Awide variety of key programmers have been added to this book. Most key programmer companies are
+
+| not based in the U.S. Some of their application charts have many mistakes. In some cases, you will need
+to check with your key programmer supplier to see if the vehicle you are working on is supported by their
+| tool. There is always a risk in damaging the vehicle electronics when you connect to the vehicle through
+
+__ the OBD port if you are not using an OEM diagnostic tool. You as the locksmith take on this risk every
+
+| time you perform work on a vehicle.
+
+If you have any doubt about what part to use, make sure you check with the dealer and have them run
+the VIN to get you the right part number. Remember, ultimately it is your responsibility to obtain the
+correct part. Part numbers and FCC information has been researched and verified as best as possible.
+But no system is perfect or without errors. Car manufacturers’ part numbers and applications guides
+contain mistakes of their own. Therefore, we cannot guarantee or warranty that the part we show for a
+particular vehicle is the absolute right one.
+
+©1994, 2021 AutoSmart™ by Michael Hyde i JAGUAR -LAND ROVER - 1
+2021 -
+
+AutoSmart Enid Book —
+
+JAGUAR LAND ROVER Table of Contents
+
+2 - JAGUAR - LAND ROVER
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+MAKE | MODEL YEARS _|1YPE SECTION PAGE
+E-Pace 2018-21 =| Proximity ‘| JLR- 16 |34
+_|F-Pace 2017-21 ~—«*| Proximity |JLR-16 34
+F-Type 2014-21 | Proximity |JLR-16 34
+I-Pace 2019-20 [Proximity | JLR-16 _ 34
+S-Type 2000-08 __| Key JLR-15 {32
+: }1990-91 | Key jER-ie = === [26
+| Vanden Plas 1986-89 _—_| Key JLR-13 28
+1976-85 | Key JLRA4 30
+— |X-Type- 2002-07 _| Key jR-16° = 32
+XE. - 2017-20 {Proximity | JLR-16 |34
+XF 2008-21  |Proximity | JLR-16 34
+
+JAGUAR ——— = ———
+
+Xd 2010-21 Proximity JLR-16 34
+XJR 2014-21. =| Proximity §{JLR-16 34
+|2004-09 | Key }ILR-15 32
+2000-03 _| Key JLR-17 |36
+a 1998-99 _|Key _ JLR-18 38
+1991-97 __| Key JLR-12 26
+1988-90 _| Key JLR-19 ‘| 40
+1973-87 _| Key JLR-20 42
+== 2007-15 | Proximity | JLR-16 34
+XK Series 2000-06 _| Key JLR-17 36
+1997-99 _| Key JLR-18 38
+
+seeaeeoe eC eooeaeeaeoaeaeeoeeaeoeonoes
+©02,0@2@e@eoeeed@~seé«
+
+@®9eeoe @ ¢
+
+€
+
+¢
+
+2021 - AutoSmart Foreign Book
+JAGUAR = LAND ROVER Table of Contents
+
+-|TYEARS
+
+PAGE —
+
+MAKE MODEL TYPE SECTION
+3500 S ‘| 1976-86 Key JLR-1_ 4,
+2019-21 Proximity JLR-8 18
+Defender =
+1987-06 Key JLR-2 6
+| 2017-21 Proximity | JLR-8 18
+Discovery
+1994-04 Key JLR-4 10
+Discovery Sport 2015-21 Proximity JLR-8 18
+Evoque | 2012-21 Proximity JLR-8 18
+Freelander 2002-05 Key JLR-5 12
+LAND : =
+LR2 _| 2007-12 Proximity JLR-9 20
+ROVER =
+LR3 2005-09 Key JLR-10 22
+LR4 | 2010-16 Proximity JLR-8 18
+2010-21 Proximity | JLR-8 18
+2007-09 Key JLR-10 22
+Range Rover 2003-06 Key JLR-7 16
+7995-02 Key JLR-6 14
+1989-95 Key JLR-3 8
+Sterling 1987-91 Key JLR-11 24
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+JAGUAR - LAND ROVER -3 _
+
+JLR-1 SECTION
+
+CODES
+
+IGNITION
+
+1976-86 3500 S (Land Rover) ==
+
+MACS Start Cut | Cut to Cut | Air Bags
+
+KEYS >
+soe
+
+| stwe | carpe | ma | | ign Retainer
+
+RO 1001-2000 | Dbl Sided 2 108 085 | No Roll Pin
+NATIONAL: KEYLINE: DEALER:
+n/a nla
+
+CODES | srve | carpe | me | macs | Startcut | cuttocut| 2
+DOOR | akot-1000 | DbiSided | XPM | 307/625) :
+& TRUNK =
+KEYS 2 NATIONAL: KEYLINE: eos = = JET: JMA: STRATTEC: DEALER:
+== ee nla — X86 EG7 FO-TX ‘Ala nla
+
+#2)
+
+A : SPACING DEPTHS
+oO FI A) 3 4 5 6 1 7 8 1=.314
+m Ze = 2=.290
+Pe ios | .203 | .298 | .393 | .468 | .583 | .678 | 773 | cutto | 3=.270
+a ss : Cut: 4=.245
+a HPC Curtis Clipper Pak-A-Punch | ITL 95
+
+eo z es
+
+ae XF41 n/a n/a 376
+
+Code Series: AK 01-1066
+as = DEPTHS
+
+Bow SPACING Tip 1=.323
+n == 2=.291
+2 1 2 = 3 4 5 a me
+2, 079 | 177 | .220 | 319 | 417 | 461 | 559 | .659 | 757 | 801 | 4=:248
+ge ——s
+oO HPC Curtis Clipper Pak-A-Punch ITL Cut
+m —— to Cut:
+mS] Cam: BL-10 = Varies
+= CF1, XF11 Carriage: BL-10A n/a an Ae 625
+
+CUTS 2, 4, & 7 ARE DOUBLE CUTS. EXAMPLES OF CODE #AKO01 |S “321213”
+CONVERT TO: 3 221221233
+
+4 - JAGUAR - LAND ROVER
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeoecoeno@aeeeeooaoeoeeeeeeeese
+
+> ©
+eee oeoeoa oon oaoeaeoaoeeaesaeoeenasgeoede sé
+
+continued - JLR-1 SECTION
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator:n/a | Lishi: n/a |AccuReader: n/a —_| EEZ Reader: n/a Cobra: n/a
+
+Method #1 _ Impression locks to make working keys.
+
+Method #2 _ Disassemble locks to make the working keys.
+
+> Ignition
+
+Oo
+o
+a |o
+lo
+o
+
+O}0} 0 }s Doors”
+> Trunk —
+
+O
+
+O
+
+fl
+
+Gu
+
+(ia
+lo oO,
+oj O
+
+Oo
+
+o
+
+Oo
+
+©1994, 2021 AutoSmart™ by Michael Hyde _ JAGUAR - LAND ROVER - 5—
+JLR-2 SECTION Sess!
+
+1987-06 Defender 90 & 110 (LandRover) |
+
+sTviE | _caRD# | IT i
+
+Ign Retainer
+
+IGNITION | RO 1001-2000 | DbISided | XFAI ~ Roll Pin
+KEYS > NATIONAL: KEYLINE: Ico: DEALER:
+tel? n/a X157 n/a
+
+| stwe | carps | ma | macs | Startcut | Cutto Cut |
+
+- _BC 301-360 : : ;
+FT 101-225 Dbl Sided CF45 232
+KEYS > | _ NATIONAL: KEYLINE: 0 en JMA: _ STRATTEC:
+62FT n/a 62FT fig = nla ~ Ala
+
+DEALER:
+n/a
+
+> Mike’s Tip: There are several different code series used on this vehicle's doors, not all are listed.
+
+| NO TRANSPONDER
+
+Hidad ? 30VdS
+
+Hiddad 8 30WVdS
+
+6 - JAGUAR - LAND ROVER
+
+Code Series: RO 1001-2000
+
+Bow SPACING ~~ Tip DEPTHS | __
+1 2 3 4 5 6 ae 8 =.314
+=e E ale 2=.290 |
+108 | .203 | .298 | .393 | .468 | .583 | 678 | 773 | cutto | 3= 270
+s ae = Cut: 4=.245
+HPC Curtis Clipper | Pak-A-Punch| —_ITL 1095
+XF41 n/a n/a | — 376
+
+Bow === SPACING Tip peel
+1 2 3 4 5 SS 2 =.259
+~ Cut to Cut: .095 3 = .2er
+232 326 420 514 608 SS
+HPC Curtis Clipper Pak-A-Punch ITL
+CF / XF45 n/a Nae =|__ B
+ITL Note: Enter 4 for “A”
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+pee oe @
+
+peoeanaeeeeeoeeess
+
+6:6
+©eo@2@€@ee@e@ ede eé«
+
+@®eoe@oeoeees«68 @\e'<
+
+continued - JLR-2 SECTION
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: n/a
+
+| AccuReader: n/a
+
+EEZ Reader: n/a Cobra: n/a
+
+PRIMARY KEY - IGNITION:
+
+Method #1 __ Impression locks.
+
+__ Remove ignition and disassemble to make key for ignition only. This can bea tough job.
+
+SECONDARY KEY - DOORS:
+
+Method #1 Remove door lock and disassemble. Decode tumblers and make working key.
+
+Method #2 impression locks,
+
+> Ignition
+
+O}0| O {> Doors
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+JAGUAR -LAND ROVER-7 |
+JLR-3 SECTION
+
+1989-95 Range Rover (Land Rover)
+
+| swe | canoe | ms | macs | startcut | CuttoCut | AirBags _| Ign Retainer
+
+E 8000-9000 :
+CF48 /
+
+L.8001-10000 | DbiSided yee 098 Roll Pin
+MASTER | NSP 7000-9000 =
+KEYS > NATIONAL: KEYLINE: ICO; “JET: IMA: | _ STRATTEC: DEALER:
+RV4 n/a = Seog n/a NESe Ma | na
+Determinator: n/a Lishi: NE38 AccuReader: n/a EEZ Reader: n/a — Cobra: n/a
+
+More > Mike’s Tip: in 1995, there were two Range Rover models. One was Conventional keyway and one was
+Info > High Security, After the 1995 model year there was no more conventional keyway on Range Rover models.
+
+1993-95 Models - FCC: KHH 2TN
+
+a NO TRANSPONDER
+
+Code Series: NSP 7000-9000, E 8001-9000, L 80071-10000
+
+Carriage: RV-1A
+
+— DEPTHS
+Bow : SPACING : Tip 1=.No Cut
+: - === = 2=52/5
+a) 1 2 3 4 5 @ 22 8 SS
+py 098 | 185 | .272 | 358 | 445 | 531 | 626 | 673 | 768 | 815 | 4-226
+m 28
+x HPC Curtis Clipper Pak-A-Punch = TTL Cut
+5 = to Cut:
+wu CF 48, XF48 cee? PAK-LRI 403 —
+oo
+x
+
+NOTES: Each double chamber has 2 wafers. “NSP” code series uses the same depths in
+the double chambers. "E" & “L’ code series may have different depths in the
+double chambers. Ith wafer is seated ontipofblank, =
+
+8 - JAGUAR - LAND ROVER = ©1994, 2021 AutoSmart™ by Michael Hyde
+
+> @
+
+peooeeaoee ee 6
+
+eeoeaee @©0eoe
+
+» ©
+9oe@eeoeoee@e@ed@?tee?@e6e0e624e0eceoed@e
+
+continued - JLR-3 SECTION
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: NE38 : AccuReader: nla | EEZ Reader: n/a Cobra: nfa
+
+Method #1 Remove door or rear hatch lock and disassemble and decode. Make a key from the lock and you will have a
+complete key. There is an eleventh tumbler in the lock and it is always a zero cut, the tip of the key raises it to
+the shear line. The rear hatch lock is the easiest to remove. =
+
+Method #2 ae locks, remember spaces 9 & 10 are double wide and will contain the same depth in each double
+
+: wide chamber.
+
+0/0)0/0)0/|0) 0} G |= Ignition
+O}O|0 La 43/8 > Doors
+HO ea eee > Rear Door
+3/41516| 7 | =8
+
+Depending on production date and production factory - some door locks will
+have tumblers in the 8th position and some will not.
+
+> Ignition
+> Doors
+> Rear Door
+
+o/OOO
+s/0Oo00
+olooo
+ojoo00
+oo
+"tO 'G,)
+es
+oo
+
+©1994, 2021 AutoSmart™ by Michael Hyde JAGUAR -LAND ROVER - 9
+JLR-4 SECTION [ ye
+
+1994-04 Discovery (Land Rover)
+
+| stme | carpe | mse | macs | startcut | cuttocut | AirBags | Ign Retainer |
+
+E 8000-9000
+
+CF48 /
+
+L 8001-10000 Dbl Sided yaa | Roll Pin
+MASTER | NSP 7000-9000
+KEYS > NATIONAL: — KEYLINE: ILCO: JET: JMA: | __ STRATTEC: DEALER:
+RV4 n/a X239 n/a NE-52. 2) ie = 18
+Determinator: n/a Lishi: NE38 oe n/a EEZ Reader: nla _ Cobra: n/a
+
+> Mike’ s Tip: An engine immobilizer system is activated by the remote control flip key. This is part of the
+More _| factory alarm system. The engine immobilizer system can be de-activated with a mechanical key in door
+Info _| lock. No transponder chip is in remote. The aftermarket keyblank may need to be shaved 020" by the tip —
+to allow the key to go all the way in the door lock and function properly.
+
+Remote |” 2000-04 - Remote Key: CWE100710 - FCC Info: NSEVALTX3 | 315 MHz
+
+Info >
+
+> 1995-99 Fob Remote: YWX101210 - FCC Info: KHH 17TN | 315 MHz
+
+YWX101210 = S25 CWE100710
+
+ea NO TRANSPONDER
+
+Code Series: NSP 7000-9060, E 8001-9000, L 8001-10000
+
+2 Carriage: RV-1A i =e = ae
+
+DEPTHS _
+
+SPACING a 1=.NoCut |
+; = 2=.275
+1
+
+a) 2 3 4 5 6 a 8 3 = 252
+
+es 098 | 185 | 272 | 358 | 445 | 531 | 626 | 673 | .768 | 815 4=.228
+
+m = _
+
+od HPC Curtis Clipper Pak-A-Punch | —ITL Cut
+
+CS : to Cut:
+
+m : BL- a
+
+wu cras,xF4g |. Cam: BLS PAK-LRI 403 one
+
+=
+
+=
+
+NOTES: Each double chamber has 2 wafers. “NSP” code series uses the same. depths i in
+the double chambers. “E” & “L’ code series may have different depths in the
+double chambers. TIth wafer is seated on tip of blank.
+
+10 - JAGUAR - LAND ROVER = = = ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peo CeCC SCS OO COCO EOO EEE CSE
+
+i)
+@9e0e2@e@@ee@eeee ee
+
+C
+
+(
+
+¢
+
+©9e@e@600 06° ¢
+
+~ continued - JLR-4 SECTION
+
+Codes: No codes on any locks. = =
+
+Decoders: | Determinator:n/a _| Lishi: NE38 AccuReader: n/a EEZReader: n/a —_ Cobra: n/a
+
+Method #1 Remove door lock and disassemble and decode. Make a key from the lock and you will have a complete key.
+There is an eleventh tumbler in the lock cylinder and it is always a zero cut, the tip of the == raises it
+to the shear line in most cases, if not cut it to a number #2 depth.
+
+Method #2 _ a ae remember spaces 9 & 10 are double wide and will contain jess same depth ineach
+: double wide chamber.
+
+0/0/86/0/0/0/0)|0} O }>Ignition
+O10 0/0} 628 > Doors
+Go| | et Bea oO > Rear Door
+PZ, 5541516
+
+Depending on production date and production factory - some door locks will
+have tumblers in the 8th position and some will not.
+
+0/0|0/}/0/}8/} 0} 0 }> Ignition _
+O0}0/0}0;0/0} O {> Doors
+Bo Gio eo > Rear Door
+425676 |= =i 68
+
+The aftermarket keyblank will have to be modified on the
+tip to work smoothly on 2000 & up models.
+
+©1994, 2021 AutoSmart™ by Michael Hyde _ _ JAGUAR - LAND ROVER - 11_
+JLR-5 SECTION = ha os
+
+H1d3ad 8 30VdS
+
+12 - JAGUAR - LAND ROVER
+
+| STYLE CARD# é Ign Retainer
+
+NSP : :
+7000-9000 oer
+TRANSPONDER: =
+MASTER :
+Keyi is ordered from dealer. Some will work right away and some will require IDS to finalize programming.
+KEYS > :
+NON-TRANSPONDER: :
+NATIONAL: KEYLINE: LO = = JET: JMA: STRATTEC: — DEALER:
+RV4 n/a X239 ma NE-52 nla n/a
+Determinator: n/a Lishi: NE38._| AccuReader: n/a : EEZ Reader: n/a Cobra: n/a
+> Mike’s Tip: Transponder System Optional - Not All Models have the Transponder System.
+More___| > Mike's Tip: Models can be read through Eeprom u using a AK90 or ‘Oranges Reader & Tango, IKeyClone
+Info > or MiraClone Software.
+> Remote Fob: YWX101210 - FCC Info: KHH 17TN | 315 MHz
+
+YWX101210
+
+Code Series: NSP 7000-9000
+ts DEPTHS
+SPACING = se Tip 1= .No Cut
+Z 2=.275
+1 Z 3 4 5 6 ZL == 8 = 252
+098 | 185 | .272 | 358 | 445 | 531 | 626 | 673 | 768 | 815 | 4=-228
+HPC Curtis Clipper Pak-A-Punch — ITL == = Cat =
+; * to Cut:
+Cam: BL-5 087
+CF48,XF48 | Co riage: RV-IA PAK-LRI =| 403 2
+= : = oS
+NOTES: Each double chamber has 2 wafers. “NSP” code series uses the same depths in <
+the double chambers. “E” & "L’ code series may have different depths in the e
+double chambers. Tith wafer is seated on tip of blank. =
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+SOKC9CCOHSECECROCECECOC CHEESE
+o@02026©@ee908 @¢
+
+o@eee#<«
+
+¢
+
+(
+
+Chip Information & Notes
+
+continued - JLR=-5 SECTION
+
+Transponder: Optional
+
+Chip: Philips 46
+
+Reusable: No
+
+Cloner Machine Information
+
+(DIAG BOX )
+
+(CHINA _ )
+
+( JMAUSA_ )
+
+( KEYLINE
+
+~ Lp
+
+( scorPiO )
+
+(Wo)
+
+CLONE
+
+WIZARD €N900
+
+(ILCOISILCA )
+
+RW4
+
+TRS-5000/EVO
+
+884 Ultegra
+
+MIRACLONE
+
+TANGO
+
+MINI TOOL
+
+Yes [VJ Yes
+
+M1 Yes 2
+
+M Yes 2
+
+MI Yes1:2 M1 Yes':2
+
+M1 Yes'2
+
+| Yes
+
+CN3&
+Shell
+
+| Green Chip
+& Shell
+
+GTI Chip &
+Shell
+
+TPX4 &
+Shell
+
+TK100 &
+Blade
+
+TPX4 &
+Shell
+
+TPX4 &
+Shell
+
+WDI Chip &
+Shell
+
+*4- May require Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypte update.
+
+Programmer & Diagnostic Tools
+
+YAGNOdSNVUL
+
+| Factory Tool
+
+T40r IDS
+
+PIN CODE
+REQUIRED
+
+No
+
+(« TFCODE/MVP PRO
+
+: (« TDB1000
+
+€ HOTWIRE
+
+(« SMART PRO
+
+(« AUTO PRO PAD
+
+(? AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes:
+
+No codes on any locks.
+
+| Decoders:
+
+Determinator: n/a
+
+Lishi: NE38
+
+AccuReader: n/a
+
+EEZ Reader: n/a
+
+Cobra: n/a
+
+Method #1
+
+Remove door lock and disassemble and decode. Make a key from the lock and you will have a complete key.
+
+There is an eleventh tumbler in the lock cylinder and it is always a zero cut, the tip of the key raises it
+to the shear line in most cases, if not cut it to a number #2 depth.
+
+Method #2
+
+0/0/0|0|0;0/0/0} O }> ignition
+Di E,OLea|0;0O\;0 > Doors
+
+| 0) 0 fe 6 Ge ee > Rear Door
+213,4,5.6( 7 8
+
+Depending on production date and production factory - some door locks will
+have tumblers in the 8th position and some will not.
+
+0|0|0;0|0|0} 0} G }> Ignition
+
+O10)|0 | 0364610 | 0 |> Doors
+O\0/0/0)/0/0 > Rear Door
+273 415 6 7 8
+
+The aftermarket keyblank will have to be modified on the
+tip to work smoothly on 2000 & up models.
+
+Impression locks, remember spaces 9 & 10 are double wide and will contain the same depth in each
+double wide chamber. :
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+JAGUAR - LAND ROVER - 13
+
+JLR-6 SECTION = ese jase
+
+| Ign Retainer
+
+|
+
+: 1000-2500 © nla Active
+MASTER ~ : : =
+: NATIONAL: —_ KEYLINE: e= = JE JMA: STRATTEC: DEALER:
+KEYS > HU109FP . 20a HF72-P r= == nla ae nla
+Determinator: n/a — —— _| Lishi: n/a : AccuReader: n/a EEZ Reader: nia Cobra: na
+
+> Mike's Tip: An engine immobilizer eee is activated by the orice control flip key, this is part of the
+factory alarm system. Engine immobilizer system can be de-activated with mechanical key | in
+
+: door lock. No transponder chip in remote.
+More
+
+Info > | > Mike’s Tip: In 1995, there were two Range Rover models. One was Conventional keyway and o one was
+High Security. After the 1995 model year there was no more conventional keyway on Range Rover es
+
+__|> Remote Section: ASRI944 - FCC Info: LONSO77 | 315 MHz —
+
+E4 NOTRANSPONDER ee Se
+
+Code Series: 1000-2500
+
+NOTES: High Security Key Machine and Space & Depth Guide Keys.
+
+Land Rover parts# ALR8125KIT & MTC9290 are nice to have on hand for
+handle re-assembly. = i Z a : =
+
+Bow SPACING Tip = ; DEPTHS
+2 = — q=ees
+Sm 775 | 643 | 51 | 379 | .247 a 2 = .267
+oO : Sane 3=.244
+
+EXTE 3 =
+
+m i 5 Ie eS XTERNAL4-TRACK | 4 — og
+Ro S = =
+720 | 588 | 456 | 324 | 4192 =2 22
+c
+ond
+x
+
+d60LNH
+
+14 - JAGUAR - LAND ROVER ©1994, 2021 AutoSmart™ by Michael Hyde
+
+eeceeae 680 0
+
+peeeeoeoeeneeoenec5de
+
+J
+@9e@eeoeo@eoqgeesoseeoq0 @6.20806@@€@€e0eeqeeee se
+
+continued - JLR-6 SECTION
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator:n/a | Lishi: n/a. =| AccuReader: n/a. =| EEZ Reader: n/a Cobra: n/a
+
+NOTE: Take care when you disassemble the door lock as not to damage it.
+There is no passenger door lock or rear hatch lock. —
+
+Method #1 Remove door lock and disassemble and decode. Make a key from that lock and you will have a complete
+key. : :
+Left Track =
+= j0/0\0 > Glove Box
+O/0O; 0} 0) 07> Door
+O}O/0/0|O}> ignition
+112/31 4;5
+O/ 0/0) 0} 0 }> Ignition
+0/0/0/0}0)> Door
+: O,O,0 > Glove Box
+Right Track
+
+©1994, 2021 AutoSmart™ by Michael Hyde JAGUAR - LAND ROVER - 15
+JLR-7 SECTION
+
+2003-06 Range Rover (LandRover)
+| STYLE Tl tc
+
+_ High Sec - hone
+
+Key Fob is ordered from dealer. Key Fob will require IDS to finalize programming. _
+
+Determinator: n/a —_| Lishi: HU92R ‘AccuReader: n/a | ee Reader: n/a Cobra: n/a
+
+> Mike's Tip: Transponder System Standard - Dealer T4 or IDS to program, n. (BMW style looking key)
+
+> Remote Key: CWES500051SW - FCC Info: LX8 FZV / IC: 291102800 / 315 MHz / MER: Bayerische
+
+More © Some models can be read through Eeprom for key programming when there is no easier
+Info > alternative. This usually requires a piece of hardware such as AK90, AR32, HRT, Orange5, SMOK
+> Mike's Tip: | or TMPro. The second part to this is that you will need software to interpret the data “read” from
+
+hardware or cloners - are AR32, Tango, IKeyClone, HRT, MiraClone or TMPro.
+
+the Eeprom. Such software tools that can be used may or may not be included with the Eeprom =| _
+
+Code Series: 1-8000
+Bow. SPACING
+
+‘DEPTHS
+1=.150
+2 = 126
+
+985 | .865 | .747 | 629 | 61 | 393 | .275 | 156 | INTERNAL| 3=.102
+- ==} MILLING | 4=079
+
+7 2 3 4 | 6 | 6 fa
+
+Hid3d 8 30VdS
+
+NOTES: The right track is the one with the cuts, The left track is only a guide
+track. Pre-cut the right track to all number one depths and the left
+track will have the clearance it needs to work in the locks. _
+
+16 - JAGUAR - LAND ROVER : = ©1994, 2021 AutoSmart™ by Michael Hyde
+
+be@oeoeoee0d
+
+eseeaneaeveoonea eseoenend@
+@ ¢
+
+@e @ <«
+
+© 6 8 '@, <
+
+ie
+
+C
+
+¢
+
+@oee@oqeee
+
+Chip Information & Notes
+
+continued- JLR+7 SECTION
+
+Transponder:
+
+Standard
+
+Reusable: No
+
+Cloner Machine Information
+
+Chip: Philips 46
+
+(0. 4) © ScoRPO )
+
+(DIAG BOX) ( CHINA) (ILCO/SILCA) ( JMAUSA )\ ( KEYLINE ) ( wo)
+| Wiserp N90 RW4 TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+> M1 Yes MI Yes M1 Yes 2 Yes 2 M1 Yes!2 M1 Yes!:2 : Yes! 2 Yes
+a Green Chip CN3 & HUS2RMH TPX4.& TK100 & TPX4 & TPX4 & WDI Chip &
+Led | _& Shell Shell Shell BM2U Blade Shell Shell Shell
+O “4 - May require Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+oe — ~ = =
+(=)} Programmer & Diagnostic Tools = _—»
+
+4 & Die
+a Factory Tool
+Need ical ee (« TCODE/MVP PRO (« TDB1000 € HOTWIRE
+T4 or IDS N l
+: ue (« SMART PRO (« AUTO PRO PAD (« AUTEL IM608
+
+_ ?= Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: HU92R AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 = Remove door lock and disassemble. Decode tumblers and make working key.
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+JAGUAR - LAND ROVER - 17
+
+JLR-8 SECTION a
+
+2019-21 Defender 2017-21 Discovery | ~_—-2015-21 Discovery Sport
+
+2012-21 Evoque 2010-16 LR4 __ 2010-21 Range Rover
+
+MACS | Mr Bogs | Ign Retainer
+HighSec |
+
+0001-4000 or 4000-9000
+
+Key Fob is ordered from dealer. Key Fob will require IDS to finalize programming. —
+
+MASTER |Determinator: n/a _| Lishi: HUION | AccuReader: n/a _| EEZ Reader: n/a Cobra: n/a
+
+KEYS | » Mike's Tip: Transponder System Standard - Dealer IDS to progr.
+
+> Mike’s Warning: If the Emergency key you are cutting is made a of ‘Aluminum - use caution. lu use a
+cutting fluid to better ease the cutter along. The process of cutting the key heats up the aluminum to a point
+where the aluminum will bind with the cutter and ruin it. | use A-9 Aluminum Cutting Fluid, one oat on the tip
+and 1 drop on the center of the cutting area of the blade.
+
+18 - JAGUAR - LAND ROVER = ‘©1994, 2021 AutoSmart™ by Michael Hyde
+
+pe5eoeoeeeeeeseeeeee
+
+»>e@°@
+
+> @
+¢
+
+© e0@e @ ¢
+
+(
+
+¢
+
+Code Series: 001-4000 or 4000-9000
+
+continued - J
+
+n
+
+= EE SPACING Tip DERI
+= 1 2 3 4 5 6 7 8 9 40 4=.178
+UL 04 | 904 | 813 | 722 | 632 | 541 3 | 179 —
+oo i 813 |. a2. 451 | 360 | 268 | .179 a2
+s) 4=.109
+m — = 5 = .084
+ff Curtis Clipper: | i7n" N/A | Pak-A-Punch: | N/A
+
+a
+
+NOTES:
+
+LR-8 SECTION
+
+LOLNH
+
+Chip Information & Notes
+
+Transponder: Standard Equipment
+
+Chip: Integrated Circuit Board Transponder Chip
+
+Reusable: No
+
+> Mike’s Tip: Key Programmer Required. Test key is HU101.
+
+Cloner Machine Information
+
+No Cloning for this Proximity System
+
+Programmer & Diagnostic Tools
+
+YAGNOdSNVUL
+
+T4 or IDS
+
+Factory Tool
+
+PIN CODE
+REQUIRED
+
+(« TCODE/MVP PRO
+
+(« TDB1000
+
+(« HOTWIRE
+
+No (« SMART PRO
+
+(2 AUTO PRO PAD
+
+(x AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: HUIO1 —_| AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Remove the glove box lock and disassemble. Decode the tumblers and use a key code program to find the
+missing cuts needed to make a make working door key.
+Method #3 Remove door lock and disassemble. Decode tumblers and make working key.
+
+Proximity Models
+
+|
+QO
+oO
+
+10
+
+> Ignition / None
+
+> Doors & Trunk / Hatch
+
+> Glove Box
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+JAGUAR -
+
+LAND ROVER - 19
+JLR-9 SECTION
+
+2007-12 LR2 (Land Rover)
+
+| Ty |
+
+CODES | stwe | caRD#
+4000-9000 High Sec
+
+Z n/a t/a | — Yes none
+
+MACS | Start Cut | Cut to Cut Air Bags | Ign Retainer ==
+
+= Key Fob is ordered from dealer. Key Fob will require IDS to finalize programming.
+
+KEYS
+
+Determinator: n/a Lishi: HU101 | AecuReader: n/a EEZ Reader: n/a = Cobra: n/a
+
+> Mike's Tip: Transponder System Standard - Dealer IDS to program.
+
+Code Series: 4000-9000
+
+” == =
+ep Bow : SPACING SS = Tip DEPTHS |
+a 1 2 3 4 5 6 7 8 9 10 4=478
+m =] =z! 2 = .155
+ge 994 7 904 | 813 | .722 3 =632=|2547 AST : 360- 268 AT9 3=.131 =
+= == 4=.109 e
+fs Cam: Carriage: = a a =
+pry Curtis Clipper: N/A N/A : Pak-A-Punch: | N/A
+
+NOTES:
+Eri Chip Information & Notes a — —
+ma Transponder: Standard Equipment Chip: Integrated Circuit Board Transponder Chip | Reusable: No
+= ——__— :
+(7) > Mike's Tip: Key Programmer Required. Test key is HU101. —
+g Cloner Machine Information See 8
+m No Cloning for this Proximity System 2
+& or thi y
+
+20 - JAGUAR - LAND ROVER : = : ©1994, 2021 AutoSmart™ by Michael Hyde
+
+pee eeaeaeaoeeaaeeeeeoeees
+
+» |e
+@®eeé«
+
+@©eoe 666 6-4
+
+©®eeooeeoee08<
+
+¢
+
+C
+
+YAGNOdSNVAL
+
+continued -J
+
+LR-9 SECTION
+
+Programmer & Diagnostic Tools
+
+(« TDB1000
+
+(x HOTWIRE
+
+“Factory Tool) ( PIN CODE ee
+af _ REQUIRED (? TCODE/MVP PRO
+T4 or IDS
+
+No
+
+(? SMART PRO
+
+(> AUTO PRO PAD
+
+(? AUTEL IM608
+
+7= Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: HU101 | AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method#1 —_—Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 _ Remove the glove box lock and disassemble. Decode the tumblers and use a key code program to find the
+
+missing cuts needed to make a make working door key.
+
+Method #3 _ Remove door lock and disassemble. Decode tumblers and make working key.
+
+Proximity Models
+
+GO
+oo
+
+loo
+Oo
+ow
+
+410
+
+> Ignition / None
+
+> Doors & Trunk / Hatch
+
+> Glove Box
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+JAGUAR -
+
+LAND ROVER - 21
+HRAOSECTON = UBS Se
+
+2005-09 LR3 (Land Rover) _ 2007-09 Range Rover (Land Rover)
+
+| STYLE | me |
+
+| cARD#
+High Sec nl == none
+
+4000-9000
+
+MACS Stari Cut | Cut to Cut | Air Bags | Ign Retainer ===
+
+Key Fob is ordered from dealer. Key Fob will require IDS to finalize programming.
+
+MASTER
+KEYS | Determinator: n/a | Lishi: HUGE — AccuReader: n/a : EEZ Reader: nia | Cobra: n/a
+> Mike's Tip: Transponder System Standard - Dealer IDS to program.
+> Remote Flip Key: YWX000071 - FCC Info: NT8-I5K6014CFFIXA | 315 MHz
+Some models can be read through Eeprom for key programming when there is no easier
+More alternative. This usually requires a piece of hardware such as AK90, AR32, HRT, Oranges, SMOK
+“eo Mike’sTip: | or TMPro. The second part to this is that you will need software to interpret the data “read" from
+
+‘| the Eeprom. Such software tools that can be used may or may not be included with the Eeprom-
+hardware or cloners - are AR32, Tango, |KeyClone, HRT, MiraClone or TMPro.
+
+_ SPACING a SEPTRS
+
+a 1 S| 4 5 6) 7 | s-| 2 | 1=.178
+
+m = = : 2=.155
+
+pig 204 | 904 | 813 | .722 | 632 | 541 | 451 | 360 | 268 | 179 35 131 x
+Oo gee 4=.109 ¢S
+a oe Cam: Carriage: Pehci —— =
+er Curtis Clipper: N/A N/A Pak-A-Puneh: N/A
+
+NOTES:
+
+22 - JAGUAR - LAND ROVER
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+peececoees
+
+peeeeenaeeaeenunee8e
+
+)
+©#eeo eee se
+
+© @ @ «
+
+©@0@©@e@e08 606 @'@ ¢
+
+¢
+
+¢
+
+continued - JLR-10 SECTION
+
+Chip Information & Notes
+
+Transponder: Standard
+
+Chip: Philips 46
+
+Reusable: No
+
+Cloner Machine Information
+
+(DIAG BOX) ( CHINA) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LL.D. \( SCORPIO )( wo)
+
+CLONE ; i
+= WIZARD CN900_ RW4 TRS-5000/EVO 884 Ultegra MIRACLONE TANGO MINI TOOL
+S ™] Yes [V7] Yes M1 Yes 2 M1 Yes? M1 Yes!2 M1 Yes!:2 7 Mi Yes':2 @ Yes
+e Green Chip & CN3 & GTl& TPX4 & TK100 & TPX4 & : TPX4 & VVDI Chip &
+S HU101 Shell HU101 Shell HU1014 Shell HU101 Shell HU101 Blade HU101 Shell HU101 Shell Shell
+@) “4-- May require Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+2 ~—= : ——
+'s)| Programmer & Diagnostic Tools
+m —s
+a Factory Te
+
+ry Tool PIN CODE
+Eee 3 !
+REQUIRED (: TCODE/MVP- PRO (x TDB1000 (« HOTWIRE
+T4 or IDS N
+0 ( SMART PRO- (2 AUTO PRO PAD [- AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: HU101 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Remove the glove box lock and disassemble. Decode the tumblers and use a key code program to find the
+missing cuts needed to make a make working door key.
+Method #3 Remove door lock and disassemble. Decode tumblers and make working key.
+
+Non-Proximity Models
+
+O0;0/0/0/0/0/0;0|0} @ | > Ignition
+
+0;0|}0)0/0/0/0)0; | 0 }> Doors & Trunk / Hatch
+O/o}oO/oO;o;o > Glove Box _
+
+1/213)415/617/819 10
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+JAGUAR - LAND ROVER - 23
+
+JLR-14 SECTION
+
+== 1987-91 Sterling (LandRover) =
+
+CODES
+
+| ste | carpe | mse | macs | Startcut | cutto cut | AirBags | ign Retainer
+8000-9000 | DbiSided | CF,xF48 Roll Pin
+MASTER : =o oe
+es - NATIONAL: KEYLINE: Co JET: JMA: STRATIEC: DEALER:
+NE48 / RV4 nla X170 / X239 = n/a ng = | Wa : n/a
+Determinator: n/a Lishi: NE38_-—_| AccuReader: n/a FEZ Reader: n/a | Cobra: n/a
+
+@ no TRANSPONDER SS) | Sas
+
+Code Series: E 8000-9000
+
+PAK-LR1 403
+
+DEPTHS a
+SPACING Se 1=.NoCut | f
+=|] —, = : 2 S22 275
+o 1 2 3 4 5 6 L : 2 3 = .252
+= 098 | 185 | .272 | 358 | 445 | .531 | 626 | 673 | 768 | 815 bees
+2. .
+ge HPC Curtis Clipper Pak-A-Punch =| ——_‘ITL cut
+= = == er to Cut:
+a CF48, XF48 Cam: BL-5 .087
+ot
++
+
+Carriage: RV-1A
+
+NOTES: Each double chamber has 2 wafers.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: NE3B | AccuReader: n/a EEZ Reader: nia _| Cobra: n/a
+
+Method #1 Remove door or trunk lock and disassemble and decode. Make a key from the lock and
+_ you will have a complete key. There is an eleventh tumbler and it is always a zero cut, the tip
+of the key raises itto the shearline.
+
+Method #2 Impression locks, remember spaces 9& 10 are double wide and should contain the same
+depth in each double wide chamber, but some variations have been found.
+
+O10/0}0/0|}0/0}0} O }|> Ignition
+o/o}o}o0/o0/o0}0/0} O |> Doors
+
+0/0/0/0|0/0/0|0| dO |> Trunk
+
+224151'6 7 38
+
+24 - JAGUAR - LAND ROVER - E ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeevoeveaeaneneeeeee
+
+eo
+
+eooecoeed
+NINES USA
+
+Official U.S. Partner
+
+hs
+A:‘B-RIT-E’S
+
+automotive solutions
+
+|
+
+ACHIEVE THE
+IMPOSSIBLE
+
+www.abritesusa.com
+
+For sales and information, please contact Brian
+P. 205.276.3656 | keymasterlsw@yahoo.com
+
+©1994, 2021 AutoSmart™ by Michael Hyde JAGUAR - LAND ROVER - 25
+“LR. 12 SECTION just its
+
+IGNITION
+_ pOOR,
+TRUNK
+KEYS >
+
+Alternate
+
+-1990- 91 Vanden Plas (Jaguar)
+
+“STYLE
+
+| caro# | im# | Macs ss Start Cut | cae a 7
+Direct Digit :
+
+Gi Retainer
+
+Tibbe
+| 11111111-33333333 | High Sec nia uke - Active
+_ NATIONAL: KEYLINE: ILCO: =JE Sie) IMA _STRATTEC; | ‘DEALER:
+“JAG-8CUT nla ~ $32F- E nla TPOO-JAU-1 | a Wa
+Determinator: nfa_ | Lishi: n/a a AccuReader: n/a _| EEZ Reader: na se Cobra: nla =
+
+__AK01-1000
+
+» Mike's Tip: There are overlapping keyways between the Tibbe System and Conventional keyways.
+
+CODES | stve | canoe | mg Start Cut |
+_ Dbl Sided
+
+| macs | Cutto Cut |
+
+TRUNK — - =
+: KEYS > NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: — _ DEALER:
+FEZ na | X86 =FG7 EOS nla aa =
+More> | > Mike’s Tip: ag are overlapping keyways between the Tibbe System and Conventional ener
+____ |) Fob Remote: DBC11512 (some 1996-97) FCC Info: K85!TX433 | 433) MHz ee
+rem o’® |» Fob Remote: DBCTI510 (some 1995-96) FCC Info: KB5ITX3I5: [315 Miz
+
+> Fob Remote:
+
+DBC10084 (some 1993-95) FCC Info: G57/TX318 | 315 MHz
+
+DBC1I512, DBCTI510 ~— DBc10084
+
+aoe Cut to Cut: :
+
+= == == = = 088 :
+-S 324 pee
+& St
+Qo _ 8 Disc Wafers
+iw) S tae (Depths)
+m == ==
+Uv
+aj =
+= —— we
+
+HPC | Curtis Clipper Pak-A-Punch | OTL
+
+n/a n/a na n/a
+
+26-JAGUAR-LANDROVER
+
+1ND-8 eqqis
+
+©1994, 2021 AutoSmart™ by Michael Hyde ~—
+
+i oo ee ee
+
+se5oaeeee
+
+»>e@°@
+
+)
+@@e@e@e@@eeeqoeeeeoeqeoo?e@e8@88ee@eoeede ¢
+
+eal =e | confinued-JLR-12 SECTION
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: n/a ——_—_| AccuReader: n/a | EEZ Reader: n/a Cobra: n/a
+
+NOTES: 7
+You will need to have a machine that can code cut 8 wafer Tibbe keys, not all machines do. Silca makes such a machine or you
+can buy an adapter to use on an HPC 1200 Code Machine. Framon also makes an adapter for their #2 Code Machine.
+
+Remove door panel, usually this is a two piece panel, remove door handle/lock assembly. Do not take components apart.
+Turn handle/lock assembly so you can look through the cylinder cavity drain hole, where the tumblers are. There are eight
+tumblers and three depths (angles). You may only be able to see tumblers two through eight, progression number one tumbler.
+
+a re >
+
+The tumblers with one notch in it, is a number one depth.
+The tumblers with two notches in it, is a number two depth.
+The tumblers with no notch in it, is a number three depth.
+
+You should now be able to make a master key for all locks on the car.
+
+\e | ee
+
+Olol|ololo/o/o/o)> ignition
+(22610) GG Ee BO |> Doors. _ =
+O,O);oO;o0/0 O/O]>Trunk
+==Le | Oe > Glove Box
+1/213/415|6|7/8
+©1994, 2021 AutoSmart™ by Michael Hyde JAGUAR - LAND ROVER - 27
+JLR-13 SECTION
+
+FR 01-6000
+
+| sme |
+
+1986- 89 Vanden Plas (Jaguar)
+
+carpt | im# | macs | Startcut | cuttocut | Air Bags | ign Retainer §
+
+AK 01-1000
+
+Dbl Sided
+
+LE | _cARD# |
+
+307/625
+
+IGNITION FZ 01-1232 Sgi Sided Roll Pin
+——— NATIONAL: KEYLINE: _JET: IMA: STRATTEC: DEALER:
+CRT FT6R na FT6R na FO-FR na nla
+Determinator: n/a Lishi: n/a AccuReader: n/a -EEZ Reader: n/a | Cobra: n/a
+| sty m# | macs | Startcut | cuttocut |
+
+KEYS > NATIONAL:
+
+FC7 n/a
+
+KEYLINE:
+
+ILCO:
+X86
+
+= JE:
+FC7
+
+= IMA:
+—FO-5
+
+STRATTEC:
+
+na
+
+DEALER: —
+n/a
+
+=| NO TRANSPONDER
+
+Code Series: FR 01-6000 & FZ 01- 1232
+
+: : DEPTHS
+S Bow SPACING Tip 0 = .266
+> 1 2 z 4 5 : 1=.246
+2 : Cut to Cut: 137 ——
+158 .296 434 572 710 3 = .206
+Qo i = 186
+o : Z 5 = 166
+S HPC Curtis Clipper Pak-A-Punch Th = 42 :
+ze Os 5 - Cam: 15W-1 ;
+ae Carriage: 15W-1 He 2= =
+Code Series: AK 01-1000 ===
+: DEPTHS
+- Bow — SPACING | == Ep 1= 323
+E 2=.291
+2 1 2 3 | 4 5 6 ~ @ 2a =
+fem 079 | 77 | 220 | 319 | 417 | 461 | 559 | 659 | .757 | 801 —
+Oo HPC Curtis Clipper Pak-A-Punch ITL Cut
+m : = to Cut:
+vu Cam: BL-10 = Varies
+a CF11, XF11 Carriage: BL-10A n/a els or 625
+CUTS 2, 4, & 7 ARE DOUBLE CUTS. EXAMPLES OF CODE #AKO01 IS °301213"
+= TO: 3221221233 =
+
+28 - JAGUAR - LAND ROVER
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+peean5uavue5n5naeeeeeee5ese
+
+eee @
+©9e@2@@ee@eqogoeooqe@eo0888@e@eede2ede ¢
+
+= ‘continued - JLR-13 SECTION
+
+Codes: | See below. = = ae —
+
+Decoders: Determinator: n/a Lishi: n/a  AccuReader: n/a -EEZ Reader: n/a Cobra: n/a
+~ IGNITION KEY: ;
+NOTE: 2 Se =
+Keycode can often be found on a paper label stuck to the inside of the steering lock after the electrical switch
+
+is removed.
+Disassembly of the ignition cylinder is difficult and time consuming. The ignition cylinder is a pin tumbler
+lock that the plug is prone to crack, so check top of keyway for crack. One of the following methods could
+be used:— == 3
+Method #1 Impression Ignition cylinder (check for crack at top of keyway).
+
+_ Method #2 Remove and replace ignition cylinder with ASP part #C-14-215,
+Method #3 Disassemble ignition cylinder to make key.
+DOOR / TRUNK KEY:
+
+Method #1 Impression door cylinder to make working door / trunk key.
+
+Method #2 Disassemble door cylinder to make working door / trunk key.
+
+©1994, 2021 AutoSmart™ by Michael Hyde JAGUAR - LAND ROVER - 29
+“JLR-14 SECTION
+
+| sme | carpe | mut
+
+1976-85 Vanden Plas (Jaguar)
+
+| macs | Startcut | Cuttocut | AirBags | Ign Retainer
+
+| canpy | ime |
+‘| 307/625 |
+
+CODES |
+AK.01-1000
+
+STYLE
+Dbl Sided
+
+FR 01-6000 Sgl Sided 158 Roll Pin
+IGNITION = = : == =
+& DOOR NATIONAL | —__ KEYLINE: ILCO: _ JET: JMA: STRATTEC— DEALER:
+KEYS > FT6R = =Nag _ FT6R nla FO-FR n/a — na
+Determinator: n/a Lishi: n/a AccuReader: n/a EEZReader: n/a ——_— Cobra: n/a
+
+macs | StartCut | cuttocut |
+
+Varies Space & Depth Grid: A
+
+NATIONAL: — KEYLINE:
+EG] = n/a
+
+CODES
+WR1000-2999
+
+STYLE
+Dbl Sided
+
+TRUNK
+
+STRATTEC:
+na
+
+DEALER:
+= nla
+
+Start Cut | Cuttocut |
+
+Varies Varies Space & Depth Grid: B
+
+NATIONAL: KEYLINE:
+WB2 n/a
+
+ILCO: :
+WB? 2 — fila
+
+JMA: STRATTEC:
+nla — a :
+
+DEALER:
+n/a -
+
+> Mike's Tip:
+
+There are several trunk keyways possible. When cutting the WB2 key you will need to cut each side differently as
+there are separate cuts on each side and the shoulder of the key is different on each side,
+
+Ss NO TRANSPONDER Se Se
+
+Code Series: FR 01-6000 & FZ 01- 1232
+
+= : DEPTHS
+= Bow SPACING == = Tip 0 = .266
+a 1 ee) 4 5 = 1=.246
+m _ Cut to Cut: 137 ses
+158 .296 434 572 710 gE Se SS 3 =.206
+ge = 4=.186
+o Ss 5 = 166
+‘ HPC Curtis Clipper Pak-A-Punch ~ AE
+= —Cam: 15W-1 2
+CF / XF40 Carriage: 15W-1 nia = 135
+
+Code Series: AK 01-1000
+
+Bow SPACING = =. Tip
+% 1 2 3 4 5 6 7
+Ee 079 |-177 4 226=| 3319-2 41724 461 | 559. |=659 | 7574 801
+se : =
+oO HPC Curtis Clipper Pak-A-Punch | — ITL —
+m — - :
+uv Cam: BL-10 4
+3 CF11, XF11 Carriage: BL-10A n/a = ou?
+
+CUTS 2, 4, & 7 ARE DOUBLE CUTS. EXAMPLES OF CODE #AKOO01 IS "371213"
+CONVERT TO; 3 22 1221233
+
+—_DEPTHS
+
+1= .323
+2=.291
+3 =.268
+4=.243
+
+Cut
+to Cut:
+Varies
+
+30 - JAGUAR - LAND ROVER
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeeceoeeouaneeeeoeeeeeeeee 6
+@©9e6@@eee@e8 eee ¢
+
+C
+
+e @'<
+
+®@ee@eeoeeoee
+
+Hild3d 8 30VdS
+
+continued - JLR-14 SECTION
+
+DEPTHS
+Bow SPACING Tip 1=.323
+130 | 497 | .264 | .331 | 398 | .465 | .532 | 598 | 665 | 732 | tonaswe | — sen
+1] 21|3)415 161718 1 9 40 a7
+063 | 130 _|—197_| .264 | .331 | 398} 465_|.532 | 598 | .665 | SHORT SIDE cu
+= to Cut:
+HPC | Curtis Clipper Pak-A-Punch ITL Varies
+CF, XF47 : n/a n/a 243
+NOTES: The shoulders on this key are offset, therefore the spacing will be
+offset from one side to another.
+Codes: | See below.
+Decoders: | Determinator: n/a ‘Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+IGNITION KEY:
+
+NOTE:
+
+Keycode can often be found on a paper label stuck to the inside of the steering lock after the electrical switch
+
+is removed.
+
+Disassembly of the ignition cylinder is difficult and time consuming. The ignition cylinder is a pin tumbler
+lock that the plug is prone to crack, so check top of keyway for crack. One of the following methods could
+
+be used:
+
+Method #1 Impression Ignition cylinder (check for crack at top of keyway).
+
+Method #2 Remove and replace ignition cylinder with ASP part #C-14-215.
+
+Method #3 Disassemble ignition cylinder to make key.
+
+DOOR / TRUNK KEY:
+
+Method #1 Impression door cylinder to make working door / trunk key.
+
+Method #2 Disassemble door cylinder to make working door / trunk key.
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+JAGUAR - LAND ROVER - 31
+JLR-15 SECTION
+
+2000-08 S-Type (Jaguar)
+
+| STYLE
+
+Direct Digit Tibbe
+: n/a Active
+MASTER 111111-444444 High Sec
+KEYS > NATIONAL: KEYLINE: ILCO: Slgn JMA: STRATTEC: ‘DEALER:
+JAG-S-KEY BJAG2-PT n/a ~ fa TP06-FO6.P na n/a
+Determinator: n/a Lishi: n/a- AccuReader: n/a : EEZ Reader: n/a | Cobra: n/a
+S-Type - HEC 2000-2002 / CAN 2003-2008 Test key is Tibbe 6-Cut. :
+> Mike's Tip: X-Type - CAN 2002-2007
+XJ Series - CAN 2004-2009
+More > Instead of buying a real expensive factory OEM Flip Remote - Get the ILCO# FLIP-JAG-4B1 (much cheaper)
+Info >
+
+> Dealer Part# for Non-Remote XR8-1611, Dealer Part# for Flip Out Key section C2S-31067
+
+> Remote Section: C2C-35283 (2002-08) FCC Info: CWTWBIU243 | 314.5 MHz
+
+> Fob Remote: XR83-15K601-AA (2000-03) FCC Info: CWTWB1U322 | 315 MHz
+
+XR83-15K601-AA €2S-31067
+
+Code Series: T111111-444444
+
+2) = : gia
+
+ae 088'> = eee < 72 Cut to Cut:
+
+> ‘ 441) 088
+
+Q Sas — Se es! 222
+
+= : =
+
+5 6 Disc Wafers _
+
+m <*.080" 4 Angles (Depths) _
+
+3 — 5
+
+= : poe o
+HPC Curtis Clipper Pak-A-Punch {| ITL @
+
+2)
+
+n/a n/a n/a = = =fi/a if =
+
+32 - JAGUAR - LAND ROVER
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+pee oaoeoeoeoeeeeeeeeeeeeee
+
+¢
+
+¢
+
+¢
+
+®9@e@6 6,0 ¢
+
+¢
+
+@® @ «4
+
+@oe2@e@eee¢«
+
+_Chip Information & Notes
+
+continued - JLR-15 SECTION
+
+Transponder: Yes
+
+Chip: 4D60 —— —
+
+Reusable: Yes
+
+Cloner Machine Information
+
+(“CHINA ) (ILCOISILCA) ( JMAUSA )
+
+( DIAG BOX ) ( wevunE )( Lp. )( scorrio )( wo )
+tenn cNg00 RW4+ TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+= I Yes M1 Yes Yes MI Yes? M1 Yes 1 Yes? M1 Yes? M1 Yes
+2 Blue Chip CN2I5 FO21MH or TPX2 GK100/TK100 | | CN5 or TPX2 | | CN5 or TPX2 | | VVDIChip &
+rr & Shell & Shell GTI & Shell & Shell & JA2U Blade & Shell & Shell Shell
+Bs *4 - Requires Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+Zz . = = ==
+fs) Programmer & Diagnostic Tools
+m
+yell ( Factory Tool PIN CODE
+S27 7 REQUIRED ¥_TCODE/MVP PRO x FDB1000 x HOTWIRE
+IDS == =.
+VCM Il & : ;
+No ¥ SMART PRO 2? AUTO PRO PAD v AUTELIM608
+
+Supscription
+
+? Note: Check to see if your key programmer supports your vehicle.
+
+Codes: | No codes on any locks.
+
+Decoders: Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTES: You will need to have a machine that can code cut Tibbe keys. Silca makes such a machine or you can buy
+: an adapter to use on an HPC 1200 Code Machine. Framon also makes an adapter for their #2 Code
+Machine. —
+Method 1: There are several 6-cut Tibbe lock picks & decoders on the market that can accurately read the lock.
+Method 2: Remove the door lock and look through the drain hole to read the notch’s on them for the depth’s.
+
+1 notch is a #1 Depth/Angle, 2 notch’s is a #2 Depth/Angle, 3 notch’s is a #3 Depth/Angle
+& No notch is a #4 Depth/Angle.
+
+For models that do not have notch’s on the tumblers when you look through the drain hole - you will to
+disassemble the lock to read the depth (angle) number stamped on the side of the tumbler. The tumblers
+have no notches on them,
+
+> Ignition
+> Doors
+> Trunk
+
+“i0 oO 0
+Nig oo
+o/o OO
+SIC oli
+a/O OO
+ojo 00
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+JAGUAR - LAND ROVER - 33
+
+JLR-16 SECTION seer see
+
+2018-21 E-Pace | 2017-21 F-Pace | 2014-21 F-Type | 2019-20 I-Pace
+
+2014-21 XUR 2007-15 XK
+
+2017-20 XE | 2008-21 XF 2010-21 XJ
+
+| STV i macs | start ut t | entoca | Air Bags
+
+0001-4000 or 4000-9000 | High Sec
+
+| Ign Retainer 2S
+
+~ Key Fob is ordered from dealer. Key Fob will require IDS to finalize programming.
+
+MASTER | Determinator: n/a Lishi: HU101 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+KEYS> |» Mike's Tip: So System Standard - Dealer IDS to program.
+
+» > Mike’ s Warning: If the Emergency key you are cutting is made out of Aluminum - use caution. lusea
+cutting fluid to better ease the cutter along. The process of cutting the key heats up the aluminum to a point
+where the aluminum will bind with the cutter and ruin it. | use A-9 Aluminum Cutting Fluid, one drop on the tip
+and 1 drop on the center of the cutting area | of the blade.
+
+34 - JAGUAR - LAND ROVER =
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeeoeee
+
+peoeeoeounaeen eee
+
+)
+
+on
+¢
+
+© e
+
+¢
+
+¢
+
+@®©\e@eoe@oeeoeee9ee6e0e@ ¢
+
+Code Series: 001-4000 or 4000-9000
+
+continued - JL
+
+ws :
+Sepa Bow SPACING 2 Tip DEPTHS
+4 1 os 4 5 = 7 8 9 10 4= 478
+mh eae 2=.155
+pay 994 904 | 813 | .722 | 632 | 541 | .451 | 360 | .268-| .179 3= 131
+4 4=.109
+m aS ; 5 = .084
+fifi Curtis Clipper: . a Pak-A-Punch: | N/A
+
+Ps
+
+NOTES:
+
+R-16 SECTION
+
+Kay Biawy
+LOLNH
+
+Chip Information & Notes
+
+Transponder: Standard Equipment
+
+Chip: Integrated Circuit Board Transponder Chip
+
+Reusable: No
+
+> Mike's Tip: Key Programmer Required. Test key is HU101.
+
+Cloner Machine Information
+
+=
+a
+> =
+z No Cloning for this Proximity System
+oz)
+U = = =
+<. Programmer & Diagnostic Tools —
+i Factory Tool PIN CODE
+Ps] — REQUIRED (« TCODE/MVP PRO € TDB1000 (« HOTWIRE
+T4 or IDS N
+° (« SMART PRO € AUTO PRO PAD (. AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: HU101 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock,
+Method #2 Remove the glove box lock and disassemble. Decode the tumblers and use a key code program to find the
+~ missing cuts needed to make a make working door key.
+Method #3 Remove door lock and disassemble. Decode tumblers and make working key. —
+
+Proximity Models
+
+|
+El
+
+O
+O
+
+Oo
+oO
+
+O
+O
+
+tl
+O
+
+O
+O
+
+10
+
+> Ignition / None
+
+> Doors & Trunk / Hatch
+
+> Glove Box
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+JAGUAR -
+
+LAND ROVER - 35
+JLR-17 SECTION, = fitters |
+
+| |GNITION.
+poor,
+TRUNK
+
+KEYS >
+
+Direct Digit_
+NIM111-33333333
+
+STYLE
+
+Tibbe | |
+High Sec
+
+“= 22 NATIONAL i=
+___ NATL-JAG-2000 (2000-03) _
+
+- DEALER:
+
+_ HID7230AA1 (2000- 03)
+
+C2N-1966 (2004- ie
+
+Determinator: nia
+
+|Lish: n/a
+
+Accueader nia
+
+FEZ Reader: n/a Cone: ae
+
+> Mike’s Tip: SSS System. Standard: On All. est key is Tibbe 8-Cut,
+
+Remote
+Info >
+
+> Fob Remote: LIA2610AA (Check VIN with Dealer) FCC Info: K85971315 1315 M MHz =
+
+> XJ Series
+
+| > Fob Remote: LIEZ6I0AC (Check VIN with Dealer) FCC Info: CWTWB1U322 | 315 MHz ]
+
+>XKSeries
+
+__| > Fob Remote: LIA2610AA (Check VIN with Dealer) FCC Info: K8597T315 [315 MHz
+
+~ LJE2610AC_
+
+> Fob Remote: LIE2610AC (Check VIN with Dealer) FCC Info: CWTWB1U322 | 315 MHZ
+
+H1d3Q 8 A0VdS
+
+3 <.080"
+
+22 j=
+
+_ 8Disc Wafers
+3 Angles (Depths)
+
+Cut to Cut:
+
+ee
+
+1N9-8 eqqiL
+
+36 - JAGUAR - LAND ROVER
+
+HPC Curtis Clipper | - Pak-A-Punch = 2 TPL
+a nla Sas n/a
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+| carpe | | me | [macs — . Cut to Cut a3 = i: Ign Retainer oa
+
+peeeeeeeoeoe ooo e ee eee ees
+@ <
+
+6902 0@0e0e0e0e0
+
+C
+
+o9@2e9@@0@088080 6 ¢
+
+¢
+
+continued - JLR-17 SECTION
+
+Chip Information & Notes
+
+Transponder: Standard Chip: Megamos 48 Reusable: No
+Cloner Machine Information — =
+(DIAGBOX) (CHINA ) (ILCO/SILCA) ( JMAUSA-) ( KEYLINE )(  L.D.  ) ( SCORPIO )( wo)
+CLONE CN900 RW4 TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+WIZARD
+Yes [VJ Yes M1 Yes'&2 @® No M1 Yes! 1 Yes! ~ @ No [J Yes
+Yellow Chip CNG & 148 Chip & a = WDI Chip &
+&Shell | | Tibbe 8 Shell | | Tibbe 8 Shell eee rie Shell
+
+“4 - Requires Internet Access to complete cloning. *2 - Requires M-Box.
+
+Programmer & Diagnostic Tools
+
+YAGNOdSNVUYL
+
+Factory Tool _ PIN CODE
+‘| | REQUIRED [v teovenve PRO (x TDB1000 (« HOTWIRE
+T4 or IDS N
+. [v sware PRO € AUTO PRO PAD (v AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders:
+
+Determinator: n/a
+
+Lishi: n/a
+
+AccuReader: n/a
+
+EEZ Reader: n/a
+
+Cobra: n/a
+
+NOTES:
+
+You will need to have a machine that can code cut 8 wafer Tibbe keys, not all machines do. Silca makes such a machine or you
+can buy an adapter to use on an HPC 1200 Code Machine. Framon also makes an adapter for their #2 Code Machine.
+
+Remove door panel, usually this is a two piece panel, remove door handle/lock assembly. Do not take components apart.
+Turn handle/lock assembly so you can look through the cylinder cavity drain hole, where the tumblers are. There are eight
+tumblers and three depths (angles). You may only be able to see tumblers two through eight, progression number one tumbler.
+
+The tumblers with one notch in it, is a number one depth.
+
+The tumblers with two notches in it, is a number two depth.
+
+_ The tumblers with no notch in it, is a number three depth.
+
+You should now be able to make a master key for all locks on the car.
+
+BE ob ooo | O |> Ignition
+0/0/|0|0/0;}0;0/0/> Doors
+O7;0;0,;0/0 Oj O [> Trunk
+Of || oO > Glove Box _
+1|2/3/4/5/6);7/8 :
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+JAGUAR - LAND ROVER - 37
+
+1998-99 XJ Series (Jaguar)
+
+| stme | carpe | ey | macs | startcut | cuttocut | AirBags _| ign Retainer
+
+_Tibbe
+High Sec
+
+Direct Digit
+TI111111-33333333
+
+Active
+
+NATIONAL: oe _ DEALER:
+_TBE-T5 = HNA-7230AA1 _
+
+IGNITION
+
+DOOR, | For cars with no existing keys: 2
+
+TRUNK Factory keys will have their own unique value o on each key. If using aicaneneid or generic keys you
+KEYS => | must use keys that have their own unique value on each key, before you can program new keys into
+the into the car. You cannot use 2 keys with the | same value - the car will not auceptt them for
+
+programming.—
+
+Determinator: n/a Lishi: n/a AccuReader: n/a : EEZ Reader: n/a ‘Cobra: n/a
+
+> Mike's Tip: Transponder System Standard On All, Test key is Tibbe 8-Cut.
+
+Remote > | > Fob Remote: LJA2610AA - FCC Info: K8597T315 | 315 MHz
+
+~ LJA2Z610AA
+
+Code Series: T11111111-33333333
+
+Cut to Cut:
+$ ====. .088
+ge : 8 Disc Wafers 4
+oO == 3 Angles (Depths) SE
+<= <.080 JS ve c
+3 °
+ao - - — - == == Q
+HPC Curtis Clipper Pak-A-Punch ~ FTL =
+n/a n/a nao. |-222— Na
+
+38 - JAGUAR - LAND ROVER — ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeeeoeeeaeaeeaeaeaeeeeeeeed
+¢
+
+o@oeoeoee068#0e60262ee0e08 © @
+
+¢
+
+¢
+
+continued - JLR+18 SECTION =
+
+Chip Information & Notes a 2
+Transponder: Standard Z Chip: T5.(13) Reusable: Yes
+
+Cloner Machine Information
+
+(DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LD. \( SCORPIO \( wo)
+
+= wits CN900 RW4 TRS-S000EVO| | 884 Ultegra MIRACLONE | | TANGO MINI TOOL”
+= [YJ Yes M1 Yes lv] Yes wv Yes M1 Yes M Yes —| | Yes M1 Yes
+Peay | Red Chip & 158 15 & T5& T5& T5& T5& T5&
+Soil | Tibbe 8 Shell | | Tibbe 8 Shell| | Tibbe 8 Shell | | Tibbe 8Shell | | Tibbe8 Shell | | Tibbe 8 Shell | | Tibbe 8 Shell | | Tibbe 8 Shell
+2 : :
+(=) Programmer & Diagnostic Tools |
+
+Factory Tool _ PIN CODE
+
+: REQUIRED ¥ TCODE/MVP PRO x TDB1000 x HOTWIRE
+T4 or IDS N : :
+° (- SMART PRO (« AUTO PRO PAD (« AUTEL IM608
+
+= ? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: n/a AccuReader: n/a FEZ Reader: n/a Cobra: n/a
+
+NOTES: —
+You will need to have a machine that can code cut 8 wafer Tibbe keys, not all machines do. Silca makes such a machine or you
+can buy an adapter to use on an HPC 1200 Code Machine. Framon also makes an adapter for their #2 Code Machine.
+
+Remove door panel, usually this is a two piece panel, remove door handle/lock assembly. Do not take components apart.
+Turn handle/lock assembly so you can look through the cylinder cavity drain hole, where the tumblers are, There are eight
+tumblers and three depths (angles). You may only be able to see tumblers two through eight, progression number one tumbler.
+
+The tumblers with one notch in it, is a number one depth.
+The tumblers with two notches in it, is a number two depth.
+The tumblers with no notch in it, is a number three depth.
+
+You should now be able to make a master key for all locks on the car.
+
+O,\oO;0/0 Oj> Ignition
+O/0\|0|8/0|0/0/O|>Doors —
+O7;0;0,;0/0 O [> Trunk
+Byojoio > Glove Box
+( B22 22) 62 2228 2 :
+©1994, 2021 AutoSmart™ by Michael Hyde JAG UAR - LAND ROVER - 39
+1988-90 XJ Series (Jaguar)
+
+“Tue |
+
+JLR-19 SECTION
+
+CODES | STYLE | MACS | Start Cut Cut to Cut | Air Bags Ign Retainer &
+
+CARD#
+
+‘K001-1005 | DblSided | XF49 Active
+IGNITION = |__— — =
+& DOOR NATIONAL: KEYLINE: HCO JET: JMA: - STRATTEC: DEALER:
+KEYS > == JA? nla X177 _ nla Nee Wa = nla
+
+Determinator: nla— Lishi: n/a __| AccuReader: n/a EEZ Reader: nia ___—_| Cobra: n/a
+
+More=> | > Mike's Tip: There are overlapping keyways between the Tibbe System and Conventional keyways.
+
+AK 01-1000 DblSided | XFI | 307/625] 2 079 Varies
+TRUNK +— San
+KEYS > NATIONAL: KEYLINE: eo = = = JET: JMA: STRATTEC: |  _ DEALER:
+
+FG7 n/a X86 — FCZ FO-5 =e n/a
+
+ce NO TRANSPONDER
+
+Code Series: K 001-1005
+
+Bow SPACING __ pt i= 268
+> 1 2 3 4 5 6 7 | 81] 9 | 10 | 2=:248
+QO Es 3 = .228
+= 169 | .260 | .350 | 441 | 531 | 622 | 713 | 203 | 294 | 984 | 4= "209
+= — a Cut
+a _ HPC Curtis Clipper Pak-A-Punch | — ITL | to cut:
+= Cam: CAP-1 22 ao
+Sam: = = S| =
+CF or XF49 | Carriage: CAP-1 a a= 244
+
+Code Series: AK 01-1000
+: : a 3 DEPTHS
+Bow | SPACING === Tip 1=.323
+
+S : oe ase 2=.291
+> : = : : 2 = = x 3 =.268
+- 079 | 177 | .220 | 319 | 417 | 461 | 559 | 659 | 757 | 801 | 4=-243
+= ae a
+
+o HPC Curtis Clipper Pak-A-Punch = 1 Cut
+m ols = to Cut:
+Re crnxen | _ Cam BL10 nia __| 3070re25 | Varies
+=
+
+Carriage: BL-10A
+
+CUTS 2, 4, & 7 ARE DOUBLE CUTS. EXAMPLES OF CODE #AKOO1IS "321213"
+~ CONVERTT0:3221221233 - =—
+
+40 - JAGUAR - LAND ROVER = ©1994, 2021 AutoSmart™ by Michael Hyde
+
+De
+
+>
+
+peee5ueeseaeseeeneeeeede
+@©eeee
+
+eceoaooaoo@ ea 000008 e ¢ a
+
+continued - JLR«19 SECTION
+
+Codes: | No codes on any locks. = SS =
+
+Decoders: —
+
+Perot na Lishi: n/a — -|EEZReader: n/a — Cobra: n/a
+
+Method #1
+
+Zz Have customer get key code a the dealer's SHuS dept. : =. = :
+
+PRIMARY KEY: Se 2 fe
+' Impression door lock to make working door lignton key. ==
+
+Impression trunklock, : 22 =
+
+= " SECONDARY KEY,
+Remove and disassemble the ane to decode the tumblers, Widen cuts in jaieas 2-3 & 5-6.
+Eitheri impression the remaining cuts | in’ the trunk lock or use a computer program t to find the missing cuts and_ -
+progression that out. : ==
+
+> Ignition
+> Doors
+
+: O/}0}0}0]  |> Trunk
+Bo > Glove Box
+Z 6171/8 | 94 104 -
+©1994, 2021 AutoSmart™ by Michael Hyde JAGUAR - LAND ROVER - 41 ~
+
+JLR-20 SECTION
+
+FR 01-6000
+
+Sgl Sided XF40
+
+CARD# |
+
+1973-87 XJ Series (Jaguar)
+
+macs | startCut | CuttoCut
+
+ITL#
+
+Air Bags | ign Retainer
+
+Roll Pin
+
+IGNITION FZ 01-1232
+& DOOR = +
+> NATIONAL: KEYLINE: ILCO= IEE JMA: STRATTEC: DEALER:
+KEYS _—-FTGR nla FTGR nia FO-FR ‘nla n/a
+Determinator: n/a Lishi: n/a AccuReader: n/a EEZReader: nia -—*| Cobra: n/a
+
+CODES |
+AK 01-1000
+
+STYLE
+Dbl Sided
+
+| canp+ | me |
+
+307/625 |
+
+macs | StartCut | Cuttocut |
+
+Varies
+
+> Mike's Tip: There are several trunk keyways possible depending on year and trim model.
+
+NATIONAL: KEYLINE: ico; JET: IMA: ~ STRATTEC: DEALER:
+FCZ nla X86 FC7 FO-5 n/a n/a
+CODES | carve | mg | macs | startcut | cuttocut |
+FS 1-099 Sql Sided
+NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: DEALER:
+62FS nla G2ES: = n/a UN-FS na n/a
+TRUNK | carp# | im | macs | Startcut | cuttocut |
+KEYS > FT 101-225 Dbl Sided ee |
+NATIONAL: KEYLINE: ico; JET: IMA: STRATTEC: DEALER:
+62FT nla 62Fl =~ ==] Na UN-FT n/a nla
+| canp¢ | imi# | macs | Startcut | cuttocut |
+
+WR1000-2999 | DbiSided | XF47 | 243 Varies
+NATIONAL: KEYLINE: ILCO: Jel; JMA: STRATTEC: DEALER:
+WB2 n/a WE? = - n/a n/a nla n/a
+
+> Mike's Tip: When cutting the WB2 key you will need to cut each side differently as there are separate cuts on each
+side and the shoulder of the key is different on-each side.
+
+| NO TRANSPONDER
+
+Code Series: FR 01-6600 & FZ 01- 1232
+
+DEPTHS
+
+i?) =
+ba Bow SPACING Tip 0 =.266
+= 1 2 3 4 5 = 1=.246
+m "| Cut to Cut: 137 <=
+
+158 296 | .434 | 572 710 3 =.206
+g° 4= 186
+S) ae 5 = 166
+3 HPC Curtis Clipper Pak-A-Punch ITL
+= Cam: 15W-1 =e =
+
+CF / XF40 Carriage: 15W-1 n/a 135
+
+42 - JAGUAR - LAND ROVER
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+pmeac5aeeeeoe ed
+
+»>@ee
+
+» oo ©
+
+)
+
+)
+@9e@o@2e@€9@8@600e?0806€26006086€8eee@edee
+
+Hidad ? 30VdS
+
+Hidad 2 30VvdS
+
+Hidad 8 30VdS
+
+Hidad 8 30VdS
+
+Code Series: AK 01-1000
+
+Bow SPACING Tip
+1 2 3 4 5 6 f
+079 | 177 | 220 | 319 | 417 | 461 | 559 | 659 | .757 | .801
+HPC Curtis Clipper Pak-A-Punch ITL
+Cam: BL-10
+CF, XF11 Carriage: BE-10A n/a 307 or 625
+CUTS 2, 4, & 7 ARE DOUBLE CUTS. EXAMPLES OF CODE #AKO011S “3212137
+CONVERT 10; 3221221233
+
+continued - JLR-20 SECTION
+
+DEPTHS
+1= .323
+2=.291
+3 =.268
+4=.243
+
+Cut
+to Cut:
+Varies
+
+Code Series: FS 1-089
+
+SPACING Tip DEPTHS
+
+: : 4 = 1=.238
+
+Cut to Cut: .095 2=.205
+
+ripe) a ee ea 3=.178
+HPC Curtis Clipper Pak-A-Punch ITL
+CF / XF43 n/a nye ae
+
+Code Series: FT 101-225
+
+SPACING ri DEPTHS
+
+E 2 - . 1=.291
+
+Cut to Cut: .095 2 =.259
+
+a a ee ee 3 = .227
+He Curtis Clipper Pak-A-Punch ITL
+CF / XF45 n/a = =
+
+Code Series: WR 1000-2999
+DEPTHS
+— SPACING 4 =-.323
+130 | 197 | .264 | .331 | .398 | .465 | 532 | 598 | 665 | .732 | LONG SIDE - to
+Mos th hc Ete he — =
+063 | 130 |-.197 | .264 | .331 | .398 | 465 | 532 | 598 | .665 | SHORT SIDE ost
+to Cut:
+HPC Curtis Clipper Pak-A-Punch ITL Varies
+CF, XF47 n/a n/a 243
+NOTES: The shoulders on this key are offset, therefore the spacing will be
+offset from one side to another.
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+continued on next page --->
+
+JAGUAR - LAND ROVER - 43 _
+— n/a =
+

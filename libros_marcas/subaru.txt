@@ -1,0 +1,1922 @@
+eeeoeooee
+
+¢
+
+¢
+
+C
+
+AUTO LOCK SERVICE, INC!
+
+2021
+AutoSmart ™
+by Michael Hyde
+
+SUBARU
+
+| DISCLAIMER:
+
+_ A wide variety of key programmers have been added to this book. Most key programmer companies are
+_ not based in the U.S. Some of their application charts have many mistakes. In some cases, you will need
+| to check with your key programmer supplier to see if the vehicle you are working on is supported by their
+| tool. There is always a risk in damaging the vehicle electronics when you connect to the vehicle through
+
+| the OBD port if you are not using an OEM diagnostic tool. You as the locksmith take on this risk every
+
+| time you perform work on a vehicle.
+
+_ If you have any doubt about what part to use, make sure you check with the dealer and have them run
+the VIN to get you the right part number. Remember, ultimately it is your responsibility to obtain the
+| correct part. Part numbers and FCC information has been researched and verified as best as possible.
+But no system is perfect or without errors. Car manufacturers’ part numbers and applications guides
+contain mistakes of their own. Therefore, we cannot guarantee or warranty that the part we show for a
+
+| particular vehicle is the absolute right one.
+
+©1994, 2021 AutoSmart™ by Michael Hyde SUBARU - 1
+~ 2021- AutoSmart Asian Book
+_ SUBARU Table of Contents
+
+NOTE: Many Subaru part numbers are very close together in numbering. Pay close attention to make
+sure you are using the correct part listed. Example; 57497AJO1A, 57497AJ10A, 57497AJO01 & 57497AGI10A.
+
+YEARS
+
+TYPE
+
+MAKE MODEL — _| SECTION PAGE
+2019-21 ‘| Proximity | SB-15 39
+Ascent = :
+2019-21 Key SB-14 28
+B9 Tribeca 2006-07 Keys == SB-7 = 44
+Baja 2003-06 Key | | SB-3 6
+Brat 1982-87 __| Key [SB 4
+2015-20 | Proximity | SB-15 30
+BRZ 2012-14 Proximity | SB-11 =22
+a 2012-20 ~=—s«|- Key SB-8 16
+/2015-21. ——- | Proximity |SB-15 _ 1 36.
+2013-14 ~—«| Proximity —_| SB-12 24°
+Crosstrek ——
+2018-21 Key” SB-14 28
+2013-17 Key | SB-9 18
+eee 1985-94 __ | Key SB-2. =
+1982-84 Key _ SB-1
+2016-21 ‘| Proximity |SB-15 _ S250.
+SUBARU > [2014-15 | Proximity _| SB-12 fie
+{2019-21 ‘| Key SB-14 Pee
+Forester 2014-18 —— | Key SB-9 18
+2011-13 _—‘| Key SB-5 10
+2009-10 _| Key |SB-4 se
+1998-08 | Key SB-3 6
+|Forester2.5XT ‘| 2005-08 Key SB-7 14
+cS [1985-94 | Key _ SB2 a
+}1982-84 | Key SB-1 4
+2015-21 ~—+| Proximity | SB-15 30
+Impreza == == == — — —
+2017-21 Key SB-14 28
+
+the VIN with the Dealer for correct parts.
+
+* Subaru makes so many models of the Impreza with various Trim Levels. There are overlaps on Fobs and
+Remote Head Keys and Transponder Chips. Check
+
+Impreza
+
+»e@®e
+
+| 2012-16* —_ | Key SB-9 — 18
+2011-13* | Key _ SB-5 “10
+[2008-11* | Key | SB-4 26
+
+2 - SUBARU
+
+- ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeoeoeeeeoeaeeeeaeeeee
+
+)
+@#@ee908 6 00. ¢
+
+eo 60 @ «
+
+eooe2@ 686 ¢€
+
+¢
+
+¢
+
+2021 - AutoSmart Asian Book
+SUBARU Table of Contents
+
+MAKE MODEL YEARS TYPE SECTION PAGE
+2002-07 Key SB-3 6
+Impreza
+1993-01 Key SB-2 5
+2016-21 Proximity SB-15 30
+2015-21 Key SB-10 20
+: 2011-14 Key SB-5 10
+Impreza STi
+2008-10 Key SB-4 8
+2005-07 Key SB-6 12
+2004 Key SB-3 6
+2016-21 Proximity SB-15 30
+2015-21 Key SB-10 20
+2011-14 Key SB-5 10
+Impreza WRX
+: 2008-10 Key SB-4 8
+2006-07 Key SB-6 12
+| 2002-05 Key SB-3 6
+Justy 1987-94 Key SB-2 5
+2015-21 Proximity SB-15 30
+2020-22 Key SB-14 28
+SUBARU }2015-19 __| Key SB-10 20
+Legacy 2010-14 Key SB-5 10
+2006-09 Key | SB-6 12
+2000-05 Key SB-3 6
+1990-99 Key SB-2 5
+‘Legacy GT 2005 Key SB-6 12
+Loyale 1985-94 Key SB-2 5
+2015-21 Proximity | SB-15 30
+2013-14 Proximity SB-13 26
+: : 2020-22 Key SB-14 28
+| Outback — 2015-19 Key SB-10 20
+2010-14 Key | SB=5 10
+2006-09 Key SB-6 12
+—o 2000-05 _—‘| Key SB-3 6
+Outback 2.5 XT 2005 Key SB-6 12
+Outback 3.0 R 2005 Key SB-6 12
+SVX 1992-97 Key SB-2 5
+_| Tribeca 2008-14 Key SB-7 14
+©1994, 2021 AutoSmart™ by Michael Hyde SUBARU - 3
+SB-1 SECTION SG soe a pes
+
+1982-87Brat_ 1982-84 GL
+
+CODES | stme | caro# | ims | macs | Startcut | Cuttocut | AirBags | Ign Retainer
+
+_ W01-1000 Dbl Sided Roll Pin
+MASTER == = a a
+NATIONAL: | KEYLINE: ILCO: jE = - JMA: STRATTEC: ‘DEALER:
+KEYS “> DA23 n/a | X15 DA23 DAT-21. | n/a | nla
+Determinator: wa TLishi: nva ‘AccuReader: n/a EEZReader: n/a _| Cobra: n/a
+
++ NO TRANSPONDER
+
+Code Series: W 01-1000
+no SPACING Tp. ——
+a) ——— :
+> 1 2 3 4 5 (ee 2 2=.255 |
+fs) = = 3=.235
+Py 157 | .256 | 355 | .454 | .553 | .652 Se eutto | 4772”
+
+Pos - == -~ Cut: or
+= ae oe ime 099 7=.275
+= HPC Curtis Clipper _Pak-A-Punch | : Th SS 6 =.255
+= = : == S221 2: 5 = .235
+- Cam: DC-1 == : :
+CF60, XF60 Carriage: DMN : Boat 136 = 4=3217
+
+Codes: Passenger door cylinder has a code stamped on tailpiece. Last four numbers is the code
+
+Decoders: _ Determinator: n/a Lishii/d= — — AccuReader: n/a _| EEZ Reader: n/a Cobra: n/a
+Method #1 ~ Check owner's manual for codes, written in nby the dealer. : :
+Method #2 Remove passenger door cylinder and read code stamped « on tailpiece. Last four numbers is the =: 2222 1
+Method #3 = = Disassemble door cylinder or trunk cyli inder and decode wafers to make master key
+
+= Ignition
+
+ojo/o}o}o|
+O0|0/0) 0) O}> Doors
+
+a O}O}O}O}O]> Trunk — :
+2|3|4|s|e6|_
+
+4 - SUBARU oS ———— ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peec5ue5eee
+
+6 6 60:6 © 0:66 6 © 6:6 6
+@ <
+
+eee 000 8 @(\«
+
+¢
+
+eeeee
+
+SB-2 SECTION
+
+1985-94 DL & GL
+
+1993-01 Impreza
+
+1987-94 Justy
+
+1990-99 Legacy
+
+CODES
+
+1985-94 Loyale
+
+stviE | carpe | im# | macs | Startcut | cuttocut | AirBags | ign Retainer
+
+1992-97 SVX
+
+X 8000-9000 Dbl Sided CF67 138 2 M8 Varies Roll Pin
+MASTER : :
+NATIONAL: KEYLINE: {LCO: JET: JMA: STRATTEC: DEALER:
+KEYS? | DA25/DA3I n/a X123/X210 | DA25/DA31| _DAT-10 692059 n/a
+Determinator: NIS1_ Lishi: NSNTI AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+ee | NO TRANSPONDER
+
+Code Series: X 8000-9000
+
+Hid3ad 8 30VdS
+
+Bow SPACING
+' 2 2 4 5 6 " 8
+8 .203 | .288 373 .458 | 543 | .628 | .713
+Cut to
+: i = Cut:
+HPC Curtis Clipper | Pak-A-Punch ITL 085
+_ CF, XF67 ees PAK-N1 138
+
+Carriage: DM-3C
+
+DEPTHS
+1=.276
+2=.256
+3 =.236
+4=.217
+
+Codes: | Passenger door cylinder has a code stamped on tailpiece. Last four numbers is the code
+
+Decoders: | Determinator: NIS 1 Lishi: NSN 11 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 _ Use the Aero Lock tryout set T0-41A.
+Method #3 : Remove passenger door cylinder and read code stamped on tailpiece. Last 4 numbers is the code.
+Method #4 Disassemble door cylinder or trunk cylinder and decode wafers to make master key.
+
+Key Code Locations:
+
+1) Up to 1993 most models had a code stamped on the tailpiece of the passenger door lock, the last 4 numbers is
+
+> Ignition
+
+olojololjojojojo
+ololojojojol|o\|o
+
+ojojojg
+1/2/3]4|5|6|7|8
+
+‘the code. Most 1993 and _up no longer have a code anywhere on the car.
+
+2) Older Subaru's had a white sticker in the glove box with a code either hand written or on later models a
+
+printed code on the sticker. 1992 was the last year they did this.
+
+> Doors & Trunk
+> Glove Box
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+SUBARU - 5
+2003-06 Baja
+
+ge SECRGNE = Soe es
+
+1998-08 Forester
+
+2002-07 impreza. ae
+
+2004 Impreza STi
+
+CODES
+
+2002-05 Impreza WRX | 2000-05 Legacy 2000-05 Outback
+
+| stve | carp# | ma |
+
+macs | StartCut | Cuttocut | AirBags | Ign Retainer
+
+> Impreza STi
+
+30001-37850 | DbiSided | CF304 | 2 337 | 083 Yes Roll Pin
+MASTER = [—— = = = ——
+z NATIONAL: KEYLINE: ILCO: SEI: ~ IMA: -STRATTEC: DEALER:
+KEYS > SUBI n/a X251 SR8_ SUB-1 n/a _ fa
+Determinator: NIS 2 Lishi: NSN14 AccuReader: n/a FEZ Reader: Ve Cobra: n/a
+> Note: Always check with the Dealer for the correct Fob part number by VIN. =
+> Baja +> Fob Remote: 88036 XA010 or ILCO# RKE-SUB-4B2 - FCC Info: NHVWBIU7I1|433MHz |
+> Fob Remote: 88036 FEO41 or ILCO# RKE-SUB-281 (2005-08) FCC: NHVWBIU7II | 433 MHz
+> Forester : es : == S22
+— > Fob Remote: 88036 XA010 or ILCO# RKE-SUB-4B2 (2001-04) FCC: NHVWBIUTI | 433 MHz
+> Fob Remote: 88036 FE041 or ILCO# RKE-SUB-2B1 (2005-07) FCC: NHVWBIU7II | 433 MHz |
+> Impreza : === == = ——
+= aniote > Fob Remote: 88036 XA010 or ILCO# RKE-SUB-4B2 (2002-04) FCC: NHVWBIU7I1 | 433 MHz
+Info => =
+
+> Fob Remote: 88036 XAOIO or ILCO# RKE-SUB-4B2 (2004) FCC: NHVWBIU7II | 433 MHz
+
+> Impreza WRX
+
+> Fob Remote: 88036 FEO4T or ILCO# RKE-SUB-281 (2005-07) FCC: NHVWBIUTNI | 433 MHz
+
+> Fob Remote: 88036 XA010 or ILCO# RKE-SUB-4B2 (2002-04) FCC: NHVWBIU7II | 433 MHz
+
+2 Legacy
+
+> Fob Remote: 88036 XAOI0 or ILCO# RKE-SUB-4B2 (2000-05) FCC: NHVWBIU7II | 433 MHz |
+
+> Outback
+
+> Fob Remote: 88036 XAO10 or ILCO# RKE-SUB-4B2 (2005-07) FCC: NHVWBIU7II | 433 MHz
+
+> Fob Remote: 88036 AEO6O (2001-04) FCC Info: A269ZUAIII [434MHz
+
+88036 FEO41
+
+88036 AE060
+
+88036 XAQIO
+
+ee | NO TRANSPONDER
+
+6 - SUBARU
+
+©1994, 2021 AutoSmart™ by Michael Hyde — —
+
+peee5aeaeaneneoeoeeeeeeeeee
+@©9eoe06,080 0060 00 6.
+
+¢
+
+@ «<
+
+©9eoeooeoee8e
+
+Code Series: 30001-37850
+
+continued - SB-3 SECTION —
+
+”
+Bow SPACING __Tp SEpTiis
+Ne 4) 2 fae el 8 fe eee | 0 | a ss
+= : = 307 :
+
+ae 215 | 933 | 750 | 667 | .584| 501 | 418 |.335| 252 | 169 | | 3-58,
+re) =< Test Key:
+se 4= .256 SR8
+oot a _ | Cam: = Carriage: Pak-A-Punch: C :
+Tr Curtis Clipper: DM-40 DM-41 PAK-N4 ITL: CF304
+
+Codes: | Passenger door lock may have a code on it.
+
+Decoders: | Determinator: NIS 2 EEZ Reader: n/a Cobra: n/a
+
+Lishi: NSN14
+
+AccuReader: n/a
+
+NOTE:
+
+Method #1
+Method #2
+
+Method #3
+
+The SUBI or SR8 key for this vehicle has a different angle on the tip and you may have difficulty if
+you use a different key as a substitute.
+
+Check for code in owner's manual, written in by dealer.
+
+Use a Lock Decoder/Reader tool to decode the door lock and then you can progression the remaining cuts.
+
+Disassemble door cylinder, or rear hatch cylinder to get cuts in positions 3 through 10. Progression or
+
+impression the ignition for the two remaining cuts in positions 1 & 2.
+
+Replacement Face-Caps for this model is ASP #P-16-213
+
+O/0'10/0)|0, 0; ©} OQ [> Ignition
+
+|0/0}0)0/0}0) 0} O }> Doors
+O|O} | G |> Glove Box
+
+|3}4|5|6|7|8| 9] 10
+
+To progression a key for positions 1 & 2:
+
+Key 1
++1
+
+22 .
+
+3-3
+
+Key2 Key3
+13 31
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+SUBARU - 7
+SB-4SECTION —
+
+CODES
+
+2009-10 Forester
+
+STYLE | CARD#
+
+| ma |
+
+macs | StartCut | CuttoCut |
+
+Air Bags | ign Retainer
+
+~ 2008-11 Impreza, STi & WRX
+
+T1-3000 | HighSec | nla | nla Roll Pin
+MASTER SS =F t+_—_1__ we
+NATIONAL: KEYLINE: 4LCQ— JE — JMA: STRAHTEG: =| = DEALER:
+KEYS “> SR9-PT n/a DATI7TIZ | SR9-PHT |TP28SUB2P| n/a | 57497 SCO10 |
+Determinator: n/a | Lishi: DATIZ AccuReader: n/a EEZ Reader: n/a =| Cobra: n/a
+> Mike's Tip: Transponder System. Test key is TOY40 or JMA SUB-2P _
+> Mike's Tip: There is some overlap between the SR9 & the SRI2 keys depending on the exacttrimleve. =|
+> Fob Remote: 88036 SC010, SCON (2010-13) FCC Info: ALF-TWB1693 | 433 MHz
+| > Forester | > Fob Remote: 88036 C030 (2010-13) FCC Info: NHVWBIU7II| 433 MHz
+> Fob Remote: 88036 FGO00 (2009) FCC Info: NHVWBIUTII | 433 MHz
+Remote | = —
+se > Fob Remote: 88036 $C030 (2010-11) FCC Info: NHVWBIU7II | 433 MHz
+Info > > Impreza === : =——= : : :
+ee | > Fob Remote: 88036 FG000 (2008-09) FCC Info: NHVWBIU7II | 433 MHz
+> Fob Remote: 88036 SC030 (2010) FCC Info: NHVWBIUT7I | 433 MHz
+> Impreza STi z === S == == ===
+> Fob Remote: 88036 FG000 (2008-09) FCC Info: NHVWBIU711 | 433 MHz _
+___|> Fob Remote: 88036 S030 (2010) FCC Info: NHVWBIU7II | 433 MHz
+> Impreza WRX : == : ——
+> Fob Remote: 88036 FG000 (2008-09) FCC Info: NHVWBIU7I|433MHz
+
+Code Series: T 1-3000
+
+a Bow SPACING ip | eee
+
+> = == DEPTHS”
+
+ee 722 | 642 | 512 382 251... | 1=.292°
+
+——_———_— : = _| EXTERNAL | 2=.267
+
+S 1) 2 | 3 = 4-TRACK | 3=.240_
+
+2 : = |= === —| =2 | 45.215 = =
+
+ae 722 | 642 | 512 | 382 | 251 a JMA SUB-2P
+Note: Spacing is measured from the tip. =
+
+8- SUBARU _
+
+_ ©1994, 2021 AutoSmart™by Michael Hyde
+
+peCCC COO COCOOCECECEC ECC EES
+© @6@0'0@,00e0 «
+
+© @ 6 <
+
+¢
+
+ooo «
+
+¢
+
+¢
+
+Chip Information & Notes ——
+
+continued - SB-4 SECTION
+
+Transponder: Standard
+
+Chip: 4D62 Wedge :
+
+Reusable: Yes
+
+Cloner Machine Information ==
+
+(DIAG BOX) ( CHINA) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )(  L.D. ) ( SCORPIO ) (~ wol _)
+= aa cN900 Rw4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+= | Yes M Yes (VJ Yes [VJ Yes | Yes ] Yes | Yes | Yes
+¥ Blue Chip& || CN2/5& EH3 & “N” TPX2 & GK100 / TK100 CN2/5 or CN2I5 or WDI Chip
+
+B Shell Shell Blade Shell & Blade TPX2 & Shell | | TPX2 & Shell & Shell
+
+a Programmer & Diagnostic Tools
+os ( Factory Tool =o
+
+acto 00
+
+is a (v TCODE/MVP PRO (« TDB1000 (v HOTWIRE
+SSM4
+Subaru Select Only using —
+Montoed - SSM4 (v SMART PRO (v AUTO PRO PAD € AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+Decoders: Determinator: n/a Lishi: DATI7 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+NOTES: The dimensions of the key allow you to use a Lexus Ilco: LXP90, as mechanical test key, even though the
+Lexus is a Internal 4-Track and this Subaru is an External 4-Track.
+But you may want to use the JMA Key: TP00-SUB-2P
+All tumblers are Split tumblers and are marked with the depth number. There are 4 depths.
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock to make a complete key.
+
+Method #2
+
+Remove door lock and decode to make a complete key. All tumblers can be found in the door lock.
+
+RIGHT —
+
+LEFT — (_) BIGHT LEFT) RIGHT teeT_ ()
+a) 5 LI a7] 5 . a 5 .
+s : : a a 4 a a 4 a
+a 3 a . 3 a 3
+2 23 = = 2 s 2
+a1 . a 1 : 1
+Ai ao -5
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+SUBARU - 9
+SB-5 SECTION
+
+2011-13 Forester / 2011-13 Impreza
+
+2010-14 Outback
+
+2011-14 Impreza STi & WRX 2010-14 Legacy
+
+| stve | carpe | im | macs | Startcut | cuttocut | AirBags | Ign Retainer
+
+T1-3000 High Sec na ~ Roll Pin
+NATIONAL: KEVLINE: ICO: jer = | _5Ma | strartec: | — veALeR:
+MASTER SR12-PT n/a = ta + SRIZ-PHI | TRISSUB2P n/a : n/a
+KEYS > Determinator: nla. Lishi: DATI7 AccuReader: n/a _—i| EEZ Reader: n/a ‘Cobra: n/a
+
+> Mike's Tip: Transponder. Test key is TOY40 or JMA SUB-2P - CHECK VIN with Dealer for Correct Remote.
+
+> Mike's Tip: There is some overlap between the SR9 & the SRI2 keys depending on the exact trim level.
+
+> Fob Remote: 88036 FG030 or ILCO# RKE-SUB-4B1 (2011-13) FCC: CWTWBIU8I9 | 315 MHz |
+
+| > Forester > Fob Remote: 88036 SCO10, SCONI (2010-13) FCC Info: ALF-TWB1J693 | 433 MHz
+
+> Fob Remote: 88036 $C030 (2010-13) FCC Info: NHVWBIU711 | 433 MHz
+
+> Fob Remote: 88036 FG030 or ILCO# RKE-SUB- 4B1 (2011- 13) F€C: CWTWBIUBIg | 315 MHz
+
+Remote |? Impreza
+
+nes > Fob Remote: 88036 SC030 (2010- 14) FCC Info: NHVWBIU7TT | 433 MHz
+
+> Impreza > Fob Remote: 88036 FGO30 or ILCO# RKE- -SUB-4B1 (2011- 14) FCC: cwTwetU8i9 | 315 MHz
+
+STi & WRX _ | > Fob Remote: 88036 SC030 (2010-14) FCC Info: NHVWBIUTI 433 MHz
+
+| > Legacy & > Remote Key: 57497 AIIOA or ILCO# RHK-SUB-4B2 (2011-14) FCC: CWTWBIU8II | 315 MHz
+
+~ 88036 FGO30,SCO10, SCOTI,SCO30 ==: 7497 AJOOA, AJIOA
+
+Outback —_| » Remote Key: 57497 AJOOA or ILCO# RHK-SUB-4B6 (2010-14) FCC: CWTWBU766 | 433 MHz |
+
+Code Series: T 1-3000
+
+Bow SPACING _- Ti =
+
+> —— -{ — _| DEPTHS
+
+pi: v22_ |) 642 512 382 251 | --- . | 1=-292
+
+re) = -|}— — EXTERNAL | 2= .267 ;
+
+o 1 3 | 3 | 4 | & |- 4TRACK [-3=.240
+
+a - + ——“—t—~CS SC SR
+
+Ai 722 | 642 | 512 | 382 | .251 ale = Fe SIMASURP
+Note: Spacing is measured from the tip. =
+
+10 - SUBARU - = S22 eae = ©1994, 2021 AutoSmart™ by Michael Hyde—
+
+PpeoOC CCC CCH COCeOSEEEOEECEESS
+eo 02006 «
+
+© @ 02,6 @ <«
+
+¢
+
+¢
+
+continued - §B-5 SECTION
+
+‘Chipinformation& Notes = se. a= :
+
+Transponder: Standard Chip: 4D60 Wedge Reusable: Yes
+
+Cloner Machine Information
+
+(DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA | ( KEYLINE )( LL.D.) ( scorpio )( wo)
+| CLONE |) cns0o RW4+ | | TRS-SO00/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+= [v7] Yes Yes [vj Yes Iv] Yes Yes I Yes [v1 Yes [1] Yes
+o Blue Chip & CN2/5 & EH3 & “N” TPX2 & | GK100/TK100 CN2/5 or CN2/5 or VVDI Chip
+o Shell Shell Blade Shell & Blade TPX2 & Shell | | TPX2 & Shell & Shell
+2 Programmer & Diagnostic Tools
+= ( Factory Tool :
+
+ory Too :
+: Lu pueeee ¥ TCODE/MVP PRO x TDB1000 ? HOTWIRE
+REQUIRED
+SSM4
+Subaru Select Only using
+Montor4 — SSM4 [v SMART PRO [v AUTO PRO PAD (2 AUTEL IM608
+? = Check with your key programmer supplier to see if your vehicle is supported.
+Codes: | No codes on any locks.
+Decoders: | Determinator: n/a Lishi: DATI7 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTES: The dimensions of the key allow you to use a Lexus Ilco: LXP90, as mechanical test key, even though the
+= Lexus is a Internal 4-Track and this Subaru is an External 4-Track.
+But you may want to use the JMA Key: TP00-SUB-2P
+Alltumblers are Split tumblers and are marked with the depth number. There are 4 depths.
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock to make a complete key.
+Method #2 Remove door lock and decode to make a complete key. All tumblers can be found in the door lock.
+LEFT _(.) RIGHT LEFT (RIGHT LEFT _(.) RIGHT
+a 5 = = 5 it a 5 =
+alal = mu | 4 ai/4{e
+|S = rt] 3 . 2
+a | 2] = |= = a f2/|s =
+i {| a 1 5 o
+
+IGNITION — DOORS GLOVE BOX
+
+©1994, 2021 AutoSmart™ by Michael Hyde : SUBARU - 11
+SB-6SECTION----— =22= = === fe
+
+2005-07 ImprezaSTi | 2006-07 Impreza WRX 2006-09Legacy
+
+- 2005 Legacy GT 2006-09 Outback — | 2005 Outback 2.5 XT, 3.0R
+
+STYLE
+Dbl Sided
+
+CODES
+30001-37850
+
+| carp# | imi# | macs | Startcut | cuttocut | AirBags "| ign Retainer
+Ge | se | 2 Sr 083 Yes | _ Roll Pin
+
+MASTER NATIONAL: = | —_-KEYLINE: ILCO:_ JET: JMA: STRATTEC: DEALER:
+SUB-120 n/a SUB4-PT n/a_ | TP28SUB3P| n/a n/a
+KEYS > —— - 2
+Determinator: NIS 2 Lishi: NSN14__| AccuReader: n/a FEZ Reader: n/a Cobra: n/a
+
+> Mike's Tip: Transponder System. Test key is Ico: SUBI or JET: SR8
+
+> Note: Always check with the Dealer for the correct Fob or Remote Key part number by VIN.
+> Impreza STi__| > Fob Remote: 88036 FEO4I (No Trunk Rel) FCC Info: NHVWBIU7II| 433 MHz
+
+> Impreza WRX | > Fob Remote: 88036 FEO4I (No Trunk Rel) FCC Info: NHVWBIU7II | 433 MHz
+
+Eee > Remote Key: 57497 AG48A or ILCO# RHK-SUB-4B1 (2009) FCC: CWTWBU766 | 433 MHz
+
+Info > » Legacy &
+Outback
+
+> Remote Key: 57497 AG35A or ILCO# RHK-SUB-4B5 (2008) FCC: CWTWBU745 | 433 MHz
+
+> Fob Remote: 88036 XA010 (2006-07) FCC Info: NHVWBIU71I | 433 MHz
+
+> Legacy GT > Fob Remote: 88036 XA010 (2005-07) FCC Info: NHVWBIUTII | 433 MHz _
+
+> OutbackXT/R | > Fob Remote: 88036 XAQIO - FCC Info: NHVWBIU7II | 433 MHz
+
+my 8
+
+88036 FEO4) 88036 XA01I0 57497 AG48A
+
+n Code Series: 30001-37850
+= Ba eS Pee |
+fe = 4 Mee 2 eee ee ee
+5 == 2 = == J 2 2 2 = .307
+Fam 915 | 833 | 750 | 667 | 584 | .501 | 418 |.335 | 252 | 169 | °° | =e
+pee! == = = Test Key:
+. — —— — —_—— SR8
+ol => _ | Cam: Carriage: Pak-A-Punch: = ==
+r Curtis Clipper: pm-40 | DM-41 PAK-N4 | re
+
+12 - SUBARU | — Fo bee ©1994, 2021 AutoSmart™ by Michael Hyde
+
+$4066 668 6 6
+
+)
+
+>
+
+peeoao5enee e868
+
+@e@eo 0206000600006 00 6,60
+
+¢
+
+¢
+
+Chip Information & Notes __
+
+continued - SB-6 SECTION
+
+Transponder: Standard : Chip: 4D62 Wedge Reusable: Yes
+
+Cloner Machine Information |
+
+‘Programmer & Diagnostic Tools _
+
+(DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA )\ ( KEYLINE )( LD.) ( scorPiO \( wol_)
+= foe cN900 _Rwas | |TRs-S000EVO| | 884 Ultegra | | MIRACLONE TANGO _| | MINI TOOL
+bes [VJ Yes MM Yes EW Yes [VJ Yes V1 Yes VJ Yes Yes @ Yes
+20 | BlueChip& || CN25& EH3 & “P” TPx2& | | Gk100/TK100 CN2/5 or CN2/5 or WI Chip
+BS Shell Shell _ Blade Shell & Blade TPX2 & Shell | | TPX2 & Shell & Shell
+S :
+
+Oo
+Mm
+= (Factory Tool ;
+‘acto! 00 = Z =
+i hess Y¥ TCODE/MVP PRO x TDB1000 ¥ HOTWIRE
+REQUIRED
+SsM4 =
+Subaru Select Only using
+Sodio SSM4 (v SMART PRO (v AUTO PRO PAD ¢ AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: Determinator: NIS 2 -Lishi: NSN14 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTE: The SUB1 or SR8 key for this vehicle has a different angle on the tip and you may have difficulty if
+you use a different key as a substitute.
+Method #1 Check for code in owner's manual, written in by dealer.
+Method #2 ~ Use a Lock Decoder/Reader tool to decode the door lock and then you can progression the remaining cuts.
+Disassemble door cylinder, or rear hatch cylinder to get cuts in positions 3 through 10. Progression or
+
+Method #3
+
+impression the ignition for the two remaining cuts in positions 1 & 2.
+
+__ Replacement Face-Caps for this model is ASP #P-16-213
+
+O0'0;0|}0}0/0! 0} O }> ignition
+O/0/0;0/0/}0;0} O |> Doors
+
+: O/0/ 0} O |> Glove Box
+3/415|6|7/8/9]| 10
+
+To progression a key for positions 1 & 2:
+
+Keyt Key2 Key3
+1-1 13 31
+2-2
+3-3
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+SUBARU - 13
+
+SHTSELHGN= == Se BS ee Se
+
+2006-07 B9 Tribeca
+
+2005-08 Forester 2.5 XT
+
+| STYLE
+
+2008-14 Tribeca
+
+| _cARD# i m# | macs | Startcut | cuttocut | AirBags | ign Retainer Tm
+
+30001-37850 Dbl Sided CF304 Roll Pin
+‘MASTER | NATIONAL: KEYLINE: a f= | #-« | STRATTEC: | DEALER:
+SUB-120 n/a SUB4-PT n/a TP28SUB3P | — n/a n/a
+KEYS => —. —— oe : oe
+| Determinator: NIS 2 Lishi: NSN14__—_| AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+> Mike's Tip: Transponder System. Test key is lIco: ‘SUBI or JET: SR8 2
+> Note: —_ check with the Dealer for the correct Fob or Remote Key part number ie VINE
+» B9 Tribeca > Fob Remote: 88036 XAQI0 - FCC Info: NHVWeIU7I1 | 433 MHz Ze S
+> Forester XT > Fob Remote: 88036 FEOAI (No Trunk Rel) FCC Info: NHVWBIU7I1 [4 433 MHz
+= ee > Remote = 57497 XA20A (2011-14) FCC Info: CWITWBIUBIT 315 MHz :
+
+> > Remote Key: 57497 XAI2A (2010) FCC Info: CWTWBU766 | 433 MHz
+
+> Tribeca
+
+> Remote Key: 57497 AG4BA or ILco# RHK- SUB- 4B1 (2009) FCC: CWIWBU766 | 433 MHz
+
+> Remote Key: 57497 AG35A or ILCO# RHK-SUB- 4B5 (2008) FEC: cwTWBUTA5 | 433 MHz
+
+88036 FEO4I
+
+88036 XAQIO 57497 AG35A
+
+57497 AG4BA, XAI2A, XA20A
+
+n Code Series: 30001- 37850
+= ge el = = = =
+2 eee =
+ic Ez 2 3° 4 6 | 6 (24 8 | 6 0 | t= 333
+Pam 015 | 833 | 750 | 667 | 584] 501 | 16 | 335 | 252] 169 | °° | 4 = "30"
+m =— 4=.256
+Ss] sg : : =- =E=
+= 7 = ==! Can Carriage: Pak-A-Punch: |) 4. =
+pag curtis CUPPST"|piy-40 |DM-41 _- |PAIKNS - = [oes |
+
+- 14- SUBARU
+
+— ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeeoceoananeeeneaeeeeeee eee
+
+@@0e@0e «
+
+@eoeoee0eeoe @
+
+©eeoe @0o'<
+
+¢
+
+continued - §B-7 SECTION
+Chip Information & Notes | o—
+Transponder: Standard Chip: 4D62 Wedge Reusable: Yes
+Cloner Machine Information ——__ eo
+(DIAG BOX) (CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE \)( L.D.) ( SCORPIO ) (| wo!)
+= oe CN900 RW4+ TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+= Yes Yes VJ Yes [7] Yes [VI Yes 1 Yes 1 Yes | Yes
+7 | BlueChip& || CN25& EH3&“P" || TPX2& GK100 /TK100 CN2I5 or CN2/5 or WDI Chip
+Oo Shell Shell Blade Shell & Blade TPX2 & Shell | | TPX2& Shell & Shell
+= Programmer & Diagnostic Tools
+= ( Factory Tool
+actory [00
+= cee ¥ TCODE/MvP PRO| | x TDB1000 ¥ HOTWIRE
+REQUIRED
+SSM4 =
+‘Subaru Select Only using
+Montor4 SSM4 (v SMART PRO € AUTO PRO PAD (2 AUTEL IM608
+_? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator:NIS2 __Lishi: NSN14 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTE: The SUBI or SR8 key for this vehicle has a different angle on the tip and you may have difficulty if
+you use a different key as a substitute.
+Method #1 — Use a Lock Decoder/Reader tool to decode the door lock and then you can progression the remaining cuts,
+Method #2 Disassemble door cylinder, or rear hatch cylinder to get cuts in positions 3 through 10. Progression or
+
+impression the ignition for the two remaining cuts in positions 1 & 2.
+
+Replacement Face-Caps for this model is ASP #P-16-213
+
+O)/0|0/}0;0; 0/0} 0 [> Ignition
+
+Atte oy |O | 0) OO} 24>_Doors
+O | G} G-G }> Glove Box
+
+3141516171819] 10
+
+To progression a key for positions 1 & 2:
+
+> Keyl Key-2— Key 3
+
+1-1 13 31
+2-2
+3-3
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+SUBARU - 15
+SB-8 SECTION.
+
+2012-20 BRZ (same as Toyota FR-S)
+
+| stve | carpe | ms | macs | Startcut | cuttocut | AirBags | ignRetainer
+
+»>@e
+
+Dbl Sided | XF307 Varies | 404 Active
+MASTER NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: DEALER:
+KEYS © TOY44G-PT | TOY44G-PT | TOY44G-PT | TR52G-PHT | TP34TOYO15 n/a see below
+Determinator: TOY5 Lishi: TOY43AT | AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Mike's Tip: Transponder System Standard - Program keys through the OBD port. Test Key is TR47 / X217.
+Remote | > Remote Key: 57497 CATIO (2012-14) FCC Info: HYQI2BBY | 314 MHz
+Info | . Remote Key: 57497 CA310 (2015-20) FCC Info: HYQ12BBY | 314 MHz
+
+mI
+
+> 6 8
+
+57497 CANO, CA310
+
+Code Series: 50,000-69,999
+Bow SPACING ; Tip DEPTHS
+
+i 2 3 4 5 6 7 => 9 10 1= 324
+: : : Cut 2=.298 -
+846 | .791 | .709_| .654 | .571 | .516 | .433 | .378 | .295 | .240 to 3=.273
+Cut: 4=.247
+
+Hid3d ? 30VdS
+
+5 : : = = Varies a
+HPC Curtis Clipper Pak-A-Punch ITL a= s
+- o =
+XF307 n/a n/a 419 o2
+Se
+
+o
+
+NOTES: FRAMON-— Lay spacing clip flat against left side of vise, Key aligned
+using left side of vise/spacing Clip.
+
+AVDI | Key Programming | Security | —=CU Programming
+
+: ‘ = : — —
+For sales and information, piease contact Brian =
+
+ay :
+a BR! TES P. 205.276.3656 | keymasterisw@yahoo.com ABRITES USA
+———— | www .abritesusa.com
+
+16 - SUBARU = : : ©1994, 2021 AutoSmart™ by Michael Hyde
+
+)
+
+)
+
+)
+
+)
+
+e @ «
+
+ee oa 0088
+
+¢
+
+eo eoeoeeeed
+
+Chip Information & Notes
+
+continued - §B-8 SECTION
+
+Transponder: Standard a
+
+Chip: G Wedge
+
+Reusable: Yes
+
+Cloner Machine Information
+
+(DIAG BOX) (_ CHINA ) (ILco/sica) ( JMAUSA ) ( KEYLINE ) (LD. ) ( ScoRPIO ) (| wor)
+ae CN900 RW4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+] Yes | Yes M Yes 1,2 ® No M1 Yes 1:2 M1 Yes 1:2 M1 Yes 1:2 I Yes
+Blue Chip & | | CN5&TR47 | | T80&“E" = CKG/TKG | | CN5&TR47 | | CN5&TR47 | | WDIChip
+
+TRA7 Shell Shell Blade & TR47 Blade Shell Shell & Shell
+
+™ - May require Internet Access to complete cloning. *2 - May Require an Texas Crypto update.
+
+Programmer & Diagnostic Tools _
+
+YAGNOdSNVYL
+
+SSM4
+
+Factory Tool
+( ¥ eee 2? TCODE/MVP PRO ¥ ABRITES ¥ HOTWIRE
+REQUIRED
+SSM4 :
+Subaru Select Only using —
+Montor4 _ (? SMART PRO. ¢ AUTO PRO PAD € AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: TOYS
+
+Lishi: TOY43AT
+
+AccuReader: n/a
+
+EEZ Reader: n/a
+
+Cobra: n/a
+
+NOTE: |
+
+Method #1
+
+Method #2 |
+
+Method #3
+
+_ The tumblers are stamped with the reverse of the actual depth. Example: 1 is a 4 and
+visa-versa. The Trunk/Rear Hatch & Glove Box have a tumbler that would be considered
+
+the 11th position that rides on the tip to prevent a Valet key from working.
+
+Remove door cylinder and read code stamped on lock.
+
+the remaining cuts.
+
+Disassemble door cylinder or hatch cylinder and decode wafers - this will give you
+positions 3 through 10. Progression the remaining 2 positions 1 & 2 for the ignition.
+
+Use a Lock Decoder/Reader tool to decode the door lock and then you can progression
+
+* if equipped
+
+olo}o}o|o0/o0/o0} [> Ignition :
+oOlolo|o!oO'o |g) o]> Doors & Trunk* / Rear Hatch*
+O|0| 01 |= Glove Box*
+O}O +] B | > Rear Compartment*
+a4 4-5:5)6, 71 81,910
+
+More information about this Code Series is at the end of the Subaru section.
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+SUBARU - 17
+SB-9SECTION —
+
+2013-17 Crosstrek
+
+2014-18 Forester
+
+| caro# | m# | macs | startc
+
+| __ STYLE
+Dbl Sided
+
+-32,000- 39,999
+
+2012-16 Impreza
+
+t Air Bags | Ign Retainer
+
+Active
+
+MASTER
+
+ILCO Master “G" Key:
+_ TOY43RT45
+
+JET Master "G" Key:
+ST13-PHT
+
+57497-FJ090
+
+Subaru Master “G” Key:
+
+KEYS >
+
+AccuReader: nla :
+
+| Lishi: Toy43-R
+
+Determinator: GM 8 EEZ Reader: n/a
+
+-| Cobra: n/a
+
+> Mike's Tip: Transponder System. Non-Remote Key is 57497-FJ090. Test key is BI08 or B10 _
+
+| > Mike's Tip: > All Keys Lost: > Eeprom New Keys or Replace BIU & Instrument Cluster.
+
+> Note: Always check with the Dealer for the correct Fob part number by VIN.
+
+> Crosstrek
+
+> Remote Key: 57497 FJ230 or ILCO# RHK-SUB-4B3 (2015- 1?) FCC Info. CWTWBIUSII | 315 MHz
+
+> Remote Key: 57497 F240 (2015- 17) FCC Info: - CWTWBU766 | 433 MHz
+
+> Remote Key: 57497 FJ021 or ILCO# RHK-SUB-4B3 (2013-14) FCC Info: CWTWBIU8TI | 315 MHz —
+
+> Remote Key: 57497 FJ031 or ILCO# RHK-SUB-4B4 (2013-14) FCC Info: CWTWBU766 | 433 MHz
+
+> Forester
+
+> Remote Key: 57497 F/230 or ILCO# RHK-SUB-4B3 (2016-18) FCC Info: CWTWBIUS1! | 315 MHz
+
+> Remote Key: 57497 FJ240 (2016-18) FCC Info: CWIWBU766 | 433 MHz
+
+| > Remote Key: 57497 F021 or ILCO# RHK-SUB-4B3 (2014-15) FCC Info: CWTWBIUBII | 315 MHz
+
+> Remote Key: 57497 FJ031 or ILCO# RHK-SUB-4B4 (2014-15) FCC Info: CWTWBU766 | 433 MHz
+
+> Impreza
+
+> Remote Key: 57497 FJ230 or ILCO# RHK- SUB- 4B3 (2015- 16) FCC Info: CWTWetU8iI | 315 ‘MHz
+
+> Remote Key: 57497 FJ240 (2015-16) FCC Info: CWIWBU766 | 433 MHz
+
+> Remote Key: 57497 FJ021 or ILCO# RHK-SUB-4B3 (2012-14) FCC Info: CWTWBIU8I1 | 315 MHz
+
+57497 FJ021FJ031,
+FJ230 & F240
+
+> Remote Key: 57497 FJ031 or ILCO# RHK-SUB-4B4 (2012-14) FCC Info: CWTWBU766| 433 MHz
+
+Code Series: 32,000-39,999
+
+S Bow SPACING = =
+i fe | ep | ee eee een a,
+= : A == =| Cut 2s
+fe} 4c | 791 | .709 | .654 | 571 | .516 | .433 | 378 | 295 | .240| 4 | 2=.298
+@e : = SS Cut: 3=.2/73
+! . —| varies | 4 =.
+
+ec | Curtisclipper | Pak-A-Punch | TL {= == =
+iy = XF307 n/a nla 419
+
+x
+
+NOTES: FRAMON— Lay spacing clip flat against = = of vise, Key ‘aligned
+using left side of lL clip. 28
+
+“18 - SUBARU
+
+1994, 2021 AutoSmart™ by Michael Hyde
+
+O60f4 Z6rZS
+
+peae5uanoeeeeeeee 6 @
+
+»@e 0 50e8@
+
+)
+
+oe e206 06 06 06 ¢€
+
+¢
+
+C
+
+C
+
+continued - §SB-9 SECTION
+
+Chip Information & Notes _
+
+Transponder: Standard Chip: Subaru G Wedge _ Reusable: Yes
+
+Cloner Machine Information — 2 oo
+
+(DIAG BOX \ (CHINA ) (ILCO/SILCA) ( JMAUSA \ ( KEYLINE )( LL.D.) ( SCORPIO )( IEA _ )
+vee cN900 RW4+ TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO ZEDFULL
+= ® No ® No @® No @No | ® No @® No @® No @ No
+> :
+2 un Ss S = 2 = = a
+¢9)
+6
+=4) Programmer & Diagnostic Tools
+Oo He
+m Factory Tool PIN CODE
+A ( “3 = 7 2? TCODE/MVP PRO x TDB1000 ? HOTWIRE
+REQUIRED
+SSM4 :
+Subaru Select Only using_
+Montor4 |_| SSM4 (? SMART PRO (? AUTO PRO PAD (2 AUTEL IM608
+? = Check with your key programmer supplier to see if your vehicle is supported.
+Codes: | No codes on any locks.
+Decoders: Determinator:n/a _Lishi: TOY43-R AccuReader: n/a FEZ Reader: n/a Cobra: n/a
+
+NOTES: +All tumblers are Solid tumblers and are marked with the depth number. There are 4 depths.
+- Tumblers are marked as #1 being the deepest and number #4 being the shallowest, no cut.
+- No codes are currently published for this series.
+- This keyway is very similar to the Toyota 50K series in design & functionality, BUT the keyway is reverse
+of a X217/TR47 and is very close to the GM Colorado keyway of the B108 / B110.
+- The Trunk/Rear Hatch & Glove Box have a tumbler that would be considered the Tith position that rides on
+the tip to prevent a Valet key from working.
+
+Method#1 § Usea Lock Decoder/Reader tool to decode the door lock and then you can progression the remaining cuts.
+
+Method #2 Remove the door lock and decode to make a partial key. Progression remaining positions 1 & 2 tumblers for
+= the Ignition (complete) key.
+
+Olo|e|joj;olo
+
+0/0} Gg |> Ignition
+Ololo!|o|a!o!lo}| o|> Doors & Trunk* / Rear Hatch*
+12 = O/oO/o0! o|> Glove Box*
+O|0/0}o | > Rear Compartment*
+: : * if equipped
+142 | 3 4 5-0 | 28,9 | 10
+
+More information about this Code Series is at the end of the Subaru section.
+
+©1994, 2021 AutoSmart™ by Michael Hyde i : SUBARU - 19
+$B-10 SECTION | eo
+
+2015-21 Impreza STi & WRX 2015-19 Legacy & Outback
+
+| stvie | carpt | ms | macs | startcut | Cuttocut | AirBags | IgnRetainer
+
+32,000-39,999 | Dbl Sided é Active
+ILCO Master "G" Key: 2 JET Master "G’ Key: Subaru Master "G" Key:
+MASTER | _-TOY43RT45. STI3-PHT = 57497-FJ090 —
+Cs - =i ere : ==
+Determinator: GM 8 Lishi: TOY43-R | AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+| > Mike's Tip: Transponder System. Non-Remote Key is 57497-FJ090. Test key is B108 or BI10
+
+> Mike's Tip: > All Keys Lost: > Eeprom New Keys or Replace BIU & Instrument Cluster. —
+
+> Note: Always check with the Dealer for the correct Fob part number by VIN.
+
+> Remote Key: 57497 VA330 (2020-21) FCC Info: CWTWBIU8II| 315 MHz
+> Remote Key: 57497 F1230 (2016-19) FCC Info: CWTWBIU8II| 315 MHz
+> Impreza : a :
+a wax | Remote Key: 57497 F240 (2016-19) FCC Info: CWTWBU766 | 433 MHz
+I - = == . - ———
+poy = 2 > Remote Key: 57497 F021 (2015) FCC Info: CWTWBIUBII| 315 MHZ
+> Remote Key: 57497 F4031 or ILCO# RHK-SUB-4B4 (2015) FCC: CWTWBU766 | 433 MHz_
+> Remote Key: 57497 AL37A (2019) FCC Info: CWTBIGO77 | 433 MHz
+> Legacy &
+> Remote Key: 57497 AL27A (2018) FCC Info: CWTBIGO77 | 433 MHz
+Outback
+> Remote Key: 57497 ALOOA (2015-17) FCC Info: CWIWBIUSII| 315.MHz
+
+For all listed above
+
+Code Series: 32,000-39,899
+
+= ow = | SPACING (2 ape a
+0 Pe 3 4 5 6 7) 3 1 6 peor
+a == es = te
+A 846 | .791 | 709 | 654 | .571 | .516 | .433 | .378 | 295 | .240| to 2=.298
+loo ee : = ee oe
+
+= = = — =| Varies. =, oO
+2 HPC | Curtis Clipper Pak-A-Punch | — _ITL _ at A = s
+Ay xF307_ | n/a l=] we | a6 7
+= 2
+
+NOTES: FRAMON— ie spacing clip flat against left side of vise, = Key aligned
+using left side of —_— clip.
+
+20 - SUBARU ine 25 - eee ©1994, 2021 AutoSmart™ by Michael Hyde
+
+Deao5uve5054us6
+
+kéeoeoeeee6eee Oe
+@ «
+
+¢
+
+€
+
+¢
+
+@ @ <
+
+©9808 @e@ 060060600 00 6
+
+continued - SB-10 SECTION ©
+
+‘ChipInformation& Notes ss Se
+Transponder: Standard Chip: Subaru G Wedge Reusable: Yes
+Cloner Machine Information __ ae
+(DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LL.D. \( SCORPIO \( IEA)
+SS CN900 _ RW4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO ZEDFULL
+= ® No ® No ® No ® No @ No @ No ®@ No ® No
+> : g
+z @ — o 2 = oe _ =
+7)
+Bs :
+=4| Programmer & Diagnostic Tools — ; - Z
+S ie
+m Factory Tool =)
+A ( us PIN OBE: 2? TCODE/MVP PRO x TDB1000 x HOTWIRE
+REQUIRED 2
+: SSM4
+Subaru Select Only using —
+Montor 4 SSM4 (? SMART PRO € AUTO PRO PAD [> AUTEL IM608
+? = Check with your key programmer supplier to see if your vehicle is supported.
+Codes: | No codes on any locks.
+Decoders: | Determinator: n/a Lishi: TOY43-R AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTES: : Alltumblers are Solid tumblers and are marked with the depth number. There are 4 depths.
+: Tumblers are marked as #1 being the deepest and number #4 being the shallowest, no cut.
+__+No codes are currently published for this series.
+- This keyway is very similar to the Toyota 50K series in design & functionality, BUT the keyway is reverse
+of a X217/TR47 and is very close to the GM Colorado keyway of the B108 / B110.
+- The Trunk/Rear Hatch & Glove Box have a tumbler that would be considered the Tith position that rides on
+the tip to prevent a Valet key from working.
+Method #1 _ Use a Lock Decoder/Reader tool to decode the door lock and then you can progression the remaining cuts.
+Method #2 - Remove the door lock and decode to make a partial key. Progression remaining positions 1 & 2 tumblers for
+the Ignition (complete) key. =—
+0/O/o0)0/0/0)}0}0/0/} 0 |> Ignition
+oOlolol|o/}o!o! ai a> Doors & Trunk* / Rear Hatch*
+O}O/}0!} o|> Glove Box*
+O!0!|0} 0 | > Rear Compartment*
+: :
+1/2|/3]14|5|6171/8| 9/10 =
+More information about this Code Series is at the end of the Subaru section.
+©1994, 2021 AutoSmart™ by Michael Hyde SUBARU - 21
+SB-11 SECTION = 2 gees ie!
+
+2012-14 BRZ
+
+| srme | carpe | me | macs | Startcut | cuttocut | Air Bags | Ign Retainer
+
+40,000-49,999 High Sec n/a | nla
+MASTER =
+KEYS > Check with Dealer with VIN for correct Proximity Remote Fob
+Determinator: nia | Lishi: Tov4g ‘AccuReader: nia FEZ Reader: n/a Cobra: nla
+1_> Mike’s Tip: Proximity System - Emerg Key# 57497 €A200. Test Key is TOY48.
+es > All Keys Lost: Replace or ReFlash BIU & Instrument Cluster - If you do not have Abrites.
+> Note: Always check with the Dealer for the correct Prox Fob part number by VIN.
+Remot? | » prox Fob: 88835 CA060 (2012-13) FCC Info: HYQIAACK | IC: 1551A-14ACK | 314.35 MHz
+> Prox Fob: 88835 SG040 (2014) FCC Info: HYQIAACK | I: 1651A-14ACX | 314.35 MHz
+
+88835 CAQ60,SG040 57497 CA200
+
+Code Series: 40,000-49,999
+
+~| DEPTHS | -
+
+Bow —~=—=SSPACINGG ye ee ee Se —
+—_—*;_—_si||-5=a18 —ToY4s
+
+606° | 612 | 41z_ | 323 [| 228 _--|32.07 Test Key
+| ——| INTERNAL | 1=.027 _ =
+
+7 [2 2 S| A [5
+
+- 4-TRACK
+
+606 | sie |= 4i7 | 323 | 22821202 =
+
+Hid3ad 8 30VdS
+
+Note: Spacing is measured from the tip.
+
+22 - SUBARU os : : = ©1994, 2021 AutoSmart™ by Michael Hyde
+
+> ©
+
+peeeaeeeeeeeeee
+
+pe5uaoo e020
+@:'e0,0@¢0 ¢€
+
+© 68 8© 0@'0@ @ ¢
+
+©9eo 60'080 0 <¢
+
+¢
+
+€
+
+continued - §$B-11 SECTION
+
+Chip Information & Notes _
+
+Proximity: Optional
+
+Reusable: Yes (Needs Unlocking)
+
+Cloner Machine Information _
+
+Chip: Integrated Circuit _
+
+=|
+A
+bag No Cloning for this Proximity System
+BS Programmer & Diagnostic Tools
+ra : .
+Factory Tool
+o ( 2 Ee SRE ? TCODE/MVP PRO x TDB1000 _| X HOTWIRE
+m ssM4 REQUIRED
+A
+
+Subaru Select Only using
+
+Montor 4 | SSM4 [2 sma PRO («
+
+AUTO PRO PAD ¢ AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: TOY48
+
+AccuReader: n/a
+
+EEZ Reader: n/a
+
+Cobra: n/a
+
+Method #1 Use a lock Reader/Decoder in the door lock to determine the cuts for a complete key.
+
+Method #2 Remove door lock and disassemble and decode, otherwise remove trunk/hatch cylinder
+
+and disassemble and decode. All the cuts can be found in the door locks.
+
+Method #3 Remove glove box lock and disassemble and decode. Progression remaining positions 1L
+&1R in the door or trunk/hatch. Some models have a clutch cylinder that will spin 180°
+when an incorrect key is inserted.
+
+RIGHT LEFT
+
+LEFT (C)_ RIGHT LEFT () RIGHT Lest (CY (Q_RigHT
+§ a 5 a a 5 r a 5 a
+4 o|4/s o/4/| oe a |4|o
+s) Lt 3 a 7 3 : ci 3 .
+P= 2222 22 =m) 428 @;2;)s
+s/i1/e s/|1|e a]
+IGNITION : DOORS TRUNK GLOVE BOX
+Depths are reversed - A number 5 depth is a no cut.
+©1994, 2021 AutoSmart™ by Michael Hyde SUBARU - 23
+SB12SECTIN §——~> fe =: ies
+
+2013-14 Crosstrek 2014-15 Forester _—
+
+| stme | caro# | ime | macs | StartCut | Cuttocut | AirBags | Ign Retainer
+
+70,000-79,000 High Sec None
+MASTER ; —_——_—_ —
+KEYS => ee ~ Subaru Prox: 88835 SG040, Emerg Key: 57497 FJ060
+Determinator: n/a ‘Lishi: TOY48 AccuReader: n/a FEZ Reader: n/a Cobra: nia
+
+> Mike's Tip: Proximity System - Emerg Key# 57497 FJ060. Test Key is TOY48.
+
+More > | > Keyway is similar to Toyota 40K but is different code series and different pre-cuts on the tip of the key.
+
+> All Keys Lost: Replace BIU & Instrument Cluster - If you do not have Abrites. —
+
+Remote=> | > Prox Fob: 88835 SG040 - FCC Info: HYQI4ACX | 314 MHz / MFR: Denso
+
+88835SG040 = ~—s«S/497 FJO6O
+
+Code Series: 70,000-79,000
+
+Bow SaCNG i ce DEPTHS
+S| Sette
+
+e06—| 2512. | 417 | 323 |. .228 7) | 3=.071
+~ INTERNAL | 1=.027
+
+1 Sg | gg 4-TRACK |
+
+606 | 512 | 417-1 .323 | 228
+
+Hidad 8 30VdS
+
+Note: Spacing is measured from the tip.
+
+94-SUBARU. = ©1994, 2021 AutoSmart™ by Michael Hyde
+
+ecoeoeeneeoneaeaeeooeaeeeoeoeeee
+©eo 680600 6006 8,0 6 «€
+
+@ «
+
+@' @ ¢
+
+eee os
+
+YSQGNOdSNVUYL
+
+continued - §SB-12 SECTION
+
+Chip Information & Notes
+
+Proximity: Optional Chip: Integrated Circuit _ | Reusable: Yes (Needs Unlocking)
+
+Cloner Machine Information
+
+No Cloning for this Proximity System
+
+Programmer & Diagnostic Tools
+
+Facto Tool ==
+( Factory SEL (? TCODE/MVP PRO (v ABRITES (« HOTWIRE
+REQUIRED aoe
+- SSM4 :
+Subaru Select Only using
+Faia SsM4 (? SMART PRO (« AUTO PRO PAD (v AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: Determinator: n/a Lishi: TOY48 — AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Method #1 70K Series Only: Use a Lock Decoder/Reader tool to decode the door lock (Lishi: TOY48).
+
+Method 42 Remove door lock to disassemble and decode. All the cuts can be found in the door
+
+lock.
+_ 40K Emerg Key 70K Emerg Key 40K Emerg Key with No Pre Cut & Depth Tumbler
+
+No Pre Cut with Pre Cut
+
+ror
+
+70K Emerg Key with Pre Cut & Special Tumbler
+
+DOOR GLOVE BOX
+
+Above is an example of the differences between the 40K series & the 70K series Emergency key.
+
+©1994, 2021 AutoSmart™ by Michael Hyde SUBARU - 25
+SB-13SECTION =
+
+2013-14 Outback
+
+| stme | carpe | ims
+
+T 1-3000 High Sec None
+—— Subaru Prox:88835 AJOOA, Emerg Key: 57497 AJA
+Determinator: n/a Lishi: DATI7 AccuReader: n/a = fEEZ Reader: n/a : aa nla
+> Mike's Tip: Proximity System - Emerg Key# 57497 AJIIA, Test Key is TOY40 or JMA SUB-2P
+geod > All Keys Lost: Replace or ReFlash BIU & Instrument Cluster - If you do not have Abrites.
+Remote=> > Prox Fob: 88835 AJOOA - FCC Info: HYQI4AGX | 314 MHz / MFR: Denso
+
+59497 AJIIA 88835 AJOOA
+
+Code Series: T 1-3000
+
+2 Bow SPASING Tip _ DEPTHS
+
+ee 722 | 642 | 512 | 382 | 251 | t= 202
+
+- : ——- —{ EXTERNAL | 2=.267
+
+o a ro 4 5 4-TRACK | 3=.240
+
+— ——_ 7 = =~=61= 2 -_TOY40
+em 722 | 642 | 512 | 382 | 251 | - Test Key
+=
+
+Note: Spacing is measured from the tip.
+
+26 - SUBARU : === SS : ©1994, 2021 AutoSmart™ by Michael Hyde
+
+MACS Start Cut | Cut to Cut | Air Bags | Ign Retainer Gee
+
+—peoeeeeenoneoeeeee ede
+
+i a
+oo @e@e0«
+
+¢
+
+(
+
+©9e0oe oo ¢
+
+¢
+
+(
+
+eeeoeo
+
+continued - §B-13 SECTION
+
+| Chip Information & Notes
+
+Proximity: Optional
+
+Chip: Integrated Circuit
+
+Cloner Machine Information —
+
+Reusable: Yes (Needs Unlocking)
+
+No Cloning for this Proximity System
+
+Programmer & Diagnostic Tools
+
+t Factory Tool PIN CODE
+REQUIRED
+-SSM4
+
+(? TCODE/MVP PRO |
+
+(« TDB1000
+
+(x HOTWIRE
+
+YAGNOdSNVAUL
+
+Subaru Select Only using
+
+-Montor 4 SSM4 (? SMART PRO
+
+(« AUTO PRO PAD
+
+(> AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Godes: | No codes on any locks.
+
+Decoders: | Determinator:n/a _| Lishi; DATI7
+
+AccuReader: n/a
+
+EEZ Reader: n/a Cobra: n/a
+
+~ NOTES: The dimensions of the key allow you to use a Lexus Ilco: LXP90, as mechanical test key, even though the
+
+Lexus is a Internal 4-Track and this Subaru is an External 4-Track.
+But you may want to use the JMA Key: TP00-SUB-2P
+
+All tumblers are Split tumblers and are marked with the depth number. There are 4 depths.
+
+Method #1 Use-a Lock Decoder/Reader tool to decode the door lock to make a complete key.
+Method #2 Remove door lock and decode to make a complete key. All tumblers can be found in the door lock.
+LEFT (RIGHT LEFT —()_ RIGHT LEFT __()__RIGHT
+5 =| 5 |. o/5 |
+4 a 4 . . 4 | 8
+ae] = = 3 a 3
+2 wi2|e =2
+At a|/ije 1
+
+IGNITION |
+
+DOORS
+
+GLOVE BOX
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+SUBARU - 27
+SB-14 SECTION
+
+2019-21 Ascent 2018-21 Crosstrek
+
+2019-21Forester | — 2017-21Impreza — : 2020-22 Legacy & Outback
+| sme | CARD# | im# | macs | Start cut | cuttocut | AirBags | Ign Retainer
+- | 32,000-39,999 | Dbl Sided | nf | ofa | Active |
+waster | __ ILCO Master “H" Key is TOY43RH-PT Subaru Master "H" Key is 57497-FLO8A
+KEYS > |Determinator: GM8 Lishi: TOY43- R |AccuReader: n/a _—‘| EEZ Reader: n/a 7s Cobra: n/a
+> Mike's Tip: Transponder System - Dealer Tool required at this time. Test Key is B108 / B10.
+> Mike's Tip: > All Keys Lost: > Eeprom New Keys or Replace BIU & Instrument Cluster.
+_ ®» Note: Always check with the Dealer for the correct Fob part number by VIN.
+> Ascent > Remote Key: 57497 XCOIA - FCC Info: CWTBIGO77 | 433 MHz ==
+> Remote Key: 57497 $1050, $1051 (2019-21) - FCC Info: CWTBIGO77 |433 MHz
+> Crosstrek = === —— ==
+fen > Remote Key: 57497 FLO0O (2018) - FCC Info: CWTB1GO77 | 433 MHz
+info |) Forester _| > Remote Key: 67497 $1050, $J061 (2019-21) - FCC Info: CWTBIG077 | 433 MHz
+> Remote Key: 57497 XCOIA, XCOTB (2019-21) FCC Info: CWTBIGO77 | 433 MHz
+> Impreza 2 =2 S25" === =———
+_ Z > Remote Key: 57497 FLOOA (2017-18) FCC Info: CWTBIGO77 | 433 MHz —
+> Legacy & Outback _| > Remote Key: 57497 ANOOA, ANOOB (2020-22) FCC Info: CWTBIGO77 | 433 MHz
+
+57497 FLOOO, _
+$1050, XCOIA
+
+Code Series: 32,000-39,999
+
+eS Bow ~ SPACING . : .
+0 ee 213 7-4 5 za Se ea
+> = — ===: eg 1=.324 :
+o +846 | .791 | .709 | .654 | .571 | .516 | .433 | .378 | .295 .240 | to _ 2=.298— :
+ge == : = = = | Cut: | 3 = 273
+——— —— —— mo ; = a
+2 ‘HPC | Curtis Clipper Pak-A-Punch | —_sITL a 4 a aes BS
+= = SS SS ===
+5 XF307 = nla nla = eee a
+NOTES: FRAMON- Lay spacing clip flat against left side of vise, Key aligned S
+using left side of ven se
+
+28 - SUBARU. — = == 22 22 2 | ©1994, 2021 AutoSmart™ by Michael Hyde ==
+
+peeooenoneaeneoeeeeaeoeeeeeeee 8
+@ «
+
+eeee.
+
+oe 068 80 @\¢
+
+¢
+
+Chip Information & Notes
+
+continued - §B-14 SECTION
+
+Transponder:
+
+Standard
+
+_| Chip: Subaru H Wedge
+
+Reusable: Yes
+
+Cloner Machine Information _
+
+(DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE \( LD. \{( SCORPIO )( IEA )
+= —. CNg900 RW4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE | | TANGO ZEDFULL
+>] @ No ® No @® No @® No @® No @® No @ No @ No
+>i :
+za — == =< = a = = =
+”
+=3| Programmer & Diagnostic Tools
+m Factory Tool PIN CODE
+A (' REQUIRED x TCODE/MVP PRO x TDB1000 (« HOTWIRE
+
+SSM4 — :
+Subaru Select Only using —
+Montor 4 SSM4 (« SMART PRO (« AUTO PRO PAD E AUTEL IM608
+=? = Check with your key programmer supplier to see if your vehicle is supported, existing key is required
+Codes: | No codes on any locks.
+Decoders: | Determinator:n/a_ _| Lishi: TOY43-R AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTES: - All tumblers are Solid tumblers and are marked with the depth number. There are 4 depths.
+- Tumblers are marked as #1 being the deepest and number #4 being the shallowest, no cut.
+- No codes are currently published for this series.
+- This keyway is very similar to the Toyota 50K series in design & functionality, BUT the keyway is reverse
+of a X217/TR47 and is very close to the GM Colorado keyway of the B108 / BIO.
+- The Trunk/Rear Hatch & Glove Box have a tumbler that would be considered the Ith position that rides on
+the tip to prevent a Valet key from working.
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock and then you can progression the remaining cuts.
+Method #2 Remove the door lock and decode to make a partial key. Progression remaining positions 1 & 2 tumblers for
+the Ignition (complete) key,
+O0/0/o0/0/0}0/0}0)}0/B |>'gnition
+Ololo!|o|o!o!o)| g|> Doors & Trunk* / Rear Hatch*
+O!}O/0} o [> Glove Box*
+O/}O0 1} | | > Rear Compartment*
+1{|2/3|4/5|6]7|8|9|10 *if equipped
+More information about this Code Series is at the end of the Subaru section.
+©1994, 2021 AutoSmart™ by Michael Hyde SUBARU - 29
+SB-15 SECTION : oe
+
+2019-21 Ascent _
+
+~ 2015-20 BRZ
+
+| 2015-21Crosstrek | 2016-21 Forester
+
+2015-21 Impreza
+
+2016-21 impreza STi & WRX | 2015-21 Legacy & Outback
+
+90,000-99,999 aes Sec
+
+Check with Dealer with VIN or correct Proximity Remote Fob
+
+MASTER
+
+| sme | carpe | me | MACS | startcut | Cuttocut | Air Bags | ign Retainer [a
+
+eas ‘Determinator: n/a Lishi: TOY 2TRK | AccuReader: n/a EEZ Reader: nia Cobra: n/a :
+> Mike's Tip: Proximity System. Emerg Key# 57497 ALO2A or ALO20. Test Key is modified TOY40.
+All Keys Lost: Replace BIU & Instrument Cluster. (Until there i is workaround.)
+> Mike's Tip: Subaru series 90, 000- 99,999 is similar to the Lexus/Toyota 80K series, but different, of course.
+=> Note: Always check with the Dealer for the correct Fob or Remote Key part number by VIN.
+> Ascent > Prox: 88835 FLO3A, FLO3C - FCC Info: HYQI4AHK | 433 MHz =
+> BRZ -> Prox: 88835 CA310, CASI (2015-20) Fcc Info: HYQI4AHC | 314 MHz :
+: : > Prox: 88835 FL040, FLO4I, FLO42 (2019- 21, HYBRID) FCC Info: HYQI4AHK | 433 MHZ =
+> Crosstrek =| > Prox: 88835 FLO30, FLO31, FLO32 (2018- 21) FCC Info: HYQI4AHK | 433 MHz
+> Prox: 88835 CA3I0 (2015- 17) FCC Info: HYQI4AHC | 314 Moz
+Route 2 > Prox: 88835 FLO3O, FLO31, FLO32 (2019-21) FCC Info: HYQI4AHK | 433 MHZ
+info> oe > Prox: 88835 CA310 (2016-18) FCC Info: HYQI4AHC | 314 MHz
+> Prox: 88835 FLO3A, FLO30, FLO3I, FLO32 (2017- 21) FCC Info: oe | 433 MHZ
+eee > Prox: 88835 CA310 (2015-16) FCC Info: HYQI4AHC | 314 MHz =
+as > Prox: 88835 FLO3A, FLO30, FLO31, FLO32 (2019-21) FCC Info: HYQI4AHK | 433 MHz
+
+STi&WRX —_| > Prox: 88835 CA310 (2016-18) FCC Info: HYQI4AHC | 314 MHz
+
+> Legacy&  _| > Prox: 88835 FLO3A, FLO30, FLO31, FLO32 (2018-21) FCC Info: HYQI4AHK | 433 MHz
+
+Outback —_| » Prox: 88835 ALO4A (2015-17) FCC Info: HYQI4AHC [314 MHz
+
+30 - SUBARU
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+peCKPC CC HOKC CCC CEOS EOCECOE®
+¢
+
+eo 6 e@ 0 6
+
+¢
+
+¢
+
+¢
+
+¢
+
+¢
+
+© 68 © @'@ «
+
+¢
+
+¢
+
+Code Series: 90,000-99,9999
+
+Note: Spacing is measured from the tip.
+
+continued - SB-15 SECTION
+
+”n : =
+
+my) Bow SPACING Giiaes
+
+> (4) ¥ = 118
+
+630 | 492 | 354 | 217 | @)S=.093 g
+Pe = | - INTERNAL | (2) N = .067 es
+a 2 gS - 4-TRACK | (1)1=.041 =
+as = | : — == = = Z =
+a 583 | 445 | 307 | 169 5
+ba
+
+Chip Information &
+
+Proximity: Optional
+
+Chip: Integrated Circuit
+
+| Reusable: No (Needs Unlocking)
+
+| Cloner Machine Information =
+
+Techstream |
+
+= =
+a = E = = =
+> No Cloning for this Proximity System
+2 : ==
+
+Prog 8 : =
+O is
+S (Factory Tool PIN CODE igbee mel ae
+rr ~ REQUIRED x ISCREMNF PRO x 2S x HOTWIRE
+a / = =
+
+: me Only using :
+
+(een (« SMART PRO (x AUTO PRO PAD ¢ AUTEL IM608
+
+7s Check with your key programmer supplier to see if your vehicle is supported. 1 = Existing key is required
+
+Codes:
+
+No codes on any locks.
+
+Decoders:
+
+AccuReader: n/a
+
+EEZ Reader: n/a
+
+Cobra: n/a
+
+Determinator: n/a
+
+Lishi: TOY 2TRK
+
+Method #1 Use a lock Reader/ Decoder in the door lock to determine the cuts for a complete key.
+
+Method #2 Remove door lock to disassemble and decode. All the cuts can be found in the door lock.
+
+EEE,
+
+LEFT) RIGHT (RIGHT LEFT () RIGHT ALERT _(.) RIGHT
+
+4 a|4/s 2/4] s =| 4]
+
+ig-|2 2 1. ES : a/3 _— a | 3]
+2 . 2 . 1 2 ro] a |-228
+
+[= aj1[# eee at
+
+_ IGNITION : DOOR TRUNK / HATCH GLOVE BOX*
+None : *If equipped
+— ©1994, 2021 AutoSmart™ by Michael Hyde
+
+SUBARU - 31
+
+Subaru 7 Fpyota 10 Cut Series MA A.C.
+2 ia (Maximum Adjacent Cut System) :
+
+The Ms A. A.C, Ss. (Maximum Adjace seu Speteat is different on this 10-cut code series ce.
+The difference in depths can be no greater than 2 - as long as the tumblers do not share: th
+a | same tumbler chamber. tf the tumblers share the same chamber then the difference bet
+
+5 this — dge e will | make progr
+

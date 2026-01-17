@@ -1,0 +1,4416 @@
+©®e eee
+
+¢
+
+¢
+
+@eeoee
+
+¢
+
+¢
+
+AO LOCK SERVICE, INC.
+
+2021
+
+AutoSmart ™
+by Michael Hyde
+
+NISSAN = INFINITI
+
+DISCLAIMER: : : : :
+A wide variety of key programmers have been added to this book. Most key programmer companies are
+not based in the U.S. Some of their application charts have many mistakes. In some cases, you will need
+to check with your key programmer supplier to see if the vehicle you are working on is supported by their
+
+tool. There is always a risk in damaging the vehicle electronics when you connect to the vehicle through
+| the OBD port if you are not using an OEM diagnostic tool. You as the locksmith take on this risk every
+
+time you perform work on a vehicle.
+
+If you have any doubt about what part to use, make sure you check with the dealer and have them run
+the VIN to get you the right part number. Remember, ultimately it is your responsibility to obtain the
+correct part. Part numbers and FCC information has been researched and verified as best as possible.
+But no system is perfect or without errors. Car manufacturers’ part numbers and applications guides
+contain mistakes of their own. Therefore, we cannot guarantee or warranty that the part we show for a
+particular vehicle is the absolute right one.
+
+— ©1994, 2021 AutoSmart™ by Michael Hyde NISSAN = INFINITI - 1
+Teal: RaioSmark Asian Book”
+_INFINIT l & NISSAN Table of Contents ===
+
+(PIN Codes for Infiniti & Nissan: — Se
+When Nissan (and Infiniti) first introduced d transponder ey in nie Us S, ae did not require a PIN Code for key —
+
+included and -e is "5523".
+
+In 2003, “Nissan then came up ‘with anew raysfem where you have to get the — number irom the B BCM A (Body Control
+Module) and have it converted to a PIN Code that you could use for key programming. It is different in every car. The
+BCM Serial number is 5 digits long with numbers and possible letters too. . The PIN Code that i is converted i is always 4
+numbers. It was not on every 2003 model, just a ae
+
+math) and now Nissan had a New and Old system based on the year -and the model.
+
+In 2013, Nissan introduced another new PIN Code system that was 20 digits long. You have to enter all 20 digits, letters
+_& numbers, with all the letters being capitalized. It returns you with a response code that is also 20 digits long. This new
+
+every.2013 model, just a few.
+
+models i inthe US. The new 22 digit system is 3 hot on every model.
+
+The good news is most newer key programmers can read the BCM code from the vehicle and convert ittoa PIN Code
+that can be used to program ee So the == that v were introduced | in 2003 & 2009 are not much ofa problem
+anymore. aS == =: = :
+
+A clever person = feared out that is a way for a key programmer t to bypass the PIN Code requirement attogether ¢ on.
+the newer 20 digit system that was ee in 2013. :
+
+So now we are left with the 22 digit system introduced in 2018. Dealer response code & dealer tool required at this time.
+
+<
+
+In 2009, Nissan made a ‘change to their existing wae from 2003, by introducing anew. algorithm ou changed | the =
+
+20 digit system changes every time you go to program keys, you cannot reuse e the same code. It was not inedeced on
+
+= in 2018, Nissan introduced another new PIN Code system that is 22 digits long. First seen overseas anid? now on selected +
+
+Ze
+|MAKE = |MODEL YEARS ‘|TYPE |SECTION |PAGE | —
+‘[EX35 / EXS7 [2008-13 | Proximity | NIS-24 = | 48
+— ~ [2009-13 _ —|Proximity | NIS-24 Se
+_ | FX35 / FX45 / FX50_ 2003-08 | Proximity |NIS-21 | 42
+= ee ee
+i= eee 02 dey [Nisa3-—— on
+Infinit) = | °° [1999 ae ee
+: {1991-96 | = Nise ee
+caswon (20807 __| Proximity [isan | a2
+ee 3, 2003-07. {Keys (NS T6 82
+=f === = | 2007-082) Provimiy =| NiS-25. === 50
+— G35(4DR) = —=*f2005-06_—s| F Proximity _ | NIS-21 ee
+sfs=. = == 2003-06 |Key _—«=‘|NIS-16— 32
+
+2 - NISSAN « INFINITI -@1994, 2021 AutoSmart™ by Michael Hyde
+
+Deeeeeeeoeeeeneeeeeeeeee
+eee @@
+
+2021 - AutoSmart Asian Book
+INFINITI & NISSAN Table of Contents -
+
+MAKE
+
+_|MODEL
+
+YEARS |TYPE
+
+6.6 )0''6.:0..4
+
+SECTION PAGE
+G37 (2DR) 2008-13 Proximity NIS-25 50
+_| G37 (4DR) 2009-13 Proximity —_ | NIS-25 50
+a 2000-04 Key NIS-14 28
+1130 / 135 11999 Key NIS-9 18
+=. 1995-98 Key NIS-6 14
+-|J30 / M30 1990-97 Key NIS-7 16
+JX35 2013 Proximity NIS-25 50
+M35 / M45 2006-10 Proximity | NIS-25 50
+M45 2003-04  |Proximity | NIS-23 46
+M37/M56 2011-13 Proximity | NIS-25 50
+-|Q40 2015 Proximity _| NIS-29 58
+| 2002-06 Proximity | NIS-23 46
+Q45 1997-01 Key NIS-10 20
+: 1990-96 Key NIS-3 10
+Q50 (G37 4DR) 2014-21 Proximity _| NIS-29 58
+INFINITI Q60 (G37 2DR) 2014-21 Proximity | NIS-29 58
+—— _|Q70 (mM) 2014-19 Proximity _| NIS-29 58
+1999-04 Key* NIS-13 26
+
+axa *1999 QX4 - Transponder system was added mid-year 1999
+= 1997-98 Key NIS-12 24
+Qx30 2017-19 Proximity | NIS-32 64
+oe a6 : 2020-21 Proximity NIS-31 62
+2014-19 Proximity NIS-30 60
+1x55. 2022 Proximity _| NIS-31 62
+2011-13 Proximity | NIS-30 60
+QX56 -|2008-10 | Proximity _ | NIS-22 44
+2004-07 Key NIS-17 34
+bic 2019-21 Proximity | NIS-31 62
+: 2014-18 Proximity — | NIS-30 60
+QX70 (FX) 2014-19 Proximity | NIS-30 60
+QX80 (Qx56) 2014-21 Proximity | NIS-30 60
+
+©1994, 2021 AutoSmart™ by Michael Hyde _
+
+NISSAN = INFINITI - 3
+
+2021 - AutoSmart AsianBook __
+_ INFINITI & NISSAN Table of Contents
+
+MAKE
+
+_|MODEL
+
+YEARS
+
+TYPE
+
+| SECTION |
+
+PAGE
+
+NISSAN
+
+Older Models Not Found :
+Elswhere :
+
+1974-80
+
+Key
+
+NIS-8
+
+ves =
+
+1982-98 ©
+
+Key
+
+14
+
+200SX / 240SX
+280ZX
+
+|4979-83
+
+[Key _
+
+NIS-6
+
+| NIS-1
+
+AS 3
+
+300ZX
+
+‘|1984-96
+
+Key
+
+NIS-6
+
+dg
+
+350Z
+
+2003-08 -
+
+Key
+
+NIS-15
+
+30°
+
+370Z
+
+| 2009-21 —
+
+Proximity
+
+NIS-24
+
+_| ALTIMA 2 Door
+
+2013
+
+= Proximity
+
+NIS-26 —
+
+82
+
+ALTIMA 4 Door
+
+| 2013-21
+
+Proximity
+
+| NIS-27
+
+: 54
+
+ALTIMA
+
+2007-12
+
+: Proximity os
+
+NIS-26—
+
+ee
+
+2005-06 |
+
+| Key
+
+NIS-15
+
+30.
+
+~|2000-04
+
+Key
+
+/NIS-13
+
+1998-99
+
+| Key
+
+NIS-11
+
+yo
+
+[1993-97
+
+Key
+
+NIS-6
+
+ae
+
+ARMADA
+
+— 13006-21 =
+
+| Proximity
+
+NIS-21-
+
+42
+
+200446 _
+
+Key 2
+
+NIS-15
+
+30 |
+
+__ | AXXESS ©
+
+1990
+
+Key
+
+NIS-6
+
+14
+
+une =
+
+2009-14
+
+| Proximity
+
+NIS-24
+
+Sie he
+
+‘| 2009-14 —
+
+Key
+
+NIS-19
+
+38
+
+FRONTIER
+
+2005-21
+
+Key*
+
+| NIS-15
+
+30°
+
+[2002-04
+
+Key*
+
+NIS-13
+
+26
+
+‘| 1998-01 —
+
+Key
+
+E Frontier models had a Optional Transponder System starti
+e NIST ==
+
+ng in 2002,
+ea
+
+| GT-R
+
+Proximity —
+
+NIS-33
+
+Se
+
+JUKE
+
+| 2009-21
+
+2011-17
+
+| Proximity
+
+NIS-24. |
+
+48
+
+| 2011-14
+
+| Key
+
+| NIS-19
+
+Sos
+
+KICKS ©
+
+2021
+
+__ | Proximity —
+
+NIS-26.
+
+52
+
+| 2017-20
+
+| Proximity
+
+NIS-28
+
+56
+
+LEAF
+
+it =
+
+Proximity
+
+NIS-24-
+
+4a
+
+4 - NISSAN = INFINITI
+
+"©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeoe5neeaaneeeeeoeeeeeseede
+
+2021 - AutoSmart Asian Book
+INFINITI & NISSAN Table of Contents
+
+TYPE
+
+eee e@ee0e5u0 @oe
+
+MAKE MODEL YEARS SECTION PAGE
+2009-21 Proximity | NIS-25 50
+
+-|2007-08 | Proximity _| NIS-21 22
+
+2004-06 __| Key NIS-19 38
+
+cities 2000-03 _—| Key NIS-14 28
+
+1999 Key _| NIS-9 18
+
+as 1982-98 | Key NIS-7 16
+
+_| MAXIMA / 810 — 1981-82 Key NIS-1 8
+
+=25 2009-21 Proximity | NIS-27 54
+
+MURANO 2005-08 =| Proximity _| NIS-21 42
+
+|2003-08 _| Key NIS-16 32
+
+2012-21 Key* NIS-19 38
+
+NV Van * NV Van models had a Optional Transponder System starting in 2012.
+
+2012-21 Key NIS-11 22
+
+ae NX1600 / NX2000 1991-93 Key NIS-7 16
+eer 2013-20 | Proximity _ | NIS-28 56
+2007-12 Proximity NIS-21 42
+
+2005-12 Key NIS-17 34
+
+PATHFINDER 1999-04 _—| Key* NIS-14 28
+
+*1999 Pathfinder - Transponder system was added mid-year 1999.
+
+1996-99 Key NIS-11 22
+
+1986-95 Key NIS-7 16
+
+PATHFINDER ARMADA | 2004 Key NIS-17 34
+se ‘l1998-01 ~—‘| Key NIS-11 22
+
+PICK UP 1983-97 __| Key NIST 2: 16
+
+1974-82 Key — NIS-2 ; 9
+
+|PULSAR _ 1983-86 _| Key Neg | 16
+
+2011-17 Proximity NIS-28 56
+
+=|OUEST—
+2004-09 |Key — |NIS-17 34
+
+e660 0'0 0 06 06 0 ¢
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+NISSAN + INFINITI - 5
+To abel
+
+‘AutoSmart Asian Book
+
+~ INFINITI & NISSAN Table of Contents
+
+MAKE | MODEL |YEARS TYPE SECTION PAGE
+= 1996-02 | Key NIS-5 =13
+QUEST -
+: | 1993-95 Key NIS-4 12
+— 2014-21 Proximity | NIS-28 56
+ROGUE — Se : ==
+42014-21 __| Key ~ NIS- 20 40
+ROGUE "SPORT" —_‘| 2017-21 Key NIS- 20 40__
+2014- 2015 ROGUE Models - There is an overlap between the old body design and the new v body
+design on Non- -Proximity models. Models that have the word "Select" as part of their trim name are
+the older body design. Older (Select) models you can use a N104 key to be programmed tostartthe
+vehicle - no problem, Newer models starting with the new design for 2014 are using a new Philips
+= chip that requires N107T or a OEM Factory Remote Key must be programmed to start = vehicle,
+2S T2008-13 (I Proximity | NIS-22 _ 44-
+ROGUE mrss —— :
+—_|2008-13 | Key NIS-19__ 28
+ROGUE"SELECT" [2014-15 =|Key —s|{NIS-19. =e
+2013-21 | Proximity _ | NIS-28 56
+[2013-21 | Key NIS-19 38
+--|2007-12 —- | Proximity |NIS-22 44
+NISSAN ———— ~ _ :
+Be : 2007-12 | Key NIS-18. = 36
+SENTRA = —— =
+5 2000-06 Key* NIS-14 8s
+_|* Sentra models had a Optional Transponder System from 2000-2006. |
+ao 2000- 06 Key NIS-12 | - 24
+1982-99 —| Key» NIS-7 16
+ |2016-21 | Proximity __| NIS-28 | 56
+22 -|2004-21 ‘| Key* NIS-18 36-
+| TITAN = ey =
+*Titan models hada onion Transponder System from 2004 -2014,
+: 2004-14 | Key NIS-11 a:
+‘| 2020-21 “{ praninity | NIS-26 52
+-12013-19 | Proximity | NIS-28 - 56.
+|VERSA -|2007-12 | Proximity | NIS-22 44
+2007-19 |Key _—| NIS-18 36
+= 2007-19 Key .__ | NIS-12 24
+VERSA 4-DR 2013-19 | Proximity | NIS-28 _ 56
+6 - NISSAN = INFINITI a 2021 AutoSmart™ by Michael Hyde
+
+Ppee5uveeeeeoeeee
+
+peo eo 05eoee8
+e0eeoe eee
+
+¢
+
+¢
+
+(
+
+@e @ @ ¢
+
+¢
+
+2021 - AutoSmart Asian Book
+INFINITI & NISSAN Table of Contents
+
+MAKE MODEL YEARS TYPE SECTION PAGE
+| VERSA Hatchback 2013 Proximity _ | NIS-22 44
+VERSA NOTE 2014-19 Proximity | NIS-28 56
+2005-15 _—+i| Key* NIS-18 36
+NISSAN
+2002-04 Key* NIS-14 28
+XTERRA
+* Xterra models had a Optional Transponder System from 2002-2008.
+2000-08 Key NIS-12 : 24
+(PIN Codes for Infiniti & Nissan: =
+
+When Nissan (and Infiniti) first introduced transponder keys in the U.S., they did not require a PIN Code for key
+programming. Nissan then introduced a PIN Code for key programming and it is a static number for all models that were
+included and it is "5523".
+
+in 2003, Nissan then came up with a new system where you have to get the serial number from the BCM (Body Control
+Module) and have it converted to a PIN Code that you could use for key programming. tis different in every car. The
+BCM Serial number is 5 digits long with numbers and possible letters too. The PIN Code that is converted is always 4
+numbers. It was not on every 2003 model, just a few.
+
+In 2009, Nissan made a change to their existing system from 2003, by introducing a new algorithm (they changed the
+math) and now Nissan had a New and Old system based on the year and the model.
+
+In 2013, Nissan introduced another new PIN Code system that was 20 digits long. You have to enter all 20 digits, letters
+
+& numbers, with all the letters being capitalized. It returns you with a response code that is also 20 digits long. This new
+20 digit system changes every time you go to program keys, you cannot reuse the same code. It was not introduced on :
+every 2013 model, just afew. :
+
+In 2018, Nissan introduced another new PIN Code system that is 22 digits long. First seen overseas and now on selected
+models in the U.S. The new 22 digit system is not on every model.
+
+The good news is most newer key programmers can read the BCM code from the vehicle and convert it to a PIN Code
+that can be used to program keys. So the systems that were introduced in 2003 & 2009 are not much of a problem
+anymore.
+
+A clever person figured out that there is a way for a key programmer to bypass the PIN Code requirement altogether on
+the newer 20 digit system that was introduced in 2013.
+
+So now we are left with the 22 digit system introduced in 2018. Dealer response code & dealer tool required at this time.
+
+= == : ae : =
+
+AUTO LOCK SERVICE, INC.
+
+This book was designed and written by Michael Hyde ©2021
+
+©1994, 2021 AutoSmart™ by Michael Hyde NISSAN «= INFINITI - 7
+
+NIS-4 SECTION
+
+1979-83 280ZX (Nissan) 1981-82 Maxima / 810 (Nissan)
+
+| stme | carpe | iml# | MACs | start cut | cuttocut | AirBags | Ign Retainer
+M6001-7000 | DbiSided | CF60 3 “re Roll Pin
+
+NATIONAL: — KEYLINE: ie = jet; =| ‘IMA: STRATTEC: “DEALER:
+
+_ MASTER
+
+DA23__ Va | oe DA23_ PAPE ee
+
+Lishi: n/a AccuReader: n/a | EEZ Reader: n/a : Cobra: n/a
+
+CODES | stvie | carpe | ms | macs | Startcut | cuttocut | AirBags
+
+KEYS > Determinator: n/a
+
+| ign Retainer
+
+2 different = = : : _
+types M 7001-8000 Dbl Sided 136 3 157 099° _ No Roll Pin
+NATIONAL: KEYLINE: = ICO: JET; =| IMA: STRATTEC: DEALER:
+DA24 n/a X14 | + DA24 DAT-2D fla a
+Determinator: n/a Lishi: n/a AccuReader: n/a EEZReader: n/a _—| Cobra: n/a
+
+More=> | > Mike's Tip: Two different keyways possible depending on exact vehicle. =
+
+| NO TRANSPONDER
+
+Code Series: M 6601-7000, M 7001-8000 22222
+: : == “DEPTHS
+oe Bow SPACING= == 1=.275
+“co = — ——— === —-
+> 1 22123 [24 5 631-. = | | 2=.255
+o - : : = 3=.235
+pay 157 | .256 | 355 | 454 | 553 | 652 | = = | cutto cee ee:
+rw] - - Cut: ==
+2 ee oe 099° | 7 =.275
+7 HPC Curtis Clipper —|Pak-A-Punch}| — ITE “| 6 =.258
+- Cam: DC-1 2 = | Ss = 255
+CF60, XF60 Carriage: DMN PAK-N3 | = 36 ao 4 = 3217
+
+Codes: | Passenger door cylinder has a code stamped on tailpiece. Last four numbers is the code
+
+Decoders: | Determinator: n/a Lishi: n/a -——*| AccuReader: n/a EZ Reader: n/a Cobra: n/a
+Method #1 — Check owner's manual for codes, written in by the dealer. : =
+Method #2 Remove passenger door cylinder and read code stamped on tailpiece. Last four numbers is the code.
+
+Method #3 —_ Disassemble door cylinder or trunk cylinder and decode wafers to make master key.
+ofofofololo|>ignition =
+O0)0)0/0/0/0)>Doors
+0/0|0)0|0|O]> Trunk ~
+1, 2/3|4)5/6 =
+
+8 - NISSAN = INFINITI = ©1984, 2021 AutoSmart™ by Michael Hyde
+
+‘a
+
+pe@5uaeeeueneneeeeeeeese
+
+© 6 0@0 €@€0606'0,0¢6
+
+¢
+
+(
+
+NIS-2 SECTION
+
+1974-82 PICK UP (Nissan)
+
+ee | carp | imu# | macs | Startcut | cuttocut | AirBags | ign Retainer
+
+M6001-7000 | DblSided | CF60 3 157 Roll Pin
+NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: DEALER;
+MASTER X6 n/a X6 DA22 DAT-1I n/a n/a
+KEYS | Determinator: n/a Lishi: n/a : AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+CODES | stwe | caro# | im# | macs | Startcut | Cuttocut | AirBags | ign Retainer
+2 different
+types M 7001-8000 | DbISided 3 157 Roll Pin
+- NATIONAL: KEYLINE: — {LCO: JET: JMA: STRATTEC: DEALER:
+X7 n/a X7 DA21 DAT-1D n/a n/a
+Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+More> | > Mike's Tip: Two different keyways possible depending on exact vehicle.
+
+| NO TRANSPONDER
+
+Code Series: M 6001-7000, M 7001-8000
+: DEPTHS
+7) Bow SPACING Tip 1=.275
+dd =
+S 1 2 3 4 5 6 2=.255
+© 3=.235
+de 4=.217
+pay 157 | .256 | .355 | .454 | 553 | .652 Gkio =:
+0 Cut: or
+: mee 029 7=.275
+= HPC Curtis Clipper Pak-A-Punch ITL 6 =.255
+= = .235
+Cam: DC-1
+CF60, XF60 Carriage: DMN PAK-N3 136 4 = 3217
+Codes: | Passenger door cylinder has a code stamped on tailpiece. Last four numbers is the code
+Decoders: | Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use the Aero Lock tryout set T0-8 for X6 keyway, T0-9 for X7 keyway.
+Method #3 Remove passenger door cylinder and read code stamped on tailpiece. Last four numbers is the code.
+Method #4 Disassemble door cylinder or trunk cylinder and decode wafers to make master key.
+
+010/}0}0]0/0}> Ignition
+O,0;0)0|0|0|> Doors
+O/0/0O}O|O/] @}> Trunk
+1/2/3/4|/5|6
+
+- ©1994, 2021 AutoSmart™ by Michael Hyde
+
+NISSAN = INFINITI - 9
+
+NIS-3 SECTION
+
+1990-96 Q45 (Infinit)
+
+sTviE |
+
+cARD# | ITL#
+
+macs | StartCut | CuttoCut
+
+Air Bags | ign Retainer
+
+» Remote Fob: = 49U10 = 96) FCC Info: A269ZUA073 | 315 sed _
+
+: 14-6000 HighSec | n/a_ nla nla Roll Pin
+MASTER a nana — {___. :
+or NATIONAL: _ KEYLINE: co; =| JER _JMA: STRATTEC: _ DEALER:
+KEYS => INF90 n/a INF90 n/a nla | nla na
+Determinator: n/a Lishi: n/a AccuReader: nfa | EEZ Reader: na | Cobra: n/a
+mor > Mike’ s Tip: Only the first 2000 codes 2s ever er been released. High. =a key machine —
+Info >
+
+Note: Spacing is measured fromthe tip, =
+
+10 - NISSAN « INFINITI
+
+: Code Series: 1-6000 ae
+
+ES == Sr cinG er :
+Be > _| 1=.290
+740 | 620 | 500 | 380 | 260 | _ | 25.270 |
+fa ———— ; ——__| EXTERNAL | 3=.240 |
+a 1 2 321-4 5 4-TRACK |
+mm 740 | 620 | 500 | 380 | 260 |
+x= = :
+
+~ ©1994, 2021 AutoSmart™ by Michael Hyde
+
+SCO CCOOEHOCOCOSOECOECECECEE®S
+
+)
+
+e020 060@0e ¢€
+
+® '@\«
+
+C
+
+continued - NIS-3 SECTION
+
+Codes: | Check for code sticker in glove box.
+
+Decoders: | Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+MUST HAVE SPACE & DEPTH KEYS; MUST HAVE HIGH SECURITY KEY MACHINE TO CUT THESE KEYS.
+
+Method #1 Check for code sticker in glove box.
+
+Method #2 Disassemble door or trunk lock cylinder to get all the cuts necessary to make a master key.
+Glove box only has 4 out of the 10 necessary cuts needed to make a master key. All 045 tumblers are
+half tumblers.
+
+LEFT () RIGHT LEFT _()— RIGHT LEFT _(.) __RIGHT
+a 5 2 tt] 5 = 5
+a 4 = E a 4 a it : 4 a
+a| 3] | 3] =| 3 [8
+s|2/| es a | 2 |s 2
+a 1 a a 1 = 1
+IGNITION DOORS & TRUNK GLOVE BOX
+ti y
+
+Looking for /LCO Look-Alike Flip Keys,
+
+a
+RKE Remote Keyless Entry —=feco
+
+& Proximity Fobs?
+
+We have them on the shelf - ready to ship.
+National Auto Lock Service, Inc
+
+1-650-875-0125 or www.Laserkey.com
+
+XS
+
+7
+
+~ ©1994, 2021 AutoSmart™ by Michael Hyde NISSAN = INFINITI - 11
+
+NIS-4SECTION
+
+4993-95 Quest (Nissan)
+
+| stv | carpe | ms | macs | Startcut | cuttocut | AirBags | ignRetainer
+
+IGNITION | A-B-C-D-E Dbl Sided 100 Roll Pin
+-& DOOR NATIONAL: KEYLINE: (ieie JET: JMA: _ STRATTEC: — “DEALER:
+KEYs=> | DA32/H60 H54 _ 196FD =| DA32/H60 | n/a a | 2 Na
+Determinator:FOR1 _| Lishi: F026/H60 | AccuReader: FORD 10 EEZ Reader: H62 ‘Cobra: KDFIO
+More> | > Mike's Tip: This vehicle is the same as the Mercury Villager. You can also use the H60 keyblank.
+
+eS NO TRANSEINE pegee:
+
+Code Series: 10 Cut A-B-C-D-E (Ford 10-Cut)
+
+= SPACING
+
+> 1 2 se 4 5 6—|= 22 P=f=a 9 10 to. -| 1=.352
+° = SS] S55) | cut | 2= 326 |
+9 1.033 | .941 | .848 | .756 | .663 | .571 | 478 386 — | 201 | 0 3 = .300
+o : = : — 4 = 274
+_ CG 2 & A : 2 == = 5 = .249
+
+==... : am: arriage: A. ok =
+= Curtis Clipper: FORD-3 FORD-3 Pak-A. Punch: PAS FA :
+
+NOTES: FRAMON—Use Ford FD84 clip and set for first cut @ .100
+
+Codes: No Codes on any locks. = 8 ae 5 ; [Sees
+
+Decoders: | Determinator: FORT | Lishi: F026/H60 | AccuReader: FORD 10 —_‘| EEZ Reader: H62- Cobra: KDFIO-
+Method #1 ——_—‘ Use a Lock Decoder/Reader tool in the door lock for cuts in positions 4 through 8 in the door lock.
+__ Progression the cut in pean 10, in. the slove Dt box. Then lee the last cut in position 9, inthe
+janet : ==
+
+Method #2 Use tryout keys, = S022
+7 > Baxter Systems tryout set 91 for the door & progress the last 2 cuts.
+> Aero Lock set T0-56 for the door & Be the last . cuts,
+
+Method #3 Impression or remove = decode door sii to == cuts 4 coe 8, Progression the cut in Sailor
+10 in the glove box. Then progression the last cut in position gin the ignition.
+
+NOTE: Quest Glove Box—To remove plug, it must bein the lock position f you are looking at it ‘from the
+: outside, it must be picked counter- eTeplockwine: ~ =
+
+> Ignition
+> Doors ===
+> Glove Box
+
+REMINDER:
+This Ford 10-Cut ignition, the tumblers that contact the key are on the top of the keyway.
+
+12 - NISSAN « INFINITI = 222 5 = = =) ©1994, 2021 AutoSmart™ by Michael Hyde
+
+eee 8006800
+
+pPeseon5ueeaeee 6
+
+9e@eqo 0©e@eoee0e_0oe@oeaneeonnCedece]1s8ksd6e80080'0,0664
+
+Code Series: 01-1706X a=
+i - == SPACING = : DEPTHS
+i> eee 3 4 5 [a a. |. Ak 4s ast
+= == = 092 2 = .329
+96 845 | .753 | 661 | 569 | .477 | .385 | .293 | .201 3= 304
+oS ; 4= .279
+3 — _ | Cam: Carriage: : =a es
+: = Curtis Clipper: ] FORD-5 - FORD-5. ee Sess =
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .405
+Codes: | No Codes on any locks. :
+Decoders: | Determinator; FOR 2 Lishi; F038 == ~—‘| AccuReader: FORD 8 EEZ Reader: H75 _ Cobra: KDF8
+Method #1 Use a Lock Decoder/Reader tool in the door lock to determine cuts in positions 1 through 6, and then
+
+foaiivuis
+
+NIS-5 SECTION
+
+1996-02 Quest (Nissan)
+
+STYLE Ign Retainer
+
+| carpe | ms | macs | startcut | cuttocut | AirBags
+
+001-1706X | DbiSided | CXI01 2 A05 092 Yes Active
+MASTER
+= = NATIONAL: = | KEYLINE: ILCO: JET: JMA: STRATTEC: DEALER:
+KEYS | _H75 / DA37 H75 | =«‘196FD_= (| H75/ DA37 n/a nla n/a
+Determinator:FOR2 | Lishi: F038 —_| AccuReader: FORD 8 EEZ Reader: H75 | Cobra: KDF8
+Info > _ > Mike's Tip: This vehicle is the same as the Mercury Villager. You can also use the H75 keyblank.
+
+@ no tRansponver
+
+progression the two remaining cuts in the ignition for positions 7 & 8. Or, impression/progression the _
+__femaining two cuts in the Glove Box lock.
+
+Method #2 Use tryout keys and then progression the ignition lock for the remaining 2 cuts.
+
+_ Method #3 Disassemble the door lock to determine cuts in positions | through 6, and then progression the two remaining
+cuts in the ignition, for positions 7 & 8. (Remember to follow M.A.C.S.)
+
+- |0/0/0)0)] 0) 0} 0 |} Ignition
+S25 28/8 (8) B22) > Doors
+i) | eda > Tailgate
+DiOo|;O;0/0/0 > Stowage
+O| | O |> Glove Box
+Eli 2|314/)516,7/8
+
+‘| aentock | poortock | TRUNKLOCK —
+_| Coded | uncoded| Coded | uncoded | Coded | Uncoded |
+
+7596-02 | Quest -. — = -|° = 24] yoga} ===—| 703364 |. — —4 703364 | 703973
+
+©1994, 2021 AutoSmart™ by Michael Hyde — NISSAN = INFINITI - B
+NIS-6 SECTION ae:
+
+1982-98 200SX / 240SX (Nissan)
+
+1984-96 300ZX (Nissan)
+
+1993-97 Altima (Nissan) |
+
+1990 Axxess (Nissan)
+
+| sme |
+
+1991-96 G20 (Infiniti)
+
+cARD# | ms | MACS | st
+
+130 1995-98 (infiniti)
+
+art Cut | Cut to Cut Air Bags | ign Retainer
+
+X1-8000. —DblSided | XF67 Neo 2 ne 9 | (Varies - Roll Pin
+NATIONAL: KEYLINE: ILCO: Bia : IMA: = STRATTEC: DEALER:
+KEYS | DA31/DA25 | _DA3I___| XI23/X210 | DASI/DA25 | DAI2 | 692059 | n/a
+Determinator: NIS 1 Lishi: NSN 11 — +} AccuReader: n/a EEZ Reader: n/a Cobra: nla
+__ > Note: Always check with the Dealer for the correct Fob part number by VIN.
+any [> 200SX —_| > Fob Remote: (1997-99 200K) 26268-1300 FCC Info: KOBUTAST | 315 MHz
+»300ZX _| > Fob Remote: (02/94-96) 28268-F9902 FCC Info: A269ZJA073 | 315 MHz_
+
+a ‘NO TRANSPONDER
+
+Code Series: X 1-8000
+a Bow SPACING = — ip DEPTHS
+a Pye 4 4 5 6 | 7 | 8. 1=.276
+: == = 4-772 2=.256
+fe} us | 203 | .288 | .373 | 458 | .543 | 628 | 713 | 9... | 3=.236
+= == : = = a 4=.217
+lo HPC Curtis Clipper | Pak-A-Punch| [TL _ 085
+m es
+uv - Cam: DM-3 eee
+2 > CF, XF6Z Carriage: DM-3C a = 138 —
+
+14 - NISSAN = INFINITI
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+—meeoo5a4eVeneaeeeeeeeeeeee se
+
+continued - NIS-6 SECTION
+
+Codes: | Passenger door cylinder has a code stamped on tailpiece. Last four aunpeT) is the code
+
+©9oeeeee0' 6060 @e¢«
+
+| Decoders: | Determinator: NIS 1 Lishi: NSN 11 AccuReader: n/a -—_| EEZ Reader: n/a Cobra: n/a
+Method #1 — Check owner's manual for codes, written in by the dealer, or, code sticker in the glove box.
+“Method #2 Use a Lock Decoder/Reader tool in the door lock to determine the door cuts.
+
+Method #8 If the car has a manual or electric trunk release, remove trunk cylinder to get all 8 cuts to make
+
+master key. This can usually be easier than removing the door lock or door panel.
+
+Method #4 Remove passenger side door panel and check for code stamped on the lock tailpiece. The last
+; four numbers is the code. They stopped putting the code on most 1993 & up models.
+
+Method #5 a. Disassemble door cylinder to get all 8 cuts to make master key. —
+
+Method #6 Remove the glove box lock to get the cuts in positions 5 through 8. Next impression the other four
+cuts in the door or ignition lock.
+
+0/0} 0 {6 |= Ignition
+
+Oj} 6/0 | O|/> Doors & Trunk / Hatch
+O}O| OO} |> Glove Box
+516/718.
+
+| NOTE: 1995-99 Maxima, 1991-96 Sentra & Alll Altimas, if the
+car has a trunk release, it is easier to remove the trunk lock
+and decode it, to make a master key.
+
+eee @e0@ @eé
+
+@ @ @ ¢
+
+©1994, 2021 AutoSmart™ by Michael Hyde ; NISSAN = INFINITI - 15
+NIS-7 SECTION
+
+1990-97 J30 / M30 (Infiniti) 1982-98 Maxima (Nissan) _ 1991-93 NX 1600/2000 (Nissan)
+1986-95 Pathfinder ; 1983-97 Pick Up 1983-86 Pulsar | 1982-99 Sentra
+(Nissan) (Nissan) : _ (Nissan) (Nissan)
+
+| stve | carpe | ma | macs | Start Cut Cutto cut | ‘AirBags | Ign Retainer
+
+X 1-8000 _Dbl Sided | XF67 Varies. | Roll Pin
+MASTER : z :
+NATIONAL: KEYLINE: ALCO: JET: JMA: “STRATTEC: DEALER:
+KEYS | DA31/DA25 | DA3I X123 /X210 | DA3I/DA25 | —DAI2 ~g92059 | n/a
+Determinator: NIS1 —_| Lishi: NSN 11 | AccuReader: n/a FEZReader: n/a | Cobra: n/a —
+
+| NO SRANSPOREER
+
+Code Sere: X 1-8000
+a _Bow : SPACING Tip as
+s 1 2 3 4 = 6 B= 1=.276
+m : =—— 2=.256
+118 | .203 | .288 | .373 | .458 | .543 | .628 | .713 | 3=.236
+QE | Cutto =
+o === e241 Cut 4570
+m HPC | Curtis Clipper | Pak-A-Punch| —ITL 085
+= Cam: DM-3 Ge ee | = l=
+CF. XF67_ | Carriage: DM-3C | PAC B38
+
+Codes: Passenger door cylinder has a code stamped ‘ont tailpiece. Last four numbers is the code.
+
+Decoders: Determinator NIST | Lishi: NSN1T AccuReader: n/a ‘EEZ Reader: n/a | Cobra: n/a
+Method #1 Check owner's manual for codes, written ans the dealer, or, code sticker in the glove box
+Method #2 Usea | Lock Decoder/ Reader tool in the door lock to determine the-door cuts.
+
+Method #3 If the car has a manual or electric: trunk release, remove ok cylinder to get all 8 cuts to make=
+
+_ master key. This can usually be easier than removing the door lock or door panel.
+
+Method #4 Remove passenger side door panel and check for code stamped on the lock tailpiece. The last
+four numbers is the code. They stopped putting the code on most 1993 & up models.
+
+Method #5. Disassemble door cylinder to get all 8 cuts to make a master key.
+
+Method #6 =——- Remove the glove box lock to get the cuts i in ‘positions 5 through 8. Next i impression the other four
+cuts in the door or ignition lock. e
+
+> Ignition
+> Doors & Trunk / Hatch
+> Glove Box
+
+2/000
+Sloo 6
+oj 00
+
+NOTE: 4995-99 Maxima, 1991-96 Sentra & All Altimas, if the car has a trunk == it is easier to
+remove the trunk lock and decode it, to make-a master key.
+
+16 - NISSAN = INFINITI —_ Se TRAE Rosas? Ad Hyde
+
+Dpeee5un5eeeeeeeoeeeeeeeee8
+©@e@e2 ee €
+
+©e eo @)'e@ <
+
+(
+
+¢
+
+¢
+
+ee 060'0 06 ¢
+
+NIS-8 SECTION
+
+OLDER MODELS - 1974-1980 - 280Z / 260Z / 240Z / 510 / 610 / 710 / 810 / B210 (Nissan)
+
+| STYLE | carpe | imt# | macs | Startcut | CuttoCut | AirBags | ign Retainer
+
+M_4001-5000 Dbl Sided 3 da7 Roll Pin
+NATIONAL: KEYLINE: : qEE JMA: STRATTEC: DEALER:
+X6 n/a X6 DA22 DAT-1I n/a n/a
+MASTER =
+Keys <> _ | Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+| stve | carpe | im# | macs | Startcut | cuttocut | AirBags | ign Retainer
+2 different 7 :
+M 5001-6000 : :
+- types —_N1-2000 Dbl Sided 157 Roll Pin
+NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: DEALER;
+x7 n/a X7 DA21 DAT-ID_ | n/a nla
+Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+More>> | > Mike's Tip: Two different keyways possible depending on exact vehicle.
+
+| NO TRANSPONDER
+
+Code Series: M 4001-5000, M 5001-6000, N 1-2000 :
+a Bow SPACING = : poles)
+o =—
+> 1 =2 3 4 5 6 2=.255
+2 2255 3=.235
+yey 157 | .256 | .355 | .454 | 553 | .652 Cut to 4=.217
+Oo : : Cut: = or
+m === 099 7 =.275
+aie HPC Curtis Clipper Pak-A-Punch ITL 6 = .255
+i = = = 5 = .235
+Cam: DC-1
+CF60, XF60 Carriage: DMN PAK-N3 136 4=3217
+
+Codes: | Passenger door cylinder has a code stamped on tailpiece. Last four numbers is the code
+
+Decoders: | Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use the Aero Lock tryout set T0-8 for X6 keyway, TO-9 for X7 keyway.
+__ Method #3 Remove passenger door cylinder and read code stamped on tailpiece. Last four numbers is the code.
+
+Method #4 Disassemble door cylinder or trunk cylinder and decode wafers to make master key.
+
+0/0/0/0/0}0)]> Ignition
+O|]O/0/0/0/0}> Doors
+O|G/O}G@|O}O}> Trunk
+1/2/3/4/5]6
+
+©1994, 2021 AutoSmart™ by Michael Hyde NISSAN = INFINITI - 17
+NIS-9 SECTION
+
+1999 Maxima (Nissan)
+
+~ 1999 130 (infiniti)
+
+| ste | carps | me | macs | Startcut | cuttocut | AirBags | IgnRetainer
+
+X1-8000 Dbl Sided XF67 18° Roll Pin
+MASTER = — — oe
+= : NATIONAL: KEYLINE: 4LCO= JE) 3 22 : STRATTEC: DEALER:
+KEYS > DA31-PT BNSN1T2 | NSNTT2 | DA3I-N-PHT | TP13-DAT6P2 na | __ see below
+| Determinator: NIST Lishi: NSNTI AccuReader: n/a : EZ Reader: n/a_ a Cobra: n/a
+
+> Make sure the key you are using is “Pre-Cloned" otherwise it will not program into the vehicle.
+
+{> Mike's Tip: Transponder system standard equipment. Test key X210 / DA31
+
+> Factory keys: Infiniti = H0564-4L700 | Nissan = HO564-4L605
+
+Remote
+
+Info 1,139 __| > Fob Remote: 28268-40U15 - FCC Info: A269ZUA078 | 433 MHz
+
+> Maxima _| > Fob Remote: 28268-40U20 - FCC Info: A269ZUA078 | 433 MHz
+
+—
+
+~ 28268-40U15 _
+
+Code Series: X 1-8000
+
+ow :
+cow __ SPACING = oe
+5 : f= 4 5 6 | of 84 2 ta .26
+m == —_ = = = 22.2 —~ 2=.256
+
+18 | .203 | .288 | .373 | .458 | 543 | 628 | 713 | 1. | 3=.236
+. = = == | Cut SaaS
+m HPC | CurtisClipper | Pak-A-Punch| ITL | -085 :
+= = Cam: DM-3 S22 aa :
+
+CFXF67 | Caniage: DM-3C PAK-NI | a5 22 :
+
+18- NISSAN =INFINITL == = —__ @ 994, 2021 AutoSmart™ by Michael Hyde
+
+—meoeoeeeeeoaeVaeeeeeeee 8
+
+»@ 66
+
+(
+
+¢
+
+¢
+
+©9oe @ ¢
+
+¢
+
+eeeoen
+
+YaGNOdSNVUL
+
+continued - NIS-9 SECTION
+| Chip Information & Notes” : — = 2
+Transponder: Standard Equip. Chip: Philips 41 Reusable: Yes
+Cloner Machine Information _ :
+
+(DIAG BOX) (CHINA ) (ILCOISILCA) ( JMAUSA | ( KEYLINE )( LD. )( SCORPIO )( wo |
+oe CN900 _ RW4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+MM Yes M Yes | Yes J Yes | Yes @M Yes | Yes @M Yes
+RedChip& || 15& = +58 T5&
+
+DA31Shell | | DA3tshen | | NSNIIT2 pai shett_ | | BNSN1-T2 | | Any Brand | | Any Brand | | pa34 shel
+Programmer & Diagnostic Tools
+(Factory Tool) ( PINCODE ) (| _ 3
+REQUIRED ¥ TCODE/MVP PRO| | x TDB1000 x HOTWIRE
+Nissan ee
+Not for this :
+consult model. [v SMART PRO (v AUTO PRO PAD ¢ AUTEL IM608
+
+? = Check with your key programmer supplierto see if your vehicle is supported.
+
+Codes: | Passenger door cylinder has a code stamped on tailpiece. Last four numbers is the code.
+
+Decoders: | Determinator: NIS 1 Lishi: NSN 11 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Check owner's manual for codes, written in by the dealer, or, code sticker in the glove box.
+Method #2 Use a Lock Decoder/Reader tool in the door lock to determine the door cuts.
+
+Method #3 If the car has a manual or electric trunk release, remove trunk cylinder to get all 8 cuts to make
+
+: a master key. This can usually be easier than removing the door lock or door panel.
+
+Method #4 Remove passenger side door panel and check for code stamped on the lock tailpiece. The last
+: four numbers is the code. They stopped putting the code on most 1993 & up models.
+Method #5 Disassemble door cylinder to get all 8 cuts to make a master key.
+
+- Method #6
+
+‘Remove the glove box lock to get the cuts in positions 5 through 8. Next impression the other four
+cuts in the door or ignition lock. :
+
+> Ignition. =
+> Doors & Trunk 7 Hatch
+> Glove Box
+
+Ed)
+Oo
+aii O
+e700 Oo
+imi oO] Oo
+
+ejooo
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+NISSAN =
+
+INFINITI - 19
+
+‘NIs-10 SECTION = =
+
+1997-01 Q45 (Infiniti)
+
+= sTviE | CARDE | me | macs | Start Cut | cuttocut | AirBags | Ign Retainer
+
+001-22182 | DblSided | cF304 | 524 | 2 | 915 Roll Pin
+MASTER a2 = =
+NATIONAL: KEYLINE: ILCQ: — f= (=== — JMA: STRATTEC: DEALER:
+KEYS |) INFQ45-PHT | 0x INF45-PT | INFQ45-PHT | TPO7-DATISP | n/a HO564-6P101_—
+Determinator: NIS 2 ‘Lishi: NSN14 ‘AccuReader: nla | EEZ Reader: n/a _ | Cobra: n/a
+More |» Mike's Tip: Transponder system. Test = X237/DA34- ==.
+Info | > Remote Fob: 28268-3H100 = FCC Info: KBRASZU07 | 40.66 MHz
+
+Code Series: 001-22182
+
+—F a —— oo DEPTHS
+_o a 2 [3 | 4 1-5) @42-7 |. 8 | -9 2 10 f=333
+aS 22] 2=el ea 2 2=.307
+ry 915 | 833 | .750 | .667 | .584 | .501 | .418 | .335 | .252| 169) ., | 3=.281
+bs = Se to Cut: a
+= HPC | Curtis Clipper -Pak-A-Punch — =
+Cam: DM-40 : a
+v = 4 S Se
+= Era0s Carriage: DM-40 : PAE : = = 2
+
+NOTES: FRAMON - Lay tip stop clip flat ageey left side of v vise, , then tip stop key
+against clip. Set first cut at 405"
+
+20 - NISSAN « INFINITI
+
+©1994, 2021 AutoSmart™ by Michael Hyde :
+
+b o'e'6 @ 8166 60606680668 6
+
+)
+
+>
+
+© 6; eee
+
+¢
+
+¢
+
+¢
+
+¢
+
+eee
+
+¢
+
+YSQGNOdSNVYL
+
+continued - NIS-10 SECTION
+
+Chip Information & Notes"
+
+Transponder: Standard Equip.
+
+Chip: 4C Wedge
+
+Reusable: Yes
+
+Cloner Machine Information
+
+(DIAG BOX) (CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE \)( L.D.) ( SCORPIO ) (| wol_)
+wanes CN900 RW4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+(VJ Yes yes [V7] Yes [v7] Yes [VJ Yes [Vv] Yes @M Yes [v7] Yes
+Blue Chip & CN1& EH3 & TPXt & GK100/TK100 TPXt & TPX1 & WDI Chip &
+DA34Shell | | DA34Shell | | "H" Blade DA34 Shell | | &DA34Blade | | DA34 Shell DA34 Shell | | DA34 Shell
+Programmer & Diagnostic Tools :
+Factory Tool PIN CODE -Wie
+ei REQUIRED ¥ TCODE/MVP PRO| |X TDB1000 x HOTWIRE
+Nissan oe
+Not for this E
+Consult modél,- (v SMART PRO @ AUTO PRO PAD (2 AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: _ Determinator: NIS 2
+
+Lishi: NSN14
+
+AccuReader: n/a
+
+EEZ Reader: n/a
+
+Cobra: n/a
+
+Method #1
+
+Method #2
+Method #3
+
+Method #4
+
+Check for code in owner’s manual, written in by dealer.
+
+Use a Lock Decoder/Reader tool in the door lock to determine the door cuts. Progression or
+
+impression the ignition for the two remaining cuts in positions 1&2.
+
+Disassemble trunk or hatch lock cylinder (if equipped) to get the cuts in positions 3 through
+10. Progression or impression the ignition for the two remaining cuts in positions 1 & 2.
+
+Disassemble door lock cylinder to get the cuts in positions 3 through 10. Progression
+
+or impression the ignition for the two remaining cuts in positions 1 & 2.
+
+0)/0)0/0)}0/ 0} Oj O js ignition
+O|0/;0;0|0/0}0O} O}{> Doors & Trunk 7 Hatch
+O|}O/}0} 0 | > Glove Box
+3|4|5/6,7/8 | 9] 10
+— ©1994, 2021 AutoSmart™ by Michael Hyde NISSAN = INFINITI - 21
+NIS-14 SECTION
+
+22 - NISSAN + INFINITI
+
+1998-99 Altima (Nissan) | — 1998-01 Frontier (Nissan) 1999 G20 (fit)
+2012-21 NV Van (Nissan) | 1996-99 Pathfinder | 1998-01 Pick Up (Nissan). 2004-14 Titan (Nissan)
+= | ste | canoe | ms | macs | Start Cut | cuttocut | AirBags = Retainer
+oo1-22182 | DblSided | CF304_ 2 | | Roll Pin
+- NATIONAL: KEYLINE: ILCO= = 7 | IMA: - STRATTEC: DEALER:
+KEYS > DA34 DA34 _X237, DA34 | DAIS-P | 692094 | n/a
+Determinator: NIS 2 Lishi: NSN14 AccuReader: n/a EEZ Reader: n/a — ‘| Cobra: n/a
+= : Fob Remote: (1998-00) 28268-1W300 - FCC Info: KOBUTA3T | 315 MHz
+> Altima = i
+> Fob Remote: (1998-00) 28268- 98910 - “FCC Info: KOBUTAST | 315 MHz Ce
+_ | > Fob Remote: (2001 04) 28268- 72800 or ILCO# RKE- NIS- 3B1 - FCC: KBRASTUIS | 315 MHz
+> Frontier :
+> Fob Remote: (1998-01) 28268- 1W300 - FCC Info: KOBUTAST | 315 MHz
+> G20 > Fob Remote: (1999) 28268-7105 - FCC Info: KBRASTUOS | 315 MHz
+Remote |? NV Van > Fob Remote: 28268-ZT03A - FCC Info: CWTWBI1U821 | 315 MHz :
+info? > Fob Remote: (07/00-07/01) 28268-72460 - FCC Info: KBRASTUIO | 315 MHz
+> Pick Up
+> Fob Remote: (1998-99) 28268-1W300 - FCC Info: KOBUTAST | 315 MHz —
+> Pathfinder _| > Fob Remote: (1998-01) 28268-2600 - FCC Info: KBRASTUOS | 315 MHz
+> Fob Remote: (2007-16) 28268-ZT03A - FCC Info: CWTWB1U821 | 315 MHz
+> Titan > Fob Remote: (2004-14) 28268- 72800 or ILCO# RKE-NIS-3B1 - FCC: KBRASTUIS- | 315 MHz
+> Fob Remote: (2004. 05) 26268-C990C - FCC Info: KBRASTUIS Es MHz
+28268-1W300, 28268-72800, 28268-7/105
+72460, 2W600 C990C, ZTO3A. =
+@ vo TRANSPONDER = :
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+pe@eoacoenveaeneneaeeoeneoeenne
+
+)
+
+)
+oe e@@2060600689 08606066
+
+eecooo0ooe
+
+continued - NIS-14 SECTION
+
+Code Series: 001-22182
+SPACING = oe —
+” ba 2 32E4 5 |= 62|27 8 = 10 1=.333
+a4 ; 2 =.307
+ray .915 : -833 | .750 (667 -584 | .501 | .418 | .335 | .252 | 169 cut 3s!
+m to Cut: ===
+. = HPC Curtis Clipper Pak-A-Punch ITL 083
+mi
+Cam: DM-40 :
+B* -
+a6 ding: Carriage: DM-40 = =
+~ :
+NOTES: FRAMON - Lay tip stop clip flat against left side of vise, then tip stop key
+against clip. Set first cut at.405"
+Codes: | No codes on any locks.
+Decoders: _ Determinator: NIS 2 Lishi: NSN14_-———| AccuReader: -n/a EEZ Reader: n/a Cobra: n/a
+Method #1 _ Check for code in owner's manual, written in by dealer.
+
+Method #2 Use a Lock Decoder/Reader tool in the door lock to determine the door cuts. Progression or
+
+impression the ignition for the two remaining cuts in positions 1 & 2.
+
+Method #3 Disassemble trunk or hatch lock cylinder (if equipped) to get the cuts in positions 3 through
+
+10. Progression or impression the ignition for the two remaining cuts in positions 1 & 2.
+
+Method #4 Disassemble door lock cylinder to get the cuts in positions 3 through 10. Progression
+
+or impression the ignition for the two remaining cuts in positions 1 & 2.
+
+0/0/0)0|0}0}0} 0 |> ignition
+0)0O}010/0)0/0)} 0 |j> Doors & Trunk 7 Hatch
+O|}O|0| 0 | > Glove Box
+314/5|6|7|8]9 | 10
+— ©1994, 2021 AutoSmart™ by Michael Hyde i NISSAN = INFINITI -
+
+NIS-12 SEC
+
+TION
+
+1997-98 QX4 (Infiniti)
+
+CODES
+
+| STYLE
+
+2000-06 Sentra (Nissan)
+
+| carpe | ime | macs | start cut | Cuttocut | _AirBags |
+
+2007-19 Versa (Nissan) |
+
+2000-08 Xterra (Nissan)
+
+Ign Retainer
+
+oo1-22182 | DbiSided | CF304_ Roll Pin
+MASTER : _ =
+: : NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: ~~ DEALER:
+KEYS “> DA34 DA34 X237 DA34 DAI5-P | 692094 | n/a
+Determinator: NIS 2 Lishi: NSN14_ AccuReader: nia EEZ Reader: Wa | Cobra: n/a
+> Mike's Tip for Versa: Some models may need to have a ith cut near the tip for the key to function
+More correctly. Use Instacode Series 6711
+Info >
+== »> Note: Always check with the Dealer forthe correct Fob part number by VIN. =
+| > QX4 > Fob Remote: (1997-98) 28268- 1300 - FCC Info: KOBUTA3T | 315 MHz
+> Fob Remote: (2000-04) 28268-42400 - FCC Info: NHVBU427 | 315 MHz
+> Sentra == === = =
+> Fob Remote: (2004-06) 28268-62700 - FCC Info: CWTWB1U429 | 315 MHz
+ol be > Xterra > Fob Remote: ft: 2004) 28268- 72800 - FCC Info: KBRASTUI5 | 315 MHz
+. > Remote Head Key: (2012- 19) HO561- JHH4A or ILCO# RHK-NIS-3B1 - FCC: CWTWBIU751
+|» Versa > Fob Remote: 28268- T1034 - FCC Info: CWTWBIU821 | 315 MHz
+> Fob Remote: 28268-EA00A - FCC Info: CWTWB1U733 | 315 MHz
+
+28268-1W300
+
+28268-42400
+
+28268-62700
+
+~1LCO#RHK-NIS-3B1 |
+
+(a NO TRANSPONDER
+
+24 - NISSAN +
+
+INFINITI
+
+— ©1994, 2021 AutoSmart™ by Michael Hyde
+
+)
+
+pe5ae eae eee e eee 68 0 @
+
+)
+
+)
+
+@ <« 9eoeo 620062 06262060060' 08:0 @ -«
+
+¢
+
+@ @ ¢
+
+Hildad 3 30VdS
+
+Code Series:
+
+001-22182
+
+; SPACING Tip
+1 2 3 4 2 6 7 8 5 10
+:915 | .833 | .750 | .667 | .584 | .501 | .418 335 .252 | 169
+HPC Curtis Clipper Pak-A-Punch TTL
+Cam: DM-40—
+ae Carriage: DM-40 Sey =
+
+continued - NIS-12 SECTION
+
+Cut
+to Cut:
+083
+
+NOTES: FRAMON - Lay tip stop clip flat against left side of vise, then tip stop key
+
+against clip. Set first cut at 405”
+
+DEPTHS
+1=..333
+2 = .307
+3 =.281
+4=.256
+
+Codes: | No codes on any locks. _
+
+Decoders: | Determinator: NIS 2
+
+Lishi: NSN14
+
+AccuReader: n/a
+
+EEZ Reader: n/a Cobra:-n/a
+
+Method #1
+
+Method #2
+Method #3
+
+Method #4
+
+Check for code in owner's manual, written in by dealer.
+
+Use a Lock Decoder/Reader tool in the door lock to determine the door cuts. Progression or
+impression the ignition for the two remaining cuts in positions 1 & 2.
+
+Disassemble trunk or hatch lock cylinder (if equipped) to get the cuts in positions 3 through
+10. Progression or impression the ignition for the two remaining cuts in positions 1 & 2.
+
+Disassemble door lock cylinder to get the cuts in positions 3 through 10. Progression
+or impression the ignition for the two remaining cuts in positions 1 & 2.
+
+OOo GO Eee
+O/O0/0,;0;0);0/0/;0
+
+0 |e Lo
+3| 4-3] 6,7)/8)| 9/40
+
+> Ignition
+> Doors & Trunk / Hatch
+> Glove Box
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+NISSAN = INFINITI - 25
+NIS-13 SECTION =
+
+2000-04 Altima (Nis)
+
+STYLE
+
+2002-04 Frontier (Nis) |
+
+| carp# |
+
+ms |
+
+2000-02 G20 (Infiniti)
+
+macs | Startcut | Cut
+
+1999-04 QX4 (infiniti
+
+to Cut | Air Bags Ign Retainer
+
+001-22182 Dbl Sided | CF304 Roll Pin
+NATIONAL: KEYLINE: {LCO: JET: : e JMA: STRATTEC: DEALER:
+oS N102T N102T N102T | DA34-PHT | TPI9DA15P2| 692061 n/a
+Determinator: NIS 2 Lishi: NSN14 AccuReader: nla EEZ Reader: n/a Cobra: n/a
+More > Mike's Tip: Transponder system. Some models may need a PIN Code to program keys. Test key X237/DA34
+Info > "=> Note: Always check with the Dealer for the correct Fob part number by VIN.
+> Fob Remote: (1999-01) 28268-02821 - FCC Info: KOBUTAST | 315 MHz
+> Altima > Fob Remote: (1998-00) 28268-1V300 - FCC Info: KOBUTAST| 315 MHz
+> Fob Remote: (2002-05) 28268-ZB700 or ILCO# RKE-NIS-4B1 - FCC: KBRASTUIS | 315 MHz
+Remote |? Frontier > Fob Remote: 28268-28800 or ILCO# RKE-NIS-3B1 = FCC Info: KBRASTUIS | 315 MHz_
+Info => > Fob Remote: (2001-02) 28268- 7N107 - FCC Info: KBRASTUIO | 315 MHz .
+> G20 > Fob Remote: (03/00-11/00 only) 28268-7/106 - FCC Info: KBRASTUTO | 315 MHz
+> Fob Remote: (07/99-03/00 only) 28268-71105 - FCC Info: KBRASTUOS | 315 MHz
+> QXx4 > Fob Remote: (2002-04) ILCO# RKE-NIS-3B1 - FCC Info: KBRASTUIS | 315 MHz
+
+28268-1W300,
+- & 02821
+
+28268-5W501,
+
+ILCO# RKE-NIS-4B1
+ILCO# RKE-NIS-3B1
+
+28268-7107
+
+28268-75105
+
+Code Series: 001-22182
+
+against clip. Set first cut at 405”
+
+” SPACING _
+
+= 1 Z2| FZl24a =| 5 6. 77-2 | = 0 = | 1-325
+
+re) = 2 = 2=.307
+
+m -915 | .833 | .750 |_.667 | .584 .501 | .418 | .335 | .252 | 169 Cut 3 =.281
+: ; 1 —__ to Cut: | 4=.256
+
+= 5 - = | 083
+
+oO HPC _ Curtis Clipper Pak-A-Punch = HL :
+
+m = = = = =
+
+ae crz04 | Cam OM-40 -PAK-F1 524
+
+- _| Carriage: DM-40 E
+
+= NOTES: FRAMON - Lay tip stop clip flat eit ee left side. of vise, th then tip stop key |
+
+26 - NISSAN + INFINITI
+
+“©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeoeone4eeee
+
+)
+
+pee5ueeee8@ ©
+
+)
+oe @€000 0600600 €
+
+¢
+
+(
+
+¢
+
+ee eo eo 00
+
+YSQNOdSNVYL
+
+continued - NIS-13 SECTION
+
+Chip Information & Notes
+
+Transponder: Optional on Frontier | Chip: 4D60 Wedge
+
+Reusable: Yes
+
+Cloner Machine Information => ee
+
+(DIAG BOX) (CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )(  L.D.. ) ( SCORPIO )( wo _ )
+Win, | | CNe00 RW4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+| Yes (Yes [VJ Yes [VJ Yes [V1 Yes Yes VJ Yes [VJ Yes
+
+Blue Chip & CN2& EH3 & TPX2& | | GK100/TK100| | TPX2& TPX2 & WDI Chip & |
+DA34 Shell | | DA34Shell | | "H" Blade DA34 Shell | | &DA34Blade | | DA34 Shell DA34 Shell DA34 Shell
+Programmer & Diagnostic Tools
+Factory Tool PIN CODE
+a REQUIRED ¥ TCODE/MVP PRO 2? TDB1000 ¥ HOTWIRE
+Nissan woe
+C It Yes, use :
+ole 5523 (v SMART PRO (v AUTO PRO PAD (2 AUTEL IM608
+
+igs Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: _ Determinator: NIS 2
+
+Lishi: NSN14 AccuReader: n/a
+
+EEZ Reader: n/a Cobra: n/a
+
+Method #1
+
+Method #2
+
+Method #3
+
+Method #4
+
+— Check for code in owner's manual, written in by dealer.
+
+Use a Lock Decoder/Reader tool in the door lock to determine the door cuts. Progression or
+impression the ignition for the two remaining cuts in positions 1 & 2.
+
+Disassemble door lock cylinder to get the cuts in positions 3 through 10. Progression
+-___ or impression the ignition for the two remaining cuts in positions 1 & 2.
+
+Disassemble trunk or hatch lock cylinder (if equipped) to get the cuts in positions 3 through
+10. Progression or impression the ignition for the two remaining cuts in positions 1 & 2.
+
+0/0,;0;/0;0|0/0}| 0 {> Ignition
+
+0)0/}0)0;}0)0} 0} 0 | > Doors & Trunk / Hatch ~
+O|0O}0| 0 |> Glove Box :
+
+3|4|5|6|7|8|9]|10
+
+— ©1994, 2021 AutoSmart™ by Michael Hyde
+
+NISSAN = INFINITI - 27.
+NIS-14 SECTION
+
+Hid3jG 8 A0VdS
+
+2000-04 130 / 135 (Infiniti)
+
+2000-03 Maxima (Nissan)
+
+1999-04 Pathfinder (Nissan)
+
+001-22182_ |
+
+STYLE
+Dbl Sided
+
+CF304
+
+2000- 06 Sentra (Nissan)
+
+“| carpe | imu _|_macs | startcut cut | Cutto Cut |
+
+Air Bags
+
+2002-04 Xterra (Nissan)
+
+| Ign Retainer
+Roll Pin
+
+> Maxima.
+
+NATIONAL: KEYLINE: ILCO: yet. | sJMA ~_ STRATTEC: DEALER:
+KEYS > N102T | N102T N102T DA34-PHT | TPI9DAI5P2| 692061 n/a
+Determinator: NIS 2 : Lishi: NSNI4 AccuReader: n/a EEZ Reader: n/a -1 Cobra: n/a
+More > Mike’ s Tipe Transponder system. Some models may need a PIN Code to program keys. Test key oe
+Info > > Note: Always check with the Dealer for the correct Fob part number by VIN.
+LE | > Fob Remote: (2002-04) 28268-2B700 or ILCO# RKE-NIS-4BI - - FCC Info: KBRASTUI5 | 315 MHz
+> 130/135 | > Fob Remote: (03/00-01/01 only) 28268-71107 - FCC Info: KBRASTUIO | 315 MHzc
+‘| > Fob Remote: (07/99-03/00 only) 28268- 7105 - FCC Info: KBRASTUO9 | 315 MHz
+> Fob Remote: (06/01- 2003) 28268-ZB700 or ILCO# RKE-NIS- 4B1 - FCC Info: KBRASTUI5 | 315 MHz
+| > Fob Remote: (06/00-06/01) 28268-4Y900 - FCC Info: “NHVWBUA3 | 315 MHz
+
+> Fob Remote: (04/99-06/00) 28268-47400 - FCC Info: NHVBU427 | 315 MHz
+
+> Pathfinder
+
+> Fob Remote: (2002-04) 28268- 5W501, 5W50A or ILCO# RKE- NIS-3B1 - FCC Info: KBRASTUIS 7 315 MHz
+
+> Sentra
+
+> Fob Remote: (2002-04) 28268-42400 - FCC Info: NHVBU427 | 315 MHz
+
+> Fob Remote: (2004-06) 28268-62700 - FCC Info: CWTWB1U429 | 315 MHz
+
+> Xterra
+
+28268-ZB700,
+ILCO# RKE-NIS-4B1
+
+28268-4Y900,
+_& 4Z400
+
+ILCO#
+
+RKE-NIS-3B1
+
+> Fob Remote: 28268-72800 or ILCO# RKE-NIS-3B1 - FCC Info: KBRASTUIS5 | 315 MHz
+
+28268-7107
+
+28268-7J105 —
+
+= SPAGING : : a : DEPTHS — 2 =
+1 2 224 5 6 | 7-18 | 9-1 10 1=.333
+: =——— 2=.307
+.915 | 833 750 667 584 -501 | .418 | .335 | .252 | 169 Cut |— 3=.281 |
+——— : == = == _——— to Cut: |- 4=.256
+a —— = =—— 083
+HPC Curtis Clipper | —Pak-A-Punch es ATL = =
+‘Cam: DM-40 3
+CF304 Carriage: DM-40 _PAK-F1 524
+
+NOTES: FRAMON - Lay tip stop clip flat aoe left side of vise, = tip stop key
+against clip. Set first cut at 405"
+
+28 - NISSAN = INFINITI
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeae5uanaean5angeeonoaaseeooeeesd
+continued - NIS-14 SECTION
+
+Chip Information&Notes = “ae ==
+
+Transponder: Optional on Some Reusable: Yes
+
+| Chip: 4D60 Wedge
+
+Cloner Machine Information
+
+o9e@@2@080080 0,0 6 ¢
+
+¢
+
+¢
+
+¢
+
+C
+
+eeeoee0oo0e.
+
+YSQNOdSNVUL
+
+(DIAG BOX ) (CHINA) (ILCOISILCA) ( JMAUSA \ ( KEYLINE )( LD.) ( SCORPIO )( wo!)
+WIRD cnaoo || Rw4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE | | TANGO | | MINI TOOL
+I Yes 1 Yes MM Yes lv] Yes MI Yes M1 Yes M1 Yes" M1 Yes
+Blue Chip& || CN2& EH3 & TPX2& | | GK100/TK100| | TPX2& TPX2& | | WWDIChip &
+DA3 Shell || DA34Shell | | “H"Blade | | DA3Shell | | &DA34Blade | | DA3Shell | | DA34Shell | | DA34 Shell
+
+Programmer & Diagnostic Tools : -
+“Factory Tool) ( PINCODE | (_, :
+REQUIRED TCODE/MVP PRO 2 = v¥ HOTWIRE
+Nissan a
+Consult ves
+epe eee (v SMART PRO (v AUTO PRO PAD (2 AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+130/135, Maxima, Sentra & Xterra uses PIN Code "5523"
+Pathfinder 2001-04 uses PIN Code "5523" - Pathfinder 1999-00 = Does not require a PIN Code.
+
+Codes: | No codes on any locks.
+
+‘Lishi: NSN14
+
+Decoders: | Determinator: NIS 2_ AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+_Method #1 Check for code in owner's manual, written in by dealer.
+Method #2 —_ Use a Lock Decoder/Reader tool in the door lock to determine the door cuts, Progression or
+impression the ignition for the two remaining cuts in positions 1 & 2.
+Method #3 Disassemble trunk or hatch lock cylinder (if equipped) to get the cuts in positions 3 through
+= : 10, Progression or impression the ignition for the two remaining cuts in positions 1 & 2.
+“Method #4 — Disassemble door lock cylinder to get the cuts in positions 3 through 10. Progression
+
+or impression the ignition for the two remaining cuts in positions 1 & 2.
+
+6/0)0)0/0/0}0}0)|0} 0 |> Ignition
+O,0/}0|}0/}0/0} |! O |> Doors & Trunk / Hatch
+\ O| 0} 0} | > Glove Box :
+1(/2/3/4|5|6|7|8]9]10
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+NISSAN « INFINITI - 29
+NIS-15 SECTION
+
+H1d3ad 2 30VdS
+
+2003-08 350Z (Nissan)
+
+CODES
+
+STYLE
+
+| carpe |
+
+im |
+
+2004-16 Armada (Nis) ©
+
+macs | StartCut |
+
+2005-21 Frontier (Nis)
+
+Cut to Cut | Air Bags | Ign Retainer
+
+~ 001-22182 | -DbiSided | CF304 | 5 Roll Pin
+. NATIONAL: KEYLINE: ILCO: JET: = JMA: STRATTEC: = ~ DEALER:
+KEYS > N104T N104T _ NIO4T DA40-PHT | TPI2DATISP2 | 7003526 n/a
+Determinator: NIS 2 Lishi: NSNI4 | AccuReader: n/a _| EEZ Reader: n/a | Cobra: n/a
+More > Mike's Ti: Transponder system. Key Programmer & PIN Needed. Test key X237 / DA34 .
+Info > > Note: Always check with the Dealer for the correct Fob part number by VIN.
+> Fob Remote: (2003-06) 28268-ZB700 or ILCO# RKE-NIS-4B1 - FCC: KBRASTUIS Ea MHz
+gia > Fob Remote: (2005-08) 28268-C99IA - FCC Info: KBRASTUIS | 315 MHz
+> Altima > Fob Remote: (2002-06) 28268-28700 or ILCO# RKE-NIS-4BI - FCC: KBRASTUIS | 315 MHz |
+ae > Fob Remote: (2007-14) 28268-ZT03A - FCC Info: CWTWBIU821 | 315 MHz
+nie? '> Fob Remote: (08/11-03/17) 28268-ZT04B (Power Hatch) FCC Info: cwTwetUs21 1315 ME MHz
+Ae > Fob Remote: (2004-07) 28268-ZB800 or ILCO# RKE-NIS-3B1 - FCC: KBRASTUI5 | 315 MHz |
+: > Fob Remote: (2005-08) 28268-C990A, C990C - FCC Info: KBRASTUIS | 315 MHz
+> Frontier > Fob Remote: (2007-14) 28268-ZT03A - FCC Info: CWTWB1U821 | 315 MHz
+
+ILCO# RKE-NIS-3B1 —_—sILCO# RKE-NIS-4B1__
+
+Code Series: 001-22182
+
+SPACING Tip HEPHIE
+] 2 2 4 5 6 i 48 4] 1G = - 1=.333
+== = == = = == 307
+915 | .833 | .750 | .667 | .584 | .501 | .418 | .335 | .252 | 169 3=.281
+le == =f = fF Cut 4=256
+———_— ee
+HPC Curtis Clipper Pak-A-Punch ITL =
+Cam: DM-40 — S42 = Se
+€F304 Carriage! DM-40 PAK-F1 = : 524
+NOTES: FRAMON - Lay tip stop clip flat again left side of vise, then tip stop key :
+against clip. Set first cut at 405" :
+
+30 - NISSAN -
+
+—— ©1994, 2021 AutoSmart™ by Michael Hyde
+
+INFINITI i
+
+aeeeonoaoeeaeeoeeee ©
+
+»p©0o006e 6
+
+)
+
+oe02e@0e0 «
+
+(
+
+¢
+
+YAGNOdSNVUL
+
+Chip Information & Notes _
+
+continued - NIS-15 SECTION
+
+Transponder: Optional on Some Chip: Philips 46 Wedge— | Reusable: No
+
+Cloner Machine Information _
+
+(DIAG BOX) (CHINA) (ILCO/SILCA) ( JMAUSA ) ( KEYLINE \( LD. \ ( scorPiO )( wol_)
+coe CN900 RW4+ TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+[VJ Yes | Yes | Yes M1 Yes [VJ Yes M1 Yes M1 Yes [J Yes
+Green Chip CN3 & EH3& || TPX4& GK100 / TK100 TPX4 & TPX4 & WVDI Chip &
+&DA34Shell | | DA34Shell | | "H" Blade DA34 Shell & DA34 Blade DA34 Shell DA34 Shell DA34 Shell
+Programmer & Diagnostic Tools
+Factory Tool PIN CODE :
+ee REQUIRED ¥ TCODE/MVP PRO ¥ TDB1000 ¥ HOTWIRE
+Nissen 1)
+Consult
+
+Yes (v SMART PRO
+
+(v AUTO PRO PAD
+
+(2 AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+> Infiniti & Nissan use several different types of PIN Code conversions depending on Year-Make-Model.
+After-market tools and software are available to make the conversion from BCM code to PIN Code. The PIN code
+is the one you need when programming keys. The BCM code is unique to every vehicle.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: NIS 2 Lishi: NSN14 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 —_ Check for code in owner's manual, written in by dealer.
+Method #2 _ Use a Lock Decoder/Reader tool in the door lock to determine the door cuts. Progression or
+impression the ignition for the two remaining cuts in positions 1&2. -
+Method #3 Disassemble trunk or hatch lock cylinder (if equipped) to get the cuts in positions 3 through
+10. Progression or impression the ignition for the two remaining cuts in positions 1 & 2.
+Method #4 ~—_—_—Disassemble door lock cylinder to get the cuts in positions 3 through 10. Progression
+
+or impression the ignition for the two remaining cuts in positions 1 & 2.
+
+0\0,/0,0/0)0)0/ 10 |> ignition
+O0/0/0)0/0/}0)| 0} 0 ]> Doors & Trunk / Hatch
+0/00 | 0 |> Glove Box
+3 E4/-5|6|,71|8 9g 10
+— ©1994, 2021 AutoSmart™ by Michael Hyde NISSAN =
+
+INFINITI - 31
+
+NIS-46 SECTION
+
+2003-08 FX35 / FX45 2003-06 G35 (4DR) | 2003-08 Murano
+
+2003-07 G35 (2DR)
+(Infiniti) (Infiniti) (Infiniti) (Nissan)
+| sme | canoe | me | macs | Startcut | Cut to Cut t | Air Bags | Ign Retainer
+
+001-22182 | DbiSided | CF304 Roll Pin
+MASTER 5 = a
+NATIONAL; __KEYLINE: =|LE0; JER JMA: STRATTEC: : DEALER:
+KEYS> | NI04T N104T — N104T DA40-PHT | TPI2DATISP2 | 7003526 nla
+Determinator: NIS 2 Lishi: NSN14 | AccuReader: n/a FEZ Reader: n/a Cobra: n/a
+More > Mike's Tip: Transponder system, Key Programmer & PIN Needed. Test key X237/ DA34
+Info > Note: Always check with the Dealer forthe correct Fob partnumber by VIN. =
+> Fob Remote: 28268-C990A, C990C - FCC Info: KBRASTUIS | 315 MHz
+> FX35/FX45_— |— : —_——_—— ==
+> Fob Remote: 28268-5W501, 5WSOA or ILCO# RKE-NIS-3B1 - FCC: KBRASTUI5 | 315 MHz
+> G35 (2DR) _| > Fob Remote: 28268-28700 or ILCO# RKE-NIS-4B1 - FCC Info: KBRASTUI5 | 315 MHz_
+> G35 (4-DR) > Fob Remote: 28268- 28700 or ILCO# RKE-NIS- 481 - FCC Info: KBRASTUI5 | 315 MHz = SS 2
+> Fob Remote: (2003-05) 28268-5W501, 5W50A or ILCO# RKE-NIS-3B1 - FCC: KBRASTUI5 | 315. MHz
+> Murano i z
+> Fob Remote: (2006-08) 28268-C990A, C990C or ILCO# RKE-NIS-3B1 - FCC: KBRASTUIS | 315 MHz
+
+ILCO# RKE-NIS-3B1 _ ILCO# RKE-NIS-4B1
+
+Code Series: 001-22182
+
+SPACING
+
+= Tip
+
+= ——+. DEPTHS
+o fa Z5\|23 4 5 6 7 8G | 1=.333
+A i S22 23 65 55 SSeS 2 = .307
+rol -915 | .833 | .750 | .667 | .584 | .501 | .418 | .335 | .252 | 169 cur | 3=-281
+m = 2558 = = = to Cut: | == =
+. HPC Curtis Clipper | | Pak-A-Punch mo SS.
+Cam: DM-40 7
+a) : =
+* ness _Carriage: DM-40. Benes abe ee
+
+NOTES: FRAMON - Lay tip stop clip flat against left ide = vise, ie tee = key
+against ap Set first cut at.405*
+
+32 - NISSAN « INFINITI ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeoeeeoeeoeeeeeeeeeeeeese
+
+continued - NIS-46 SECTION
+
+Chip Information & Notes
+
+Transponder: Optional on Some Chip: Philips 46 Wedge | Reusable: No
+
+Cloner Machine Information = ===
+
+L.p.. \{ scorPio \( Wo)
+
+e900 0,06 «
+
+¢ ® 6@ 06 8 @)\<«
+
+¢
+
+ee0e
+
+YaAGNOdSNVYL
+
+(DIAG BOX) (CHINA) (ILCOISILCA) ( JMAUSA ) (. KEYLINE ) (
+eS CN900 RW4+ TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+[VJ Yes Yes - [VW Yes [vJ Yes 1 Yes 1 Yes [VJ Yes | Yes
+Green Chip CN3 & EH3 & TPX4 & GK100/TK100 TPX4 & TPX4 & W0IChip & | |
+&DA34Shell | | DA34Shell | | "H" Blade DA34 Shell | | &DA34Blade | | DA34 Shell DA34 Shell | | DA34 Shell
+Programmer & Diagnostic Tools
+“Factory Tool) (~ PIN CODE
+REQUIRED ¥ TCODE/MVP PRO| | Y TDB1000 ¥ HOTWIRE
+Nissan.
+Consult Yes (v SMART PRO (v AUTO PRO PAD ¢ AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+> Infiniti & Nissan use several different types of PIN Code conversions depending on Year-Make-Model.
+After-market tools and software are available to make the conversion from BCM code to PIN Code. The PIN code
+is the one you need when programming keys. The BCM code is unique to every vehicle.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: NIS 2 Lishi: NSN14 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1. Check for code in owner’s manual, written in by dealer.
+Method #2 Use a Lock Decoder/Reader tool in the door lock to determine the door cuts. Progression or
+__ impression the ignition for the two remaining cuts in positions 1 & 2.
+Method #3. _ Disassemble trunk or hatch lock cylinder (if equipped) to get the cuts in positions 3 through
+10. Progression or impression the ignition for the two remaining cuts in positions 1 & 2.
+Method #4 Disassemble door lock cylinder to get the cuts in positions 3 through 10. Progression
+
+or impression the ignition for the two remaining cuts in positions 1 & 2.
+
+O|O/0|0|0) Oj > ignition
+O;}0O| Oj | | 0} > Doors & Trunk / Hatch —
+O|}0O|0 | 0 |> Glove Box
+5|6|7|8|9]10
+~ ©1994, 2021 AutoSmart™ by Michael Hyde NISSAN = INFINITI - 33
+
+NIS-17 SECTION
+
+2005-12 Pathfinder | 2004 Pathfinder
+(Nissan) | ___ Armada (Nissan)
+
+2004-09 Quest (Nissan) 2004-07 OX56 (Infiniti)
+
+| STYLE | CARD# iy ITL# | MACS Start Cut | Cut to Cut | ni Bags | tan Retainer |
+_. 001-22182 Dbl Sided | CF304 ‘| Roll Pin
+MASTER a :
+NATIONALS - KEYLINE: ILCO: JE JMA: — _STRATTEC: DEALER:
+KEYS > NI04T | NI04T N104T DA40-PHT | TPI2ZDATISP2 | 7003526 | — n/a
+|Determinator: NIS2 —_| Lishi: NSN14 /AccuReader: n/a | EEZReader: n/a =| Cobra: n/a
+More > Mike’s Tip: Transponder system. Key Programmer & PIN Needed, Test key_X237 / DA34
+= aS > Note: Always check with the Dealer for the correct Fob part number by VIN. ——
+_|> Pathfinder | > Fob Remote: 28268-ZT03A / EA000 FCC Info: CWIWB1U821 | 315 MHz
+» Pathfinder | .. rob Remote: 28268-72800 or ILCO# RKE-NIS-3B1 - FCC Info: KBRASTUIS [315 MHz
+Armada — : : =
+— =: > Fob Remote: 28268-72800 or ILCO# RKE-NIS-3B1 (3 btn) FCC Info: KBRASTUIS | 315 MHz
+nfo Se sees - :
+> Quest > Fob Remote: 28268-52210 or ILCO# RKE-NIS-5B1 (5 btn) FCC Info: KBRASTUSI | 315 MHz
+> Fob Remote: 28268-52200 or ILCO# RKE-NIS-6B1 (6 btn) FCC Info: KBRASTUSI | 315 MHz
+>QX56 _| > Fob Remote: 28268-ZT04B - FCC Info: CWTWB1U821 | 315 MHz
+
+ILCO# RKE-NIS-3B1 ILCO# RKE-NIS-4B1  ILCO#RKE-NIS-5B1_ _ILCO# RKE-NIS-6B1
+
+Code Series: 001-22182
+
+Bow _ SPACING _ Se RS = ina
+on Eee ee 1=.333
+RS : = == 2= .307 =;
+[R@ 15 | .833 | .750 | 667 | .584 | 501 | 418 | 335 | .252| 169 | ., | 3=.281 |
+ua = 7 | itu |
+‘a HPC | Curtis Clipper Pak-A-Punch | ITL | 083 |
+Cam: DM-40 =
+ba © = 4 a 2) ==
+=a Bie Carriage: DM-40 PAK cS = 524
+
+NOTES: FRAMON - Lay tip stop clip flat against left side of vise, 2, then tip stop key |
+against Clip. Set first cut at .405”
+
+34 - NISSAN = INFINITI 4 =e ©1994, 2021 AutoSmart™ by Michael Hyde =
+
+eeceveseovneeeseeoseeee
+
+)
+
+~>@ 8 @
+eo o020e0e0e0e8680600060 060200608
+
+¢
+
+YAGNOdSNVYL
+
+Chip Information & Notes
+
+continued - NIS-17 SECTION
+
+Transponder: Optional on Some
+
+Chip: Philips 46 Wedge
+
+Reusable: No
+
+Cloner Machine Information
+
+(DIAG BOX) (CHINA) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LL.D. \ ( SCORPIO )( wo)
+foe CN900 - RW4+ |_| TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+MI Yes M1 Yes MI Yes M1 Yes I Yes M1 Yes M1 Yes M1 Yes
+Green Chip CN3& EH3 & TPX4 & GK100 / TK100 TPX4 & TPX4 & WDI Chip &
+& DA34Shell | | DA34Shell | | "H" Blade DA34 Shell | | &DA34Blade | | DA34 Shell DA34 Shell | | DA34 Shell
+Programmer & Diagnostic Tools
+Factory Tool PINCODE )\
+REQUIRED ¥ TCODE/MVP PRO| | “ TDB1000 ¥ HOTWIRE
+Nissan
+Consult _ Yes
+
+(v SMART PRO
+
+[v AUTO PRO PAD
+
+€ AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+> Infiniti & Nissan use several different types of PIN Code conversions depending on Year-Make-Model.
+After-market tools and software are available to make the conversion from BCM code to PIN Code. The PIN code
+is the one you need when programming keys. The BCM code is unique to every vehicle.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: NIS Z
+
+Lishi: NSN14
+
+AccuReader: n/a
+
+EEZ Reader: n/a Cobra: n/a
+
+Method #1
+
+Method #2
+Method #3
+
+Method #4
+
+Check for code in owner’s manual, written in by dealer.
+
+Use a Lock Decoder/Reader tool in the door lock to determine the door cuts. Progression or
+impression the ignition for the two remaining cuts in positions 1 & 2.
+
+Disassemble trunk or hatch lock cylinder (if equipped) to get the cuts in positions 3 through
+10. Progression or impression the ignition for the two remaining cuts in positions 1 & 2.
+
+Disassemble door lock cylinder to get the cuts in positions 3 through 10. Progression
+or impression the ignition for the two remaining cuts in positions 1 & 2.
+
+0;}0|0| 0) 0} 0 }s> ignition
+
+O|}0O/}0}0} | O}> Doors & Trunk / Hatch
+O|0|0 | 0 |> Glove Box
+
+5|6|7|8|9|10
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+NISSAN = INFINITI - 35
+NIS-18 SECTION -
+
+Hid30 8 30VdS
+
+2007-12 Sentra (Nissan)
+
+2004-21 Titan (Nissan)
+(Optional Transponder )
+
+| stvie | _cARD#
+
+2007-19 Versa (Nissan)
+ae Transponder )
+
+ITL# | MACS | Start Cut cutto cut | Air Bags | 'gn Retainer
+
+2005-15 Xterra (Nissan)
+(Optional Transponder )
+
+28268-ZT03A, EAOOA C990A, & 7Z800
+
+28268-ZB700
+
+001-22182 | Dbl Sided | CF304 | Roll Pin
+MASTER — z
+NATIONAL: KEYLINE: ILCO: JET: IMA: STRATTEC: DEALER:
+KEYS > N104T N104T N104T | DA40-PHT | TPIZDATISP2 | 7003526 | — n/a
+Determinator: NIS2 | Lishi:NSN14_—_—-| AccuReader: n/a =| EEZ Reader: n/a Cobra: n/a
+More > Mike’s Tip: Transponder system. Key Programmer & PIN Needed. Test key X237 / DA34
+WWe2eE > Note: Always check with the Dealer for the correct Fob part number by VIN.
+> . Fob Remote: 28268- ZT03A (3 btn) FCC Info: CWTWBIU821 | 315 MHz
+> Sentra —
+: > Fob Remote: 28268-2B700 OF ILCO# RKE- NIs- 4B1 (4 btn) FCC: KBRASTUI5 | 315 MHz
+> Fob Remote: (2007-15) 28268- ZTO3A - FCE Info: cWTWetU821 | 315 MHz _
+Remote |” Titan > Fob Remote: (2004-10) 28268-72800 or ILCO# RKE-NIS-3B1 - FCC: KBRASTUIS | 315 MHZ |
+ak > Fob Remote: (2004-05) 28268-C990C - FCC Info: KBRASTUIS | 315 MHZ
+ae > Fob Remote: 28268-ZT03A = FCC: CWTWB1U821 | 315 MHz
+> Versa = = ——
+> Fob Remote: 28268-EA00A - FEC: CWIWBIU733 | 315 MHz
+> Xterra > Fob Remote: 28268-ZT03A (old part EA000) FCC Info: CWTWBI1U821 | 315 MHz —
+
+Code Series: 001-22182
+
+. eee = DEPTHS | _
+1-2 S54 5 6 Z 8 1 = | 1=.333 -
+=== | == == 22 = == 307 =.
+-915 | .833 | .750 | .667 | .584 | .501 | .418 | .335 | .252 | 169 3=.281
+aan oe ee
+E 22 = | teCut=|=— ==.
+HPC Curtis Clipper Pak-A-Punch “IT =. 088
+| Cam: DM-40 ==
+CF304 Carriage: DM-40 Pare - 624
+NOTES: FRAMON - Lay & stop clip flat against) = = of vise, =the = stop =
+against clip. Set first cut at 405"
+
+36- NISSAN « INFINITI
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+pe©e2ee6eeoee ees
+
+peuvn5ue5ees
+
+#e-e0206000000600000000006000¢
+
+continued - NIS-18 SECTION
+
+Chip. Information & Notes
+
+Transponder: Optional on Some Chip: Philips 46 Wedge__| Reusable: No
+
+‘Cloner Machine Information =
+
+(DIAG BOX) (| CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE ) (| _L.D.) (_ ScorPio ) (wo)
+Weare E{ CNdO0 RW4+ TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+=| [VJ Yes M Yes J Yes ] Yes [V1 Yes [VJ Yes | Yes @M Yes
+Fa — - ~ -
+5S | Green Chip CN3 & EH3 & TPX4 & GK100/TK100 TPX4 & TPX4 & WDI Chip & |
+al | & DA34Shell | | DA34Shell | | "H" Blade DA34 Shell | | &DA34Blade | | DA34 Shell DA34 Shell | | DA34 Shell
+¥ Z
+fey) Programmer & Diagnostic Tools eee :
+za =
+oo Factory Toot
+_Factory toot PIN CODE
+m REQUIRED [v Teobene PRO [v TDB1000 (2 HOTWIRE
+Nissan
+Consult Yes (v SMART PRO [v AUTO PRO PAD (2 AUTEL IM608
+
+_ 2? = Check with your key programmer supplier to see if your vehicle is supported.
+
+> Infiniti & Nissan use several different types of PIN Code conversions depending on Year-Make-Model.
+After-market tools and software are available to make the conversion from BCM code to PIN Code. The PIN code
+is the one you need when programming keys. The BCM code is unique to every vehicle.
+
+Codes: | No codes on any locks.
+
+Decoders: ‘Determinator: NIS 2 Lishi: NSN14- AccuReader: n/a __ | EEZ Reader: n/a Cobra: n/a
+
+_ Method #1 Check for code in owner's manual, written in by dealer.
+
+Method #2 Use a Lock Decoder/Reader tool in the door lock to determine the door cuts. Progression or
+impression the ignition for the two remaining cuts in positions 1 & 2.
+
+Method #3 Disassemble trunk or hatch lock cylinder (if equipped) to get the cuts in positions 3 through
+10. Progression or impression the ignition for the two remaining cuts in positions 1 & 2.
+
+Method #4 Disassemble door lock cylinder to get the cuts in positions 3 through 10. Progression
+or impression the ignition for the two remaining cuts in positions 1 & 2.
+
+O/0/0}0/}0/0/}0)}0 |> ignition
+0) 0)/0}0)0/}0} 0/0] > Doors & Trunk / Hatch
+O}0| 0} 0 |> Glove Box
+3|4|5/617)|8/91}10
+“©1994, 2021 AutoSmart™ by Michael Hyde NISSAN = INFINITI - 37
+NIS-19 SECTION
+
+2011-14 Juke (Nissan)
+
+2009-14 Cube (Nissan) 2004-06 Maxima (Nissan) -
+
+2012-21 NV Van (Nissan) | 2014-15 Rogue Select | 2008-13 Rogue (Nissan) | 2013-21 Sentra (Nissan)
+
+CODES | stv | carps | mms | macs | sStartcut | cuttocut | AirBags | IgnRetainer
+
+001-22182 | DbiSided | CF304 | 524 | 2 O15 083 | Yes | RollPin
+= ATO KEYUNE: ILCO: JET: JMA: STRATTEC: DEALER;
+KEYS > NIO4T Ni04T | N1O04T | DA40-PHT | TPI2DATISP2 | 7003526 n/a
+Determinator: NIS2 _| Lishi: NSN14 AccuReader: n/a | EEZ Reader: n/a | Cobra: n/a
+- More 4 Mike's Tip: Transponder system. Key Programmer & PIN Needed. Test key X237 / DA34
+Info > _ = Note: Always check with the Dealer for the correct Fob part number by VIN. :
+|) Cube > Remote Key: H0561-C990E or ILCO# RHK-NIS-3B1 = FCC Info: CWTWBIU751 | 315 MHz
+> Juke > Remote Key: H0561-C990E or ILCO# RHK-NIS-3B1 = FCC Info: CWTWBIU75I | 315 MHz
+>Maxima __| > Fob Remote: 28268-28700 or ILCO# RKE-NIS-4B1 = FCC Info: KBRASTUIS|315MHz |
+Tee |PNVVan > Remote Key: H056I-C990E or ILCO# RHK-NIS-381 (if equipped) FCC: CWTWBIU7SI|315 |
+> Rogue | > Remote Key: H0561-C993A or ILCO# RHK-NIS-3B1 = FCC Info: CWIWBIU751 | 31 MHz
+| > Remote Key: H0561-3AA0B or ILCO# RHK-NIS-4B1 = FCC Info: CWTWBIU751 | 315 MHz
+= > Fob Remote: 28268-ZT03A = FCC Info: CWIWB1U8z21 | 315 MHz :
+
+28268-ZB700
+
+28268-ZT03A
+
+Code Series: 001-22182
+
+Bow SPACING= S= 35/5 tp Se eae
+CQ ea! 2: o. = 4 5 6 fs Be 9 10 1=.333
+= = = 2=.307
+ral .915 | .833 | .750 | .667 | .584; .501 | .418 | .335 | .252 |_.169 Cut 3=.281
+m LS =o
+2 HPC | Curtis Clipper Pak-A-Punch | [TL | aes
+m ( 2 =
+Cam:DM-40
+
+bo} = = ES - =
+= oe Carriage: DM-40 Bed = =
+
+NOTES: FRAMON - Lay tip stop clip flat against left side of vise, then tip stop key
+
+against clip. Set first cut at 405” ==="
+
+38 - NISSAN « INFINITI
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+eeaeneeeoeeeeoeeeeeees
+
+a a, ak
+
+| continued - NI§-19 SECTION
+
+Chip Information & Notes — oe —
+
+Transponder: Optional on Some Chip: Philips 46 Wedge | Reusable: No
+
+Cloner Machine Information __
+
+oe@e0e00' 600 «€
+
+ooo 0o20e208 ©8060 0
+
+¢
+
+C
+
+YAGNOdSNVUL
+
+(DIAG BOX) (— CHINA ) (ILCOISILCA) ( JMAUSA | ( KEYLINE ) (LD. ) ( SCORPIO.) (wor
+Ween E| CéOoO RW4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+| Yes M Yes | Yes VJ Yes [VJ Yes [VJ Yes I Yes | Yes
+Green Chip_ CN3 & EH3 & TPX4 & GK100/TK100 TPX4 & TPX4 & WDI Chip &
+&DA34Shell| | DA34Shell | | “H" Blade DA34Shell_| | &DA34Blade | | DA34 Shell DA34Shell | | DA34 Shell
+
+Programmer & Diagnostic Tools
+
+Nissan
+Consult
+
+PIN CODE.
+
+Yes
+
+(v TCODE/MVP PRO
+
+g TDB1000
+
+(2 HOTWIRE
+
+(v SMART PRO
+
+(v AUTO PRO PAD
+
+(2 AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+» Infiniti & Nissan use several different types of PIN Code conversions depending on Year-Make-Model.
+After-market tools and software are available to make the conversion from BCM code to PIN Code. The PIN code
+is the one you need when programming keys. The BCM code is unique to every vehicle. :
+
+Codes: | No co
+
+des on any locks,
+
+Cobra: n/a
+
+Decoders: | Determinator: NIS2 _| Lishi: NSN14 AccuReader: n/a EEZ Reader: n/a
+Method #1 Check for code in owner's manual, written in by dealer.
+Method #2 Use a Lock Decoder/Reader tool in the door lock to determine the door cuts. Progression or
+impression the ignition for the two remaining cuts in positions 1 & 2.
+Method #3 Disassemble trunk or hatch lock cylinder (if equipped) to get the cuts in positions 3 through
+10. Progression or impression the ignition for the two remaining cuts in positions 1 & 2.
+= Method #4 Disassemble door lock cylinder to get the cuts in positions 3 through 10. Progression
+
+or impression the ignition for the two remaining cuts in positions 1 & 2.
+
+O}0|0)|0| 0} 0 }> ignition
+O0/0)0}0/O} 0 }|> Doors & Trunk / Hatch
+O;)0|0 | 0} > Glove Box
+516) 718 EE 10
+©1994, 2021 AutoSmart™ by Michael Hyde NISSAN = INFINITI - 39
+
+NIS-20 SECTION
+
+—_ 001-22182
+
+2014-21 Rogue |
+
+(Nissan) =
+
+STYLE | CARD#
+
+CF304
+
+| m# | macs | Startcut | cuttocut |
+
+Air Bags Ign Retainer
+
+2017-21 Rogue Sport (Nissan)
+
+| Roll Pin
+
+Dbl Sided —
+
+NATIONAL:
+
+KEYLINE: :
+
+ICO:
+
+= JET.
+
+IMA:
+
+" STRATTEC:
+
+~ DEALER:
+
+KEYS > NIO7T_ n/a -Nio7T =| DA4I-PHT nia | nla
+
+Ma
+
+EEZ Reader: nla | Cobra: n/a
+
+Lishi: NSN14 AccuReader: na
+
+Determinator: NIS2 :
+
+| > Mike’s Tip: Transponder system. Key Programmer & PIN Needed. Test key X237 / DA34_—
+
+More
+Info>>
+
+2014-2015 Models - There is an overlap between the old body design and the new body design on =
+Non-Proximity models. Models that have the word "Select" as part of their trim name are the older body design.
+Older (Select) models you can use a N104 keyt to be programmed to start the vehicle - no problem. Newer
+
+models starting with the new design | for 2014 are using anew Philips chip that aS ae or a OEM Factory —
+Remote Key must be programmed to start the vehicle. =
+
+> Note: Always check with the Dealer for the correct Fob part number by VIN. =
+
+Remote > ||
+
+> Remote Flip Key: H0561-4BAIB or ILCO# FLIP-NIS-3B2 = FCC Info: CWIWBIU751|315MHz
+
+; LI Se SPACING = ] = | DEPTHS”
+on 1 =| >3- 4 5 6 7= £28 =| 23 =e 10 =4 1=.433
+a == : Ste 2=.307
+ro) .915 | .833 750 667° -584 | .501 | .418 | .335 | .252 | 169° cu E 3=.281 | —
+mi : ; =" as —— = tocut: | 4= 256
+= HPC Curtis Clipper | | Pak-A-Punch_ ‘TL 083-
+
+= Cam: DM-40 - :
+v = :
+oS Carriage: DM-40 | PARAS ves] = Oe
+NOTES: FRAMON - Lay tip stop clip flat against left side of vise, then tip stop key 2
+against al: Set first cut at 405° : 5
+
+40 - NISSAN ba
+
+_ ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peoeoaoaees
+
+peoeoeeeee ©
+
+pe@0oeC0ce @
+
+®@'0@ 0@e «
+
+¢
+
+ee ©0080 80 66
+
+C
+
+¢
+
+YAGNOdSNVUYL
+
+continued - NIS-20 SECTION
+Chip Information & Notes a. :
+Transponder: Standard Chip: Philips 128 bit AES Reusable: No
+Cloner Machine Information — a
+(DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LL.D. ) ( SCORPIO )( IEA _ )
+Sey CN900 _ RW4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO ZEDFULL
+@ No @® No ® No @ No ® No @ No @ No @ No
+Programmer & Diagnostic Tools
+Factory Tool) ( PINCODE | (
+REQUIRED ¥ TCODE/MVP PRO| |v TDB1000 x HOTWIRE
+Nissan
+Consult Yes
+
+(v SMART PRO
+
+(2 AUTO PRO PAD
+
+(2 AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+> Infiniti & Nissan use several different types of PIN Code conversions depending on Year-Make-Model.
+After-market tools and software are available to make the conversion from BCM code to PIN Code. The PIN code
+is the one you need when programming keys. The BCM code is unique to every vehicle.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: NIS 2
+
+Lishi: NSN14 AccuReader: n/a
+
+EEZ Reader: n/a
+
+Cobra: n/a
+
+Method #1
+
+Method #2
+
+Method #3
+
+Method #4
+
+Check for code in owner's manual, written in by dealer.
+
+Use a Lock Decoder/Reader tool in the door lock to determine the door cuts. Progression or
+impression the ignition for the two remaining cuts in positions 1 & 2.
+
+Disassemble trunk or hatch lock cylinder (if equipped) to get the cuts in positions 3 through
+10. Progression or impression the ignition for the two remaining cuts in positions 1 & 2.
+
+Disassemble door lock cylinder to get the cuts in positions 3 through 10. Progression
+or impression the ignition for the two remaining cuts in positions 1 & 2. é
+
+0/0;0|}0|0)| 0] 0 }> Ignition
+O}/0O}0/0} 0} 0} O}]> Doors & Trunk / Hatch
+Sto) Oo > Glove Box
+4/5167] 8| 9310
+©1994, 2021 AutoSmart™ by Michael Hyde NISSAN = INFINITI - 41
+
+NIS-21 SECTION See = eee
+
+~ 2008-21 Armada (Nissan)
+
+2003-08 FX35 / FX45 (lnfinit
+
+2005-07 G35 (2DR) (Infiniti) 25]
+
+2005-06
+
+_ MASTER
+
+2007-12 Pathfinder
+
+~ 2005-08 Murano (N's) :
+
+G35 (4DR) | 2007-08 Maxima (NS) |
+
+001-22,182
+
+| stme | carp¢ | ms | macs | StartCut | Cuttocut | AirBags | Ign Retainer
+
+KEYS >
+
+; “40,000-41,520 Dbl Sided Rollin
+— Check with Dealer for correct Proximity eS Fob emieig Key Has Chip i in it)
+Determinator: NIS 2 Lishi: NSN14- AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+l> Mike's Tip: Proximity with Twist Ignition. Key Programmer & PIN Needed. Test key X257/ DASA
+
+-285E3-EM31D, CB80D
+
+- 285E3-CG025 — 285E3-CLO2D
+
+285E3-ILB5A
+
+285E3- 20310
+
+-285E3-EW82D
+
+42 - NISSAN =
+
+CS
+
+ge 2021 AutoSmart™ byMichael Hyde
+
+More
+Info > »> Note: Always check with the Dealer for the correct Fob patt number by VIN.
+-____| > Prox Remote: (2008-16) 285E3-Z031A (E-Key H0564-2260A) FCC Info: CWTWBUB24 | 315 MHz
+£54 se > Prox Remote: -(2017- 2) Check VIN with Dealer (E-Key HO564-ZN50A) FCC Info: n/a -
+— > Prox Remote: (2005-08) 285£3-CLO2D (E-Key H0564-JG00A) FCC Info: cWTWBUSI9 [S15MHz |
+‘| > FX35 / FX45_ af
+: +> Prox Remote: (2003-04) 285E3- -CG025 (E-Key H0564-CG005) FCC Info: NHVWBUGI2 | 433 MHz
+bag > G35(2DR) _| > Prox Remote: -285E3-AC7OD (E-Key H0564-JGO0A) FCC Info: KBRTNOOI | 315 MHz : :
+> G35 (4DR) _| > Prox Remote: 285£3-AC70D (E-Key H0564-JGOOA) FCC Info: KBRTNOO! [31I5MHz
+> Maxima > Prox Remote: 285E3-EW82D (E-Key H0564-IGO0A) FCC Info: CWTWBU735 | 315 MHz
+> Murano > Prox Remote: 285£3-CB80D (E-Key H0564-JGOOA) FCC Info: KBRTNOO! | 315 MHz a
+» Pathfinder _| > Prox Remote: 285E3-EM3ID (E-Key H0564-JGO0A) FCC Info: CWTWBIU729 | 315 MHz
+
+peeeooaeeaeeeoeaeeeaeeeeoeeee
+eee 080'0:0 @ ¢
+
+¢
+
+eeeo-c
+
+#eeoeo oo et
+
+continued - NIS-27 SECTION
+
+Code Series: 001-22,182 & 40,000-41,520
+
+- Bow =o SPACING _ Hp DEPTHS
+2 == 2 3 4 5 2=6 L 8 9 10 | T=23335
+> : 2 2 =.307
+- 915 | .833 | .750 | .667 | .584 | .501 | .418 | .335 | .252 | 169 Cut 3 =.281
+= to Cut: | 4=-256
+R = .083 =
+i) HPC Curtis Clipper Pak-A-Punch ITL a
+m s
+m) Cam: DM-40 st
+=, CF304 Carriage: DM-40 PAK-F1 524 ©
+=
+
+NOTES: FRAMON - Lay tip stop clip flat against left side of vise, then tip stop key
+against clip. Set first cut at 405”
+
+Chip Information & Notes”
+
+Transponder: Standard Chip: Integrated Circuit Reusable: No
+
+) Cloner Machine Information
+
+No Cloning for this Proximity System
+
+Programmer & Diagnostic Tools
+
+YAGNOdSNVYL
+
+Factory Tool _ PIN CODE
+
+- REQUIRED (v TCODE/MVP PRO (v TDB1000 (v HOTWIRE
+Nissan
+Consult Yes (v SMART PRO (v AUTO PRO PAD (> AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+> Infiniti & Nissan use several different types of PIN Code conversions depending on Year-Make-Model.
+After-market tools and software are available to make the conversion from BCM code to PIN Code. The PIN code
+is the one you need when programming keys. The BCM code is unique to every vehicle.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: NIS 2 Lishi: NSN14 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Method #1. __ Check for code in owner's manual, written in by dealer.
+
+Method #2 Use a Lock Decoder/Reader tool in the door lock to determine the door cuts. Once you have a
+working door key, it should also-work the ignition. Ignition will have only 1 tumbler.
+
+O > Ignition
+0/0)0/0)0!/6;0} 0 }> Doors
+OH; 0|0| | > Glove Box (if equipped)
+
+213/4/516|7/8]9/10
+
+©1994, 2021 AutoSmart™ by Michael Hyde NISSAN = INFINITI - 43
+NIS-22SECTION ae : - ie
+
+2008-10 QX56 (Infiniti
+
+2008-13 Rogue (Nissan)
+
+2007-12 Sentra (Nissan)
+
+STYLE
+
+Pree : moo ! Dbl Sided : _ Yes Roll Pin
+KEYS 9 Check with Dealer for correct Proximity Remote Fob (Emerg Key Has Chip in it)
+| Determinator: NIS2 | Lishi NSN14 AccuReader: n/a _| EEZ Reader: n/a [Cobra na
+More > Mike’s Tip: Transponder system. Key Programmer & PIN Needed. Test key X237/ DA34 : =
+Info re : : > Note: Always check with the Dealer for the correct Fob part number by VIN.
+> QX56 > Prox Remote: 285E3-Z031B (E-Key H0564-IGO0A) FCC Info: CWTWBU624 | 315 MHz
+> Rogue | > Prox Remote: 285E3-EM3ID (E-Key H0564-JG00A) FCC Info: CWTWBIU729 | 315 MHz_
+Remote |> Sentra > Prox Remote: 285E3-EW20 (E-Key H0564-JGOOA) FCC Info: CWIWBU735 | 315 MHz |
+: we > Versa > Prox Remote: 285E3-EM31D (E-Key H0564-JGO0A) FCC Info: CWTWBIU729 | 315 MHz
+versa sack |> Prox Remote: 285E3-EMSID (E-Key HOS64-JGOOA) FCC Info: CWTWBIU729 | 315 MHZ.
+
+285E3-EM31D
+
+44-NISSAN+INFINITL po
+
+_ ©1994, 2021 AutoSmart™ by Michael Hyde
+
+Ppeeoeouneeaaeeeeaeaeeeeeeaoeenede
+© 0@ 0 06)0 @ 06-6 0,06 6 «
+
+eee eo0 e000
+
+continued - NIS-22 SECTION
+
+Code Series: 001-22,182 & 40,000-41,526
+- Bow SPACING Tip DEPTHS
+> =e ow 3 4 5 6 7 8 9 | 10 1=.333
+> 2 : 2 =.307
+- .915 | .833 | .750 | .667 | .584 | .501 | .418 | .335 | .252| 169 | cy | 3=.281
+
+: toCut:| 4=-256
+
+% 083 =
+iw) HPC Curtis Clipper Pak-A-Punch ITL 2
+mi =
+=U Cam: DM-40 : +
+4 CF304 | Carriage: DM-40 PAK-F1 524 =
+
+NOTES: FRAMON - Lay tip stop clip flat against left side of vise, then tip stop key =
+
+against clip. Set first cut at 405"
+
+Chip Information & Notes :
+Transponder: Standard Chip: Integrated Circuit Reusable: No
+Cloner Machine Information
+af No Cloning for this Proximity System
+2 :
+=2) Programmer & Diagnostic Tools _
+Factory Tool PIN CODE
+
+re) eciery (ec
+> REQUIRED v¥ TCODE/MVP PRO ¥ TDB1000 ¥ HOTWIRE
+S _ Nissan
+a Consult Yes (v SMART PRO (v AUTO PRO PAD (> AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+> Infiniti & Nissan use several different types of PIN Code conversions depending on Year-Make-Model.
+After-market tools and software are available to make the conversion from BCM code te PIN Code. The PIN code
+is the one you need when programming keys. The BCM code is unique to every vehicle.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: NIS2 — | Lishi: NSN14 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Method #1 Check for code in owner's manual, written in by dealer.
+
+Method #2 Use a Lock Decoder/Reader tool in the door lock to determine the door cuts. Once you have a
+working door key, it should also work the ignition. Ignition will have only 1 tumbler.
+
+Oo > Ignition
+> Doors
+> Glove Box (if equipped)
+
+o
+oo
+ie a]
+joo
+
+IN)
+w
+L
+o
+fon)
+N
+©
+©
+2
+
+©1994, 2021 AuteSmart™ by Michael Hyde NISSAN = INFINHI - 45
+NIS-23 SECTION.
+
+CODES |
+
+2003-04 M45 (infiniti
+
+STYLE
+
+| carpe | me |
+
+2002-06 Q45 (infiniti)
+
+macs | StartCut | cuttoCut | Air Bags
+
+| Ign Retainer
+
+; 001-22,182 Dbl Sided Roll Pin
+MASTER - a - - . -
+KEYS > Dealer Remote: H0561-AR200 (includes keyblade) (very pricey)
+
+Determinator: NIS2 ——_| Lishi: NSN14 AccuReader: ‘nia EEZ Reader; n/a Cobra: n/a
+> Mike's Tip: Transponder system. Key Programmer & PIN Needed. Test key X237 / DA34
+dings > Vehicle has "Remote Insert” Ignition Switch - Remote is inserted into ae lock to start car.
+== Se Note: Always check with the Dealer a the correct Fob part number ah VIN. |
+Remote > | > Prox Fob: H0561-AR200 = FCC — KBRASTUI | 315 —
+
+Code Series: 0601-22182
+
+Bow : SPACING = Tip aoe DEPTHS
+o 21-214 5 6 Zo B12 | tt 1 = 533-
+2 = = = =a Z= .307
+ro) 7915 | .833 | .750 667 -584 | .501 | .418 | .335 | .252 | 169 cut 3=.281 |
+mw = : == : == __. = 1 to cut: | 47:28 —
+- 5 | HPC Curtis Clipper Pak-A-Punch TL 083
+m 2 =]
+~ Cam: DM-40 =2: a
+
+v i
+= ow Ee DM-40 oe we
+ae
+
+NOTES: FRAMON - Lay tip stop clip flat against left bag ae vise, ea tip sip key
+
+against clip. Set oy. cut at LAOS
+
+46 - NISSAN «= INFINITI
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+peva
+
+rill
+
+pe©eee e680
+
+pe@0oce 0
+
+peeoeovoae5us
+©9eoee@@ 86 0'08 6 06 ¢«
+
+¢
+
+eeoe0oec58es
+
+and
+A
+>
+Zz
+77)
+U
+O
+Zz
+oC
+m
+y
+
+continued -
+
+Chip Information & Notes
+
+NIS-23 SECTION
+
+Transponder: Standard
+
+Chip: Integrated Circuit _ | Reusable: Yes
+
+Cloner Machine Information __
+
+No Cloning for this Proximity System
+
+‘Programmer & Diagnostic Tools
+
+Factory Tool _ PIN CODE
+~ REQUIRED
+
+) (v TCODE/MVP PRO € TDB1000
+
+(. HOTWIRE
+
+Nissan
+Consult Yes
+
+[v SMART PRO (v AUTO PRO PAD
+
+¢ AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+> Infiniti & Nissan use several different types of PIN Code conversions depending on Year-Make-Model.
+After-market tools and software are available to make the conversion from BCM code to PIN Code. The PIN code
+is the one you need when programming keys. The BCM code is unique to every vehicle.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: NIS 2
+
+Lishi: NSN14
+
+AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Method #1 Check for code in owner's manual, written in by dealer.
+
+Method #2 ~—_ Use a Lock Decoder/Reader tool in the door lock to determine the door cuts for a working door
+key.
+
+O,0O\/0|8 > Ignition
+O0/0;0;0}|0O} 0 |> Doors
+o/oO|oO
+2 516|7|8| 9} 10]
+
+O | > Glove Box (if equipped)
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+NISSAN = INFINITI - 47
+NIS-24 SECTION =
+
+2009-21 370Z (Nissan)
+
+2009-14 Cube (Nissan) 2008-13 EX35 / EX37 (Infiniti)
+
+MASTER
+
+2009-13 FX35/FX50 (Infiniti)
+
+2011-21 Leaf (Nissan)
+
+2011-17 Juke ice
+
+| cARD# a m# | Macs ls startCut | Cuttocut | Air Bags | ign Retainer
+
+| sme
+
+001-22,182
+40,000-41, 520
+
+Dbl ee : None —
+
+Check with Dealer with VIN for correct Proximity Remote Fob (No Chip i in eee Key)
+
+KEYS >
+Determinator: NIS 2 Lishi: NSNI4 = AccuReader: n/a EEZ Reader: n/a Cobra: wa
+More | > Mike's Tip: Transponder system. Key Programmer & PIN Needed. Test key X237 /DA34
+Info > - > Note: Always check with the Dealer for the correct Fob part number by VIN. -
+> Prox Remote: (2009-10) 285E3-IAAOA (E-Key H0564- ZNSOA) FCC Info: KRSSWK49622 | 315 Mz
+> 370Z. > Prox Remote: (201-17) 285E3-1ETSC (E-Key H0564- ZNSOA) FCC Info: KRBSWK49622 | 315 MHz
+> Prox Remote: (2018-21) 285E3-IETSD (E-Key H0564-ZN50A) FCC Info: KR55WK49622 | 315 MHz)
+> Prox Remote: (2009-10) 285E3-ILKOD (E-Key H0564-ZN50A) FCC Info: cWTWBIU825 | 433 MHz
+Lowes > Prox Remote: (201-14) 285E3-IKMOD (E-Key H0564-ZNSOA) FCC Info: CWTWBIU808 | 315 MHZ
+Remote |» EX35 / EX37 | > Prox Remote: 285E3-IBA7A or ILCO# PRY-NIS-4B! - FCC Info: KRS5WK49622 | 315 MHz
+Info> > Prox Remote: (2009-10) 285E3-IBA7A (E-Key H0564-EG010) FCC Info: KRS5WK49622 | 315 MHz
+> FX35/FX50 Oe —————_—
+> Prox Remote: (2011-13) 285E3-ICA7A (E-Key H0564-EGO10) FCC Info: KR55WK49622 | 315 MHz
+> Juke > Prox Remote: 285E3-IKMOD (E-Key H0564-ZN50A) FCC Info: CWTWBIU808|315MHz
+> Prox Remote: (201-12) 285E3-IKMOD (E-Key H0564-ZNSOA) FCC Info: CWTWBIU808 | 315 MHZ
+> Leaf > Prox Remote: (2013-17) 285E3-3NFAA (E-Key H0564-ZN50A) FCC Info: CWTWBIU840 | 315 MHz
+|| > Prox Remote: (2018-21) 285E3-5SAIA or 5SAIB (E-Key ZNSOA) FCC: CWTWBIGOI68 | 433 MHz
+
+285E3-1AA0A,
+~-TLKOD, 1KMOD
+
+285E3-1CA7A
+
+285E3-IETSC -—«285E3-3NFAA,SSAIA —-—=—=—285E3-IBATA
+
+48 - NISSAN «INFINITI —
+
+~— ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peoaee5uaeeeeneoneeeoeeoeeee
+
+» ©
+
+60, 0 6.4
+
+(
+
+oe oe @ <
+
+(
+
+continued - NIS-24 SECTION
+
+Code Series: 001-22,182 & 40,000-41,526
+
+Bow SPACING Tip ==
+
+Mme 7 tf 2 |S a ls fg 1 7 Pe Es 9 1=.333
+
+> : : : 2 =.307
+
+fey .915 | .833 | .750 | .667 | .584 | .501 | .418 | .335 | .252| 169 | cyt 3 =.281
+
+“ : : : to Cut: | 4=-256
+> == —- 083 Ss
+we) HPC Curtis Clipper Pak-A-Punch ITL io
+m a8
+i) = Cam: DM-40. _ iy
+mr =6CF304 Carriage: DM-40 PAK-F1 524 Z
+= 3
+==
+
+NOTES: FRAMON - Lay tip stop clip flat against left side of vise, then tip stop key
+against clip. Set first cut at 405”
+
+| Chip Information & Notes oe
+
+Transponder: Standard Chip: Integrated Circuit _ | Reusable: No
+
+Cloner Machine Information
+
+No Cloning for this Proximity System
+
+Programmer & Diagnostic Tools
+
+YSAGNOdSNVAL
+
+{_Factory Tool (. PIN GODE
+REQUIRED (? TCODE/MVP PRO (v TDB1000 G HOTWIRE
+Nissan
+Consult | “Yés (? SMART PRO [v AUTO PRO PAD (> AUTEL IM608
+
+® <
+
+@©#eee
+
+¢
+
+¢
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+> Infiniti & Nissan use several different types of PIN Code conversions depending on Year-Make-Model.
+After-market tools and software are available to make the conversion from BCM code to PIN Code. The PIN code
+is the one you need when programming keys. The BCM code is unique to every-vehicle.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator:NIS2 | Lishi: NSN14 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 —_ Check for code in owner's manual, written in by dealer.
+Method #2 Use a Lock Decoder/Reader tool in the door lock to determine the door cuts for a working door
+
+key.
+
+|
+
+Oo /#a
+
+Oo
+Oo
+
+> Ignition
+> Doors
+> Glove Box (if equipped)
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+NISSAN = INFINITI - 49
+NIS-25 SECTION fie ee ee
+
+2007-08 G35 (ADA) infiniti) | + 2008-13 G37 (2DR) (Infiniti
+
+2009-13 G37 (4DR) (Infinit) — |
+
+| 2011-13 M37/MB56 (INF). 2009-21 Maxima (Nis)
+
+2013 JX35 (nfit, 2006-10 M35/ M45 (INF)
+
+| STYLE | carpe | ime | MACS | Start cut i CuttoCut | Air Bags “| tn Retainer
+
+001-22,182
+
+Info |} M135 /M45__| > Prox Remote: 285E3-EH12D (E-Key H0564-EGO10) FCC Info: CWTWBU735 | 315 MHz
+
+> M37/M56_| > Prox Remote: 285E3-IMPOD (E-Key H0564-EGO10) FCC Info: CWTWBIU787 | 433 MHz _
+
+> Prox Remote: 285E3-JAQSA or ILCO# PRX-NIS-4B1 (2009-14) - FCC: KRS5WK48903 | 315 MHz
+
+> Prox Remote: 285E3-9D13B (2019-21) (E-Key H0564-ZNSOA) FCC Info: KRSTXN7 | 433 MHz
+
+~ 285E3-JK65A, 285E3-3IA2A =Ssi‘«é‘~*S*‘é BESSA — 285E3-4RAOB, 9DJ3B
+~ IMPOD, EH12D ee = =
+
+50 - NISSAN . INFINITI —=s a oe es ©1994, 2021 AutoSmart™ by Michael Hyde
+
+>Maxima _| > Prox Remote: 285E3-4RAOB or ILCO# PRX-NIS-4B3 (2016-18) - FCC: KRSSI80144014 | 433MH2_ |
+
+peee@ooanueaneeeoeoeoeeeeeoe eee
+
+=o 40,000-41,520 Dbl Sided _ None
+KEYS > | Check with Dealer with VIN for correct Proximity Remote Fob (No oa Emerg Key)
+fa NIS 2 Lishi: NSN14_— Raiesder n/a FEZ Reader: nla Cobra: n/a
+= More > Mike's Tip: Transponder system. Key Programmer & PIN Needed. Test key 237 / DA34 © 2
+inf. : == __ =» Note: Always check with the Dealer for the correct Fob part number by VIN.
+> G35 (4DR) =1> Prox Remote: 285E3- JK65A oF ILCO# PRX-NIS-4B1 - FCC Info: KR55WK48903 |31I5MHz ===
+> G37(2DR) _| > Prox Remote: 285E3-JK65A or ILCO# PRY-NIS-4B1. - FCC Info: KR55WK48903 [315 MHZ
+> G37(4DR) _ | > Prox Remote: 285E3-JK65A or ILCO# PRY-NIS-4B1- FCC Info: KRSSWK48903 |315 MHz |
+> Prox Remote: 28563-3IAZA (No RMT Start) (E-Key H0564-EGOT0) FCC Info: KRESIBOT44014 | 433 MHz
+Remote os > Prox Remote: 285E3-3JA5A (with RMT Start) (E-Key H0564-EG010) FCC info: KR5S180144014 | 433. MHZ
+oeoeoaxe 002086806060 00' 0.006
+
+¢
+
+¢
+
+Hidad 8 30VdS
+
+YAGNOdSNVYL
+
+Code Series: 001-22,182 & 40,000-41,520
+
+continued -
+
+NIS-25 SECTION
+
+Bow SPACING Tip DEPTHS
+=] 2 5 4 5 6 ef 8 g 10 1=.333
+=E= : 2 =.307
+915 | .833 | .750 | .667 | .584 | .501 | .418 | .335_|.252 | 169 Cut 3 = .281
+: to Cut: | 4=-256
+<= .083 =
+HPC Curtis Clipper Pak-A-Punch ITL S
+= = iu
+: Cam: DM-40 == <r
+CF304 Carriage: DM-40 PAK-F1 524 8
+NOTES: FRAMON - Lay tip stop clip flat against left side of vise, then tip stop key =
+against clip. Set first cut at 405”
+| Chip Information & Notes
+Transponder: Standard Chip: Integrated Circuit Reusable: No
+
+Cloner Machine Information.
+
+No Cloning for this Proximity System
+
+Programmer & Diagnostic Tools _
+
+Factory Tool
+
+ied Bila PIN CODE
+REQUIRED
+Nissan
+Consult
+
+Yes
+
+(? TCODE/MVP
+
+PRO
+
+(v TDB1000
+
+[v HOTWIRE
+
+(? SMART PRO
+
+(v AUTO PRO PAD
+
+(2 AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+» Infiniti & Nissan use several different types of PIN Code conversions depending on Year-Make-Model.
+After-market tools and software are available to make the conversion from BCM code to PIN Code. The PIN code
+is the one you need when programming keys. The BCM code is unique to every vehicle.
+
+key.
+
+> Ignition
+> Doors
+
+O'
+Of
+fl
+
+a
+
+Codes: | No codes on any locks.
+_ Decoders: | Determinator: NIS 2 Lishi: NSN14 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Check for code in owner’s manual, written in by dealer.
+Method #2 Use a Lock Decoder/Reader tool in the door lock to determine the door cuts for a working door
+
+OQ | > Glove Box (if equipped)
+ET 2&1 9 | 10
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+NISSAN = INFINITI - 51
+
+NIS- 26 SECTI ON
+
+"2007-12 Altima (Nissan) _ 2013 Altima (2DR) (Nissan)
+
+| 001-22,182 |
+40,000-41,520
+
+“2021 Kicks aot — 2020-21 Versa (Nissan)
+
+| ste | caro# | me | macs | StartCut | Cuttocut | Air Bags | ign Retainer
+
+Dbl Sided
+
+None
+
+Check with Dealer with VIN for correct Proximity Remote Fob (No Chip in Emerg Key)
+
+Determinator: NIS 2 : = NSNI4 : AccuReader: n/a EEZ Reader: n/a Cobra: nla
+
+_ More >
+
+> Mike’s Tip: sara system. Key Programmer & PIN Needed. Test = X237 / ‘DA34
+
+Remote
+Info >
+
+> Note: Always check with the Dealer for ‘the correct Fob part number by VIN.
+
+|> Altima a (2007- -12) | > Prox: (2007-12) 286E3-1A05A or ILCO# PRX-NIS-4B1 - FCC: KR55WK48903 | 315 MHz -
+
+» ‘Altima (2DR) > Prox: (2013) 285E3- JAOSA or ILCO# PRX- -NIS-4B1 - FCC Info: KR55WK48903 | 315 MHz
+
+> Prox: 285E3-6TAIA (3 Btn) (E-Key H0564-ZNSOA) FCC Info: KRSTXNI|433MHz |
+
+» Kicks
+> Prox: 285E3-6TA5B (4 Btn) (E-Key H0564-ZN50A) FCC Info: KRSTXNI | 433 MHZ.
+
+> Prox:  285E3- GCAIA or ILCO# PRX-NIS-4B9 4 Btn) - FCC Info: KRSTXN4 | 433 MHz
+
+> Versa
+
+> Prox: 285E3-6CA6A 6 Bin, no pic) (E-Key H0564- ZN50A) FCC Info: KR5TXN4 | 433 MHz
+
+285E3-JAQ5A, 6CAIA. ILco# PRX-NIS-4B1 -——=s2B5E3-6TASBB=—s'“(ité‘é*«RGES-GTATA
+
+52 - NISSAN + INFINITI = (2e558 = = e194, 2021 AutoSmart™ by Michael Hyde
+
+666 6
+
+peeceoeeeoeoeese oe
+o @e «
+
+\
+
+(
+
+continued - NIS-26 SECTION
+
+Code Series: 001-22,182 & 40,000-41,526
+
+Bow SPACING Tip _| peptus
+1 2 3 4 5 6 i 8 9 10 1=.333
+= 2 =..307
+
+.915 | .833 | .750 | .667 | .584| .501 | .418 | .335 | .252| 169 | cyt 3 =.281
+to Cut: | 4=-256
+
+HidSad 8 30VdS
+
+= .083 <
+HPC Curtis Clipper Pak-A-Punch ITL ip
+- : Z
+Cam: DM-40 =
+
+CF304 Carriage: DM-40 PAK-F1 524 3
+o
+
+=
+
+NOTES: FRAMON - Lay tip stop clip flat against left side of vise, then tip stop key
+against clip. Set first cut at 405”
+
+Chip Information & Notes
+
+Transponder: Standard Chip: Integrated Circuit Reusable: No
+
+Cloner Machine Information :
+
+No Cloning for this Proximity System
+
+Programmer & Diagnostic Tools |
+
+YAGNOdGSNVUL
+
+Factory Tool _ PIN CODE
+
+ie aoaa ( TCODE/MVP PRO (v TDB1000 (v HOTWIRE
+Nissan
+Consult | Yes (? SMART PRO (2 AUTO PRO PAD ¢ AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+> Infiniti & Nissan use several different types of PIN Code conversions depending on Year-Make-Model.
+After-market tools and software are available to make the conversion from BCM code to PIN Code. The PIN code
+is the one you need when programming keys. The BCM code is unique to every vehicle.
+
+Codes: | No codes on any locks.
+
+Decoders: ' Determinator: NIS 2 Lishi: NSN14 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Method #1 Check for code in owner's manual, written in by dealer.
+
+Method #2 Use a Lock Decoder/Reader tool in the door lock to determine the door cuts for a working door
+
+key.
+> Ignition
+B41] O| G| GG) Gy] O | > Doors
+O | 0} 0 | O | > Glove Box (if equipped)
+1|2|3|4|5|6|7| 8] 9] 10
+
+©1994, 2021 AutoSmart™ by Michael Hyde NISSAN = INFINITI - 53
+NIS-27 SECTION =
+
+MASTER
+
+2013-21 Altima (4DR) (Nissan)
+
+CODES
+001-22,182
+40,000-41,520
+
+~— 2009-21 Murano (Nissan) -
+
+STYLE | Air Bags Ign Retainer
+
+Dbl Sided Yes None
+
+KEYS >
+
+Check with Dealer with VIN for correct Proximity Remote Fob (No Chip in Emerg Key) :
+
+Determinator: NIS 2
+
+Lishi: NSN14_ _ | FEZ Reader: n/a
+
+| AccuReader: n/a Cobra: n/a
+
+More
+Info >
+
+> Mike's Tip: Transponder system. Key Programmer & PIN Needed. Test key X237 / DA34
+
+> All Murano '09-'14 models have Push Button Ignition, But models with Power Liftgate & Prox Buttons on Door = =
+Handles have real proximity and do not require the remote fob to be inserted into the slot on the
+dash to start the vehicle. _ ; : :
+
+Remote
+Info >
+
+=
+
+Note: Always check with the Dealer for the correct Fob part number by VIN.
+
+|> Altima (4DR)
+
+> Prox: (2013-15) 285E3-9HP4B or ILCO# PRX-NIS-4B2 - FEC Info: KR5S180144014 | 433 MHz
+
+> Prox: (2016-18) 285E3-9HS4A or ILCO# PRX-NIS-4B3 - FCC Info: KR5S180144014 | 433 MHz
+
+> Prox: (2016-18) 285E3-4RAOB or ILCO# PRX-NIS-5B3 - FCC Info: KRESI80144014 | 433 MHz_
+
+> Prox: (2019-20) 285E3-6CAGA or ILCO# PRX-NIS-5B4 - FCC Info: KRSTXN4 | 433 MHz
+
+> Prox: (2021) 285E3-6LA6A (E-Key H0564-ZNBOA) FCC Info: KRSTXN4 | 433 MHz —_
+
+> Prox: (2009-14) 285E3-1AA7A (Non Prox) (E-Key H0564-ZNSOA) FCC: KR55WK49622 | 315 MHz)
+
+> Prox: (2009-14) 285E3-1AA7B (E-Key H0564-ZNSOA) FCC Info: KR55WK49622 | 315 MHz
+
+> Prox: (2011-14) 285E3-9NO7A (E-Key H0564-ZNS0A) FCC Info: KR55WK49622 | 315 MHz
+
+> Prox: (2015-18) 285E3-5AAIC (E-Key H0564-ZN5OA) FCC Info: KR5S180144014 | 433 MHz
+
+> Murano
+
+> Prox: (2015-18) 285E3-5AA30 (E-Key H0564-ZNSOA) FCC Info: KRSSI80144014 | 433 MHz |
+
+‘| > Prox: (2015-18 285E3-5AASC (E-Key H0564-ZN50A) FCC Info: KR5S180144014 | 433 MHz
+
+)
+> Prox: (2019-21) 285E3-9UF5B or ILCO# PRX-NIS-4B8 - FCC Info: KRSTXN7 | 433 MHz
+> Prox: (2019-21) 285E3-9UFIB (E-Key H0564-ZNSOA) FCC Info: KRSTXN7 | 433 MHz
+
+285E3-9HP4B, 3TPOA,
+QHS4A, JAOSA, 9NO7A,
+& ILCO# PRX-NIS-4B2, 433
+
+——
+
+-285E3-5AA3D
+ILCO# PRX-NIS-4B8
+
+285E3-4RAOB, "285E3-5AAIC
+BCAGA & ILCO#
+PRX-NIS-5B3
+
+- TBSE-IAATB
+
+>eoe0 ee ©
+
+54 - NISSAN « INFINITI
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+seeeneeeeeeoeese
+
+)
+
+ee ¢
+
+(
+
+¢
+
+Hiddad @ 30VdS
+
+YAQNOdSNVYL
+
+continued - NIS-27 SECTION
+
+Code Series: 001-22,182 & 40,000-41,520
+
+Bow SPACING Tip DEPTHS
+1 2 3 4 5 6 Z 8 g 10 1=.333
+: 2= 307
+
+915 | 833 | .750 | .667 | .584 | .501 | .418 | .335 | .252| 169 | cy | 3=.281
+
+toCut: | 4=-256
+
+—— == 252 083 <
+
+HPC Curtis Clipper Pak-A-Punch = TIL re4
+Zz
+
+Cam: DM-40 _ N
+
+CF304 | Carriage: DM-40 PAK-F1 524 3
+S
+
+=
+
+NOTES: FRAMON - Lay tip stop clip flat against left side of vise, then tip-stop key
+
+against clip. Set first cut at 405”
+
+Chip Information & Notes a
+
+Transponder: Standard Chip: Integrated Circuit _ | Reusable: No
+
+Cloner Machine Information
+
+No Cloning for this Proximity System
+
+Programmer & Diagnostic Tools —__ "222 a 2
+
+Factory Tool) ( PIN CODE
+Se oy
+22525 (: TCODE/MVP PRO [v TDB1000 (v HOTWIRE
+Nissan | :
+Consult Yes (7 SMART PRO (2 AUTO PRO PAD (? AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+> Infiniti & Nissan use several different types of PIN Code conversions depending on Year-Make-Model.
+After-market tools and software are available to make the conversion from BCM code to PIN Code. The PIN code
+
+is the one you need when programming keys. The BCM code is unique to every vehicle.
+
+Codes: | No codes on any locks,
+
+Decoders: | Determinator:NIS2 _| Lishi: NSN14 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Method #1 Check for code in owner's manual, written in by dealer.
+
+Method #2 Use a Lock Decoder/Reader tool in the door lock to determine the door cuts for a working door
+key. :
+
+> Ignition
+O0/0/0;)0|0;0}|0| 0 [> Doors
+Oo > Glove Box (if equipped)
+
+|
+Oo
+O
+
+1/21314|/5|/617/8|9]|10
+
+©1994, 2021 AutoSmart™ by Michael Hyde NISSAN = INFINITI - 55
+NIS-28 SECTION
+
+~ 2017-20 Kicks (Nissan)
+
+2013-20 Pathfinder (Nissan) 2011-17 Quest (Nissan)
+
+MASTER
+
+2014-21 Rogue (Nissan)
+
+2016-21 Titan (Nissan) | 2013-19 Versa (Nissan)
+
+2013-21 Sentra (Nissan)
+
+| ste | caro# | ims# | macs | Startcut | Cuttocut | AirBags | IgnRetainer
+
+001-2282
+40,000-41,520
+
+Dbl Sided None
+
+285E3-5RA6A, 5AA3D
+
+285E3-9KNOA 285E3-5AAIC, 1KMOD
+
+285E3-3SG0D
+
+KEYS > Check with Dealer with VIN for correct Proximity Remote Fob (No Chip in Emerg Key)
+Determinato: NIS 2 Lishi: NSN14 “AccuReader: n/a EEZ Reader: nla Cobra: n/a
+More > Mike's Tip: Transponder system. Key Programmer & PIN Needed, Test key X237 / DA34_
+Info > = => Note: Always check with the Dealer for the correct Fob part r number by VIN.
+» Kicks _ | > Prox: 285E3-5RAGA or ILCO# PRX-NIS-4B10 - FCC Info: KR5TXN3 | 433 MHz
+Te > Prox: VIN is required for correct Part. FCC Info: KR5S180144014 |433MHz
+> Pathfinder — == =sE5
+: > Prox 2019: 12 different ones depending on Trim Levels - FCC Info: KRSTXN7 | 433 MHz —
+> Quest > Prox: VIN is required for correct Part. FCC Info: n/a | 315 MHz
+> Prox: VIN is required for correct Part. FCC Info: KR5S180144106 | 433 MHz :
+» Rogue == eS <= : :
+> Prox 2019: 285E3-6RR7A (2019-21) (E-Key H0564-ZN50A) FCC Info: KR5TXN4 | 433 MHz
+Remote > Prox: 285E3- -3SGOD or ILCO# PRX-NIS-4B7 (2013-19) - FCC Info: CWTWBIU840 E 315 MHz
+Info |” Sentra > Prox: VIN is required for correct Part. FCC Info: n/a | 315 MHz oo
+> Prox: 285E3-5AAIC (RMT Start) (E-Key HO564-ZNSOA) FCC Info: KRESIB0144014 | 433. MHz |
+> Titan > Prox: 285E3- BAA3D (No. RMT Start) (E- -Key H0564- ZN50A) FCC Info: KR5S180144014 | 433
+: > Prox 2019+ 9 different ones depending on Trim Levels - FCC | Info: KROTXN7 | 433 MHz
+> Prox: 285E3-3SG0D or ILCO# PRX-NIS-4B7 (Versa 4Dr) - FCC Info: CWTWBIU840 | 315 MHz
+|b Versa > Prox: 285E3- SKNOA | ‘(Versa Dr) (E-Key H0564- ZN50A) FCC: Model: TWB1G694 | 433 MHz _
+> Prox: 285E3- 1KMOD (Versa Nate) (E- Key H0564- ia ZNSOAD FCC Info: CWTWBIU808 | 315 MHz
+
+56 - NISSAN « INFINITI
+
+— ©1994, 2021 AutoSmart™ by Michael Hyde
+
+pee oeeoe ee ee eee eeeeeee
+
+»)
+@2@e@e@@€20060006000 6060, 06890'0 @ 0 .¢€
+
+C,
+
+Hiddad 8 30VdS
+
+YAGNOdSNVYL
+
+Code Series: 001-22,182 & 40,000-41,526
+
+continued - NIS-28 SECTION
+
+Bow SPACING Tip
+
+1 2 3 4 5 6 iz 9 10
+-915 | .833 | .750 | .667 584 -501 | .418 | .335 | .252 | 169 Cut
+- : : to Cut:
+
+= = == .083
+HPC Curtis Clipper Pak-A-Punch TTL
+Cam: DM-40 — | :
+CF304 Carriage: DM-40 PAK-F1 524
+
+NOTES: FRAMON - Lay tip stop clip flat against left side of vise, then tip stop key
+
+against clip. Set first cut at 405”
+
+DEPTHS
+1=.333
+2 =..367
+3 =.281
+4=.256
+
+H0564-ZN50A
+
+Chip Information & Notes _
+
+Transponder: Standard
+
+Chip: Integrated Circuit
+
+Reusable: No (Needs Unlocking)
+
+Cloner Machine Information
+
+No Cloning for this Proximity System
+
+Programmer & Diagnostic Tools
+
+Factory Tool _ PIN CODE
+REQUIRED
+Nissan :
+Consult — Yes
+
+(? TCODE/MVP PRO
+
+(? TDB1000
+
+(>
+
+HOTWIRE
+
+(? SMART PRO
+
+(? AUTO PRO PAD
+
+€
+
+AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+> Infiniti & Nissan use several different types of PIN Code conversions depending on Year-Make-Model.
+After-market tools and software are available to make the conversion from BCM code to PIN Code. The PIN code
+is the one you need when programming keys. The BCM code is unique to every vehicle.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: NIS 2
+
+Lishi: NSN14
+
+AccuReader: n/a
+
+EEZ Reader: n/a
+
+Cobra: n/a
+
+Method #1 Check for code in owner's manual, written in by dealer.
+
+Method #2 Use a Lock Decoder/Reader tool in the door lock to determine the door cuts for a working door
+key. :
+
+oo
+oo
+
+{o
+
+|o
+
+> Ignition
+> Doors
+
+> Glove Box (if equipped)
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+NISSAN = INFINITI - 57
+
+qigige Secmene- fh 1H ee
+
+2015 Q40 (infiniti)
+
+~ 2014-21 Q60 (infiniti)
+|
+
+2014-21 Q50 (infiniti)
+
+CODES | stve | carp# | ma | macs | Startcut | cuttocut | AirBags | Ign Retainer
+
+2014-19 Q70 (infiniti) |
+
+285E3-IK65A, 4HDOA, AG
+4HBOC,IMPOD i
+
+285E3-GHEIA
+
+285E3-6HE6A
+
+HO564-GHLOA —
+
+H0564-EGO10
+
+58 - NISSAN « INFINITI : = ©1994, 2021 AutoSmart™ by Michael Hyde
+
+MASTER eee Be — Sinn
+KEYS > ‘Check with Dealer with VIN for correct Proximity Remote Fob (No Chip in Emerg Key)
+Determinator: NIS 2 Lishi: NSN14 AccuReader: nia _ FEZ Reader: nla =e | Cobra: nia
+More | > Mike's Tip: Transponder system. Key Programmer & PIN Needed. Test key X237 / DA34 z
+“2 > Note: Always check with the Dealer for the correct Fob partnumberby VIN.
+>Q40 _| > Prox Remote: 285E3-JKGSA or ILCO# PRX-NIS-4B1 - FCC Info: KRS5WK48903 | 315 MHz |
+| » Prox Remote: 285E3-4HBOC (4 Btn) (E-Key H0564-EG010) FCC Info: $180144204 | 433 MHz |
+_____ | > Prox Remote: 285E3-4HKOA (5 Btn) (E-Key H0564-EG010) FCC Info: KR5S180144014 | 433 MHz |
+y a _| > Prox Remote: (2020-21) 285E3-6HEGA (5 Btn) (E-Key HO564-GHLOA) FCC: KRSTXN7 | 433 MHz
+‘aan > Prox Remote: (2020-21) 285E3-GHEIA (4 Btn) (E-Key H0564-6HLOA) FCC: KRSTXN7 | 433 MHz
+Info > [> Prox Remote: (2015-19) 285E3-4HBOC (4 Btn) (E-Key HO564-£6010) FCC: $180144204 | 433
+> Prox Remote: (2014) 285E3-JK65A or ILCO# PRX-NIS-4B1 - FCC Info: KR55WK48903 | 315 MHz_
+=o 7); arhenas: (2020-21) 285E3-6HE6A (5 Btn) (E-Key H0564-6HLOA) FCC: KRSTXN7 | 433 MHz
+| > Prox Remote: (2020-21) 285E3-6HEIA (4 Btn) (E-Key H0564-GHLOA) FCC: KRSTXN7 | 433 MHz -
+> 70 _| > Prox Remote: 285E3-IMPOD (E-Key H0564-EGO10) FCC Info: CWTWBIU787 | 433 MHz
+
+peeeovoavaenaneeanseononeneeaneaeeene
+©@e@@e¢6 06,006 64
+
+ee
+
+@:'6@ 6:08:60 '¢
+
+®@e eo ¢
+
+©
+
+Hiddad ? 30VdS
+
+YAGNOdSNVAL
+
+Code Series: 001-22,182 & 40,000-41,520
+
+Carriage: DM-40
+
+Bow SPACING Tip
+1 2 3 4 5 6 iL S 10
+.915 | .833 | .750 | .667 | .584 | .501 | .418 | .335 | .252 | 169 | cy
+; : : : to Cut:
+=F 083
+HPC | Curtis Clipper Pak-A-Punch ITL
+grape | CAE PNAS -PAK-FI 524
+
+NOTES: FRAMON - Lay tip-stop clip flat against left side of vise, then tip stop key
+
+against clip. Set first cut at 405”
+
+continued - NIS-29 SECTION
+
+DEPTHS
+1=.333
+2 =.307
+3 =.281
+4=.256
+
+H0564-EG010
+
+Chip Information & Notes"
+
+Transponder: Standard
+
+Chip: Integrated Circuit
+
+Reusable: No (Needs Unlocking)
+
+Cloner Machine Information
+
+No Cloning for this Proximity System
+
+: Programmer & Diagnostic Tools
+
+Factory Tool PIN CODE
+REQUIRED
+Nissan
+
+Consult Yes
+
+[v TGODE/MVP PRO
+
+[2 7TDB1000 (> HOTWIRE
+
+(v SMART PRO
+
+(? AUTO PRO PAD ¢ AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+> Infiniti & Nissan use several different types of PIN Code conversions depending on Year-Make-Model.
+After-market tools and software are available to make the conversion from BCM code to PIN Code. The PIN code
+is the one you need when programming keys. The BCM code is unique to every vehicle.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: NIS 2
+
+Lishi: NSN14
+
+AccuReader: n/a
+
+EEZ Reader: n/a Cobra: n/a
+
+Method #1 Check for code in owner's manual, written in by dealer.
+
+Method #2 Use a Lock Decoder/Reader tool in the door lock to determine the door cuts for a working door
+=e ey : :
+
+> Ignition
+> Doors
+> Glove Box (if equipped)
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+NISSAN = INFINITI - 59
+NISO0 SECTION = 7 4/ J ceeaee fee
+
+2014-19 QX50 (Iniiniti) 2011-13 QX56 (Infiniti)
+
+2014-18 QX6O (infiniti)
+
+MASTER |
+
+~ 2014-21 QX80 (Infiniti)
+
+|
+|
+
+2014-19 x7 0 (Infiniti)
+
+| carpe | me | MACS | Start Cut ] Cut to Cut
+
+| S™eE
+
+001-22,182
+40,000-41,520
+
+Dbl Sided
+
+Air Bags | Ign Retainer
+
+_ -Nene=
+
+KEYS >
+
+Check with Dealer with VIN- for correct Proximity Remote Fob (No Chip | in Emerg Key)
+
+| Determinator: NIS 2
+
+Lishi: NSN14 AccuReader: n/a Cobra: nla
+
+EEZ Reader: n/a :
+
+- More
+Info >
+
+> Mike's Tip: Transponder system. Key Programmer & PIN Needed. Test key x237 / DA34 == —
+
+~ > Note: Always check with the Dealer for the correct Fob part number by VIN.
+
+Info >
+
+Remote
+
+~ | > Prox: (2014- 18) 285E3-1BA7A (E- -Key H0564- EG010) FCC Info: KR55WK49622 | 315 MHz
+
+>» QX50 | > Prox: (2019) 285E3- 5NA3A (No Rmt Start) (E- ey H0564-EG010) FCC Info: KRENXNI | 433 MHz
+
+> Prox: (2019) 285E3- SNAZA (with Rmt Start) = Key H0564- EG010) FCC Info: KR5NXN1 7a MHz
+
+> Prox: (2011-13) 285E3-1LLOD (E-Key H0564-EG010) FCC Info: CWTWBIU787 | 433 MHz ~ :
+
+>QX56 + , ;
+> Prox: (2013) 285E3-ILASA (E-Key H0564-EG010) FCC Info: CWTWBIG744 | 433 MHz
+
+> QX60_| > Prox: (2014-18) VIN required for correct Part. FCC Info: KR5S180144014 | 433 MHz
+
+> QX70_ | > Prox: 285E3-ICA7A (E-Key H0564-EG010) FCC Info: KR5SWK49622 | 315 MHz
+
+> QXBO_| > Prox: 285E3-ILABA (E-Key H0564-EG010) FCC Info: CWTWBIG744 | 433 MHz
+
+285E3-1LA5A,
+SNA7A— —
+
+285E3-ILLOD, _
+ICA7A, SNA3A
+
+285E3-1BA7A
+
+60 - NISSAN -
+
+- INFINITI 1994, 2021 AutoSmart™ by Michael Hyde
+
+e0e0e00e8
+
+,>@ ©
+
+Ss
+
+)
+
+Dpeeoe5u5eeeee
+@ eo 0@ 6 «
+
+¢
+
+¢
+
+@ <
+
+€
+
+YAGNOdSNVAL
+
+Cede Series: 001-22,182 & 40,000-41,526
+
+continued -
+
+Hid3d ? 30VdS
+
+NIS-30 SECTION
+
+: Bow SPACING Tip DEPTHS
+1 2 3 2 S 6 7 = Ps 10 — 1=.333
+2=.307
+915 | .833 -750 .667 | .584 | .501 | .418 | .335_| .252 | 169 Cut 3 =.281
+7 to Cut: 4=.256
+— .083 =
+HPC Curtis Clipper Pak-A-Punch He a
+: uw
+Cam: DM-40 st
+CF304 | atriage: DM-40 PAK-F1 524 :
+NOTES: FRAMON - Lay tip stop clip flat against left side of vise, then tip stop key =
+against clip. Set first cut at 405”
+Chip Information & Notes
+Transponder: Standard Chip: Integrated Circuit Reusable: No
+
+‘Cloner Machine Information —
+
+No Cloning for this Proximity System
+
+Programmer & Diagnostic Tools _
+
+Factory Tool
+
+Nissan
+Consult
+
+PIN CODE
+REQUIRED
+
+Yes |
+
+(v TCODE/MVP PRO
+
+(2 TDB1000
+
+(« HOTWIRE
+
+(v SMART PRO
+
+(? AUTO PRO PAD
+
+¢ AUTEL IM608 -
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+> Infiniti & Nissan use several different types of PIN Code conversions depending on Year-Make-Model.
+After-market tools and software are available to make the conversion from BCM code to PIN Code. The PIN code
+is the one you need when programming keys. The BCM code is unique to every vehicle.
+
+Codes: | No codes on any locks.
+
+Decoders: _ Determinator: NIS 2 Lishi: NSN14 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Check for code in owner's manual, written in by dealer.
+Method #2 Use a Lock Decoder/Reader tool in the door lock to determine the door cuts for a working door
+
+key.
+
+> Ignition
+> Doors
+
+oO
+oO
+oO
+QO
+
+> Glove Box (if equipped)
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+NISSAN = INFINITI - 61
+
+NIS-34 SECTION. po ee
+
+MASTER
+
+- 2020-21 1 0X5 ( (infinity)
+
+2022 QX5S (infiniti)
+
+| sme | carpe | mse | macs | startcut | cuttocut |
+
+001-22,182
+40,000-41,520
+
+Dbl Sided -
+
+2019-21 QX60 (Infiniti)
+
+Air Bags | Ign Retainer
+
+-None
+
+»o°e@
+
+KEYS > _ Check with Dealer with VIN for Proximity F Remote Fob (No Chip in Emerg Key)
+Determinator: NIS 2 Lishi: NSN14 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+More » Mike s Te jo system. Key Programmer & PIN Needed. Test Key X237 / DA34
+Info > > Note: Always check with the Dealer for the correct Fob part. number by VIN.
+= > Prox: (2020-21) 285E3-5NY3A (4 Btn) (E-Key H0564-9NROA) FCC Info: KRONXNI | 433 MHz
+‘ eee 4 >-Prox: (2020 2) 285E3- SNYTA (5 Btn) (E- Key H0564-9NROA) FCC Info: KRONXNI | 433 MHz
+| -= > Prox: (2019) 285E3- SNRSA (E- Key H0564-9NROA) FCC Info: KR5TXN7 | 433 MHz ==
+elas ; » x60 > Prox: (2020-21) 285E3-9NR4A or ILCO# PRX-INE-4B1 (4 Btn) - FCC Info: KR5TXN7 | 433 MHz
+
+> Prox: (2020-21) 285E3-9NRSB or ILCO# PRX- INF-5B1 (5 Btn) - FCC Info: KRSTXN7|433MHz |
+
+> Prox: (2022) 285E3- -SNYSA (4 Btn) (E- -Key HO564- QNROA) FCC Info: KR5NXNI | 433 MHz
+
+» QX55
+
+> Prox: (2022) 2853- ae 6 Btn) tes eek H0564-9NROA) FCC Info: KRSNXN1 I 433 MHz
+
+285E3-SNY3A —S—S—«2 BE3-SNY7A HO564-9NROA
+
+“@F-WISSANZINFINT| =2=2= 9) -= S==
+
+_ ©1994, 2021 AutoSmart™ by Michael Hyde
+
+b$ee6¢6 086 ¢
+
+peeovoonee eee
+eee
+
+¢
+
+¢
+
+continued - NIS-31 SECTION
+
+Code Series: 001-22,182 & 40,000-41,520
+
+a Bow = SPACING Tip DEPTHS
+
+Mae-7 | -2-| 3 | 44-5 | 647 +8 9 102. 1= 333
+
+> = == z 2= 307
+
+[e)] .915 | .833 | .750 | .667 | .584 | .501 | .418 | .335 | .252 | 169 Cut 3 =.281
+
+A to Cut: | 4=-256
+
+ge - : : 083 S
+
+oO HPC Curtis Clipper Pak-A-Punch = TTL : es
+
+m oO
+
+v0 Cam: DM-40 =
+
+a CF304 Carriage: DM-40 PAK-F1 524 8
+=
+
+NOTES: FRAMON - Lay tip stop clip flat against left side of vise, then tip stop key
+against clip. Set first cut at 405”
+
+Chip Information & Notes
+
+Transponder: Standard - Chip: Integrated Circuit Reusable: No (Needs Unlocking)
+
+Cloner Machine Information
+
+= No Cloning for this Proximity System
+
+2 z
+
+<5] Programmer & Diagnostic Tools —
+
+7) =
+
+} — ——— 2 TCODE/MVP PRO| | ? TDB1000 x HOTWIRE
+> REQUIRED ; x :
+
+= Nissan
+
+a Consult an Yes (? SMART PRO (7 AUTO PRO PAD (2 AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+> Infiniti & Nissan use several different types of PIN Code conversions depending on Year-Make-Model.
+After-market tools and software are available to make the conversion from BCM code to PIN Code. The PIN code
+is the one you need when programming keys. The BCM code is unique to every vehicle.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: NIS 2 Lishi: NSN14 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Method #1 Check for code in owner's manual, written in by dealer.
+
+Method #2 Use a Lock Decoder/Reader tool in the door lock to determine the door cuts for a working door
+
+key.
+> Ignition
+O010|0|0O}0}0}0O} 0 }> Doors
+o;O o/O > Glove Box (if equipped)
+2131415|6|7/8]91]10
+
+©1994, 2021 AutoSmart™ by Michael Hyde NISSAN = INFINITI - 63
+2017-19 QX30 (Infiniti)
+
+| Air Bags | Ign Retainer
+
+CODES | sre | canoe | me |
+
+macs | StartCut | CuttoCut
+
+Unknown righ : n/a None
+: - Security =
+MASTER
+KEYS > ee ee a :
+Check with Dealer with VIN for correct Proximity Remote Fob (No Chip in Emerg Key)
+Determinator: nla Lishi; HU64 AccuReader: n/a —| EEZ Reader: n/a Cobra: n/a
+More > Mike’s Tip: Transponder system. DEALER Programmer & PIN Needed.
+Info > ® Note: Always check with the Dealer for the correct Fob part number by VIN. —
+Remote>
+
+> Prox Remote: 285E3-5DD3A (Mercedes Style) (E-Key 80564-5DM1B) FCC Info: IYZDC12K | 315 MHz
+
+Code Series: 1-6400
+° Eee SPACING = = Tp | neeTHS
+= 1 2 13 4 5 i GS = 1=.156
+m ; == : ele == =| =pAla | 2s 182
+go 1.049 | .958 | .867 | .776 | .685 | 5947 .503 | .412 324 [ 230 3= 108
+o = : 4= .085
+m — Soe = = : = —| 5=.061
+a Curtis Clipper: ne : aoe Pak-A-Punch: [n/a —
+NOTES: External 2-Track: Measured from tip. Flat of 026” for the Shoulder cut.
+
+64 - NISSAN « INFINITI = 2S 2 | 2 1904, 2021 Autosmart™ by Micheel Hyde
+
+peeeoaeeeneeeoeeeeeeeeees
+eoooe ee
+
+a 2..8: 9 2:28:09 0.9: 2.00 4
+
+¢
+
+¢
+
+YSQNOdSNVYL
+
+Chip Information & Notes _
+
+continued - NIS-32 SECTION
+
+Transponder: Standard
+
+Chip: Integrated Circuit
+
+Cloner Machine Information
+
+Reusable: No (Needs Unlocking)
+
+No Cloning for this Proximity System
+
+‘Programmer & Diagnostic Tools
+
+‘Factory Tool |) (“PIN CODE
+
+ppeee REQUIRED
+Nissan es
+Consult | | Yes
+
+(« TCODE/MVP. PRO («
+
+TDB1000 | (« HOTWIRE
+
+(« SMART PRO (
+
+AUTO PRO PAD | € AUTEL IM608
+
+Dealer Tool Required at this time.
+
+> Infiniti & Nissan use several different types of PIN Code conversions depending on Year-Make-Model.
+After-market tools and software are available to make the conversion from BCM code to PIN Code. The PIN code
+is the one you need when programming keys. The BCM code is unique to every vehicle.
+
+Codes: | No codes on any locks.
+
+Decoders: Determinator: n/a
+
+Lishi: HU64
+
+AccuReader: n/a
+
+EEZ Reader: nla Cobra: n/a
+
+NOTE: This model is actually made by Mercedes and is based on the Mercedes GLA.
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #2 Remove door lock and disassemble. Decode tumblers and make working key.
+
+Dig O|O 6 > Doors
+
+O0/0/}0/|0| G |> Glove Box*
+
+|> Ignition (none)
+
+> Trunk (none)
+
+* lf Equipped
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+NISSAN = INFINITI - 65
+NIS-33 SECTION, =
+
+KEYS >
+
+MASTER —
+
+=) 2605-21 ae (Nissan)
+
+| ste | carps | ms | macs | startcut | | Cutto Cut | Air Bags
+
+| Ign Retainer
+
+Dimple
+04775-0550)
+
+High
+
+Security tigi
+
+Check with Dealer with VIN for correct Proximity Remote Fob (No Chip in Emerg Key)
+
+Determinator: n/a Lishi: n/a ‘AccuReader: na EEZ Reader: n/a _—_—| Cobra: n/a
+
+> Mike's Tip: See system. Key eS & PIN Needed.
+
+Info >
+
+ae y Mike’ s Tip: Emergency key i is a Dimple key and needs to be ordered from the Dealer by the VIN, ===
+> Note: Always check with the Dealer for the correct Fob part number by VIN.
+: > Prox Remote: 285E3-JF30A (03/2008- -10/2008) FCC Info: KR55WK49622 | 315 MHz :
+|> Prox Remote: _285E3-JF80A (10/2008- 12/2009) FCC Info: KR55WK49622 | 315 MHz —
+: ait > Prox Remote: 285E3- JF51A (12/2009-12/2010) FCC Info: KR55WK49622 | 315 MHz
+
+| > Prox Remote: 285E3-JF85A (12/2010-11/2011) FCC Info: KR55WK49622 | 315 MHz
+
+> Prox Remote: 285E3-IF87A (I1/2011-2018) FCC Info: KR55WK49622 | 315 MHz
+
+> Prox Remote: 285E3-JF87D (2019-21) FCC Info: KR5SWK49622 | 315 MHz ==
+
+INFINITE = @ 1994, 2021 AutoSmart™ by Michael Hyde
+
+- 66 - NISSAN = |
+
+peeeaevoeeeeeee
+
+peeo0nne0e06e ©
+©9@eoee06086¢6060690 0,086 4
+
+@#e<eeoeoega goo oot
+
+continued - NIS-33 SECTION
+
+| Chip Information & Notes — BO |
+
+Transponder: Standard _ Chip: Integrated Circuit _ | Reusable: Yes
+
+‘Cloner Machine Information =—_—™
+
+No Cloning for this Proximity System
+
+=]
+
+- Programmer & Diagnostic Tools a=
+
+at S256 = : cig
+Factory Tool | ( PIN CODE ==
+
+S pos ~ REQUIRED [v Teooemve PRO] € TDB1000 _ [v HOTWIRE
+
+= Nissan =
+
+ys | Consult — Yes [v swarer peo. (v AUTO PRO PAD | (> AUTEL IM608
+
+a= Check with your key programmer supplier to see if your vehicle is supported.
+
+> Infiniti & Nissan use several different types of PIN Code conversions depending on Year-Make-Model.
+After-market tools and software are available to make the conversion from BCM code to PIN Code. The PIN code
+—_is the one you need when programming keys. The BCM code is unique to every vehicle.
+
+Codes: No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: n/a AccuReader: n/a FEZ Reader: n/a Cobra: n/a
+
+Method #1 _ Disaasemble the door lock and decode lock for working key.
+
+Method #2 — Order a factory key. —
+
+- ©1994, 2021 AutoSmart™ by Michael Hyde NISSAN = INFINITI - 67
+_ ____Nissan Intelligent Key (Proximity) :
+
+Twist Start —
+
+@eoaoeeeeeeeeesd
+
+Twist Start -=~=—sTwistStartwithEmergencyKey __
+
+OO
+
+pean 50eeees
+
+: 68 - NISSAN « INFINITI : i= == = Ze : — ©1994, 2021 autooner™by Michael Hyde
+eo @6e ¢«
+
+(
+
+Nissan Intelligent Key (Proximity)
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+NISSAN = INFINITI - 69
+Bees Nissan Intelligent Key (Proximity) ; a
+
+=@
+
+2 ©@
+
+4 ie
+—— ©
+
+Proximity Learning - Programming Slot se
+
+= 1994, 2021 AutoSmart™by Michael Hyde
+

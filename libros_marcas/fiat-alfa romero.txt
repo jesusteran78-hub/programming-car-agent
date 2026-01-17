@@ -1,0 +1,933 @@
+o@egoe@e@o
+
+¢
+
+¢
+
+|
+
+AUTO LOCK SERVICE, INC-
+
+2021
+
+AutoSmart ™
+_ by Michael Hyde
+
+FIAT = ALFA ROMEO
+
+DISCLAIMER:
+
+A wide variety of key programmers have been added to this book. Most key programmer companies are
+not based in the U.S. Some of their application charts have many mistakes. In some cases, you will need
+to check with your key programmer supplier to see if the vehicle you are working on is supported by their
+tool. There is always a risk in damaging the vehicle electronics when you connect to the vehicle through
+the OBD port if you are not using an OEM diagnostic tool. You as the locksmith take on this risk every
+time you perform work on a vehicle.
+
+If you have any doubt about what part to use, make sure you check with the dealer and have them run
+the VIN to get you the right part number. Remember, ultimately it is your responsibility to obtain the
+correct part. Part numbers and FCC information has been researched and verified as best as possible.
+But no system is perfect or without errors. Car manufacturers’ part numbers and applications guides
+contain mistakes of their own. Therefore, we cannot guarantee or warranty that the part we show for a
+particular vehicle is the absolute right one.
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+FIAT - 1
+2021 - AutoSmart Foreign Book =
+
+“ALFA ROMEO = FIAT Table of Contents
+
+MAKE __|MODEL ===
+
+YEARS
+
+| TYPE
+
+_|SECTION |
+
+| PAGE
+
+ALFA
+ROMEO
+
+4C
+
+= 2015-18
+
+| Key —
+
+FA-4
+
+aga
+
+| 2017-21
+
+Proximity
+
+FA-6
+
+12
+
+Stelvio
+
+: Proxim ity
+
+FA-6
+
+ay
+
+Older Models
+(Not listed elsewhere) _
+
+2018-21
+
+1967-88
+
+Key
+
+FA-3
+
+FIAT
+
+124 Spyder
+
+=| 2017-20
+
+Proximity
+
+| FA-7
+
+14
+
+500
+
+-|2012-19
+
+| FA-4
+
+500e
+
+2013-18
+
+Key :
+Key
+
+FA-4 _
+
+2014-20
+
+Key
+
+‘| FA-4
+
+500L
+
+500X
+
+|2016-21
+
+Key
+
+FA-5
+
+= 10
+
+2016-21 |
+
+Proximity
+
+FA-6
+
+=
+
+| Older Models
+
+(Not listed elsewhere) _
+
+| 1967-88 =
+
+Key -
+
+FA-3
+
+Strada (Ritmo)
+
+‘|1981-88
+
+FA-1
+
+Key
+
+FA-2
+
+2 - FIAT
+
+11979-80 _
+
+Key
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+poeeeeeoenenee eee e ee eeeeee
+
+©e@e@ @2@e@eee0ee@oeoee@ee@e#@e@ee@edogeeoeeed-€«
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+MyAutoSmart
+
+for iPhone, iPad or Android
+
+As you know your smartphone is a powerful
+
+device that is always with you. It can also peal ated
+
+be your home for a knowledge base of auto
+
+locksmith information. My Auto
+
+Built from the grou nd up with the latest Your subscription is valid through June 24, 2020.
+
+features for your busy work life. eu
+Regular automatic updates throughout the a ene
+year with the latest auto information you
+need.
+
+4] Parts Search
+
+= Customers
+
+Thousands of pictures of Remotes, Remote
+Head Keys, Proximity Fobs, Keyblanks and
+
+Tumbler Charts to really give you the full tals
+picture of what you are dealing with. Stoel
+
+& User Key Blanks
+
+$100. for a yearly subscription
+
+Vehicle Menu
+
+When you look up
+
+a vehicle there is a
+wealth of information
+available to you.
+
+* Key Information
+
+* Transponder
+
+* Making the Key
+
+* Key Silhouettes
+
+« Notes (if any)
+
+* Parts Department
+
+2000 Ford E-Series Van
+
+Available from your AutoSmart distributor |
+
+FIAT - 3
+FA-1 SECTION
+
+MASTER
+KEYS >
+
+1981-88 Strada (Ritmo) (Fiat)
+
+| stme | carpe | me | macs | Startcut | cuttocut | _AirBags a Retainer
+K 3301-4886 | DbiSided | CF96 3 146 | 104 No Active |
+NATIONAL: KEYLINE: ILco: JET: yma: | sTRATTEC: DEALER,
+M46 | ona x52 F146 | CFG nla =| — __nla
+Determinator: nla | Lishi: n/a AccuReader: n/a FEZ Reader: nia Cobra: n/a
+
+| NO TRANSPONDER
+
+a Code Series: K 3301-4886 =
+Sy Bow SPACING Tip | DEPTHS
+> om = : : = = = 0=.291_
+= : 9 = .272
+(Pe 146 | .250 | .354 | .458 | .563 | .667 | cutto | 8=.252
+o : = == =i Cut: 4= .232
+HL HPC Curtis Clipper Pak-A-Punch_ HL | 104” 6= 213
+Cam: 15N-5
+= —— Carriage: 15N-5B me ae =
+Codes: Some ignitions may have a code on them near the electrical connector. =
+Decoders: | Determinator: n/a _| Lishi: n/a. =—=*| AccuReader: n/a _—_—=C|EEZ Reader: n/a Cobra: n/a
+Method #1 Check owner's manual for code, written in by dealer.
+Method #2 Remove door cylinder and disassemble to make working key.
+Method #3 Impression locks. =
+4 - FIAT : ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeeoeeoeeoeeeaaeaeeeeoeeeee
+©9@eeoee9o-e«
+
+¢
+
+¢
+
+¢
+
+@#eeoees<
+
+¢
+
+€
+
+FA-2 SECTION
+
+1979-80 Strada (Ritmo) (Fiat)
+
+STYLE
+
+| carp# |
+
+me |
+
+macs | StartCut | CuttoCut | AirBags | ign Retainer
+
+X 3301-4886 Dbl Sided | —CF94 3 146 104 No Active
+MASTER |
+NATIONAL: KEYLINE: ILCO: Uae JMA: STRATTEC: DEALER:
+KEYS > FT43 n/a x109 nla FLT n/a nla
+Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+| NO TRANSPONDER
+
+H1ld3ad 8 A0VdS
+
+Code Series: X 3301-4886
+Bow SPACING Tip DEPTHS
+: 0 = .272
+1 Z 3 4 5 6 9 = .252
+146 | .250 | .354 | .458 | .563 | .667 Cutto | 8 =.232
+Cut: 4=.213
+HPC Curtis Clipper | Pak-A-Punch ITL 104" | 6=.193
+: Cam: 15N-5
+— Carriage: 15N-5A nA bg
+Codes: | Some ignitions may have a code on them near the electrical connector.
+Decoders: | Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Check owner's manual for code, written in by dealer.
+Method #2 Remove door cylinder and disassemble to make working key.
+Method #3 Impression locks.
+FIAT - 5
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+| NO TRANSPONDER
+
+H1ld3d 8 30VdS
+
+”
+
+> SPACING Tip DEPTHS —
+: == 0 = .266
+
+1 2
+
+e eis oles 1=.246
+
+pe 157 | .205 | .433 | .571 | .709 Z enn | 2= 2
+
+rs) = Cut: 3 = .207
+
+. HPC Curtis Clipper | Pak-A-Punch| —ITL A398 | 4=187
+
+4 ==— : 5 = 167
+
+Cam: 15W-1
+sf ee Carriage: 15W-1 ae i
+6 - FIAT
+
+FA-3 SECTION
+
+IGNITION
+KEYS >
+
+2 different
+types
+possible
+
+DOOR
+& TRUNK
+KEYS
+
+3 different
+types
+possible
+
+ITL#
+
+1967-88 OLDER - Other Models not Listed Elsewhere
+
+CuttoCut | Air Bags
+
+Start Cut | Cut to Cut | i
+
+| stvie | carpe | | macs | startcut | | ign Retainer
+X3301-4886 Dbl Sided Active
+NATIONAL: KEYLINE: ILCO: “JET: JMA: STRATTEC: DEALER:
+FT43, n/a X109 n/a FI-71 nia nla
+
+Start Cut | Cutto cut
+
+FR1-2000 | Sql Sided 157 138
+NATIONAL: KEYLINE: ILCO: Hee JMA: STRATTEC: DEALER:
+FT6R nla FT6R- nla FO-FR n/a nla
+
+Dbl Sided
+
+XF93
+
+1501-4000 Sql Sided CF91 2 7Agl AG
+NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: DEALER:
+FT37 / FT38 n/a FT37 / FT38 fla IMS-3 7 5 n/a n/a
+
+2100-4309
+
+JMA:
+
+F9ICR / F91C8
+
+NATIONAL: KEYLINE: ILCO; JET: STRATTEC: DEALER:
+F9IC / F91C2 n/a F72Y / F72X n/a AF-61 / AF-6D nia nla
+| carpe | me |
+6100-8309 DblSided | XF93 | |
+NATIONAL: KEYLINE: io JET: JMA: STRATTEC: _ DEALER:
+n/a FroviF72W | nla AF-5I / AF-5D Ala nla
+
+Code Series: X 3301-4886
+
+Bow SPACING Tip
+
+146 | .250 | .354 | .458 | .563 | .667 2801 cals
+
+2 Cut:
+
+HPC Curtis Clipper Pak-A-Punch | = ITL _ 104
+pee Sareea ae 2
+
+DEPTHS
+0=.2/2
+9 = 252
+8 = .232
+4=.213
+6 = 193
+
+Code Series: FR 1-2000
+
+©1994, 202T AutoSmart™ by Michael Hyde
+
+)
+
+)
+
+—peaoen eoonueae54040ee6 @
+
+)
+
+©:
+©oe2e2ee0200000664
+
+@oee oe oe @
+
+(
+
+eo
+
+continued -FA-3 SECTION at:
+
+Code Series: 1500-4000 Se
+aa 7 SSPROING =3 = tp = = DENTS
+
+a
+
+> : ===: 1= .272
+
+o 2 |23: 4 5 6 ee ae
+
+m - 5 Bee 2 2=.240 7,
+
+Pa] -217 | .327 | .437 | .547 | .657 | .768 __| cutto | 3=.209
+
+o es == ~ Cut:
+
+2 HPC | CurtisClipper | Pak-A-Punch} ITL | "2 | —
+
+= | oe f
+Cam=i5N-3_
+
+* al _ Carriage: 15N-3 | Le ==— =
+
+Code Series: 2100-2309, 4100-4309, 6100-6309, 8100-8309 = ==
+DEPTHS
+
+i = Z
+ae] Bow SPACING Tip
+Sz 2 Ss a 222 iene
+pay] 220 | 319 | .417 | 516 | .614 | | cutto | 3=.220
+S = : = Cut: E
+. HPC Curtis Clipper _| Pak-A-Punch ITL O98
+= Cam: 15N-2_ : i= :
+- are Carriage: 15N-2 == Bla Z .
+Codes: | Some ignitions may have a code on them near the electrical connector.
+Decoders: Determinator: n/a Lishi: n/a = AccuReader: n/a | EEZ Reader: n/a Cobra: n/a
+
+IGNITION - PRIMARY KEY
+Method #1.‘ Check owner’s manual for code, written in by dealer.
+Method #2 Remove ignition cylinder and disassemble to make working key.
+
+Method #3 —_Impression locks.
+
+DOOR / TRUNK - SECONDARY KEY
+__ Method #1 = Check owner's manual for code, written in by dealer. _
+Method #2 Remove door cylinder and disassemble to make working key.
+
+Method #3 Impression locks== =
+
+©1994, 2021 AutoSmart™ by Michael Hyde 2S =SS 2 FIAT - 7—
+FA-4 SECTION
+
+2013-18 500e
+(Fiat)
+
+2012-19 500
+(Fiat)
+
+2015-21 4C
+(Alfa Romeo)
+
+2014-20 500L
+(Fiat)
+
+| STYLE |
+
+| CARD# | ITL# | MACS Start Cut | Cut to Cut Air Bags | ign Retainer
+
+n@ee
+
+DE1-11210 | HighSec nla na
+MASTER =
+KEYS > Factory Key is ordered from Dealer with VIN. After-market keys are available.
+Determinator: n/a Lishi: F122 AccuReader:-n/a EEZ Reader: n/a Cobra: n/a
+> Mike's Tip: PIN code is needed to program keys. Some after-market key programmers may be able to
+“read” the PIN code, but it is Not always possible. Some models came with a Card in the glove box that had
+More the vehicles keycode and PIN, when the car was new. Test key is F122, ILCO: SIP22KP, JMA: FI-16C1_—
+Info
+> Mike's Tip: There are many key programmers on the market right now. Some work well and some do not.
+> Do your own research and remember that some companies have little or no support.
+> 4C > Flip Remote: Check with dealer based on VIN.
+Remote |? 500 > Flip Remote: Fiat# 68091228AC FCC Info: LTOF1ZAM4337X | 433 MHz (Delphi)
+_ > 500e > Flip Remote: Fiat# 68091228AC FCC Info: LTQF12AM433TX | 433 MHz (Delphi)
+>» 500L > Flip Remote: Check with dealer based on VIN. =
+
+DE06401 _
+
+Code Series: DE 1-11210
+
+SPACING
+
+DEPTHS
+A= .166
+B=.135
+C=.103
+D=.072
+
+Hiddad 8 30VdS
+
+Bow =
+re Cut to
+: : : 2 : : : ~ Cut:
+os | 201 | 303 | 406 | 508 | e10 | 713 | 815 | 09?
+Curtis Clipper: | C3 Carriage: | pak-a-Punch: | N/A
+* |N/A N/A :
+
+8 - FIAT
+
+Aay sal
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+,> @
+
+»)
+
+peeoaeeoeanaee @
+
+»'@,.,@
+
+e)
+et ee
+
+©eoe@e@e
+
+(
+
+¢
+
+¢
+
+@ @ @ ¢
+
+¢
+
+continued - FA-4 SECTION
+
+Chip Information & Notes
+
+Transponder: Standard Equipment
+
+Chip: Philips 46 Reusable: No
+
+» Mike's Tip: Key Programmer & PIN Code Required. Test key is F122, ILCO: SIP22KP, JMA: FI-16C1
+
+Cloner Machine Information
+
+(DIAG BOX ) = CHINA ) (ILCO/SILCA) ( JMAUSA ) ( KEYLINE )( LL.D.) ( SCORPIO \( woi )
+=| CLONE :
+me) wizard || _ cNg00 RW4+ TRS-5000/EVO| | $84 Ultegra | | MIRACLONE TANGO MINI TOOL
+2 M1 Yes M7] Yes? M1 Yest&2 M1 Yes? M1 Yes! 7] Yes 1&2 M1 Yes'&2 M1 Yes
+: Green Chip CN3 & GTl& TPX4 & TK100 & TPX4 & TPX4 & WDIChip &
+BSH | SFiat shell | | Fiat She Fiat Shell Fiat Shell Fiat Blade Fiat Shell Fiat Shell Fiat Shell
+a *4 = May require Internet Access to complete cloning. “2 - Requires Philips update.
+ss) : :
+mn Programmer & Diagnostic Tools _
+Factory Tool PIN CODE 5 2
+REQUIRED - ? TCODE/MVP PRO x TDB1000 ? HOTWIRE
+MicroPod Yes :
+; WEECH® ae : ( SMART PRO (2 AUTO PRO PAD (? AUTEL IM608
+
+= Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No Codes on any locks.
+
+Decoders: Determinator: n/a Lishi: FT22 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a lock Reader/Decoder in the door lock to-determine the cuts for a working key.
+-- Some models may only have 7 cuts in the door lock, in this case you will need to progression -
+the remaining cut for a working Ignition key.
+Method #2 Disassemble the door cylinder and decode the tumblers. Some models may only have 7 cuts
+in the door lock, in this case = will need to progression the remaining cut for a working
+Ignition key.
+Method #3 _
+
+Call your Bro up at the dealership and have him run the VIN for a =
+
+O}8ea;0 O|> Ignition —
+fo); o;o0 O01 |> Doors
+3/4,516 8
+
+0/0/0;0}|0 | 0 }> Ignition
+O;0/0|)0;/0/0}> Doors
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+FIAT - 9
+FA-5 SECTION
+
+MASTER
+
+| ste | carve | ney 1 macs | StartCut | CuttoCut | oo "| ign Retainer
+
+DE 1-11210 Active
+
+--Factory Key is ordered from Dealer with VIN. After-market keys are available,
+
+KEYS >
+Determinator: Wie = Lishi: FT22 _| AccuReader: n/a | EEZ Reader: n/a a __| Cobra: n/a
+> Mike's Tip: PIN code is needed to program keys. Some after-market key programmers may be able to
+More "read" the PIN code, but it is Not always possible. Test key is FT22, ILCO: SIP22KP, JMA; FI-16C1
+Info> | > Mike's Tip: There are many key programmers on the market right now. Some work well and some do not.
+> Do your own research and remember that some companies have little or no support. :
+cio > Flip Remote: Check with dealer based on VIN. — = = ==
+Info > =
+
+Code Series: DE 1-11210
+@ = ——
+vu SRACING cutto | DEPTHS
+: 1 2 3 4 5 6 fee B ae A= .166
+m : fee 092 B= .135
+ge 098 201 303 .406 508 610 a 13 = 815 C=.103
+oO — == = bb =2072
+a Cam: __ | Carriage: - — o
+S Curtis Clipper: ee edna Pak-A-Punch: — N/A a g
+= Az
+®
+=== =
+10 - FIAT = = Se ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeves eeaeeeoeoeeeoeese
+
+2)
+
+»e@°@
+¢
+
+oe, 0@202@6@8@ee@eee0 @
+
+@#@eeoee <
+
+@ 6 @ «
+
+¢
+
+continued - FA-5 SECTION
+
+Chip Information & Notes
+
+Transponder: Standard Equipment
+
+Chip: Moegamos 49 AES
+
+Reusable: No
+
+> Mike's Tip: Key Progiamivier & PIN Code Required. Test ys. is F122, ILCO: SIP22KP,_JMA: FI- 16CI
+
+Cloner Machine Information
+
+= (DIAGBOX ) ( CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LL.D. _) ( SCORPIO ) ( wo!)
+co Hepes CN900 RW4+ TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+>
+Z ® No ® No @ No @ No @ No ® No @ No @® No
+op)
+Uv o = Le = = = =
+2)
+4
+rw) —— : - —~
+au Programmer & Diagnostic Tools
+_Factory Tool | PIN CODE = .
+RECDIRED ? TCODE/MVP PRO| | x TDB1000 ? HOTWIRE
+MicroPod Yes
+WwEGHe = 2. SMART PRO 2 AUTOPROPAD] |? AUTELIMG608
+PIN Needed
+
+= Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: FT22 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Method #1 "Use a lock Reader/Decoder in the door lock to determine the cuts for a working key.
+Some models may only have 7 cuts in the door lock, in this case you will need to progression
+the remaining cut for a working Ignition key.
+
+Method #2 Disassemble the door cylinder and decode the tumblers. Some models may only have 7 cuts
+in the door lock, in this case you will need to progression the remaining cut for a working
+Ignition key.
+
+Method #3 Call your Bro up at the degen and have him run the VIN for a keycode.
+
+O1| 8 |> Ignition
+O | 0 }> Doors
+
+O/0;0}0|0}0}> Ignition
+O}0O/}0O)0;0} O}> Doors
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+FIAT - 11
+FAS ScctONs | (Ue Be
+
+2016-21 500X (Fiat) (Proximity)
+
+| STYLE
+
+DE 1-11210 HighSec | Active
+MASTER ——= = 222
+KEYS > Factory Proximity is ordered from Dealer with VIN. After-market Proximity fobs may be are available.
+Determinator: n/a Lishi: FT22 — | AccuReader: n/a EEZReader; n/a | Cobra: n/a
+> Mike's Tip: PIN code is needed to program keys. Some after-market key programmers may be able to
+More “read’ the PIN code, but it is Not always possible. Test key is F122, ILCO: SIP22KP, JMA: FI-IGC]
+into> |) Mike 's Tip: There are many key programmers on the market right now. Some work well and some do not.
+> Do your own research and remember that some companies have little or no ee
+Remote | . prox Remote: Check with dealer based on VIN.
+Info > : =
+
+500X 2 Guila & Stelvio
+
+Code Series: DE 1-11210
+SE SPACING 25 |
+a 1 2 3 4 5 6 7 | 8 _ A= .166
+Wi oos | 201 | 303 | 406 | .508 o |[=as Eceig |) 92 B= 185 | =
+a : : : : 610 | 743 | 815 | c= 103 | _
+o D = .072
+i Cam: Carriage: ee o
+| Curtis Clipper: N/A N/A Fak APunch:- N/A =
+a 2
+
+12 - FIAT = — ©1994, 2021 AutoSmart™ by Michael Hyde
+
+)
+
+eoeoaneeeoeoeeseoanoneeeeoee se
+¢
+
+¢
+
+©9ee eo ¢
+
+© @ @ <
+
+oe <
+
+®o 0@@,.0 6 «
+
+¢
+
+¢
+
+continued - FA-6 SECTION
+
+Chip Information & Notes
+
+Transponder: Standard Equipment ~ | Chip: Integrated Circuit Reusable: No
+
+> Mike's Tip: Key Programmer & PIN Code Required. Test key is FT22, ILCO: SIP22KP,_JMA: FI-16C1
+
+Cloner Machine Information
+
+—|
+>
+2 No Cloning for this Proximity System
+7)
+3 Programmer & Diagnostic Tools 8
+Oo
+Factory Tool PIN CODE
+fe ory fool
+es) REQUIRED ( TCODE/MVP PRO E TDB1000 (? HOTWIRE
+MicroPod Yes
+wilECH® 5-digit
+PIN Needed ( SMART PRO (2 AUTO PRO PAD (2 AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No Codes on any locks.
+
+Decoders: Determinator: n/a Lishi: FT22 -AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a lock Reader/Decoder in the door lock to determine the cuts for a working key.
+Method #2 Disassemble the door cylinder and decode the tumblers.
+
+Method #3 Call your Bro up at the dealership and have him run the VIN for a keycode.
+
+> Ignition (None)
+UO) O | | + Gs-2|=Doors
+
+> Ignition (None)
+O}0O)0;08}0} 8/0 |> Doors
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+FIAT-13
+FA-7 SECTION | Sr Ge
+
+2017-20 124 Spider (Fiat) (Same as Mazda MX-5)
+
+STYLE | CARD# | “TT
+Dbl Sided
+
+10100-12283
+
+MASTER == = 22 2 — 22 2
+= ~ > These models have a Proximity system. > Check with dealer for correct part # by VIN.
+
+‘Determinator: MAZ 2 Lishi: MAZ24 | AccuReader: n/a EEZ Reader: n/a __| Cobra: n/a
+
+> Mike’s Tip: : Proximity system. Tester Required for Key Programming & PIN Needed. Test key is MZ31.
+
+> Mike's Tip: The Emergency Key for the Proximity Fobs below is 68314546AA (No Chip), Since this is the same
+as a Mazda MX-5, the Mazda version is much cheaper to buy, Mazda part# KDY3-76-201..
+
+Proximity -
+Info _| > Prox Fob: Fiat# 68314449AA (Used up to 11/01/2017) FCC Info: WAZSKE13D01 [31I5MHz
+
+> Prox Fob: Fiat# 68458550AA (Used after 11/01/2017) FCC Info: WAZSKE13D01 | 315 MHz_
+
+68314449AA, 68458550AA 68314546AA
+
+oO
+n co
+= ae : — DEPTHS 2
+5 = z | 3 Jes ES] 8 [it | 8 ie | se eeP | t= ot qi
+mn ee 033 | 2=.299 | =
+= 098 | .180 | .263 | .345 | .428 | 511 | 593 | .676 | .758 | .841 5a 204 | _ = =
+o ae 4=.268 |
+fa = 5 = .252
+Ay Curtis Clipper: alas Carriage: Pak-A-Punch: PAK-F6 :
+= ‘| MZ-5 MZ-5A iy Rocce bald
+
+14 - FIAT = = = ©1994, 2021 AutoSmart™ by Michael Hyde
+
+r é
+
+»6°e
+
+peooeoeeee
+
+—peeaeeeeene
+@©9eeee
+
+eeeooo.
+
+¢
+
+¢
+
+@9eee@e
+
+continued - FA-7 SECTION
+
+Chip Information & Notes
+
+Chip: Integrated Circuit Board
+
+Reusable: No (Must be unlocked)
+
+Cloner Machine Information
+
+No Cloning for this Proximity System
+
+(? TCODE/MVP PRO (« TDB1000
+
+. (> HOTWIRE
+
+ood
+a
+>
+4 Programmer & Diagnostic Tools
+.. _ Factory Tool PIN CODE :
+Oo REQUIRED
+m a RE HRS Te iNT RO
+ya | VCM II & Yes
+oe Some key
+Supscription programmers can
+bypass the PIN
+
+( SMART PRO ¢ AUTO PRO PAD
+
+(2 AUTEL IM608
+
+Note: Check to see if your key programmer-supports your vehicle.
+
+Codes: | Code should be door lock.
+
+Decoders: | Determinator: MAZ 2 | Lishi: MAZ24 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock,
+Method #2 Remove door cylinder and read code stamped on door cylinder and make working key.
+
+If the code is no good or the car has been re-coded, disassemble door cylinder to decode waters.
+
+> Ignition (None)
+O}O/}0|0/}O}| O |> Doors & Trunk*
+
+*ifequipped
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+FIAT - 15
+——
+
+To
+

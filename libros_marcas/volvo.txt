@@ -1,0 +1,1162 @@
+@ @660 26 0'00@:'09'8@@@e@
+
+© @@ @ ¢
+
+¢
+
+|
+|
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+AUTO LOCK SERVICE, INC.’
+
+2021
+
+AutoSmart ™
+by Michael Hyde
+
+VOLVO
+
+DISCLAIMER:
+
+A wide variety of key programmers have been added to this book. Most key programmer companies are
+not based in the U.S. Some of their application charts have many mistakes. In some cases, you will need
+to check with your key programmer supplier to see if the vehicle you are working on is supported by their
+tool. There is always a risk in damaging the vehicle electronics when you connect to the vehicle through
+the OBD port if you are not using an OEM diagnostic tool. You as the locksmith take on this risk every
+time you perform work on a vehicle.
+
+If you have any doubt about what part to-use, make sure you check with the dealer and have them run
+the VIN to get you the right part number. Remember, ultimately it is your responsibility to obtain the
+correct part. Part numbers and FCC information has been researched and verified as best as possible.
+But no system is perfect or without errors. Car manufacturers’ part numbers and applications guides
+contain mistakes of their own. Therefore, we cannot guarantee or warranty that the part we show for a
+particular vehicle is the absolute right one. :
+
+i
+2021 - AutoSmart Foreign Book
+- VOLVO Table of Contents
+
+MAKE MODEL YEARS TYPE SECTION PAGE
+Cg 1986-94 = Key VOL-3 |7
+|1978-85 _—| Key VOL-11 | 22
+740 1983-91 Key VOL-3 7
+1740 GLE / 740 GLT 1988-92 _| Key VOL-2 16
+703 = {1983-91 ‘| Key VOL-3 ae:
+760GLE/760GLT |1988-92 _—| Key VOL-2 6
+[780 1983-91 |Key —_|VOL3 7
+850 GLT [1993-97 | Key — VOL-1 |4
+940 GL / 940 GLE 1991-95 _| Key VOL-3 7
+940 SE \1991-97 | Key VOL-1 4
+| 940 Turbo 1991-95 | Key VOL-3 aT
+960 | 1991-97 _ | Key VOL ‘4
+C30 2007-13 | Key VOL-4 |g
+VOLVO 2007-13* |Key —~‘|VOL-4 [8
+2005-07" |Key _ VOL-5 =lq0.
+-|C70 | * 2006-07 C70 - There is an overlap for Remote Keys based on Trim level.
+1999-04. |Key _—SY*| VOL-6 12
+1998 =| Key | VOL-1 (4
+2008-11 _—‘| Key VOL-4
+a | 2004*-07 | Key VOL-5 10
+—_|2000-04* | Key VOL-8 16
+_-|*2004 S40 - Mid Year change for 2004 models.
+2019-21 | Proximity | VOL-10 20
+S60 2011-18 | Proximity | VOL-9 18
+2001-09 |Key —*s|VOL-7 14
+= [1999-00 _| Key VOL-6 12
+|1998 Key VOL-1 4
+2 - VOLVO : ©1994, 2021 Autosinar tebe chal Hyde
+
+»6©060:02.6'0 @'e 68868: 66 06'8'Oe @ ee 68 @ 6 @
+(
+
+@e2e8e@ @8@' ee 6 ¢
+
+¢
+
+© @0'@@e6 0:4
+
+¢
+
+2021 - AutoSmart Foreign Book
+
+VOLVO Table of Contents
+
+MAKE MODEL YEARS TYPE SECTION PAGE
+2007-16 Proximity VOL-9 18
+S80 1999-06 Key VOL-7 14
+| 1998 Key VOL-1 4
+2017-21 Proximity | VOL-10 20
+$90 =
+|1998 Key VOL-1 4
+V40 2000-04 Key VOL-8 16
+2008-12 Key VOL-4 8
+V50
+2005-07 Key VOL-5 10
+2019-21 Proximity | VOL-10 20
+V60 _
+2014-18 Proximity VOL-9 18
+2008-10 Proximity | VOL-9 18
+VOLVO ——
+V70 2001-07 Key VOL-7 14
+1999-00 __| Key VOL-6 12
+= 2017-21 Proximity | VOL-10 20
+Vv90
+1998 Key VOL-1 4
+XC40 2019-21 Proximity | VOL-10 20
+2018-21 Proximity | VOL-10 20
+XC60 Te
+2010-17 Proximity VOL-9 18
+2008-16 Proximity. VOL-9 18
+~_|XC70
+2001-07 _—| Key -|VOL-7 14
+=. 2016-21 Proximity VOL-10 20
+XC90 E ———
+2003-14 Key VOL-7 14
+AUTO LOCK SERVICE, INC-
+This book was designed and written by Michael Hyde ©2021
+©1994, 2021 AutoSmart™ by Michael Hyde VOLVO - 3
+~ VOL-1 SECTION gE
+
+1993-97 850 GLT 1991-97 940SE,960 | 1998 C70, S70, S80, $90, V90
+
+| caro# | ms# | macs | Startcut | cuttocut | AirBags | ign Retainer
+
+1V-5V 1-12295 | HighSec nla (ae 22 =| ia nla Yes Active
+MASTER =
+NATIONAL: KEYLINE: ——_ {LCO; JEL == ~_JMA: STRATTEC: DEALER:
+KEYS | S66NN-P | SG6NN-P | S66NN-P | S66NN-PH | NE-40P n/a n/a
+Determinator: n/a Lishi: NE66 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Remote > |> Remote Fob: 9442982- FCC Info: L70001| 415 MHz
+
+= NO TRANSPONDER
+
+Code Series: 1V-5 V 1-12295
+
+8B —
+mi §=6Bow SPACING Tip = =p.
+> _____| DEPTHS
+773 | 599 | 426 | 252 = 4 12288
+go | = EXTERNAL | 2=.264
+
+1 Bs 5 4:TRACK | 3=.238
+o . | 4=.213 2
+4 a=. g
+amy 693 | 520 | 346 | 173 bie = =
+= 4 5
+
+Note: Spacing is measured from the tip.
+
+4-VOLVO S22 = = ©1994, 2021 AutoSmart™ by Michael Hyde
+
+seeeeeeeoeeoeoeeeoeeeeeeee
+@9eee@eoeeeoeeoeaeoe@es8 @e@eeoegedeeeds-«
+
+—— : continued - VOL-4 SECTION
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a _| Lishi: NE66 = AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Remove door cylinder and disassemble. The tumblers have a number stamped on them. Make a
+
+key to the door cylinder and it will work all the other locks. There are Four Depths. Do not follow
+_ the 'U &'R’ stamped on the tumblers. The positions of the tumblers in comparison to left and right
+are staggered on the key. Earlier Volvo 4-Track keys are not like that, but are evenly spaced.
+
+LEFT oy RIGHT LEE ‘s RIGHT
+| ee SS ee
+=/3|s a | 3 | os
+a | 978 = i a/|2|s
+: : = ; :
+22 os =i If Equipped
+IGNITION, ~ GLOVE BOX*
+== DOOR
+~ TRUNK
+
+Do not follow the “L” & “R” stamped on the tumbler it does not
+actually mean the true left & right. The only thing you need off the
+tumbler is the Depth. =
+
+©1994, 2021 AutoSmart™ by Michael Hyde = : VOLVO - 5
+VOL-2 SECTION : : =,
+
+1988-92 740 & 760 GLE / GLT
+
+| stme | carpe | ms# | macs | StartCut | Cuttocut | AirBags | ign Retainer
+
+Varies High Sec n/a Active
+MASTER : : ==
+: NATIONAL: KEYLINE: ILCO: JET: JMA: _STRATTEC: DEALER:
+KEYS > S66NN-P S66NN-P | S66NN-P | SG6NN-PH | NE-40P n/a n/a
+Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+es NO TRANSPONDER
+we Code Series: O8BAAAA-08XXXX
+RY Bow SPACING Tip DEPTHS
+2 70 | 539 | 368 | 197 | 1=.293
+9 EXTERNAL | 2=.274
+4 le 3 4 4-TRACK 3 = .254
+o a = | 421234
+ay 710 | 539 | 368 | 197 5 =.215
+= Note: Spacing is measured from the tip.
+Codes: | No codes on any locks.
+Decoders: | Determinator: n/a _| Lishi: NE66 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #i — Remove and disassemble glove box to get cuts in positions 2L, 2R, 3L, 3R. Progression cuts in
+
+positions 1L, 1R in the door lock. Next progression cuts 4L, 4R in the ignition for a complete key.
+
+Method #2 Remove door cylinder and disassemble. The tumblers i in these locks z are like no others. They sort of
+look like an interlocking ‘H: The tumblers have a depth number casted into them. The door cylinder
+will have tumblers 1, 2, & 3 left & right. Male a sid key to door sylinders and progression the
+remaining cuts in the ignition.
+
+You can create_a-V.A.C.S. chart to help Loe There are Five Depths with a | MACS of 3,
+
+These unique looking tumblers are actually two tumblers ir in one, the front side (towards the face of the _
+plug) interlocks into the rear side. Each side has a depth casted into it. The front and rear tumblers are _
+interchangeable. The front side of the pair will always be the Left-hand cut in the key. The rear side of the pair
+will always be the Right-hand cut in the key. :
+
+DO NOT IMPRESSION THESE LOCKS AT ALL. THE TUMBLERS WILL BREAK.
+
+LEFT ( )RIGHT LEFT ()RIGHT LEFT ( )RIGHT LEFT ( )RIGHT
+a/4\8 4 4 = 4
+a /3/8 B13 a|3ie ni3/8
+e\/2|e ai2\e8 = ai/2\e gio|s
+Pee | g/1/\8 : mi/i|# 1
+IGNITION DOOR TRUNK GLOVE BOX
+
+6 - VOLVO : : ©1994, 2021 AutoSmart™ by Michael Hyde
+
+»' @ @' @ @ @'6,@
+
+» oe Coie @8d8 @€ 6 ©@
+
+)
+
+)
+¢
+
+© 6© 0206060 066 <
+
+eo @ @ <
+
+@©eeoe ee.
+
+¢
+
+| NO TRANSPONDER
+
+Hidsad 8 30VdS
+
+VOL-3 SECTION
+
+1986-94 240, DL, GL
+
+1983-91 740, 760 & 780 1991-95 940, GL, GLE & Turbo
+
+| ste | carpe | ims | macs | Startcut | cuttocut | AirBags | ign Retainer
+
+1A0-5A745 Dbl Sided 098 Active
+MASTER
+NATIONAL: KEYLINE: ‘ILEO: JET: == JMA: STRATTEC: DEALER:
+KEYS > VL8 nia X140 VL8 NE-18 nia na
+Determinator: VOL1_— Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Code Series: 1A0-5A745
+
+SPACING Ti
+‘a DEPTHS
+t.2 4.) 623 6 Fle 4 6 6 += 34
+098 | 197 | .296 | .395 | .494 | .593 | .692 | .791 | .890 | .989 =
+: 197 |. : ‘ : 692 | .791 | . : ie oe
+
+toCut: | 4=.243
+
+HPC Curtis Clipper Pak-A-Punch ITL 099
+Cam: VL-2 =
+CF / XF52 Cae aon PAK-VL1i 461
+
+NOTES: FRAMON - Lay tip stop clip flat against left side of vise, then tip stop key
+against clip. Set first cut at .405”
+
+Codes: | No codes on any locks.
+Decoders: | Determinator: VOLI | Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Remove either door lock cylinder and disassemble, Decode the tumblers and make working key.
+____ Cuts 1 through 9 are in the door cylinders. Whatever the depth is in cut #9 will be the same depth
+for cut #10. Cuts 9 & 10 must run together. The ignition has cuts 1 through 10.
+Replacement Face Caps ASP#P-32-201.
+Method #3 Impression locks.
+0/0)0/0/0;) 0/04) 0+ {> Ignition
+OM £20 FO |Oib|;0/0 > Doors
+ee bli oo eee) > Trunk
+11231 425--6 | 7787 9710
+©1994, 2021 AutoSmart™ by Michael Hyde VBE - 7
+VOL-4 SECTION 2 :
+
+2008-12 V50
+
+2007-13 C70
+
+— 2007-13€30 2008-11 S40
+
+CODES Sie | carps | ims | macs | startcut | CuttoCut | AirBags _| ign Retainer
+
+"4001-9000 High Sec 2 nla nla | Yes None
+
+MASTER 5 :
+
+KEYS > Volvo: 31252732 (with Prox), 31300258 (No Prox) / Emerg Key: 30784740
+Determinator: n/a Lishi; HUI01 AccuReader: n/a | EEZ Reader: n/a Cobra: n/a
+> Mike's Tip: Transponder System Standard. Some models have Proximity. Test key is HU101 or FD40
+
+ave > Fob Remote: 31300258 - FCC Info: KRS5WK49259 / IC: 267T-5WK49259 / 434 MHz / MER: Continental
+> Prox Fob: 31252732 - FCC Info: KR55WK49250 / IC: 267T-5WK49250 / 434 MHz / MFR: Continental
+
+Code Series: 4001-9000
+
+S SPACING _ | DEPTHS
+= 1-122 3 4 5 6 7 514 ©  4=12
+m : : = = S-2= 155
+pay 994 | 904 | 813 | 722 | 632 | 541 | 451 | 360 | 268 | 179] | 3= 434 m
+o — 4=.109 SG
+mn ==-- Lon = 5 =.084 a
+fa Curtis Clipper: an ene Pak-A-Punch: |N/A aS : =
+ag =—E = ef
+
+N/A N/A
+
+NOTES:
+
+8 - VOLVO SS = ©1994, 2021 AutoSmart™ by Michael Hyde
+
+Peeenvuvueeneaevneneneoeaoenoneaeoe ese
+®eoe@eoee <
+
+®@@e0 02 06
+
+@9@e2o@ @ @ @ ¢
+
+¢
+
+¢
+
+Chip Information & Notes ao
+
+continued - VOL-4 SECTION
+
+Transponder: Standard Equipment Chip: Integrated Circuit Board Transponder Chip | Reusable: No
+
+> Mike's Tip: Key Programmer Required. Test key is HU101.
+
+Cloner Machine Information.
+
+No Cloning for this Type of System
+
+Programmer & Diagnostic Tools
+
+Factory Tool _
+
+PIN CODE
+
+YaSQNOdSNVAYL
+
+REQUIRED (« TCODE/MVP PRO
+
+(« TDB1000 (« HOTWIRE =.
+
+Volvo
+
+VIDA
++DiCE-
+
+Yes (« SMART PRO
+
+(« AUTO PRO PAD (« AUTEL IM608
+
+__? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: HUI0i = AccuReader: n/a | EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Remove the glove box lock and disassemble. Decode the tumblers and use a key code program to find the
+missing cuts needed to make a make working door key.
+Method #8 Remove door lock and disassemble, Decode tumblers and make working key.
+
+; Proximity Models
+
+oo)
+Ga
+
+a
+
+> Glove Box
+
+wioo
+
+al ia EL |
+
+> Ignition 7 None
+> Doors & Trunk / Hatch
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+VOLVO -9
+VOL-5 SECTION = = SS eae
+
+2005-07 C70 = 2004-07 S40 | 2005-07 V50
+
+| stve | carpe | ms | macs | startcut | cuttocut | AirBags | ign Retainer
+
+4001-9000 High Sec =z nla n/a None
+MASTER =
+KEYS © = Volvo: 30772198 / Emerg Key: 30796671
+Determinator: n/a : Lishi: HUIO} _—‘| AccuReader: n/a EEZReader: n/a _ __| Cobra: n/a
+More | Mike's Tip: Transponder System Standard. Test key is HU101 or FD40
+Info=> |} Fob Remote: 30772198 - FCC Info: LTOVOSISTX / IC: 3659A VO3ISTX / 315 MHz / MFR: Delphi
+
+Code Series: 4001-9000
+
+so - DEPTHS
+Vs 1 2 3 4 5 6 7 es 1=.178 :
+Uk o04 | 90 es
+of .904_ | 813 722 .632 | .541 451 360. = 268 18 3=.131 = =
+o - 4=.109 “E
+z Cam: Carriage: = Ze 088 = = e
+ay Curtis Clipper: | 7, N/A Pak-A-Punch: | N/A =
+ie : : <
+NOTES: 2 = == ==
+10 - VOLVO : = = = s ©1994, 2021 AutoSmart™ by Michael Hyde
+
+Peewee eaeaneaoeeeaeoaeaeneeaaeeae eee e
+¢
+
+© @'e@ @e e«
+
+@ © ©: <
+
+¢
+
+®©9e@oeeoeoe @ @ @\¢
+
+continued - VOL-5 SECTION
+
+Ghip information & Notes == == = === ==
+
+Reusable: No
+
+Transponder: Standard Equipment _ Chip: Integrated Circuit Board Transponder Chip
+
+» Mike's Tip: Key Programmer Required Test rey is HUIO1.
+
+Ml ClonerMachine Information Sg ee ee
+a ——— :
+D> == - = =
+v4 No Cloning for this Type of System
+” =
+vv = ek : :
+-. ‘Programmer & Diagnostic Tools = =
+Factory Tool ~ PINCODE —) ~ ==: == :
+TTe Beg Gate ehbe : -
+a REQUIRED | (. TCODE/MVP PRO (« TDB1000 (. HOTWIRE
+Volvo ee —
+VIDA = Ye = == ; = =7 :
++DiCE ns (« SMART PRO E AUTO PRO PAD (« AUTEL IM608
+Codes: | No codes on any locks.
+Decoders: |Determinator:n/a_ | Lishi: HUIOL. AccuReader: nla EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Remove the glove box lock and disassemble. Decode the tumblers and use a key = — to find the
+
+miss cuts needed to make a make ss door key.
+
+Method #3 ~ Remove door lock and disassemble, Decode tumblers and make working key.
+
+Proximity Models
+
+: > Ignition / None ~
+O/0|0|}0|0O|}0} 0} O | > Boors & Trunk / Hateh
+O) Bs 2 oe > Glove Box
+3}4/5/6/7/8/9/10|
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+VOLVO - 11
+VOL-6 SECTION —
+
+1999-04 C70 1999-00 S70 _ 1999-00 V70
+
+| srve | carpe | me | macs | startcut | cuttocut | airBags | ign Retainer
+
+1V-5V 1-12295 | High Sec Sealed
+MASTER : z
+KEYS > Volvo Key: 9187694 (Blue Chip)
+Determinator: n/a Lishi: NE66 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+> Mike's Tip: Transponder System Standard. Test key is S66NN-P
+> There are some aftermarket solutions for Volvo key programming. Keyed models can be read through the
+Eeprom for key programming when there is no easier alternative. This usually requires a piece of hardware such
+More as AK90, AR32, HRT, OrangeS, SMOK or TMPro. The second part to this is that you will need software to interpret
+Info > _| the data “read” from the Eeprom. Such software tools that can be used may or may not be included with the
+Eeprom hardware or cloners - are AR32, Tango, IKeyClone, HRT, MiraClone or TMPro,
+> Fob Remote: 9166200 (1998-04) FCC Info: HYQ1512) | 314 MHz
+> Fob Remote: 9166199 (1998-04 no panic btn) FCC Info: HYQ1512) | 314 MHz
+
+UN UN
+LOCK | LOCK = LOCK LOCK
+
+gee == i200.
+
+= Code Series: 1V-5 V 1-12295
+U Be SPACING Ti :
+> aa = DEPTHS
+2 773 | 509 | 426 | .252 _ | 1=.289
+Qo aS EXTERNAL | 2=.264
+
+= 2-1-5 > 4 |] 4-TRACK | 3=.238
+9g + —— : | 4=.213
+A 693 20 346 4173
+ae == :
+
+Note: Spacing is measured from the tip.
+12 - VOLVO is ©1994, 2021 AutoSmart™ by Michael Hyde
+
+»COeO @O eo 92 OO C8 '0'O8'186086868 6 @
+
+>: @
+@ 0@ 06 @ @' @ ¢
+
+¢
+
+¢
+
+®©9eoeeeoeedee ed ¢
+
+continued - VOL-6 SECTION
+
+Chip Information & Notes —
+
+Transponder: Standard Equipment
+
+Chip: Philips 44
+
+Reusable: No
+
+> Mike's Tip: Key Programmer & PIN Code Required. Test key is S66NN-P.
+
+Cloner Machine Information _
+
+= (DIAG BOX) (— CHINA) (wcorsiLca) ( JMAUSA) ( KEYLINE ) (Lp. ) (_ scorpio.) (. woi _)
+pol | CLONE CN900 Rw4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE | | TANGO MINI TOOL
+rg |_ WIZARD gra
+z ® No @ No @ No @ No ® No @ No ® No _ @No
+e lo
+Us: = = = = = — =
+BS; -
+z
+uh Programmer & Diagnostic Tools -
+Factory Tool PIN CODE - vee:
+So REQUIRED x TCODE/MVP PRO x TBB1000 x HOTWIRE
+Volvo De
+VIDA Was
++DiCE ms (« SMART PRO (x AUTO PRO PAB (« AUTEL IM608
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a _| Lishi: NE66 AccuReader: n/a FEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Remove door cylinder and disassemble. The tumblers have a number stamped on them. Make a
+
+key to the door cylinder and it will work all the other locks, There are Four Depths. Do not follow
+the 'L_ & ‘R' stamped on the tumblers. The positions of the tumblers in comparison to left and right
+are staggered on the key. Earlier Volvo 4-Track keys are not like that, but are evenly spaced.
+
+SS a
+
+( alghe -
+
+4
+3
+2
+
+IGNITION
+DOOR |
+TRUNK
+
+RIGHT
+
+wee a
+
+i Nd) | [be
+
+GLOVE BOX*
+
+* |f Equipped_
+
+Do not follow the "L’ & “R” stamped on the tumbler it does not
+actually mean the true left & right. The only thing you need off the
+tumbler is the Depth.
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+VOLVO - 13
+VOL-7 SECTION | 3 as
+
+2001-09 S60 | 1999-06 S80
+
+MASTER
+KEYS >
+
+2001-07 V70
+
+2001-07 XC70 2003-14 XC90
+
+CODES | STYLE | Ign Retainer
+
+| carpe | ms | macs | StartCut | Cuttocut | Air Bags
+1V-5V 1-12295 | High Sec =
+
+n/a n/a 3 n/a n/a Yes
+
+Sealed
+
+Non-Remote Key: 9203132
+Volvo Remote Section: 8688799 / Key Section: 31253386
+
+Determinator: n/a Lishi: NE66 EEZ Reader: n/a
+
+AccuReader: n/a Cobra: n/a
+
+More
+Info >
+
+> Mike's Tip: Transponder System Standard, Test key is S66NN-P
+
+> There are some aftermarket solutions for Volvo key programming. Keyed models can be read through the
+Eeprom for key programming when there is no easier alternative. This usually requires a piece of hardware such
+as AK90, AR32, HRT, Orange5, SMOK or TMPro. The second part to this is that you will need software to interpret
+the data “read” from the Eeprom. Such software tools that can be used may or may not be included with the —
+Eeprom hardware or cloners - are AR32, Tango, IKeyClone, HRT, MiraClone or TMPro.
+
+> Remote Section for Flip Key: 8688799 - FCC Info: LQNP2T-APU | 314 MHz
+
+> Fob Remote: 9459368 (some thru 2003) FCC Info: HYQI2ZAAA | 314 MHz
+
+> Fob Remote: 8685150 (with alarm, some thru 2003) FCC Info: LQNP2T-APU | 315 MHz
+
+Key Section: 31253386
+Remote Section:
+8688799
+
+9459368, 8685150
+
+Code Series: 1V-5V 1-12295
+
+Note: Spacing is measured from the tip. —
+
+o ;
+7 SPACING Ti
+
+> = DEPTHS
+2 773 | 599 | 426 | .262 1=.289
+ne — EXTERNAL | 2=.264
+o 2 at gd 4TRACK | 3=.238
+a 4=.213
+wy 093 | 520 | 346 | 173
+
+=r
+
+14 - VOLVO
+
+= : = ©1994, 2021 AutoSmart™ by Michael Hyde _
+
+)
+
+>» 6 @€6'@:':0' 08 6 6 @'@
+
+pee eoevoevneaee ee @
+@ @ «
+
+@oe@e@oeo@0280e90e08808080 0606 <
+
+®o 0 @\<
+
+¢
+
+YSGNOdSNVAL
+
+continued - VOL-7 SECTION
+
+Chip Information & Notes __
+
+Transponder: Standard Equipment
+
+Chip: Megamos 48
+
+Reusable: No
+
+> Mike's Tip: Key Programmer & PIN Code Required. Test key is S66NN-P.
+
+Cloner Machine Information _
+
+(DIAG BOX) (— CHINA) (‘LCOIsiLcA) ( JMAUSA) ( KEYLNE ) (LD. ) ( SCORPIO.) (__wo1_)
+Ween CN900 RW4+ TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+WZ] Yes M Yes? 7] Yes1&2 @®No MI Yes! M1 Yest&2 MW Yes'&2 MI Yes
+Yellow Chip CNG & T48.& = TKM & T48 & T48 & WDIChip &
+& Shell Shell Shell Blade Shell Shell Shell
+: ; *4 - May require Internet Access to complete cloning. *2 - Requires Megamos update.
+Programmer & Diagnostic Tools :
+Factory Tool) ( PIN CODE ;
+_ REQUIRED _ x TCODE/MVP PRO * TDB1000 x HOTWIRE
+Volvo =
+VIDA Y = 7
++DiCE ss (« SMART PRO (x AUTO PRO PAD € AUTEL IM608
+Codes: | No codes on any locks.
+Decoders: Determinator: n/a | Lishi: NE66 + AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/ Reader tool to decode the door lock.
+Method #2 Remove door cylinder and disassemble. The tumblers have a number stamped on them. Make a
+
+key to the door cylinder and it will work all the other locks. There are Four Depths. Do not follow
+‘R' stamped on the tumblers. The positions of the tumblers in comparison to left and right
+are staggered on the key, Earlier Volvo 4-Track keys are not like that, but are evenly spaced.
+
+the 'L &
+
+LEFT {.) AIGHE LEET- () RIGHT
+oil 42ad 4
+rT 3 5 = | 3 a
+a 2° es Ee * If Equipped
+=| 1 t | ==
+IGNITION ‘GLOVE BOX*
+DOOR
+TRUNK
+
+Do not follow the "L" & “R” stamped on the tumbler it does not
+actually mean the true left & right. The only thing you need off the
+_tumbler is 23 Depth.
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+VOLVO - 15
+VOL-8 SECTION = oe
+
+2000-04 S40 2000-04 V40
+
+| ste | carpe | Le | macs | startcut | cuttocut | AirBags | ign Retainer
+
+DH 1-4000 High Sec Active
+MASTER -— Se =
+2 _ Volvo Non-Remote Master: 30621616 / Valet: 30896721
+eadd 30662324 - Flip Remote Key was used on 2003-04 models
+Determinator: n/a Lishi: HU56 AccuReader: n/a | EEZ Reader: n/a ~— | Cobra: n/a
+
+> Mike's Tip: Transponder System Standard. Test key is S60HF-P or HU56
+
+> There are some aftermarket solutions for Volvo key programming. Keyed models can be read through the —
+
+as AK90, AR32, HRT, Orange5, SMOK or TMPro. The second part to this is that you will need software to interpret
+More the data “read” from the Eeprom. Such software tools that can be used may or may not be included with the” :
+Info=> _| Eeprom hardware or cloners - are AR32, Tango, IKeyClone, HRT, MiraClone or TMPro.
+
+Eeprom for key programming when there is no easier alternative. This usually requires a piece of hardware such.
+
+> Remote Section for Flip Key: 30662324 (KeyBlade: 30621571) FC€ Info: HYQI2BBM i 314 MHz
+
+» Fob Remote: 9166200 (1998-04) FCC info: HYQIS12) 314 MHz
+
+> Fob Remote: 9166199 (1998-04 no panic btn) FCC Info: HYQ1512) |314 MHz
+
+UN
+LOCK LOCK
+; VOLVO
+
+= 9166199 9166200 =
+30662324
+
+Code Series: DH 1-4000 =
+Bow ‘SPACING | | peptus
+
+”
+U
+x 7 2 3 4 5 | 6 7 a | | 12470
+m : = = 142
+go .932 | .826 | ./19=. 613-7 .507_|_.400 a8 187 3=.114_
+=) 4=.080
+5 Cam: Carriage: —
+rie Curtis Clipper: N/A N/A Pak-A-Punch: | N/A 30621616
+ae
+NOTES:
+
+16 - VOLVO == = == = ©1994, 2021 AutoSmart™ by Michael Hyde
+
+(©6266 132 @e@e@eeoee @8 062 61606686 6 8
+® 6.0 @ ¢«
+
+66 6.00 © «
+
+¢
+
+¢
+
+@'1@@@6@8@e@@ «
+
+continued - VOL-8 SECTION
+
+Chip Information& Notes =
+Transponder: Standard Equipment Chip: Philips 44 Reusable: No
+
+> Mike's Tip: Key Programmer & PIN Code Required. Test key is S6OHF-P or HU56.
+
+Cloner Machine Information = = : : :
+= (DIAG BOX ) (_ CHINA ) (LCOISILCA) ( JMAUSA ) ( KEYLINE ) (LD. ) (SCORPIO) ( Wol |
+2 fies CN900 RW4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO | | MINI TOOL
+> - = i =
+z ® No @ No @ No ® No ~@® No @ No- @No |{|_ @No
+o =
+Uv = = = : = = : cs = =
+e)
+es
+u | Programmer & Diagnostic Tools =
+Factory Tool PIN CODE i z
+SS REQUIRED * TCODE/MVP PRO + 1DB1000 -| x HOTWIRE
+Volvo j=
+VIDA Y : : :
++DiCE i (« SMART PRO (« AUTO PRO PAD € AUTEL IM608
+Codes: | No codes on any locks.
+Decoders: | Determinator:n/a _| Lishi: HU56 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 ~ Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Remove door lock and disassemble. Decode tumblers and make working key.
+O/}0}0O}0/0/}O > Ignition
+O}O0/0}0/} 0/0) Doors & Trunk / Hatch
+3/4|5|6|7/8
+©1994, 2021 AutoSmart™ by Michael Hyde - VOLVO - 17
+VOL-9 SECTION —
+
+2011-18 S60
+
+2007-16 S80
+
+2014-18 V60
+
+2008-10 V70
+
+STYLE
+
+2010-17 XC60
+
+| carp# |
+
+2008-16 XC70__
+
+im¢ | macs | Startcut | cuttocut | AirBags | ign Retainer
+
+30659637
+
+4001-9000 High Sec n/a 2 ie n/a Yes _ None
+MASTER i=
+KEYS> | Volvo: 30659550 (Prox), 30659637 (No Prox) / Emerg Key: 30699525 ~
+Determinator: n/a ‘Lishi; HU101 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+> Mike's Tip: Transponder System Standard. Some models have Proximity. Test key is HUI01 or FD40
+ica _ |» Prox Fob: 30659502 - FCC Info: KR55WK49266 | 902 MHz :
+> Fob Remote (Non Prox): 30659637 - FCC Info: KR55WK49264 | 434 MHz
+
+Code Series: 4007-9000
+
+S$ SPACING Scars
+7 1 2 a |e 5 18 7 8 |-@ | 40 1=.178
+WW 994 | 904 | 913 | 722 | 632 | 541 | 451 | 360 | 268 | 179 =
+© Z 2 See. ee 3= 131
+o 4=.109
+. = Cam: Carriage: a B= 084 |
+er Curtis Clipper: N/A N/A Pak-A-Funch: N/A =
+a a
+
+NOTES:
+
+18 - VOLVO
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+30699525
+
+peeeunenoeaeneeeeaeseoneaaneeeed
+@oeo @e02e @e@eeoed@ <
+
+@#@eeeeoe@ ¢
+
+¢
+
+C
+
+YaONOdSNVAL
+
+continued - VOL-9 SECTION
+
+Chip Information & Notes
+
+Transponder: Standard Equipment.
+
+Chip: =—— Circuit Board Transponder Chip
+
+Reusable: No
+
+» Mike's Tip: Key Programmer Beqnized. 7 Test ey is HU101.
+
+No retoning or this Type of System
+
+= — PRO}
+
+(2 TDB1000
+
+(« HOTWIRE
+
+Cloner ‘Machine Information
+Programmer & Diagnostic aos
+Factory Tool [ PIN CODE
+REQUIRED
+Volvo
+VIDA
++DiCE =
+
+(? SMART PRO
+
+(« AUTO PRO PAD
+
+(> AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: HU101 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use. a Lock Decoder/ Reader tool to decode the door lock.
+Method #2 Remove the glove box lock and disassemble. Decode the tumblers and use a key code program to find the
+
+missing cuts needed to make a make working door key.
+
+Method #3 Remove door lock and disassemble. Decode tumblers and make working key.
+
+Proximity Models
+
+Hi O|O|oO | oo ese
+O/O/0;0/0,0
+2141516) 718|9)10
+
+> Ignition / None
+> Doors & Trunk / Hatch
+
+> Glove Box*
+
+*If Equipped
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+VOLVO - 19
+VOL-10 SECTION
+
+2019-21 S60
+
+2017-21 S90
+
+2019-2
+
+1 V60
+
+2017-
+
+2190 2019-21 XC40
+
+STYLE
+
+2018-21XC60.
+
+caro# | mm | macs | startcut | Cuttocut | AirBags
+
+2016-21 XC90
+
+| ign Retainer
+
+= A001-FO99 High Sec | nla n/a - 2 n/a n/a Yes None
+MASTER ae : =
+KEYS Check with Dealer For Correct Part by VIN - Emerg Key is 31391439 __
+Determinator: n/a Lishi: HU101 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Info > | > Mike's Tip: Transponder System Standard. Some models have Proximity. Test key is HUIO1 or FD40__
+
+Code Series: A001-F099
+
+° Es SPACING Tip Z
+S 1 2 3 4 5 6 7 8
+. 807 MTs -626 235 445 2003 .262 aif
+Oo
+a :
+se Curtis Clipper: | Cam: N/A | Carriage: N/A
+se
+
+NOTES:
+
+DEPTHS |
+
+1 = .152
+2 = .129
+3 = .106
+4=.081
+
+20 - VOLVO
+
+31391439
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+”»@e6@' 6686 '86'8' 6 '6'10:16 8 Oo 6 @'6,0
+
+»:6@ @:'0
+9 6@©0@06@62206006006080 6 <
+
+@'@@e6 @ 6'e@ ¢
+
+C
+
+MAGNOdSNVUL
+
+continued - VOL-10 SECTION
+
+Chip Information & Notes __
+
+Transponder: Standard Equipment __ | Chip: Integrated Circuit Board Transponder Chip | Reusable: No _
+
+> Mike's Tip: Key Programmer Required. Test key is HU101.
+
+Cloner Machine Information —__
+
+‘No Cloning for this Type of System
+
+Programmer & Diagnostic Tools SS
+
+Factory Tool | ( PINCODE | | = = =
+: | REQUIRED | : (: TCODE/MVP PRO ? TDB1000 _ | ¥ HOTWIRE |
+Volvo =o
+
+VIDA = = :
++DiCE Yes ? SMART PRO x AUTO PRO PAD ? AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: Determinator: nla a Lishi: HUIOl ~=—| AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #2 Remove the glove box lock and disassemble. Decode the tumblers and use a key code program to find the
+missing cuts needed to make a make working door key,
+
+Method #3 Remove door lock and disassemble. Decode tumblers and make working key.
+
+_|> Ignition / None
+O/|O}> Doors & Trunk / Hatch -_
+-}> Glove Box*
+
+i 8 *if Equipped
+
+©1994, 2021 AutoSmart™ by Michael Hyde : VOLVO - 21
+- VOL-14 SECTION
+
+1978-85 240, DL & GL
+
+| stve | caro# | me | macs | startcut | cuttocut | AirBags | ignRetainer
+
+1A0-5A745 Dbl Sided 461 098 Roll Pin
+IGNITION =
+& DOOR NATIONAL: KEYLINE: JET: IMA: _STRATIEC: DEALER:
+KEYS => VL6/ VL8 n/a X80 n/a NE-12 n/a n/a
+Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+| stve | carpe | | macs | Startcut | cuttocut |
+
+Dbl Sided
+
+ITL#
+460
+
+6250-6499
+
+NATIONAL: KEYLINE: ILCO: = JET: JMA: | _ STRATTEC: DEALER:
+V073S n/a x30. f= CLA NE-S =|} n/a n/a
+
+4 NO TRANSPONDER
+
+Code Series: 1A0-5A745
+SPACING
+
+DEPTHS
+
+oO oe 2 3 4 5 6 7 8 9g | 10 1=.323
+> 2=.296
+roy -098 | .197 | .296 | .395 | .494 | .593 | 692 | .791 | 890 | .989/ ©, | 3= 269
+m to Cut: | 4=.243
+5 HPC Curtis Clipper | Pak-A-Punch | _—_ITL 099
+2
+
+Cam: VL-2
+u 2
+z CF / XF52 Carficge: Vik PAK-VL1 461
+
+NOTES: FRAMON - Lay tip stop clip flat against left side of vise, then tip stop key
+against clip, Set first cut at 405”
+
+fo Code Series: 6250-6499
+a) Bow SPACING = tip = 5 =
+> DEPTHS
+_ 1 2 3 4 5 6 : 1=.299
+pegy 098 | 185 | .282 | .358 | .445 | 531 Cut to * ==
+o : Cut: | -a=228
+m HPC Curtis Clipper | Pak-A-Punch| ITL | ‘086
+Ba 1
+Cam: VL-1
+
+=x
+
+AES] Carriage: VL-1A 7. wood
+
+22 - VOLVO ©1994, 2021 AutoSmart™ by Michael Hyde
+
+p>@6:62.@0'32 010606060686 0'16:'902 06060806 6.0
+@®ee @2oeeeeo02 6800002002 @8'08 008 @ «
+
+— continued - VOL-44 SECTION
+
+Codes: No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: n/a _—_—| AccuReader: n/a EEZ Reader: n/a — | Cobra: n/a
+
+PRIMARY KEY - IGNITION / DOORS:
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Remove either door lock cylinder and disassemble. Decode the tumblers and make working key.
+- Cuts 1 through 9 are in the door cylinders. Whatever the depth is in cut #9 will be the same depth for
+cut #10. Cuts 9 & 10 must run together. The ignition has cuts 1 through 10. Replacement Face Caps
+ASP#P-32-201. :
+
+Method #3 Impression locks.
+
+SECONDARY KEY - TRUNK / GLOVE BOX:
+Method #1 Check owner's manual for codes, written in by the dealer,
+
+Method #2 Remove glove box lock and disassemble. Decode the tumblers in it to make complete secondary
+= key. The glove lock will have the six necessary tumblers in it.
+
+Method #3 Impression locks.
+
+IGNITION & DOORS
+
+0/0/0)0)0, 0) | 0 }s ignition
+0\/0;0/0|6}0O}0{] —|>Doors
+3|4/5|6|7)|8| 9/10
+
+TRUNK & GLOVE BOX
+
+> Trunk
+> Glove Box
+
+©1994, 2021 AutoSmart™ by Michael Hyde : VOEVG - 23
+

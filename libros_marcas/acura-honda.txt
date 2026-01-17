@@ -1,0 +1,5532 @@
+0.000:000000.0 11
+
+(
+
+0000.01
+
+(
+
+€
+
+01994, 2021 AutoSmartby Michael Hyde
+
+AUTO LOCK SERVICE, INC.
+
+2021
+
+AutoSmart”".
+by Michael Hyde
+
+ACURA . HONDA
+
+DISCLAIMER:
+
+A wide variety of key programmers have been added to this book. Most key programmer companies are
+not based in the U.S. Some of their application charts have many mistakes. In some cases, you will need
+to check with your key programmer supplier to see if the vehicle you are working on is supported by their
+tool. There is always a risk in damaging the vehicle electronics when you connect to the vehicle through
+the OBD port if you are not using an OEM diagnostic tool. You as the locksmith take on this risk every
+time you perform work on a vehicle.
+
+Ifyou have any doubt about what part to use, make sure you check with the dealer and have them run
+the VIN to get you the right part number. Remember, ultimately it is your responsibility to obtain the
+correct part. Part numbers and FEC information has been researched and verified as best as possible.
+But no system ¡is perfect or without errors. Car manufacturers' part numbers and applications guides
+contain mistakes of their own, Therefore, we cannot guarantee or warranty that the part we show fora
+particular vehicle is the absolute right one.
+
+ACURA + HONDA - 1
+ACURA » HONDA Table of Contents
+
+2021 - AutoSmart Asian Book
+
+MAKE MODEL YEARS [TYPE [SECTION  |PAGE
+: == 1998-03 Key HON-R12 66
+1997 Key -HON-R15 E 7
+0 _ 2016-21 Proximity | ACU-S1 - 10
+2013-15 Proximity | ACU-S5 18
+2000-01 Key HON-R12 56
+INTEGRA 1990-99 Key HON-R15 72
+— 1986-89 |Key HON-R17 76
+1990-96 [Key HON-R15 72
+LEGEND — —
+1986-92 Key HON-R17 76
+2022 Proximity | ACU-S7 22
+SEE 2014-20 Proximity ACU-S2 e
+2007-13 — |Key ACU-FI 6
+2000-06 Key "HON-R12 66
+2017-21 Proximity ACU-S2 —_D-
+NSX 1997-05 |Key | HON-R11 64
+1991-96 |Key HON-R15 72
+2016-21 [Proximity  [ACU-S3 34
+E | RDX 2013-15 |Proximity_ | ACU-S5 8
+E 2007-12 Key ACU-F1 6
+== dl 2005-12 |Proximity  |[ACU-S6 220 =
+1996-04 |Key HON-R11 64
+RLX 2014-20 |Proximity ACU-S4 16
+RSX 2002-06 |Key | HON-R12 66
+SLX 1996-00 |Key HON-R18 77
+[2009-14 — |Proximity  [ACU-S5 - 18
+2009-14  |Key ACU-F1 ==
+z E. 2007-08 7 | Key ACU-F2 8
+2004-06  |Key HON-R14 -70
+1999-03 |Key | HON-R12 66
+1995-98 — [Key HON-R15 -72
+_—o 2015-21 |Proximity  |ACU-S4 16
+y 2009-14 | Key | ACU-F2 =-=B
+2004-08 |Key HON-R14 70
+VIGOR 1991-96 Key | HON-R15 ==
+ox — Proximity - ACU-85 18
+Key = FACU-F2 8
+
+2 - ACURA - HONDA
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+€¿.0O ,ARA..,O
+
+€»).e. ..
+
+€»¿£L.L.LO0.LAGO.eAOI.OBLO.
+000.00 0.00 90 4
+
+€
+
+(
+
+2021 - AutoSmart Asian Book
+
+ACURA = HONDA Table of Contents
+
+On-Board remote programming procedures and other useful information are at the end of this section.
+
+MAKE MODEL |YEARS ¡TYPE SECTION PAGE
+2016-21 Proximity HON-P1 24
+2013-15 Proximity HON-P3 28
+2013-17 Key HON-R1 44
+2003-12 Key HON-R3 48
+ACCORD
+1998-02 Key HON-R13 68
+1990-97 Key HON-R16 74
+1982-89 Key HON-R17 76
+1978-81 Key -— | HON-R20 79
+ACCORD HYBRID 2017-21 Proximity HON-P2 26
+2014-21 Proximity HON-P4 30
+| 2014-21 Key HON-R1 44
+[2006-13 Key HON-R4 50
+UE 2003-05 Key HON-R9 60
+2001-02 Key HON-R13 68
+1989-00 Key HON-R16 74
+1984-88 Key HON-=R17 76
+HONDA 1977-83 Key HON-R20 79
+- | Electric 2017-18 Proximity HON-P7 36
+CLARITY | Fuel Cell 2017-21 Proximity HON-P7 36
+Plug In 2018-21 Proximity HON-P7 36
+2013-15 Proximity HON-P6 34
+CROSSTOUR 2013-15 Key HON-R1 44
+E [2010-12 Key HON-R4 50
+2015-21 Proximity HON-P5 32
+2014-21 Key HON-R2 46
+CR-V 2007-13 Key HON-R4 50
+2002-06 Key HON-R9 60
+1997-01 Key HON-R16 74
+a [1988-91 Key HON-R16 74
+1984-87 Key HON-R17 76
+CRX del sol [1992-97 Key HON-R16 74
+: E 2016 Proximity HON-P6 34
+CR-Z Hybrid
+2011-15 Key HON-R5 52
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+ACURA . HONDA - 3
+
+2021 - AutoSmart Asian Book
+
+- ACURA » HONDA Table of Contents
+
+On-Board remote programming procedures and other useful information are atthe end of this section.
+
+YEARS
+
+|PAGE
+
+2000-03
+
+MAKE MODEL TYPE SECTION
+_ E > 2006-11 |Key -—[HON-R8 58
+ELEMENT > 2006 there was a mid-year change for Transponders a
+2003-06  |Key  [HON-R9 >
+2015-20 |Proximity  |HON-P6 E 34
+e 2015-20 > Key  |HON-R2 -= FA
+2008-13 |Key HON-R5 a.
+2007 Key HON-R10 62
+2016-21 Proximity | HON-P8 38
+e 2016-21 Key  [HON-R2 46
+E 2019-21 |Proximity HON-P8g 38
+INSIGHT 2010-14 Key HON-R5 52.
+2000-06 |Key HON-R13 68
+2014-21 Proximity [HON-P9 40
+— = 2005-17 |Key HON-R6 54
+ODYSSEY 1 2003-04 Key HON-R9 60
+E == 1998-02 [Key HON-R13 68
+HONDA 1995-97  |Key — | HON-R16 74
+E E PASSPORT - - [1998-01 |Key(HDI03) |HON-R16 74
+Some 98-01 Passport models [1998-01 |Key (B65) HON-R18 77
+were made by Isuzu. 1994-95 Key HON-R19 78
+2016-21 |Proximity  |HON-P10 42.
+PILOT 2005-15 |Key HON-R7 56
+: 2003-04  |Key  |[|HON-R9 60.
+1997-02 |Key HON-R11 64
+ELUDE 1991-96 |Key HON-R16 74
+1983-90 |Key HON-R17 76
+1979-82 [Key |HON-R20 79
+> 2017-21 |Proximity HON-P8 sa
+RIDGELINE _—_—_—_—— :
+|2006-14  |Key HON-R5 52
+|2008-09  |Key HON-R8 ==
+00 2006-07 Key HON-R10 : 62
+2004-05 Key - | HON-R9 60
+Key HON-R13 68
+
+4 - ACURA - HONDA
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+WENN SE
+
+É¿£L1O0600.O000PIAAIA.
+0.0.0.0 4
+
+0000004
+
+00001
+
+00.04
+
+C
+
+AUTO LOCK SERVICE, dl
+
+Heavy Duty Honda Remote Shell Keys
+
+(the most durable on the market)
+
+We have them on the shelf - ready to ship.
+
+¡A
+
+Honda 3 £ 4 Button Heavy Duty Durashell
+Universal Type with Removable spot for chip
+
+1 side “Backside.
+Smooth | look with look No Chip
+Back Cover E Chip Holder
+
+Holder
+
+- National Auto Lock Service, Inc
+| -1-650-875-0125
+www.Laserkey.com
+
+Open late on the West Coast - 7pm EST
+
+01994, 2021 AutoSmart”by Michael Hyde : ACURA :. HONDA - 5
+ACU-F1 SECTION
+
+2007-13 MDX daa
+
+2007-12 RDX (Acura) 2009-14 TL (Acura)
+
+| sme | caros | me | macs | startcut | cuttocut | AirBags | lgnRetainer
+
+4
+
+> Remote Key: 2007-12 - 35111- STX-325 (Drv 41), 327 (Drv 442) or ILCOH FLIP-ACURA-4B1 - FCC Info: N5FOGO2A1A
+
+MASTER | KOO01-N718 | HighSec | n/a Roll Pin
+KEYS > NATIONAL: —— KEYUNE: e —JMA; STRATTEC: | DEALER:
+HON-V-4TRK BHO02-PT HO03-PT HD112-PHT TP12HOND31 5907553 see below
+Determinator: n/a Lishi: HON 66 | AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+E » Mike" s Tip: Transponder System - US, models- Test Key is: HDOO1 : .
+» Factory key is a flip-out key that sits in the: remote. Remote is not needed for key programming.
+Different choices depending on trim level - Call the dealer with the VIN to get the right part.
+elo Remote Key: 2010-13 - 35113-STX-A40 (Drv +1), A50 (Drv 42) or ILCOH FLIP-ACURA-481 - FCC Info: NSFOGOZATA
+: EE > Remote Key: 2007-09 - 35111-STX-325 (Drv 41), 327 (Drv 42) or ILCO* FLIP-ACURA-38! - FCC Info: NSFOGOZA1A
+a o Remote Key: 2007 - 35111-STK-305 or ILCOH FLIP-ACURA-381 - FCC Info: NSFOGOZAIA | 313 MHz e
+
+> TL > Remote Key: Diré* 35113-TK4-A00 (Drv id A1O a Y FCC: MLBHLIK-1T | 314 MHZ
+
+o
+35113-STX-A40
+
+= > 27
+35111-STX-325, 35111-STK- 305
+
+wm  CodeSeries:K/L/M/N
+
+a s DEPTHS
+
+12) ===] EXTERNAL 234
+
+m precut | 4-TRACK 2 =.056
+
+mE .724 | .604 | .484 | .364 | .244-|” Depths measured | 3=-070 =
+A zz === ==le= E from 4=.084 E
+
+z ] SÉ pe = a A Ele edge of blank. 5=.098 | z
+
+3 724 | 6504 | 84 | 364 | .244 | | SPacingmeasured | 6=.112 5
+
+= - - precut += = from tip. =
+
+A) H G | F A = A
+
+E Programmer 8. Diagnostic Tools A
+
+bs] =— : > : -
+
+> Factory Too! Y (/ PINCODE ==. == E. — dr
+
+==. [Y TCODE/MVP PRO 2 TDB1000 Y” HOTWIRE
+
+77 = REQUIRED E E
+
+= -HDS8 | | : = z => - .
+
+a 325348 Only with | = 1. == sz : -
+
+a] ls ¡-HDS - (sun SMART PRO == q pS PRO E z (- AUTEL IM608
+
+m = == — = ==>
+
+A
+
+?= = Check with your key programmer supplier Y lo see ifyour “vehicle is supported. -
+6 - ACURA =- HON DA - E= = > == = == 01994, 2021 AutoSmart” “by! Michael 2.
+
+ES 0 bb 0:00 ocaso ADD
+0.0.0 0 (
+
+O. 1
+
+0.00 0.00 000000004
+
+(
+
+€
+
+continued - ACU-F1 SECTION
+
+| Chip Information 8. Notes
+
+BT Transponder: Standard Equipment Chip: Philips 46 HT2 Reusable: Yes
+
+5 Cloner Machine Information :
+
+Z :
+
+E (DIAG BOX Y (. CHINA >) (ILCOISILCA] ( JMAUSA Y ( KEYLINE | ( L.D. 7] (SCORPIO | ( vwDI >)
+
+leY | LONE CN900 RWA TRS-5000/EVO | | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+
+SA | WIZARD
+
+a] M Yes E Yes Y Yes? Y Yes? Y Yes1,2 Y Yes!2 M Yes12 | | [7Yes!
+
+ds Green Chip CN38 GTI Chip 8 TPX4 8 TK100 8 TPX4 8 TPX4 8. VVDI Chip 8
+8. Shell Honda Shell Honda Shell | | Honda Shell HDO01 Blade Honda Shell Honda Shell Honda Shell
+
+*4- May require Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+Codes: | Most locks will have a code onit,
+
+Decoders: | Determinator: n/a Lishi: HON 66 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+KEYCODES: The codes are on MOST locks 8 some glove box's. The code number in the U.S, will always start
+with a"K" *L” “M” or“N'. The code series is as follows: K001-K999, L001-L999, MO01-M999 £ NO01-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a 5
+depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk £« trunk lock-
+out, if equipped. Positions 1 through 4 are Split Tumblers, Position 5 is one Solid Tumbler with 2 different depths, one
+side has the notch for the Valet cut and the other has an combination depth. Postion 6 is always a pre-cut to number,
+
+Guide for Correct Depth on Position “pr
+
+Code Series: Depth of “A” Position
+K001 to K684, L349 to MO32 £ M697 to N214 3
+K685 to L348, MO33 to M696 £ N215 to N718 5
+
+Method +1 Use a Lishi HONS66 Lock Reader / Decoder.
+
+Method +2 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left
+side of the drivers seat), if the car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+
+Method 43 Remove door lock and read code stamped on lock and make key by code or disassemble door
+lockand make key. S
+
+IGNIFION DOOR, TRUNK, VALET GLOVE BOX 1 GLOVE BOX 2
+precut | 6 | precut ES precut | 6 | precut precut | 6 | precut precut-| 6-| precut
+mv|s| a |  |mmwvis5| A M/V|5| A M/V|5| A
+
+a 4 4 E n 4 n 4 | E
+==” 31m 0 31
+21m 21m 21m 2
+1 nm 1 n 1 1
+L R E R E R L R
+[e [ao
+Some Ignitions do notuse the - z Some Glove Box's have more tumblers than others.
+
+tumblerin position 1-Left.
+
+01994, 2021 AutoSmart” by Michael Hyde - : ACURA . HONDA - 7
+
+ACUFZSECIÓN >. a ES. > =-
+
+2007-08 TL (Acura) 2010-12 ZDX (Acura)
+
+CODES | sm | StartCut | cuttoCut | AirBags | IgnRetainer
+
+MASTER KOO1-N718 | HighSec Roll Pin
+KEYS => NATIONAL: | KEANE: | taco: [ET | MAS | STRAMTEC: | DEALER:
+HON-V-4TRK BH002-PT HO03-PT HD12-PHE TPI2HOND31 | 5907553 see below
+Determinator: n/a Lishi: HON 66 | AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+a » Mike's Tip: Transponder System - U.S. models- Test Key is: HDO01 ==
+» Factory key is a flip-out key that sits in the remote. Remote is not needed for key programming.
+Different choices depending on trim level - Call the dealer with the VIN to get the right part. ii
+» TL > Remote Key: 35111-SEP-306 (Drv 41), 307 (Drv 42) or ILCOH FLIP-ACURA-4B2 (4 Btn) FCC: OUCG8D-439H-A
+
+» TSX > Remote Key: Dlrét 35113-TLO-A00 (Drv +1), ATO (Drv +2) FCC Info: MLBHLIK-1T | 313 MHz
+
+epÁH ¡eeyom - 1z0z 1uBÁdoo
+
+» ZDX > Remote Key: DIrit 35113-SZN-A00 (Drv +1), A10 (Drv 442) FCC Info: MLBHLIK-17 | 313 MHz
+
+SÓ ml E = =
+35111-SEP-306, 35113-TLO-A00 35113-SZN-A00
+
+(— Code Series:K/L/M/N :
+RN bo SPACING —_— + 1. Ed
+o HE B=|.C€ B |Mmivw| EXTERNAL - | 050
+Se =— - precut | — 4-TRACK =
+go 724 604 :484 364 244 | —— | Depths measured | 3=-070
+= = — rom 4 =.084
+
+7 a HE edge of blank. | 5=.098
+3 .724- 604 | .484 | 364 —|-.244 | -Spacing measured | 6=.112
+
+- : recut |  fromtip.
+1 EN H G F re o ==
+
+a Programmer 8. Diagnostic Tools. === . E
+D Y . E S
+
+Factory Tool | 33
+y E cone ( TCODE/MVP PRO ( TDB1000 q E
+Y : REQUIRED : BE a
+0] i-HDS 8 e. == = E E :
+9 325348 | | Onlywith === - a s
+5 Supscription ¡-HDS : ( SMARTPRO |. [+ auro PRO PAD q AUTEL IM608
+A
+
+7 = Check with your key programmer supplier to see if your vehicle is supported.
+
+8 - ACURA . HONDA 01994, 2021 AutoSmart” by Michael Hyde
+
+WEN WNEM.INE MNR
+
+É¿¿£,1.L...OIEOESOO.,A
+0004
+
+€
+
+C
+
+€
+
+00.00
+
+(
+
+900.000 0
+
+cm]
+Pa)
+>
+Z
+wm
+U
+O
+E
+O
+m
+ps
+
+continued - ACU-F2 SECTION
+
+Chip Information 8 Notes -
+
+Transponder:; Standard Equipment
+
+Chip: Philips 46 HT2
+
+Reusable: Yes
+
+-Cloner Machine Information
+
+(DIAG BOX ) (, CHINA Y (ILGOISILCA) [( JMAUSA | ( KEYLINE | (/ L.D. >) (scorrio | ( vwwo >
+Er CN900 RW4 TRS-5000/EVO | | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+M Yes M Yes -MYes? Y Yes? M Yes1,2 Y] Yes12 7 Yes1,2 E Yes!
+Green Chip CN3 8 GTI Chip 8 TPX4 8 TK100 8 TPX4 8 TPX4 8. VVDI Chip 8
+8 Shell Honda Shell Honda Shell Honda Shell HDOO01 Blade Honda Shell Honda Shell Honda Shell
+
+*1 - May require Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3-- Requires Texas Crypto update.
+
+Codes: | Most locks will have a code on it.
+
+Decoders: | Determinator: n/a
+
+Lishi: HON 66
+
+AccuReader: n/a
+
+EEZ Reader: n/a
+
+Cobra: n/a
+
+KEYCODES: The codes are on MOST locks £ some glove box's. The code numberiin the U.S. will always start
+with a "K” "L' “M' or"N'. The code series is as follows; K001-K999, £001-L999, MO01-M999 £ NOO01-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key ¡s always a 5
+depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk £ trunk lock-
+out, if equipped. Positions 1 through 4 are Split Tumblers, Position 5 is one Solid Tumbler with 2 different depths, one
+side has the notch for the Valet cut and the other has an combination depth. Postion 6 is always a pre-cut to number.
+
+Guide for Correct Depth on Position “A”
+
+Code Series: Depth of “A” Position
+K001 to K684, L349 to MO32 8 M697 to N214 3
+5
+
+- K685 to L348, MO33 to M696 £ N215 to N718
+
+Use a Lishi HON66 Lock Reader / Decoder.
+
+Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left
+side of the drivers seat), if the car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+
+lock and make key.
+
+Method +1
+Method +2
+Method 43
+IGNITION
+precut | 6 | precut
+
+M/NV|5| A
+
+4 E
+
+3|m
+
+2 "
+
+lajon
+
+E R
+
+- Remove door lock and read code stamped on lock and make key by code or disassemble door
+
+DOOR, TRUNK, VALET GLOVE BOX1 GLOVE BOX 2
+precut | 6 | precut precut | 6 | precut precut | 6 | precut
+mv [s| A MV |5| A MV |5| A
+
+: 41m n (¿| m . 4 n
+E 3 o] 3.3 E E E E
+L 2 L] n 2 E 2 :
+111 1 1
+L R L R L R
+
+Some Ignitions do not use the
+
+tumblerin position 1-Left,
+
+[o
+
+Some Glove Box's have more tumblers than others.
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+ACURA - HONDA - 9
+
+ACU-S1 SECTION
+
+2016-21 ILX (Acura) Prox
+
+: | sm | caros | tre | macs | Startcut | CuttoCut |
+
+K001-N718 None
+
+Air Bags | Ign Retainer
+
+Different choices depending ontrim Tevel - Call the dealer with the VIN to get the right part.
+
+Proximity Fob (Base model) Acura Prox Part: 72147- TX6-A22
+
+o. = - Proximity Fob (Driver 1) | Acura Prox Part: 72147-TZ3-A01
+
+<= MASTER | —- E _ Proximity Fob (Driver 2) | Acura Prox Part: 72147-TZ3-A1
+KEYS > . Proximity Fob (Base model - Remote Start) | Acura Prox Part: 72147-TX6-C51
+
+z nes  Proximity Fob (Bidirectional) (Remote Start) (Driver 1) Acura Prox Part: 72147-TX6-C61
+
+Proximity Fob (Bidirectional) (Remote Start) (Driver 2) | Acura Prox Part: 72147-TX6-C71 —
+
+Proximity Fob (Base model) Acura Prox Part: 72147-TX6-A31
+
+2019-21 E .. Proximity Fob (Driver 1) Acura Prox Part: 72147-TZ3-A21
+
+>
+Proximity Fob (Driver 2) | Acura Prox Part: 72147-TZ3-A31
+
+Acura a Key: 35118- TY2-A00 (fits all above) - Test key is HDOO1. -
+
+More
+
+Determinator: n/a | Lishi: HON 66 - - | AccuReader: n/a EEZ Reader: n/a | Cobra: n/a
+
+Info =>
+
+>» Prox Fob: For All 72147 for ILX 2016+ = ECC: KR5VIX | IC: 7812D-VIX | 313-314 MHz | MFR: Continental
+
+35118-TY2-A00 —
+
+Models without Remote Start
+Chip Information 8: Notes. =- a —
+Transponder: Standard Proximity == Chip: - Integrated Circuit Board | Reusable: Yes
+S » Mike's Tip: Key Programmer Required. Testleyis HDOOL = 2
+= == o ==
+z Programmer 8 Diagnostic Tools .. a. == E
+w = sE = -. S E E = ==
+Factory Tool ==. EP == 12
+O A a CODF 7 TCODE/MVP PRO| | Y TDB1000- | | Y HOTWIRE
+>4 QUIRED 20
+S i-HDS 8 EA == ie :
+m 32534 Y Only with Eje ; : —
+= Supscription ¡-HDS En SMART E . Bla AUTO PRO PAD (- AUTEL IM608
+
+? = Check with your key programmer supplier to see ifyour vehicle is supported.
+
+10 - ACURA . HONDA == == =— == 01994, 2021 nal idad Hyde
+
+,)..0
+
+»)0.0
+
+€¿£LO0L6OPEGOPLECEI..
+(
+
+00000000106
+
+00000000001
+
+Code Series: K/L/M/N
+
+continued - ACU-S1 SECTION
+
+12) o
+
+2 EN SPACING Tip DEFHS 2
+
+O E D e B M/V - EXTERNAL 1 E :041 o
+
+m A precut 4-TRACK 2098 E
+
+724 | .604 | .484 | .364 | .244 = | Depths measured | 3 =-070 Es
+= = —Fom 4= .084 lo
+
+a 1 2 y E 5 6 edge of blank. 5 = .098 a
+
+BA 724 | 504 | 484 | 364 | .244 Spacing measured | 6 =.112
+
+z 7 + E S - precut from tip.
+
+Codes: | Mostlocks will have a code onit.
+Decoders: | Determinator: n/a Lishi: HON 66 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+KEYCODES: The codes are on MOST locks £ some glove box's. The code number in the U.S. will always start
+with a "K" "L' “M” or"N' The code series ¡is as follows: K001-K999, LO01-L999, MO01-M999 £ NOO1-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk 8-trunk
+lock-out, if equipped. Positions1through 4 are Split Tumblers, Position 5 is one Solid Tumbler with 2 different depths,
+one side has the notch forthe Valet cut and the other has an combination depth. Postion 6 is always a pre-cut to
+
+number 1.
+Guide for Correct Depth on Position “A”
+Code Series: Depth of “A” Position
+K001 to K684, L349 to MO32 8: M697 to N214 3
+K685 to L348, MO33 to M696 £ N215 to N718 5
+
+Method +1 Use a Lishi HON66 Lock Reader / Decoder.
+
+Method 42 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left
+side of the drivers seat), ifthe car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+
+Method 43 Remove door lock and read code stamped on lock and make key by code or disassemble door
+lock and make key.
+
+DOOR GLOVE BOX 1 GLOVE BOX 2
+precut |-6- | precut precut-| 6 | precut precut | 6 | precut
+MM |5 A M/V]|5 + A M/V|5 A
+. ¡4 2.2. (4 UN A Some Glove Box's
+31m la E na 3 m have more tumblers
+- + than others.
+n 2 n 2 nm 2
+11m = E 1
+L R L R L R
+
+¡e
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+ACURA = HONDA - 11
+ACU-S2 SECTION
+
+— KO01-N718
+
+2014-20 MDX (Acura) Prox 2017-21 NSX (Acura) Prox
+
+CARD% | Air Bags | Ign Retainer
+
+| sTLE
+High Sec
+
+me | macs | StartCut | Cuttocut |
+
+None
+
+Different choices depending on trim level - Call the dealer with the VIN to == the right part.
+
+2014-19 Proximity Fob (Driver Mi Acura Part: 72147-TZ5-A01
+> = Proximity Fob (Driver 2) | Acura Part: 72147-TZ5-A1
+MASTER MDX A 2016-18 and (Bidierctional) (Rmt Start) (Dr* 1) Acura Part: 72147-TZ6-A71
+KEYS => z : as Proximity (Bidierctional) (Rmt Start) (Drf 2) | Acura Part: 72147-TZ6-A81
+2019-20 Proximity (Bidierctional) (Rmt Start) (Drá 1) | Acura Part: 72147-TJB-A41
+E Proximity (Bidierctional) (Rmt Start) (Drét 2) | Acura Part: 72147-TJB-A51
+A... Proximity Fob | Acura Part: 72147-T6N-A01
+NSX > e ==. Proximity Fob (Driver 1) | Acura Part: 72147-T6N-A1
+E Proximity Fob (Driver 2) Acura Part: 72147-T6N-A21
+Acura Emergency Key: 35118-TY2-A00 (for MDX) 1 35118-T6N-ADO (for NSX) - Test key is HDOO1,
+DoS Determinator: n/a Lishi: HON 66 | AccuReader: n/a EEZ Reader: n/a — | Cobra: n/a
+
+d Prox Fob: For 72147-1Z5-A01 8 Al = ECC: KR5VIX/1C: 7812D YX / 313-314 MHz / MFR: Continental
+
+Models without Remote Start With Remote Start 35118-TY2-A00 E
+
+Chip Information 8. Notes
+
+Transponder: Standard Proximity
+
+Chip: Integrated Circuit Board Reusable: Yes
+
+> » Mike's Tip: Key Programmer Required, Test key is HDOO1. =a a
+A — AE =
+44 Programmer 8. Diagnostic Tools .—....
+Y Q_EIO ==
+Factory Tool PIN a >
+E Z A E REQUIRED G TCODE/MVP PRO | (7 TDB1000 (7 HOTWIRE
+S ¡-HDS 8 + _
+m J2534 8 Only with — a. == E :
+D Supscription ? ¡-HDS (7 SMART PRO de € AUTO PRO PAD 6 AUTEL IM608
+
+? = Check with your key programmer suppler to see ifyour vehicle is supported,
+
+12 - ACURA +» HONDA
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+É¿£LO0ceo ....
+
+¿CDqO OOO
+
+o 0
+
+€¿.I.A
+0000000000009 (4
+
+06.0 00005006
+
+continued - ACU-S2 SECTION
+
+wm  CodeSeries:K/L/M/N dE
+> En SPACING o DEETHS =
++ E D E e |m/v EXTERNAL | 108 S
+m : precut 4-TRACK ps =
+724 604 484 | .364 | .244 E Depths measured | 3=-070 Es
+E = =E se ; from 4 =.084 lo
+z = 1 => 2 — 3 | 4 > 6 edge of blank. 5 =.098 .
+de .724 .604 | 484 | .364 | .244 E a > 6 =.112
+o. recut rom-tIp.
+
+IM H G F E
+
+Codes: | Most locks will have a code on it.
+
+Decoders: | Determinator: n/a Lishi: HON 66 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+KEYCODES: The codes are on MOST locks 8: some glove box's. The code number in the U.S. will always start
+with a"K” "E "M” or"N' The-code series is as follows: K001-K999, LO01-L999, MO01-M999 £ NOO1-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk 8-trunk
+lock-out, if equipped. Positions 1 through 4 are Split Tumblers, Position 5 is one Solid Tumbler with 2 different depths,
+one side has the notch for the Valet cut and the other has an combination depth. Postion 6 is always a pre-cut to
+number 1. -
+
+Guide for Correct Depth on Position “A”
+
+Code Series: Depth of “A” Position
+
+K001 to K684, L349 to MO32 € M697 to N214 3
+K685 to L348, MO33 to M696 £ N215 to N718 5
+
+Method +1 Use a Lishi HON66 Lock Reader / Decoder.
+
+Method 42 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left;
+side of the drivers seat), ifthe car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+
+Method 43 Remove door lock and read code stamped on lock and make key by code or disassemble door
+lock and make key.
+
+DOOR GLOVE BOX 1 GLOVE BOX 2
+precut|6- | precut : precut | 6 | precut precut | 6 | precut
+M/V | 5 A M/V | 5 A MNMV|5 A
+_——_- 2. |14| Mm 4| M Some Glove Box's
+31m 25 a 31 have more tumblers -
+— = than others.
+n 2 n 2 n Z
+== ” 3 1
+1 R E R L- R
+01994, 2021 AutoSmart”by Michael Hyde ACURA - HONDA - 13
+ACU-53 SECTION:
+
+-KO01-N718
+
+2016-21 RDX (Acura) Prox
+
+se | carDÉ | ti
+
+High Sec nía n/a n/a
+
+| macs | st
+
+art Cut | Cut to Cut | Air Bags | Ign Retainer
+
+-nña n/a Yes None
+
+Different choices depending on trim level - Call the dealer with the VIN to get the right part.
+
+Driver 1| Acura Prox Part: 72147-TZ5-A01
+a .. - — Driver 2 Acura Prox Part: 72147-1Z5-A31
+aso | 20 == A _ 1
+— y Driver 1 with Remote Start | Acura Prox Part: 72147-TX4-A61
+E Driver 2 with Remote Start | Acura Prox Part: 72147-TX4-A71 _ ==
+2019-21 Driver 1 with Remote Start Acura Prox Ed 72147-1JB-A01
+o Driver 2 with Remote Start | Acura Prox Part: 72147-TJB-AM1
+
+Acura Emergency Key: 35118-T/2-A00 (fits all above) - Test key is HDOO1.
+
+More Determinator: n/a — Lishi: HON 66 — | AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+» Prox Fob: For 72147-1Z5-AOT 8. All = FCC; KR5VIX / 1C: 7812D-VIX / 313-314 MHz / MER: Continental
+
+» Prox Fob: For 72147-TX4-A61= FCC: KR580399900 /1C: 7812D-80399900 / 923-924 MHz / MFR: Continental
+
+e) = = =>
+
+With Remote Start
+
+Models without Remote Start — 35118-TY2-A00
+
+- Chip Information 8 Notes. a _..—
+
+Transponder: Standard Proximity Chip: Integrated Circuit Board |Reusable: Yes
+
+Reusable: Yes
+
+o » Mike's Tip: Key Programmer Required. Test key is HDOO1..
+> == E =
+41 Programmer 8 Diagnostic Tools o o
+2 E A 2
+Factory Tool , > o
+e] a oo | [Y TCODEIMVPPRO| [Y TDB1000 Y HOTWIRE
+> 23 QUIRED 1 .
+5 ¡ADS 22 : :
+m J2534 8 Only with == —
+2 Supscription ¡-HDS (- SMART PRO == E (- AUTO PRO PAD | (- AUTEL IM608 -
+
+7 = Check with your key programmer supplier to see ¡f your vehicle is supported.
+
+14 - ACURA = HONDA - == == > 01994, 2021 AutoSmart” > Michael Hyde
+
+É¿¿206000000000000000000900
+0000000000090
+
+(
+
+0.000.000. 64
+
+continued - ACU-S3 SECTION
+
+wm Code Series:K/L/M/N
+DEPTHS 3
+A Bow SPACING Tip 2
+> 1=.041
+O E D € B M/V EXTERNAL E a
+m : : precut 4-TRACK as =
+E .724 | .604 | .484 | .364 | .244 Depths measured | 3 = -070 E
+ne - 22 from 4= .084 lo
+5 E 1 = 2 > 4 —5 6 edge of blank. 5 = .098 E
+Ba 724 .604 | .484 | .364 | .244 Spacing measured | 6 =.112
+z recut fromtip.
+2 ES H G F A.
+Codes: | Mostlocks will have a code onit.
+Decoders: | Determinator: n/a Lishi: HON 66 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+KEYCODES: The codes are on MOST locks £ some glove box's. The code number ¡in the U.S, will always start
+with a*K" "PL *M” or*N' The code series is as follows: K001-K999, LO01-L999, MO01-M999 £ NOO1-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk 8-trunk
+lock-out, if equipped. Positions 1 through 4 are Split Tumblers, Position 5 is one Solid Tumbler with 2 different depths,
+one side has the notch for the Valet cut and the other has an combination depth. Postion 6 is always a pre-cut to
+number 1.
+
+Guide for Correct Depth on Position “A”
+
+Code Series: Depth of “A” Position
+K001 to K684, L349 to M032 8 M697 to N214 , 3
+K685 to L348, MO33 to M696 £ N215 to N718 5
+
+Method +1 Use a Lishi HON66 Lock Reader / Decoder.
+
+Method +2 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left;
+side of the drivers seat), if the car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+
+Method ¿3 Remove door lock and read code stamped on lock and make key by code or disassemble door
+lock and make key.
+
+DOOR > GLOVE BOX 1 GLOVE BOX 2
+precut 6 | precut precut | 6 | precut precut | 6 | precut
+M/V +5 A M/V|5 A MMVM|5| A
+4 | M- . (¿1 4| N Some Glove Box's
+La nm 3 a 3 n have more tumblers
+= - than others.
+2 a 2 n 2
+| 1. 1 1
+L R E R L R
+[e
+01994, 2021 AutoSmart” by Michael Hyde ACURA + HONDA - 15
+ACU-S4 SECTION
+
+2014-20 RLX (Acura) Prox- 2015-21 TLX (Acura) Prox
+
+CODES | smme | caros | ts | macs | startcut | CuttoCut | AirBags | IgnRetainer Pl
+
+K001-N718 High Sec | n/a | n/a | n/a n/a n/a Yes None
+Different choices depending on trim level - Call the dealer with-the VIN to get the right part.
+- ==. Driver 1| Acura Prox Part: 72147-TY2-A01
+2014-15 : ==
+E Driver 2| Acura Prox Part: 72147-TY2-AM31
+— _ = Driver1| Acura Prox Part: 72147-TZ3-A01
+RLX > 2016-18 == E
+E o == Driver 2 | Acura Prox Part: 72147-TZ3-A1M31
+E Driver 1 with Remote Start | Acura Prox Part: 72147-TX6-C61
+E 2016-20 A S =>
+E : Driver 2 with Remote Start | Acura Prox Part: 72147-TX6-C71
+z - —Driver1| Acura Prox Part; 72147-TZ3-A01
+a 2015-17 — - Driver2| Acura Prox Part: 72147-TZ3-AM1
+3 Driver 1 with Remote Start Acura Prox Part: 72147-TX3-A51
+xx. - Driver1| Acura Prox Part: 72147-TZ3-A21, A22
+: - - Driver 2 | Acura Prox Part: 72147-TZ3-A31, A32
+2018-21 == - =. :
+Driver 1 with Remote Start | Acura Prox Part: 72147-TZ3-A71
+. Driver 2 with Remote Start | Acura Prox Part: 72147-TZ3-A81
+— Acura Emergency Key: 35118-TY2-A00 (fits all above) - Test key is HDO01. o
+— More E == == = ,
+info > Determinator: n/a LishiHON 66 — |AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+» Prox Fob: For All 72147-TZ3-A01, ATI 8e A51= FCC: KR5VIX / IC: 7812D-VIX / 313-314 MHz / MFR: Continental —
+
+- Models without Remote Start With Remote Start 35118-1Y2-A00
+
+a Programmer 8. Diagnostic Tools e . ==
+> A A
+Factory Tool = ==
+Z Ai EE CODE ( TCODE/MVP PRO (- TDB1000 (- HOTWIRE
+197) : = QUIRED EXE
+“3 i-HDS 8 ES =>. == s
+O 32534 8 Only with E o E
+5 Supscription- i-HDS (- SMARTPRO |. q AUTO PRO PAD | (- AUTEL IM608
+mai =
+Rh
+
+? = Check with your key programmer supplier to see if your vehicle is supported. E
+
+16 - ACURA = HONDA -E1994, 2021 AutoSmart” by Michael Hyde
+
+,
+
+¿000000009000
+
+¿,0L..AIDAO
+
+)
+000000000004
+
+(
+
+00000050506
+
+continued - ACU-S4 SECTION
+
+wm Code Series:K/L/M/N =
+> En SPACING Tip + 2
+o EE D 6 B M/V EXTERNAL . = ads SS
+mE : precut 4-TRACK pta [a
+ol 724 .604 484 .364 .244 Depths measured | 3 =-070 o
+lo] z . == E from 4=.084 lo
+m BS A O == > == E = > : 6 edge of blank. = .098
+ha 724 | .604 | 484 | .364 | .244 Spacing measured | 6 = 112
+T precut from tip.
+J H G F A
+Codes: | Most locks will have a code on it.
+Decoders: | Determinator: n/a Lishi: HON 66 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+KEYCODES: The codes are on MOST locks £ some glove box's. The code number in the U.S. will always start
+with a “K” “L" *M' or“N”. The code series is as follows: K001-K999, LO01-L999, MO01-M999 £ NO01-N718.
+
+CUFTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk 8 trunk
+lock-out, if equipped. Positiens 1 through 4 are Split Tumblers, Position 5:is one Solid Tumbler with 2 different depths,
+one side has the notch for the Valet cut and the other has an combination depth. Postion 6 is always a pre-cut to
+number 1.
+
+=== = e Guide for Correct Depth on Position “A”
+
+Code Series: Depth of “A” Position
+K001 to K684, L349 to MO32 8 M697 to N214 3
+K685 to L348, MO33 to M696 £ N215 to N718 5
+
+Method 41 Use a Lishi HON66 Lock Reader / Decoder,
+
+Method 2 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left;
+side of the drivers seat), if the car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+
+Method 43 Remove door lock and read code stamped on lock and make key by code or disassemble door
+lock and make key.
+
+DOOR . E GLOVE BOX 1 GLOVE BOX 2
+precut | 6 | precut precut | 6 | precut precut | 6 | precut
+M/V 5 A M/V 5 A M/NVI|5 A
+= |4 n 4 n = a E Some Glove Box's
+
+31m 3 a a 3 a have more tumblers
+== > - than others.
+2 n 2 n 2
+
+. 1 7] LL] 3 1
+
+=L R L R L R
+
+O1994, 2021 AutoSmart” by Michael Hyde ACURA =. HONDA - 17
+ACU-55 SECTION
+
+2013-15 ILX (Acura) 2013-15 RDX (Acura)
+
+|  sTE
+
+2009-14 TL (Acura)
+
+CARDH | me | macs | Start Cut | Cutto Cut
+
+2010-13 ZDX (Acura)
+
+Air Bags | lgn Retainer
+
+K001- N718 | High Sec n/a -None
+Different choices depen: on trim level - Call the dealer with the VIN to get the right part.
+= — Driver 1| Acura Prox Part: 72147-TX6-A01
+ILx > 2013-15 ==
+Driver 2| Acura Prox Part: 72147-TX6-A11
+Base Model Driver 1 | Acura Prox Part: 72147-TX4-A41
+MASTER = E
+: = o == : | Base Model Driver 2 | Acura Prox Part: 72147-TX4-A51
+kers> | RDX> | 2013-15 : _ == : - —
+Driver 1 with TECH 2WD or AWD | Acura Prox Part: 72147-TX4-A01
+Driver 2 with TECH 2WD or AWD Acura Prox Part: 72147-TX4-A1
+. = E Driver 1| Acura Prox Part; 72147-TK4-A71
+TL> |2009-14 : : ==
+EE Driver 2 | Acura Prox Part: 72147-TK4-A81
+= = = : Driver1 Acura Prox Part: 72147-SZN-A71
+ZDX => | 2010-13 -—— —
+Driver 2 | Acura Prox Part: 72147-SZN-A81
+: Acura Emergency == 35113- TK4- A5O (fits all above) - Test key is HDOO1. —
+Determinator: n/a Lishi: HON 66 | AccuReader: n/a - EEZ Reader; n/a Cobra: n/a
+Es » Prox Fob: For 72147-TX6-A01 8: A1 = FCC: KR5434760 | IC: 7812D-434760 | 313 MHz | MFR: Continental
+» Prox Fob: For All 72147-TX4-AXX = FCC: KR5434760 | IC: 7812D-434760 | 313 MHz | MFR: Continental —
+» Prox Fob: For All 72147-SZN 8: TK4 = FCC: M3N5WY8145 | 1C; 267F-5WY8145 | 313 MHz | MFR: Continental
+
+72147.1X4-A01, AN 35113-TK4-A50
+
+-72147-TX4-A41, ASI T2MAZTXG-AOL, AM a
+= 72147-TK4-A71,A81 — —  72147-SZN-A7I, A8l
+Programmer 8 Diagnostic Tools." ====_ ====  -=|-
+Factory Tool ST A. =
+2 1 [AN coDE Y TCODE/MVPPRO| |? TDB1000 Y HOTWIRE
+mos a | | REQUIRED. o ae E =
+
+J2534 8
+Supscription
+
+Only with
+¡-HDS
+
+[Va AUTO PRO PAD | (- AUTEL IM608
+
+(- SMARTPRO
+
+4JI0ONOASNVYL
+
+2? = Check with your key programmer 'supplier to see if your! vehicle ¡ is supported.
+
+-01994, 2021 AutoSmart” by Michael Hyde
+
+18 - ACURA » HONDA ==
+
+4
+
+)
+
+É¿C0L..O..L£OEOCS.OÓ.aá.—...
+
+€¿)¿0090
+00.00.00000050 90 (
+
+(
+
+€
+
+€
+
+00000 0
+
+continued - ACU-S5 SECTION
+
+wm Code Series: K/L/M/N 2
+> En SPACING Tip == =
+o E D C s Tm/v z EXTERNAL IN y
+mi precut 4-TRACK 2 =.056 2.
+724 604 484 364 244 Depths measured | 3 =-070 ==
+le) E from 4=.084 Sa
+m A 2 3 : 3 edge of blank. = .098
+A 724 | .604 | 484 | .364 | .244 Spacing measured | 6=.112
+> precut from tip.
+J H G E A
+Codes: | Most locks will have a code onit.
+Decoders: | Determinator: n/a Lishi: HON-66 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+KEYCODES: The codes are on MOST locks £ some glove box's. The code number in the U.S. will always start
+with a “K” "L' "M' or"N” The code series is as follows: K001-K999, LOO1-L999, MOO1-M999 £ NOO1-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk 8 trunk
+lock-out, if equipped. Positions 1 through 4 are Split Tumblers, Position 5 is one Solid Tumbler with 2 different depths,
+one side has the notch for the Valet cut and the other has an-combination depth. Postion 6 is always a pre-cut to
+
+number 1.
+
+Guide for Correct Depth on Position =
+
+Depth of “A” Position
+
+Code Series:
+K001 to K684, L349 to MO32 8: M697 to N214 3
+K685 to L348, MO33 to M696 8 N215 to N718 5
+
+Method +1 Use a Lishi HON66 Lock Reader / Decoder.
+
+Method 42 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left;
+side of the drivers seat), if the car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+
+Method +3 Remove door lock and read code stamped on lock and make key by code or disassemble door
+
+lock and make key.
+
+DOOR GLOVE BOX 1 GLOVE BOX 2
+precut | 6 | precut precut-| 6 | precut precut | 6 | precut
+M/V |5 A M/V|5 A M/V|5 A
+A . 4 1 aj Y Some Glove Box's
+31m = |3| 31m have more tumblers
+= than others.
+2 n n 2 n 2
+1 n 1
+E R L E R L R
+
+us
+
+us
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+ACURA - HONDA - 19
+O
+
+ACOSO SEC os ll
+
+2005-12 RL (Acura) Prox- .
+MACS | Start Cut | Cut to Cut | Air Bags | Ign Retainer
+
+Roll Pin
+
+| sme
+Dbl Sided- |
+
+CODES CARDE | mie
+
+MASTER 5001-8442
+
+KE > | 2005-12 | > Drivert| Acura Prox Part: 72147-SJA-A01 2
+
+a > - Driver 2 | Acura Prox Part: 72147-SJA-A1-
+
+Acura Emergency Key with Chip: 35111-SJA-305 (fits above) - Test key is HD103.
+
+M e
+a | Determinator: HON 2 Lishi: HON58R | AccuReader: nfa — EEZ Reader: n/a Cobra: n/a
+
+» Prox Fob: 72147-SJA-A01 8 A1l = FCC: ACIBD8E24A04 | IC: 216J-EUE24A04 | 311 MHz | MFR: Panasonic
+
+72147-SJA-A01, AM 35111-SJA-305
+
+€¿É£L.OP.LCOI.aíéLSPLIEIO
+
+DEPTHS
+1=.307
+2=.294
+3=.282
+4 =.269
+5=.257
+6=,244
+
+SPACING
+1 2 3 4 <=
+
+108 32 2lr .361 446 | .530 |
+
+Cutto
+Cut;
++ =.0845
+
+HPC Curtis Clipper | Pak-A-Punch | TI
+
+Cam: HD12X PAK-H1 = ==50 -
+
+a do Carriage: HD-12AX
+
+H1d30 Y 39VdAS
+
+Notes: O
+
+ni E
+
+PIN CODE
+
+REQUIRED
+
+Only with -
+i¿HDS
+
+(- TDB1000 (- HOTWIRE -
+¡-HDS 8 === -
+
+J2534 8
+Supscription
+
+. (- AUTO PRO PAD - AUTEL IM608
+
+YJ3I0NOASNVYL
+
+oc.
+
+20 - ACURA » HONDA . q == aaa toSmarE by Michael Hyde
+
+000000000004
+
+06.00 000005090 4
+
+continued - ACU-S6 SECTION
+
+Chip Information 8 Notes AS +
+
+BT Transponder: Standard Equipment | Chip: Philips 46 HT2 Reusable: Yes
+
+2 ARE a _s == EE FF = Ez -
+
+53 Cloner Machine Information A o. =
+
+E = z
+
+2 ÉDIAG BOX) (, CHINA >) (ILCOISILCA) ( JMAUSA | ( KEYLINE | f/ L.D. | (SCORPIO Y ( vwwDI >
+
+CLONE CN900 RWA TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+
+pd] | MIIZARD : (
+
+U M Yes M Yes : MYes? || MYes? Y Yes12 Y Yes? Y Yes1,2 Y Yes!
+
+= Green Chip. CN38 GTI Chip 8 TPX4 8 TK100 8. TPX4 8, TPX4 8. VVDI Chip 8.
+| ¿Shell Honda Shell | | Honda Shell Honda Shell HD103 Blade | | Honda Shell Honda Shell Honda Shell
+
+*4 - May require Internet Access to complete cloning. *2 = Requires Philips Crypto Update. *3- Requires Texas Crypto update.
+
+Codes: | Most locks will have a code on it.
+
+Decoders: Determinator: HON 2 Lishi: HON58R AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+— NOTE 1: ACURA "RL" Models Do Not Have A Trunk Lock.
+E This is a Proximity equipped car. However you can program a Acura RL emergeney transponder
+=key with a *V” chip, in a pinch. The ignition Twist knob will unsnap if a key or screwdriver is
+inserted into it to release the clip. The emergency key can now be programmed into the carto
+
+start it.
+NOTE 2: Making the key has to be precise. This lock will clutch and grab the key and not release.
+Then you have to disassemble.
+Method +1 Remove the glove box or compartment lock cylinder and read the code to make the key. The code
+
+is the last for numbers.
+
+Method +2  Becarefull using a Lock Decoder / Reader tool on the door lock £ progression the remaining cut.
+
+> Ignition
+
+> Door
+
+> Glove Box
+
+> Compartment
+
+AIOdoO
+caODOodOo
+o([poDoo
+10000
+eo"
+
+Emergency Key -
+
+01994, 2021 E by Michael Hyde = ACURA -. HONDA - 21
+ACU-S7 SECTION —
+
+MASTER
+
+|
+V001-W100
+
+STYLE
+High Sec
+
+2022 MDX (Acura) Prox-
+
+None
+
+Different choices depending on trim level - Call the dealer with the VIN to get the right part.
+
+Info >
+
+.. = Driver 1| Acura Prox Part: 72147-TYA-AM-—
+ut - Driver2| Acura Prox Part: 72147-TYA-A21
+2022 E = river cura FProx Part: 1214 /- | m
+E 7 Driver 1 with Remote Start | Acura Prox Part: 72147-TYA-CO01
+Driver 2 with Remote Start | Acura Prox Part: 72147-FYA-C11 - =) =
+a = - Acura Emergency Boas 35118-TYA- A50 - Test key is not available yet. - .
+More == : - =
+Determinator: n/a Lishi: n/a AccuReader: O EEZ Reader: n/a Cobra: n/a
+
+» Prox Fob: For 72147-TYA-A1 8 A21 = FCC: KR5TP-2 / 434 MHz / MFR: Continental ==
+
+. Chip Information 8. Notes — o.
+
+É¿É£LO.C.OCOCIAIOC.L.aAA.
+
+o 0
+
+E Integrated Circuit Board | Reusable: No
+
+Transponder: Standard Proximity
+
+3 » Mike's Tip: e ss Required. Test YE is not available yet.
+> == == = == =
+z Programmer 8 e Tools =_ —
+E Factory Tool | (1 == MO = =>
+o Mal E CODE | [x TCODE/MVPPRO| |x TDB1000 x HOTWIRE
+= E QUIRED E is
+ol FHDS 8 =—— - — . — Es
+m 32534 € Only with | - E 2 |
+ps) Supscription ¡-HDS E SMART PRO E E AUTO PRO PAD. (e aura 1IM608
+
+= 2 = Check with your key programmer supplier to see if your vehicle is supported.
+
+22 - ACURA + HONDA == = ===. 01994, 2021 AutoSmart” by Michael Hyde
+
+€»)¿...L£OPEGICO.
+(
+
+000004
+
+0:0:0:0.0. 0
+
+0.0.0.0 .0:.0.0. 90.
+
+H1d30 Y 3DVAS
+
+. : continued - ACU-S7 SECTION
+
+po
+
+Code Series: VO91-W100
+
+DEPTHS-
+
+Bow -— SPACING -— Hp - a "7
+
+o
+.608 460 352 .224 | precut EXTERNAL 4-TRACK <
+= E Depths measured from <
+=_._.. . == = edge of blank. E
+E E sn E o a 0 = Spacing measured o
+— - - from tip. lo
+m
+.608 .460 302 .224 precut
+Codes: | Most locks will have a code onit,
+Decoders: | Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+KEYCODES: The codes are on Door locks €: Glove Box lock's.
+
+Preliminary Information: New keyway and code series for 2022 Acura MDX. The emergency key is stainless
+steel and very thin. Additional Honda vehicles will be phased in to this new keyway also.
+
+1) New keyway and code series for 2022 Acura MDX.
+2) The emergency key ¡is stainless steel and very thin. -
+3) The key only goes in one way and the cuts are different on each side.
+4) The tumblers in the door lock are steel.
+
+5) Curved side up of the Emerg key ¡is side A,
+
+6) Silca / ILCO Cutter: W192 - Decoder: U116 - Clamp Jaw: E
+7) 4 Cuts per Side - 6 Depths.
+
+8) You can buy a upgrade kit to Cut these from ILCO;
+
+Futura Upgrade Kit Link: —
+https: //acura.snapon.com/HondaAcura/Catalog/Product/ILCD7A28
+
+Tri-Code Upgrade Kit Link: —
+https://acura.snapon.com/HondaAcura/Catalog/Product/ILCD7A28
+
+METHOD 1: :
+Remove door or glove box lock and read code stamped on lock and make key by code. The code is stamped
+very small.
+
+METHOD 2:
+Disassemble door lock and make key.
+
+E DOOR GLOVE BOX
+-| Eprecut | 5 | 1precut 1precut +5 | 1precut
+4 4
+== E = (3| m
+2. 2 1 2 (2| m
+. (¿71m Sl
+L R E R
+
+a e
+
+01994, 2021 AutoSmart”* by Michael Hyde ACURA =- HONDA - 23
+HON-P1 SECTION ..= a
+
+2016-21 Accord (Honda) Prox
+macs | Startcut | CuttoCut | AirBags
+
+CODES | ign Retainer
+
+| caros | me
+
+-K001-N718 High Sec n/a n/a n/a n/a n/a Yes None
+| Different choices depending on trim level - Call the dealer with the VIN to get the right part.
+E 4 Door Models: 20SPT £ EX | Honda Prox: 72147-TVA-A01 (A02 for '21)
+m1a_o1 |  4Door Models: 20SPT, LX, Sport | Honda Prox: 72147-TVA-A11 (A12 for '21)
+2018-21 = sl — —
+MASTER e = Honda Prox: (drv 441) 72147-TVA-A21 (A22 for '21)
+- 4 Door Models: EX-L, Touring = , : =
+KEYS > = - Honda Prox: (drv +2) 72147-TVA-A31 (A32 for '21)
+E 2 Door EX-LV6 Models: | Honda Prox: 72147-12G-A71 — =
+2 2 4 Door EX Models - Manual Trans: Honda Prox: 72147-T2G-A61 -
+a 28.4 Door EX Models - CVT Trans: | Honda Prox: 72147-T2G-A31 .
+= E === Honda Prox: 72147-T2G-A41 (driver 41)
+2 £ 4 Door EX-L Models: == . ==
+E - Honda Prox: 72147-T2G-AB1 (driver 442)
+=> Honda Emergency Key: 35118-T2A-A5O (fits all above) - Test key is HDOO1.
+a Determinator: n/a Lishi: HON 66 | AccuReader: n/a EEZ Reader: n/a — | Cobra: n/a
+» Prox Fobs: Honda 2016-17 FCC: ACI932HKI310A - 433 MHz | 2018-19 FCC: CWTWBIGO090 - 433 MHz —
+
+— Manyaftermarket —
+
+versions ofthe Honda -
+Emergency Prox keys are
+not milled correctly and
+might fly out of your vise
+during cutting. ——
+No Remote Start All Models w/ Rmt Start 35118-T2A-A50 .
+Chip Information 8 Notes... . a
+Transponder: Standard Proximity Chip: Integrated Circuit Board - —| Reusable: Yes
+= » Mike's Tip: Key Programmer Required. Test key is HDO01. -
+4 Programmer € Diagnostic Tools === =>
+Ez _—— . sa : __————
+Factory Tool . - Í E
+o Mo SURE ( TCODE/MVP PRO 8 TDB1000 (A HOTWIRE
+= ¡-HDS € A] —————— => -
+m J2534 8 Only with 5 > ==
+SE | Supscription | | i-HDS [- SMARTPRO (- AUTO PRO PAD y AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+24 - ACURA » HONDA . E== => a 01994, 2021 AutoSmart” by Michael Hyde
+
+¿LOLAS
+
+€»p)¿.O..wsP.pEOOECO
+0000041)
+
+00000500 (
+
+(
+
+continued - HON-P1 SECTION
+
+wm  CodeSeries:K/L/M/N =
+: DEPTHS 10
+y EN SPACING Tip _ <
+O E D C B M/V EXTERNAL a E 041 <
+m precut 4-TRACK 2 =.056 P
+PA 724 | .604 | .484 | .364 | .244 Depths measured | 3 =.070 o
+z - z - = - from 4= .084 lo
+m AS 5 Sad 6 edge of blank. | 5=.098 =
+3 724 .604 | .484 | .364 | .244 Spacing measured | 6=.112 «q
+recut from tip.
+TI Y H G F a PP
+Codes: | Most locks will have a code on it.
+Decoders: | Determinator: n/a Lishi:-HON 66 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+KEYCODES: The codes are on MOST locks £« some glove box's. The code number in the U.S. will always start
+with a "K" “P' *"M” or “N” The code seriesis as follows: K001-K999, LOO1-L999, MO01-M999 £ NOO1-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk 8 trunk
+lock-out, if equipped. Positions 1 through 4 are Split Tumblers, Position 5 is one Solid Tumbler with 2 different depths,
+one side has the notch for the Valet cut and the other has an combination depth. Postion 6 is always a pre-cut to
+
+number 1. : :
+Guide for Correct Depth on Position “A”
+Code Series: Depth of “A” Position
+K001 to K684, L349 to M032 8 M697 to N214 3
+K685 to L348, MO33 to M696 £ N215 to N718 5
+Method +1 Use a Lishi HON66 Lock Reader / Decoder.
+Method 42 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left
+-— side ofthe drivers seat), if the car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+Method $3 Remove door lock and read code stamped on lock and make key by code or disassemble door
+lock and make key.
+DOOR GLOVE BOX 1 GLOVE BOX 2
+precut | 6 | precut precut | 6 | precut precut | 6 | precut
+M/M | 5 A M/V |5 A M/V | 5 A
+[4 -. .4m . 4| 1 Some Glove Box's
+3 E a 3 a mn] 3 a have more tumblers
+. z = than others.
+2 n n 2 n 2
+1 L] 1 1
+L R L R L R
+
+000000090
+
+(
+
+(
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+ACURA . HONDA - 25
+HON-P2 SECTION
+E 2017-21 Accord Hybrid (Honda) Prox
+
+CODES | se | caros | mi | macs | startcut | CuttoCut | AirBags
+
+| ign Retainer
+
+K001-N718 High Sec nla==|+ ale n/a n/a .a None.
+: = Different os depending on trim level - see E below: ==
+== Base Hybrid: Honda Prox: 72147-TWA-AM (18-20) 1 72147-TVA-A02 ('21) ==
+Mo a o EXE S TOURING | Honda Prox: (drv +41) 72147-TWA-A21 (18-20) / 72147-TVA-A22 ('21)
+apo | Hybrid Models: | Honda Prox: (drv 442) 72147-TWA-A31 (18-20) / 72147-.TVA-A32 (21)
+
+- Base Hybrid: Honda Prox: 72147-T2G-A01
+
+2017 > | ExL go TOURING | Honda Prox: 72147-T2G-AM (driver ++1)
+
+Hybrid Models: | Honda Prox: 72147-T2G-A21 (driver 2) —=
+
+Honda Emergency Key: 35118-T2A-A50 (fits all above) - Test key is HDOO!.
+
+More
+Info> -
+
+Determinator: n/a Lishi: HON. 66 AccuReader: n/a -| EEZ Reader: n/a - Cobra: n/a
+
+» Prox Fobs: Honda 2017 FCC: ACI932HKI3IOA - 433 MHZ | 2018-19 FCC: CWTWBIGOO90 - 433 MHz
+
+Many aftermarket E
+versions of the Honda
+Emergency Prox keys are
+not milled correctly and ==
+might fly out of your vise
+during cutting. —
+== All 2017+ Hybrid Models
+Chip Information 8, Notes. == :
+Transponder: Standard Proximity — | Chip: Integrated Circuit Board | Reusable: Yes =
+» Mike's Tip: Key Programmer Required. Test key is HDO01. = :
+E Cloner Machine Information => . o
+= No Cloning for this Proximity System
+= Programmer 8. Diagnostic Tools . _—= + .
+Factory Tool SS - = -
+A (FestomToo Y f eincoDE A (7 rconemverro| [vu ToB1000 Y HOTWIRE
+>] +. REQUIRED qe o
+¡-HDS 4 A == == =
+J2534 Y Only with . z == = -
+Supscription | | ¡-HDS ( SMART PRO (- AUTO PRO PAD | (- AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+26 - ACURA - HONDA E == 01994, 2021 AutoSmart” by Michael Hyde
+
+€¿£O060O0O0OOAOAAAAOAAAAAAAAIA.
+(
+
+00000 :.000.0
+
+€
+
+0.000.00000.0 m1
+
+H1d30 Y JIDVAS
+
+continued - HON-P2 SECTION
+
+Code Series: K/L/M/N =
+Bow SPACING Tip paa 2
+= D C B M/V EXTERNAL 1=.041 XL
+4-TRACK po p
+- : precut a
+724 604 484 364 244 Depths measured | 3 = -070 co
+= from 4= .084 o
+1 2 z 4 E SE 6 edge of blank, 5 =.098 E
+724 604 | .484 | .364 | .244 Spacing measured | 6=.112
+t from tip.
+r H G F a ==
+Codes: | Most locks will have a code onit.
+Decoders: | Determinator: n/a Lishi: HON 66 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+KEYCODES: The codes are on MOST locks £ some glove box's. The code number in the U.S. will always start
+with a *K* “E” *M' or'N'. The code series is as follows: K001-K999, LO01-L999, MO01-M999 £ NOO1-N718.
+
+CUFTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk 8ctrunk
+lock-out, if equipped. Positions 1 through 4 are Split Tumblers, Position 5 is one Solid Tumbler with 2 different depths,
+one side has the notch for the Valet cut and the other has an combination depth. Postion 6 is always a pre-cut to
+
+number 1.
+
+Guide for Correct Depth on Position “A”
+
+Code Series: Depth of “A” Position
+K001 to K684, L349 to MO32 € M697 to N214 3
+K685 to L348, MO33 to M696 £ N215 to N718 5
+
+Method 41 Use a Lishi HON66 Lock Reader / Decoder.
+
+Method +2 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left
+side of the drivers seat), if the car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+
+Method +3 Remove door lock and read code stamped on lock and make key by code or disassemble door
+
+lock and make key.
+
+GLOVE BOX 2
+
+DOOR GLOVE BOX 1
+precut-|6- -precut precut-| 6 | precut precut | 6 | precut
+M/NV |5 A M/V|5 A M/V|51 A
+4 4| E . (45 Some Glove Box's
+3 a 3 a a 31m have more tumblers
++ : - than others.
+2 » nn 2 n 2
+E = [2 1 1
+En R E R L R
+
+e
+
+¡e
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+ACURA » HONDA - 27
+HON-P3 SECTION. .
+
+2013-15 Accord (Honda) Prox
+
+| sr | caro | mie | macs | startcut | CuttoCut | AirBags | tgnRetainer
+-  KO01-N718 High Sec ] mí .
+Different choices depending on trim level and 2 or 4 door models - see chart below:
+2 Door EX 8 EX-L Models: | Honda Prox Part: 72147-T2A-A01
+MASTER E = : == E
+== => a 4 Door EX Models: | Honda Prox Part: 72147-T2A-A01
+Ej E = = Honda Prox Part: 72147-T2A-AM (driver 441)
+2 Door EX-L with V6 Models: = = = ==
+== | Honda Prox Part: 72147-T2A-A21 (driver +12)
+-— : Honda Prox Part: 72147-T2A-A11 (driver +1)
+4 Door EX-L q
+| Honda Prox Part: 72147- -T2A-A21 (driver 2)
+Honda Emergency Key: 35118-T2A- A5O (fits all above) - Test key is HDOO1.
+o Determinator: n/a -| Lishi: HON-66 - AccuReader: n/a EEZ Reader: n/a |Cobra: n/a-
+1» Prox Fob: 72147-T2A- A01, AM, A21 - FCC: IPRAIEOn 1C=216)- -HKIZ10A | 313 MHz | MER: > 3
+
+Many aftermarket
+versions ofthe Honda
+Emergency Proxkeys are
+not milled correctly and
+might fly out of your vise
+- during cutting.
+All 2013-15 Models
+-Chip Information 8. Notes ma. ===>
+Transponder: Standard Proximity | Chip: Integrated Circuit Board Reusable: Yes
+» Mike's Tip: Key Programmer Required. Test cn is HDOO1,—
+nl - Cloner Machine Information e - E = : .
+A == == =
+>
+- No Cloning for this Proximity System
+O A . E Mi E
+= Programmer 8. Diagnostic Tools << : E ==
+U = > — . - — = = = = =
+Factory Tool == =>
+Uy (atemtoo | [ PINCODE | [ rcomemvePrRo| | TDB1000 Y HOTWIRE
+> : _ REQUIRED a BE
+¡i-HDS 8 —— _ ==
+J2534 Y Only with == am E ==
+Supscription i-HDS ( SMARTPRO | ( AUTO PRO PAD (- AUTEL IM608
+
+2 = Check with your key programmer supplier to see ifyour vehicle is supported.
+
+28 - ACURA =. HONDA => == == 01994, 2021 AutoSmart” by Michael Hyde
+
+.0.00000000009090
+
+¿LAOCOEO.AISO
+(
+
+000000006
+
+0.0.0. 0.4
+
+0000.00
+
+continued - HON-P3 SECTION
+
+CodeSeries:K/L/M/N : S
+z DEPTHS 10
+ng Bow SPACING Tip <
+O E D G B M/V EXTERNAL 3 A -041 Es
+m precut 4-TRACK 2=.056 a
+724 604 | .484 | .364 | .244 Depths measured | 3=.070 fa
+. - ol 4 =.084 lo
+5 = a 2 >». edge of blank, = .098 E
+A 724 | .604 | .484 | .364 | .244 Spacing measured | 6 =.112
+e precut - —fromtip.
+J H G F A
+Codes: | Mostlocks will have a code ont.
+Decoders: | Determinator: n/a Lishi: HON-66 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+- KEYCODES: The codes are on MOST locks £ some glove box's. The code number in the-U.S. will always start
+with a "K" "L' "M” or“N” Thecode series is as follows: K001-K999, LO01-L999, MO01-M999 £ NO01-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk 8: trunk
+lock-out, if equipped. Positions 1 through 4 are Split Tumblers, Position 5:is one Solid Tumbler with 2 different depths,
+one side has the notch for the Valet cut and the other has an combination depth. Postion 6 is always a pre-cutto
+
+number 1.
+
+Guide for Correct Depth on Position “A”
+
+K685 to L348, MO33 to M696 £ N215 to N718
+
+Code Series: Depth of “A” Position
+K001 to K684, L349 to M0O32 8 M697 to N214 3
+5
+
+Method +1 Use a Lishi HON66 Lock Reader / Decoder,
+
+Method +2 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left
+side of the drivers seat), if the car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+
+Method +3 Remove door lock and read code stamped on lock and make key by code or disassemble door
+
+lock and make key.
+
+DOOR GLOVE BOX 1 GLOVE BOX 2
+precut-|6 | precut precut | 6 | precut precut | 6 | precut
+M/V |5 A M/V|5 A M/NV|5 A
+4| EW Si Y 4/| E Some Glove Box's
+3 E 31m 3 a have more tumblers
+- . than others.
+2 n 2 n 2
+1 nm 1 1
+E R L R L R
+
+[e
+
+us
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+ACURA - HONDA - 29
+HON-P4 SECTION
+: EE 2014-21 Civic (Honda) Prox
+
+| macs | startcut | CuttoCut | AirBags
+
+| ign Retainer
+
+CODES | sme | caros | true
+
+-KO01-N718 High Sec ma== le =n/a Yes None
+2014-15 >> . - ProxFob: 72147-T2A-A01
+MASTER [28 4 Door 2165 Prox Fob: 72147-TBA-A1 E
+E o 2017-21 9 Prox Fob: 72147-TBA-A01 (4 Btn) | 72147-TBA-A12 (5 Btn)
+2017-19 > |  ProxFob:72147-TGG-A11 (4 Btn) | 72147-TGG-A21 (5 Btn)
+1 2020-21 >> Prox Fob: 72147-TGG-A12 (4 Bin) | 72147-TGG-A22 (5 Btn)
+= Honda Emergency Key: 35118-T2A-A5O (fits all above) - Test key is HDOO1. :
+More | Determinator: n/a | Lishi: HON 66 | AccuReader: n/a |EEZReader: n/a | Cobra: n/a.
+| info=> — [) ProxFob: 72147:TBA-A1I 8 TGG-AM - FCC: KR5V2X | IC: 7812D-V2X | 434 MHz | MFR: Continental
+» Prox Fob: 72147-12A-A01- FCC: ACI932HK12104 | 1C; 216)-HKI210A | 313 MHz | MFR: Panasonic
+
+Many aftermarket versions ofthe Honda Emergency Prox keys are not milled
+correctly and might fly out of your vise during cutting. o
+
+-72147-T2A-AO1, TBA-AO1 T2MTTBA-A TRTIGGAM—  72AT-TGGAA2! - 35118-T2A-A50 |
+
+Chip Information 8, Notes : ==
+
+Transponder: Standard Proximity Chip: Integrated Circuit Board Reusable: Yes
+
+» Mike's Tip: Key Programmer Required. Test key is HDOO1.
+
+E Cloner Machine Information
+
+A => s =
+
+A No Cloning for this Proximity System ==
+
+TU — — = a. === ===> _
+
+= _ Programmer 8 Diagnostic Tools == a ==
+Factory Tool a . : . o E
+
+5 E e (- TCODE/MVP PRO. (- TDB1000 (- HOTWIRE
+¡i-HDS 4 A . = ,
+J2534 8 Only with E E : :
+Supscription I-HDS [- SMARTPRO (e AUTO PRO PAD (+ aun msos
+
+2 = Check with your key programmer supplier to see if your vehicle is supported. E
+
+30 - ACURA + HONDA
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+€,.O0O LO
+
+)
+
+€¿)¿010.OL6LAILIA Ls Po.
+
+,..0
+
+)
+00000000000 (
+
+0.0016
+
+00.0.
+
+€
+
+HA1d30 Y 3IDVAS
+
+continued - HON-P4 SECTION
+
+Code Series: K/L/M/N >
+Sow SPACING Tip 1 2
+= D E B EXTERNAL 127 <X
+4-TRACK odo PE
+precut 7
+724 604 484 364 .244 E Depths measured | 3 =.070 o
+= = - from 4= .084 Lo
+=l 2 a == 5 6 edge of blank. 5 =.098 SE
+.724 .604 484 | .364 | .244 Spacing measured | 6 =.112
+precut from tip.
+J H G E A -
+Codes: | Mostlocks will have a code onit.
+Decoders: Determinator: n/a Lishi: HON-66 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+KEYCODES: The codes are on MOST locks « some glove box's. The code number in the U.S. will always start
+with a*K” "PL *M” or "N'” The code series is as follows: K001-K999, LO01-L999, MO01-M999 £ NOO1-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk 8; trunk
+lock-out, if equipped. Positions 1 through 4 are Split Tumblers, Position 5 is one Solid Tumbler with 2 different depths,
+one side has the notch for the Valet cut and the other has an combination depth. Postion 6 is always a pre-cut to
+
+number 1.
+
+Guide for Correct Depth on Position “A”.
+
+Depth of “A” Position
+
+Code Series:
+K001 to K684, L349 to M032 8cM697 to N214 3
+K685 to 1348, MO33 to M696 £ N215 to N718 5
+
+Method ¿+1 Use a Lishi HON66 Lock Reader / Decoder.
+
+Method 42 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left]
+E side of the drivers seat), if the car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+
+Method +3 Remove door lock and read code stamped on lock and make key by code or disassemble door
+
+lock and make key.
+
+DOOR GLOVE BOX 1 GLOVE BOX 2
+-precut | 6 | precut precut | 6 | precut precut | 6 | precut
+MM |5 A M/V|5 A M/V|5 A
+. 4 U . 4 . 4 U Some Glove Box's
+7 3 a a 3 n have more tumblers
+== than others.
+B 2 n n 2 ES 2
+1 L] 1 1
+L R E R E R
+
+(e
+
+[e
+
+e» |
+
+01994, 2021 AutoSmart”by Michael Hyde
+
+ACURA . HONDA - 31
+HON-P5 SECTION
+
+2015-21 CR-V (Honda) Prox
+| sme | caroe |
+High Sec
+
+má | macs | Startcut | cuttocut | AirBags | ignRetainer
+
+K001-N718 nía | na na | na | Yes None
+
+Different choices depending on trim level - see chart below:
+
+EX Models: | Honda Prox: 72147-TLA-A01 (17-19) / 72147-TLA-A02 ('20-'21)
+
+MASTER .: y ' —
+: 2017-21 | Ea se TOURING | Honda Prox: 72147-TLA-A% (drv 41) (117-119) / 72147-TLA-A12 ('20-'21)
+
+KEYS => E Models: _— - ===. = e
+odels: | Honda Prox: 72147-TLA-A21 (drv 42) (17-19) / 72147-TLA-A22 (20-21)
+: EX 8e EXL Models: | Honda Prox Part: 72147-TOA-A1 :
+2019-16 TOURING | Honda Prox Part: 72147-TOA-A21 (driver +1)
+
+Models: Honda Prox Part: 72147-TOA-A31 (driver 2) —
+
+Honda Emergency Key: 35118-T2A-A50 (fits all above) - Test key is HDOO1,
+
+More
+
+Determinator: n/a | Lishi: HON 66 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Info> |» ProxFob: 72147-TLA-A01, ATI, A21- FCC: KR5V2X | 433 MHz —
+
+» Prox Fob: 72147-TOA-AII - FCC: ACI932HKI210A | 1C: 216)-HKI210A | 313 MHz | MFR: Panasonic |
+
+€¿)¿0O00O000....
+
+Many aftermarket
+
+versions ofthe Honda
+Emergency Prox keys are
+
+= not milled correctly and
+might fly out of your vise
+
+during cutting.
+72147-TOA-Al, A21, AS] 72147-TLA-AO1, AM, AQ1 : - 35118-T2A-A50
+Chip Information 8. Notes ...... ==. ==.
+Transponder: Standard Proximity Chip: Integrated Circuit Board Reusable: Yes
+
+» Mike's Tip: Key Programmer Required. Test key is HDOO1.
+
+E Cloner Machine Information = s
+zm - E E >
+p ==...
+= No Cloning for this Proximity System
+S Programmer 8 Diagnostic Tools  — =o o
+U == == == y
+Factory Tool = .
+uy petey too | [ PINCODE | | rcopemvPPRo| |v TDB1000 Y HOTWIRE
+0 = | REQUIRED z . o ;
+¡i-HDS € O = = = ==
+J2534 8 Only with E ==. E
+Supscription i-HDS (y suarr PRO (- AUTO PRO PAD q AUTEL.IM608
+
+€»...
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+32 - ACURA =» HONDA . ==. 2 == => 01994, 2021 AMoSmarr” by Michael Hyde
+
+,oe
+
+)
+
+)0e...E.
+
+)
+
+E
+0.00000000000.00 1
+
+00.00.0000 .060
+
+H1d30 Y 3IDVAS
+
+continued - HON-P5 SECTION
+
+Code Series: K/L/M/N =
+DEPTHS [19]
+1=.041 >
+
+E D E B M/V EXTERNAL . <X
+E : 4-TRACK 2= 089 S
+precut =
+
+724 604 484 364 .244 Depths measured | 3=-070 Es
+
+from 4=.084 Lo
+1 2 1 3 4 o 6 edge of blank. | 5=.098 a
+724 604 484 364 | .244 Spacing measured | 6 =.112
+precut from tip.
+J H 6 F A
+Codes: | Most locks will have a code on it.
+Decoders: | Determinator: n/a Lishi: HON 66 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+KEYCODES: The codes are on MOST locks £ some glove box's. The code number in the U.S. will always start
+with a *K" "L' “M' or“N" The code series is as follows: K001-K999, LOO1-L999, MO01-M999 £ NOO1-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk 8ctrunk
+lock-out, if equipped. Positions + through 4 are Split Tumblers, Position 5 is one Solid Tumbler with 2 different depths,
+one side has the notch for the Valet cut and the other has an combination depth. Postion 6 is always a pre-cut to
+
+number 1.
+
+Guide for Correct Depth on Position spr
+
+Depth of “A” Position
+
+Code Series:
+K001 to K684, L349 to M0O32 8 M697 to N214 3
+K685 to L348, MO33 to M696 € N215 to N718 5
+
+Method +1 Use a Lishi HON66 Lock Reader / Decoder.
+
+Method +2 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left
+side of the drivers seat), if the car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+
+Method +3 Remove door lock and read code stamped on lock and make key by code or disassemble door
+
+lock and make key.
+
+DOOR GLOVE BOX 1 GLOVE BOX 2
+precut | 6 | precut precut | 6 | precut precut | 6 | precut
+M/NV |5 A M/V|5 A M/V | 5 A
+4 n 4 n 4 E
+ES m 3 n 3 "
+2 1] 2 n 2
+10m 1
+L R L R L R
+
+¡e
+
+ea
+
+Some Glove Box's
+have more tumblers
+than others.
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+ACURA - HONDA - 33
+HON-P6 SECTION. o
+
+2013-15 Crosstour (Honda) Prox 2016 CR-Z (Honda) Prox- 2015-20 Fit (Honda) Prox
+
+mue | macs | Startcut | CuttoCut | AirBags | IgnRetainer
+
+CODES | sme | carog |
+
+K001-N718 | HighSec | n/a | n/a | n/a None
+: - EX Models: | Honda Prox Part: 72147-TP6-A51. os
+MASTER Crosstour > | 2013-15 ext modate, [Honda Prox Part 72147-TP6-A61 (driver 41)
+KEYS => = E Honda Prox Part: 72147-TP6-A71 (driver ++2)
+CR-Z > 2016 All Models: | Honda Prox Part: 72147-SZT-A01
+: === 20151 All Models: | Honda Prox Part:72147-T5A-A01 >
+nn -|-2018-20 All Models: | Honda Prox Part:72147-175-A01
+Honda Emergency Key: 35118-TZA-A5O0 (fits all above) - Test key is HDOO1.
+More Determinator: n/a Lishi: HON 66 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+into:> [> ProxFob: Crosstour ECC: ACI932HKIZ10A - 313 MHz | » Prox Fob: CR-Z Hybrid FCC: ACI932HKISIOA - 433 MHz
+» Prox Fob: FIT FCC: KR5VIX - 313 MHZ == E
+
+72147-TP6-A51, 61,71 72147-T5A-A01 72147-SZT-A01 8 T7S-A01 —35118-T2A-A50
+
+Many aftermarket versions of the Honda Emergency Prox keys are not milled
+correctly and might fly out of your vise during cutting.
+
+| Chip Information 8 Notes a. a
+
+Transponder: Standard Proximity = Chip: Integrated Circuit Board Reusable: Yes
+
+» Mike's Tip: Key Programmer Required. Test key is HDOO!1. =- = E ==
+
+El Cloner Machine Information > _ E
+
+z d ) E MB Cloning for this Proximity System
+
+ES] Programmer 8. Diagnostic Tools — E z - ==
+
+2 , E = , a
+
+m ap ' a (+ rconemve PRO| (- ToB1000 | (- HOTWIRE
+325348 | | Onlywith ===> = =
+OS pantion i-HDS (- SMART PRO ( AUTO PRO PAD | (» AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+34 - ACURA . HONDA
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+LICEETENAEEEANEMNNMEAMAAN E
+00000000080000000000.00 01
+
+o...
+
+(
+
+Code Series: K/L/M/N
+
+continued - HON-P6 SECTION
+
+122) o
+> EN SPACING Tip pa 2
+O E e B M/V EXTERNAL , y qm =
+m . precut 4-TRACK 2 =.056 E
+PA .724 | .604 | .484 | .364 | .244 Depths measured | 3=.070 E
+: E from 4=.084 lo
+E 1 3 E => Ss 6 edge of blank. 5 = .098 E
+3 .724 | .604 | 484 | .364 | .244 Spacing measured | 6 =.112 «q
+recut from tip. :
+1 MH G F >
+Codes: | Most locks will have a code on it.
+Decoders: |Determinator: n/a Lishi:-HON 66 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+KEYCODES: The codes are on MOST locks £ some glove box's. The code number in the U.S. will always start
+with a *K” “L' *“M"or'N” Thecode series is as follows: K001-K999, LOO01-L999, MO01-M999 £ NOO1-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk 8: trunk
+lock-out, if equipped. Positions Tthrough 4 are Split Tumblers, Position 5-is one Solid Tumbler with 2 different depths,
+one side has the notch for the Valet cut and the other has an combination depth. Postion 6 is always a pre-cut to
+
+number 1.
+Guide for Correct Depth on Position “A”
+Code Series: Depth of “A” Position
+K001 to K684, L349 to MO32 8 M697 to N214 3
+K685 to L348, MO33 to M696 € N215 to N718 5
+
+Method +1 Use a Lishi HON66 Lock Reader / Decoder.
+
+Method 2 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left;
+side ofthe drivers seat), if the car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+
+Method 43 Remove door lock and read code stamped on lock and make key by code or disassemble door
+lock and make key.
+
+DOOR GLOVE BOX 1 GLOVE BOX 2
+precut | 6 | precut precut 6 | precut precut | 6 | precut
+M/V|5 A MNV|5| A M/NV|5 A
+a . (4 m . 1 - . Some Glove Box's
+3 a =n 3 A s 3 a have more tumblers
+: than others.
+2 ] n 2 E 2
+1 L] + 1
+R E R L R
+
+e)
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+ACURA . HONDA - 35
+HON-P7 SECTION
+
+2017-18 Clarity Electric (Honda) | 2017-21 Clarity Fuel Cell (Honda) 2018-21 Clarity Plug In (Honda)
+
+CODES |  smE
+
+| caro | mie | macs | StartCut | CuttoCut | AirBags | IgnRetainer
+
+—K001-N718 HighSec | n/a n/a | na n/a =F=8 Yes None
+¡ Driver 1: | Honda Prox Part: 72147-TRW-AM =
+Oy 2017-18
+- Electric > => Driver 2: | Honda Prox Part: 72147-TRW-A21
+MASTER = - ==
+Clarity Driver 1: | Honda Prox Part: 72147-TRT-A01
+KEYS > 2017-21
+Fuel Cell > o Driver 2: | Honda Prox Part: 72147-TRT-AM
+Base Model | Honda Prox: 72147-TRW-A01 (18) 1 A02 (19-21) -
+<> 2018-21 Driver 1: | Honda Prox: 72147-TRW-A11 or A12 (18-21)
+Plug In > = : _ : -
+. Driver 2: | Honda Prox: 72147-TRW-A21 (18) / A22 (19-21) -
+More Frios Honda Emergency Key: 35118-T2A-A50 (fits all above) - Test key is HDO01.
+Info> | Determinator: n/a — |LishiHON66 | AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Many aftermarket
+versions ofthe Honda
+Emergency Prox keys are
+E not milled correctly and —
+might fly out ofyour vise
+
+during cutting.
+
+5 Button with Rmt Start 351M8-T2A-A50 |
+
+Reusable: Yes
+
+Chip: Integrated Circuit Board -
+
+Transponder: Standard Proximity
+
+» Mike's Tip: Key Programmer Required. Test key ¡is HDOO!.
+
+] Cloner Machine Information o >
+== natic =
+S No Cloning for this Proximity System
+U a => = - o = E = == =—
+= Programmer 8. Diagnostic Tools. . .
+a] —= : :
+Factory Tool = _— = =
+m A nt Y TCODE/MVP PRO| |? TDB1000 vY_HOTWIRE
+= REQUIRED — == es
+EE E
+32534 Only with => -
+Supscription i-HDS [ SMARTPRO || (7 AUTO PRO PAD | (7 AUTEL IM608
+
+2 = Check with your key programmer supplier to see if your vehicle is supported.
+
+36 - ACURA » HONDA
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+¿2000000000000 0009090
+
+)
+
+)
+000000000 0000.0 0 1
+
+€
+
+00004
+
+H1d30 Y JDVAS
+
+continued - HON-P7 SECTION
+
+Code Series: K/L/M/N = 1
+Bow SPACING =p 0H 2
+== - D C B M/V - EXTERNAL = <X
+E 4-TRACK 2 = .056 =
+precut 7
+.724 | .604 | 484 | .364 | .244 Depths measured | 3=.070 o
+== 7 5 ==. from 4= .084 lo
+1 == 2 3 a 2? 6 edge of blank. 5 =.098 je
+724 | .604 | .484 | .364 | .244 Spacing measured | 6 =.112
+precut from tip.
+J H G F A
+Codes: | Most locks will have a code onit.
+
+Decoders: | Determinator: n/a Lishi: HON-66 AccuReader:-n/a EEZ Reader: n/a Cobra: n/a
+
+KEYCODES: The codes are on MOST locks £« some glove box's. The code number in the U.S. will always start
+with a*K” "1?" *M” or "N”. The code series is as follows: K001-K999, LO01-L999, MO01-M999 £ NOO01-N718.
+
+CUTTING THE KEY: When you are manually cutting-the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk £ trunk
+lock-out, if equipped. Positions 1 through 4 are Split Tumblers, Position 5 is one Solid Tumbler with 2 different depths,
+one side has the notch for the Valet cut and the other has an combination depth. Postion 6 is always a pre-cut to
+number 1.
+
+Guide for Correct Depth on Position a .—
+
+Code Series: Depth of “A” Position
+K001 to K684, 1349 to MO32 8 M697 to N214 3
+K685 to L348, MO33 to M696 £ N215 to N718 5
+
+Method 41 Use a Lishi HON66 Lock Reader / Decoder.
+
+Method +2 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left
+side of the drivers seat), if the car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+
+Method ¿+3 Remove door lock and read code stamped on lock and make key by code or disassemble door
+lock and make key.
+
+DOOR GLOVE BOX 1 GLOVE BOX 2
+precut | 6 | precut —precut | 6 | precut precut | 6 | precut
+M/V |5 A M/V|5 A M/V|5 A
+A q E . (¿| Om Some Glove Box's
+31m 3 a z 3 a have more tumblers
+== _ = than others. —
+mn 2 nm 2 n 2
+1|m 1 1
+L R E R E R
+01994, 2021 AutoSmart” by Michael Hyde ACURA - HONDA - 37
+HON-P8 SECTION —
+
+K001-N718_ - High Sec
+
+None
+
+HR-V > | 2016-21 Prox Models: | Honda Prox Part: 72147-T7S-A01
+= EX €: TOURIN Models: | Honda Prox Part: 72147-TWA-A4
+Insight > | 2019-21
+- LX Models: | Honda Prox Part: 72147-TXM-A01 :
+RT Models: | Honda Prox Part: 72147-T6Z-A01 (7-19)
+Ridgeline - | RT, RTL,RTS Models: | Honda Prox Part: 72147-T6Z-A11 (17-119) / A51 (20-21)
+2017-21 F= > == =
+ES : Honda Prox Part: 72147-T6Z-A21 (driver 41) / A61 ('20-'21)
+BLACK 2 RTL (E) — -
+- Honda Prox Part: 72147-T6Z-A31 (driver 42) / A71 ('20-'21)
+- Honda Emergency Key: 35118-T2A-A5O0 (fits all above) - Test key is HDOO!.
+More | Determinator: n/a Lishi=HON 66 | AccuReader: n/a EEZ Reader: n/a | Cobra: n/a
+
+€»)... .£.£..£.0.
+
+Info =>
+
+» Prox Fob: For 72147-77S-A01 = FCC: KR5VIX]| 314 MHz | » For 72147-TWA-A1I = FCC: CWTWBIG0090 | 433 MHz
+
+12147-T7S-A01
+
+72147-16Z-A01
+
+Many aftermarket versions ofthe Honda Emergency Prox keys are not milled
+correctly and might fly out of your vise during cutting.
+
+» Prox Fob: 72147-T6Z-A01 = Continental 1D: A2C97488300 | 72147-T6Z-A11 = Continental ID: A2C97488400
+
+72147-TWA-AM
+
+——TAMITGZAN
+
+- 3518-T2A-A50 |
+
+Chip Information 8, Notes >
+
+Transponder: Standard Proximity
+
+Chip: Integrated Circuit Board
+
+| Reusable: Yes
+
+(- TCODE/MVP PRO
+
+(- TDB1000 q HOTWIRE
+
+>: » Mike's Tip: Key Programmer Required. Test key is HDOO!1. -
+= Programmer 8 Diagnostic Tools
+U :
+Y] (FactoryToo! | ([ PINCODE
+=. REQUIRED
+$ ¡-HDS 8 E
+m J2534 8 Only with
+A .. :
+Supscription ¡-HDS
+
+Y SMART PRO
+
+(- AUTO PRO PAD (- AUTEL 1M608
+
+2 = Check with your key programmer supplier to see if your vehicle is supported.
+
+38 - ACURA » HONDA
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+)
+
+)
+
+»).OCUOIA.
+
+,)0.0:0
+
+)
+46.0.0.0:0.0.0 "0.0.0. 0.08. 0,0 0.0.0:0.0 0.4
+
+(
+
+continued - HON-P8 SECTION
+
+wm  CodeSeries:K/L/M/N =
+y En SPACING Tio A 2
+O É D Cc B M/V EXTERNAL | 1 a 21 <
+m precut 4-TRACK 2 = 056 E
+724 604 | .484 364 | .244 Depths measured | 3=-070 E
+> E from 4=.084 lo
+a 1 | 2 E 6 edge of blank. | 5=.098 DE
+A 724 | .604 | 484 | .364 | .244 Spacing measured | 6 =.112 «q
+> precut fromtip. :
+J H G E A
+Codes: | Mostlocks will have a code ont.
+Decoders: | Determinator: n/a Lishi: HON 66 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+KEYCODES: The codes are on MOST locks £ some glove box's. The code number in the U.S, will always start
+with a “K” “E” “M” or “N”. The code series is as follows: K001-K999, LOO1-L999, MO01-M999 £ NOO1-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk 8ctrunk
+-lock-out, if equipped. Positions 1 through 4 are Split Tumblers, Position 5 is one Solid Tumbler with 2 different depths,
+one side has the notch for the Valet cut and the other has an combination depth. Postion 6 is always a pre-cutto
+number 1.
+
+Guide for Correct Depth on Position “A”
+
+Code Series: Depth of “A” Position
+K001 to K684, L349 to M032 8: M697 to N214 3
+K685 to L348, MO33 to M696 8 N215 to N718 5
+
+Method +1 Use a Lishi HON66 Lock Reader / Decoder.
+Method 42 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left
+side of the drivers seat), if the car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+Method +3 Remove door lock and read code stamped on lock and make key by code or disassemble door
+lock and make key.
+
+DOOR GLOVE BOX 1 GLOVE BOX 2
+
+precut | 6 | precut precut | 6 | precut = precut | 6 | precut
+M/M |5 A M/V |5 A MV |5| A
+4] m . 14 Mm == » Some Glove Box's
+3 a 3 a 3 a have more tumblers
+== than others.
+n 2 n n 2 n 2
+3 ” E 1 1
+L R E R L R
+01994, 2021 AutoSmart* by Michael Hyde ACURA =. HONDA - 39
+HON-P9 SECTION
+== z 2014-21 Odyssey (Honda) Prox
+
+| ste | caros | mu | macs | startcut | CuttoCut | AirBags | IgnRetainer
+
+K001-N718 High Sec n/a n/a n/a n/a n/a Yes None
+
+Different choices depending on trim level - see chart below:
+
+LX Models: | Honda Prox: 72147-THR-AO1 (18-20) / 72147-THR-A41 (21)
+
+MASTER
+
+2018-21 EX Models: | Honda Prox: 72147-THR-AM1 (18-20) / 72147-THR-A51 (21)
+a ELITE, EXL £ | Honda Prox: 72147-THR-A21 (dr 41) (18-20) 4 72147-THR-A61 (21)
+
+KEYS 5> : =>
+TOURIN Models: | Honda Prox: 72147-THR-A31 (dr +2) (18-20) / 72147-THR-A72 (21)
+
+EXL Models: | Honda Prox: 72147-TK8-A51
+
+201 4-1 7 Honda Prox: 72147-TK8-A61 (driver $1)
+
+TOURIN Models: -
+= Honda Prox: 72147-TK8-A71 (driver +2)
+
+EX Models: | Honda Prox: 72147-TK8-A81
+
+Honda Emergency Key: 35118-T2A-A50 (fits all above) - Test key is HDOO1.
+
+More |Determinator: n/a Lishi: HON 66 | AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Info> |» Prox Fob: For 72147-TK8-A51, A61, A71 8. A81 = FCC: KR5VIX| 313 MHz | MFR: Continental
+
+» Prox Fob: For 72147-THR-A01, ATI, A21 8 A31 = FCC: KR5V2X | 433 MHz | MFR: Continental
+
+72147-THR-A01 72147-TK8-A81 72147-TK8-A51,61,71 —— 72147-THR-AN,21, 31
+
+Many aftermarket versions ofthe Honda Emergency Prox keys are not milled
+correctly and might fly out ofyour vise during cutting.
+
+e
+
+-Chip Information 8 Notes. ===> E
+
+Transponder: Standard Proximity Chip: Integrated Circuit Board | Reusable: Yes
+= === === .
+> +2 » Mike's Tip: Key Programmer Required. Test key is HDOO1.
+> - - AAA -— -
+- Programmer £ Diagnostic Tools E o
+A (Factory Tool PIN CODE SOÉMOS BR = =
+a y” TCODE/MVP PRO| | TDB1000 Y. HOTWIRE
+Zz - REQUIRED a
+y HDS 4 - a  ÉÁ — E == =
+5 J2534 E Only with ===
+Supscription i-HDS ( SMART PRO q AUTO PRO PAD Q AUTFELIM6O0O8
+
+? = Check with your key programmer supplier to see if your vehicle is supported,
+
+40 - ACURA » HONDA - - — 01994, 2021 AutoSmart"” by Michael Hyde
+
+, 0
+
+)
+
+€Jan..K€£(.MN
+
+¿1.00 0.0...O
+
+)
+
+)
+
+)
+€
+
+0.000 00.00.000.0 m4
+
+0000005050 4
+
+continued - HON=-P9 SECTION
+
+wm  CodeSeries:K/L/M/N S
+- a DEPTHS [19]
+y Bow SPACING Tip =7 Ed
+O E D C B M/V EXTERNAL = 94] <Á
+m precut 4-TRACK ió -
+724 .604 | .484 | .364 | .244 Depths measured | 3=.070- Lo)
+== E from 4 =.084 lo
+A , A + , =o 8 edge of blank. = .098 E
+A 724 | 504 | 484 | 364 | .244 Spacing measured | 6=.112
+recut from tip.
+1 $ H _ F a? l
+Codes: | Most locks will have a code on it.
+Decoders: | Determinator: n/a Lishi: HON 66 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+KEYCODES: The codes are on MOST locks 8 some glove box's. The code number in the U.S. will always start
+with a*K” E *M? or "N”. The code series is as follows: K001-K999, LO01-L999, MO01-M999 £ NOO1-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk 8 trunk
+lock-out, if equipped. Positions 1 through 4 are Split Tumblers, Position 5 isone Solid Tumbler with 2 different depths,
+one side has the notch for the Valet cut and the other has an combination depth. Postien 6 is always a pre-cut to
+
+number 1.
+Guide for Correct Depth on Position “A”
+Code Series: Depth of “A” Position
+K001 to K684, L349 to M032 8 M697 to N214 3
+K685 to L348, MO33 to M696 £ N215 to N718 5
+
+Method ¿41 Use a Lishi HON66 Lock Reader / Decoder.
+
+Method +2 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left;
+side of the drivers seat), if the car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+
+Method 43 Remove door lock and read code stamped on lock and make key by code or disassemble door
+lock and make key.
+
+DOOR GLOVE BOX 1 GLOVE BOX 2
+precut 6 | precut precut-| 6 | precut precut | 6 | precut
+M/V | 5 A M/V|5| A M/V|5 A
+4 ».n 2. . 4 mm Some Glove Box's
+3 a 3 a a 3 a have more tumblers
+z than others.
+n Z A u 2 E 2
+3 " 1 1:
+L A > R L R
+
+us
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+ACURA = HONDA - 41
+HON-P10 SECTION
+
+2016-21 Pilot (Honda) Prox
+
+CODES
+- K001-N718
+
+High Sec
+
+Different choices depending on trim level - see chart below:
+LX Models: Honda Prox: 72147-TG7-A51 (19-20), TG7-A52 (21)
+2019-21 = EX Models: | Honda Prox: 72147-TG7-A61 (19-"21) .
+
+2 — —|- —ELITE,EXLg| Honda Prox: (drv +1) 72147-TG7-A81 ('19), TG7-A82 ('20-'21)
+TOURIN Models: | Honda Prox: (drv 42) 72147-TG7-A91 (19), TG7-A92 (20-21)
+LX Models: | Honda Prox Part: 72147-TG7-A01 =
+2016-1 8l| EX Models: Honda Prox Part: 72147-TG7-A11
+5 Honda Prox Part: 72147-TG7-A31 (driver +41)
+Honda Prox Part: 72147-TG7-A41 (driver $2) ==
+Honda Emergency Key: 35118-T2A-A50 (fits all above) - Test key ¡is HDOO!.
+— e Determinator: n/a Lishi: HON 66 | AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Info> |» Prox Fob: For 72147-TG7-A81 8. 91 = FCC: KR5T 44 | 433 MHz / MFR: Continental
+: » Prox Fob: For all 72147-TG7-A01, All, A31, A41 = FCC: KR5V2X | 433 MHz / MFR: Continental.
+
+MASTER
+
+KEYS >
+
+EX-L Models:
+
+Many aftermarket
+
+versions of the Honda
+Emergency Prox keys are
+not milled correctly and
+mightfly out of your vise
+S XA during cutting. -
+-. —-
+Models without Remote Start - 35118-T2A-A50 ==
+Chip Infometon NOS >
+-Transponder: Standard Proximity Chip: Integrated Circuit Board Reusable: Yes
+» Mike's Tip: Key Programmer Required. Test key is HDOO1. E
+5 ' Cloner Machine Information e... z .
+D E === .. ==
+£ No Cloning for this Proximity System
+3 — Programmer 2 Diagnostic Tools —— ==
+Zz == E =
+Factory Tool [ Le == = s
+A A es (- TCODE/MVP PRO (e -—TDBT000= = ( HOTWIRE
+> i-HDS 8 it = :
+J2534 8 Only with 2 E —
+Supscription HDS. (- SMARTPRO q AUTOPROPAD | (- AUTEL IM608
+
+2? = Check with your key programmer supplier to see if your vehicle is supported.
+
+42 - ACURA » HONDA == == = == 01994, 2021 AutoSmart” by Michael Hyde
+
+€'>DLCOO0OOAOAOAAOAAOAOAAAAAAOAAA.sr.
+(
+
+0.0.0 4
+
+000 00.0 90 1
+
+0600000000160
+
+€
+
+H1d30 Y 31DVWAS
+
+Code Series: K/L/M/N
+
+continued - HON-P10 SECTION
+
+(=]
+Bow SPACING Tip Sa E
+E D Cc s Tm/v EXTERNAL An <
+= 4-TRACK a E
+precut =P
+.724 | .604 | .484 | .364 | .244 Depths measured | 3 = 070 o
+— e = from 4= .084 lo
+a a =>” 6 edge of blank. | 5=.098 E
+724 | .604 | .484 | .364 | .244 Spacing measured | 6=.112
+= precut from tip.
+J H G F A
+Codes: | Most locks will have a code onit
+Decoders: | Determinator: n/a Lishi: HON 66 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+KEYCODES: The codes are on MOST locks € some glove box's. The code number in the U.S. will always start
+with a “K" "L' *M* or“N' The code series is as follows: K001-K999, LOO01-L999, MO01-M999 £ NOO01-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk 8ctrunk
+lock-out, if equipped. Positions 1 through 4 are Split Tumblers, Position 5 is one Solid Tumbler with 2 different depths,
+one side has the notch for the Valet cut and the other has an combination depth. Postion 6 is always a pre-cut to
+
+number 1.
+Guide for Correct Depth on Position “A”
+Code Series: Depth of “A” Position
+K001 to K684, L349 to MO32 8£ M697 to N214 3
+K685 to L348, MO33 to M696 £« N215 to N718 5
+
+Method +1 Use a Lishi HON66 Lock Reader / Decoder.
+
+Method +2 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left
+side of the drivers seat), if the car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+
+Method 43 Remove door lock and read code stamped on lock and make key by code or disassemble door
+lock and make key.
+
+DOOR GLOVE BOX 1 GLOVE BOX 2
+precut | 6 | precut precut-| 6 | precut precut | 6 | precut
+M/V|5| A M/M |5+ A M/V|5+ A
+. (47 U 4| M . (48m Some Glove Box's
+3 a 3 a a 3 a have more tumblers
+— = than others.
+] 2 0] 2 n 2
++|-8 1 1
+L R E R L R
+
+¡e
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+ACURA . HONDA - 43
+HON-R1 SECTION
+
+MASTER
+
+2013-17 Accord (Honda)
+
+-K001-N718
+
+ISE
+High Sec
+
+- 2014-21 Civic (Honda) 2013-15 Crosstour (Honda)
+
+MACS | Start Cut | Cut to Cut | Air Bags | Ign Retainer
+RollPin
+
+| care | me |
+
+n/a n/a n/a n/a Yes
+
+KEYS >>
+
+NATIONAL:
+NATL-HO05PT
+
+KEYLINE:
+n/a
+
+DEALER:
+-35118-T2A-M0
+
+JET: JMA: —STRATTEC |
+HD116-PHT = n/a = n/a
+
+ILCO:
+HO05-PT
+
+Determinator: n/a :
+
+Lishi:
+
+EEZ Reader: n/a Cobra: n/a
+
+HON 66
+
+AccuReader: -n/a
+
+» Mike's Tip: Transponder System using Honda *G*chip - U.S. models- Test Key is: HDOO1
+
+» Accord
+
+- 2016-17
+
+> Remote Key:
+
+35118-12A-A60 or ILC0% RHK-HON-4B8 - FCC: MLBHLIK6-ITA | 433 MHz
+
+2088-15
+
+> Remote Key:
+
+35118-T2A-A20 or ILCOH RHK-HON-4B2 - FCC: MLBHLIK6-1T | 313 MHz
+
+» Civic
+
+2016-21
+
+> Remote Key:
+
+35118-T2A-A60 orILCOH RHK-HON-4B8 (2 8. 4 Door) FCC; MLBHEIK6-ITA | 433
+
+2017-21
+
+> Remote Key:
+
+35118-TGG-A0O or ILCOR RHK-HON-4B10 (5 Door) FCC: MLBHLIK6-1TA | 433 MHz
+
+- 2014-15
+
+> Remote Key:
+
+35118-T2A-A20 or ILCOf RHK-HON-4B2 (2 8: 4 Door) FCC: MLBHLIK6-1T | 313
+
+» Crosstour
+
+| 2018-15
+
+> Remote Key:
+
+35118-TY4-ADO or ILCOX RHK-HON-388 (EX model) FCC: MLBHLIK6-1T | 313 MHz
+
+> Remote Key:
+
+35118-TY4-A10- (EXL, Drv +1) FCC: MLBHLIK6-1T | 313 MHz
+
+> Remote Key:
+
+35118-TY4-A20 (EXL, Drv 2) FCC: MLBHLIK6-1T | 313 MHz
+
+-35118-12A-A20, A60 35118-TGG-A00
+
+172
+y ¿a | DEPTHS
+o : A ES be
+m precut = E E 4-TRACK 2 =.056 _
+o EA .604 | .484 364 | .244 Depths measured | 3=-070
+= a e 1 = m4 =
+A MR 2 o... 5 6 | edgeofblank. | 5=.098- 9
+Ar 224-604 13484 | 364 | 244 E => 6=.112 =
+== == fromtip.
+= EN H G F li a
+E Programmer 8. Diagnostic Tools. _ ==
+Factory Tool =
+7 Pati ba E00á Y TCODE/IMVPPRO| |v TDB1000 V HOTWIRE
+77 : QUIRED
+$ ¡-HDS 8 —_—== = =
+e) J2534 € Only with =P == :
+$5 Supscription i-HDS (- SMARTPRO | y AUTO PRO PAD (4 aun msos
+= o
+A
+
+-?=Check with your key programmer supplier to see if your vehicle is supported.
+44 - ACURA . HONDA = = 01994, 2021 AutoSmart” by Michael Hyde
+
+€,),0..
+
+)
+
+€,JJu_.0.o..o0
+
+€¿)¿C0.0.0.0000.090
+
+É,»BJo.o:0
+
+)
+0.0 0000004
+
+€
+
+€
+
+€
+
+JIONOASNVYL
+
+-Chip Information 8. Notes
+
+continued - HON=-R4 SECTION
+
+Transponder: Standard Equipment
+
+Chip: Philips HT3 (G chip)
+
+Reusable: Yes
+
+-Cloner Machine Information —
+
+( apaoo Y ( CHINA Y ÁILCO/SILCA) ( JMAUSA | ( KEYLINE Y ( L.D. >) (í ScORPIO ) (WD >
+CYCLONE CN900 Rwa+ | [TRS-5000/EVO| | 884 Ultegra | | MIRACLONE | | TANGO | | MINI TOOL
+6) No (E) No Y Yes! () No (9 No (6) No ( No Y Yes!
+de AL T49C Chip 8 al == = E VVDI Chip 8
+
+Honda Shell Honda Shell
+
+*4 - May require Internet Access to complete cloning. *2= Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+Codes: | Most locks will have a code on it.
+
+Decoders: |'Determinator: n/a
+
+Lishi: HON 66
+
+AccuReader: n/a
+
+EEZ Reader: n/a
+
+Cobra: n/a
+
+KEYCODES: The codes are on MOST locks £« some glove box's. The code number in the U.S, will always start
+with a"K" "L” "M” or“N' The code series is as follows: K001-K999, L001-L999, MO01-M999 £ NOO01-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk 8ctrunk
+lock-out, if equipped. Positions 1 through 4 are Split Tumblers, Position 5 is one Solid Tumbler with 2 different depths,
+one side has the notch for the Valet cut and the other has an combination depth. Postion 6 is always a pre-cut to
+
+number 1.
+2 Guide for Correct Depth on Position “A”
+E Code Series: Depth of “A” Position
+K001 to K684, L349 to MO32 8£ M697 to N214 3
+K685 to L348, MO33 to M696 € N215 to N718 5
+
+Method +*1 Use a Lishi HON66 Lock Reader / Decoder.
+
+Method 2 Check:the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left
+side of the drivers seat), if the car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+
+Method 3 Remove door lock and read code stamped on lock and make key by code or disassemble door
+lockand make key.
+
+IGNITION DOOR, TRUNK, VALET GLOVE BOX1 GLOVE BOX2
+precut | 6 | precut- precut | 6 | precut precut | 6 | precut precut-| 6 | precut
+Mv i|s5| A Mv [5 M/V | 5| A mv i|s| A
+
+4 4| m 2 (4 m 2. ¿1
+
+3 : E 3 n 3 A n E E
+. (2| m . (2 1 . (2| 1 2
+ol E 1 n 1 =1
+
+L = R L R L R L R
+
+as
+
+Some Ignitions do not use the Some Glove Box's have more tumblers than others,
+
+tumblerin position 1-Left.
+
+81994, 2021 AutoSmart” by Michael Hyde ACURA » HONDA - 45
+HON-R2 SECTION
+
+2014-21 CR-V (Honda) 2015-20 Fit (Honda) 2016-21 HR-V (Honda)
+
+CODES | sme | caros | me | macs | StartCut | cuttocut | AirBags | lgnRetainer
+
+— KO01-N718 High Sec n/a | n/a n/a n/a. =n/a Yes Roll Pin
+MASTER a - : : = = : _ - Bs
+- NATIONAL: KEYLINE: ILCO: O —JMA: STRAFTEC: DEALER:
+KEYS > | NATL-HOO5PT n/a |  HO05-PT HD116-PHT A. — — Ma. 35118-72A-A10
+Determinator; me Lishi: HON 66 | AccuReader: n/a -EEZ Reader: n/a >| Cobra: n/a
+
+» Mike's Tip: Transponder System using Honda "G* chip - U.S. models- Test Key is: HDOO1
+-2017-21 | > Remote Key: 35118-TLA-A0O or ILCOH+ RHK-HON-4B10 - FCC: MLBHLIK6-1TA | 433 MHz
+
+» CRY | 2015-16 | > Remote Key: 35118-TOA-A30 or ILCO+ RHK-HON-4B7 (4 Btn) - FCC: MLBHLIK6-1T | 313 MHz
+
+2014 | > Remote Key: 35118-TY4-A00 or ILCO** RHK-HON-388 (3 Btn) - FCC: MLBHLIK6-1T | 313 MHz -
+
+» Fit 2015-20 | > Remote Key: 35118-T5A-A20 or ILCO+ RHK-HON-3B8 - FCC: MLBHLIK6-1T | 313 MHz
+
+» HR-V | 2016-21 | > Remote Key: 35118-T75-A00 or ILCOX RHK-HON-487 - FCC: MLBHLIK6-1T | 313 MHz
+
+Code Series: K/L/M/N
+
+>» c.o bos o. 60 60
+
+)
+
+€»)...
+
+»J.1.000.
+
+Mm :
+2 EN - SPACING se | A -DEPTHS :
+D * 1=.041 =
+(9) E D Cc B M/V _ EXTERNAL = =
+m — precut | TRACK Di
+rl 724 | .604 | 484 | .364 | .244 | - Depths measured | 3=-070
+
+_= a E = from 4 =.084
+a 1 | 2 =p. Al 5 1 gota | 5=.098
+3 724 604 + 484 | 364 M4 -- Spacing measured | 6 =.112
+
+. D el =- Tromtip.
+
+- y H G F Ate...
+
+E Programmer 8 Diagnostic Tools .— E .
+xl > - =
+Factory Tool CODE == E = .
+
+z 1 A URED (- TCODE/MVP PRO (- TDB1000 q HOTWIRE
+
+A HDS E | a ó
+
+e) J2534 8 Only with = = E E.
+E Supscription ¡-HDS (+ suse PRO | G AUTO PRO PAD q AUTEL IM608
+A 2 = Check with your key programmer supplier to see if your vehicle is supported.
+
+46 - ACURA » HONDA — == = 1994, 2021 AutoSmart” by Michael Hyde —
+
+)
+90.00000.000.0.00000.000(1
+
+(
+
+4IANOASNVYL
+
+Chip Information 8. Notes -
+
+continued - HON-R2 SECTION
+
+Transponder: Standard Equipment
+
+| Chip: Philips HT3 (G chip)
+
+Reusable: Yes
+
+- Cloner Machine Information
+
+(ab900 Y (/ CHINA >) (ILCOISILCA) ( JMAUSA Y (. KEYLINE Y ( L.D. | SCORPIO Y ( vWWDI >
+CYCLONE CN900 RWw4+ | |TRS-S000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+S No A No Y Yes! O No 3 No O No A No 7 Yes!
+
+Z LL T49C Chip 8 A = = A VVDI Chip 8.
+Honda Shell Honda Shell
+
+*1 - May require Internet Access to complete cloning. *2= Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+Codes: | Most locks will have a code onit.
+
+Decoder:s:
+
+Determinator: n/a Lishi: HON 66:
+
+AccuReader: n/a
+
+EEZ Reader: n/a
+
+Cobra: n/a
+
+KEYCODES: The codes are on MOST locks £« some glove box's. The code number in the U.S. will always start
+with a"K" *L” "M” or"N'. The code series is as follows: K001-K999, L001-L999, MO01-M999 £ NO01-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk 8: trunk
+lock-out, if equipped. Positions Tthrough 4 are Split Tumblers, Position 5 is one Solid Tumbler with 2 different depths,
+one side has the notch for the Valet cut and the other has an combination depth. Postion 6 is always a pre-cut to
+
+number1.
+Guide for Correct Depth on Position “A”
+Code Series: Depth of “A” Position
+K001 to K684, L349 to MO32 8: M697 to N214 3
+K685 to L348, M033 to M696 8 N215 to N718 5
+
+Method ++1 Use a Lishi HON66 Lock Reader / Decoder,
+
+Method +2 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left
+side of the drivers seat), ifthe car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+
+Method +43 Remove door lock and read code stamped on lock and make key by code or disassemble door -
+lock and make key.
+
+IGNIFION DOOR, T RUNK, VALET GLOVE BOX GLOVE BOX 2
+precut | 6 | precut -| precut 6 | precut precut | 6 | precut precut-| 6 | precut
+M/NV|5| A ¿MV|5| A M/V|5| A MV |5| A
+
+4 nm (4 Mm . (4 m . (4 nm
+31m 31M . (3| ". == nu
+n 2.8 21 wm . (2| 1 2
+10m 10m 1 1
+L R L R L R L R
+
+[e
+
+o...
+
+€
+
+Some Ignitions do not use the Some Glove Box's have more tumblers than others.
+
+tumblerin position 1-Left.
+
+01994, 2021 AutoSmart” by Michael Hyde ACURA =» HONDA - 47
+- MASTER | KO0%-
+
+STYLE
+High Sec
+
+N718
+
+KEYS > = E
+| HON
+
+NarionaL= |
+
+— KEVUNE
+ BH002. Es
+
+PE
+
+a
+- HO03-PT
+
+mn.
+HD12-PHT
+
+IMA: .
+TPIZHOND3I
+
+—STRATTEC: | DEALER:
+
+- 5907553
+
+Determinator: n/a
+
+ist: HON 66
+
+| Accuñeader: na
+
+| EEZ Reader: ._.
+
+Cobra: n/a —
+
+» Mike' s Tip: Dealer "V" keys will not work, Most after- market "keys will. Test key is HDOO! E
+
+— More
+Info =>
+
+|» 2008-12 Remote Head Keys are different: for 2 and 4 door ble Two dooris “P” hip, Four door is ss chip.
+— Honda partit 35118- FEO-=A10 (2DR+ Remote Key) - 35118-SNB-A00 (2DR Non-Remote Key) >
+Honda parté 35118- TAO-A04 (4-DR Remote len: 35118-TA0-A30 (4-DR Non-Remote K e) HE o...
+
+223 e [> Remote Key: 35118-TEO-A10 POrILCO4 E RHK-HON-4B6 = FCC: MLBHLIK1T| 913 MHz
+» 2008-12. H—
+Laos” Llana le 35118-TA0- -A04 or ILCOH RHK- HON-4B3 = FCC: KessIIAgo0s | MHz
+> 2003-07 | Al > Remote Key: 35118-SDA-AN or ILCOF RHKCHON-481 = FCC: OUCG8D-380H-A | 313 MHz =.
+
+see below ==]
+
+DNA NE
+
+| Depths measured.
+== == From
+
+H1d30 Y JDVAS
+
+| DEPTHS
+
+=3 =.070
+
+edge of blank. —
+| Spacing measured
+= frora tip.
+
+1=.041
+2=.056
+
+4=.084
+5=.098.
+6=.4112
+
+-ANOH
+
+Ly
+
+)
+
+o o.
+
+(Essen
+HDS8 |
+325348 |
+
+—PINCODE
+- REQUIRED
+
+(- HOTWIRE
+
+Only with
+¡-HDS
+
+: El AUTEL IM608
+
+suscioton |
+
+YIUNOASNVYL
+
+qe = Check E your KEN programmer su >
+
+r to see. E your TT is supported, = ==
+
+€¿,e..
+
+48 - ACURA + HONDA
+
+— 81994, 2021 AutoSmart” by Michael Hyde
+
+Y
+continued - HON-R3 SECTION
+
+Chip Information 8 Notes
+Transponder: Standard Equipment Chip: Philips 46 HT2 Reusable: Yes
+Cloner Machine Information ==
+ÍDIAG BOX | (, CHINA | (ILCOISILCA] ( JMAUSA | ( KEYLINE Y ( L.D. Y ( SCORPIO Y ( WI >
+E CN900 RWA4 TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+M Yes M Yes M Yes? Y Yes? al YesÍ2 Y Yes1,2 M Yes1,2 Y Yes!
+Green Chip CN3 8 GTI Chip 8 TPX4 8. TK100 8: TPX4 8 TPX4 8 VVDI Chip 8%
+E Shell Honda Shell | | Honda Shell | | Honda Shell | | HDO01 Blade | | Honda Shell | | Honda Shell | | Honda Shell
+
+JIONOASNVY.L
+
+00000 00 1
+
+(
+
+000000 0141
+
+(
+
+(
+
+*1 - May require Internet Access to complete cloning. *2- Requires Philips Crypto Update. *3- Requires Texas Crypto update.
+
+Codes: | Most locks will have a code on it.
+
+Decoders:
+
+Determinator: n/a
+
+Lishi: HON 66
+
+AccuReader: n/a
+
+EEZ Reader: n/a
+
+Cobra: n/a
+
+KEYCODES: The codes are on MOST locks £« some glove box's. The code number iin the U.S. will always start
+with a “K" “L" “M' or"N'. The code series is as follows: K001-K999, £001-L999, MO01-M999 £ NO0O1-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used inthe glove box, rear seat pass through, trunk 8: trunk
+lock-out, if equipped. Positions 1through 4 are Split Tumblers, Position 5 is one Solid Tumbler with 2 different depths,
+one side has the notch for the Valet cut and the other has an combination depth. Postion 6 is always a pre-cut to
+
+number.
+: Guide for Correct Depth on Position “A”
+Code Series: Depth of “A” Position
+K001 to K684, L349 to MO32 8: M697 to N214 3
+K685 to 1348, M0O33 to M696 € N215 to N718 5
+
+Method ++1 Use a Lishi HON66 Lock Reader / Decoder.
+
+Method +2 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left
+side of the drivers seat), if the car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+
+Method +3 Remove door lock and read code stamped on lock and make key by code or disassemble door
+lock.aand make key.
+
+IGNIFION DOOR, TRUNK, VALET GLOVE BOX1 GLOVE BOX2
+precut | 6 | precut precut | 6 | precut precut | 6 | precut precut-| 6 | precut
+MV |5| A Mv Í|s| A M/V|5s| A MV |5| A
+m (4 4 . (4 nm . [4 |.
+3 na 3 n 3 n n 3 n
+2 nm a n 2 a 2
+1. 1. 1 1
+E R R L R L R
+
+us
+
+Some Ignitions do not use the
+tumblerin position 1-Left.
+
+-=
+
+Some Glove Box's have more tumblers than others.
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+ACURA
+
+» HONDA - 49
+
+HON-R4 SECTION — : ==
+
+2006-13 Civic (Honda) 2010-12 Crosstour (Honda) 2007-13 CR-V (Honda)
+
+| caros | iris | macs | Startcut | CuttoCut | AirBags | IgnRetainer
+
+Roll Pin
+
+STYLE
+High Sec
+
+MASTER K001- N718 n/a
+
+KEYS > NATIONAL: KEYLINE: ILCO: a <JMA: STRATTEC: DEALER:
+
+HON-V-4TRK BHO02-PT HO003-PT HD112-PHT TPI2HOND31-| 5907553 see below E
+
+More Determinator: n/a Lishi: HON 66 — | AccuReader: n/a EEZ Reader: n/a | Cobra: n/a
+Info > ==
+
+» Mike's Tip: Transponder System - U.S. models- Test Key is: HDOO1
+
+Different choices depending on trim level - - Call the dealer with the VIN to get the cant par
+
+2012-13. > Remote Key: 35118-TRO-ADO - FCC Info: N5F-AO5TAA | 313 MHz
+
+» Civic > Remote Key: 35111-SVA-305 or ILCOH RHK-HON-3B2 (3 Btn) FCC Info: N5F- S0084A | 313 MHz
+
+2006-11
+— > Remote Key: 35111-SVA-306 or ILCOR RHK-HON-4B4 (4 Btn) FCC Info: N5F-SO084A | 313 MHz
+
+-| > Remote Key: 35118-TP6-A00 (Driver 1) FCC Info: MLBHLIK-1T | 313 MHz
+
+> Crosstour 2010-12. > Remote Key: 35118 -TP6-A1O (Driver 2) FEC Info: MLBHLIK-1T | 313 MHz
+
+> Remote Key: 35118-TP6-A20 or ILCOH RHK- HON-3B1 FCC Info: MLBHLIK-1T j 313 MHz
+
+2012-13 | > Remote Key: 35118-TOA-A00 - FCC Info: MLBHLIK-1T | 313 MHz
+
+» CR-V
+
+2007-11 | > Remote Key: 35111-SWA-306 or ILCOX RHK-HON-3B1 - FCC Info: MLBHLIK-1T i 313 qe
+
+35118-TOA-ADO, SWA-306 35118-SVA-305, TP6-A00 351M1-TP6-ADO, ATO, A20 35111-SVA-306, TRO-A00
+
+(4)
+
+> == | DEPTHS
+
+Ó == | PRA. e
+
+m precut | 4-TRACK 2 =.056
+
+rr .724 | .604 | .484 | .364 | .244 . Depths measured | 3=.070 ==
+= = === = =+ from 4 = .084 =>
+
+1 2 > E 6 | edgeofblank. | 5=.098 z
+
+7 724 604 | 84 364 244 _Spacing measured | 6=.112 3
+
+I H G Ea aan A
+
+= Programmer LA Diagnostic Tools E E
+
+Factory Tool = , == == = E P
+
+ZE ano ( TCODEIMVP PRO (- ToB1000 (» HOTWIRE
+
+77 E
+
+=Ó i-HDS 8 AAA == ,
+
+9 32534 8 Only with > =5 :
+
+SE | supscription iHDS | 8 SMARTPRO | En AUTO PRO PAD q AUTEL IM608
+
+m _— XA —Á =
+
+A 2 = Check with your key programmer supplier ti to see in your ba is supported.
+
+50 - ACURA = HONDA == - 91994, 2021 AutoSmart” by Michael Hyde
+
+)
+
+)
+
+¿O0LACEAOAAAAAC..
+
+,..0
+
+,
+
+)
+00.0 0 4
+
+0.0 0
+
+0.0000000.50 64
+
+0001
+
+continued - HON-Rá4 SECTION
+
+Chip Information 8. Notes
+
+Chip: Philips 46 HT2
+
+Br Transponder: Standard Equipment Reusable: Yes
+
+y Cloner Machine Information
+
+5 (DIAG BOX | [, CHINA >] (ILCOISILCA) ( JMAUSA Y ( KEYLINE | ( LD. Y ( Scorpio | ( vwDI y
+
+O ST CN900 RWA TRS-5000/EVO | | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+
+S M Yes E Yes M Yes? E Yes? M Yes12 7 Yes12  Yes12 Yes!
+
+a Green Chip CN38 GTI Chip 8 TPX4 8. TK100 8 TPX4 8, TPXA4 8. VVDI Chip 8
+8 Shell Honda Shell Honda Shell Honda Shell HDO01 Blade Honda Shell Honda Shell Honda Shell
+
+*4-- May require Internet Access to complete cloning. *2 - Requires Philips Crypto Update. 4 Requires Texas Crypto update.
+
+Codes: | Most locks will have a code onit.
+
+Decoders: |Determinator: n/a Lishi: HON 66 AccuReader: n/a EEZ Reader; n/a Cobra: n/a
+
+KEYCODES: The codes are on MOST locks $ some glove box's. The code number in the U.S. will always start
+with a "K" “L' "M” or"N'. The code series ¡is as follows: K001-K999, LO01-L999, MOO1-M999 £ NOO1-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk 8 trunk
+lock-out, if equipped. Positions T through 4 are Split Tumblers, Position 5 is one Solid Tumbler with 2 different depths,
+one side has the notch for the Valet cut and the other has an combination depth. Postion 6 is always a pre-cut to
+number 1.
+
+Guide for Correct Depth on Position “A”
+
+Code Series: Depth of “A” Position
+K001 to K684, L349 to MO32 8 M697 to N214 3
+K685 to L348, MO33 to M696 8: N215 to N718 5
+
+Method +1 UseaLishi HON66 Lock Reader / Decoder.
+
+Method +2 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left
+side of the drivers seat), if the car has one, read the code to make the key. Some models may
+-— have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+
+Method 43  — Remove door lock and read code stamped on lock and make key by code or disassemble door
+lock and make key.
+
+IGNITION DOOR, TRUNK, VALET GLOVE BOE == GLOVE BOX 2
+precut | 6 precut precut | 6 | precut : precut | 6 | precut precut | 6 | precut
+mv [5| A mv |s| A Mv |s| A Mv |[5| A
+
+E 4 | 4 E 4 n " 4 E
+3| 1 31m 31m . 31
+
+. (2 n . 12 m . (2 m E 2
+ll. a on 1 1
+
+L == R L R E R L R
+
+Some Ignitions do not use the Some Glove Box's have more tumblers than others.
+tumblerin position 1-Left,
+
+01994, 2021 AutoSmart” by Michael Hyde E =ACURA=BONDA - 51
+HON-R5 SECTION
+
+2011-15 CR-Z (Honda)
+
+2008-13 Fit (Honda)
+
+| 2010-14 Insight (Honda)
+
+2006-14 Ridgeline
+
+Insight models
+
+were equipped
+
+with a Remote
+Head Key.
+
+35118-SZT-A00
+
+| ste | camog | mi | macs | Startcut | Cuttocut | _Air Bags | Ign Retainer
+MASTER K001-N718 High Sec n= Bol Pin
+KEYS > NATIONAL: — KEYLINE: ILCO: JET JMA: STRATTEC: a DEALER:
+HON-V-4TRK BHO002-PT HO03-PT HD112-PHT TP12HOND31 5907553. a see below
+Determinator: n/a Lishi: HON 66 AccuReader: n/a EEZ Reader: n/a  — | Cobra: n/a
+El » Mike's Tip: Transponder System - U.S. models- Test Key is: HDOO1
+» Mike's Tip: Dealer "V” keys will not work, Most after-market "V” keys will. Test key is HDOO1
+» CR=Z 201115] > Remote Key: 35118-SZT-A00 or ILCOR RHK-HON-3B1= FCE: MLBHLIK- E | 313 MHz.
+» Notall FIT models were released with. Remote Head keys. There are variations in the FT line up between
+=HE cs ye -chip applications, depending on the factory the car was made at.
+an 2009-13 | > Remote Key: 35111-SWA-306 or ILCOR RHK-HON-3B1 - FCC Info: MLBHLIK-1T 7 313 MHz
+2008. | > Remote Key: 35111-SHJ-305 or ILCOX RHK-HON-386 - FCC Info: OUCG8D-380H-A | 313 MHz
+» Insight | 2010-14 | > Remote Key: 35111-SWA-306 or ILCO4 RHK-HON-381 (if equipped) FCC Info: MLBHLIK-1T | 313
+» Ridgeline | 2006-14 | > Remote Key: 35111-SHJ-305 or ILCOH RHK-HON-3B6 - FCC Info: OUCG8D-380H-A | 313 MHz
+Not all Fit or
+
+- — 35111-SH)-305
+
+-35111-SWA-306
+
+Code Series: K / L/M IN
+
+J2534 8
+Supscription
+
+Only with
+
+LH DS
+
+0
+> DEPTHS
+a | EXTERNAL In
+sd precut | 4-TRACK 2=.056
+PE 724 | .604 | .484 | .364 | .244 iaa | 3D
+== E 3 from 4=.084 =
+m s 13 z 2 A e | edge of blank. 5=.098 -
+uE 724 | .604 | .as4 | .364 | .244 | | Spacingmeasured | 6=.112 E
+7 J a E precut | — from tip. - E
+H G A E.
+Programmer 8, Diagnostic Tools ===
+o PIN CODE ==
+A - REQUIRED Y” TCODE/MVP PRO| |v TDB1000 Y HOTWIRE
+Ho : E E HOR
+
+SMART PRO
+
+E
+
+(ea AUTO PRO PAD |-
+
+== (- -AUTEL IM608
+
+—
+DD
+D
+Z
+0m
+a)
+O
+z
+O
+m
+ps)
+
+7 = Check with your key programmer or supple to see if your vehicle is supported.
+
+52 - ACURA » HONDA
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+, 0
+
+)
+
+É,¿)¿e...
+
+€¿)/00000000000000
+0.00.:0 0 4
+
+000050 90 1
+
+(
+
+000000000
+
+continued - HON-R5 SECTION
+
+Chip Information 8 Notes
+
+BT Transponder: Standard Equipment
+
+Chip: Philips 46 HT2
+
+Reusable: Yes
+
+E Cloner Machine Information
+
+5 (DIAG BOX) ( CHINA Y (ILCOISILCA) ( JMAUSA | ( KEYLINE Y ( LD. Y ( SCORPIO Y ( WD y
+
+0 CN900 RWA TRS-5000/EVO | | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+
+S M Yes M Yes M Yes 2 YM Yes 2 M Yes1,2 M Yes1,2 M Yes1,2 M Yes!
+
+E Green Chip CN38 GTI Chip 4 TPX4 8 TK100 € TPX4 € TPX4 8 VVDI Chip 8
+8 Shell Honda Shell Honda Sheil Honda Shell HDO01 Blade Honda Shell Honda Shell Honda Shell
+
+lE- -May require Internet Access to complete cloning. *2 = Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+Codes: | Most locks will have a code on it.
+
+Decoder:s:
+
+Determinator: n/a
+
+| Lishi: HON 66
+
+AccuReader: n/a
+
+EEZ Reader: n/a
+
+Cobra: n/a
+
+KEYCODES: The codes are on MOST locks € some glove box's. The code number in the UsS. will always start
+with a“K" “L” "M" or“N'. The code series ¡is as follows: K001-K999, L001-L999, MO01-M999 £ NOO01-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key ¡is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk 8«trunk
+lock-out, if equipped. Positions FHthrough 4 are Split Tumblers, Position 5 is one Solid Tumbler with 2 different depths,
+one side has the notch for the Valet cut and the other has an combination depth. Postion 6 is always a pre-cut to
+
+number1,
+Guide for Correct Depth on Position "po
+Code Series: Depth of “A” Position
+K001 to K684, L349 to MO32 £ M697 to N214 3
+K685 to L348, MO33 to M696 € N215 to N718 5
+
+Method ++1 Use a Lishi HON66 Lock Reader / Decoder.
+
+Method +2 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left
+side of the drivers seat), if the car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+
+Method 43 Remove door lock and read code stamped on lock and make key by code or disassemble door
+lock and make key.
+
+IGNIFION DOOR, TRUNK, VALET GLOVE BOX1 GLOVE BOX 2
+precut | 6 | precut precut | 6 | precut precut | 6 | precut precut | 6 | precut
+
+-MNV 5 A MA 5 A M/NV 5 A M/NV |5 A
+4| MU 4 E 4 n A 4 L
+31 E ¿231 Mm 3| M 3| Mm
+
+21m -= BD 20m 2
+
+1 L 0] ] 1 y
+L R L R L R L R
+
+Some Ignitions do not use the
+tumblerin position 1-Left,
+
+Some Glove Box's have more tumblers than others.
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+ACURA
+
+*- HONDA - 53
+— HON-R6 SECTION
+. . 2005-17 Odyssey (Honda)
+
+| sme | canos | mie | macs | StartCut | CuttoCut | AirBags
+High Sec l
+
+| lgn Retainer
+Roll Pin
+
+MASTER K001-N718 n/a n/a n/a
+
+KEYS > NATIONAL: —— KEYUINE: CO: JET | IMA | STRANTEC: | DEALER:
+- —HON-V-4TRK BHO02-PT : H003-PT HD112-PHT T1P12H0ND31 - 5907553 see below
+
+— More Determinator: n/a |LishiHON66 | AccuReader: n/a | EEZReader: n/a Cobra: n/a
+
+Info =>
+
+- Different choices depending on trim level - Call the dealer with the VIN to get the right part, Test key is HDOO1 |
+
+» Fob Remote: 2005-10 - ILCOH RKE-HON-5B1 (5 Btn Fob) / RKE-HON-6B1 (6 Btn Fob) FCC Info: OUCG8D-399H-A | 313 MHz
+» Remote Key: 2005-10 - 35111-5HJ-305 or ILCOXf RHK-HON-3B6 - FCC Info: OUCG8D-380H-A | 313 MHz
+» Remote Key: 2011-13 - 35118-TK8-A10 or ILCOX RHK-HON-5B1 “EX” - FCC Info: N5F-AO4TAA [318 MHz == =
+
+> Remote Key: 2011-13 - 35118-TK8-A20 or ILCO4 RHK-HON-681 “EXL” - FCC Info: NSF-ADATAA | 313 MHz
+
+» Remote Key: 2011-13 - 35118-TK8-A30 "TOURIN 41" - ECC Info: N5F-AOATAA | 313 MHZ
+-) Remote Key: 2011-13 - 35118-TK8-A40 "TOURIN 42" - FCC Info: NSF-ADATAA | 313 MHz
+» Remote Key: 2011-17 - 35111-SVA-305 or ILCO+ RHK-HON-382 “LX” - FCC Info: N5F-S0084A | 313 MHz
+
+Notall
+Odyssey models
+were equipped
+with a Remote
+- Head Key.
+
+-35111-SHJ-305, SVA-305
+
+€,d¿).0..X.M ERC C>O€CO.DOIOOIO
+
+)
+
+wm  CodeSeries:K/L/M/N .
+y , DEPTHS
+O | HA —
+m precut = 4-TRACK z 2=.056
+go Depths measured | 3=+»070
+|] from | 4=.084 =
+m 6 | edgeofblank. | 5=.098 2
+3 Spacing measured | 6=.112 F E
+=d r A 6 F > E precut : = from tip. = 2
+A Programmer 8. Diagnostic Tools
+
+Factory Tool - E == 2 >. =
+zh A e (- TEODE/MVP PRO| [+ rosrooo (- HOTWIRE
+(02) : = 2
+> ¡-HDS 8. y Ls :
+O J2534 8 Only with ==
+5 Supscription ¡-HDS (- SMART PRO E A Y AUTO PRO PAD (- AUTEL 1IM608
+A
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+¿J¿L000.0.00000
+
+54 - ACURA . HONDA A — 01994,2021 AutoSmart” by Michael Hyde
+
+)
+0.000.00000000000.00
+
+€
+
+€
+
+continued - HON=-R6 SECTION
+
+Chip Information 8. Notes
+
+Chip: Philips 46 HT2 / PCF 7961
+
+Reusable: Yes
+
+BT Transponder: Standard Equipment
+
+Ed Cloner Machine Information
+
+5 DIAG BOX) ( CHINA Y (ILCOISILCA) [ JMAUSA | ( KEYLINE | ( LD. >) ( scorPIio Y ( vwD >
+
+O LEA CN900 RWA4 TRS-5000/EVO 884 Ultegra MIRACLONE TANGO MINI TOOL
+
+E MYes M Yes M Yes ? Y Yes? Y Yes1,2 EM Yes1,2 M Yes12 Y Yes!
+
+a Green Chip | | CN38 GTI Chip 8: TPX4 8 TK100 8: TPX4 8 TPX4 8. VVDI Chip 8
+8 Shell Honda Shell Honda Shell Honda-Shell HDOO01 Blade Honda Shell Honda Shell Honda Shell
+
+*1- May require Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+Codes: | Most locks will have a code on it.
+
+Decoders:
+
+Determinator: n/a
+
+Lishi: HON 66
+
+AccuReader: n/a
+
+EEZ Reader: n/a
+
+Cobra: n/a
+
+KEYCODES: The codes are on MOST locks 8 some glove box's. The code number in the U.S. will always start
+with a"K" "L” "M” or"N'. The code series is as follows: K001-K999, L001-L999, MO01-M999 8: NOO1-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk 8 trunk
+lock=out, if equipped. Positions 1through 4 are Split Tumblers, Position 5 is one Solid Tumbler-with 2 different depths,
+one side has the notch for the Valet cut and the other has an combination depth. Postion 6 is always a pre-cut to
+
+number 1.
+Guide for Correct Depth on Position “A”
+Code Series: Depth of “A” Position
+K001 to K684, L349 to MO32 8 M697 to N214 3
+K685-to 348, MO33 to M696 £ N215 to N718 5
+Method +1 Use a Lishi HON66 Lock Reader / Decoder.
+Method +2 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left
+side of the drivers seat), if the car has one, read the code to make the key. Some models may
+- have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+Method ++3_ Remove door lock and read code stamped on lock and make key by code or disassemble door
+lockand make key.
+
+I¡GNIFION DOOR, TRUNK, VALET GLOVE BOX1 GLOVE BOX 2
+precut | 6 | precut- precut | 6 | precut precut | 6 | precut precut | 6 | precut
+M/V|5| A M/V|[5| A M/V|5| A MV |5| A
+
+4 24. (14 Mm 2. (| um la
+sl 3| 1 31m a.
+n 27M 2 ] a 2 n 2
+31m : Ln 1 1
+L R L R L R L R
+
+Some Ignitions do not use the
+tumblerin position 1-Left,
+
+¡e
+
+Some Glove Box's have more tumblers than others,
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+ACURA
+
+- HONDA - 55
+
+HON-R7 SECTION —
+2005-15 Pilot (Honda)
+
+| caros | mus | macs | startcut | CuttoCut |
+
+CODES |
+| K001-N718
+
+STYLE
+
+High Sec nf n/a n/a n= == na Ye
+
+MASTER
+
+Air Bags
+
+| lgn Retainer
+Roll Pin
+
+Ss
+
+- |» Remote Key: 2012-15- 35118-SZA-A51 (EXL) FCC: KR55WK49308 | 313 MHz =
+
+KEYS > | NATIONAL: KEYLINE: o LCO: A STRATTEC: DEALER:
+—HON-V-4TRK BHO02-PT HO03-PT HDM2-PHT | TPI2HOND31 | 5907553 see below
+Determinator: n/a Lishi: HON 66 AccuReader: n/a EEZ Reader: n/a — — | Cobra: n/a
+area |» Mike's Tip: Dealer “V* keys will not work, Most after-market “V” keys will. Test key is HDOO1
+» Different choices depending on trim level - Call the dealer with the VIN to get the right part.
+» Remote Key: 2006-08 - 35111-S9V-325 or ILCO* RHK-HON-3B7 - FCC Info: CWTWBIU545 | 433 MHz = E
+» Remote Key: 2009-11 - 35118-SZA-A03 (EXL) FCC: KR55WK49308 | 313 MHz. :
+—Bemote |? Remote Key: 2009-15 - 35118-SZA-A03 (EX 8: LX) FCC: KR55WK49308 | 313 MHz
+Info >
+
+» Remote Key: 2013-15 - 35118-SZA-A31 (TOURIN, Driver 41) FCC: KR55WK49308 | 313 MHz
+
+|» Remote Key: 2013-15 - 35118-SZA-A41 (TOURIN, Driver 422) FCC: KR55WK49308 | 313 MHz
+
+35111-SZA=A03 35118-SZA-A31, A41, A51
+
+w
+> a DEPTHS
+2 E E E EXTERNAL - 1 = .041
+di precut | 4-TRACK 2 =.056
+go =Depths measured | 3=-070
+
+= E= from 3 4=.084 ==>
+m 1 PP 1 edgectblank. | 5=.098 z
+Be 724 | .604 | 484 | .364 | .244 seacion measured | 6=.112 E
+
+: -— fromtip. —
+=E 3 H G ==... precut ==. E
+7 Programmer 8. Diagnostic Tools E . -
+Factory Tool -PINCODE os === 1 = :
+
+5 MA 5 a ( TEODE/MVP PRO 0 -TDB1000 (- HOTWIRE
+| ¡-HDS 8 A BA - :
+e] | 325348 | | Onlywith — E a
+S Supscription ¡-HDS ( SMART PRO (+ auro PRO PAD (- AUTEL IM608
+A
+
+56 - ACURA +. HONDA
+
+2 = Check with your key programmer supplier to see if your vehicle is supported.
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+€¿,¿20..1£..0L..0..O
+
+€¿),0',1V0.BLEAIDCO
+
+)
+
+€ÉQ£n0..
+000000090050 41
+
+0000 (4
+
+€
+
+€
+
+continued - HON=-R7 SECTION
+
+Chip Information 8, Notes _
+
+Chip: Philips 46 HT2 / PCF 7961
+
+pa Transponder: Standard Equipment Reusable: Yes
+
+Ed] Cloner Machine Information
+
+5 ÉDIAG BOX Y (. CHINA Y (ILCOISILCA] ( JMAUSA Y ( KEYLINE Y (/ L.D. | ( SCORPIO | ( vvDI >
+
+O re CN900 RWA4 TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL |
+
+= E Yes Y Yes M Yes? E Yes? Y Yes12 E Yes12 Y Yes12 M7 Yes!
+
+E Green Chip | | CN38 GTI Chip 3 TPX4 8 TK100 8. TPX4 8. TPX4 8 VVDI Chip 8.
+8 Shell Honda Shell Honda Shell | | Honda Shell HDO01 Blade Honda Shell Honda Shell Honda Shell
+
+*4 - May require Internet Access to complete cloning. 2 = Requires Philips Crypto Update. *3-- Requires Texas Crypto update.
+
+Codes: | Most locks will have a code onit.
+
+Decoder:s:
+
+Determinator: n/a
+
+| Lishi: HON 66
+
+EEZ Reader: n/a
+
+Cobra:-n/a
+
+AccuReader: n/a
+
+KEYCODES: The codes are on MOST locks £ some glove box's. The code number in the U.S, will always start
+with a "K" *L” "M" or"N'. The code series ¡is as follows: K001-K999, L001-L999, MO01-M999 8 NOO01-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk 8: trunk
+lock-out, if equipped. Positions 1 through 4 are Split Tumblers, Position 5 is one Solid Tumbler with 2 different depths,
+one side has the notch for the Valet cut and the other has an combination depth. Postion 6 is always a pre-cut to
+
+number1,
+E Guide for Correct Depth on Position “A”
+Code Series: Depth of “A” Position
+K001 to K684, L349 to MO32 8 M697 to N214 3
+K685-to 348, MO33 to M696 £« N215 to N718 5
+
+Method ++1 Use a Lishi HON66 Lock Reader / Decoder.
+
+Method 42 Check:the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left
+side of the drivers seat), ifthe car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+
+Method 43 Remove door lock and read code stamped on lock and make key by code or disassemble door
+lock and make key.
+
+IGNIFION DOOR, TRUNK, VALET GLOVE BOX1 GLOVE BOX 2
+precut | 6 | precut precut | 6 | precut precut | 6 | precut precut | 6 | precut
+MV Í|5| A M/V|5| A M/V|5| A MV |5| A
+
+4 n LL] 4 E 4 n L 4 A
+3 n E a n a mn n 3 a
+2 YB 2 n A 2 n Z
+al 0 . 1 =
+L R E R L R L R
+
+Some Ignitions do not use the
+tumblerin position 1-Left.
+
+us
+
+Some Glove Box's have more tumblers than others.
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+ACURA
+
+- HONDA - 57
+
+HON-R8 SECTION
+
+2006-11 Element (Honda)
+
+2006 there was a mid-year change 2898-09 EOS
+
+|  —sme | cars | mu | Macs s | Start Cut | ot “Air Bags | Ign Retainer
+High Sec — E Roll Pin
+
+MASTER K001-N718
+
+KEYS > | nanonaL: KEYLINE: m0 | en IMA: | STRATTEC: DEALER: |
+HON-V-4TRK BHO02-PT HO03-PT HD112-PHT TEIZHONDST 5907553 | 35118-SDA-A01
+
+Determinator: n/a | Lishi: HON 66 AccuReader: Ya — |l Reader: n/a . Cobra; n/a
+
+info=> |» Mike's Tip 1: Dealer “V” keys will not Eos Most after-market ay" keys will. Test key is HDOO1
+> Mike's Tip 2: There was a mi-year change for 2006 Element models 5 going from a T5 chip toa E ar
+
+» Element > Fob Remote: 72147-S5T-A01 or ILCOX RKE- HON- 3B2 - FCC Info: OUCG8D- -344H-A | 313 MHz
+
+Info> |, $200 —  |>Fob Remote: 72147-S2A-A01 or ILCOK RKE-HON-484 - FCC Info: E4EG8DJ 307 MHz
+
+—TRMT-SETA
+
+í Code Series: K/L/M/N ===
+
+y El = : - DEPTHS E
+
+O TT] EXTERNAL a
+
+A E a o
+
+Y 724 .604 .484 .364 244 | Depths measured | 3=-070
+
+] E E => from 4=.084 5
+
+ma de — e E E E 6= > edge of blank. | 5=.098 =
+
+A 724 604 | .484 | 364 | .244 | | Spacingmeasured | 6=.112 E
+
+7 J m G E precut | fromtip. = 2
+NE == =- ..
+
+Factory Tool j == E : . .
+z ME REQUIRED Y TCODE/MMVPPRO| |vY TDB1000 Y” HOTWIRE
+| HDS 8 . , E
+3 ==> 3 — = z ==
+[e] | J2534% | | Onlywith ===...  —
+E  epscinton -HDS ( SMART PRO (- AUTO PRO PAD Y AUTEL IM608
+py)
+
+= Check with your key programmer supplier to see if your vehicle is supported.
+
+58 - ACURA . HON DA = 22 01994, 2021 AutoSmart” by Michael Hyde
+
+'000000600000000000.0.
+
+€¿»P....
+€
+
+9.0,'0..
+
+0.000.00000050 0 4
+
+o
+
+€
+
+Chip Information 8. Notes
+
+continued - HON=-R8 SECTION
+
+Bn Transponder: Standard Equipment Chip: Philips 46 HT2 Reusable: Yes
+
+Pa) E
+
+53 Cloner Machine Information
+
+Z
+
+z ÚDIAG BOX | ( CHINA >) (ILCOISILCA] ( JMAUSA | ( KEYLINE | (. L.D. | ( SCORPIO | ( vvDI
+
+Oi CN900 RW4 TRS-5000/EVO | | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+
+Sd | WIZARD
+
+U EM Yes M Yes M Yes ? E Yes? M Yes!,2 7 Yes1,2 E Yes12 E Yes!
+
+5 Green Chip | | CN38 GTI Chip 8 TPX4 8. TK100 8. TPX4 8. TPX4 8 VVDI Chip 8.
+8 Shell Honda Shell | | Honda Shell | | Honda Shell | | HDOO1 Blade | | Honda Shell | | Honda Shell | | Honda Shell
+
+*4 - May require Internet Access to complete cloning. *2 -Requires Philips Crypto Update. *3-- Requires Texas Crypto update.
+
+Codes: | Most locks will have a code on it.
+
+Decoders:
+
+Determinator: n/a Lishi: HON 66 AccuReader:
+
+n/a
+
+EEZ Reader: n/a
+
+Cobra: n/a
+
+KEYCODES: The codes are on MOST locks £ some glove box's. The code number in the U.S, will always start
+with a “K" “L" "M" or“N' The code series is as follows: K001-K999, LO01-L999, MO01-M999 £ NOO1-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk 8« trunk
+lock-out, if equipped. Positions Tthrough 4 are Split Tumblers, Position 5 is one Solid Tumbler with 2 different depths,
+one side has the notchfor the Valet cut and the other has an combination depth. Postion 6 is always a pre-cut to
+
+number1.
+Guide for Correct Depth on Position “A”
+Code Series: Depth of “A” Position
+K001 to K684, L349 to MO32 £ M697 to N214 3
+K685 to L348, MO33 to M696 € N215 to N718 5
+
+Method +1 Use a Lishi HON66 Lock Reader / Decoder.
+
+Method +2 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left
+side of the drivers seat), if the car has one, read the code to make the key. Some models may
+have a sealed glove box cover, Also, some models, getting to the door lock can be a real pain.
+
+Method ++3_ Remove door lock and read code stamped on lock and make key by code or disassemble door
+lockand make key.
+
+IGNIFION DOOR, TRUNK, VALET GLOVE BOX1 GLOVE BOX2
+precut | 6 | precut precut | 6 | precut precut | 6 | precut precut | 6 | precut
+MV |5| A M/V|5| A M/V|5| A M/V|5| A
+
+. (¿| un e 41m 41 Mm 41m
+31m 31. 31m 31m
+2) m "n= 2. m 21 Mn 2
+11m 110 1 1
+E R L R L R L R
+
+Some Ignitions do not use the
+tumblerin position 1-Left,
+
+Some Glove Box's have more tumblers than others.
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+ACURA » HONDA - 59
+HON-R9 SECTION
+
+2003-05 Civic (Honda)
+
+2002-06 CR-V (Honda) -
+
+2003 to mid '06 Element (Honda)
+2006 there was a mid-year change
+
+2003-04 Odyseey (Honda)
+
+2003-04 Pilot (Honda).
+
+| caros | tre | macs | Startcut | cuttocut |
+
+2004-05 52000 (Honda)
+
+Air Bags | Ign Retainer
+
+72147-S5T-
+
+A01
+
+K001-N718 HighSec | n/a Roll Pin
+KEYS NATIONAL: KEYLINE: ILCO: JET: IMA: | STRAMEC: | DEALER:
+HO01T5 BHO01T HO01T HDM10-PHT | TPOSHOND31 | 692247 35113-S9A-A01
+More Determinator: n/a Lishi: HON 66 | AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+tus y as Mike's Tip: Transponder System - Make sure the key you are using is "Pre-Cloned*- Test Key ¡sz HDO0l== =
+e e > Fob Remote: 72147-S5A-A0l or Ed RKE-HON-3B1 - FCC Info: NHVWB1U523 | 433 MHz.
+o > Fob Remote: 72147-S5T-A01 or ILCOH RKE-HON-3B2 (Hatchback) FCC Info: OUCG8D-344H-A
+2005-06 | > Remote Key: 35111-S9A-305 or ILCOH RHK-HON-489 - ECC Info: OUCG8D-380H-A | 313 MHz
+En 2002-04 | > Fob Remote: 72147-S9A-A01 or ILCOX RKE-HON-4B2 - ECC Info: OUCG8D-344H-A | 313 MHz.
+-» Element 2003-06 | > Fob Remote: 72147-S5T-AD! or ILCO+ RKE-HON-3B2 - FCC Info: OUCG8D- 344H- A 1313 MHz
+» Odyssey 2003-04 | > Fob Remote: 72147- SOX- -A02 - FCC Info: OUCG8D- 440H-A 1308 MHz = E
+» Pilot 2003-04 | > Fob Remote: 72147- S5A- A0l or ILCO* RKE-HON-3B1 - FCC Info: NHVWB1U523 [433 MHz —
+» S2000. 2004-05 | > Fob Remote: 72147-S2A-A01 or ILCOX RKE-HON-4B4 - FCC Info: E4EG8DJ | 307 MHz
+
+35111-S9A-305-
+
+72147-S5A-A01
+
+72147-S9A-A01
+
+0
+>
+
+>
+
+O E D E Be MN
+m - precut |
+mE .724 | .604 | .484 | .364 | .244 |
+
+O . _ = == == ==
+
+e 1 2 3. 4 5 6
+
+AA 724 | 604 | .484 | .364 | .244 |
+
+EN H G a a de
+
+— =from tip.
+
+—72147-S2A-A01
+
+EXTERNAL
+4-TRACK
+Depths measured
+
+from
+edge of blank.
+Spacing measured
+
+72147-SOX-A02
+
+DEPTHS
+1=.041
+2=.056
+3 =.070
+4=.084
+5=.098
+-6=.112
+
+Programmer 84 Diagnostic Tools
+
+(Factory Tool y
+
+LHDS 8
+32534 Y
+Supscription |
+
+PIN CODE ==== ==>
+
+e q TEO [- a (- HOTWIRE
+
+Only with | == 7 =
+Hs += ae SMARTPRO | (- AUTO PRO PAD ( AUTEL IM608
+
+YJ3I0NOASNVYL
+
+2 = Check with your key pena poa to see if your “vehicle is supported.
+
+60 - ACURA » HONDA
+
+01994, 2021 AutoSmart” by Michael eses
+
+€¿,.£.10..£..K.eO'.$Án cs e...0
+
+0
+
+€¿¿U.LDdO.I.L.O O
+000.000.000 000.041
+
+0000000
+
+(
+
+€
+
+continued - HON-R9 SECTION
+
+Chip Information 8, Notes o. a
+
+BE Transponder: Standard Equipment Chip: Magamos (13) T5 Reusable: Yes
+
+Z E . = = = === - =
+
+531 Cloner Machine Information
+
+Z =
+
+e (DIAG BOX Y [/ CHINA | (ILCOISILCA) ( JMAUSA | ( KEYLINE | (/ LD. | fscorPio Y ( ww >
+
+O Mi CN900 RWA TRS-5000/EVO | | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+
+54
+
+a) E Yes Y Yes MYes M Yes M Yes M Yes M Yes M Yes
+
+5 Red Chip 8. 158 158 158 158 158 158 VVDI Chip 8
+Shell Honda Shell | | Honda Shell | | Honda Shell | | Honda Shell | | Honda Shell | | Honda Shell | | Honda Shell
+
+=*1- May require Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+Codes: | Most locks will have a code on it.
+
+Decoders: |Determinator: n/a Lishi: HON 66 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+KEYCODES: The codes are on MOST locks £ some glove box's. The code number in the U.S. will always start
+with a"K" *L” "M”or"“N'. The code series ¡is as follows: K001-K999, LO01-L999, MO01-M999 8 NOO1-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk 8 trunk
+lock-out, if equipped. Positions through 4 are Split Tumblers, Position 5 is one Solid Tumbler with 2 different depths,
+one side has the notch for the Valet cut and the other has an combination depth. Postion 6 is always a pre-cut to
+number 1.
+
+Guide for Correct Depth on Position “A”
+
+Code Series: Depth of “A” Position
+K001 to K684, L349 to MO32 £ M697 to N214 y
+K685 to L348, MO33 to M696 £ N215 to N718 5
+
+Method +1 Use a Lishi HON66 Lock Reader / Decoder.
+
+Method +2 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left
+side of the drivers seat), if the car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+
+Method +3 Remove doorlock and read code stamped on lock and make key by code or disassemble door
+lock and make key.
+
+IGNIFION DOOR, TRUNK, VALET GLOVE BOX1 GLOVE BOX 2
+precut | 6 | precut : precut | 6 | precut precut | 6 | precut precut-| 6 | precut
+MV |5| A M/NV|5| A M/V|5| A | |[MV|5| A
+
+4. 41 1 n (4 1 2. (2
+3. mn 3| nm 31 00m n (3| 1
+n 12m = 12| um 2| n 2
+17] nm 1| mM 1 =1
+E R E R L R E R
+as ¡e
+Some Ignitions do not use the Some Glove Box's have more tumblers than others,
+tumbler in position 1-Left,
+01994, 2021 AutoSmart” by Michael Hyde ACURA =- HONDA - 61
+—HON-R10 SECTION ss
+
+2006-07 $2000 (Honda)
+
+2007 Fit (Honda)
+
+srviE | AirBags | IgnRetainer
+
+TES | caro | mi | macs | StartCut | CuttoCut |
+
+MASTER K001-N718 High Sec n/a n/a - Ye Roll Pin
+
+KEYS => NATIONAL: — KEYLINE; 00 Er —JMA: STRATTEC: | DEALER:
+HDIM8-PTF — n/a HD113-PT n/a. TP32HOND31 n/a | 35111-SLJ-306
+
+Determinator:-n/a | Lishi:HON66 | AccuReader: n/a EEZ Reader: n/a z | Cobra: n/a
+More =E S == = == oa
+
+Info => » Not all FIT models were released with Remote Head keys. There are variations in the FiFline-up between “H"
+82. "v" chip applications, depending on the factory the car was made at.
+
+Remote [Fit |» Remote Key: 35111-SLN-305 or ILCOX RHK-HON-3B5 - FCC Info: OUCG8D-380H-A | 313 MHz
+
+Info> |) $200 |>FobRemote: 72147-52A-A01 or ILCOF RKE-HON-4B4 - FCC Info: E4EG8DJ | 307 MHz
+
+72147-SZA-A01 35111-SLN-305
+
+w Code Series: K/L/M/N Es
+> En - SPACING o _ == .
+o MS D 5 B |M/V =| = EXIERNAE 056 | -
+m precut | 4-TRACK = =
+a .724 | .604 | .484 364 | .244 | Depths measured | 3=-070
+En === E y === from 4 =.084
+1 A 5 | 6 | edgeofblank. | 5=.098 S
+A 724 | 504 | 484 | 364 | .244 | ESpacino eS 6 =.112 e
+= recut | = +romtip. =
+I H G F e ==
+
+Factory Tool |
+¡-HDS 8
+J2534
+
+Supscription
+
+PIN CODE n..=
+
+REQUIRED (y rconemve PRO (? TDB1000 (- HOTWIRE
+Only with =E YX ==
+
+--HDS ( SMARTPRO (- AUTO PRO PAD (aura IM608
+
+J43I0NOASNVYL
+
+62 - ACURA - HONDA
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+poo. ) 0:00 0.0.0
+
+€¿£06060000000000090
+(
+
+€
+
+00.0
+
+0.0000.00000050 (
+
+(
+
+0.041
+
+YIONOASNVYL
+
+continued - HON-R10 SECTION
+
+Chip Information €, Notes
+
+Transponder: Standard Equipment Chip: Megamos 8E Reusable: Yes
+Cloner Machine Information
+(DIAG BOX | [, CHINA >) (ILCOISILCA] ( JMAUSA | ( KEYLINE Y ( L.D. | ( ScORPIO ) f vwDi >)
+RE CN900 RWA4 TRS-5000/EVO | | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+M Yes Y Yes M7 Yes? Y Yes? 7 Yes12 Y Yes1,2 M Yes1.2 Y Yes!
+Green Chip CN3 8 GTI Chip € TPX4 8. TK100 8 TPX4 8, TPX4 8, VVDI Chip 8
+8 Shell Honda Shell Honda Shell Honda Shell HDO01 Blade Honda Shell Honda Shell Honda Shell
+
+4 - May require Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+Codes: | Most locks will have a code onit,
+
+Decoders:
+
+Determinator: n/a Lishi: HON 66
+
+AccuReader: n/a
+
+-EEZ Reader: n/a
+
+Cobra: n/a
+
+KEYCODES: The codes are on MOST locks £ some glove box's. The code number in the U.S. will always start
+with a “K" “L” "M” or"N'. The code series is as follows: K001-K999, L001-1999, MO01-M999 £ NOO1-N718.
+
+CUTTING THE KEY: When you are manually cutting the key - Pay attention to Space 5, the master key is always a
+
+5 depth and the valet is a 2 depth. The valet function is used in the glove box, rear seat pass through, trunk 8 trunk
+lock=out, if equipped. Positions through 4 are Split Tumblers, Position 5 is one Solid Tumbler-with 2 different depths,
+one side has the notch for the Valet cut and the other has an combination depth. Postion 6 is always a pre-cut to
+
+number 1.
+Guide for Correct Depth on Position “A”
+Code Series: Depth of “A” Position
+K001 to K684, L349 to MO32 $ M697 to N214 3
+K685 to 348, MO33 to M696 £ N215 to N718 5
+Method ++1 Use a Lishi HON66 Lock Reader / Decoder.
+Method +2 Check the vehicle for a Glove Box lock or Trunk Lock or Valet lock-out cylinder (near the left
+=P side of the drivers seat), ifthe car has one, read the code to make the key. Some models may
+have a sealed glove box cover. Also, some models, getting to the door lock can be a real pain.
+Method +3 Remove door lock and read code stamped on lock and make key by code or disassemble door
+lockand make key.
+IGNIFION DOOR, TRUNK, VALET GLOVE BOX1 GLOVE BOX 2
+precut | 6 | precut precut | 6 | precut precut | 6 | precut precut-| 6 | precut
+MN +5 A MN Í|5| A M/V +5 Á MN |5 A
+4 a n 4 a 7] 4 n A 4 E
+3 n 3 = nm 3 n a 5: n
+2 a =2 L] e Z n : 2
+On |. 1 1
+L R L R L R L R
+
+Some Ignitions do not use the
+tumblerin position 1-Left,
+
+Some Glove Box's have more tumblers than others.
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+ACURA
+
+- HONDA - 63
+
+HON-R11 SECTION. =E A
+
+1997-02 Prelude (Honda) 1996-04 RL (Acura)
+
+-= 1997-05 NSX la
+
+| sme | caros | ie | macs | startCut | CuttoCut | AirBags | IgnRetainer
+DblSided | XF74 | 51 E
+
+MASTER 5001-8442 Active
+
+KEYS > NATIONAL: KEYLINE: — Lc <=) ==JER | MA: STRATTEC: | DEALER:
+
+HDIO6-PT | BHD106-PT | HDIO6-PT | HD106-PHT | TPOSHOND21 | 692246 | 35113-SY8-A01 |
+
+Determinator: HON 2 Lishi: HON 58R | AccuReader: n/a |EEZ Reader: n/a | Cobra: n/a
+» Mike's Tip: Transponder System - U.S, models- Test Key is: X214 / HD103
+
+» Make sure the key you are using ¡is "Pre-Cloned" otherwise it will not program into the vehicl
+
+» NSX, PRELUDE 8: RL models only - Immobilizer Box will need to be replaced ifno existing Red 2 Black E
+available. Replacement Immobilizer Box's available from National Auto Lock Service.
+Acura 8 Honda Immobilizer Box's can also be re-flashed with the EZ-FLASHER and other Eeprom devices, -
+
+Special
+Note: >
+
+2004-05 | >Fob Remote: 72147-S3V-A13 or ILCO* RKE-ACURA-3B1 - ECC Info: DUCEBD-355H-A | 2 MHz
+
+» NSX ==
+= 1997-03 | > -Fob Remote: 08E60- SLO-201F (no pic) FCC Info: GJ808E60-01 | 318 MHz. =>
+
+1999-01 | > Fob Remote: 72147 =S30-A01 - FCC Info: EWT72147KA3 | 434 MHz
+
+» Prelude — =
+= 1997-98 | > Fob Remote: 39950-S01-A01 or ILCO+* RKE-HON-4B3 (Dealer Install) FCC: AZ69ZUA1O1 | 433
+
+2002-04 |> Fob Remote: 72147- SZ3- A92 or ILCOH RKE- ACURA-4B2 - FCC Info: E4EG8D-444H-A | 307 MHz =
+
+» RL
+: 1996-01 | > Fob Remote: -72147- -SZ3-A02 pe ) pic) FCC Info: CWT72147KA | 433 MHz
+
+Some pictures below mightvary slightly from the original remote supplied with the vehicle,
+
+72147-S3V-A13 —72147-SZ3-A92 72147-S30-A01
+
+A Code Series: 5001-8442
+
+== == === === = pa == == -DEPTHS
+mu Bow == E == Hp A | 41=.307
+o NA Ss | 4 5 1.6 7 BA _2=.294
+TM e E ===. n=. 31-382
+Pg 108 | 192 | .277 | 361 | .446 | .530 | .615 | .699 | curto | 4=.269
+y - E = Cut: | 5=.257
+m HPC Curtis Clipper PalcA- Panrh mm "¡es
+co == 2 = =
+
+Cam: HD12X =
+AE Carriage: HD-12AX - PAKHI Aa == ==
+
+64 - ACURA = HONDA E === = == 01994, 2021 AutoSmart” by Michael Hide
+
+ÉÉ¿É£COÓ60OOAOAOÓ0AAOAO0O0A0O0O000090
+e
+
+(
+
+000000 1
+
+o
+
+€
+
+000000001
+
+]
+ps)
+>
+Z
+YN
+>
+O
+£
+lu)
+lu]
+DD
+
+continued - HON-R11 SECTION
+Chip Information 8, Notes : E - e
+Transponder: Standard Equipment Chip: Magamos (13) T5 Reusable: Yes
+-Cloner Machine Information E
+ÉDIAG BOX | (, CHINA Y (ILCOISILCA] ( JMAUSA | [ KEYLINE | ( L.D. | ( ScORPiO | f vwDi >)
+A CN900 RWA4 TRS-5000/EVO | | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+M?Yes M Yes M Yes E Yes M Yes M Yes M Yes M Yes
+Red Chip 8 | | 158 158 — 158 158 158 VVDI Chip 8
+Shell HD106 Shell | | HD106 Shell | | HD106 Shell | | HD106 Shell | | HD106 Shell | | HD106 Shell | | Honda Shell
+
+Y- May require Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+Programmer 8 Diagnostic Tools
+
+Factory Tool -
+
+E e Y” TCODE/MVP PRO X TDB1000 Xx HOTWIRE
+
+: REQUIRED
+
+FHDS 4... ===>
+
+J2534 2 Only with
+
+Supscription ¡-HDS (- SMART PRO E AUTO PRO PAD (7 AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | Most locks will have a code on it.
+
+Decoders: | Determinator: HON2 | Lishi: HON 58R AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method +1 Remove the valet lock-out cylinder, ifthe car has one, and read the code to make the key. The code is the
+last 4 numbers. =
+Method $2 Use a Lock Decoder/Reader tool to decode the door lock 8: progression the remaining cut.
+Method +t3 Use Baxter Systems Tryout Keys set 95 for door cuts 8 use progression chart below.
+Method 44 Remove a trunk or door cylinder to get 7 cuts, then progression the remaining cut for the ignition.
+pjo|o¡o¡0 0 /0/0|> Ignition
+21078 /0fF8/0/0| ? |>Door
+2 (0/0 0/0 0 B|? ¡> Trunk / Hatch
+ojojo ¡o 8 /0/|0|X |> Valet Lockout Switch
+oa 0/0 /0/0|0|X |> Glove Box
+1|2|3|¡4|5/6|7|8
+There will be some variations on the tumbler positions, but you should
+always get 7 out of 8 tumblers from the door or trunk.
+01994, 2021 AutoSmart” by Michael Hyde -ACURA - HONDA - 65
+
+HON: R12 SECTION
+
+1998- 03 3 CL al
+
+2000-01 Integra a
+
+CODES
+
+2000-06 MDX (Acura)
+
+|  smeE
+
+2002-06 RSX ¡Acura
+
+] EN
+
+á
+
+4 | macs | StartCut "E Cutto Cut
+
+_1999- 03 3TL E
+
+| A
+|  AirBags | IgnRetainer
+
+. MASTER 5001-8442 Dbl Sided XF74 — RollPin
+o KEYS > = NATIONAL: KEVLINE: a lLco JET: .. MA: = E STRATTEC: E DEALER:
+HDI06-PT- BHDI06-PT | HDI06-PT HDI06-PHT | TPO5HOND21 | 502240 | 35113-584-A01 |
+Determinator: HON 2 —Jushiemon ser | AccuReader: n/a EEZ Reader: n/a =| Cobra: n/a
+. » Mike's Tip: Transponder System - 115: e Test Key ¡s: X214 / HD103 E = a
+=== > Make sure the key you are using ¡is “Pre- Cloned* otherwise it will not y program into the vehicle, ==
+E sE > Fob Remote: 72147- sok- A13 or ILCO+t RKE- ACURA-4B2 (2002- 03)(Memory +1) FCC: EJEG8D- 444H- A [307
+» CL > Fob Remote: 72147-S3M-A1 (2001)(Memory 41) FCC Info: E4EG8D-443H-A | 307 MHz
+=S |>Fob Remote: 72147- SY8- A03 or ILCOF RKE- HON-4B5 (1997- 99) ECC Info: A269ZUAI08 | 434 MHz
+>» Integra > Fob Remote: 72147-SY8-A03 or ILCOH RKE-HON-4B5 (2000-01) FCC Info: A269ZUA1O8 | 434 MHz :
+| > Fob/Remote: 2000-06 -72147-S3V-A02 or ILCO* RKE-ACURA-3B2 (No Memory) FCC: E4EG8D-444H-A | 307 MHz
+e > Fob Remote: 2001- 06- -12147- -S3V-A13 or ILCOH RKE- ACURA-4B2 (Driver +1) FCC: EAEG8D- 444H- A L 307 MHz E
+» RSX l> Fob Remote: 72147- S6M- A02 or ILCOR RKE- -ACURA -3B1- FCC Info: OUCG8D- 355H-A | 314. MHz :
+. [> Fob Remote: 72147-SOK-A01 or ILCOR RKE-HON-481 (1999-01) FCC Info: KOBUTAH2T | 315 MHz z
+a > Fob Remote: 72147-SOK-A13 or ILCOH RKE-ACURA-482 (2002-03) (Memory +I) FCC: EAEG8D-444H-A | 307 |
+
+72147-S6M-A02, S3V-A02, A13 72147-SOK-AI3 72147-S3M-A11,SYS-A03  72147-SOK-AOI, A02
+
+E ., _ Code Series: 5001-8442 => e :
+10» E DEPTHS
+ll E — SPACING . 1-07
+O a o 5 A o - 2=.294
+m = E == z == 3 = .282
+Peg] 108 | 192 | 277 | 361 | 486 | .530 | 615 | 699 | curro | 4=.260
+O ==. ==]. Ct | s=.27
+uy HPC | CurtisClipper Pak-A-Punch | — ITL oo
+Di z o =
+E - Cam: HD12X a
+5 . -H1 >
+a camas HD-12AX PASS =
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+66 - ACURA » HONDA ==
+
+É¿D¿£.0L..r..o.wnr .azoso
+
+.0.00
+
+000000
+
+¿,J¿...
+0000000000090 (
+
+(
+
+0000005050
+
+sena]
+2
+>
+>
+Y
+U
+O
+pa
+O
+m
+ps]
+
+continued - HON-R12 SECTION
+
+Chip Information 8 Notes
+
+Transponder: Standard Equipment
+
+Reusable: Yes
+
+Cloner Machine Information
+
+Chip: Magamos (13) T5
+
+ÉDIAG BOX Y ( CHINA Y (ILCOISILCA) ( JMAUSA Y ( KEYLINE | ( L.D. | ( SCORPIO | ( VWDI y
+EE -CN900 RW4 TRS-5000/EVO| | 884 Ultegra | | MIRACLONE | | TANGO MINI TOOL
+M Yes MV Yes M Yes Yes M Yes M/ Yes Y Yes E Yes
+Red Chip 8 . 58 T58 T58 T58 T58 T58 VVDI Chip 8.
+Shell HD106 Shell | | HD106 Shell | | HD106Shel | | HD106Shell | | HDt06 Shell | | HD106:Shell | | Honda Shell
+
+*4=May require Internet Access to complete E *2- Requires Philips Crypto a. *3- Requires Texas Crypto update.
+
+Programmer 8, Diagnostic Tools
+
+_Factory Tool
+
+¡¿HDS 8
+32534 8:
+
+Supscription
+
+PIN CODE
+REQUIRED
+
+(- TCODE/MVP PRO
+
+€ TDB1000
+
+Q HOTWIRE
+
+Only with
+¡-HDS
+
+( SMART PRO
+
+E
+
+AUTO PRO PAD (7 AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | Most locks will have a code on it.
+
+Decoders: | Determinator: HON2 | Lishi: HON 58R AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method +1 Remove the valet lock-out cylinder, iFthe car has one, and read the code to make the key. The code ¡s the
+last 4 numbers.
+Method +2 Use a Lock Decoder/Reader tool to decode the door lock £ progression the remaining cut,
+Method +43 : Use Baxter Systems Tryout Keys set 95 for door cuts € use progression chart below.
+E labio a trunk or door cylinder to qe 7 cuts, then progression the remaining al for the ignition.
+
+Method $4
+
+There will be some variations on the tumbler positions, but you should
+always get 7 out of 8 tumblers from the door or trunk.
+
+|¡o¡o¡0/¡0/0/0|0|> Ignition
+
+210/86 /058/0/|0| ? |>Door
+
+2 H/0/0/0/0/0/ 2 |> Trunk/ Hatch
+p/¡o|o|a B0/¡0|0|X |> Valet Lockout Switch
+O|(B8 0/0/00 0|0|x|>Glove Box
+1234 |5|j6]|7|8
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+ACURA + HONDA - 67
+HON-R13 SECTION as
+
+1998-02 Accord (onda) 2001-02 Civic (Honda)
+
+2000-06 Insight (Honda) 1998-02 Odyssey (Honda) 2000-03 52000 (Honda)
+
+| sme 7 CARDR | tre | MACS E Start Cut | cuttocut | Air Bags
+Dbl Sided | XF74 | :
+
+| Ign Retainer
+
+RollPin
+
+MASTER [| 5001-8442
+
+KEYS => | NATIONAL: KEYLINE: ILCO: JER MA SEE DEALER:
+HDI06-PT BHD106-PT HD106-PT HD106-PHT | TPO5HOND21 |- 692246 35113-584-A01
+
+Determinator: HON2 | Lishi: HON 58R | AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Pl E E paa System - U.S. models- Test Key i is: X214 / HDI03 o == E
+» Make sure the key you are using is "Pre-Cloned* otherwise it will not program into the vehicle. a
+| b NOTE: Many early Honda vehicles did not come with an Remote system from the factory. The dealer would:
+install the remote system using 08E61-S01- 1M0-01 with FCC Info: A269ZUA101.
+|» Accord > Fob| Remote: 72147-S84- A03 or ILCOF RKE- HON-4B1 (1998-02) FCC Info: KOBUTAH2T | 315 MHz —
+> Civic > Fob Remote: 72147-S5A-A01 or ILCOX RKE-HON-3B1 (2001-05) FCC: NHVWB1U523 | 433 MHz
+=== |» Insight — | > Fob Remote: 72147-S3Y-A01 or ILCOs+ RKE-HON-3B4 - FCC Info: E4EG8DJ| 307 MHz
+
+> Fob Remote: 2001-04 - 72147- -SOX- -A02 - FCC Info: OUCG8D- A40H-A | 307 MHz
+
+» Odyssey |> Fob Remote: 1999-00 - 72147-SOX-A01 - FCC Info: E4EG8DN 307 MHz
+
+> Fob Remote: 1996-98 - 72147-SV5-A02 - FCC Info: E4EG8DN | 307 MHz
+
+» $2000  |>Fob Remote: 72147-52A-A01 or ILCOH RKE-HON-4B4 - FCC Info: E4EG8DJ| 307 MHz
+
+——T21T-SOX-A02 pd
+
+—T2147-S84-A03, S2A-A0T—
+
+Code Series: 5001-8442
+
+$ Ye DEPTHS
+y == SPACING ES qa!
+O HE 213 4 5 6 O 2=.294
+A 108 | 446 A | 3
+= Bea A o O
+O : A => 5= 251
+a HPC | Curtis Clipper |Pak-A-Punch|  ITL | 0845 | 6=.244 |
+A O ==
+Cam: HD12X o ==
+- E == Es
+pe: Carriage: HD-12AX | a 510 >
+
+68 - ACURA + HONDA i a 01994, 2021 AutoSmart” by Michael Hyde
+
+É¿£0O060600000000600000000000
+00000 (0
+
+€
+
+€
+
+000000000004
+
+43I0NOASNVYL
+
+Chip Information 8. Notes
+
+continued - HON-R13 SECTION
+
+Transponder; Standard Equipment
+
+Chip: Magamos (13) T5
+
+Reusable: Yes
+
+—Cloner Machine Information
+
+(DIAG BOX) [ CHINA >) (ILCOISILCA) ( JMAUSA Y ([ KEYLINE Y (LD. Y(íScORPIO ) ( WDi >)
+o CN900 RWA4 TRS-5000/EVO | | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+M Yes M Yes M Yes 4 M Yes M Yes M Yes M Yes M Yes
+Red Chip 8 158 158 16% 158 158, 158, VVDI Chip 8
+Shell HD106 Shell | | HD106 Shell | | HD106 Shell | | HD106 Shell | | HD106Shell | | HD106 Shell | | Honda Shell
+
+*1 - May require Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+Programmer 8. Diagnostic Tools.
+
+Factory Tool E -
+1 a Y, TCODE/MVP PRO 2? TDB1000 2 HOTWIRE
+: REQUIRED
+¡-HDS 8
+J2534 € Only with : -
+¡-HDS (- SMART PRO [+ AUTFO-PRO PAD (> AUTEL IM608
+
+Supscription
+
+-? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | Most locks will have a code on it,
+
+Decoders: | Determinator: HON2 | Lishi: HON 58R AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method HI Remove the E lock-out cylinder, ¡Fthe car has one, and read the code to make the key. The code is the
+, last 4 numbers.
+Method ++2 Use a Lock Decoder/Reader tool to decode the door lock € progression the remaining cut.
+Method $3 Use Baxter Sens Tryout Keys set 95 for door cuts £ use progression chart below.
+Method 44 Remove a trunk or door cylinder to get 7 cuts, then progression the remaining cut for the ignition.
+
+ojo|¡oj¡o|¡o 0 /0/0|>!lgnition
+
+2 10/6/00 /0/0/¡0| ? [>Door
+
+2/0 /0/0/0/0/0/? |> Trunk / Hatch
+o¡o|60/0/6/0/|0|X |> Valet Lockout Switch:
+ojoja ¡o 0 O|O|X |> Glove Box
+1falalalsjo|7|8
+
+There will be some variations on the tumbler positions, but you should
+always get 7 out of 8 tumblers from the door or trunk.
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+ACURA »
+
+HONDA - 69
+
+HON: -R14 SECTION He
+
+2004-06 TL (Acura) : 2004-08 TSX (Acura) =
+
+1
+
+Air Bags | Ign Retainer
+Roll Pin
+
+| sTME macs | StartCut | Cutto Cut
+
+Dbl Sided
+
+5001 -8442
+
+A A TS ILCO: En Mas | STRAMIEC: | DEALER:
+- HD108-PT BHD108-PT - HD1H-PT HDM13-PHT | TP12HOND21 | 5907552 35113-SEC-A01
+- Determinator: HON2 —— |Lishi:HON58R | AccuReader: n/a -EEZ Reader: n/a Cobra: n/a
+E » Mike's Tip: Transponder System - US. models- Test Key is: X214 / A
+» papal HD103 (non-high security) key with y chip. Blade is marked with *V”.
+[1 | >Fob Remote: 72147-SEP-A52 or ILCOH RKE-ACURA-4BI (Memory +1) FCC: OUCG8D- Sr =
+
+» TL :
+> Fob Remote: 72147-SEP-A62 (Memory +2) FCC Info: OUCG8D-387H-A | 313 MHz
+
+Remote
+
+ES [> Fob Remote: 72147-SEC-A02 (2004-05) FCC Info: OUCG8D-387H-A | 313 MHz
+
+- |» TSX- | > Fob Remote: 72147-SEP-A52 or ILCOX RKE-ACURA-4B2 (2006-08) (Memory 41) FCC: OUCG8D-387H-A
+
+> Fob Remote: 72147-SEP-A62 (2006-08) (Memory 42) FCC Info: OUCG8D-387H-A | 313 MHZ -
+
+=  TZTAT-SEC-AO2 a :
+
+: a Code Series: 5001-8442 ==
+
+> G ae DEPTHS
+y : SPACING a | 1=.307
+a 1 | 2 3 4 LB >. 7 8. | 2=.294
+m = == : a = = 2. A. > 153 =.282 =
+PR 108 | 192 | 277 | 361 | .446 | .530 >...
+
+¡| E aio === | 5.287 Ed
+E HPC - Curtis Clipper | Pak-A-Punch|  ITL -6=.244 E >
+a = - == = = S=
+
+= Cam: HD12X == E + e
+E E == E = =
+: A qn Carriage: HD-12AX = E E. ES = =E- 3
+
+70 - ACURA - HON DA. = E 1894 2021 Anto Mardy Michael Hyde —
+
+WIRE ANNE MWMENMENINO E
+0.0000000.0000000004
+
+€
+
+€
+
+4JONOASNVYL
+
+continued - HON-R14 SECTION
+
+Chip Information 8 Notes
+
+Transponder: Standard Equipment
+
+Chip: Philips 46 HT2
+
+Reusable: Yes
+
+Cloner Machine Information
+
+(ÉDIAG BOX Y (/ CHINA >) (fILCOISILCA) (/ JMAUSA >] (/ KEYLINE | ( L.D. >) (í SCORPIO Y ( vWDI y
+ra CN900 RWA4 TRS-5000/EVO | | 884 Ultegra | | MIRACLONE | | TANGO MINI TOOL
+MYes M Yes M Yes 2 E Yes 2 M Yesl,2 Al Yes1,2 M Yes!,2 M Yes!
+Green Chip | | CN38 GTI Chip 8 TPX4 8 TK100 8. TPX4 8 Texas | |wbichipa
+8 Shell Honda Shell Honda Shell Honda Shell Honda Blade Honda Shell Honda Shell Honda Shell
+
+*1 - May require Internet Access to complete cloning. *2- == Philips Crypto Upsals: *3 - Requires Texas Crypto pa
+
+E a Diagnostic Tools.
+
+¡-HDS 8
+J2534 €
+
+Factory Tool >
+
+PIN CODE
+REQUIRED
+
+] (- TCODE/MVP PRO
+
+(- TDB1000
+
+(a HOTWIRE
+
+Only with
+
+Supscription ¡-HDS ( SMART PRO
+
+(- AUTO PRO PAD
+
+(- AUTEL IM608
+
+= Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: Most locks will have a code onit,
+
+Decoders: |Determinator: HON2 — |Lishi: HON58R | AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+“Method $ : Remove the valet lock-out cylinder, iFthe car has one, and read the code to make the key. The code is the
+- last 4 numbers.
+Method +2 UseaLock Decoder/Reader tool to decode the door lock 8 progression the remaining cut.
+Method 3 UseBaxter Systems Tryout Keys set 95 for door cuts 8; use progression chart below,
+Method +4 Remove a trunk or door cylinder to get 7 cuts, then progression the remaining cut for the ignition.
+
+ojo¡o¡o¡o/0/8|0|> Ignition
+
+2 10/8/08 /8/0|?7 ¡>Door
+
+2 (OJO jojo O B|? |> Trunk/ Hateh
+o/o /¡o|0 8 /0|0|X |> Valet Lockout Switch
+oja | [8/0/0/¡0|0|X ¡> Glove Box
+112|3|415/6/7[8
+
+There will be some variations on the tumbler positions, but you should
+- always get 7 out of 8 tumblers from the door or trunk.
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+-ACURA +
+
+HONDA - 71
+
+Roi io eS ES a
+
+1997 CL (Acura) 1990-99 Integra (Acura) | 1990-96 Legend (Acura) —
+
+1991-96 NSX (Acura) 1995-98 TL (Acura) 1991-96 Vigor (Acura)
+
+CODES | STE | caros | ms | MACS | StartCut | CuttoCut | AirBags | IgnRetainer
+MASTER | 5001-8442 | DblSided | XF7% 4 | 108 | 0845 l Active
+KEYS => | NATIONAL: KEYLINE: A MAS || STRAMTEC: DEALER:
+HD103 —HD103 X214 HD103- HONDI16D 692056 35117-SL5-U01
+Info> | Determinator: HON 2 Lishi: HON 58R — | AccuReader: n/a EZ Reader: n/a —  |Cobra: n/a
+» eL |» Fob Remote: 72147-SY8-A03 or ILCOH RKE-HON-4BS (1997-99) ECC Info: A269ZUA1O8 | 434 MHz
+
+» Integra — | > Fob Remote: 1996-01 -72147-S3Y-A01 or ILCOH RKE-HON-4B5 - FCC; A269ZUA1O8 | 434 MHz
+
+» Legend E > Fob Remote: No remote application for this vehicle.
+
+Remote -
+
+Info 2 | NSX |» Fob Remote: No remote application for this vehicle. ==. ==. =-
+» TL > Fob Remote: 72147-525-A01 (1996-98) FCC Info: KOBUTAIT | 315 MHz
+» Vigor > Fob Remote: No remote application forthis vehicle.
+
+WeWzxmMmw=z
+
+— 72147-SY8-A03 — TAAT-SIY-AO1
+
+no rransronoer
+
+Code Series: 5001-8442
+
+9 e PES Sl -DEPTHS
+> Bow . SPACING ra ye ss | 14=.307
+O te 2 3=| 4 5 ]=.h:=>=>$ ==8 2=.294
+m : _ a. =- 3 = .282
+Peg 108 | 192 | 277 | 361 | .4a6 | 530 | 615 | 699 | curto | 2=.260
+u = = > E cut | 5-37
+A HPC | Curtis Clipper | Pak-A-Punch ITL e
+= ==
+Cam: HD12X . ==
+E
+CF74 1 XF74 Carriage: HD-12AX PAK H1 510
+
+72 - ACURA - HON DA o = => = === 01994, 2021 AutoSmart” by Michael Hyde
+
+€»¿£.,.LCPOCO..O..C,.D..O.
+continued - HON-R15 SECTION
+
+Codes: Most locks will have a codeonit.
+
+Decoders: Determinator: HON 2 — | Lishi: HON 58R | AccuReader: n/a - EEZ Reader: n/a Cobra: n/a
+Method +1 Remove the valet lock-out cylinder, ifthe car has one, and read the code to make the key. The code ¡is the
+E last 4 numbers. - z >
+Method 42 Use a Lock Decoder/ Reader tool to decode the door lock £ progression the remaining cut,
+Method +3 Use Baxter Systems Tryout Keys set 95 for door cuts 8: use progression chart below.
+Method 4 Remove a trunk or door cylinder to get 7 cuts, then progression the remaining cut for the ignition.
+- olo[o[0 0100 01> tgnition
+2 3/0/00 /0 (0 22 Door
+2/0/0008 /0|?2 |> Trunk / Hatch
+a |8/0/0/0|0/0| X|> Valet Lockout Switch
+aj¡o¡o¡o¡o 0 |¡O| Xx |> Glove Box
+1p2|3J4|s|j6|7|8
+
+There will be some variations on the tumbler positions, but you should
+always get 7 out of 8 tumblers from the door or trunk.
+
+0000.00000000000000000 4
+
+01994, 2021 AutoSmart” by Michael Hyde a E ACURA - HONDA - 73
+A... e == E
+
+1990-97 Accord (Honda) | 1989-00 Civic (Honda) | 1997-01 CR-V (Honda) | 1988-91 CRX (Honda)
+
+1992-97 CRX del sol [1995-97 Odyssey (Honda) [1998-01 Passport (Honda)| 1991-96 Prelude (Honda)
+
+| Start Cut | Cut to Cut | Air Bags | Ign Retainer
+
+|
+
+| | macs
+
+| se | caros
+
+MASTER — sooi-8442 | DblSided | xF7 Z Active
+ers | NATIONAL: KEYLINE: too: | mm. ama: [o STRAMTEC | DEALER
+
+HD103 HD103 X214 HDtO3 | HONDIG6D | 692056 | 35117-SL5-U01
+— info> | Determinator: HON2 — |Lishi:HON'58R | AccuReader: n/a EEZ Reader: n/a |Cobra: n/a =
+> Accord — |> Fob Remote: OBES1-SO1-1M0-01 or ILCOF RKE-HON-4B3 (96-02, Dealer Installed) FCC: AZG9ZUAIO!| 434 MHz |
+
+> Fob Remote: 72147-504-A02 or ILCOH RKE-HON-3B3 (1996-00) FCC Info: A269ZUATO6 | 434 MHz —
+
+> Civic S=====0. ===> - ==
+a > Fob Remote: 39950-S01-A01 or ILCOX RKE-HON-3B3 (1996-98) FCC Info: A269ZUA106 | 434 MHz
+
+»CRY |>FobRemote:: 1999-01 72147-S10-A52 or ILCOX RKE-HON-4B4 - FCC Info: E4EG8DJ | 308 MHz -
+
+——» NOTE: Many early Honda elida did not come with an Remote system from the factory. The dealer would install the
+remote system using E sor 1M0-01 with FCC Info: A269ZUA101. E
+
+— 39950-SOT-A01 -72147-S10-A52
+
+Code Series: 5001-8442
+
+mn
+: DEPTHS
+A Bow z SPACING ; Ti = 0
+o E 2 2-15 es e 2=.294 .
+m = : == == 3 =.282
+PR] 108 | 192 | 277 | 361 | .446 | .530 | .615 | 699 | cutto | 4=.269
+U - A E ==Cut | 5=.257
+se HPC Curtis Clipper | Pak-A-Punch | I5TL | :'08%5 | 6=.244
+1 E Ad PAK-H1 510
+
+Carriage: HD-12AX-
+
+E 74 Z ACURA = HONDA == ===> a 01994, 2021 AutoSmart” by Michael Hyde
+
+VETE ENMNSE MMM OZ
+
+0
+continued - HON-R16 SECTION
+
+Codes: Most locks will have a code onit.
+
+Decoders: | Determinator: HON2 — | Lishi: HON 58R | AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method +1 Remove the valet lock-out cylinder, ifthe car has one, and read the code to make the key. The code ¡is the
+last 4 numbers. -
+Method +2 Use a Lock Decoder/Reader tool to decode the door lock 8% progression the remaining cut,
+Method +3 -Use Baxter Systems Tryout Keys set 95 for door cuts € use progression chart below.
+Method $4 Remove a trunk or door cylinder to get 7 cuts, then progression the remaining cut for the ignition.
+, o|o¡o¡o ¡0 /0/0|0]|> Ignition
+- 2 (O[O[O|O[O|(O |? |>Door -
+20/0/0 0/0/0/2]|> Trunk / Hatch
+aja 0 /0/0|/0/0|X|> Valet Lockout Switch
+a/0/0/0/¡0/0|/0|xX |> Glove Box
+: s 1ilalalals[o 7|8
+
+There will be some variations on the tumbler positions, but you should
+always get 7 out of 8 tumblers from the door or trunk.
+
+0.9»."..0.0.0.0. 8.0 9:0.:B.:0.0. 0,0 1.0.0.0.
+
+01994, 2021 AutoSmart” by Michael Hyde —
+
+ACURA » HONDA - 75
+HON-R17 SECTION
+
+1982-89 Accord (Honda) 1984-88 Civic (Honda) 1984-87 CRX (Honda)
+
+1986-92 Legend (Acura)
+
+- 1986-89 Integra (Acura) 1983-90 Prelude (Honda)
+
+CODES | sme | caro* | me 1 MACS | startcut | cuttocut | hir Bags | Ign Retainer
+
+master | 3001-4481 | DblSided | XFI3 2 | 098 | .098 Active
+KEYS > NATIONAL: + KEYLINE: ILCO: JET IMA ==| STRATTEC: E DEALER:
+
+= 1 0000 = n/a == HD90 | HOND-10 692066 — -n/a
+Info => Determinator: HON 1 | Lishicn/a . 'AccuReader: n/a EEZ Reader: n/a a cobra; n/a
+
+MI] no rransronoer Es
+
+E Code Series: 3001-4481
+y O a A. A
+O 1 2 3 4 5 6 Y 8 = 1=.276
+m == = === 2=.244 n=
+PR] 098 | 196 | 294 | .392 | .490 | .588 | 686 | 784 | cutto | 3=.213 ES
+U = 7 z a E Cut: a
+di HPC - Curtis Clipper Pak-A-Punch FE 2. Ss
++= o
+=] == = E o
+- Cam: HD-9 y
+al CF73 / XF73 Carriage: HD-9A PAK-H2 E 211 3
+Codes: | Most locks will have a code onit, : E :
+Decoders: | Determinator: HON1 — | Lishi: n/a. | AccuReader: n/a |EEZReader: n/a Cobra: n/a —
+Method +1 - Use a Lock Decoder/Reader tool to decode the door lock and then you can progression any missing cuts.
+Method +2 _ Remove the valet lock-out cylinder or trunk lock, ifthe car has one, and read the code to make the key. .
+
+The code ¡is the last four numbers. — ==
+
+Method $3 Use Baxter Systems Tryout Keys set 59A for door cuts 8e use progression chart below. (or)
+= = - Use Aero tryout set TO-15 for door cuts 8 use progression chart below.
+
+o (ololo|o0 0/0 0 )>!gnition =
+5 0) 4d Ec > Door
+ojojojo loja - [> Trunk / Hatch*
+BES E 1.5 > Valet Lockout Switch*
+ojojojojo | | |>GloveBox* =
+= = 31415 617|8 == - | sifthe caris so equipped.
+: -— Progression Chart a a OO
+E = === === n 21 = 31
+This is to be used for the 2 remaining Cuts only E E ==
+found in the ignition lock, positions 7 8£8..— — | 23
+===> . 3
+
+76 - ACURA » HONDA =
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+TENE ITEEENAIAMUMMAANE SE
+0000000000059 (
+
+0000000041
+
+HON-R18 SECTION
+
+1998-01 Passport (Honda) 1996-00 SLX (Acura)
+
+| STYLE CARDé Té | MACS Start Cut | CuttoCut | Air Bags | tgn Retainer
+
+N5001-7000 Dbl Sided CF88 dz .098 Active
+KEYS > NATIONAL: KEYLINE: ILCO: JET: JMA: STRAFTEC: DEALER:
+B65 n/a X184 B65 GM-4 n/a n/a
+Determinator: JAP 1 Lishi:-MIT8 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+sE » Remote Fob: (1998-99 SLX) Dirit 8-97166-682-0 - FCC Info: HYQ1512R | 314 MHz
+
+ES NO TRANSPONDER
+
+ó Code Series: N5001-7000
+> Bow SPACING Tip Os
+(9) 1 2 3 4 5 6 H 8 1=.325
+m E 2=.297
+Po] 098 | 181 | 264 | 346 | 429 | 512 | .594 | 677 | curto | 3=.270
+e) : Cut: 4=.242
+5 HPC Curtis Clipper Pak-A-Punch ITL :083
+=
+Cam: DC-50
+
+ul CF88 / XF88 Carriage: TOY-50 PAK-G04 196
+
+Codes: | Passenger door lock will have a code on it,
+
+Decoders: | Determinator: JAP 1 Lishi: n/a | AccuReader: n/a | EEZ Reader: n/a Cobra: n/a
+
+Method +1 Use the Japanese 1 Determinator”.
+
+Method ¿42 Disassemble a door cylinder to get all eight cuts to make a master key.
+jajojo¡0|0|/> Ignition
+aaa al sa > Doors 8: Hatch
+
+D/8¡0|/0|> Glove Box
+3(4|[5|6|7|8
+
+01994, 2021 AutoSmart” by Michael Hyde ACURA= HONDA - 77
+MASTER —
+
+1994-95 Passport (Honda)
+
+| sme | caros | rms | macs |
+
+Start Cut at | Cutto Cut
+
+Air Bags | Ign Retainer
+
+KEYS > |
+
+D4001-6000 | DblSided | Ss , Active
+NATIONAL: | KEYLNE: ILCO: E STRATTEC: | DEALER:
+B74 n/a X198 B74 - GM-15D - n/a _n/a
+
+fo
+
+Lishi: n/a
+
+- [EEZ Reader: n/a
+
+Cobra: n/a
+
+Determinator: 1-2
+
+. AccuReader: n/a.
+
+3 A == DEPTHS |
+BO 1 2 3 4 == .'6 LL PB 1=.315 -
+pá] 098 | 181 | 264 | 346 | .429 | 512 | .594 | .677 | cutto | 3=.283
+y = eS E E =|5 =Cut: 4=,268 |
+UY HPC | CurtisClipper |Pak-A-Punch|  ITL $. EE o
+7 Cam: GM-5 : _
+al CF89 / XF89 Carriage: GM-5B PAK-G6- == 507 =
+Codes: Passenger door lock will have a code on E. e ,
+Decoders: Determinator: JAP 2 Lishis n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+== j — Method $
+= — Method $2
+Method +3
+
+— Method 44
+
+— Check owners manual for code, written > the dealer.
+
+Use the ==> 2 Determinato” for Code Series D4001-6000.
+
+Remove gos box lock and dedoda laa! Ivtpleeion: or progression remaining cuts ¡ in door lock.
+
+- Remove ds door onde andres | code: stamped on lock.
+
+Method 45 Disassemble role decode wafers rsto make e Je =
+> _ qieseies D4001-6000 E =
+: To ejolojoja =
+FA. Be BD aÓ0 z :
+| plo Jpo/Do|; . .
+= ojo¡o
+l6|7|8|- =
+
+78-ACURA=ONDA: == ==
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+¿CODO .CAOLOCOCLSIOAsDCsSe..00..
+00.0.0........wbOIO OC O CONO OOOO OO UA
+
+€
+
+HON-R20 SECTION
+
+1978-81 Accord (Honda) 1977-83 Civic (Honda) 1979-82 Prelude (Honda)
+
+| smie | caros | true | macs | startCut | Cuttocut | AirBags | IgnRetainer
+1001-2700 Dbl Sided XF73 .098 Roll Pin
+NATIONAL; KEYLINE: ILCO: JET JMA: STRATTEC: DEALER:
+HD70U n/a XT or HD70U HOND-34 n/a n/a
+or HD82 X129, X130 or HD82 orHOND-12
+Info => Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Bl no rransronoer
+
+a Code Series: 1001-2700
+. Bow E SPACING Tip DEPTHS
+(9) 1 2 3 4 E 6 t 2/5
+ma E 2 =.245
+pg] 098 | 197 | 296 | 395 | .494 | .593 Últ  3=2
+|) CUE
+la Cinner 099
+5 HPC Curtis Clipper Pak-A-Punch ITL .
+A o -
+Cam: HD-4
+al CF72./ XE72 Carriage: HD-9A PAK-H3 205
+Codes: | Passenger door lockwill have a code on it.
+Decoders: | Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method +1 Check owners manual for codes, written in by the dealer.
+Method +2 Remove passenger door cylinder and read code stamped on lock.
+Method 43 Disassemble door cylinder and decode waters to make master key.
+Method 44 Impresion locks.
+01994, 2021 AutoSmart” by Michael Hyde ACURA =- HONDA - 79
+= ss === -ILCO 1 MET STRATTEC € C
+
+- hatiLCO and JET use. ===. o pa are econ Keys.
+
+80 - ACURA » HONDA
+
+mMormation
+
+the chip value, which is usually 32 digits long. The cloning machines ye the value o the original chip key and han c can write that value
+onto a after-market cloning chip key. -— ===.
+
+- Hi one ofi problems w with cloning a
+
+-zeroS, E programming ofa new key into the car's memory t the car's a computer is bola for eE ¡dle to the chip
+
+and will not accept a value of all zeros, The car's immobilizer computer see's this as san error and in turn. causes a fault to be registered in —
+the PCM (Powertrain Control Module) computer. To avoid doing this and econ problems yal close attention to o numbers
+
+JET Key Example: ne HD106-N-PHT=— The "PHT rersponder |
+
+Pie ramones:
+
+sE. + She "N'" means neutral value, 2. a
+
+is the "same as Zero value.
+
+MS all inthe la andt type of E En Cloning! transponder las hatsa chip inthemth hanna tohe have o
+the transponder ID read and also written too. Cloning transponder keys require a machine like the JET "EDT-T" orthe SILCA “RW2" to read —
+
+90.00
+
+(
+
+(
+
+€
+
+000000001
+
+00.010
+
+»
+
+2)
+
+3)
+
+4)
+
+5)
+
+6)
+
+ACURA:=:HONDA - Transponder Information
+
+On-Board Remote lle
+
+Sit inside le bic with all doors closed.
+
+Insert the key and turn it to the ON position. Press the Lock button on a unpro-
+
+- grammed Remote Head key.
+
+- Turnthe key to the OFF oia Turn back ON the key a 2nd time and press the Lock
+
+button again.
+
+Turn the key to the OFF position. Turn back ON the key a 3rd time and press the Lock
+
+button again.
+
+Turn the key to the OFF poa Turn back ON the key a 4th time and press the Lock
+
+pen again.
+You should now hear and see the door locks cycle once. Keep the key turned ON.
+Press the Lock button on each Remote Head you want to program into the vehicle.
+
+You should now hear and see the door locks cycle once.
+
+Important Notes:
+
+1)
+
+2)
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+- You must complete each step within 5 seconds.
+
+To start out the procedure to get into programming mode you must use the same
+Remote each of the 4 times.
+
+ACURA » HONDA - 81
+ACURA» HONDA - transponder Information ==>»? E
+
+de - ACURA £ e “Type 1” - Older Models ,
+
+-On older Acura 2 Honda vehicles that use the “Type y system you must have an existing
+Black and Red key to add more keys. If the customer only has a Red or a Black key, but not both,
+
+you must replace or re-flash the Immobilizer computer as pictured and program the new unit in
+with a key programmer. This is only for "Type 1” cars, no other cars requies tals ES
+
+3 => YN
+ES
+ER
+ME :
+a Acura 8 Honda immobilizer Boxi is used o on these older models:
+. 1997-2005 5 NSX models ==
++ 1997-2002 Prelude models. E ==
+- 1996-2004 RL models = == o
+
+-Ifthe original: Black 8 Red keys are not “available for the car - =
+O me IA box must be re-flashed or replaced with a new one.
+
+82 - ACURA - HONDA = E == == 01994, 2021 AutoSmart” q
+
+(
+
+00.00.00 0.0 0:0.0 (1
+
+0.0.0
+
+9.0 0.4
+
+€
+
+(
+
+ACURA HONDA - Transponder Information
+
+EMERGENCY ENGINE START PROCEDURE: .
+
+01994, 2021 AutoSmart” by Michael Hyde
+
+Models: CL, TL £ INTEGRA £ MDX - Use the Brake Pedal
+
+Models: 3.5RL, NSX, RSX ££TSX - Use the Hand Brake
+
+Make a mechanical key that will workthe ignition lock cylinder.
+
+Have the customer get the “Immobilizer Brake Code" from the dealer or Honda Customer Relations, you
+will need the Vehicle Identification Number. This is a five digit number code. Each car has a different
+“Immobilizer Brake Code" since they are VIN specific.
+
+Turn the ignition switch tothe ON position (II).
+
+Have the BRAKE CODE in front of you. To enter the first number ofthe BRAKE CODE, press and release
+the brake the same number of times as the first number inthe BRAKE CODE. For example if the first
+number in the BRAKE CODE is a 2, press and release the brake 2 times.
+
+Turn the ignition switch to the LOCK position.
+
+Within 30 seconds, turn the ignition switch to the ON position (1H). For example ¡if the 2nd number in the
+BRAKE CODE is a 3, press and release the brake 3 times.
+
+Continue entering the BRAKE CODE as described above for the rest 3rd, 4th 8: 5th digits.
+After entering the 5th number, the Immobilizer Indicator light on the dash should flash 5 times and then
+shut off. The car should now start. This procedure must be repeated each time you turn off the car for more
+
+than 10 minutes, The Immobilizer System indicator will remain on while the engine is running.
+
+IMPORTANT NOTE: If the customer finds his/her keys or drives home to get them, tey cannot use
+them until the vehicle has been turned off for more than 10 minutes.
+
+ACURA » HONDA - 83
+oe
+a eo
+

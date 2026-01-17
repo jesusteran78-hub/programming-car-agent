@@ -1,0 +1,3419 @@
+¢
+
+9 @o ¢
+
+¢
+
+AUTO LOCK SERVICE, INC’
+
+— 2021
+
+AutoSmart ™
+by Michael Hyde
+
+AUDI = VW = PORSCHE
+
+to check with your key programmer supplier to see if the vehicle you are working on is supported by their
+| tool. There is always a risk in damaging the vehicle electronics when you connect to the vehicle through
+__ the OBD port if you are not using an OEM diagnostic tool. You as the locksmith take on this risk every
+time you perform work on a vehicle.
+
+| the VIN to get you the right part number. Remember, ultimately it is your responsibility to obtain the
+| correct part. Part numbers and FCC information has been researched and verified as best as possible.
+
+| contain mistakes of their own. Therefore, we cannot guarantee or warranty that the part we show for a
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+DISCLAIMER:
+A wide variety of key programmers have been added to this book. Most key programmer companies are
+not based in the U.S. Some of their application charts have many mistakes. _In some.cases, you will need
+
+If you have any doubt about what part to use, make sure you check with the dealer and have them run
+
+But no system is perfect or without errors. Car manufacturers’ part numbers and applications guides
+
+particular vehicle is the absolute right one.
+
+i
+| Se ie dS LOO R
+
+AUDI « VW.+ PORSCHE - 1
+2021 - AutoSmart Foreign Book eo
+AUDI « VW « PORSCHE Table of Contents
+
+MAKE |MODEL =—SY'[YEARS_=|TYPE ‘|SECTION | PAGE
+
+bap /o0 5 = 1988-95 | Key AV-1_ "= 2 28
+‘}100 / 200 1989-94 _| Key AVA = == ag
+‘A067 S600 eases eg = aS = = ice
+: = 1201521 = |Key---— |AV-8- a:
+2005-13 ‘| Key. AV-7 Sees S
+2017-21 Proximity |AV-10 | 22
+2009-16=- =| Proximity. |AVS.- -- | 20 |
+
+7 TAS
+
+mid 2005-2008 _| Key _ AV-7 as
+
+2002-mid 2005 |Key _| AV-6 SS eela= 44
+"(4997-01 — Key — |AVS  -  — |- 2
+
+A4/S4
+
+—|1995-96 = |Key =f AV-1 pions:
+
+2018-21 Proximity a = 99
+
+A5 —
+2008-17. ‘| Proximity | AV-9 = 20
+
+|2019-21 | Proximity | AV-10 22
+
+AUDI 2012-18 | Proximity | AV-9_ ee
+
+A6 / S6 = 2005-11 == = Key : AV-7 = = - i
+: 2001-04 [Key  §|AV-6 a
+
+1996-00 |Key _—*f AV-5 2 ==|== 99
+
+-}2019-21 | Proximity | AV-10 =e:
+
+A7
+
+2012-18 __ | Proximity S AV-9_ = 20
+
+: —_-}2019-21 | Proximity | AV-10 255
+
+|A8/S8 2011-18 [Proximity |AV-9 == | 20
+
+2001-10 | Key = 36
+}Q3_ oe = ee 1
+:  |2018-21 | Proximity | AV-10 = =e
+2009-17 | Proximity | AV-9 = b 230
+2017-21 | Proximity |AV-10 = | 22
+
+1Q5
+
+Q7 = =
+2007-15 |Key —| AV-7_ c=
+
+Qs 2019-21 | Proximity | AV-10 “aa
+
+2 -AUDI» VW = PORSCHE = = = : ©1994, 2021 — by Michael Hyde
+
+See 6 6 6: 6' 8 ¢ 66 0:66 6 66% 6 Ce C6
+¢
+
+o#eoee08808 0 6 @ <
+
+¢
+
+2021 - AutoSmart Foreign Book
+AUDI = VW = PORSCHE Table of Contents
+
+MAKE MODEL YEARS TYPE SECTION PAGE
+2016-21 Proximity AV-10 22
+2005-15 /Key AV-7 16
+AUDI TT
+2001-04 Key AV-6 14
+2000 Key AV-5 12
+718 Boxster 2017-21 Proximity AV-21 44
+718 Cayman 2017-21 Proximity AV-21 44
+2013-21 Proximity AV-21 44.
+911 1999-12 ‘Key AV-19 40
+1981-98 Key AV-3 10
+914 1970-76 Key AV-3 10
+924 1976-88 Key AV-2 8
+928 1978-96 Key AV-22 46_
+944 1983-91 Key AV-2 8
+PORSCHE | 968 1992-96 Key AV-2 8
+2013-16 Proximity | AV-21 44
+Boxster
+1999-12 Key AV-19 40
+2011-21 Proximity AV-21 44
+Cayenne
+2003-10 Key AV-19 405
+2013-16 Proximity AV-21 44
+Cayman
+2006-12 Key AV-19. 40
+Macan 2015-21 Proximity AV-21 44
+Panamera 2010-21 Proximity | AV-21 44
+Taycan 2020-21 Proximity —_ | AV-21 44
+Arteon 2019-21 Proximity AV-18 38
+2018-21 Proximity AV-18 38
+Atlas
+2018-21 Key AV-17 36
+V.W.
+2017-19 Key AV-14 30
+mid 2005-2016 Key AV-12 26
+Beetle
+Key AV-11 24
+
+2000 - mid 2005
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+AUDI = VW = PORSCHE - 3
+
+~ 2021 - AutoSmart Foreign Book =
+AUDI « VW « PORSCHE Table of Contents _
+
+4 - AUDI» VW + PORSCHE
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+MAKE MODEL YEARS |TYPE SECTION _|PAGE
+1998-99 |Key —s[AV-5 Ze
+Beetle 1970-78 ‘| Key AV-4 n
+-|1966-70 —‘| Key. AV-4 =
+1971-79 Key AV-2 =6
+Bus : ==
+; 1966-70 _| Key AV-4 11
+ce 2009-17 | Proximity | AV-16 34
+2000-02 _| Key AV-23 48
+Cabrio |1999 ~—s| Key AV-5 3
+-|1995-98 __| Key AV-1 6
+: — |1989-93 _| Key AV-1 o:
+Cabriolet : > ==
+1985-88 _—| Key AV-2 8
+Corrado 1990-95 Key AV-1 6
+Dasher 1978-81 _| Key AV-2 8
+EOS 2007-16 _—| Key AV-12 26
+V.W. = = :
+2001-04 _—| Key AV-25 52.
+Eurovan == =
+1993-00 _| Key AV-1 6
+2015-21 __ | Key AV-17 36
+2006-14 _| Key AV-12 26
+2000-05 _—| Key AV-11 24
+Golf / GTi —— =
+= 1999 _| Key AV-5 12
+1989-98 _| Key AV-1 6
+1985-88 | Key AV-2 8
+ID.4 2021. ~—s*| Proximity | AV-18 38
+2019-21 | Proximity _| AV-18 38
+Jetta 2019-21. |Key —= AV-17 36
+| 2017-18 Key AV-14 30
+mid 2005-2016 _| Key AV-12 26
+2000 - mid 2005 | Key AV-11 24
+
+peeeseaee
+
+peee°e@
+
+»)
+
+pe@caceee
+
+> ©
+¢
+
+©@#eeeeoee9@e@«
+
+(
+
+®9@eoeee <
+
+¢
+
+¢
+
+2021 - AutoSmart Foreign Book _
+AUDI =» VW = PORSCHE Table of Contents
+
+YEARS
+
+MAKE MODEL TYPE SECTION -|PAGE
+| 1999 Key AV-5 12
+‘| Jetta 1989-98 Key AV-1
+
+1985-88 Key AV-2 8
+
+2017-21 Key AV-14 30
+
+Passat 2012-16 Key — AV-13 28
+2006-10 Proximity AV-16 34
+
+Passat Sedan 2001-05 Key AV-11 24
+Passat Wagon 2003-05 _| Key AV-11 24
+a5 i 1998-99 Key AV-5 12
+1989-97 Key AV-1 6
+
+V.W. Phaeton 2004-06 Key. AV-13 28
+ae 2006-09 _| Key AV-13 28
+1978-88 Key AV-2 8
+
+Routan 2009-12 _| Fobik AV-24 50
+Scirocco 1978-88 Key AV-2 8
+Taos 2022 Proximity AV-18 38
+2018-21 Key AV-17 36
+
+Tiguan 2017 Key AV-14 30
+2009-16 Key AV-13 25
+
+2011-18 Proximity | AV-15 32
+
+Bay 2004.10 | Key_ AV-13 28
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+AUDI « VW « PORSCHE - 5
+
+AV-4 SECTION
+
+1988-95 80 / 90 (Audi) _ 1989-94 100 / 200 (Audi) 1985-88 4000 / 5000 (Audi)
+
+1995-96 A4 / S4 (Audi) 1995-98 Cabrio (vw) =4 = 1989-93 Cabriolet (vw)
+
+1990-95 1993-00 1989-98 — 1989-98 1989-97
+Corrado (VW) __ Eurovan (vw) Golf / GTi (Ww) ~ Jetta (VW) Passat (VW)
+| stve | carpe | me | macs | Startcut | cuttocut | AirBags | ign Retainer
+
+AH 1-9282 DblSided | CF4 | 356/357} 3 106 Varies | ‘90&up | Spring
+MASTER = qe
+NATIONAL: KEYLINE: ILCO: [ JE= JIMA: STRATTEC: DEALER:
+KEYS 9 V37 V37 X139/X88 | —_—~V37 VO-2P n/a n/a
+Determinator: Vwi Lishi: HU49 AccuReader: n/a EEZ Reader: n/a a Cobra: n/a
+
+| NO TRANSPONDER
+
+Code Series: AH 1-9282 - Chart i
+
+Bow SPACING 2 : = = op E 1= 300
+1 2 3 a0. 5 6. 2 | 2=.276
+3 = = 3 = .252
+ei 106 | 194 | .240 | 335 | 430 | 476 | .571 |.705 | .751 | .863 4=.228
+A Cut—
+= to
+o SPACES 2, 4 & 6 ARE DOUBLE CUTS Cut:
+Varies
+ge HPC Curtis Clipper Pak-A-Punch | — ITL
+“5 =
+m Cam: VW3
+3 XF4, CF4 Carriage: VW3C PAK-V1 == 356
+=
+
+NOTES: FRAMON—Use Spacing Block ‘VBI’
+
+Some code books list 7 numbers, some list 10 numbers. If the code book you~
+use list 7 numbers, you must extend cuts out to incorporate the double cuts.
+
+Ex: Code #AH7245, -3231423, should read: 3223114223
+
+Code Series: AH 1-9282 - Chart 2
+
+—— DEPTHS
+Bow SPACING =-Fip 1=.300
+T =I 2 J 3 4 ~§ = =e] 7 2=.276
+= = 3 =.252
+g 106 | 194 | .240 | .335 | .454 | .548 | .594 | .705 | .751 | 862 cut 4=.228
+> : === to
+o SPACES 2, 5 & 6 ARE DOUBLE CUTS Cut:
+: = Varies
+ad HPC Curtis Clipper Pak-A-Punch | ITL
+oO = _
+m Cam: VW3
+3 XF4, CF4 Carriage: VW3C PAK-V1 _ 387
+= NOTES: FRAMON—Use Spacing Block ‘VB2" :
+Some.code books list 7 numbers, some list 10 numbers. If the code book you
+use list 7 numbers, you must extend cuts out to incorporate the double cuts.
+Ex: Code #AH7245, -3231423, should read: 3223114223 __
+
+6 - AUDI» VW « PORSCHE : = _ ©1994, 2021 AutoSmart™ by Michael Hyde
+
+@0@'@6460066'3:64¢46060 60696006066 668686 8686
+@o9e@O02eeoeesoneaoeoseoeeneeeoeeeegea~dsde se
+
+~ continued -AV-1 SECTION
+
+Codes: | Many of the door locks on older models have acode stamped on them. Use the key code to make the key.
+
+Decoders: | Determinator: VWI Lishi; HU49_—— | AecuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Method #1 —Cut key by Code from door lock handle.
+
+Find the code series that matches your code and then use the corresponding Space & Depth chart.
+
+Code Series: AH, AN, HV, NV,VB _ | ;
+0001-0854 See Chart 1 (one) (Reed Codes—03-05-141)
+1001-1918 See Chart 2 (two) (Reed Codes—03-05-152)
+2001-2830 See Chart 1 (one) (Reed Codes—04-04-060)
+3001-3890 __ See Chart 2 (two) (Reed Codes—04-04-066)
+4001-5151 See Chart 1 (one) (Reed Codes—04-04-072) -
+6001-7086 —_ See Chart 2 (two) (Reed Codes—04-04-079)
+7101-8154 See Chart 1 (one) (Reed Codes—08-02-013) _
+8201-9282 — See Chart 2 (two) (Reed Codes—08-02-019)
+
+Method #2 Impression door lock to-make key. It may be necessary to widen ¢ cuts 2, 4.5, 6 to making
+working key depending on code series used in Method 1.
+
+Method #3 Disassemble trunk/hatch lock to make key. It may be necessary to widen cuts 2, 4. 5, 6 to
+=a making working key depending on code series used in Method 1. __
+
+AH, AN, HV, NV, VB
+0001-0854, 2001-2830, 4001-5151, 7101-8154
+
+>Ignition
+> Doors & Trunk
+
+OO
+og
+og
+
+4/00
+njoo
+
+jejag
+
+Positions 2, 4, & 6 are double wide cuts for the ignition lock
+
+AH, AN, HV, NV, VB
+1001-1918, 3001-3890, 6001-7086, 8201-9282
+
+olojolojojo|ojo|ol> ignition
+0 ojo ojo 0 }> Doors-& Trunk
+2|2}3|415;5|6/6/7 =
+
+Positions 2, 5, & 6 are double wide cuts for the ignition lock
+
+©1994, 2021 AutoSmart™ is Michael Hyde AUD b= VW » PORSCHE - 7
+AV-2 SECTION
+
+MASTER
+KEYS >
+
+| STYLE
+
+| caro# | me |
+
+1976-88 1983-91 1992-96 1971-79 : 1985-88 -
+924 (Porsche) _ 944 (Porsche) 968 (Porsche) Bus (VW) Cabriolet (vw)
+
+1978-81 1985-88 1985-88 1978-88 = S 1978-88
+Dasher (WW) | Golf / GTi (vw) Jetta (vw) Rabbit (vw) _ Scirocco (VW)
+
+Macs | StartCut | CuttoCut | AirBags | ign Retainer
+
+HV, VB1-9282 | DbiSided 356/357/ 3 | 106 | Varies | No | Spring
+~ NATIONAL: a7 KEYLINE: iLCO: JE= JMA: STRATTEC: | DEALER:
+x9 nla X94 —=PA8 VO-VB nia nla
+Determinator: VWI Lishi: n/a ‘AccuReader: nla EEZ Reader: n/a Cobra: n/a
+
+(=| NO TRANSPONDER
+
+Code Series: HV, VB 1-9282 - Chart 1
+
+: DEPTHS
+Bow SPACING = Tip 1=.300
+1 2 -~ 4 5 |) 7 ——
+= = = —=|—— a= oe
+2 106 | 194 | .240 | .335 | .430 | .476 | .571 | .705 | .751 | 863 4= .228
+vu Cut
+S a = == 2 = — to
+Q SPACES 2,4&6AREDOUBLECUTS Cut:
+= Varies
+oe HPC Curtis Clipper Pak-A-Punch | —ITL
+o = - -
+m Cam: VW3
+3 XF4, CF4 Carriage: VW3C PAK-V1 _ 366
+=o] NOTES: FRAMON—Use Spacing Block ‘VBI’ =
+Some code books list 7 numbers, some list 10 numbers. If the code book you
+use list 7 numbers, you must extend cuts out to incorporate the double cuts.
+Ex: Code #AH7245, -3231423, should read: 3223114223 = 22
+Code Series: HV, VB 1-9282 - Chart 2
+DEPTHS. 7 =
+Bow SPACING = 500
+1 Z 3 4 5 = 2=.276
+: 3 = .252
+<j 106 | 194 | .240 | .335 | .454 | .548 | 594 | .705 | .751 | 862) , | 45-228
+> ¥ ; ee to
+o SPACES 2, 5 & 6 ARE DOUBLE CUTS Cut:
+2 === == Varies
+ge HPC Curtis Clipper Pak-A-Punch | ITL-
+Oo E
+mm Cam: VW3 == ==
+XF4, CF4 = PAK-V1 — ==
+5 Carriage: VW3C
+
+NOTES: FRAMON—Use Spacing Block 'VB2’
+
+Some code books list 7 numbers, some list 10 numbers. If the code book you
+use list 7 numbers, you must extend cuts out to incorporate the double cuts.
+
+Ex: Code #AH7245, -3231423, should read: 3223114223
+
+8 - AUDI » VW
+
+» PORSCHE
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+eee eoevoovueaoanea gon e02 eee 02 eoeee 8
+@9e2@2@@eoeoee8sd ee <¢
+
+@©9e@eeoeedee0e= se <
+
+ali - AV-2 SECTION
+
+Codes: | Many of the door locks on older models have a code stamped on them. Use the key code to make the key.
+
+Decoders: | Determinator: VWI Lishi: HU49._ | AccuReader: n/a FEZ Reader: n/a Cobra: n/a
+
+Method #1 —_—Cut key by Code from door lock handle.
+
+Find the code series that matches your code and then use the corresponding Space & Depth chart.
+
+Code Series: AH, AN, HV, NV, VB _-
+
+0001-0854 See Chart 1 (one) (Reed Codes—03-05-141)
+
+1001-1918 See Chart 2 (two) (Reed Codes—03-05-152)
+2001-2830 SeeCharti(one) (Reed Codes—04-04-060)
+3001-3890 _ See Chart 2 (two) (Reed Codes—04-04-066)
+4001-5151 See Chart 1 (one) (Reed Codes—04-04-072)
+6001-7086 See Chart 2 (two) (Reed Codes—04-04-079)
+7101-8154 See Chart 1 (one) (Reed Codes—08-02-013)
+8201-9282 SeeChart2(two) (Reed Codes—08-02-019)
+
+Method #2 _ Impression door lock to make key. It may be necessary to widen cuts 2, 4. 5, 6 to making
+; : working key depending on code series used in Method 1.
+
+Method #3 Disassemble trunk/hatch lock to make key. It may be necessary to widen cuts 2, 4. 5, 6 to
+
+making working key depending on code series used in Method 1.
+
+= : AH, AN, HV, NV, VB
+0001-0854, 2001-2830, 4001-5151, 7101- 8154
+
+9)0;9}3|9/0/0/0}410}> Ignition
+eo|o Sig} jo\o G}> Doors & Trunk
+1/2/2|3)4/4|5/6|617
+
+Positions 2, 4, & 6 are double wide cuts for the ignition lock
+
+— AH, AN, HV, NV, VB
+1001-1918, 3001-3890, 6001-7086, 8201-9282
+
+| 5 |> Ignition
+5}> Doors & Trunk
+
+QO0
+oa
+
+0/00)
+£00
+njogd
+
+Positions 2, 5, & 6 are double wide cuts for the ignition lock
+
+Ce. 7 a
+
+©1994, 2021 AutoSmart™ by Michael Hyde AUDI» VW+PORSCHE-9
+AV-3 SECTION ee
+
+1981-98 911 (Porsche)
+
+| stme | carpe | ITL#
+
+_ MASTER HG, NC 1-2080 | _ DbiSided CF36 Spring
+KEYS > NATIONAL: KEYLINE: = JET: ==|-— JMA: STRATTEC: DEALER:
+P05 or PO7 n/a P05 or PO? == = PO-HC nla n/a
+Info >
+
+> Mike's Tip: Two different keyways possible. oF se
+
+@ no TRANSPONDER AS iti
+
+Code Series: HC /NC 1-2080
+
+Bow SPACING Tp padiee
+(77) s 222 =
+0 be 2 s! 4 5 6 7 1-8 -& =| =10 2 = .252
+> : : : as 3 =.232
+eM ns | 197 | 276 | 354 | .433 | 512 | 591 | 699 | 748 | 227| Go | 4= 28
+m : 3 z = 5 - . i {4 to
+Qo : oo ee Cut: |
+oO =,079
+a HPC Curtis Clipper Pak-A-Punch | ITL- |
+me} = ==
+a | XF36 n/a n/a 354
+= —_—_—__— =
+NOTES: .
+Codes: | Many of the door locks on older models have a code stamped on them. Use the key code to make the key.
+Decoders: | Determinator: n/a Lishi: n/a = ‘AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Check doorlockfor code stampedonit, ==
+Method #3 Remove and disassemble the glove box lock for cut positions 2, 4,6, 8 & 10. Now impression the door or
+ignition for the odd spaced cut positions. The glove box can be a pain to take apart.
+Method #5 Disassemble door locktomake key. =
+
+|} 0} 0| 0) O} O }> ignition
+: > Doors
+Sota O |> Glove Box
+
+njood
+
+oO
+0 Ot
+a elie
+ol O10
+
+oO
+
+a
+
+oO
+
+Oo
+
+10 - AUDI « VW = PORSCHE
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+O'@ @ 6 6 6 0 6.6.6 8 6666.6 6 6 6 66
+ee ee ee
+
+¢
+
+AV-4 SECTION ©
+
+CODES | stve | caro# | im# | macs | Startcut | cuttocut | AirBags | Ign Retainer
+1970-78 11M001-72M110 Dbl Sided =Cio 444/445 3 Varies 160 No Spring
+Beetle | NATIONAL: KEYLINE: ILCO: JET: JMA: © STRATTEC: DEALER:
+(VW) VW/1 n/a VW71 n/a VO-M nla n/a
+Determinator; n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+CODES | ste | carpe | ime | macs | Startcut | cuttocut | AirBags | Ign Retainer
+1966-70 11K001-72K110 Dbl Sided CF3 444/445 3 Varies 160 No Spring
+Beetle NATIONAL: KEYLINE: iLCO: JET: JMA: STRATTEC: DEALER:
+(VW) V27 n/a V27 n/a VO-K nla n/a
+Determinator: n/a Lishi: n/a AccuReader. n/a EEZ Reader: n/a Cobra: n/a
+CODES | stve | carp# | m# | macs | startcut | cuttocut | AirBags | Ign Retainer
+1966-70 MRO001-72R110 Dbl Sided CF4 356/357 3 106 Varies No Spring
+Bus NATIONAL: KEYLINE: ILCO: JEL JMA: STRATTEC: DEALER:
+(VW) VW67S n/a VW67S nla VO-L nla nla
+Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+@ No TRaNsPonveER
+
+Code: 11K001-72K110, 11M001-72M110, 11R001-72R110
+Pa Bow SPACING Tip eee
+> 100 | .260 | .420 | .580 | .740 | PLAIN SIDE 2=.237
+re) 3=.216
+m 1 Z 3 4 5 4=.192
+aa igo | .340 | .500 | .600 | .820 | SHOULDER SIDE poy
+es : == Varies
+3 HPC Curtis Clipper ITL
+mg
+Cam: VW-4 445 Shoulder
+pie. Carriage: VW-4A 444 Plain Side
+Codes: | Many of the door locks on older models have a code stamped on them. Use the key code to make the key.
+Decoders: | Determinator: n/a Lishi: n/a . AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Either remove the handle/lock or pull the handle/lock out far enough to read the code number stamped on
+the handle housing. Otherwise remove the handle/lock assembly and disassemble it to decode the tumblers.
+Method #3 - Impression locks. :
+Method #4 Most. VW, ignitions are held in by a spring type retainer, so if necessary you can remove the ignition cylinder
+
+and either read the code stamped on it, or disassemble it to make a working key. Be cautious of the turn
+‘signal assembly when moving it out of the way to get to the ignition cylinder.
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+AUDI » VW = PORSCHE - 11
+AV-5 SECTION
+
+1997-01 A4/S4 (Audi)
+
+1996-00 AG/S6 (Aud) | 1998-99 Beetle (vw) | 1999 Cabrio (vw)
+
+1999 Golf/GTi (ww)
+
+CODES
+
+1999 Jetta (Ww) 2000 TT (hudi)
+
+1998-99 Passat (Ww)
+
+m# | macs | Startcut | Cuttocut | AirBags | IgnRetainer Mie
+
+| stve | carne |
+Fae 2a HighSec | n/a 3 _ia 1.2 nia | na Yes Spring
+NATIONAL: KEYLINE: ECe= = JET. _ JMA: STRATTEC: DEALER:
+KEYS > HU66-P BHU66-P HU66-P HU66-PH HU-HAAP | ona | la
+Determinator: n/a Lishi: HU66.v2__| AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+aac Mike's Tip: 1997-01 A4/S4, 1996-00 AG/S6 & Some 2000-01 TT models in the USA may have a transponder key
+‘Gic but the car is not equipped with a transponder receiver, therefore only a mechanical working key is needed to
+_| start the car. = = = 22
+eee ee Remote: 4D0 837 23 P (some 1999-01) FCC Info: MYT8Z0837231 | 315 MHz
+> Remote: 4D0 837 231 T (some 1998-01) FCC Info: MYT8Z0837231 | 315 MHz
+-__| > Remote: 4D0 837 231 P (some 1999-02) FCC Info: MYT8Z0837231 | 315 MHz
+Se Remote: 4D0 837 231 T (some 1999-01) FCC Info: MYT8Z0837231 | 315 MHz
+> Remote: 1/0 959 753 T (Rectangular Pad) FCC Info: NBG735868T | 315 MHz
+> Beetle > Remote: 1/0 959 753 F (Rounded Pad) FCC Info: NBG735868T | 315 MHz
+> Fob Remote: 380 953 252 FCC Info: NBG730956T | 315 MHz
+eee [> Cabrio _|> Fob Remote: 1EM 937 047 A-FCC Info: MIGHUOIWT | 315 MHz
+> Golf / GTi | > Fob Remote: 1EM 937 047 A - FCC Info: M3GHUOIWT | 315 MHz
+> Remote: 1/0 959 753 T (Rectangular Pad) FCC Info: NBG735868T | 315 MHz
+x dete > Remote: 1/0 959 753 F (Rounded Pad) FCC Info: NBG735868T | 315 MHz
+: > Remote: 1/0 959 753 F (3 Button, Rounded Pad) FCC Info: NBG735868T | 315 MHz
+> Passat _| > Remote: 1J0 959 753 E (2 Button Rounded Pad) FCC Info: NBG735868T | 315 MHz
+> Fob Remote: 380 953 252 FCC Info: NBG730956T | 315 MHz
+>TT
+
+> Remote: 4D0 837 231 P (some 2000-03) FCC Info: MYT8Z0837231 | 315 MHz
+
+fe NO TRANSPONDER
+
+12 - AUDI » VW « PORSCHE
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+eee.
+
+)
+
+>
+
+Ppeeoaueveeeeeseede
+
+» ©
+¢
+
+®©9@e@2@e@@ 00806 6 ¢
+
+¢
+
+continued - AV-5 SECTION
+
+Early versions of the Flip Out
+remotes for Audi & VW are
+ordered in two pieces. The key
+section & remote transmitter.
+
+If you take a close look at the
+two sections - you will see
+there are two types. One that
+is rectangular and one that is
+rounded.
+
+Also, earlier models usually did
+not have a trunk release, but
+that also changed depending
+on trim level (options) of the
+vehicle.
+
+Hid3ad 8 30vdS
+
+Code Series: 1-8110
+DEPTHS
+PACI
+Bow SPACING ! so
+945 | 827 | 709 | 591 | .472 | .354 | .236 | me | INTERNAL] 2710
+MILLING =
+- == 4=.079
+1 Ae eee 5 6 | 7108
+== : =o.
+NOTES: The left track is the one with the cuts. The right track is only a guide =~
+track. Pre-cut the left track to all number one depths and the right ez
+track will have the clearance it needs to work in the locks.
+Codes: | No codes on any locks.
+Decoders: | Determinator: n/a Lishi: HU66 v2 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Method #1
+
+Method #2
+
+Method #3
+
+Use a lock Reader/Decoder in the door lock to determine the cuts for a complete key.
+
+Disassemble the door cylinder and decode the tumblers. There are eight spaces and four
+depths. Making a key to the door lock will give you a complete key.
+
+Disassemble trunk cylinder and decode tumblers. There are eight spaces and four depths.
+Making a key to the trunk lock will give you a complete key.
+
+OjiO|0)0 > Ignition
+
+ES2 6565) = > Doors, Trunk, Hatch*
+Gio|o > Glove Box*
+415!16}7 *If equipped
+
+©1994, 2021 AutoSmart™ by-Michael Hyde
+
+AUDI = VW + PORSCHE - 13
+AV-6 SECTION ae
+
+s *
+2002 to mid 05 A4 / S4 (Audi) — 2001-04 AG / S6 (Audi) 2001-04 TT (Audi)_ =
+| ste | caro# | ms | macs | Startcut | cuttocut | AirBags | ignRetainer & om)
+1-8110 HighSec | n/a z na fd |= Yes Spring
+MASTER : 22 =
+NATIONAL: KEYLINE: LC = JET: JMA: STRATTEC: DEALER; :
+
+KEYS > HUs6T6 | — BHUG6T6 HUG6T6 HUG7-PHT | TPOBHU-HAA-P nla 8L08372200ROH
+Determinator: n/a Lishi: HU66 v2 _| AccuReader: n/a EEZ Reader: n/a : Cobra: n/a =.
+> Mike's Tip: There are many key programmers on the market right now. Some work well and some do not. :
+
+> Do your own research and remember that some companies have little or no support. — )
+> Mike’s Tip: PIN code is needed to program keys. Dealer does not have access to PIN codes. After-market
+More key programmers may be able to “read” the PIN code, but it is Not always possible. This is a gamble. : a»
+= i
+- > Mike's Tip: Early 2002 A4/S4 Production Models Do Not Have Transponder System Activated. = 8
+> Models That Have Vertical Door Lock Buttons Are Early Production. oO
+> Models With No Vertical Lock Buttons Are The Newer Production And Have An Activated Transponder System.
+> Some Late “TT” 2000 Model Year Production May Have Activated Transponder System. co)
+> Remote: 820 837 231 F (some 2003-05) FCC Info: MYT8Z0837231 | 315 MHz
+>A4/S4 —___—_ 3
+> Remote: 8Z0 837 231 B (some 2002-03) FCC Info: MYT3X7733 | 315 MHz
+> Remote: 4D0 837 231 M (some 2002-04) FCC Info: MYT8Z0837231 | 315 MHz <.
+veo > AG /S6_ | > Remote: 400 837 231 P (some 1999-02) FCC Info: MYT8Z0837231 | 315 MHz ==
+> Remote: 4D0 837 231 T (some 1999-01) FCC Info: MYT8Z0837231 | 315 MHz a
+a > Remote: 4D0 837 231 M (some 2003-06) FCC Info: MYT8Z0837231 | 315 MHz 2
+> nae - to — ==
+> Remote: 4D0 837 231 P (some 2000-03) FCC Info: MYT8Z0837231 | 315 MHz 7 *
+: a
+cs
+=
+r
+Code Series: 1-8110 ‘-)
+) SPACING ope
+> = eecc. | 22s me)
+fem 945 | 827 | .709 | .591 A472 2354 | 236 18 | INTERNAL =
+m "| MILLING de oie
+@ = = | a=
+o ee 2.|-3 4 5 S a)
+m — ——— aa :
+a NOTES: The left track is the one with the cuts. The right track is only a guide 3 za 5 ~
+aa track. Pre-cut the left track to-all number one depths and the right _ z 2
+track will have the clearance it needs to work inthe locks. = ==
+14 - AUDI » VW » PORSCHE SS ©1994, 2021 AutoSmart™ by Michael Hyde a.
+
+¢
+
+o ©. 0 9.--f
+
+© @ 08 @ <«
+
+oe<e<@e@@eeoe8s?@@ <
+
+C
+
+Chip Information & Notes
+
+continued - AV-6 SECTION
+
+Transponder: Standard Equipment
+
+Chip: Megamos 48
+
+Reusable: No
+
+> Mike's Tip: Key Programmer & PIN Code Required. Test key is HU66.
+
+Cloner Machine Information
+
+{ JMAUSA ) ( KEYLINE_ )
+
+(DIAG BOX ) (CHINA) (ILCOISILCA ) (“1.p. ) (SCORPIO) ( wol_ )
+=| CLONE =
+>) WIZARD CN900 RW4+ ee 884 Ultegra MIRACLONE TANGO MINI TOOL
+= Mi Yes MI Yes? MI Yes1&2 @® No M1 Yes! I Yes 1&2 ® No @ Yes
+n Yellow Chip CNG & 148 & 2 TKM & T48 & a VVDI Chip &
+3 & HU66 Shell HU66 Shell HU66 Shell V66U Blade HU66 Shell HU66 Shell
+za *1_- May require Internet Access to complete-cloning. *2- Requires Megamos update.
+~.———__—_- : = ae
+ut Programmer & Diagnostic Tools -
+Factory Tool P i=
+ee eed ¥ TCODE/MVP PRO} | x TDB1000 x HOTWIRE
+REQUIRED
+OTIS SS ==
+Subscription =
+7 Yes Y SMART PRO 2 AUTOPROPAD| | AUTELIM608
+VAS 6150E == :
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: HU66v2_ ~~ AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a lock Reader/Decoder in the door lock to determine the cuts for a complete key.
+Method #2 Disassemble the door cylinder and decode the tumblers. There are eight spaces and four
+
+: depths. Making a key to the door lock will give you a complete key.
+Disassemble trunk cylinder and decode tumblers. There are eight spaces and four depths.
+
+Method #3
+
+Making a key to the trunk lock will give you a complete key.
+
+joa a ia
+Be ii)
+Hoo
+
+oo
+
+|) |> Ignition
+> Doors, Trunk, Hatch*
+> Glove Box*
+
+bb
+oa
+>
+~
+
+a7) *If equipped
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+AUDI - VW « PORSCHE - 15
+AV-7 SECTION , 20 Se x
+
+2005-13 A3 (Audi) | — mid 2005-08 A4 / S4 (Audi) 2005-11 AG / S6 (Audi)
+
+2001-10 A8 / S8 (Audi) = 2007-15 Q7 (Audi) _ : 2005-15 TT (Audi)
+
+MACS | Start Cut | Cut to Cut Air Bags |
+
+| stme | carve | ma | Ign Retainer
+
+1-8110 High Sec Spring
+
+MASTER :
+
+KEYS > Dealer transponder system - Specialized key programmer or Eeprom Equipment required
+Determinator: n/a Lishi: HU66 v2 “AccuReader: n/a EEZ Reader: n/a : Cobra: n/a_— =
+> Mike's Tip: There are many key programmers on the market right now. Some work well and some do not.
+
+> Do your own research and remember that some companies have little or no support. -
+ae > Mike’s Tip: PIN code is needed to program keys. Dealer does not have access to PIN codes, After-market
+
+key programmers may be able to “read” the PIN code, but it is Not always possible. This is a gamble.
+> Mike’s Tip: Some models may be equipped with the Proximity option called “KESSY" :
+>A3 > Remote: 8P0 837 220 E (2006-13) FCC Info: NBGFSO4A71 | 315 MHz
+
+| > Remote: 820 837 231 F (some 2005-06) FCC Info: MYT8Z0837231 | 315 MHz
+a > Remote: 8E0 837 220 R (some 2006-08) FCC Info: MYT4073A | 315 MHz Z
+
+__ | > Remote: 4F0 837 220 N (some 2005-08) FCC Info: IYZ 3314 | 315 MHz
+
+Pre Ts ent 4F0 837 220 AG (some 2005-11) FCC Info: IYZ 3314 | 315 MHz
+
+oes > Remote: 4D0 837 231 P (most 1998-03) FCC Info: MYT8Z0837231 | 315 MHz
+
+> A8/S8 | > Remote: 4E0 837 220 J (some 2005-10) FCC Info: KR55WK45022 | 315 MHz
+__|> Remote: 4E0 837 220 N (some 2005-10) FCC Info: KRSSWK45032 | 315 MHz
+>Q7 _| > Remote: 4F0 837 220 AG (most 2007-15) FCC Info: IYZ 3314 | 315 MHz
+; = > Remote: 4D0 837 231 M OIC (2005-06) FCC Info: MYT8Z0837231 | 315 MHz
+> Remote: 8P0 837 220 E (2008-15) FCC Info: NBGFS04A71 | 315 MHz
+
+16 - AUD] =» VW = PORSCHE === ae 2 ©1994, 2021 AutoSmart™ by Michael Hyde
+
+» ©
+
+peoeoeooonoeaoeaoneoeeeeee ©
+
+® ©
+@o9eoee@e08280,00 080 ¢€
+
+C
+
+continued - AV-7 SECTION ©
+
+Code Series: 1-8110 =
+on Bow SPACING Tip —_—
+Uv 1= 150
+> fF 2=126—
+(ey 945 827 709 91 472 354 | .236 18 | INTERNAL a
+m MILLING | 3= 102
+ge 4=.079
+Oo 1 <= ae 3 4 5 6 7 = 8
+m ———— = Paine
+= NOTES: The left track is the one with the cuts. The right track is only a guide <e
+a track. Pre-cut the left track to all number one depths and the right % S$
+track will have the clearance it needs to work in the locks. rex
+Chip Information & Notes.
+Transponder: Standard Equipment Chip Varies by Car - Megamos 48, Philips AES, 8E Reusable: No
+
+> Mike's Tip: Key Programmer & PIN Code Required. Test key is HU66,
+
+Cloner Machine Information ©
+
+( Lp \( scorpio \( wo
+
+or
+VAS 6150E
+
+Yes
+
+(v SMART PRO
+
+(DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE ) =
+_ wae CN900 Rw4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+z MyYes || M1 Yes* 1 Yes'&2 ® No M1 Yes! M1 Yest&2 @ No i] Yes
+¢ Yellow Chip CNG & T48 & = TKM & 748 & = WDIChip & |
+BS | & Huss Shett| | HUGE Shel! | | HUSE Shel V66U Blade HU66 Shell HUGE Shell |
+z *4 = May require Internet Access to complete cloning. “2- Requires Megamos update. :
+At Programmer & Diagnostic Tools 2
+Factory Tool PIN CODE
+| ¥ TCODE/MVP PRO| | x TDB1000 x HOTWIRE
+REQUIRED
+OTIS Acmastdissiee
+Subscription
+
+(? AUTO PRO PAD (v AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: HU66 v2 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a lock Reader/Decoder in the door lock to determine the cuts for a complete key.
+Method #2 Disassemble the door cylinder and decode the tumblers. There are eight spaces and four
+
+' depths. Making a key to the door lock will give you a complete key.
+Method #3___—- Disassemble trunk cylinder and decode tumblers. There are eight spaces and four depths,
+
+Making a key to the trunk lock will give you a complete key.
+
+0}/0/0/0/}0/0/0/O0}> ignition
+
+O|0/}0|}0/O)]O}O|O}> Doors, Trunk, Hatch*
+O/0;0 > Glove Box*
+
+712) 3) 4) 5 6 = *|f equipped
+
+©1994, 2021 AutoSma
+
+rt™ by Michael Hyde
+
+AUDI - VW = PORSCHE - 17
+_ AV-8 SECTION
+
+2015-21 A3 (Audi)
+
+STYLE
+
+1-8110 High Sec
+_ MASTER —
+KEYS => Dealer transponder system - Specialized key programmer or Eeprom Equipment z ==
+Determinator: n/a _| Lishi: HU66 v2 AccuReader: n/a EEZ Reader: nla Cobra: n/a —
+> Mike's Tip: There are many key programmers on the market right now. Some work well and some do not.
+: > Do your own research and remember that some companies have little or no support.
+M : : :
+co > Mike's Tip: PIN code is needed to program keys. Dealer does not have access to PIN codes. After-market
+key programmers may be able to “read” the PIN code, but it is Not always possible. This is a gamble. — ——
+> Mike's Tip: Some models may be equipped with the Proximity option called "KESSY’.
+vemos [2 83 > Remote: 8V0 837 220 E (2015-19) FCC Info; NBGFSI2P71 | 315 MHz
+Info |) Q3 > Remote: 8X0 837 220 A (2015-18) FCC Info: NBGFSI2P71 | 315 MHz
+
+Code Series: 1-8110
+
+SPACING
+
+945 | 827
+
+709
+
+gl
+
+472-
+
+354
+
+418 | INTERNAL
+
+1 a
+
+a
+
+4
+
+fe
+
+6
+
+MILLING
+
+H1d3d 8 3A0VdS
+
+NOTES: The left track is the one with the cuts. The right track is only a guide
+track. Pre-cut the left track to all number one depths and the right
+track will have the clearance it needs to work in the locks. —_
+
+DEPTHS
+1=.150
+
+18 - AUDI » VW « PORSCHE
+
+Aay isa
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+eee @e@eovoe3oaeeesgeee @Oeegd0e0ed0ees?
+© e@oe eo «
+
+® ¢«
+
+4
+
+eee
+
+©e@eeeoea oa oe st
+
+continued - AV-8 SECTION
+
+Chip Information & Notes
+
+Transponder: Standard Equipment
+
+Chip: Megamos 49 AES =
+
+> Mike's Tip: Key Programmer & PIN Code e Required. Test keys is HU66.
+
+Cloner Machine Information _ ae
+
+Lt =)
+
+OTIS
+
+or
+
+Subscription
+
+| VAS 6150E |
+
+REQUIRED
+
+Yes
+
+== ( SMARTPRO
+
+= é TCODE/MVP PRO | (« TDB1000
+
+[x HOTWIRE _
+
+= ae on r CHINA) (Towa) (( JMAUSA ) (— KEYLINE ) (— (_scorrio ) ( woi )
+
+Fo | LONE 1 | cng00 | | RW4+ | |TRS-5000/EV0| | 884 Ultegra | | MIRACLONE || TANGO | | MINI TOOL | | —
+
+2 ®) No @® No |1--& No @® No @ No @ No ® No- @® No
+
+UE = = = = = ae = = =
+
+12)
+
+2
+
+Oo = _ = = =
+
+m Programmer & Diagnostic Tools _ a 2
+
+a = =
+Factory Tool PIN CODE 1
+
+€ “AUTO PRO PAD
+
+€ AUTEL IM608
+
+= Check with your key programmer supplier to see if your vehicle is supported. __
+
+Codes: | No codes on any locks.
+
+_| EEZ Reader: n/a
+
+Decoders: Determinator: n/a Lishi: HU66v2 AccuReader: n/a — Cobra: n/a ae |
+_Method#1 _ Use a lock Reader/ Decoder in the door lock to determine the cuts for a complete key.
+
+= Method #2
+
+Disassemble the door cylinder and decode the tumblers. There are eight spaces and four
+— depths. Making a key to the door lock will give you a complete key. _
+
+ooo
+noo
+OO oO,
+_ DO) Oj)
+
+b
+a
+uN
+a
+
+> Ignition |
+
+> Doors, Trunk, Hatch*
+
++> Glove Box*
+
+: ‘if equipped :
+
+©1994, 2021 AutoSmart™ by Michael Hyde _
+
+AUDI + VW + PORSCHE - 19
+
+— RO1ZIBAG / $6 (aud)
+
+"MASTER
+
+2009-17 QS (rut Hee
+
+eee
+
+| KEYS >
+a Y
+infaxd > Mike's "5 Tip: PIN code is s needed to program alae Dealer does not iteve access to PIN codes, ‘After- market : ae
+key programmers may be able to “read” the PIN code, but it is Not — possible, This is a a“ =_2.
+ahi Fay ar Remote: 8KO 959 754 B Bla 2) nda Key 810 837 216 A-FCC Inf BSB802 | 315 — ae
+
+i ____| > Remote: 8K0 959 754 |B (2013-16) Emerg Key 810 837 216 B - -FCC Info: : IYZFBSB802 | 315 MHz. ~~
+
+; a cs bs Remote: 8KO 959 754B Bal By Emerg Key 810 837 216 A- FCC Info: IYZFBSB802 I 315 MHz =
+-__| > Remote: -8K0 959 754 B (2013-17) Emerg Key 8T0 837 216 B - FCC Info: |YZFBSB802 [315 MHz : ff.
+Remote |? A6/ $6 | > Remote: 4G0 959 754 G (2012-18) Emerg Key 4HO 837 216 B-FCC Info: !YZFBSB802|3I5MHz |
+
+lof 2 |>A7 __| > Remote: 4H0 959 754 DB (2012-18) Emerg | Key ‘4HO 837 216 B - FCC Info: IYZFBSB802|315MHz | >
+
+= [a8 / $8. | > Remote: 4H0 959 754 DB (2012-18) Emerg Key 4HO 837 216 B- FCC Info: IYZFBSB802 | 315 MHz
+
+> Lee 8K0 959 754 B Liar: ea Key 810 837 216 A- - FCC Info: IYZFBSB802 | 315 MHz
+
+ey 4HO 837 216 A- Ses IYZFBSB802 | 315 MHZ.
+
+~ 20- AUDI
+
+. VW + PORSCHE
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+-..
+
+¢
+
+@@eeoeoeeee?@e28e2ee@eeqee@eed
+
+(
+
+(
+
+Code Series: 1-8110
+
+Bow SPACING Tip
+
+945 | 827 | .709 | .591 | 472 | 354 | .236
+
+118 | INTERNAL
+MILLING
+
+i 2 a1 AS 6 ye
+
+Hiddad 8 30VdS
+
+NOTES: The left track is the one with the cuts. The right track is only a guide
+track. Pre-cut the left track to all number one depths and the right
+track will have the clearance it needs to work in the locks.
+
+continued - AV-9 SECTION
+
+DEPTHS
+T= .150
+2= 126
+3= 102
+4=.079
+
+V 9l¢ ZE8 018
+
+Chip Information & Notes
+
+Transponder: Standard
+
+Chip: Integrated Circuit
+
+Reusable: No
+
+Cloner Machine Information
+
+=
+2 No Cloning for this Proximity System
+z =
+2) = = =
+BS; Programmer & Diagnostic Tools .
+= Factory Tool PIN CO! ——— :
+2 ee ED ° TCODE/MVP. PRO (« TDB1000 (« HOTWIRE
+>) OTIS ta Tecan eae:
+
+Subscription ss
+
+a Yes
+VAS 6150E ( SMART PRO (? AUTO PRO PAD (2 AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: HU66 v2 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a lock Reader/Decoder in the door lock to determine the cuts for a complete key.
+Method #2 Disassemble the door cylinder and decode the tumblers. There are eight spaces and four
+
+depths. Making a key to the door lock will give you a complete key.
+
+a
+io
+@,O
+
+> Ignition (no lock)
+> Doors, Trunk, Hatch*
+
+> Glove Box*
+
+*If equipped
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+AUDI « VW = PORSCHE - 21
+
+L 2017-21 1A4 / s4 coy :
+
+“2010-2 Agu
+
+= SeeTte a LI a ae
+
+2017-21 Q7 | can: ane
+
+2019-21 a8 ( (hud) io
+
+Determinator: nla
+
+Lishi: HUI62 —_—‘| AccuReader: n/a
+
++ Cobra: nla A
+
+EEZ Reader: nla
+
+More Ze
+Info> =F =
+== ak Mike’ s ae are many key ‘programmers on the market right now. Some work well and some ‘do not.
+> Do your own research and remember that some companies have little or no support,
+
+2 Ly Mike's Tip: | Type1!
+
+2 There i is3 new code series anda anew w keyway for Audi & VW. “They all use a new keys that ig
+
+| called an ‘HUIE2, -—
+
+‘Type! has a8 internal c cuts up the center rot the key and 1 corresponding “Edge” ‘cut on the-side, =
+Type2 ‘has a9 internal cuts up the center of the key and 3 corresponding “Edge” cut on the side. |
+| He Type3 has a 10 internal cuts up the center of the key and 4. corresponding "Edge" cut on the side. |
+
+| > Mike’s Tip: PIN code is needed to program keys. Dealer does not have access to PIN codes. ‘After- market =F
+_| key programmers may be. able to “read” the PIN code, but it is Not always possible. This is a gamble. -
+
+~ Remote
+Info >
+
+= »A4/S4
+
+| > Remote: 4M0 959 754 AK - Emerg Key: 4MO 837 216 A - FCC Info: IYZ-AKO1|433MHz
+
+baa ©
+
+> Remote: 4M0 959 754 AK- Emerg Key: 4M0 837 216 A - FCC Info: IVZ-AKO1 | 433 MHz
+
+> A6/S6
+
+> Remote: 4N0 959 754 K - - Emerg Key: 4NO 837 216 - FCC Info: IYZ-AKO1|433MHz
+
+|yaA7
+
+> Remote: 4N0 959 754 K - Emerg Key: 4NO 837 216 - FCC Info: IYZ- AKOI | 433 MHz
+
+EAs
+
+> Remote: 4NO 959 754 kK Emerg Key: -4NO 837 216 - FCC Info: IYZ-AKO1 | 4331 MHz
+
+== > Q5
+
+> Remote: 4M0 959 754 AK - - Emerg Key: 4M0 8 837 216 A FCC Info: IYZ-AKO1 | 433 W MHz -
+
++ Q7
+
+> > Remote: ang 959 Ud AK- cote Key: 4M0 837 216 Ae Eee Info: ts AKO1 | 433 MHz
+
+96
+
+>Qs
+
+TE
+
+> @ @ ©@
+
+22 - AUDI
+
+- VW - PORSCHE |
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+>» @2@
+¢
+
+© @e@ ¢
+
+¢
+
+¢
+
+@#eeooese@é-<
+
+C
+
+¢
+
+continued - AV-10 SECTION
+
+Code Series: Unknown .
+Bow SPACING = Rees
+o —- A=.145
+a 980 | 862 | 744 | 626 | 508 | 390 | .272 | 153 B= 122
+> - 22 = : : C =.097
+fe) 1 2 S14 5 6 7 8 D=.076 |
+Peg) 972 | .868 | .764 | 659 | .555 | 451 | 346 | 242 | 138 E=.052 |
+S 1 2 + 3 | 4 5 6 7 8 9
+ty 972 | .878 | 783 | 689 | 594 | 500 | .405 | 3n | 216 | 122
+1 .| 2 3 4 5 6 7 8 9 10
+NOTES: — See InstaCode for more information, it is the best!
+Chip Information & Notes
+Transponder: Standard Chip: integrated Circuit Reusable: No
+Cloner Machine Information : Se
+=
+> No Cloning for this Proximity System
+2 = —_
+2 Programmer & Diagnostic Tools
+z Factory Tool PIN CODE =
+oO aa ee REQUIRED x TGODE/MVP PRO x TDB1000 x HOTWIRE
+m OTIS fara Rees
+A Subscription
+or Yes
+VAS 6150E x SMART PRO x AUTO PRO PAD x AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: HU162 AccuReader: n/a EEZ Reader:_n/a Cobra: n/a
+Method #1 Use a lock Reader/Decoder in the door lock to determine the cuts for a complete key.
+Method #2 Disassemble the door cylinder and decode the tumblers.
+
+key can only be inserted
+way.
+
+This is an example of 1 of the
+new keyway cut systems. The
+
+one
+
+This system is only found on
+Proximity vehicles at this time.
+
+Main Track cuts =
+are shared with the 10 by 4 system
+
+Edge Track cuts.
++ 7-7 VV
+
+Main face FeO | O | Des oe |
+
+Edge Track>|} O | O | O} O
+471273 4166) 6171) 8 9/10
+
+Bow Z Tip
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+AUDI» VW «= PORSCHE - 23 ~
+AV-11 SECTION eS:
+
+2000-05 Beetie (vw) (Split Year 2005)
+
+2000-05 Golf / GTi (vw)
+
+2000-05 Jetta (VW)
+
+2001-05 Passat Sedan (VW) 2003-05 Passat Wagon (VW)
+
+(Split Year 2005)
+
+pece
+
+ee
+
+| ste | carpe | m# | macs | Startcut | cuttocut | AirBags | IgnRetainer Jam
+1-8110 High Sec n/a Zz n/a nla Yes Spring i
+MASTER ——— =
+NATIONAL: KEYLINE: -ILCO: JET: IMA: STRATTEC: DEALER:
+KEYS > HU66T6 BHUGET6 HU66T6 ~ | HUG7-PHT | TPOBHU-HAA-P na 3B0837219ASROH
+Determinator: n/a Lishi: HU66v2__| AccuReader: n/a FEZ Reader: n/a Cobra: n/a
+> Mike's Tip: PIN code is needed to program keys. Dealer does not have access to PIN codes. After-market
+More key programmers may be able to “read” the PIN code, but it is Not always possible. This is a gamble.
+Info> | > Mike's Tip: There are many key programmers on the market right now. Some work well and some do not.
+> Do your own research and remember that some companies have little or no support.
+> Remote: 1/0 959 753 DC (2002-05) FCC Info: NBG92596263 | 315 MHz
+> Beetle | > Remote: 1/0 959 753 AM (2002-05) FCC Info: NBG735868T | 315 MHz
+> Remote: 1/0 959 753 T (2000-01) FCC Info: NBG735868 | 315 MHz
+> Remote: 1/0 959 753 DC (some 2002-05) FCC Info: NBG92596263 | 315 MHz
+: sped > Remote: 1J0 959 753 AM (some 2002-05) FCC Info: NBG735868T | 315 MHz
+esate > Remote:1/0 959 753 T (most 2000-01) FCC Info: NBG735868 | 315 MHz
+Info > > Remote: 10 959 753 DC (some 2002-05) FCC Info: NBG92596263 | 315 MHz
+Sik. > Remote: 1J0 959 753 AM (some 2002-05) FCC Info: NBG735868T | 315 MHz
+> Remote: 1K0 959 753 H 9B9 (some 2005-06) FCC Info: NBG92596263 | 315 MHz
+> Remote: 10 959 753 T (most 2001) FCC Info: NBG735868 | 315 MHz
+passat {2 Remote: U0 959 753 DC (some 2001-06) FCC Info: NBG92596263 | 315 MHz
+> Remote: 1/0 959 753 AM (some 2001-05) FCC Info: NBG735868T | 315 MHz
+
+Early versions of the Flip Out
+remotes for Audi & VW are
+ordered in two pieces. The key —
+section & remote transmitter.
+
+If you take a close look at the
+two sections - you will see
+there are two types. One that
+is rectangular and one that is
+rounded.
+
+Also, earlier models usually did
+not have a trunk release, but
+that also changed depending
+on trim level (options) of the
+vehicle.
+
+pee e@
+
+~ 24- AUDI « VW = PORSCHE
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+“e
+
+e686
+
+vi
+
+a
+
+o.
+¢
+
+© 0@,6@@6@0 @ ¢ ¢
+
+(
+
+Code Series: 1-8110
+
+continued - AV-11 SECTION
+
+DEPTHS
+
+” | Bow - SPACING Tip
+z T=.150
+ey 945 OLE. 1.709 591 472 | 354 | .236 118 | INTERNAL . = js
+m MILLING | 3= 102
+ge = Se 4=.079
+oO 1 2 3 4 =5 6 vi | 8
+m : eo
+5 NOTES: The left track is the one with the cuts. The right track is only a guide =
+xz track. Pre-cut the left track to all number one depths and the right 2 =
+track will have the clearance it needs to work in the locks.
+
+Chip Information & Notes _ :
+
+Transponder: Standard Equipment _| Chip: Megamos 48 Reusable: No
+
+> Mike's Tip: Key Programmer & PIN Code Required. Test key is HU66.
+
+Cloner Machine Information _ :
+
+(DIAG BOX) (CHINA ) (ILCO/SILCA) ( JMAUSA ) ( KEYLINE )( LL.D.) ( scorPio \( wo!)
+a ees CN900 RW4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+= M1 Yes M1 Yes? 71 Yes'&2 ® No M1 Yes! wyes'82 || @No M1 Yes
+SLE | Yellow Chip CN6 & 148 & Ge TKM & 748 & 2 WDI Chip &
+° & HU66 Shell HU66 Shell HU66 Shell V66U Blade HU66 Shell | HU66 Shell |—
+Zz 4. May require Internet Access to complete cloning. *2- Requires Megamos update.
+o Programmer & Diagnostic Tools =
+
+Factory Tool PIN CODE ==
+ eeiae 1 | pequiren | |“ TCODE/MVP PRO] | x TDB1000 x HOTWIRE
+OTIS Samana
+Subscription 2
+or =
+VAS 6150E Yes (v SMART PRO € AUTO PRO PAD [v AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: HU66 v2 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a lock Reader/Decoder in the door lock to determine the cuts for a complete key.
+Method #2 Disassemble the door cylinder and decode the tumblers. There are eight spaces and four
+
+depths. Making a key to the door lock will give you a complete key.
+Method #3 _— Disassemble trunk cylinder and decode tumblers. There are eight spaces and four depths.
+
+Making a key to the trunk lock will give you a complete key.
+
+O)0/0;0/0)0/0}0}> Ignition _
+‘O}O}O}O/}O} 8} 0] O}> Doors, trunk, Hatch*
+O,0;0 > Glove Box*
+
+1/2/3lalslel7[s *If equipped
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+AUDI » VW » PORSCHE - 25 —
+AV-12 SECTION
+
+2005-16 Beetle (VW)
+(Split Year 2005)
+
+2005-16 Jetta (VW)
+(Split Year 2005)
+
+2007-16 EOS (vw) 2006-14 Golf / GTi (vw)
+
+| stme | carpe | ma | macs | Startcut | cuttocut | AirBags | ign Retainer
+
+1-8110 High Sec Spring
+MASTER ==
+KEYS > Dealer transponder system - Specialized key programmer or Eeprom Equipment required
+Determinator: n/a ‘| Lishi: HU66 v2 —_| AccuReader: nla eave Reader: nla | Cobra: n/a
+> Mike's Tip: There are many key programmers on. the market right now. Some work well and some do not. _
+> Do your own research and remember that some companies have little or no SE:
+More
+info > Mike’s Tip: PIN code is needed to program keys. Dealer does not have access to PIN codes, Aiter- market
+
+key programmers may be able to “read” the PIN code, but itis Not always possible. This is a gamble.
+
+> Mike’s Tip: Some models may be equipped with the Proximity option called "KESSY.
+
+> Remote: 1/0 959 753 DC (2002-05) FEC Info: NBG92596263 | 315 MHz
+
+> Remote: 1/0 959 753 AM (2002-05) FCC Info: NBG735868T |31I5MHz
+
+> Beetle
+> Remote: 5K0 837 202 AE (2012-16) FCC Info: NBGOI0180T | 315 MHz
+| > Remote: 5K0 837 202 AK (2012- 16) (with Kessy) FCC Info: NBGO10206T | 315 MHz
+> Remote: 1/0 959 753 P (2007- 09) FCC Info: NBG92596263 | 315 MHz
+seas | > Remote: 5KO0 837 202 R (2010-11) FCC Info: NBGO10180T | 315 MHz
+
+> Remote: 5K0 837 202 AE (2012-16) FCC Info: NBGO10180T | 315 MHz
+
+> Remote: 5K0 837 202 AK (2012-15) (with Kessy) FEC Info: NBGO10206T | 315 MHz
+
+nie ___ | > Remote: 1KO 959 753 H (2006, No 2007-09 models in the US) FCC Info: NBG92596263 | 315 MHz
+
+info> |? Golf | Remote: 1KO 959 753 P (2010) FCC Info: NBG92596263 | 315 MHz
+
+GTi
+—— | > Remote: 5K0 837 202A (2010-14) FCC Info: NBGO10180T | 315 MHz
+
+> Remote: 1KO 959 753 H (some 2005-09) FCC Info: NBG92596263 | 315 MHz
+
+> Remote: 1KO 959 753 P (some 2006-09) FCC Info: NBG92596263 | 315 MHz
+
+> Remote: 5K0 837 202 A (2010) FCC Info: NBGO10180T | 315 MHz
+
+> Jetta > Remote: 5K0 837 202 R (2011-12) FCC Info: NBGO10180T | 315 MHz
+
+> Remote: 5K0 837 202 F (2011-12) (with Kessy) FCC Info: NBGO10180T | 315 MHz
+
+> Remote: 5K0 837 202 AE (2013-16) FCC Info: NBGO10180T | 315 MHz
+
+> Remote: 5K0 837 202 AK (2013-16) (with Kessy) FCC Info: NBGO10206T | 315 MHz
+
+26 - AUDI» VW « PORSCHE = ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeCeooeeeaeaeeeeeeeees
+
+»'@
+
+6.
+¢
+
+@oee6@2@60900e0ee«
+
+@o@e@ee <
+
+¢
+
+¢
+
+Code Series: 1-8110
+
+continued - AV-12 SECTION —
+
+w Bow SPACING = =_—‘Tip DEPTS
+ma] = ¥=150
+> 2 = 126
+fem 945 | 827 | .709 | .591 472 | 354 | .236 18 | INTERNAL 3-
+m MILLING = 102
+@ mc = 4=.079
+oO is 2] 3 J2 = 25) £6 2. fF = 8
+m Z =e oo
+= NOTES: The left track is the one with the cuts. The right track is only a guide Ee
+x= track. Pre-cut the left track to all number one depths and the right ez
+track will have the clearance it needs to work in the locks.
+Chip Information & Notes
+Transponder: Standard Equipment | Chip: Megamos 48 Reusable: No
+
+> Mike's Tip: Key Programmer & PIN Code Required. Test key is HU66.
+Cloner Machine Information :
+
+(DIAG BOX) ( CHINA ) (ILCO/SILCA) ( JMAUSA ) ( KEYLINE )( LL.D.) ( scorPio )( wor )| —
+
+woe CN900 RW4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL | |
+
+M Yes || 7 Yes? (7 Yes'®2 || @No M1 Yes! 7 Yes'82 | ® No M1 Yes
+
+Yellow Chip CNG & 48 & TKM& T48 & WDI Chip &
+
+& HU66 Shell HU66 Shell HU66 Shell , V66U Blade HU66 Shell HU66 Shell
+
+*4 - May require Internet Access to complete cloning. *2- Requires Megamos update.
+
+YSQNOdSNVYL
+
+Programmer & Diagnostic Tools
+
+er ewery fool, |
+
+OTIS
+Subscription
+
+VAS
+
+PIN CODE
+REQUIRED
+
+(v TCODE/MVP PRO (2 TDB1000 (« HOTWIRE
+
+or
+
+6150E
+
+Yes
+
+[v SMART PRO (? AUTO PRO PAD (v AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes:
+
+No codes on any locks.
+
+Decoders: Determinator: n/a Lishi: HU66 v2 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Method #1 Use a lock Reader/ Decoder in the door lock to determine the cuts for a complete key.
+
+Method #2. __ Disassemble the door cylinder and decode the tumblers. There are eight spaces and four
+
+Method #3 Disassemble trunk cylinder and decode tumblers. There are eight spaces and four depths.
+
+depths. Making a key to the door lock will give you a complete key.
+
+Making a key to the trunk lock will give you a complete key.
+
+O | O}> Ignition
+0/0 |> Doors, Trunk, Hatch*
+> Glove Box*
+
+O/O'O
+28 8) 8)
+
+Cio
+ba) [et
+igo
+
+ll
+Ny
+w
++b
+oa
+fo)
+NS
+oe)
+
+*|If equipped
+
+©1994, 2021 ee by Michael Hyde AUDI = VW = PORSCHE - 27
+AV-13 SECTION.
+
+2012-16 6 Passat (w ) fe 2004-06 Phaeton (w)
+
+MASTER
+
+2006- 09 Rabbit (vw
+
+2009-16 Tiguan (vw) 2004-10 Touareg (VW)
+
+: stve | card# | im# | macs | Startcut |
+
+Cut to Cut Air Bags | ign Retainer
+High Sec 2 Ye
+
+1-8110 — Spring
+
+KEYS => Deler fen oponee system - Specialized key programmer or Eeprom Equipment required
+Determinator: n/a _ | lishi: HU66v2 | AccuReader: n/a «=| EEZReader: n/a Cobrat nia
+> Mike's Tip: There are many key programmers on the market right now. Some work well and some do not.
+
+> Do your own research and remember that some companies have little or no support.
+wie > Mike's Tip PIN code is needed to program keys. Dealer does not have access to PIN codes. After- market
+key programmers may be able to “read” the PIN code, but it is Not always possible. This is a Gamble 2
+> Mike’s Tip: Some models may be equipped with the Proximity option called “KESSY".— =
+> Remote: 5K0 837 202 R (some 2012-16) FCC Info: NBGO10180T | 315 MHz
+\ pamede > Remote: 561 837 202 D (some 2012-16) (with Kessy) FCC Info: SEaORST | LE MHz
+__| > Remote: 5K0 837 202 AE (some 2012-16) FCC Info: NBGO101801 | 315 MHz
+> Remote: 5K0 837 202 AK (some 2012- 16) (with Kessy) FCC Info: NBGO10206T | 315 MHz
+Lee ae > Remote: 3D0 959 753 Q (some 2004-06) FCC Info: KR55WK45022 | 315 MHz
+> Remote: 3D0 959 753 G (some 2004-06) (with Kessy) FCC Info: not available | 315 MHz
+- aah > Remote: 1K0 959 753 H (some 2006-09) FCC Info: NBG92596263 | 315 “24 bE
+> Remote: 1K0 959 753 P (some 2006-09) FCC Info: NBG92596263 | 315 MHz
+ae > Remote: 1K0 959 753 P (some 2009) FCC Info: NBG92596263 | 315 MHz
+
+> Remote: 5K0 837 202 R (some 2010) FCC Info: NBGOTOT8OT | 315 MHz
+
+> Tiguan | > Remote: 5K0 837 202 F (some 201) (with Kessy) FCC Info: NBGO10180T | 315 MHz
+
+> Remote: 5K0 837 202 AE (some 2011 15) FCC info: NBGO10180T | 315 MHz —
+
+> Remote: 5K0 837 202 AK (some 2012- 16) (with Kessy) FCC Info: NBGO10206T | 315 MHz
+
+> Remote: 3D0 959 753 T (some 2004-07) (with Kessy) FCC Info: KR55WK45032 | 315 MHz
+
+= > Remote: 3D0 959 753 Q (some 2004-07) FCC Info: KR55WK45022|315 MHz
+ouareg
+Se Remote: 3D0 959 753 AP (some 2010) FCC Info: KR55WK45022 | 315 MHz
+
+> Remote: 3D0 959 753 AQ (some 2010 (with Kessy) FCC Info: KRSSWK45032 | 315 MHz
+
+28 - AUDI- VW « PORSCHE = ; 2 ©1994, 2021 AutoSmart™ by Michael Hyde
+
+cb 0.66.6 6.6 6 6 6:6 6
+
+>
+
+»>e@e@8 80 0
+
+2 ©
+¢
+
+continued - AV-13 SECTION
+
+Code Series: 1-8110
+
+NOTES: The left track is the one with the cuts. The right track is only a guide
+track. Pre-cut the left track to all number one depths and the right
+track will have the clearance it needs to work in the locks.
+
+” Bow SPACING Tip DEPTHS
+U : t=.150
+> = 2= 126
+fem 945 | 827 | .709 | 591 | .472 | 354 | 236 | 18 | INTERNAL} 21,
+m MILLING = at
+ge : = 4=.079
+o a 2 3 4 5 | 6 tis
+
+m
+
+72
+
+~j
+
+=
+
+Test Key
+HU66-P
+
+¢
+
+@©e 02006 08°60 @ ¢
+
+¢
+
+¢
+
+Chip Information & Notes
+
+Transponder: Standard Equipment
+
+Chip Varies by Car - Megamos 48, Philips AES, 8E
+
+Reusable: No
+
+> Mike's Tip: Key Programmer & PIN Code Required. Test key is HU66.
+
+Cloner Machine Information
+
+Va
+
+Programmer & Diagnostic Tools
+
+(DIAG BOX) ( CHINA) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LL.D. \ ( SCORPIO )( wor)
+= CLONE
+me | weap CN900 RW4+ TRS-S000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+2 I Yes Yes? M1 Yes'82 @ No - Yes! Yes '&2 ®@ No M1 Yes
+a Yellow Chip CNG & 148 & Se 148 & = WDI Chip &
+BSH | & Huse shell] | Huss Shel! | | HU66 Shel V66U Blade HU66 Shell HUG6 Shell
+z
+o
+m
+A
+
+*4 - May require Internet Access to complete cloning. *2 - Requires Megamos update.
+
+Factory Tool PIN CODE = :
+ee ¥ TCODE/MVP PRO x TDB1000 x HOTWIRE
+REQUIRED
+OTIS = ee —-
+Subscription
+. Yes V SMART PRO 2 AUTO PROPAD| | v AUTELIM608
+VAS 6150E : — 2
+? = Check with your key programmer supplier to see if your vehicle is supported.
+Codes: | No codes on any locks. : =
+Decoders: | Determinator: n/a Lishi: HU66 v2 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a lock Reader/Decoder in the door lock to determine the cuts for a complete key.
+Method #2 Disassemble the door cylinder and decode the tumblers. There are eight spaces and four
+depths. Making a key to the door lock will give you a complete key.
+Method #3 Disassemble trunk cylinder and decode tumblers. There are eight spaces and four depths.
+
+Making a key to the trunk lock will give you a complete key.
+
+0/0/0;0/0}0}0/O}> Ignition
+
+0/0|0|@/0} |G} O}> Doors, trunk, Hatch*
+EB O Fo > Glove Box*
+
+1}213/4/| 526257 3 *lf equipped
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+AUDI « VW = PORSCHE - 29
+AV-14 SECTION.
+
+2017-19 Beetle (VW)
+
+2017-18 Jetta (VW) 2017-21 Passat (VW
+
+__ 2017 Tiguan (WW)
+
+| STYLE
+High Sec Spring
+MASTER
+KEYS > Dealer transponder system - Specisliced key programmer or Eeprom Equipment required
+Determinator: n/a Lishi: HU66 v2 ‘AccuReader: n/a EEZ Reader: nla = Cobra: n/a
+> Mike's Tip: There are many key programmers on the market right now. Some work well and some do not.
+> Do your own research and remember that some companies have little or no support.
+ed > Mike's Tip: PIN code is needed to program keys. Dealer does not have access to PI N codes. After-market
+key programmers may be able to ‘Tead’ the PIN code, but it is Not always possible. This is a gamble.
+> Mike’s aS Some models may be equipped with the Proximity option called “KESSY".
+> Remote: 5K0 837 202 BJ (some 2017- 19) FCC Info: NBGFS93N | 315 MHz
+‘ Beetle > Remote: 5K0 837 202 BP (some 2017-19) (with Kessy) FCC Info: NBGFS93N | 315 MHz
+> Remote: 5K0 837 202 BJ (some 2017-18) FCC Info: NBGFS93N | 315 MHz
+coe ” Jetta [5 Remote: 5k 837 202 BP (some 2017-18) (with Kessy) FCC Info: NBGFS93N | 315 MHz
+Info > ___| > Remote: 5KO 837 202 BJ (some 2017-19) FCC Info: NBGFS93N | 315 MHz_
+) Passat | > Remote: SKO 837 202 BP (some 2017-19) (with Kessy) FCC Info: NBGFS93N | 315 MHz
+__| > Remote: 561 837 202 G, J (some 2017-19, 5 Btn) (with Kessy) FCC Info: NBGFS93N | 315 MHz
+> Tiguan | > Remote: 5K0 837 202 BP (2017) (with Kessy) FCC Info: NBGFS93N | 315 MHz
+
+Code Se
+
+ries: 1-8110
+
+DEPTHS —
+
+NOTES: The left track is the one with the cuts, The right track is only a guide
+track, Pre-cut the left track to all number one depths and the right
+track will have the clearance it needs to work in the locks.
+
+7) SPACING ~ Tip
+
+0 = 150
+> =: |. 2= 126
+oy 945 | 827 | 709 | 591 | .472 | 354 | 236 | 118 [INTERNAL] 9
+m MILLING = 102
+90 — Hee 4=.079
+oe Z S414 5 6
+
+m
+
+0
+
+ar
+
+aa
+
+30 - AUDI « VW » PORSCHE
+
+Aay sal
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+aa
+
+pee Ce eOoOO OE OO HOC EOEEESE
+eeeoaoeoaooagoaoeee
+
+@#eooonondeaonoaod oe
+
+Han Soy ees oF  pentibd SAM SECTION
+
+Chip Information & Noles. = Se a
+
+Transponder: Standard Equipment = os Megamos 49 AES | Reusable: No
+
+> Mike's Tip: Key. Programmer & PIN Code Required. Test key is HU66. 4 SS = 2222 |
+
+Cloner Machine Informat on
+
+—
+
+o1aG BOX) (CHINA >) (ileorsica) (—sMAUSA) (— KEVLINE) (—_ LD.) (~ScORPIO.) (—_ WoI
+
+Wha || ¢Ngoo | | RWw4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE || TANGO | | MINITOOL | | —
+
+@No | @No | —@No || @No @No ® No @No ~@No
+
+BanNEsaNE
+
+Programmer & Diagnostic Tools _ tee - — te
+
+PINCODE | —
+
+Factory Tool 5 2 =e =e:
+_ REQUIRED = TCODE/MVP PRO x TDB1000 ee x HOPOIRE
+
+OS |
+Subscription |
+= Of
+
+VAS 6150E_
+
+( SMART PRO (2 AUTO PRO PAD. (> AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | Nocodesonanylocks, De
+
+Decoders: ‘ Determinator: n/a —_| Lishi: ‘HUGE V2 _AecuReader: nla __| EEZ Reader: n/a Cobra: n/a 2 :
+
+Method #1 _ Use a Tock Reader/Decoder in ‘the door lock to determine the cuts for a complete key.
+
+~ Method #2 Disassemble the door cylinder and decode the tumblers. There are eight spaces and == 21)
+depths. Making a ms to the door lock — oe you a vcomplete key.
+
+O | G|> Ignition
+O}O|> Doors :
+|> Glove Box* =
+
+, ow!
+oo
+oo
+
+ena
+ids gtd pe,
+noo
+
+: 1/2|3|/4|5|6|7|8| ‘*Ifequipped
+
+©1994, 2021 AutoSmart by Michael Hyde AUDI» VW - PORSCHE - 31° =
+
+AV-15 SECTION
+
+==20U-18 Touareg S22 =
+
+| | ms | MACS | Start cut 7 Cut to
+
+MASTER = 3 ===
+-xeys=> | Dealer transponder system - Specialized key programmer or Eeprom Equipment required =|
+
+: Determinator: nfa_—_| Lishi: HU66.v2 = “AccuReader: n/a __| FEZ Reader: n/a == | Cobra: n/a =
+5 > Mike's Tip: There are many key programmers on the market right now. Some work well and some do not.
+a _ ______ > Do your own research and remember that some companies havelittleornosupport =p
+aS > Mike's Tip: PIN code is needed to program keys. Dealer does not have access to PIN codes. After-market |
+__ | key programmers may be able to “read” the PIN code, but it is Not always possible. This is agamhic = ===: =
+> Mike's Tip: Some models may be equipped with the Proximity option called “KESSY* oo ee z
+
+|__| > Remote: 7P6 959 754 Q (some 2011-12) Emerg Key: 7P6 837 216 B - FCC Info: not available | 315MHz
+Remote =
+Info>
+
+> Remote: 7P6 959 754 AM (some 2011-18) Emerg Key: 7P6 837 216 B- FCC Info: not available| 315 MHz
+
+> Remote: 7P6 959 754 AR (some 2013-18) Emerg Key: 7P6 837 216 B- FCC Info: not available | 315 MHz
+
+e@eeeeeee 8 ©
+
+me DEPTHS
+itr oe =-}| 12150 | —
+
+SS =. SS = = = == = = = 25708 4
+945 | 827 | 709 | 591 | .472 | .354 | .236 | 118 | INTERNAL] 2 "e |
+= == MILLING | 3= 102 =
+ies a 88 2 =
+
+SPACING _
+
+H1id3d 8 30VdS
+
+NOTES: The left track is the one with the cuts. The right track is only a guide
+
+p»eeoeeoes 008
+
+track. Pre-cut the left track to all number one depths andthe right = | :
+track will have the clearance it needs to work inthe locks, == =
+32 - AUDI - VW - PORSCHE ee c =
+
+e@.
+
+© 06.
+
+C
+
+¢
+
+C
+
+Chip information & Noes.
+
+Transponder: Standard
+
+ie Information = oes ee ee |
+No Cloning for this Type of System
+Programmer & Diagnostic Tools Sees
+
+(Factory Tool | (~ PINCODE
+
+@©eeoeoen ooo
+
+YAGNOdSNVYL
+
+1 OSs
+| Subscription
+or
+
+VAS 6150E |
+
+REQUIRED |
+
+Yes
+
+[2 suarr PRO
+
+(? TCODE/MVP PRO|
+
+= ( TDB1000 |
+
+(. HOTWIRE
+
+(? AUTO PRO PAD | —
+
+(2 avtex IM608°
+
+?= Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes:
+
+No codes on any locks. =
+
+Decoders:
+
+FEZ Reader: n/a
+
+Cobra: n/a
+
+Determinator: n/a
+
+| Lishi: HU66 v2
+
+AccuReader: n/a
+
+eeoeoeoeoeee
+
+Method #1 __Usea lock Reader/Decoder in the door lock to determine the cuts for a complete key.
+
+_ Method #2 = Disassemble the door cylinder and decode the tumblers. There areeightspacesand four — |
+— depths. Making a key to the door lock will give you a complete key. ==
+
+oo
+Oo
+
+Joo
+
+oou
+
+ood
+
+1|> Ignition
+01 |> Doors
+
+Oo"
+
+o>)
+sti
+o |!
+
+__|> Glove Box*
+
+*lfequipped =>
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+———continued- AV-15 SECTION
+AV-16 SECTION ete
+
+2009-17 CC (vw)
+
+| sme | carpe | me |
+
+1-810 High Sec on
+_ MASTER == = Be:
+KEYS &> Dealer transponder system - Specialized key programmer or Eeprom Equipment required
+Determinator: n/a Lishi: HU66v2 | AccuReader: n/a —_| EEZ Reader: nia ——| Cobra: n/a
+> Mike's Tip: There are many key programmers on the market “ant mi now. Some work well and some do not.
+> Do your own research and remember that some companies: have little or no support.
+beta > Mike’s Tip: PIN code is needed to program keys. Dealer does not have access to PIN codes, After- market
+key programmers may be able to “read” ‘the PIN code, but it is Not always possible. This is a gamble. _
+> Mike’s Tip: Some models. may be equipped with the Proximity option called "KESSY’. =
+> Remote: 3C0 959 752 BN (2013- 17) (with Kessy) E-Key: 30 837 216 E- FCC Info: NBGPQI2P01 r 315 MHz
+. »>CC
+ae - | > Remote: 3C0 959 752 BB (2009-16) Emerg Key: 3C0 837 216 E - FCC Info: NBGOO9066T | 315 MHz
+> Passat _| > Remote: 3C0 959 752 BB - Emerg Key: 3C0 837 216 £ - FCC Info: NBGOO9066T | 315 MHz
+
+Code Series: 1-8110
+
+SPACING :
+591 | .472 ng_| INTERNAL | 2 = “126
+-== | mitune | 2= We
+
+= : ae SE ~~ | 4=.079
+
+Np
+ee)
+BS
+Maul
+oO
+N
+hes
+
+NOTES: The left track is the one with the cuts. The right track is only a guide
+track, Pre-cut the left track to all number one depths and the right
+track will have the clearance it needs to work inthe locks.
+
+HidsaG ? A0VdS
+
+Key 182
+
+34 - AUDI - VW - PORSCHE = — = _ ©1994, 2021 AutoSmart™ by Michael Hyde
+
+92©®@e@e@eee0eaeese 6 e@
+
+eee5a ee eee
+¢
+
+© 02@@eeoee ee *¢
+
+@ ¢
+
+©o@e@eee#-.<
+
+¢
+
+¢
+
+Chip Information & Notes
+
+continued- AV-46 SECTION
+
+Transponder: Standard | Chip: Megamos 48 Reusable: No
+
+Cloner Machine Information Se ==
+= No Cloning for this Type of System ©
+2 ane =
+e Programmer & Diagnostic Tools — :
+a Factory Tool PIN CODE
+iw) a REQUIRED _ (? TCODE/MVP PRO (« TDB1000 (« HOTWIRE
+m OTIS emus Rnnoa :
+ys | Subscription
+
+Ks Yes 9 = 2
+VAS 6150E ? SMART PRO ? AUTO PRO PAD x AUTEL IM608
+
+~ ? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: HU66v2 | AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a lock Reader/Decoder in the door lock to determine the cuts for a complete key.
+Method #2 Disassemble the door cylinder and decode the tumblers. There are eight spaces and four
+
+depths. Making a key to the door lock will give you a complete key.
+
+oo
+myo
+oo
+
+> Ignition
+> Doors
+> Glove Box*
+
+_*If equipped
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+AUDI « VW « PORSCHE - 35 ©
+AV-17 SECTION
+
+2015-21 Golf (VW)
+
+2019-21 Jetta (VW)
+
+2018-21 Atlas (VW) he 2018-21 Tiguan (W)
+
+| stwe | canoe | me |
+~ High Sec
+
+MACS | Start Cut Cut to Cut | Air Bags | Ign Retainer
+
+Spring
+
+MASTER ==
+KEYS >> Dealer transponder system - Specialized key programmer or Eeprom Equipment required
+Determinator: nla : Lishi: HU66-v2 AccuReader: n/a EEZ Reader: n/a ———_| Cobra: n/a
+> Mike's Tip: There are many key programmers on the market right now. Some work well and some do not.
+> Do your own research and remember that some companies have little or no support.
+More : = : =
+iss > Mike's Tip: PIN code is needed to program keys. Dealer does not have access to PIN codes. After-market
+
+key programmers may be able to “read” the PIN code, but it is Not always possible, This is a gamble.
+
+> Mike’s Tip: Some models may be equipped with the Proximity option called "KESSY".
+
+> Atlas | > Remote: 3G0 959 752 AC, CT (Check VIN with Dealer) FCC Info: NBGFSI2A01 | 315 MHz
+
+| > Remote: 5G0 959 752 BE, DE (with Kessy) (Check VIN with Dealer) FCC: — | 315 MHz
+
+> Golf
+> Remote: 5G0 959 752 BD - FCC Info: NBGFS12A01 | 315 MHz
+
+Remote |) jetta | > Remote: (Check VIN with Dealer) FCC Info: nla | 315 MHz
+
+Info :
+-> Remote: 5G6 959 752 AN (2019) (with Kessy) FCC Info: NBGFS12P01 | 315 MHz
+
+> Tiguan __| > Remote: 3G0 959 752 T, BQ (2018+) (with Kessy) (Check VIN with Dealer) FCC: NBGFS12P01 | 315 MHz
+
+> Remote: 5G6 959 752 AC, DK (Check VIN with Dealer) FCC Info: NBGFS12A01 | 315 MHz
+
+Code Series: 1-8110
+
+DEPTHS
+
+NOTES: The left track is the one with the cuts. The right track is only a guide
+track. Pre-cut the left track to all number one depths and the right
+track will have the clearance it needs to work in the locks.
+
+n SPACING
+
+a | 1= .150
+> See 2 = 126
+oy 945 | 827 | 709 | 591 | 472 | .354 | 236 | 118 | INTERNAL] 3"
+m ; “MILLING | 3=-10
+ge = a 4=.079
+o 25/3) 4 5 6 TE ee
+
+m
+
+a)
+
+=
+
+as
+
+Aay 3SAL.
+
+36 - AUDI « VW « PORSCHE = ©1994, 2021 AutoSmart™ by Michael Hyde
+
+eeeanueeeoeoeoeononeoueoeeeneeeede@ @
+@©e@@e0e808e8e@
+
+¢
+
+@oe0e@@e0e9000 9080
+
+¢
+
+continued - AV-17 SECTION
+
+Chip Information & Notes
+
+Transponder: Standard Equipment —
+
+Chip: Megamos 49 AES
+
+Reusable: No
+
+> Mike's Tip: Key Programmer & PIN-Code Required. Test key is HU66.
+
+Cloner Machine Information —
+
+“( JMAUSA ) ( KEYLINE _)
+
+= (DIAG BOX ) (CHINA) (ILCOISILCA ) (Lp. \ (_ScorPio ) (wor)
+2 Weta CN900 RW4+ | |TRS-5O00/EVO| | 884 Ultegra | | MIRACLONE TANGO | | MINI TOOL
+Bs
+Z ® No @ No @ No ® No ® No @ No @® No ® No
+¢,)
+a") 2 - 3 = S : x =
+(e)
+Zz
+Ss) ~ a
+a Programmer & Diagnostic Tools
+
+Factory Tool PIN CODE
+
+tact | Reouinea x TCODE/MVP PRO| | x TDB1000 x HOTWIRE
+
+OTIS SSS
+Subscription S
+or Yes a=
+VAS 6150E _[ SMART PRO x AUTO PRO PAD x AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks,
+
+Decoders: | Determinator: n/a Lishi: HU66 v2 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a lock Reader/Decoder in the door lock to determine the cuts for a complete key.
+Method #2 Disassemble the door cylinder and decode the tumblers. There are eight spaces and four —
+
+depths. Making a key to the door lock will give you a complete key.
+
+Ooo
+
+OOo
+bi a
+ioao
+
+O|> Ignition
+O1|> Doors
+
+> Glove Box*
+
+BS
+oa
+Q
+N
+
+1,8 -*If equipped
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+AUDI = VW - PORSCHE - 37
+
+AV-18 SECTION
+
+2018-21 Atlas — 2021 1D.4 2022 Taos
+
+2019-21 Arteon 2019-21 Jetta |
+
+CODES | sme | carpe | me
+
+macs | Startcut | Cuttocut | AirBags | Ign Retainer
+
+_ Unknown High Sec ta fa | = nla |. Yes None
+MASTER === =— = 2a
+KEYS ____ Dealer Proximity system - Specialized key programmer or Eeprom Equipment required
+Determinator: n/a Lishi: HU162 AccuReader: n/a FEZ Reader: n/a ? = Cobra: n/a
+There is 3 new code series and a new keyway for Audi & VW. New key is called an HU162.
+; Gites tio: | Pe! has a 8 internal cuts up the center of the key and 1 corresponding “Edge” cut on the side.
+More z Type 2 has a 9 internal cuts up the center of the key and 3 corresponding “Edge” cut on the side.
+Info > : Type 3 has a 10 internal cuts up the center of the key and 4 corresponding “Edge” cut on the side.
+> Mike's Tip: PIN code is needed to program keys. Dealer does not have access to PIN codes. After-market
+key programmers may be able to “read” the PIN code, but it is Not always possible. This is a gamble.
+> Arteon | > Remote: 3G0 959 752 CA - Emerg Key: 3G0 937 048 FCC Info: KR5FS14-US | 315 MHz
+> Atlas > Remote: 3G0 959 752 T, AG (Check VIN with Dealer) E-Key: 3G0 937 048 FCC: KR5FS14-US | 315
+— >1D.4 _| > Remote: 5HO 959 753 J (Check VIN with Dealer) E-Key: 5HO 937 048 FCC: NBGFS19 | 433 MHz
+> Jetta > Remote: 3G0 959 752 S, BO (Check VIN with Dealer) E-Key: 3G0 937 048 FCC: KR5FS14-US | 315
+>Taos —_| > Remote: 3G0 959 752 BP (Check VIN with Dealer) E-Key: 3G0 937 048 FCC: KROFS14-US | 315
+
+DEPTHS
+
+SPACING
+
+” = es == A= .145
+4a 980 | 862 | .744 | .626 | 508 | 390 | .272 | 153 B = 122
+> i Se =e C =.097
+
+1 a. 7 Lhe 5 7 | 8-4. ae
+a Bes Sats ate E D =.076
+Pe] 972 | 868 | 764 | 659 | 555 | .451 138 E = .052 B
+° 2 3 4 5 6 a : 3
+Ay 972 | 878 | .783 | 689 | .594 | .500 1 | .216 | 122 =
+a4 2 a) les 5 6 | 7 | 8 | 9 10
+
+NOTES: — See InstaCode for more information, it is the best!
+
+38 - AUDI « VW =» PORSCHE 2 : ©1994, 2021 AutoSmart™ by Michael Hyde
+
+pPpeeoaesoenvueaoes eon eaoea oe eoeoeoee8
+
+y)
+@oe@e@2e80ee80e00e008de0ese
+
+@©#ee@oeeoeeed0de.¢
+
+SH — continued - AV-48 SECTION
+
+Chip Information & Notes == 2 22
+
+Transponder: Standard Chip: Integrated Circuit Reusable: No _
+
+YAGNOdSNVYL
+
+Information  ——™ =
+No Cloning for this Proximity System
+
+Programmer & Diagnostic Tools =” Ss
+
+Factory Tool PIN CODE f fe
+
+tre: 1 | peQuiReD x TCODE/MVP PRO| | x TDB1000 x HOTWIRE
+
+OTIS = aa = Aes
+Subscription :
+oo 4 Yes Se :
+VAS 6150E Z x SMART PRO- x AUTO PRO PAD _ _| x _AUTEL IM608
+
+?= Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on-any locks.
+
+Decoders: | Determinator: n/a Lishi: HUI62 | AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a lock Reader/Decoder in the door lock to determine the cuts for a complete key.
+Method #2 —_ Disassemble the door cylinder and decode the tumblers.
+
+~ — Main Track cuts =2 ==
+
+___are shared with the 10 by 4 system
+This is an example of 1 of the 2 Edge Track cuts. =
+new keyway cut systems. The = YY
+key can only be inserted one
+way.
+
+Maintrack>|O}oO;ol|o;o;olalo/j/oloa
+
+This system is only found on Edge Track>| OO |} OO} O}O
+Proximity vehicles at this time.  "Feebe pa tals fe
+
+_ Bow = Tip
+
+©1994, 2021 AutoSmart™ by Michael Hyde AUDI = VW « PORSCHE - 39
+byigsecigy, Gere
+
+MASTER
+
+1999-12 911 (Porsche)
+
+ee CARDE | ITL# | "MACS | starteut | cuttocut | Air Bags lia Retainer
+
+Spring
+
+Dealer transponder system - Specialized key programmer or SS equeenteaured :
+
+KEYS >
+Determinator: n/a ___| Lishi: HU66 ve = _[ AccuReader: n/a EEZ Reader: n/a re | Cobra: n/a —
+> Mike's Tip: There are many key, programmers on the market right now. Some work well and some do not.
+
+> Do your own research and remember that some companies have little or no support,
+More
+
+ine? > Mike’s Tip: PIN code is needed to program keys. Dealer does not have ; access s to PIN codes, After-market
+key programmers may be able to “read” the PIN code, but it is Not always possible. This is a gamble.
+>On > Remote Key: Many different variations of trim levels - Order key by VIN.
+
+Remote a : ——
+
+bic = > Boxster — > Remote Key: Many different variations of trim levels - Order key by VIN.
+> Cayman > Remote Key: Many different variations of trim levels - Order key by VIN.
+
+40 - AUDI « VW = PORSCHE Se
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+» © @
+
+e@eecece
+
+pee e eee
+¢
+
+@® @@ <«
+
+¢
+
+© 0 06 @, <
+
+¢
+
+continued - AV-19 SECTION
+
+Code Series: 1-8110
+on Bow SPACING Tip =o
+Uv = T= .150
+> a. 2=.126
+fem 945 | .827 | .709 | 591 472_ | 354 | .236 18 | INTERNAL 3= 102
+m MILLING = 2
+go — 4=.079
+o 1 2 3 4 = 6 Sf St
+m ao
+as NOTES: The left track is the one with the cuts. The right track is only a guide =
+x track. Pre-cut the left track to all number one depths and the right 2 2
+track will have the clearance it needs to work in the locks.
+Chip Information & Notes 2
+Transponder: Standard Equipment Chip: Megamos 48 Reusable: No
+> Mike's Tip: Key Programmer & PIN Code Required. Test key is HU66.
+Cloner Machine Information ; =
+(DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LD.) ( scorpio )( wo
+ms sane CN900 RW4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+= (7 Yes | Yes? M1 Yes'®2 @ No _ Yes! 1 Yes'&2 @ No M1 Yes
+LE | Yellow Chip CNG & 148 & = = TKN’ 748 & E WDI Chip &
+BS & HU66 Shell HU66 Shell HU66 Shell ; _V66U Blade HU66 Shell HU66 Sheil
+za 4 - May require Internet Access to complete cloning. *2 - Requires Megamos update.
+m Programmer & Diagnostic Tools
+Factory Tool PIN-CODE :
+oe. ae REQUIRED x TCODE/MVP PRO x TDB1000 x HOTWIRE
+Subscription :
+or Yes :
+VAS 6150E x SMART PRO x AUTO PRO PAD ? AUTEL IM608
+? = Check with your key programmer supplier to see if your vehicle is supported.
+Codes: | No codes on any locks.
+Decoders: | Determinator: n/a Lishis HU66 v2 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a lock Reader/Decoder in the door lock to determine the cuts for a complete key.
+Method #2 Disassemble the door cylinder and decode the tumblers. There are eight spaces and four
+depths. Making a key to the door lock will give you a complete key.
+O}O)0}0}|]> Ignition
+O} 0] © | 0} G |> Doors, Trunk, Hatch*
+o,o0/;0 > Glove Box*
+4> 5 (6 Fz ES *If equipped
+©1994, 2021 AutoSmart™ by Michael Hyde AUDI «= VW «= PORSCHE = 41- =
+AV-20 SECTION
+
+Hidsd 2 30VdS
+
+42 - AUDI - VW « PORSCHE
+
+| stwe | carps | ma |
+
+High Sec n/a
+MASTER |——
+KEYS > Dealer transponder system - Specialized key programmer or Eeprom Equipment required
+Determinator: n/a Lishi: HU66 v2 —_| AccuReader: n/a EEZReader: n/a ——| Cobra: n/a
+
+> Mike's Tip: There are many key programmers on the market right now. Some work well and some do not.
+> Do your own research and remember that some companies have little or no support.
+
+More se
+Info => > Mike's Tip: PIN code is needed to program keys. Dealer does not have access to PIN codes, After-market
+key programmers may be able to “read” the PIN code, but it is Not always possible. This is a gamble.
+Remote : ad : See
+fe » Cayenne > Remote Key: Many different variations of trim levels - Order key by VIN.
+
+Code Series: 1-8110
+
+Bow SPACING te f= DEPTHS
+
+= : : T= 150
+: = SITE 2= 126
+945 | .827 | 709 | .591 472 | 354 | .236 118 |INTERNAL
+
+MILLING | 3= 102°
+- 4=.079
+
+1 2 3-4 Ss 6 7
+
+NOTES: The left track is the one with the cuts. The right track is only aguide :
+track. Pre-cut the left track to all number one depths and the right
+track will have the clearance it needs to work in the locks.
+
+Aay isa,
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeeeeeneeeeeeee ee
+
+pe@e@ @
+
+@®eeoee?e <
+
+@9@oeoee0@0@ 6208 06 @ ¢
+
+¢
+
+¢
+
+continued - AV-20 SECTION
+
+Chip Information & Notes ==
+
+Transponder: Standard Equipment Chip: Philips 46 Reusable: No
+
+> Mike's Tip: Key Programmer & PIN Code Required. Test key is HU66,
+
+Cloner Machine Information
+
+(DIAG BOX) (CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )(  L.D.  ) ( SCORPIO )( wol_ |)
+mall | CLONE CN900 Rw4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+pel | WIZARD = :
+= lv] Yes I Yes? M Yes 1&2 M1 Yes? M1 Yes" fv] Yes 1&2 M1 Yes'®2 M1 Yes
+% Green Chip CN3 & GTl& TPX4& || TK100& TPX4 & TPX4 & WDI Chip &
+
+&HU66 Shell| | HU66Shell | | HU66 Shell | | HU66 Shell V66U Blade HU66 Shell HU66 Shell | | HU66 Shell
+2)
+za : _*{ - May require Internet Access to complete cloning. *2 - Requires Philips update.
+o SSSe = SS"
+ful) Programmer & Diagnostic Tools _
+A
+Factory Tool ) PIN CODE
+Seer eee RED x TCODE/MVP PRO| |x TDB1000 x HOTWIRE
+OTIS =—-
+Subscription
+oF Yes >
+VAS 6150E x SMART PRO x-AUTO PRO PAD ? AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: HU66 v2 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a lock Reader/Decoder in the door lock to determine the cuts for a complete key.
+Method #2 Disassemble the door cylinder and decode the tumblers. There are eight spaces and four
+
+depths. Making a key to the door lock will give you a complete key. -
+
+0 }> Ignition
+> Doors
+> Glove Box*
+
+Oia
+A Get
+moa
+Oo
+Oo
+
+Bs
+oO
+o
+NI
+foe}
+
+*lf equipped
+
+©1994, 2021 AutoSmart™ by Michael Hyde AUDI = VW = PORSCHE - 43
+AV-21 SECTION
+
+2017-21 718 Boxster
+
+2017-19 718 Cayman
+
+2013-19 911
+
+(Porsche) _-(Porsche) (Porsche)
+
+2013-16 Boxster —
+
+2011-19 Cayenne
+(Porsche)
+
+2013-16 Cayman
+
+(Porsche) (Porsche)
+
+2015-18 Macan
+
+2020-21 Taycan
+(Porsche)
+
+2010-18 Panamera
+
+(Porsche) (Porsche)
+
+STYLE cARD# |
+
+ITL#
+
+macs | StartCut | CuttoCut | AirBags | Ign Retainer
+
+1-8110 ~HighSec | n/a | n/a 2 nia nia Yes Spring
+MASTER ——-
+KEYS > ‘Dealer transponder system - Specialized key programmer or Eeprom Equipment required
+Determinator: n/a Lishi: HU66v2 | AccuReader: n/a EEZ Reader: n/a Cobra: na
+> Mike's Tip: There are many key programmers on the market right now. Some work well and some do not.
+More > Do your own research and remember that some companies have little or no support.
+Info > > Mike’s Tip: PIN code is needed to program keys, Dealer does not have access to PIN codes, After-market
+key programmers may be able to “read” the PIN code, but it is Not always possible. This is a gamble.
+Remote ae : eS =. : ;
+hee > Proximity Remote: Many different variations of trim levels - Order key by VIN.
+
+Code Series: 1-8110
+
+DEPTHS
+
+track will have the clearance it needs to work in the locks.
+
+” Bow SPACING
+
+a) = 1=.150
+
+> 2= 126
+
+fe) .945 | .827 | 709 | 591 | .472 | .354 | .236 | 118 | INTERNAL ==
+
+m a ie
+
+go : 4=.079
+
+o a 2 3 4 5 6 a
+
+mi : 4
+
+Bs NOTES: The left track is the one with the cuts. The right track is only a guide 2
+
+- track. Pre-cut the left track to all number one depths and the right z
+<
+
+44 - AUDI « VW « PORSCHE
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+ee6e¢e8¢e
+
+p3e5@aeee ee ©
+
+eee eee
+
+)
+@ <
+
+@©9@e@eqoeoeoe@806@606¢e@e@eoee se
+
+¢
+
+continued - AV-21 SECTION
+
+Chip Information & Notes
+
+Transponder: Standard
+
+_| Chip: Integrated Circuit
+
+Reusable: No
+
+Cloner Machine Information =
+
+No Cloning for this Proximity System
+
+Jools... =
+
+ant
+
+A
+
+>
+
+= = =
+
+ee Programmer & Diagnostic
+eo) “ =.
+a _Factory Tool | PIN CODE
+S| otis REQUIRED
+A
+
+Subscription
+
+or Yes
+VAS 6150E
+
+(« TCODE/MVP PRO
+
+(« TDB1000 (« HOTWIRE
+
+[« smarr PRO.
+
+(« AUTO PRO PAD (2 AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a -Lishi: HU66 v2- AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a lock Reader/ Decoder in the door lock to determine the cuts for a complete key.
+Method #2 Disassemble the door cylinder and decode the tumblers. There are eight spaces and four
+
+depths._ Making a key to the door lock will give you a complete key.
+
+Le
+OO
+a
+
+> Ignition (no lock)
+> Doors
+> Glove Box*
+
+*lf equipped
+
+©1994, 2021 AutoSmart™ by Michael Hyde_
+
+AUDI - VW PORSCHE-45
+AV-22 SECTION
+
+STYLE
+
+1978-96 928 (Porsche)
+
+| caRD# |
+
+ITL#
+
+macs | Startcut | Cuttocut | Air Bags
+
+| Ign Retainer
+
+With | 10001-80000 High Sec n/a Roll Pin
+Factory NATIONAL: KEYLINE: ILC= = JET: JMA: STRATTEC: | DEALER:
+Alarm | — HU45-P nla HF55-P nla PO-2P nla = —N/6
+Determinator: n/a Lishi: n/a | AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+> Mike's Tip: Factory Alarm models use a longer key to access the alarm switch on the back of the lock cylinder.
+
+| stv | carps | ms | macs | startcut | Cuttocut | AirBags | ign Retainer
+No 001-1000 High Sec n/a 2Z n/a n/a ‘90 &up Roll Pin
+Factory NATIONAL: ‘KEYLINE: ILCO: JET: JMA: sTRATTEC: | DEALER:
+Alarm HU42-P n/a HF52-P nla PO-1P n/a na
+Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+@y vo TRANSPONDER
+Code Series: 10000-80000
+= =
+2 SPACING =
+HU45-P
+2 165 | 290 | 414 | 539 | 663 | 1.006 | 1130 | 1.254 | 1.418 oe : :
+ge : - Varies
+Oo 1 22). 3 4 5 6 7 | -P2. | PS
+ma = = ae
+_
+|
+oe
+
+and
+
+2 on the "B” side,
+
+NOTES: This key has 4 sides to it. Alarm models have 4 additional c
+
+uts, 2 on the “A” side
+
+Code Series: 001-1000
+
+a
+
+A Bow SPACING Tip
+
+Q aoe
+165 | .290 | .414 | .539 | .663 | 1.006 | 1130 —-
+oid Varies
+m ped 2 3 4 5 | P2 | P5
+
+= 4 s
+
+mm NOTES: This key has 4 sides to it.
+
+46 - AUDI =» VW = PORSCHE
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeeeaceeeoeaeenee
+
+a yn Y
+
+dD: |e@' '@.,@
+continued- AV-22 SECTION
+
+Codes: | No codes on any locks. =
+
+Decoders: | Determinator: n/a Lishi: n/a | AccuReader: n/a EEZ Reader: n/a ~—_——| Cobra: n/a
+
+NOTE: You must have the special equipment to code-cut this key or space & depth keys. This key has 4
+sides to it that are about 45 degrees apart. The longer blank is for the alarm models.
+
+- Method #1 ~ Remove door lock and disassemble to make key. Some models have an alarm hooked up to the rear of the
+door cylinder. The cuts for the alarm are on the tip end of the longer version key.
+
+The locks use half tumblers, two in each chamber. -
+__ Once you have decoded the door cylinder, you will have a complete key. You do not need to decode the
+alarm switch to start the car, but it will be necessary to make a working alarm key.
+
+DO NOT DISASSEMBLE THE TRUNK LOCK IF YOU CAN AVOID IT.
+
+ALARM MODELS
+
+> Glove Box
+
+C - Cut Positions
+2-Pre-cuttoa#2 —
+5 - Pre-cut to a #5
+
+> Ignition
+
+> Doors
+
+> Trunk
+
+> Glove Box
+
+— €-Cut Positions
+2 - Pre-cut to a #2
+5 - Pre-cut to a #5
+
+©1994, 2021 AutoSmart™ by Michasl Hyde AUDI = VW «= PORSCHE - 47— ~
+
+*#ee2eo 0200 0dodeoeeeeeoege ede ¢
+—AV-23 SECTION
+
+a= 2000-02 Cabrio (Ww)
+
+ste | card# | imi¢ | macs | Startcut | cuttocut | Air Bags
+
+| Ign Retainer
+
+- 1-810 _ 2 22 2 ata nia —]_ = Yes | Spring
+MASTER = = =
+Two different transponder chips used depending on production date. _
+Joe Check with dealer for correct part # by VIN =
+Determinator: n/a Lishi: HU66 v2 —_| AccuReader: n/a EEZReader: n/a -—=—« Cobra: n/a
+More > Mike's Tip: PIN code is needed to program keys. Dealer does not have access to PIN codes, After-market key
+Info > ___programmers cannot “read” the PIN code on this model. Eeprom for PIN Code.
+
+Flip Key
+
+Remote E ob Remote
+
+Code Series: 1-8110 :
+
+w Sou SPACING DEPTHS
+3 : - 1=.150
+> 12. | 2=426
+fem 945 | 827 | 709 | 591 | .472 | 354 | .236 | 118 | INTERNAL) 2 _ 05
+m | | MILLING =.
+go = 4=.079
+o Le 2 3 as 6 7
+m ae =
+Ba NOTES: The left track is the one with the cuts. The right track is only a guide a
+x track. Pre-cut the left track to all number one depths and the right z
+
+track will have the clearance it needs to workin the locks. <
+Mi Programmer & Diagnostic Tools
+
+Factory Tool PIN CODE == =]: ;
+Zz fee ce es * TCODE/MVP PRO| |X FDB1000 x HOTWIRE
+a OTIS
+v0 a === =
+Subscription =
+
+= or Yes ;
+S VAS 6150E : x SMART FRG : |x AUTO PRO PAD | - : x _AUTEL IM608
+y)
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+48 - AUDI « VW = PORSCHE
+
+,»@°6e
+
+)
+
+e9eeeoeeeeede 6 @
+
+p> @ @
+
+‘60° @
+¢
+
+®©9e02@e@@eoeoeee*<
+
+®e @ @ ¢
+
+¢
+
+¢
+
+continued - AV-23 SECTION
+
+Chip Information & Notes ee
+
+Transponder: Standard Equipment | Chip: see below Reusable: No
+
+> Mike's Tip: Key Programmer & PIN Code Required. Test key is HU66.
+
+Cloner Machine Information - TP42 - Early Chip oS
+
+(DIAGBOX ) ( CHINA ) (ILCO/SILCA) ( JMAUSA ) ( KEYLINE )( LL.D.) ( SCORPIO )( wo)
+ol
+CLONE =| | cnooo RwW4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE | | TANGO MINI TOOL
+os WIZARD | |
+> M1 Yes M1 Yes? M7] Yes'&2 ® No @ No 1 Yes'&2 M1 Yes!®2 M1 Yes
+4 44Chip& || 44 Chip & 750 & — - T44& || 448 WDI Chip &
+Poy | Huss Shell | | HU66 Shell | | HUGG Shell HU66 Shell HU66 Shell | | HU66 Shell
+2 == *4 - May require Internet Access to complete cloning. *2 - Requires Megamos update.
+4] Cloner Machine Information - TP44 - Late Chip :
+(DIAG BOX) ( CHINA ) (ILCO/SILCA) (. JMAUSA \ ( KEYLINE )( L.D.  ) ( SCORPIO \( wo)
+Wien pce Rw4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE | | TANGO MINI TOOL
+
+® No @ No ® No @ No @ No @No || @No ® No
+
+Codes: | No codes on any locks.
+
+Decoders: -Determinator: n/a Lishi: HU66v2  —_| AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Method #1 Use a lock Reader/Decoder in the door lock to determine the cuts for a complete key.
+Method #2 Disassemble the door cylinder and decode the tumblers. There are eight spaces and four
+
+depths. Making a key to the door lock will give you a complete key.
+
+Method #3 Disassemble trunk cylinder and decode tumblers. There are eight spaces and four depths.
+Making a key to the trunk lock will give you a complete key.
+
+O|> Ignition —
+> Doors, Trunk, Hatch*
+> Glove Box*
+
+OOM
+
+OO
+
+o00
+oo
+oO
+
++b
+a
+(o>)
+™
+oe}
+
+*If equipped
+
+©1994, 2021 AutoSmart™ by Michael Hyde AUDI - VW = PORSCHE - 49
+2009-12 Routan (VW) (same as Dodge Caravan)
+
+STYLE z CARD# | ITL# | MACS | StartCut | Cutto Cut |
+
+Air Bags Ign Retainer §
+
+M1-2618 | DbiSided | cxto2 | 69 | 2 | 310 | 092 | Yes | None
+FOBIK Remote - Check with dealer for correct part # by VIN
+MASTER = —=
+=> | NATIONAL: | KEWUINE: =] Ider JET: yma: | STRATTEC: | DEALER:
+KEYS | pGeE-POD-KEY| BYI70-PT | Yi70-PT | BYI66-PHT | TPIZCHRISP! | 5909874 |  seebelow
+
+Determinator. CHR2 _| Lishi: CY24 ‘AccuReader: CHRY 8 __| EEZ Reader: Y157 Cobra: KDC8
+
+> There are several different Trim levels for the Routan Van - always check with the V.W. dealer for the
+correct Fobik Remote by VINnumber, = E
+
+av6z96z089
+
+AVIRA SECON 2 LES mane oe
+
+Hh = ===
+re) 1 2 = 4 5 6 = ie = : cue ; = =
+m bo Ger | cae =
+pay 941 | 849 | 757 | 665 | 573 | 481 | 389 | .297 3 = 290.
+o 4 = 265
+a Cam: Carriage: Se
+4 Curtis Clipper: | Cory. |curysa _ |Pak-APunch: PAK-C5
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at 310
+
+Programmer & Diagnostic Tools ae =
+Bay (Factory Toot) (~ pINCODE )
+> REQUIRED ee
+z ———— 2 = = = 222 = 2 =
+H (v TCODE/MVP PRO| (? TDB1000 (? HOTWIRE
+oO MicroPod [V] Yes ieee ee |
+= | wiTECHe 4-digit =———-.
+
+2
+
+A ES oN De a —
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+50 - AUDI » VW =» PORSCHE == ©1994, 2021 AutoSmart™ by Michael Hyde
+
+»>@e@6
+
+pee peeeseoaoeeav ens eee e080
+eooan0020020000000080086004
+
+YAGNOdSNVYL
+
+Chip information & N Notes. = a a
+Transponder: Yes es | chip: Philips 46. = | Reusable: No (Must be Unlocked) =e
+> Mike's Tip: FOBIK System - Key Programmer & PIN Required: Test wok is YIBZ/ ¥159.=— - ==
+Cloner Machine Information __ : a :
+
+(Diag BOX ) . CHINA) (icoisi.ca) ( JMAUSA ) ( KEYLINE )( LD. )( ScoRPIO \( wo )
+“WIZARD ~ Ng00 || RW4 | |TRS-5000/EVO| | 884 Ultegra MIRACLONE | | TANGO | | MINI TOOL
+Yes || MYes* || Yes? | | _WYes* > M1 Yes? M1 Yes
+}| Green chip || oy, a sha | |} eHsp aT || texea | | Gkt00/TK100 ps || MostChips | | WDIChip &
+& Shell : = : Blade _Y170 Shell | | &Y170 Blade @Y170 Shell & Y170 Shell HU66 Shell
+
+= a : a Requires Internet Access to complete ‘cloning. *2 - Requires Philips Crypto Update. 1g. Requires Texas Giyplo update.
+
+> > Mike’ Ss ap No do_Keyless GO* “Cloning - because it'sa eee Fob.
+
+| Codes: | No Codes on any locks.
+
+Cobra: KDC8
+
+> Ignition (Fobik)
+|> Doors
+
+Decoders: | Determinator: CHE? Lishi: C¥24 _ | AccuReader: CHRY8 | EEZ Reader: Yis7 |
+
+Method #1 — Use a Lock Decoder/Reader tool to decode the — lock. :
+Method#2  ~—“Use tryol wey Baxter Scie Tryout Keys set 97 All Locks, or Aero ro Locktryout set TO- 93,
+_ Method #3 _ Remove a toot or trunk cylinder and decode it
+
+—— > Trunk (if equipped)
+
+Routan = 703927
+Routan -—«=—S—=«&Sséobik lgnition } T0275 706371 Liftgate | 703927
+©1994, 2021 AutoSmart™by Michael Hyde Se AUDI» VW + PORSCHE -51
+
+AV-25 SECTION = ie
+
+STYLE
+“DbiSided | C
+
+«| AN1-9282
+
+| _cARD# | “mt | macs | startcut
+
+| Cut to Cut ae ‘Airbags | an scab
+
+"MASTER
+KEYS >
+
+_ Two different transponder chips used depending on sais date. =)
+== = : Check with dealer for correct part #by VIN —
+
+Determinator: wi — Lishi: HU49 -| AccuReader fia = 1
+
+EEZReader: n/a
+
+“More
+Info >
+
+> Mike's Tip: PIN code is ana to program keys. Dealer does not have access to PIN codes, ermal 22
+= Hogratiiers cannot “read” the PIN code on this model, Eeprom for HIN Code. :
+
+Code Series: AH 1-9282 - Chart 1
+: v 248 SPACING _ foo
+tp 205-37), £ | 5 6 7 =
+
+194 | .240 | 335 | .430 | | .705
+
+= 2255 Cut
+
+476-
+
+SPACES 2, 4 & 6 ARE DOUBLE CUTS | Cut:
+
+HPC | Curtis Clipper
+
+_ Pak-A-Punch = |
+
+Cam: VW3 | Gel See
+Carriage: VW3C | aS Sat =
+
+_XF4, CF4
+
+to
+
+Hids3aGd 2 30VdS
+
+NOTES: FRAMON—Use Spacing Block ‘VBI
+
+Some code books list 7 numbers, some list 10 numbers. if the code book. you
+use list 7 numbers, you must extend cuts-out to incorporate t the double cuts.
+
+Ex: Code AE. -3231423, should read: 3223114223
+
+DEPTHS
+—1=.300
+
+2=.276
+3=.252
+
+4=.228 |
+
+== Varies | —s—iSYCN
+
+= SPACING
+1. [ase 1 3 40 eS
+
+194 | .240 | .335 548 | 594
+
+705°
+
+: to
+- Cut:
+
+_ SPACES 2,5 & 6 ARE DOUBLE CUTS _
+: —_—_—_—__——} Varies
+
+HPC Curtis Clipper | Pak-A-Punch :
+
+H1id3ad 8 30WVdS
+
+ee cut |
+
+_ DEPTHS
+
+1= .300
+2=.276
+3 = .252
+
+4=,228
+
+XF4, CF4 eevee PAK 357 :
+
+NOTES: FRAMON—Use Spacing Block'VB22===SSStSCS~S : J
+Some code books list 7 numbers, some list 10 numbers. If the ee ae you =
+use list 7 numbers, you must extend cuts out to eB cuts. =
+
+Ex: Code #AH7246, -3231423, should read: 3223114223 fe =
+
+52 - —— wi PORSCHE =
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+Kay Ajoyoe4)
+
+pPeeeeeeaeoeeeeeeoeeseeeeeoeas
+
+cae Giri
+@ «
+
+©@©#e@e@e@eeee «
+
+®9@oeoeee@<
+
+¢
+
+¢
+
+Chip Information & Notes
+
+continued - AV-25 SECTION
+
+Transponder: Standard Equipment
+
+Chip: see below
+
+Reusable: No
+
+> Mike's Tip: Key Programmer & PIN Code Required. Test key is X88.
+
+Cloner Machine Information - TP42 - Early Chip
+
+(DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LD. \( ScoRPIO )( wo)
+on
+Fe | Wise || cNoo0 RW4+ TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+> = =
+= M1 Yes Yes? MH Yes1&2 ® No ® No 1 Yes 1&2 M1 Yes'&2 M1 Yes
+e 44 Chip & 44 Chip & T50 & = : T44& T44 & VDI Chip & |
+rey |_2MA Shell JMA Shell JMA Shell JMA Shell JMA Shell HU66 Shell
+= 4. May require Internet Access to complete cloning. *2 - Requires Megamos update.
+uu] Cloner Machine Information - TP44 - Late Chip :
+(DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE | (  L.D. )( SCORPIO \( wol_ |)
+pps CN900 RW4+ | |TRS-5S000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+® No @® No ® No @ No ® No ~ ® No @ No @® No
+Codes: | Many of the door locks on older models have a code stamped on them. Use the key code to make the key.
+Decoders: | Determinator: VWI Lishi: HU49 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Cut key by Code from door lock handle.
+
+Find the code series that matches your code and then use the corresponding Space & Depth chart.
+
+Code Series: AH, AN, HV, NV, VB
+
+0001-0854 — See Chart 1 (one)
+1001-1918 See Chart 2 (two)
+2001-2830 See Chart 1 (one)
+3001-3890 See Chart 2 (two)
+4001-5151 See Chart 1 (one)
+6001-7086 See Chart 2 (two)
+7101-8154 See Chart 1 (one)
+8201-9282 See Chart 2 (two)
+
+(Reed Codes—03-05-141)
+
+(Reed Codes—03-05-152)
+(Reed Codes—04-04-060)
+(Reed Codes—04-04-066)
+(Reed Codes—04-04-072)
+(Reed Codes—04-04-079)
+(Reed Codes—08-02-013)
+(Reed Codes—08-02-019)
+
+continued on page - - - >
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+AUDI « VW =» PORSCHE - 53
+
+continues AV-25 SECTION
+
+Codes: Many of the door locks on older models have acode stamped on them. Use the key code to make the key.
+
+Decoders: Determinatr: vw Lishi: HU49-_| AccuReader: n/a : EEZ Reader: n/a Cobra: n/a
+
+Method #2 Impression door lock to make key. It may be necessary to widen cuts 2, 4. 5, 6 to making
+working key depending on code series used in Method 1. 3
+
+Method #3 Disassemble trunk/hatch lock to make aia It may be necessary to widen. cuts 2, A. 5,6 ee
+= making working key depending on code series used i in Method 1,
+
+rc 2 == =
+
+AH, AN, HV, NV, VB ~
+0001-0854, 2001-2830, 4001-5151, 7101-8154
+
+olojolo|o}o}o}o}o}ol> Ignition
+3/o} jO|9} |O|9| |9)>Doors& Trunk _
+1{2/2[3/4/4|5|/6|6|7
+
+Positions 2, 4, & 6 are double wide cuts for the ignition lock ’
+
+e cs ==
+AH, AN, HV, NV, VB. =
+1001-1918, 3001-3890, 6001-7086, 8201-9282
+
+O]}o}0}o9/o}0}5]|o}> Ignition
+gjo O|G} |O\|> Doors & Trunk
+213|415|516|617 =
+
+54 - AUDI « VW » PORSCHE i : . (©1994 2021 AutoSmart™ by Michael Hyde
+
+eeoeeeeoeeoeoeoaeeeeeeeeee

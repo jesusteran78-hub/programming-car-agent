@@ -1,0 +1,1128 @@
+©o@e@2@eoe0.6862006e
+
+eo 0 <4
+
+6: 6-6 06. ¢
+
+¢
+
+¢
+
+AUTO LOCK SERVICE, INC,
+
+2021
+
+AutoSmart ™
+by Michael Hyde
+
+MERCEDES
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+MERCEDES - 1
+2021 - AutoSmart Foreign Book =
+
+MERCEDES Table of Contents
+
+MAKE —_|MODEL YEARS TYPE __| SECTION PAGE
+
+|ALLModels1997&Up = (MB \4
+
+Older Models:
+
+C Class 1994-96 _| Key MB-4 12
+
+E Class 1996 Key MB-4 | 12
+: 1980%-96 _| Key ae 8
+
+S Class 1980 _| Key MB-5 14
+
+1973-79 | Key MB-9-- ---= 20
+
+|190E & 190D
+
+without Factory Alarm EE eeS = Ae wT = Le .
+
+MERCEDES | 190E & 190D PHeeE las a
+
+| with Factory Alarm
+
+/240D, 280S, 300CD, 300D, 300TD, Sedan —
+
+1977-85 _| Key MB-6 —— |15
+
+bb. 6.6 6, 6 6.6 6 6 66.6
+
+260E, 300 Series, CE,E,& TD
+
+1986-95 _ || Key MB-3. =. | 10
+
+380, 420, 450, 500, 560, 600SL, 600SLC, Roadster, & Sport Coupe
+
+1980-94 _| Key MB-3- === 110
+
+380, 420, 450, 500, 560, 600SL, SLC, Roadster, Sport Coupe _
+
+1979-83 | Key MB5=- = =(|14
+
+380, 420, 450, 500, 560, 600SL, SLC, Roadster, Sport Coupe _
+
+1973-79 ‘| Key MB-9 20
+
+2 - MERCEDES a ©1994, 2021 AutoSmart™ by Michael Hyde
+
+ee2ee8e8 66008 8
+The Leader in Advanced
+Key Programming Solutions
+www.abritesusa.com
+
+AVDI - Abrites Vehicle Diagnostic Interface
+Key Programming | Security | ECU Programming
+
+Achieve the impossible
+
+For sales and information, please contact Brian
+P. 205.276.3656 | keymasterlsw@yahoo.com
+
+©1994, 2021 AutoSmart™ by Michael Hyde = : MERCEDES - 3
+MB-1 SECTION
+
+ALL Models from 1997 & UP (except 1997-99 S-Class)
+
+iE STYLE | CARD# [ mg | macs | Startcut | cuttocut | AirBags | Ign Retainer
+
+Soe Unknown | _ HighSec __ Varies
+MASTER =
+KEYS > Closed Dealer System - Key comes Pre-Programmed to Vehicle (in most cases) _
+Determinator: nfa = —'| Lishi: HU64_—_—| AccuReader: n/a _| EEZ Reader: ‘nla Cobra: n/a
+
+> Mike's Tip: Transponder System or Proximity System i is standard equipment ‘Test Key is HU64-P
+
+> There are many aftermarket solutions for Mercedes key programming. Some cars can be cage
+through the OBD port and some require Eeprom programming. Abrites, VVDI and Zedfull seem to work well but
+are not cheap and do not fully support every model. My personal recommendation is Abrites for Mercedes.
+
+More Mercedes uses an Infrared Transponder system with Fobik’s. Proximity systems will require the dealer equipment
+Info=> —_| for programming. : :
+
+Some models can be read through the Eeprom for key programming when there is no easier alternative. This
+usually requires a piece of hardware such as AK500, AR32, HRT, Orange5, SMOK or TMPro. The second part to
+this is that you will need software to interpret the data “read” from the Eeprom. Such software tools that can
+be used may or may not be included with the =: hardware or cloners - are AR32, Tango, es HRT,
+MiraClone or TMPro.
+
+4 - MERCEDES == ©1994, 2021 AutoSmart™ by Michael Hyde
+
+poe 60e@8d0 @'O@ @
+
+“'
+
+)
+
+»>@e8
+
+»)
+
+eo0ecec5ce
+©®oe@202@8 @@e@e8e@eee@ ¢
+
+‘a
+
+eee 0208088080
+
+Hid3d 8 A0VdS
+
+Code Series: Unknown
+
+continued -MB-1 SECTION
+
+SPACING : a26 DEPTHS
+1 Z 3 4 5 6 és 5 :) 10 Cut: =_156
+: = : nla 2 = .132
+1.049 | .958 | .867 | .776 | .685 | .594 | 503 | .412 | .321 | .230 = 108
+: 4= .085
+Cam: Carriage: a
+Curtis Clipper: n/a aja Pak-A-Punch: n/a :
+
+NOTES: External 2-Track: Measured from tip. Flat of .026” for the Shoulder cut.
+
+Codes: | No codes on any locks.
+
+Decoders: Determinator: nia
+
+Lishi: HU64
+
+5 AccuReader: n/a
+
+EEZ Reader: n/a Cobra: n/a
+
+NOTE: Some models may use a Keyed ignition and some use a Fobik style ignition.
+Method #1. —_— Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #2. Remove door lock and disassemble, Decode tumblers and make working key.
+
+2? Some models may have all ten tumblers and some may not, many variations occur.
+
+0,0
+
+ololo olojo|oloa
+oOlojojo;o\ololjolg) ?
+Olojo|o|o;olojolg) ?
+
+| |oblo;ol|o}o
+1/2|3|4/5|6|7|8| 9] 10
+
+> Ignition*
+> Doors
+> unk
+
+> Glove Box*
+
+* If Equipped
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+MERCEDES - 5
+‘Chassis Number & Model Numbers - Older Models
+
+— We Cannot Guarantee That Every Application Listed Will Always Be The Correct One. This Situation Is
+Caused Because Of Inconsistencies In The Original Equipment Production Line By Mercedes- benz.
+
+W100 body (a= Diiple. —
+
+_|-600, 600 (long 4-dr), 600 (ong 6- -dr) (are)
+
+W107 body—Conventional, Old 2-Trk, 4-Trk.
+
+W108 body—Conventional, Dimple
+
+38081, 380SLC, 450SL, 450SLC, anh
+
+2808, 280SE, 280SEL, 280SE 4.5, 280SEL 4, 5
+
+W109—Conventional
+
+= +300SEL, 300SEL 6.3, 300SEL 3.5, 300SEL 45
+
+wit body—Conventional
+
+_| 2208E, 250SE, 280SE, 280SE 3.5 (Coupe or Convertible)
+
+W113 body—Conventional
+
+230SL, 250SL, 280SL
+
+W114 body—Conventional
+
+| 230, 250, 250C, 280, 2800
+
+W115 body—Conventional -
+
+220, 230, 220D, 300D, 240D
+
+W123 body (b)—Conventional
+
+== | 230, 2400,  280E, 280CE, 300D, 300€D, 300TD
+
+W124 body—4-Track
+
+a “2606, 300D, 300E 2.6, 300CE, 300TE, 3007D, 400E, 500E
+
+W126 body—4-Track
+
+30080, 300SDL, 300SE, 300SEL, 350SD, 350SDL, 380SE, 380SEL,
+
+__| 880SEC, 420SEL, 500SEC, 560SEC
+
+W129 body—4-Track/1990 & Up
+
+| 300SL, $L320(a), 500SL, SL500, 600SL, SL600
+
+W140 body—4-Track/1990 & Up
+
+| 300SE, $320(a), 400SE, 400SEL, $420, 500SEC, 500SEL, $500, —
+__| 600SEL, $600, 60SEC, 300SD(b), $350 Turbo (c)
+
+W201 body—2-Track
+
+a 190. 1900, 190D 2.5 Turbo (b), 190E
+
+W202 body—New 2-Track/1994 & Up
+
+a 200, €280, C36 AMG
+
+W210 body—New 2-Track/1996 & Up
+
+£300 Diesel, £320
+
+(a) Before the Dimple keyway this chassis used < a conventional keyway. Keyblanks: Silea YMi13,
+
+Borkey 826.
+
+(b) This chassis sani used two different conventional keyways. Keyblanks: Silca: YM23, HU36, llco:
+
+X82, X83, MB39, MB41
+
+(c) This chassis used two type 2-Track keyways. The non-alarm models used Silca HU41P/IIco _
+
+S50HF-P. The alarm models used Silca HU55P/Iico S34YS-P
+
+6 - MERCEDES
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+pees 0000
+
+pe©ee@ @
+
+»>@@
+
+)
+
+i
+©906©2@@eeeeee se
+
+C
+
+@©e0@e@@eoeoeee6e <
+
+¢
+
+¢
+
+Older Models - 4 Track - Additional Info -
+
+MUST HAVE HIGH SECURITY KEY MACHINE, SPACE & DEPTH KEYS OR CODE ATTACHMENT.
+
+There are many variations to mercedes cars, Mercedes made for the north American market are more predictable than cars made for
+other markets. Mercedes made for other markets have been given the name “grey market’ or “European models cars: :
+
+It is necessary to determine which chassis number the car you're going to make a key to is. Once you have determined the chassis _
+number it will be easier to determine which locking system the car should be equipped with. Also, we cannot guarantee that every
+applications listed will always be the correct one. This situation is caused by inconsistencies in the original equipment production line
+
+by Mercedes-Benz.
+
+=
+
+SPECIAL NOTES: 4-Track Information
+The following information was compiled from 1000 sample keys:
+
+1. The 8R position has always been found as a #2 cut.
+
+2. The safety factor for these locks is 3 (MACS)
+
+x
+
+_ 10.1 the key is not marked, except with just a Mercedes emblem, it is a Factory Original key.
+TI. Chassis 126, Grey-Market Only, Clip on Alarm fixture located on door locks.
+
+12. Warning—Chassis 123 Coupe, Grey-Market Only (Rare), Alarm Harness plugs directly into _
+tailpiece.
+
+LEFT () RIGHT
+3, A #1 cut and a #5 cut will not be found next to each other unless they are next to the right -
+shoulder (positions 1 and 2 Right). wis|@
+4, A set of more than 5 numbers in a row will not be found. =; .*
+: : == @;6i8
+5, If there is a number 5 depth, split tumbler in the door lock, there will not be a number 1 depth
+between that split tumbler and the tip of the key on that particular track, whether right or left. wm, °o|®
+a : m\ 4/9
+6, Any key decoded against the corresponding auto will find that one of the cuts closest to the
+shoulder (positions 1 Left or 1 Right) is not used in any of the locks on the car. @| 3/8
+2 5 ao : =| 2/|8
+7. lf the key is marked with a Dink or Dent, it is a service key.
+E = | 1 _|
+8, If the key is marked with a capital “U’ it is a Factory Duplicate Key,
+9, If the key is marked with a red dot, itis an Alarm Key. The red dot is only for reference, not any
+other reason.
+COMPLETE
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+MERCEDES - 7
+MB-2 SECTION —
+
+1980% - 1996 S Class
+
+| stve | carpe | me | macs | startcut | cuttocut | Air Bags | ign Retainer
+
+Varies High Sec n/a : Active
+MASTER = = :
+NATIONAL: KEYLINE: ice JET: IMA: ——|_ STRATTEC: DEALER:
+KEYS > HU39P BHU39-P | S48HF-P | S48HF-PH ME-2P n/a n/a
+Determinator: n/a Lishi: HU39 AccuReader: n/a EEZ Reader: nla | Cobra: n/a
+More>> | > Mike's Tip: Mercedes High Security Key Codes are not published.
+
+| NO TRANSPONDER
+
+Hidad 8 30VdS
+
+Code Series: Varies
+
+Bow SPACING DEPTHS
+
+189 | .289 | .389 | .489 | .607 | .700 | .793 | .886 : 1= .301
+: = ——] EXTERNAL | 2 = .276
+
+els eh 4 5 ae | 4-TRACK | 3=.254 -
+
+= 2 SS 4= .228 = a5
+
+2 = e
+
+1s9_ | .289 | 389 | .489 | 607 | .700 | .793 | 886 5=.205 S
+
+Note: Spacing is measured from the shoulder. = = = 2
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: HU39 | AccuReader: n/a FEZ Reader: n/a Cobra: n/a
+
+NOTE: Some Models the lock cylinder is integrated the door handle and newer models the Lock Cylinder sits up against the
+door handle. In either case the removal procedure without a we is the same. =
+
+Method: 1 - Use Lishi to try and determine door cuts without removing the door lock. Cg from there, outlined on next
+page.
+
+Method: 2 - It will be necessary to remove the door panel. We suggest removing the passenger side as this lock is the less worn
+of the two, Mercedes door panels have few screws attaching the panel to the door. The screws it does have are usually hidden.
+The panels have plastic hooks in them that lock into the door’s sheet metal to hold the panel in place. The panel must be lifted up
+to remove, and do not lift outward, like standard panels. There is usually a hidden ten-millimeter bolt behind the top portion of the
+arm rest/door pull. The bolt can be seen after gently snapping out the seat control face plate and then getting behind the inside
+door release handle face plate. Unplug the panel light, to avoid breaking the wires attached to it.
+
+Once you have the panel off, there will be 3 or 4 screws holding the latch assembly in place. These screws will use anumber 3
+Phillips head. Remove these screws. Remove the retaining screw on the edge of the door that holds the key cylinder in place,
+
+it may be behind a black plastic plug. Remove the larger black plastic plug that contains the alarm connector and unsnap the
+connector. The long tailpiece on the end of the key cylinder will have a “wing tip’ to it. The wing tip operates inside the latch
+assembly, and can only be removed by rotating the key in the lock cylinder and gently pulling outward, Since you do not have a
+key it will be necessary to gently pull out the key cylinder as far as it will go and then gently rotate the latch aay It may work
+better to have the latch in the locked position or in be = { position.
+
+8 - MERCEDES = = ©1994, 2021 AutoSmart™ by Michael Hyde
+
+ee OCC CCC CHE
+
+peeeeeoeo ee &
+©#e02@@e@e0080ee0e@ é
+
+@9eoeoeoeoeoe86806 6 ¢<
+
+continued - MB-2 SECTION
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator:n/a | Lishi: HU39_ ~—_| AccuReader: na EEZ Reader: n/a Cobra: n/a
+
+Once again, you are trying to rotate the latch assembly in one direction while rotating the key cylinder in the other direction
+while gently pulling outward on the key cylinder. Be careful of the alarm connector wire. The part in the latch assembly that the
+key cylinder operates in is made of plastic, so you should keep this in mind at all times.
+
+Once you have the key cylinder out you will need to disassemble it until you can go no further. Be sure to mark all the pieces
+you take apart. You should be left with a plug and an inner housing. Prep a key with all number 5 cuts, You should be able
+
+to look down the tumbler chambers. insert the prepped key and use four small pieces of metal to reach down in the tumbler
+chambers to bring the tumblers to the shear line in order to turn the plug for removal. Be patient as it may take some time to get
+all tumblers to the shear line so the plug will turn. After you have removed the plug you can then decode the wafers to make a
+working key to the doors. The tumblers will be stamped with a depth number.
+
+THERE ARE MANY VARIATIONS TO MERCEDES TUMBLERS DEPTH STAMPING:
+Some Right full tumblers are stamped 11, 12, 13, 14, 15. Some are not.
+Some Left full tumblers are stamped 21, 22, 23, 24, 25. Some are not.
+Usually all tumblers are stamped with at least a depth number. If there are two numbers stamped onthe ae
+the depth | is always the number to the right — =
+
+Once you have made a working key to the doors, then progression cut position number 5R in the glove box. The ie box is all
+plastic, so do not force the key. Either it works ee or it doesn't.
+
+Once you have made a working key to the doors and glove box, then progression cut position 7R in the trunk.
+
+Once you have made a working key to the doors, glove box and trunk, then progression cut position number 6R in the ignition.
+_ Once you have a working key to the ignition, it will be the master key.
+
+Left Track | « _|> Glove Box
+ry ola | _|> Trunk
+O0/0/0/0/0}| 0} )> Doors
+OBO |o _|> Ignition
+Tatalalslel7isl|
+oOlololo|o/lo| _|> Ignition
+Oo\/8/0 > Doors
+: Oooo | {> Trunk
+Right Track |. |oO|o|o\|o > Glove Box —
+
+*Jumbler positions #1 Left & #1 Right will contain a tumbler in one or the other, but not both. That tumbler position
+will be constant in all the locks. Once you have determined from the door lock whether it is a right or left, it will
+be the same in the ignition, glove, and trunk. Except factory replacement locks. Factory replacement locks are
+usually coded to match original tumbler positioning, but this is not always the case. :
+
+©1994, 2021 AutoSmart™ by Michael Hyde : z : == MERCEDES -9
+MB-3 SECTION : ee See
+
+a NO TRANSPONDER
+
+H1ld3d 8 30VdS
+
+== 1986-95 260E, 300 Series, CE, E, TD ; :
+
+1980-94 380, 420, 450, 500, 560, 600SL, 600SLC, Roadster, & x Sport Coupe —
+
+| stve | caros | me | macs | startcut | cuttocut | AirBags ] ign Retainer
+Varies HighSec | n/a = Active
+MASTER : === 2 : =
+NATIONAL; KEYLINE: 00 ==] = JET JMA: ~ STRATTEC: DEALER:
+KEYS > HU39P BHU39-P | S48HF-P | S48HF-PH | ME-2P n/a n/a
+Determinator: n/a Lishi: HU39 |AccuReader: n/a EEZReader: n/a _—_—i| Cobra: n/a
+= > Mike's Tip: Mercedes High Security Key Codes a are not published. :
+More >
+> Due to variations in production line models =same keyways will vary by year and model, and may overlap. =
+
+Code Series: Varies
+
+‘Bow SPACING tite
+
+=— c= DEPTHS
+189 | 289 | 389 | .489 | 607 | .700 | .793 | .886- 1=.301
+
+= : EXTERNAL | 2 = -276
+1 Ba 3. = 4 5 =F 26 2-8 — == TBACK 3 = .254
+= == —= 4= .228
+
+189 | .289 | .389 | .489 | 607 | .700 | .793 | .886 | 5=-205
+
+Note: Spacing is measured from the shoulder.
+
+Codes: | No codes on any locks.
+
+Decoders: Determinator: n/a Lishi; HU39 _| AccuReader: n/a : EEZ Reader: n/a Cobra: n/a
+
+NOTE: Some earlier models have a straight end tailpiece and will remove without door panel teardown. Remove the
+screw on the edge ofthe door that holds the door handle/lock cylinder i in place. Push the handle assemble toward the front
+of the car and then remove it. = = =
+
+Method: 1 - Use Lishi to try and determine door cuts without removing the door lock. Progression from there, outlined on next
+page. : ==
+
+Method: 2 - Some models the lock cylinder is integrated into the door bande and newer models the Lock oe sits ue
+against the door handle. In either case the removal procedure without a key is the same.
+
+It will be necessary to remove the door cae We suggest removing the passenger side as this lock is the less worn of the
+two. Mercedes door panels have few screws attaching the panel to the door. The screws it does have are usually hidden.
+The panels have plastic hooks in them that lock into the door’s sheet metal to hold the panel in place. The panel must be
+lifted up to remove, and do not lift outward, like standard panels. There is usually a hidden ten millimeter bolt behind the
+top portion of the arm rest/door pull. The bolt can be seen after gently snapping out the seat control face plate and then
+getting behind the inside door release handle face plate. Unplug the panel light, to avoid breaking the wires attached to it.
+Once you have the panel off, there will be 3 or 4 screws holding the latch assembly in place. These screws will use a
+number 3 Phillips head. Remove these screws. Remove the retaining screw on the edge of the door that holds the key — _
+cylinder in place, it may be behind_a black plastic plug. Remove the larger black plastic plug that contains the alarm :
+connector and unsnap the connector. The long tailpiece on the end of the key cylinder will have a “wing tip” to it. The wing
+tip operates inside the latch assembly, and can only be removed by rotating the key in the lock cylinder and gently pulling
+outward. continued on next page...
+
+10 - MERCEDES ee === : ©1994, 2021 AutoSmart™ by Michael Hyde
+
+,D:@@,008080 06
+
+p99 6@2@6@86 86 @ ©
+
+» ©: 6 @
+
+> ®
+
+@©®9@e@eed¢@?@oe0de0eed60260@26082@e@ee30@e@e @
+
+continued - MB-3 SECTION
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: HU39 : | AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Since you do not have a key it will be necessary to gently pull out the key cylinder as far as it will go and then gently rotate
+the latch assembly. It may work better to have the latch in the locked position or in the unlocked position.
+
+Once again, you are trying to rotate the latch assembly in one direction while rotating the key cylinder in the other direction
+while gently pulling outward on the key cylinder. Be careful of the alarm connector wire. The part in the latch assembly that
+the key cylinder operates in is made of plastic, so you should keep this in mind at all times.
+
+Once you have the key cylinder out you will need to disassemble it. After you have removed the plug you can then decode
+the wafers to make a working key to the doors. The tumblers will be stamped with a depth number.
+
+~ THERE ARE MANY VARIATIONS TO MERCEDES TUMBLERS DEPTH STAMPING:
+
+Some Right full tumblers are stamped 11, 12, 13, 14, 15. Some are not.
+
+Some Left full tumblers are stamped 21, 22, 23, 24, 25. Some are not.
+
+Usually all tumblers are stamped with at least a depth number. If there are two numbers stamped on the tumbler,
+the depth is always the number to the right
+
+On a 4-Track, non-factory alarm model, the key you make to the door lock should also work the trunk and glove box. There will
+
+be three missing cuts needed to make an ignition key. Those positions are 2L, 3L, and 6R. You will need to impression them
+
+in the ignition or progression the cuts. If you impression the missing cuts, remember to not force the key as there are tumblers
+used in the locks that are made to break under pressure as an anti-theft deterrent. Use a good lighted magnifying glass, it will
+
+help a lot.
+
+No Factory Alarm
+~ -Left Track | « > Glove Box
+‘ O Oo > Trunk —
+o/0 O > Doors
+Bee > Ignition
+2210)4 510/716
+Bee Oo oO;o > Ignition
+O/oO/oO10 O > Doors
+s O/O/O}\O O > Trunk
+= Right Track | sii oye > Glove Box
+
+“Tumbler positions #1 Left & #1 Right will contain a tumbler in one or the other, but not both. That tumbler position will be
+— constant in all the locks. Once you have determined from the door lock whether it is a right or left, it will be the same in the
+~ ignition, glove, and trunk. Except factory replacement locks. Factory replacement locks are usually coded to match original
+tumbler positioning, but this is not always the case.
+
+©1994, 2021 AutoSmart™ by Michael Hyde MERCEDES - 11
+MB-4 SECTION
+
+1994-96 C Class
+
+li "STYLE
+
+"1996 E Class
+
+1-6400 High Sec nia Active
+MASTER
+NATIONAL: KEYLINE: -ILCO: JET: JMA: STRATTEC: DEALER:
+KEYS | HU64P | BHU64-P | SSOHF-P n/a n/a n/a na
+Determinator: n/a Lishi: HU64 / AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Code Series: 1-6400
+
+A) SPACING cute | DEPTHS
+a 1 2 3 4 5 6 7 8 | 3 O74 1 i- e
+ee
+pies 1.049 | .958 | .867 | .776 | .685 | 594 | .503 | .412 | .321 | .230 3= 108
+4= .085
+res) :
+m C eG : 5 = .061
+oO =r _ | Gam: arriage: = =} - :
+Curtis Clipper: == nla Pak-A-Punch: | n/a
+
+NOTES: External 2-Track: Measured from tip. Flat of .026" for the Shoulder cut.
+
+Codes: | No codes on any locks. s
+Decoders: | Determinator: n/a Lishi: HU64 ‘AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTE:
+
+Mercedes has gone to a push-in type of door panel clip on this model and has done away with the hook-in/lift-up type door
+
+panels,
+
+Method #1.
+
+Method 2:
+
+type tailpiece, but the tailpiece does not lock into eat
+
+The housing to the lock does not expose the tumbler chambers, as in other High Security models, The aaa does need te-rotate to
+
+Use a Lock Decoder/Reader tool to decode the door lock.
+
+be removed. There are three possible ways to do this. We recommend choice :
+
+A. Drill a 1/8" hole into the slope of the tumbler chamber on each a of the housing, on the tailpiece end of the housing. You must
+be careful not to drill too far and hit the plug. Prep a key will all number 5 cuts. Insert the prepped key and use two small pieces
+of metal to reach down in the tumbler chambers to bring the tumblers to the shear line in order to turn the plug for removal. Be
+patient as this may take some time to get all tumblers to the shear line so the plug will turn. After you have removed the plug you
+can then decode the wafers to make a working key to the doors. The tumblers will be stamped with a depth number.
+
+It will not be necessary to remove the door panel. Open door and separate rubber weather-stripping on rear
+edge of door. You will see a little across hole. Insert 4mm Allen wrench and unscrew bolt. Next, pull out on door cylinder, keeping
+in mind that it sits in place with a tight fit. It may take a couple of minutes to gently work it out. Mercedes has changed the way the
+locks sit inside the latch assembly and now the key does not have to be turned to release the door cylinder. There is still a wing-
+
+12 - MERCEDES
+
+: ©1994, 2021 AutoSmart™ by Michael Hyde
+
+‘ee ee
+
+»>e©e0e00600680
+
+>
+
+6 e'@
+9e@0od0e0e0d008e8e008ece@0208eeeeee
+
+Codes: | No codes on any locks.
+
+- continued - MB-4 SECTION
+
+Decoders: | Determinator:n/a__
+
+Lishi: HU64
+
+__AccuReader: n/a
+
+EEZ Reader: n/a
+
+‘Cobra: n/a
+
+All the tumblers needed to make a complete key can be found in the door cylinder.
+
+B, Use a Dremel to cut a groove down the tumbler chamber on each side of the housing. You must be careful not to cut too far and
+hit the plug. Prep a key with all number 5 cuts. Insert the prepped key and use two small pieces of metal to hold down the tumblers
+to bring the tumblers to the shear line in order to turn the plug for removal. Be patient as this may take some time to get all tumblers
+tothe shear line so the plug will turn. After you have removed the plug you can then decode the wafers to make a complete key to
+
+the car. The tumblers will be stamped with a depth number. —
+
+S Replace the door cylinder with a new from the dealer, part number #202-760-12-77. The part costs about $31, Now you can cut the
+face off, of the original lock. Remove plug and decode the wafers to make complete key. Use the tumblers from the original lock to
+
+recode the new part before you install it. The tumblers will be stamped with a depth number.
+
+All the tumblers needed to make a complete key can be found in the door cylinder.
+
+_ 2-TRACK/ 10 CUTS / CHASSIS 202 & 210
+
+O/O/0/0]/0]O] O |> ignition
+O/O/}O/O/0/0 O|> Doors
+O/0/0;}0}0/O} O [> Trunk
+O}O}0/0} G j> Glove Box
+}4/5|6/71|8]|9 110
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+MERCEDES - 13
+MB-5 SECTION : foes
+
+1979-83 380, 420, 450, 500, 560,600SL
+_ SLC, Roadster, Sport Coupe
+
+1980 S Class
+
+| stve | carp# | ms | macs | Start Cut | Cuttocut | AirBags | Ign Retainer
+MASTER Varies HighSec | n/a ee No | Active
+KEYS > NATIONAL: —_ KEYLINE: ie IER IMA: STRATTEC: | DEALER:
+— HU4iP BS50HF-P S50HF-P_ | SSOHF-PH | ME-4P _ n/a —nla
+
+> Mike's Tip: Mercedes High Security Key Codes for production line models are not published.
+
+More >
+
+> Due to variations in production line models - some keyways will vary by year and model, and may overlap.
+
+a NO TRANSPONDER
+
+Code Series: Varies
+
+n :
+a) SPACING Libis cutto | DEPTHS |
+rs 1 2 3 4 5 6 7 | s | 7 | Gy --t=.156
+7 , Wa 4 2s 182
+90 1.049 | .958 | .867 | .776 | .685 | 594 | .503 | .412 | .321 | .230 3 = .108
+o = = SS -4= .085
+= GC Carriage aoe
+me) =a, : am: iage: ; A Bank:
+2 Curtis Clipper: nig nla Pak-A Punch: | n/a
+
+NOTES: External 2-Track: Measured from tip. Flat of 626% forthe Shoulder cut. —__
+
+Codes: | No codes on any locks.
+
+Decoders: Determinator:n/a —_| Lishi: n/a ‘AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Method: =
+It will usually not be necessary to remove the door Sanat Remove the two screws on the edge of the door
+that holds the door handle/lock cylinder in place.
+
+Push the handle assemble towards the front of the car and then remove it. Do not hit the handle forward,
+instead leave one of the serews loose in the handle and then gently knock the screw forward that way.
+
+Disassemble the lock. On some models the door cylinder will contain all ten tumblers and on others there _
+will be two tumblers missing, in positions 1 & 2. Progression the missing. cuts. You should now have a work
+ing master key. =
+
+0}0)0}0}0}0}0} 0 }> Ignition
+0/O}0)0/0}0)0/ 0 |> Doors
+O/0/0) 8/8) 68}0] O /> Trunk
+O}O}|0|G} O |> Glove Box
+3/4/5/6|7/8|9]10|
+
+* In most cases the door cylinder will be missing tumblers in positions 1 & 2. If factory replaced door cylinder, some
+tumbler chambers may be left empty, for no other reason than the factory running short on a particular size tumblers.
+
+14 - MERCEDES = —— ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peoee
+
+eceoeeeononeenneeeeee
+@®e eo ¢«
+
+@9@e@qeoeoeoee@3086208 6000 ¢
+
+¢
+
+¢
+
+a NO TRANSPONDER
+
+Hidsad 8 3A0VdS
+
+MB-6 SECTION
+
+1977-85 240D, 280S, 300CD, 300D, 300TD, Sedan
+
+| STYLE
+
+| carne | mse | macs | startcut | cuttocut | AirBags | ign Retainer
+
+HY 6001-8130 | DbiSided Active
+MASTER :
+NATIONAL: KEYLINE: ) == STRATTEC: DEALER:
+KEYS > MB39 Wa = X83. n/a ME-HY.P n/a n/a
+| ste | carp# | ime | macs | Startcut | cuttocut | AirBags | ign Retainer
+- i HU 6001-8130 | DbiSided | XF33 2 107 Active
+NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: DEALER:
+MB41 n/a X82 MB41 ME-HU.P n/a n/a
+> Mike's Tip: Different door & trunk keys possible depending on model production variations.
+More >
+
+> Due to variations in production line models - some keyways will vary by year and model, and may overlap.
+
+Code Series: HY & HU 6001-8130
+Bow SPACING Tip DEPTHS
+1 2 3 4 5 6 7 6 6 fe
+= Cut: 1= .327
+083 2=.393
+107 | 189 | .272 | .354 | 437 | 520 | .602 | 685 | .768 | 850 3=.280
+4=.256
+Curtis Clipper: | C2 Carriage: | Pak-A-Punch: | n/a
+Codes: | No codes on any locks.
+Decoders: Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTE: Glove box locks that are chrome and sit on the glove box door in the top left corner will usually have all the
+tumblers necessary to make a working master key.
+Glove box locks that are positioned in the middie of the glove box door (rectangular shaped), will usually
+have five of the ten tumblers necessary to make a working master key.
+Method #1 Check owner's manual for code, written in by the dealer.
+Method #2 Remove the screw on the edge of the door that holds the door handle/lock cylinder in place. Push the handle
+
+assemble towards the front of the car and then remove it.
+
+There should be code stamped on the door handle, if there is no code then disassemble the lock and decode
+the available wafers and make a working key. Some door cylinders are missing tumblers in positions 1 & 2, If
+there are missing cuts, then progression or impression the missing cuts in the trunk or ignition. There are
+special tumblers in the trunk, to block out the valet, make sure you're using the correct blank to the car you _
+are working on. Otherwise you will have a key that works the doors and ignition but for some reason it
+doesn't work the trunk.
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+MERCEDES - 15
+MB-7 SECTION = i ee
+
+~ 1984-92 190E, 190D - without Factory Alarm
+
+CODES | stve | carp# | me | macs | Startcut | Cuttocut | AirBags | Ign Retainer
+
+MASTER Varies High Sec nla Active
+KEYS > NATIONAL: KEYLINE: lca: = JET: JMA: STRATTEC: | DEALER:
+HU4IP BS50HF-P S5OHF-P | S5OHF-PH ME-4P n/a n/a
+
+> Mike's Tip: Mercedes High Security Key Codes for production line models are not published.
+
+More >
+
+> Non-Alarm models have only 10 cuts possible on the key. No alarm connector on door lock. :
+
+| NO TRANSPONDER
+
+Code Series: Varies
+
+i¢2] ==
+a) SPACING i” ean DEPTHS
+5 1 2 3 4 5 6 7 8 9 10 | “ott | 4 =.156
+m a nia | 22-132
+go 1.049 | .958 | .867 | .776 | .685 | 594 | .503 | .412 | 321 | .230 : 3=.108
+: 4= .085
+o
+os : = S222 5 = 061
+U oe. = am: arriage: A: : :
+= Curtis Clipper: as fia Pak-A-Punch: | n/a
+NOTES: External 2-Track: Measured from tip. Flat of 026" for the Shoulder cut.
+Codes: | No codes on any locks. =e
+Decoders: | Determinator: n/a Lishi: n/a = AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Method:
+
+It will be necessary to remove the door panel. We suggest removing the passenger side as this lock is the less worn of the two.
+Mercedes door panels have few screws attaching the panel to the door. The screws it does have are usually hidden. The panels
+have plastic hooks in them that lock into the door's sheet metal to hold the panel in place. The Pa must be lifted up to poe
+and do not lift outward, like standard panels.
+
+There is usually a hidden 10-millimeter bolt behind the top portion of the arm rest/door pull. The bolt can be seen after gently
+snapping out the seat control faceplate and then getting behind the inside door release handle faceplate. :
+
+Once you have the panel off, there will be 3 or 4 screws holding the latch assembly in place. These: screws will use. a number 3
+Phillips head, Remove these screws, Remove the retaining screw on the edge of the door that holds the key cylinder in place, it may
+be behind a black plastic plug. Remove the larger black plastic plug that contains the alarm connector and unsnap the connector.
+The long tailpiece on the end of the key cylinder will have a “wing tip’ to it. The wing top operates inside the latch assembly, and
+can only be removed by rotating the key in the lock cylinder and gently pulling outward. Since you do not have a key, it will be
+necessary to gently pull out the key cylinder as far as it will go, and then gently rotate the latch assembly. It may work better to
+have the latch in the locked position or in the unlocked position.
+
+Once again, you are trying to rotate the latch assembly in == direction while rotating the key cylinder in the other direction while
+gently pulling outward on the key cylinder. Be careful of the alarm connector wire. The part in the latch assembly that the key
+cylinder operates in is made of plastic, so you should keep this in mind at all times. continued on next page...
+
+16 - MERCEDES =e ©1994, 2021 AutoSmart™ by Michael Hyde
+
+Pee eoeOSeeOHO OOOO OOOO EE EES
+©oe@e2eoeo208 00 0 8 @ é
+
+@9eeoeoqoeeee#<
+
+continued - MB-7 SECTION
+
+Codes: | No codes on-any locks.
+
+Decoders: | Determinator:n/a _| Lishi: n/a | AccuReader: n/a FEZ Reader: n/a Cobra: n/a
+
+Once you have the key she out you will need to disassemble it until you can go no further. Be sure to mark all pieces you take -
+apart. You should be left with a plug and housing.
+
+The housing to the lock does not expose the tumbler chambers, as in other High Security models. The plug does need to rotate to
+be removed. There are three possible ways to do this. We recommend choice ‘3.
+
+1. Drill a 1/8” hole into the slope of the tumbler chamber on each side of the housing, on the tailpiece end of the housing. You must
+be careful not to drill too far and hit the plug. Prep a key with all number 5 cuts. Insert the prepped key and use two small pieces
+of metal to reach down in the tumbler chambers to bring the tumblers to the shear line in order to turn the plug for removal. Be
+patient as this may take some time to get all tumblers to the shear line so the plug will turn. After you have removed the plug you
+can then decode the wafers to make a working key to the doors. The tumblers will be stamped with a depth number.
+
+All the tumblers needed to make a complete key can be found in the door cylinder.
+
+2, Use a Dremel to cut a groove down the tumbler chamber on each side of the housing. You must be careful not to cut too far and
+hit the plug. Prep a key with all number 5 cuts. insert the prepped key and use two small pieces of metal to hold down the
+tumblers to bring the tumblers to the shear line in order to turn the plug for removal. Be patient as this may take some time to get
+all tumblers to the shear line so the plug will turn. After you have removed the plug you can then decode the wafers to make a
+complete key to the car. The tumblers will be stamped with a depth number.
+
+Allthe tumblers needed to make a complete key can be found in the door cylinder. _
+
+3, Replace the door cylinder with ASP part # D-21-103 or D-21-104. The part costs about $40. Now you can cut the face off of the
+original lock. Remove the plug and decode the wafers to make complete key. Use the tumblers from the original lock to recode
+the new part before you install it. The tumblers will be stamped with a depth number.
+
+All the tumblers needed to make a complete key can be found in the door cylinder.
+
+2-TRACK / NON ALARM / 10 CUTS / CHASSIS 201
+
+0)0|0;0;0; 0}! O |> ignition
+|0)0};0|/0;0/0)|0} O |> Doors
+O)0/0}0)0}0) 0) G |> Trunk
+Oo O/O/O|O |> Glove Box
+3/4|/5|6|7|8| 9} 10
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+MERCEDES - 17
+MB-8 SECTION
+
+| sme |
+
+carD# |
+
+ITL#
+
+1984-92 190E, 190D - with Factory Alarm
+
+MACS | Start Cut | Cut to Cut | Air Bags | ign Retainer
+
+MASTER 10001-30057 |_ High Sec n/a = ~ Active
+KEYS => NATIONAL: KEYLINE: iLCO: JET: IMA: STRATTEC: DEALER:
+j HU55P BS34YS-P S34YS-P S34YS-PH ME- 10P n/a na
+
+> Mike's Tip: Mercedes High Security Key Codes for production line models are not published.
+
+More >
+
+> Alarm models have 13 cuts possible on the Key: There is a White alarm connector onthe dog lock
+
+| NO TRANSPONDER
+
+Code Series: 10001-30057
+
+_| DEPTHS
+
+on Bow : SPACING
+
+meio +s la) se 7 fe fio a | 1 4s | 1-156
+= = ; = = -2= .132
+2H 1322 | 1231 | 1140 | 1.049 | 958 | 864 | 76 | 685 | 694) 503 | 412 | 321 | .230| 3-109
+go —| 4=.085
+o = SS 5 = 061
+ful Curtis Clipper: | ©? = Pak-A-Punch: | n/a
+
+me) n/a n/a :
+
+=i
+
+=
+
+the Shoulder cut.
+
+NOTES: 190 W/ ALARM MODELS ONLY: Measured from ae Flat of 026" for
+
+d-SAvesa
+
+Codes: | No codes on any locks.
+Decoders: | Determinator: n/a Lishi: n/a ‘AccuReader: n/a FEZ Reader: n/a Cobra: n/a
+Method: tae
+
+It will be necessary to remove the door panel. We trae removing the passenger side as this lock is the less -
+
+worn of the two. Mercedes door panels have few screws attaching the panel to the door. The screws it does have are
+usually hidden. The panels have plastic hooks in them that lock into the door's sheet metal to hold the panel in place.
+The panel must be lifted up to remove, and do not lift outward, like standard panels. :
+
+There is usually a hidden ten millimeter bolt behind the top portion of the arm rest/door pull. The bolt can be seen ater gently
+snapping out the seat control face plate and then getting behind the inside door release handle face plate.
+
+Once you have the panel off, there will be 3 or 4 screws holding the latch assembly in place. These screws will use a
+
+number 3 Phillips head. Remove these screws. Remove the retaining screw on the edge of the door that holds the key
+
+cylinder in place, it may be behind a black plastic plug. Remove the larger black plastic plug that contains the alarm
+
+connector and unsnap the connector. The long tailpiece on the end of the key cylinder will have a “wing tip” to it. The wing top
+operates inside the latch assembly, and can only be removed by rotating the key in the lock cylinder and gently pulling outward.
+Since you do not have a key, it will be necessary to gently pull out the key cylinder as far as it will go, and then gently rotate the
+latch assembly, It may work better to have the latch in the locked position or in the unlocked eee
+
+continued on next page...
+
+18 - MERCEDES
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+eeoeenonvuane eae eoeenene ©
+
+pe©ee ee 8
+oe@ee2e@eedegeed@ @ ¢
+
+@#eeo eo ogdo0d«
+
+continued - MB-8 SECTION
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: n/a
+
+| AccuReader: n/a
+
+EEZ Reader: n/a
+
+| Cobra: n/a
+
+Once again, you are trying to rotate the latch assembly in one direction while rotating the key cylinder in the other direction while
+gently pulling outward on the key cylinder. Be careful of the alarm connector wire. The part in the latch assembly that the key
+cylinder operates i in is made of plastic, so you should keep this in mind at all times.
+
+Once you have the key cylinder out you will need to disassemble it unti you can go no further. Be sure to mark all pieces you take
+apart. You should be left with a plug and an inner housing. Prep a key with all number 5 cuts. You should be able to look down the
+tumbler chambers. Insert the prepped key and use two small pieces of metal to reach down in the tumbler chambers to bring the
+tumblers to the shear line in order to turn the plug for removal. Be patient as this may take some time to get all tumblers to the
+shear line so the plug will turn. After you have removed the plug you can then decode the wafers to make a working key to the
+
+doors. The tumblers will be stamped with a depth number.
+
+There should only be one missing tumbler, as the door lock contained tumblers 2 through 13.
+
+Progression tumbler number one in the trunk to make a complete key.
+
+2-TRACK / FACTORY ALARM / 13 CUTS / CHASSIS 201
+
+olololololola > Ignition
+o,oO olo oO olololo!? Poors -
+olojojol\ojolo > Trunk
+oO};O;O,0 c | > Glove Box
+|4}5|6}7/8|9|10| 1] 12/13
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+MERCEDES - 19
+MB-9 SECTION |
+
+1973-79 380, 420, 450, 500, 560, 600SL_
+
+SLC, Roadster, Sport Coupe — 1973-79 S-Class
+
+CODES | stwe | carps | ms | macs | sStartcut | cuttocut | AirBags | ignRetainer
+
+HD 4001-7350 | Dbl Sided Active
+MASTER : : :
+NATIONAL: KEYLINE: -__STRATTEC: DEALER:
+KEYS > MBi8 n/a n/a n/a
+CODES | stve | carpe | ima | macs | startcut | cuttocut | AirBags | ign Retainer
+
+2different | 4z1-1200 | DbiSided | XF30 Active
+types ——— ———
+NATIONAL: KEYLINE: ILCO: JET: JMA: —_|-_ STRATTEC: DEALER:
+MB15 n/a M79T_ | n/a ME-HZ.P- -=— n/a ~ n/a
+More > Mike's Tip: Different door & trunk keys possible depending on model production variations.
+Info >
+
+> Due to variations in production line models - some keyways will vary by year and model, and-may overlap,
+
+| NO TRANSPONDER
+
+Code Series: HD 4001-7350, HZ 1- 1200
+
+n
+
+A SPACING =
+
+ro) Cut to
+
+mm 2 3 4 5 6 7 = 18 10 eae ! —
+
+fag 105 | 195 | .285 | .375 | 465 | 555 | 645 | 735 | .825| .915 | °° | 3 oon, |
+
+o . é =
+
+m 2 4=.224
+
+a Cam: Carriage: 4 ee
+
+ll Curtis Clipper: =e =e Pak-A-Punch: | n/a
+Codes: | No codes on any locks. =
+Decoders: | Determinator: n/a Lishi: n/a AccuReader: nla EEZ Reader: n/a Cobra: n/a
+NOTE: : Glove box locks that are chrome and sit on the glove box door in the top left corner wil pees have all the
+
+tumblers necessary to make a working master key.
+
+Glove box locks that are positioned in the middle of the glove box door (rectangular shaped), will usually
+have five of the ten tumblers necessary to make a working master key. :
+
+Method #1 Check owner's manual for code, written in ge dealer.
+Method #2 Remove the screw on the edge of the door that holds the door handle/lock cylinder i in place. Push the handle
+assemble towards the front of the car and then remove it 22:
+
+There should be code stamped on the door handle, if there is no code then disassemble the lock and decode
+the available wafers and make a working key. Some door cylinders are missing tumblers in positions 1 & 2. If
+there are missing cuts, then progression or impression the missing cuts in the trunk or ignition. There are
+special tumblers in the trunk, to block out the valet, make sure you're using the correct blank to the car you
+are working on. Otherwise you will have a key that works the doors and ignition but for some reason it
+doesn't work the trunk,
+
+20 - MERCEDES = ©1994, 2021 AutoSmart™ by Michael Hyde
+
+>
+
+peaeeeeveaneeeeee ee
+
+)
+
+8 @'@.¢,

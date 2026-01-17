@@ -1,0 +1,5882 @@
+®©e@ 0@e0@0e6 <¢
+
+©®eoee@o
+
+¢
+
+¢
+
+¢
+
+@#eeeeoee
+
+AUTO LOCK SERVICE, INC?
+
+2021
+- AutoSmart™
+by Michael Hyde
+
+HYUNDAI = KIA
+
+DISCLAIMER:
+
+A wide variety of key programmers have been added to this book. Most key programmer companies are
+
+not based in the U.S. Some of their application charts have many mistakes. In some cases, you will need
+to check with your key programmer supplier to see if the vehicle you are working on is supported by their
+tool. There is always a risk in damaging the vehicle electronics when you connect to the vehicle through
+the OBD port if you are not using an OEM diagnostic tool. You as the locksmith take on this risk every
+
+| time you perform work on a vehicle.
+
+if you have any doubt about what part to use, make sure you check with the dealer and have them run
+
+the VIN to get you the right part number. Remember, ultimately it is your responsibility to obtain the
+correct part. Part numbers and FCC information has been researched and verified as best as possible. |
+But no system is perfect or without errors. Car manufacturers’ part numbers and applications guides
+contain mistakes of their own. Therefore, we cannot guarantee or warranty that the part we show fora |
+particular vehicle is the absolute right one.
+
+©1994, 2021 AutoSmart™ by Michael Hyde HYUNDAI=XIA - 1
+Important info about Hyundai - «KIA: :
+
+2021
+‘HYUNDAI & KIA Table of Contents
+
+AutoSmart Asian Book
+
+1) To make sure you get the right part - always have the VIN run through the dealer for the correct parts application.
+
+2) Hyundai & Kia use several code series that are similar or the same as others. The confusion comes.into play when you have a code series
+that has both an 8-cut version and @10-cut version. This is made more confusing because they can use the same blank too. Depending on the —
+code software and key cutting equipment you have - not all variations may be listed in your code software. | have researched many possibilities
+and have updated the Application: Guide to take into account these variations. However, there may still be the possibility for more variations, An
+example would be - where a car is 10-cut but only the 8-cut series shows up in your software.
+
+Usually you can add ‘as your first 2 cuts and then use the remaining 8 cuts from the keycode for a complete 10-cut key, however this not bee :
+the case. We always recommend using InstaCode software. InstaCode has the most accurate and complete ist of automotive a oy lg in
+
+the world. tt may cost more, but what is your time worth?
+
+TYPE
+
+| SECTION |
+
+_ | HK-25 |
+
+MAKE MODEL | YEARS | PAGE |
+——___| Proximity | HK-24 — 254. |
+2018-21 a —— SS
+Key_— = HK-24 54
+2012-17 a Key a HK-29 64-1 —
+ACCENT — ae
+2006-11 - Key “(Mid Sear Chane) K-39 | oe Je
+Some 2006 Accent models overlap with nee 2
+1995-06 _—| Key 'HK-40 ioe
+| 2015-17 Proximity HK-17__ “40
+_|AZERA 2012-14 | Proximity _ /HK-1 35
+2006-11 {Key | HK-27 De
+2021 —_—| Proximity HK-20 46
+2014-20 _ | Proximity |HK-26 58
+HYUNDAI Sa = ae — =
+2011-13 Proximity HK-4 - 14-4
+= 2021 | Key | HK-20 46
+ELANTRA 4 Dr we ——
+: 2017-20 |Key _ HK-26 58
+- 2046 _|Key == === HK-48 80 -
+2007-10 |Key | HK-47 89
+1992-06 | Key_ Hie te
+— 2013-17 _ [Proximity HK-16 © 38
+ELANTRA ConPe [2014-15 | Key (ts) = |HK-aa |=
+; 2013-17 —-| Key (HY18)__ HK-29 | 64
+= 2. = 1 Prexmiy ~-  IE25 =. 8
+ELANTRA GT | 2018-20 —— =
+c Key = = 00
+
+2-HYUNDAI: KIA |
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeoee5ee
+
+“er er a
+
+peeeo5u5eee8
+C
+
+2021 - AutoSmart Asian Book
+
+HYUNDAI & KIA Table of Contents
+
+MAKE
+
+@©9eoeeoeoeeod6 6,0 6 <«
+
+MODEL YEARS_ | TYPE SECTION | PAGE
+ELANTRA TOURING | 2008-12 Key HK-41 78
+ENTOURAGE | 2007-10 Key HK-48 90
+== ae Proximity HK-9 24
+2011-13 Proximity HK-1 8
+ye. 1990-94 Key HK-35 70
+1986-89 Key HK-34 69
+2015-16 Proximity. HK-9 24
+GENESIS 4DR 2009-14 Proximity HK-2 10
+2009-11 Key HK-27 60
+GENESIS Coupe 2010-16 Proximity HK-4 14
+2DR 2010-16 Key HK-49 92
+GENESIS G70 2019-21 Proximity HK-21 48
+| GENESIS G80 2017-20 Proximity HK-21 48
+GENESIS G90 2017-21 Proximity HK-21 48
+HYUNDAI _| GENESIS GV70 2022 Proximity HK-22 50
+GENESIS GV80 2021 Proximity HK-22 50
+IONIQ 2017-21 Proximity HK-25 56
+KONA Hie Proximity HK-18 42
+Key HK-18 42
+-|NEXO 2020-21 Proximity HK-23 52
+Proximity HK-19 44
+PALISADE 2019-21
+Key HK-19 44
+2021 Proximity HK-23 52
+2019-20 Proximity HK-19 44
+: 2014-18 Proximity HK-15 36
+SANTA FE 2019-21 Key HK-19 44
+2014-18 Key HK-15 36
+2007-12 Key HK-48 90
+2007-12 Key (with Transponder) | HK-49 92
+
+@oeoeo eo eooeoeoeed
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+HYUNDAI = KIA - 3
+
+2021 -
+
+AutoSmart Asian Book
+
+HYUNDAI & KIA Table of Contents
+
+important info about Hyurnial : «KIA:
+1) To make sure you get the right part- - always have the VIN run through the dealer ioe the correct parts application.
+
+2) Hyundai & Kia use several code series that are similar or the same as others, The confusion comes into play when you have a code series
+that has both an 8-cut version and a10-cut version. This is made more confusing because. they can use the same blank too. Depending on the —
+code software and key cutting equipment you have - not all variations may be listed in your code software . | have researched many possibilities
+and have updated the Application Guide to take into account these variations. However, there may still be the possibility for more variations. An
+
+_example would be - where a car is 10- cut but only the 8-cut series shows up in your software.
+
+“Usually you can add ‘tI’ as your first 2 cuts and then use the remaining 8 cuts from the keycode for a | complete 10-cut key, however this not aan
+the case. We always recommend using InstaCode software. InstaCode has the most accurate and complete list of automotive ag anyyihiere ie in
+the world. It may ( Cost more, but what i is your time worth? ~ : : == 2 ===
+
+|MAKE MODEL YEARS |TYPE — SECTION (| PAGE
+SANTA FE {2001-06 |Key TaK38 74
+SANTAFE XL = [2019 -—_—| Proximity Hie ss | S96 =
+SCOUPE {1990-94 | Key HK-35 | 70
+[2020-21 | Proximity | HK-23 52
+- {2015-19 | Proximity }HK-17 40
+; ‘}2011-14 | Proximity _ HK-2 AG
+| sonata aa a A ese ae ae
+[2ONAG== S35 RSE 3 jet =
+-|2006-10 | Key | HK-44 84 ge
+‘1995-05 [Key Hiege == 9 =Sgs SS
+HYUNDAI 1989-94 |Key TFHK-36 = === 71
+Sei 2020-21 | Proximity _ THK-23 52
+SONATA HYBRID {2016-19 | Proximity =| HK-17_ 40
+i [2on-15 =| Proximity = =| HK-3__ =
+TIBURON -|1997-08 ‘| Key | ie == 2
+: [2022 ‘| Proximity — | HK-23 SE o-
+{2014-21 [Proximity HK-17 | 40
+See S 2072-13 = | Proximity ae Hig = =f
+2029-= = 1 Key = HK-20 46
+2015-21 | Key ~ |HK-43 | 82
+: | 2011-14 Key (Mid-Yearchange) | HK-41 7
+
+-4-HYUNDAI= KIA
+
+_ ©1994, 2021 AutoSmart™ by Michael Hyde — 2
+
+»6 0
+
+2
+
+»pe©ee000eaee6ee eee eee ©
+©@eo208 @ 06 86' 08 0@'0,06 @ «
+
+(
+
+2021 - AutoSmart Asian Book
+HYUNDAI & KIA Table of Contents
+
+MAKE MODEL YEARS |TYPE SECTION | PAGE
+2010-11 Key HK-48 90
+TUCSON
+2005-09 Key HK-30 65
+2018-21 © Proximity HK-24 54
+2012-17 Proximity HK-16 38
+VELOSTER
+2018-21 Key HK-24 54
+| HYUNDAI 2012-17 Key HK-29 64
+: Proximity HK-18 42
+VENUE 2020-21
+Key HK-18 42
+- 2008-12 Proximity HK-4 14
+VERACRUZ
+2008-12 _| Key HK-48 90
+XG 300 / 350 2001-05 Key HK-38 74
+AMANTI 2004-09 Key HK-28 62
+7. : Proximity HK-1 8
+BORREGO 2009-11
+Key HK-27 60
+CADENZA 2013-20 Proximity HK-8 22
+CARNIVAL 2021-22 Proximity HK-13 32
+2019-21 Proximity HK-10 26
+2011-18 Proximity HK-5 16
+FORTE
+2019-21 Key HK-10 26
+pik 2009-18 Key | HK-45 86
+: FORTE 5 Door 2011-18 Proximity HK-5 16
+FORTE Koup & 4dr | 2011-18 Proximity HK-5 16
+K900 2014-20 Proximity HK-8 22
+== Proximity — HK-11 | 28
+NIRO Electric 2017-21
+Key HK-11 28
+— Proximity HK-11 28
+NIRO Hybrid 2017-21
+Key HK-11 28
+2016-20 Proximity HK-10 26
+OPTIMA —
+2014-15 Proximity HK-6 18
+
+eoeeoe0cdc0a0 od5408.¢
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+HYUNDAI = KIA - 5
+2021 - AutoSmart Asian Book
+HYUNDAI & KIA Table of Contents |
+
+| MAKE
+
+MODEL
+
+YEARS.
+
+TYPE
+
+PAGE
+
+KIA
+
+OPTIMA
+
+2010-13 ©
+
+| SECTION |
+
+HK-1
+
+2016-20
+
+Proximity
+
+Key
+
+HK-10
+
+= 26
+
+2014-15 _
+
+. Key
+
+| HK-42
+
+80
+
+2010-13 _
+
+Key
+
+THK-41
+
+78
+
+2006-09
+
+Key
+
+HK-44
+
+= 64 2 le-
+
+2001-06
+
+| Key — (Mid-Year Change)
+
+HK-38
+
+74
+
+OPTIMA HYBRID _
+
+2017-20 -
+
+Proximity _
+
+[HK=10
+
+2014-16
+
+Proximity —
+
+_| HK-6_ -
+
+18
+
+2011-13
+
+Proximity
+
+_|HK-2—
+
+RIO & RIO 5
+
+2014-21
+
+Proximity. :
+
+| HK-6
+
+18
+
+200-13
+
+| Proximity
+
+Hid © ae
+
+105 =
+
+| 2018-21
+
+Key
+
+HK-50
+
+94
+
+2012-17
+
+| Key
+
+HK-42
+
+hee
+
+2010-11
+
+| Key 2
+
+HK-41
+
+=
+
+2006-09 _
+
+Key
+
+| HK-39
+
+76
+
+2001-05
+
+|HK-32
+
+| 2003-05 —
+
+Keyee=
+
+Aor
+
+RIOCINCO
+
+|RONDO ©
+
+Key
+
+_| HK-47
+
+89
+
+SEDONA
+
+2006-09 _
+
+2015-21
+
+Proximity —
+
+HK-6
+
+18
+
+A Key= = =
+
+| HK-42
+
+_ = 80=
+
+2007-14
+
+_| Key (with Transponder)
+
+HK-49
+
+o2
+
+2006-14 _
+
+|Key —
+
+| HK-48 |
+
+aS
+
+oes 2
+
+= | Key s (Mid-Year Change)
+
+HK-31
+
+SELTOS
+
+ee
+
+~ | Proximity _
+
+HK-12
+
+30
+
+HK-12
+
+30
+
+SEPHIA
+
+1998-04
+
+Key
+
+HK-31
+
+66
+
+1995-97 _
+
+[Key
+
+Mess = =
+
+SORENTO
+
+2020-21
+
+| Proximity
+
+HK-14
+
+Se
+
+2015-19 _
+
+{Proximity _
+
+36
+
+‘6 - HYUNDAI: KIA
+
+©1994, 2021 AutoSmart™ by Michael Hyde —
+
+@@e@e00e0e0e008e88000880
+
+9@€6060060680 080
+
+¢
+
+2021 - AutoSmart Asian Book
+HYUNDAI & KIA Table of Contents
+
+/MAKE
+
+YEARS
+
+©ee €@'0@ 6 020'0@ 08 @ ¢€
+
+MODEL TYPE SECTION | PAGE
+2013-14 Proximity HK-7 20
+2011-12 Proximity HK-3 12
+2020-21 ky HK-14 34
+SORENTO | 2015-19 Key HK-46 88
+= 2013-15 Key HK-43 82
+2010-12 Key HK-41 78
+}2003-09 ‘| Key HK-38 74
+2020-21 Proximity HK-14 34
+2014-19 _| Proximity HK-7 20
+i 2011-13 Proximity HK-5 16
+2020-21 Key HK-14 34
+2014-19 Key HK-42 80
+KIA 2009-13 Key HK-45 86.
+SOUL EV 2015-19 Proximity HK-7 20
+2005-09 |Key — HK-30 65
+SPECTRA 1998-04 Key HK-31 66
+1995-97 Key | HK-33 68
+2014-21 Proximity HK-6 18
+2011-13 Proximity HK-4 14
+-lesartaee 2011-21 Key HK-43 82°
+222 2005-10 Key HK-30 65
+2001-02 Key HK-31 66
+7 — __-|1995-01 | Key HK-33 68
+|stinceR —_| 2018-21 Proximity HK-12 30
+TELLURIDE 2019-21 HK-13 = 3
+
+Proximity
+
+© @©@0e@ 0206006080 06 «
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+HYUNDAI = KIA - 7
+
+HEL SECTION =f; ESS eee
+
+MASTER
+KEYS >
+
+| 2012-14 Azera (Hyundai)
+
+4 STYLE
+
+| caro# | im# | macs | Startcut | cuttocut |
+
+HK or K 01-2500
+KG or G 01-2500
+J 01-2500
+
+None
+
+2010-13 Optima (Kia)
+
+Air Bags | ign Retainer E
+
+== These See == a Proximity system. > Check with dealer for. correct part # =) VIN.
+
+==: Determinator: nia —_| Lishi: HY22 | AccuReader: Wa 2— | EEZ Reader: Wa | Cobra: ‘nla
+More Info
+> > Mike's 's Tip: 1) Proximity System, PIN CODE is Required for Programming. Door Test ay TOY40 or TOY48 —
+2) Dealer code may have “E’, “G" or “I” - Substitute with “HK” or “K" prefix. — = SS =
+Hyundai / Kia Emergency Key: Kia# 81996-2)700 or Hyn# 81996-3M020 (fits all below)
+= \siala Ss Prox Fob: Hyundai 95440- 3021 - FCC Info: SYSHMENAO4 | 315. MHz
+Proximity -
+Remote | >Borrego _| > Prox Fob: Hyundaift 95440- -2)850 - FCC Info: SY5HMFNA04 | 315 MHz
+— Info>
+>Equus | > Prox Fob: Hyundai 95440-3N250 - FCC info: SYSHMENAO4 | 315 MHz
+> Optima —_| > Prox Fob: Hyundai 95440-27100 - FCC Info: SYSHMFNAO4| 315 MHz
+
+eee =
+
+n” T= o
+-v SPACING i | DEPTHS = a.
+> === = 22222 = 1=.118 Bo
+2 c67 | 570 | 475 | 380 | .285 | 190 = 2=.00 |  ? &
+go - —- ——|—- “INTERNAL = | 3=.072 | 5 s :
+a & =2 3 A 2 5 | 6 ap = 4-TRACK 4=.046 3 sy
+a — ——- : :
+fe 667 570 | .475 380 | .285-) —190- :
+Ie 85 ar rcs -
+Note: Spacing is measured from the tip. oe
+
+5 Chip Information & Notes
+
+Chip: Integrated Circuit Board
+
+| Reusable: No (Must be unlocked)
+
+> Mike's Dp Key Een & PIN Code Required. Test ‘key i is TOY40 or eT OY48.
+
+YAGNOdSNVYL
+
+No Cloning for this Proximity system
+
+B-HYUNDALSMIATS © 2 = 2 pe =
+
+_ ©1994, 2021 AutoSmart™ by Michael Hyde
+
+pe@eeeounueeaeaeeoeeeeeded OC
+
+YSGNOdSNVUYL
+
+continued - HK-1 SECTION
+
+Programmer & Diagnostic Tools
+
+Factory Tool PIN CODE
+= ; ¥ TCODE/MVP PRO| |v TDB1000 ¥ HOTWIRE
+REQUIRED
+GDS or_ | |_—_——___ .
+J2534 & y
+“Supscription J | [v “SMART PRO [v AUTO PRO PAD (v AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks. .
+
+Decoders: | Determinator:n/a —__ Lishi: HY22 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+© © 8 6)@ @, 8 0'\0,0 6 «
+
+IMPORTANT NOTES: :
+1) Always check the trunk lock for ease of removal. Since Hyundai & Kia do not have codes on their
+locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+2) Some door cylinders have a clutch type lock cylinder, the trunk does not.
+— 3) The Door & Trunk cylinders all use split tumblers with numbers on them.
+4) Some Door & Trunk cylinders have drill guards in the cylinder plugs.
+
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 —_ Use a Lock Decoder/Reader tool to decode the door lock.
+
+: Method #3 Disassemble Door or Trunk cylinder and decode wafers to make master key.
+
+IGNITION DOOR & TRUNK _ GLOVE BOX
+6 | 6| +6 a
+5 s |s5| = 5| #
+4 a 4 | 4: t_|
+3 = (|3| o 3
+2 = |2| o 2
+1 = |1| @ 1
+L R L R L R
+
+5=1
+= TIP: If you see a number on the tumblers, it is 4=2 bs z ;
+usually opposite of what it is supposed to be. 3=3 (or) a5
+2=4 =
+1=5 ies
+
+o9@eeoeoeoeeoeee
+
+©1994, 2021 AutoSmart™ by Michael Hyde : HYUNDAI = KIA - 9
+2009-14 Genesis 4 Dr
+(Hyundai)
+
+2011-13 Optima Hybrid
+2 (Kia)
+
+2011-14 Sonata (Hyundai)
+
+2011-13 Rio (Kia)
+
+E, G, J, K, KE, G,
+
+_MASTER ~ Qn
+= or GK 01-2500 — None
+KEYS > S=
+> These models have a Proximity system. > Check with dealer for correct part # by VIN.
+Determinator: n/a Lishi: HY22 | AccuReader: n/a : EEZ Reader: n/a — Cobra: n/a
+
+More Info = : = : SSS
+> __| > Mike's Tip: 1) Proximity System, PIN CODE is Required for Programming. Door Test Key: TOY40 or TOY48
+
+2) Dealer code may have. ve, “G" or ‘I’ - Substitute with "HK" or "Kk prefix.
+
+Hyundai / Kia Emergency Key: Kia# 81996- 26030 or Hyn# 81996-38020 (fits all below)
+= > Prox Fob: 95440- -3M100 (2009-11) FCC Info: SYSHMFNA04 | 315 MHz = =
+>Genesis4Dr | > Prox Fob: 95440-3M220 (2012-14, w/o Bluelink) FCC Info: SY5H MFNAO4 | 315 MHz
+
+Proximity _
+
+Remote | | > Prox Fob: 95440-3M230 (2012-14, with Bluelink) FCC Info: SYSHMFNAO4 | 315 MHz
+init '|> Optima Hybrid | > Prox Fob: 95440-27100 - FCC Info: SYSHMFNAG4 | 315 MHz
+
+> Rio | > Prox Fob: 95440-1W100 / 1140 - FCC Info: SYSHMFNAO4 | 315 MHz
+
+|>Sonata ——_| > Prox Fob: 95440-30000 - FCC Info: SYSHMFNAO4|SISMHz
+
+CODES | stme | carpe | ms | macs | Startcut | Cuttocut | AirBags | IgnRetainer
+
+95440-3100, 3M220, 3230, 27100, 30000 =» 95440-1W100— ~—— 81996-3M020
+
+ee = : =
+serge DEPTHS QR
+Uv SPACING -O 6
+> —- a == 1=.118— re re
+2 cc7 | 570 | 475 | 380 | .285 | 190 = =| 22 696 not
+oe —— | INTERNAL 3=.072 |... = 2
+of = 222 2= 4}. =F = 4 5 - 6 | : 4-TRACK =. 4=.046 = -
+x 667 | .570 A75 | _ 380 - 285
+i= = = = — =
+: Note: Spacing is measured fromthe tip. a= 2a
+
+Chip Information & Notes
+
+Chip: Integrated Circuit Board |
+
+> Mike's Tip: Key Programmer & PIN Code Required. 1 key i is ; TOYAO or or TOY48. :
+
+| HAQNOdSNVUL
+
+No Cloning = this Proximity System =
+
+_ ©1994, 2021 AutoSmart™ by Michael ee :
+
+10 - HYUNDAI = KIA
+
+besobieeoeoeeebe0e6 60660086
+ee eo @2e@e0e0e0060 00
+
+@o9@@eeooeooeeee
+
+continued - HK-2 SECTION
+
+MA Programmer & Diagnostic Tools :
+> - -
+Factory Tool = :
+2 [esetory Ted cee : (v TCODE/MVP PRO (v TDB1000 (v HOTWIRE
+@® = =
+a GDS or | ——————_
+@) J2534 & Yes
+F4 | supscription me [- SMART PRO | [v AUTO PRO PAD (v AUTEL IM608
+Mm a :
+a ? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks,
+
+Decoders: | Determinator:n/a_ ——_| Lishi: HY22 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+IMPORTANTNOTES:  —_ :
+1) Always check the trunk lock for ease of removal. Since Hyundai & Kia do not have codes on their
+locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+2) Some door cylinders have a clutch type lock cylinder, the trunk does not.
+— 3) The Door & Trunk cylinders all use split tumblers with numbers on them.
+4) Some Door & Trunk cylinders have drill guards in the cylinder plugs.
+
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #3 Disassemble Door or Trunk cylinder and decode wafers to make master key.
+
+IGNITION DOOR & TRUNK GLOVE BOX
+
+16 4 ew fel os '6| m
+
+5 m |5| @ 5| #
+
+: 4 m |4| @ [4 | /
++ =. 2 3
+2 = |2/ @ 2
+1. =» |i] o 1
+
+L=1=+28 L R L R
+
+0
+
+="
+
+- : 5=1
+TIP: If you see a number on the tumblers, it is 4=2 5 ;
+usually opposite of what it is supposed to be. 3=3_ (or) =i
+= 2 = 4 — =
+1=5 day
+
+©1994, 2021 AutoSmart™ by Michael Hyde ; HYUNDAI « KIA - 11
+HK-3 SECTION
+
+2011-12 Sorento (kia)
+
+2011-15 Sonata Hybrid (Hyundai)
+
+CODES | stwe | carps | ims | macs | Startcut | cuttocut |
+
+KE or E 01-2500
+_ MASTER | KG or G 01-2500
+HK or K 01-2500
+
+_ High Sec
+
+~ 2012-13 Tucson (Hyundai)
+
+Air Bags | ign Retainer =
+
+_ None
+
+KEYS > ——
+. > La) models have a Proximity system. > Check with dealer for correct part # by VIN.
+
+Determinator:n/a__| Lishi: HY22 ‘Abcuifleader: n/a a EEZ Reader: n/a _ | Cobra: n/a
+
+More Info
+> > Mike’s Tip: 1) Proximity System, PIN CODE is Required for Programming. co Test Key: Tov40 or (Ne:
+
+2) Dealer code may have “E’, “G" or "I" - Substitute with "HK" or "K" prefix,
+
+Hyundai 7 Kia Emergency Key: Kia# 81996-21700 or Hyn# 81996-35020 (fits all below)
+
+Proximity | > SonataHybrid — | > Prox Fob: Hyundaif 95440-30000 - FCC Info: SYSHMFNA04 | 315 MHz
+
+Info=>  |>Sorento — > Prox Fob: Hyundai# 95440-1U050 - FCC Info: SYSHMFNAO4 | 315 MHz
+
+Remote : = ae = ==
+
+> Tucson > Prox Fob: Hyundai# 95440-25300 - FCC Info: SYSHMFNAO4 | 315 MHz
+
+Bow "SPACING = 2 — | DEPTHS = =
+= = 2S) 1=.118 So
+5 ®br |e, 475 | 380 | 285 | 290 | ee ° a
+= : ween INTERNAL 3 =.072 2
+1 2 GS = 2 5 6 | — 4-TRACK 4=.046_ sk
+
+667 | 570 | .475.| 380 | 285 | 190
+
+Hidad 8 A0VdS
+I
+
+Note: Spacing is measured from the tip. = Se
+
+Chip Information & Notes
+
+Chip: Integrated Circuit Board - Reusable: No (Must be unlocked)
+
+> Mike's Tip: Key Programmer & PIN Code lias! Test — is TOY40 or TOY4s, ==
+
+YSCNOdSNVUYL
+
+No Cloning = this s Proximity System :
+
+12 - HYUNDAI + KIA ae 1994, 2021 AutoSmart™ by Michael Hyde
+
+Seb OCC HCCC O66 SS
+
+»>@©e¢0e0068680
+@eeoeo 062006000600 060600006 060,090 64
+
+¢
+
+¢
+
+=f
+A
+>
+=
+”
+v0
+Oo
+=z
+)
+m
+A
+
+continued - HK-3 SECTION
+
+: Programmer & Diagnostic Tools
+
+“Facto Tool :
+ee REQUIRED (v TCODE/MVP PRO [v TDB1000 : (v HOTWIRE
+GDS or JS Eee enes :
+J2534 & Ye
+Supscription = (v SMART PRO [v AUTO PRO PAD (2 AUTEL IM608
+
+= Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: ‘Determinator: n/a Lishi: HY22 - | AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+IMPORTANT NOTES:
+
+1) Always check the trunk lock for ease of removal. Since Hyundai & Kia do not have codes on their
+locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+
+2) Some door cylinders have a clutch type lock cylinder, the trunk does not.
+
+3) The Door & Trunk cylinders all use split tumblers with numbers on them.
+
+4) Some Door & Trunk cylinders have drill guards in the cylinder plugs.
+
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #3 Disassemble Door or Trunk cylinder and decode wafers to make master key.
+
+IGNITION DOOR & TRUNK : GLOVE BOX
+
+6 = |6| @ |é6| #
+5 -o| 5| #
+4 = |4| @ 4| =
+3 = |3}] @ 3
+2 = |2/| = 2
+1 a A a 1
+
+L R L R L R
+
+5=1
+TIP: If you see a number on the tumblers, it is 4=2 3
+usually opposite of what it is supposed to be. 3=3 (or) = = 5
+224 _
+1=5 ees
+13
+
+©1994, 2021 AutoSmart™ by Michael Hyde - : HYUNDAI = KIA -
+
+HIGASECIION oh = See 2 ec
+
+2011-13 Elantra 4 Dr | 2010-16Genesis2Dr | 2011-13 Sportage 2008-12 Veracruz |
+(Hyundai) (Hyundai) (Kia) © : (Hyundai)
+
+CODES | ste | carpe |
+
+i
+
+ITL# |
+
+MACS Start Cut | Cutto Cut | Air Bags | Ign Retainer :
+
+Remote
+Info > —
+
+MASTER | H or Mo1-2500 | DbiSided_ “083 | Yes | None
+
+KEYS > == — -
+
+> These models have a Proximity system. > Check with dealer for correct part # by VIN.
+More Info Determinator: HYU 5 Lishi: HYI5 = AccuReader: n/a EEZ Reader: nla | Cobra: n/a i
+= > Mike's Tip: Proximity System, PIN CODE is Required for Programming. Door Test Key: HY15
+> Elantra4Dr —_| > Prox Fob: 95440-3X200 (E Key 81996-2M020) FCC Info: SYSHMFNA04 {315 MHz
+‘> Prox Fob: 95440-2M300 (E Key 81996-2M020) FCC Info: SYSHMFNAO4 | 315 MHZ_
+
+‘Proximity | > Genesis2Dr __| > Prox Fob: 95440-2M351 (E Key 81996-2M020) FCC Info: SYSHMFNAO4 | 315 MHz
+
+> Prox Fob: 95440-2420 (E Key 81996-2M020) FCC Info: SYSRBFNA433 | 433 MHz
+
+> Sportage > Prox Fob: 95440-3W100 (E Key 81996-2020) FCC Info: SYSHMFNAO4 | 315 MHz
+
+> Veracruz
+
+95440-3X200, 2M300,
+
+> Prox Fob: 95440-31600 (E Key 81996-28020) FCC Info: SYSSVISMKFNAO4 | 315 MHz
+
+95440-3W100 -__ 81996-2M020 —
+
+2M351 2M420
+
+Code Series: H or M 01-2500 : : :
+r = = _ DEPTHS
+on Gale es Bhs = 1p al: 1 =.325 so
+A : = 3 Ae 6) 7 6  2=,305 So
+Ee = 4 = 3 =.285- -
+ee 768 | 685 | 602 | 520 | 438 | 355 | .273 | 190 | curto | a=.266 =
+Qo =: === == Cut: | 5=.246 =
+rs) HPC Curtis Clipper | Pak-A-Punch| {TL | — 083
+m === S== ————
+= <3 : = == Se 7!
+- CF235* n/a : “n/a es 2:
+NOTES: * Start with cut position 3 for HPC Card CF235_ ao aT
+
+Sep oh ee ee ==
+
+Chip: Integrated Circuit Board
+
+| Reusable: No (Must be unlocked)
+
+> Mike's Tip: Key Programmer & PIN Code Required. Test key is. HYIB.
+
+YAGNOdSNVUL
+
+14 - HYUNDAI - KIA 2
+
+_No Cloning for this Proximity System -S
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+Deeeeeeeseeeeoeeeeeeseese
+eeeec
+
+eoee oe ee
+
+eeeoeonneno e000
+
+YSGNOdSNVYL
+
+- continued - HK-4 SECTION
+
+Programmer & Diagnostic Tools
+
+Factory Tool PIN CODE : 222 = ==
+aa aS C TCODE/MVP PRO (v TDB1000 (v HOTWIRE
+GDS or = :
+| J2534 & ¥ —— :
+ads G SMART PRO (v AUTO PRO PAD (2 AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: Determinator: HYU5 —_— Lishi: HYI5 ~ | AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+‘NOTE- ‘Always check the trunk lock for ease of removal. Since Hyundai's & Kia's do not have codes
+_on their locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock.
+
+- Method #3  _ Disassemble Door or Trunk cylinder and decode wafers for a complete key.
+
+> Ignition
+0/0/0/0|0)0/0} 0 }> Doors
+O0}0O/}0|0)}0| 0} {0 }> Trunk /Hatch*
+1) | CED (=G7B* (* if equipped)
+1/2/3/4/516/7/8
+jag ee ee
+‘TIP: If you see a number on the tumblers, itis  4=2 3 = >
+usually opposite of what it is supposed to be. 3=3 (or) <5
+EP
+©1994, 2021 AutoSmart™ by Michael Hyde ; HYUNDAI: KIA - 15
+2011-18 Forte 4 Dr, 5 Dr & Koup (Kia) 2011-13 Soul (Kia)
+
+Cut to Cut | Air Bags Ign Retainer
+
+CorD1001-3500 | DbiSided 795 | 083 | Yes | None
+
+CODES | STYLE
+
+macs | Start Cut
+
+MASTER :
+> These models have a Proximity system. > Check with dealer for correct part # by VIN. _
+
+KEYS >
+
+Determinator: KIA 3 Lishi: HYI5. =| AccuReader: n/a FEZReader: n/a __—_| Cobra: n/a
+
+> Mike's Tip: Proximity System, PIN CODE is Required for Programming. Door Test Key: KK8 or HYI5
+
+_ | > Prox Fob: (2017-18) 95440-A7600 (E Key 81996-A7020) FCC Info: CQOFNOOIOO | 433 MHz
+
+Proximity |> Forte > Prox Fob: (2014-16) 95440-A7500 (E Key 81996-A7020) FCC Info: CQOFNOOO40 | 315 MHz
+
+= - | 5 Prox Fob: (2011-13) 95440-1M220, 221 (E Key 81996-1MO020) FCC Info: SYSHMFNAO4 | 315 MHz
+
+> Soul | > Prox Fob: 95440-2K300 (E Key 81996-2K700) FCC Info: SYSHMFNAO4 | 315 MHz
+
+95440-2K300, 1M220
+
+gi996-2M020
+
+Code Series: C or D 1001-3500
+Bow SPACING
+== 2 3 4= = 5 6 + 7 | 8 .
+
+DEPTHS |
+1 -1=.328 —
+—2=,.308
+795 | 713 | 630 | 547 | 465 | 382 | 299 | 217 | cyto | 4=.269
+ay 2 == = | cut: | 5=.249
+HPC Curtis Clipper | Pak-A-Punch| ITL | _ -083
+
+n/a n/a = = nla 2a =
+
+HidsaQ 8 A0WVdS
+
+ChipInformation& Notes os = =e
+
+Chip: Integrated Circuit Board — | Reusable: No (Must be unlocked)
+
+> Mike's Tip: Key Programmer & PIN Code Required. Test key is KK8 or HYI5.
+
+No Cloning for this Proximity System === = z=
+
+YAGNOdSNVHYL
+
+16 - HYUNDAI: KIA = = ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeeuveenaeeeeoeaeaeeeneneneane
+C
+
+@©#ee0@ 06 <4
+
+® © 0 02 @ @.
+
+@eeeoeononodode
+
+=
+A
+>
+Zz
+<2)
+Uv
+Oo
+=
+Oo
+m
+A
+
+continued -HK-5 SECTION |
+
+Programmer & Diagnostic Tools
+
+Factory Tool PIN CODE === =| {222
+—— FQUI v¥ TCODE/MVP PRO| |v TDB1000 ¥ HOTWIRE
+_ REQUIRED
+GDS or = :
+— «52534 & ses — |
+Supscription = es (v SMART PRO [v AUTO PRO PAD (2 AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: KIA 3 Lishi: HYI5. =—=| AccuReader: n/a FEZ Reader; n/a Cobra: n/a
+
+NOTE- —_ Always check the trunk lock for ease of removal. Since Hyundai's & Kia's do not have codes
+on their locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+
+Method #1. —_ Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #3 Disassemble Door or Trunk cylinder and decode wafers for a complete key.
+
+-|> Ignition :
+0)0/0|)0;0|0}0|O}> Doors
+O}60)0;0;0)} 0) 0} O)}s Trunk/ Hatch*
+2 a O\}0|0|0 Gt (* if equipped)
+ms 11213141616) 7/81
+ae 4=1
+_ TIP: If you see a number on the tumblers, it is 4=2 3 = 2
+- — usually opposite of what it is supposed to be. 3=3 —(0F) 2 = 3
+= 2=4 ==
+T=5> 1=*
+©1994, 2021 AutoSmart™ by Michael Hyde : HYUNDALEL- KIA - 17
+HK-6 SECTION
+
+2014-15 Optima (Ki) 2014-16 Optima Hybrid (kia) _
+
+2015-21 Sedona (Kia)
+
+2014-21 Rio (Kia)
+
+E stvie | canoe | me | macs | Start Cut_| cutto cut | AirBags | Ign Retainer Fe
+
+_ MASTER | KE or E.01-2500 | HighSec_ None
+
+KEYS >
+
+> = models have a Proximity ey > > Check with dealer for correct part # by. VIN.
+
+More Info ‘Determinator: das : Lishi: HY¥22 AccuReader: a EEZ Reader: n/a Cone nla
+2 = > Mike's Tip: Proximity System, PIN CODE is Required f for Programming. Door Test Key TOY40 orTOY48
+
+_Kia Eneesey Key: Kia# 81996- A4040 (fits most below) =
+
+> Optima = > Prox Fob: 95440-27510 - FCC Info: ‘SY5XMFNAO4 | 315 MHz
+
+> Optima Hybrid | > Prox Fob: 95440-4U000 - FCC Info: SYSXMENA433 | 433 MHz
+
+> Prox Fob: (2014-17) 95440- WI0T - FCC Info: SYSXMFNAO4 | 315 MHz
+
+> Rio
+
+> Prox Fob: (2021) 95440-H9100 (E Key: 81999-H8300) FCC: NYOSYECAFOBI6N [433 MHz
+Proximity |  —_| 5 Prox Fob: 95440-A9100 (4 Btn) FCC Info: SYSYPFGEO4 | 433 MHz
+alti >Sedona _| > Prox Fob: 95440-A9300 (6 Btn) FCC Info: SYSYPFGE06 [433 MHz
+7 > Prox Fob: 95440-A9310 (6 Btn) FCC Info: n/a | 433 MHz
+> Prox Fob: 95440-09600 (2021) E Key: 81996-09600 - FCC: T08-FOB-4F24 | 433 MHz
+> Prox Fob: 95440-D9500 (2020) FCC Info: T08-FOB-4F08 | 433 MHz
+
+> Sportage : sees : ==
+: > Prox Fob: 95440-D9000 (2017-19) FCC Info: TQ8-FOB-4F08 | 433MHz =
+
+> Prox Fob: 95440-3W500 (2014-16) FCC Info: SYSXMFNA433 | 433 MHz
+
+95440-27510, 4000, 1WI01 © 95440-D9000,3W500 +=» 95440-A9300 ——S—Ct« 1996-44
+
+18 - HYUNDAI: KIA : == === = 3 === == ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeeeeceaoaneneoeeoeoeeeeeeeee
+#eeeoo-e
+
+¢
+
+¢
+
+0.9.4
+
+¢
+
+¢
+
+continued - HK-6 SECTION —
+
+m@ Code Series: KE or E 01-2500
+
+- SPACING ae
+ro) T= 118
+mi 475 380 cEREE 2=.095
+go : : A 3 = .072
+> aoe 3 4 5 6 4-TRACK = .046
+me :
+
+5 667 010 475 380 285 4190
+
+sand
+
+=) Note: Spacing is measured from the tip.
+
+OvOvV-96618
+
+Chip Information & Notes _
+
+Chip: Integrated Circuit Board
+
+Reusable: No (Must be unlocked)
+
+=] Cloner Machine Information  —__
+= !
+cs _ No Cloning for this Proximity System
+a —
+BS; Programmer & Diagnostic Tools
+Zz -
+Factory Tool :
+ee | INGO ¥ TCODE/MvP PRO| |v TDB1000 ¥ HOTWIRE
+m REQUIRED
+x GDS or oe eee ae
+J2534 & Ver :
+Supscription [v SMART PRO (v AUTO PRO PAD ¢ AUTEL IM608 _
+Codes: | No codes on any locks.
+Decoders: | Determinator: n/a Lishi: HY22_ AccuReader: n/a FEZ Reader: n/a Cobra: n/a
+
+IMPORTANT NOTES:
+
+1) Always check the trunk lock for ease of removal. Since Hyundai & Kia do not have codes on their
+locks it may be easier to remove the trunk lock and decode the tumblers in the lock, if equipped.
+
+2) Some door cylinders have a clutch type lock cylinder, the trunk does not.
+3) The Door & Trunk cylinders all use split tumblers with numbers on them.
+4) Some Door & Trunk cylinders have drill guards in the cylinder plugs.
+
+Method #1
+
+Method #2
+
+Method #3 |
+
+Check owner's manual for codes, written in by the dealer.
+
+Use-a Lock Decoder/Reader tool to decode the door lock.
+
+Disassemble Door or Trunk cylinder and decode wafers to make master key.
+
+IGNITION. DOOR & TRUNK GLOVE BOX
+6 = |6| @ 6| #
+5 Z 5 5| @
+4 » |4/ 4|; #
+3: = |3| 3
+ra =» |2| o 2
+s |i/| @ 1
+
+L R L R L R
+
+|
+
+=
+
+©1994, 2021 AutoSmart™ by Michael Hyde-
+
+HYUNDAI « KIA - 19
+HK-7 SECTION
+
+- 2013-14 Sorento (Kia)
+: “CODES
+MASTER KE or E 01-2500
+: — KG or G 01-2560
+KEYS ==
+> These models have a Proximity system. > Check with dealer for correct part # by VIN.
+More Info | Determinator: n/a Lishi: H¥22____|AccuReader: n/a__| EEZ Reader: nfa___| Cobra: n/a
+= > Mike's Tip: Proximity System, PIN CODE is Required for Programming. Door Test Key: TOY40 or TOY48
+> Sorento | > Prox Fob: 95440-1U500 (81996-2P300-Emerg Key) FCC Info: SYSXMFNAO4 | 315 MHz
+tis | > Prox Fob: (2014-16) 95440-B2200 (E Key 81996-A2010) FCC Info: CQOFNOO100 | 433 MHz
+Proximity |>Soul _- - a ae
+~ Remote _| > Prox Fob: (2017-19) 95440-B2ACO (E Key 81996-A2010) FCC Info: CQOFN00100 | 433 MHz
+Info > : See ==] =s
+= == = > Prox Fob: (2015-16) 95440-E4000 (E Key 81996-A2010) FCC Info: CQOFNO0100 |433MHz |
+> Soul EV =
+
+> Prox Fob: (2017-19) 95440-B2ACO (E Key 81996-A2010) FCC Info: CQOFNO0100 | 433 MHz _
+
+Code Series: K
+
+DEPTHS
+
+2] " =
+a= = Bow | SPACING
+> : —— 1=.118
+SE cc7 | 570 | 475 | 380 | 285 | 190 | = | 2=-095
+0 | = : SS —— | __ INTERNAL — 3 =.072 =
+1 > | 3s fe 5 6 |  4-TRACK 4=.046 2
+=) = Se. == —— = os oe =} = =_ = = nh
+Ba 667 570 475 .380 i285 “| 190 = S
+ag : = : qa ee ——=
+Note: Spacingismeasuredfromthetip, === :
+=i ChipInformation& Notes oo - :
+> = = = = = = —— = = = ae = = ==
+F Chip: integrated Circuit Board —_____ | Reusable: No (Must be unlocked)
+i] = 5 SS : :
+2 > Mike's Tip: Key Programmer & PIN Code Required. Test key is TOY40 or TOY48. =
+Au No Cloning for this Proximity System a
+
+20 - HYUNDAI - KIA : ‘i if22= =-= oo
+
+©1994, 2021 AutoSmart™ by Michael Hyde —
+
+yp 6 6 6'0'6 0:0 66 6 0 6 6 6 6 6 6 6 6 6:6
+© 0@ 0600626060026 0
+
+¢
+
+¢
+
+@@e@ eo ¢
+
+eeoo «€
+
+=
+A
+>
+2
+<2)
+vU
+2)
+z
+o)
+m
+8)
+
+Programmer & Diagnostic Tools
+
+continued -HK-7 SECTION
+
+Factory Tool PIN CODE
+pace ahaa ot ¥ TCODE/MVP PRO Y¥ TDB1000 ¥ HOTWIRE
+REQUIRED
+GDS or__ | |= :
+52534 & = -
+Supscription (v SMART PRO (v AUTO PRO PAD € AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: Determinator: n/a Lishi: HY22
+
+AccuReader; n/a
+
+EEZ Reader: n/a —_| Cobra: n/a
+
+_ IMPORTANT NOTES:
+
+1) Always check the trunk lock for ease of removal. Since Hyundai & Kia do not have codes on their
+locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+
+2) Some door cylinders have a clutch type lock cylinder, the trunk does not.
+3) The Door & Trunk cylinders all use split tumblers with numbers on them.
+4) Some Door & Trunk cylinders have drill guards in the cylinder plugs.
+
+— Method #1 Check owner's manual for codes, written in by the dealer.
+
+Method #2 Use a Lock Decoder/Reader tool to decode the door Jock.
+
+Method #3 Disassemble Door or Trunk cylinder and decode wafers to make master key.
+
+IGNITION DOOR & TRUNK GLOVE BOX
+6 = |6| @ 6| s
+5 a 5| =
+4 = |4/ @ 4| =
+3) = |3| @ 3
+a = |2| @ 2
+: 1 m |1| # 1
+L : R L R L R
+
+~ ©1994, 2021 AutoSmart™ by Michael Hyde
+
+HYUNDAI = KIA - 21
+HESECHIONS 2) Ua ee Ue
+
+2013-20 Cadenza (Kia) 1 2014-20K900 (Kia) 2
+
+| stme | carpe | im | macs | Startcut | Cuttocut | AirBags | ign Retainer
+
+MASTER | 1 or U 01-2608
+KEYS >
+
+High Sec = None
+
+> These models have a Proximity system. > Check with dealer for correct part#by VIN.
+
+jee a: isk K9 eae n/a __| EEZ Reader: nla | Cobra: n/a
+
+More Info
+> > Mike's Tip: 1) Proximity System, PIN CODE is Required for Programming, Test key i is modified TOY48.
+
+2) New Codes Series and new keyway. 7 cuts, 4 on left track and 3 on right track.
+
+| > Prox Fob: (2020) 95440-F6510 (E Key 81996-F6600) FCC Info: n/a|433MHz
+
+> Prox Fob: (2017-19) 95440-F6000 (E Key 81996-F6100) FCC Info: TQ8-FOB-4F10 | 433 MHz
+
+z =/> Cadenza 2 = ———= : >
+Proximity __ | > Prox Fob: (01/14-16) 95440-3601 (E Key 81996-31000) FCC Info: SYSKHFNA433 | 433 MHz
+Remote : :
+Info > == > Prox Fob: (2013- 01/4): 95440- 3R600 (E = 81996- 31000) FCC Info: SYSKHENAA33 | 433 MHZ
+: > Prox Fob: (2014-18) 95440- 37300 (E Key 81996- 31000) FCE Info: SY5KHFNA433 | 433 MHz
+> K900°
+
+> Prox Fob: == 20)9 95440- 46000 (E Key 81996- J6000) FCC Info: TQ8- FOB- 417 | 433. MHz
+
+95440- 31300, 3R600, 81996-37000 —
+3R601, F6000
+
+eeoeou0a0a00500
+
+81996-16000
+
+| DEPTHS
+1=.102
+=== | 22 | 2=.083_-
+|=- =| LU _| INTERNAL | 3=.063
+
+= = oS == S
+
+1 2 Ss. 4 = 6 6 | 4TRACK | 4=.043 =
+a = 2 5 = 024. =
+= z = = == = = =i
+
+539 374 205) s
+
+Hidad 8 30VdS
+
+Note: Spacing is measured from the tip.
+
+[ChipInformation& Notes
+
+Chip: Integrated Circuit Board = =: || Reusable: ‘No (Must be unlocked)
+
+> Mike's Tip: Key Programmer & PIN Code Required. Test key is modified TOY48.
+
+HAQNOdSNVUYL
+
+No Cloning = his Proximity eee
+
+22 - HYUNDAI = KIA. : 2S 1994, 2021 AutoSmart™ by Michael Hyde
+
+pe@oe« 0060086
+
+a i
+
+eeeer
+
+©9ee 60,0 @ ¢
+
+#@eeeoe0oeeoe530ee
+
+YSGNOdSNVYL
+
+Programmer & Diagnostic Tools —
+
+continued - HK-8 SECTION
+
+Factory Tool I D : = : :
+fee] | REQUIRED [v teoDEmve PRO (Vv TDB1000 (> HOTWIRE
+GDS or ee =
+J2534 & =
+-Supscription eS (v SMART PRO (v AUTO PRO PAD (2 AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks. a
+
+Decoders: | Determinator:n/a __| Lishi: K9 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Note: ~ This a new keyway with 4 cuts on the Left track and 3 cuts on the Right track.
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Disassemble Door or Trunk cylinder and decode wafers to make working key.
+Method #3. Disassemble Glove Box cylinder and decode wafers to make working key. Depending on
+
+LEFT (\ RIGHT LEFT (RIGHT LEFT (©) RIGHT — LEFT () RIGHT LEFT () RIGHT
+
+the type of glove box cylinder you may need to progression some cut positions fora
+working key.
+
+4 bs 41X1x}3. 41X|/x}3 eo x Ea 41X!|x13
+3 Ze == ES x ox =| x a x :
+= x bed == x|2 = x|2 = xi2
+= 2|x = 2|x 2|x aS =|
+4 f= ex) mia Ee | 2 XE pee.
+IGNITION DOOR TRUNK GLOVE BOX GLOVE BOX
+(none) (if equipped) — A B
+
+How to modify a TOY48 to work as a test key. First cut the key on a computerized key
+machine. Then file off the side milling to make the key flush on the side.
+
+TOY48 with side milling side milling removed
+with flat file
+©1994, 2021 AutoSmart™ by Michael Hyde — HYUNDAI: KIA - 23
+HK-9 SECTION —
+
+‘MASTER
+KEYS >
+
+~ 2014-16 Equus (Hyundai) 2015-16 Genesis 4 Dr (Hyundai)
+
+| sme | carne | me | macs | startcut | cuttocut | AirBags | Ign Retainer
+
+B, | or X 1-2608 None
+
+> These models have a Proximity system. > Check with dealer for correct part # by VIN.
+
+More Info
+
+‘Cobra: n/a
+
+Lishi: K9 : ‘AccuReader: n/a EEZ Reader: nla
+
+Determinator: n/a
+
+= | Mike’ s Tip: 1) Proximity System, PIN CODE is Required for Programming. Test key is modified TOY48.
+2) New Codes Series and new keyway. 7 cuts, 4 on left track and 3 on right track.
+: = > Prox Fob: (FOB) 95440-3N470 (E ey 81996-3N700) FCC Info: SYSDMFNA433 [433 Miz
+Proximity — > Prox Fob: (CARD) 95440- 3N100 (E Key 81996-3N710) FCC Info: SYSDMFNA433 | 433 MHz
+_— ‘ => Prox Fob: (2016) 95440-B1210 (E Key 81996- B1000) FCC Info: SY5DHFNA433 | 433 MHz
+
+> Genesis 4 Dr
+
+> Prox Fob: (25) 95440 -BI200BLH (E a 81996- B1000) FCC Info: SYSDHENAGS3 | 433 MHZ
+
+95440-3N470, B1210
+
+gi996-3N700 -81996-B1000_+~=s=S<—=—*~C*«iSO-ZNI«Ss«i9G-BNTIN
+
+. Code Series: B, | or X 1-2608 =
+7 SPACING Tip | ees
+_— = | 4=.102
+SR 622 457 291 = de So8. 2 = .083
+et eee 1 2 | INTERNAL |. 3 =.062 - ES
+o LF 2° 3 4 = =5 6 | 7 =| 4IRACK | 4=.043 Ss
+mm - = == Se —— = = . 5 = .024 a
+a 535 | 374 : 209° 2
+Note: Spacing is measured from the tip. : Se = |
+
+Chip Information & Notes _ SS o 2
+
+Chip: Integrated Circuit Board
+
+| Reusable: No (Must be unlocked) —
+
+> Mike's Tip: Key Programmer & PIN Code Required. Test key i is modified TOY48,
+
+HIGNOdSNWYL
+
+No Cloning for this Proximity System
+
+24 - HYUNDAI + KIA
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeeeeooeeeeoeeee
+
+“i i ya
+
+(
+
+(
+
+#e0ee@a000808088080904
+
+©#eeoeeo 000
+
+continued - HK-9 SECTION
+
+2a Programmer & Diagnostic Tools __
+a :
+Factory Tool P
+Z ciated Ae en (v TCODE/MVP PRO [v ros 1000 (v HOTWIRE
+a) : = z
+5 GDS or] == :
+(2) J2534 & Y Z
+Fa | Supscription = (v SMART PRO (v AUTO PRO PAD (2 AUTEL IM608
+m : a
+a ? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: K9 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Note: : This a new keyway with 4 cuts on the Left track and 3 cuts on the Right track.
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #2 Disassemble Door or Trunk cylinder and decode wafers to make working key.
+Method #3. _— Disassemble Glove Box cylinder and decode wafers to make working key. Depending on ~
+
+the type of glove box cylinder you may need to progression some cut positions fora
+- working key.
+
+EEFT (-RIGHT ==LEFT (/) RIGHT LEFT () RIGHT — LEFT () RIGHT LEFT () RIGHT
+
+4 3 4ixl, 25 4ixix13 4Tx x b3. 4)X/x13
+
+3 = = 235] X seed |< =|2|¥e 42
+a5 HE x12 x12 = x} 2 x Ee
+
+<e 2X = 2 xX 2 xX 2
+
+i 1 = x|*] 1 1} x/x|1 A x} X]}1 r1- 1
+
+IGNITION | DOOR TRUNK GLOVE BOX GLOVE BOX
+
+(none) : — _ (if equipped) A B
+
+How to modify a TOY48 to work as a test key. First cut the key on a computerized key
+machine. Then file off the side milling to make the key flush on the side.
+
+TOY48 with side milling side milling removed
+with flat file
+
+: HYUNDAI KIA - 25
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+HK-10 SECTION
+
+MASTER
+
+2019-21 Forte (Kia)
+
+2016-20 Optima (Kia)
+
+| STYLE
+
+B, D, G,H, K
+
+1-3000 —Varies
+
+2017-20 Optima Hybrid (Kia) | _
+
+| caro# | ime | macs | StartCut | cuttocut | AirBags | Ign Retainer
+
+: Some models have a Proximity system. > Check with dealer for correct part # by VIN,
+
+More Info
+
+EEZ Reader: n/a 2 | Cobra: n/a
+
+: ‘AccuReader: oe
+
+Determinator: n/a Lishi: K5
+
+> Mike’s Tip: 1) Proximity or Non-Transponder system (USA dels) > PIN CODE is soanle for Programming.
+> 2) New Codes Series and new keyway. 8 cuts, Centermill H/S. Test key is 1LCO KKI2- P.
+== 3) No Transponder on Keyed ignition models of Forte & Optima. >
+(23 Fa cee (E Key 81996-17020) FCC Info: COFD00430 | 433 MHz
+(Prox) : = :
+‘| > Forte a = : 2
+care > RMT Flip Key: 95430-M6000 (Blade 81996-17000) FCC Info: CQOTD00660 | 433 MHz
+Remote |> Optima _| > Prox Fob: (2019-20) 96440-D5000 (E Key 81996-04060) FCC Info: SYSJFFGEO4 | 433 MHz
+Info=> | (Prox) __| > Prox Fob: (2017-18) 95440-4000 (E Key 81996-D4060) FCC Info: SYSIFFGEO4 | 433 MHz
+: aa > Prox Fob: (2017-20) 95440-D4000 (E Key 81996-D4060) FCC Info: SYSIFFGE04 | 433 MHz
+: Aide > RMT Flip Key: 95430-4010 (Blade 81996-D4010) FCC Info: SYSJFRGEO4 | 433 MHz
+~ FORTE
+95430-M6000 —~81996-7000 95440-M7000 81996-17020
+OPTIMA a
+
+81996-D4060
+
+— 95430-D4000
+
+--95440-D4000
+
+81996-D4010
+
+-26-HYUNDAI+KIA titi =
+
+_ ©1994, 2021 AutoSmart™ by Michael Hyde
+
+»6¢@
+
+pe@©ee0e08 0066600666886 6
+
+©@#eoe@e@080@0060 02:0 6 ¢€
+
+C
+
+continued - HK-10 SECTION
+
+Code Series: B, D, H, K 1-3000
+
+(24)
+a) Bow SPACING Tin DERTHS
+> — 1=.047
+= 2=.071
+pay 799 | 705 | 610 | .516 | .421 | .327 | .232 | 138 | INTERNAL 3 = .094
+MILLING | 4=.118
+4 5 = 142
+Ae 1 | 2 | 3 4 5 6 7 5
+= Note: Spacing is measured from the tip.
+Chip Information & Notes oes
+Chip: Integrated Circuit Board — | Reusable: No (Must be unlocked)
+
+sr] > Mike's Tip: Key Programmer & PIN Code Required. Test key is ILCO KK12-P
+Z =
+= No Cloning for this Proximity System
+% Programmer & Diagnostic Tools _
+S :
+
+Factory Tool : :
+Sy (Peer et | ( RNGOOE | (2 rcovenwe pro} (7 1081000 (2 Horwire
+a GDS or one
+
+J2534 & y
+
+Sunseriptian os (v SMART PRO [2 AUTO PRO PAD (v AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: K5 AccuReader: n/a EEZ Reader:n/a Cobra:_n/a
+
+NOTE- Always check the trunk lock for ease of removal. Since Hyundai's & Kia's do not have codes
+on their locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #3. _ Disassemble Door or Trunk cylinder and decode wafers for a complete key.
+
+=) * = |> Ignition®
+O|O}0O|O}> Deors—
+O | 0} 0 | O4> Trunk 7 Hatch*
+Eee Ej | > G/B*
+Bett  (ifequipped)
+©1994, 2021 AutoSmart™ by Michael Hyde HYUNDAI = KIA - 27
+HK-14 SECTION
+
+- 2017-21 Niro Hybrid (kia)
+
+2017-21 Niro Electric (Kia)
+
+| stvie | carpe | im# | macs | Startcut | cuttocut | AirBags | ign Retainer
+
+| 4.DG Hk
+MASTER = iz tz ul 7 a = & ri
+1-3000- High Sec Varies
+KEYS = ===
+> Some models have a Proximity system. > Check with dealer for correct part # by VIN. —
+Determinator: n/a Lishi: K5 ‘| AccuReader: n/a EEZ Reader: n/a_ Cobra: n/a
+More Info | > Mike’ $ Tip: 1) Transponder System, PIN CODE is Required for Programming. Test key is ILCO KK12-P
+> 2) New Codes Series and new keyway. 8 cuts, Centermill High Security. —
+____ _3) Check VIN with Dealer for Correct Parts. _
+=| S wire Hectic > Prox Fob: 95440-65000 (E Key 81996-G5A20) FCC Info: T08-FOB-4F08 | 433 MHz
+(Prox) | > Prox Fob: 95440-65020 (E Key: 81996- G5A20) FCC Info: n/a | 433 MHz
+~ Remote | > Niro Hybrid | > Prox Fob: 95440-G5010 (E Key 81996-17020) FCC Info: T08-FOB-4F24 | 433MHz ==)
+Info> | (Prox) __| , prox Fob: 95440-65020 (E Key 81996-17020) FCC Info: n/a | 433 MHz
+iss | > RMT Flip Key: 95430-G5010 (Blade 81996-G5010) FCC Info: SYSIFRGEO4 | 433 MHz
+> Niro Hybrid — = :
+Key Ign
+
+> RMT Flip Key: 95430-G5300 (Blade 81996-K0000) FCC Info: SYSSKRGEOS | 433 MHz
+
+81996-G5A20
+
+95440-65010
+
+= 95430-65300 81996-K0000
+
+28 - HYUNDAI « KIA - =
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+> @ ®@
+
+eoaoenneeenaeaseeeene
+(
+
+©. @ @ «
+
+¢
+
+continued - HK-11 SECTION
+
+~ Code Series: B, D, H, K 1-3000 a
+- : DEPTHS
+vu Bow SPACING Tip
+> = .047
+o : 2=.071 ©
+peg 799 | 705 | 610 | 516 | .421 | .327 | .232 | 138 | INTERNAL 3 = .094 oS
+MILLING | 4=.118 z
+2 =e : 5 = 142 gi
+U ie 2 | 3 4 5 6 7 8 S
+Note: Spacing is measured from the tip.
+Chip Information & Notes _ :
+Transponder: Standard Equipment | Chip: 4D60 (80 bit) Reusable: No
+> Mike's Tip: PIN CODE is Required for Programming. Test key is ILCO KK12-P
+Cloner Machine Information a
+od (~apg00) (CHINA ) (ILCO/SILCA) (. JMAUSA ) ( KEYLINE \(_ LD.) ( ScoRPIO \)( IEA»
+= CYCLONE || CN900 ||  RW4+ __| |TRS-5000/EVO| | 884 Ultegra MIRACLONE TANGO ZEDFULL
+Zz No No No No No No No No
+n
+TU
+=
+oO = = = - =
+ue Programmer & Diagnostic Tools ~
+Factory Tool PIN CODE =.
+eS ERLE e 2? TCODE/MVP PRO| | ? TDB1000 ? HOTWIRE
+: ~ REQUIRED
+GDS or aio
+J2534 & Vea
+Supscription (; SMART PRO (? AUTO PRO PAD (> AUTEL IM608
+? = Check with your key programmer supplier to see if your vehicle is supported.
+Codes: | No codes on any locks.
+Decoders: | Determinator: n/a Lishi: K5 AccuReader: n/a — | EEZ Reader: n/a | Cobra: n/a
+
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #3 _— Disassemble Door or Trunk cylinder and decode wafers for a complete key.
+
+=| * | * | * 2 lgeitor
+O}0O/}0}O0}> Doors
+
+O | O} 0] O ]> Trunk / Hatch*
+O0/|0|0|O}> G/e*
+516|71|8
+
+(* if equipped)
+
+©1994, 2021 AutoSmart™ by Michael Hyde : HYUNDAI = KIA - 29
+HK-12 SECTION
+
+2018-21 Stinger (Kia)
+
+2020-21 Seltos (Kia) _
+
+| _sTViE
+
+| carp# | im# | macs | Startcut | cuttocut | AirBags | Ign Retainer
+
+B, D, G,H, K —
+MASTER ager i
+cS 1-3000 ie
+KEYS > = : :
+> Some models have a Proximity system. > Check with dealer for correct part # by VIN. =
+Determinator: n/a Lishi: K5 AccuReader: nia ‘FEZ Reader: nla Cobra: n/a
+More Info ;
+= > Mike's Tip: 1) Transponder Syston PIN CODE i is Required for Programming. Test key is ILCO KKI2- P.
+2) New Codes Series and new keyway. 8 cuts, Centermill High Security. :
+>Seltos _| > Prox Fob: 95440-05000 (6 Btn) or 05400 - Check VIN with Dealer. :
+(Prox) > E Key. 81996-37020 - FCC Info: NYOSYEK4TX1907 | 433 MHz
+Rarheid > Seltos > RMT Flip key: 95430-Q5400 or 05500 - Check VIN with Dealer.
+Info > (Keyed) _ > Blade 81996-K0000 - FCC Info: n/a | 433 MHz
+'|>Stinger | > Prox Fob: (2018-20) 95440-J5000 (E Key 81996-15000) FCC Info: TQ8-FOB-4F15 | 433 MHz_
+(Prox) > Prox Fob; (2021) 95440-15550 (E Key 81996-M6020) FCC Info: n/a | 433 MHz
+SELTOS
+95430-05400 81996-K0000 95440-05400 81999-7020
+STINGER S
+— 81996-G5A20, M6020
+4 :
+> SPACING | DEPTHS
+ro) ; - = 7-097 a
+m e == : — Ss 2=.071 S
+Pam 799 | 705 | 610 | 516 | 421 | 327 | .232 | 138. | !NTERNAL| ._ 4, a
+== | MILLING | 3=- S
+o a aI E aL 4= 118 2
+9 Seas SS ae ea 5
+=a] Note: Spacing is measured from the tip. =
+
+30 - HYUNDAI « KIA
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+»eo5ue5uee
+
+ee 66 6 6 6 6 @ 6 6 6 O86
+
+di
+eooc5ooae0eae0e0 eee 0800666
+
+¢
+
+¢
+
+continued - H
+
+K-12 SECTION
+
+Chip Information & Notes"
+
+Chip: Integrated Circuit Board
+
+Reusable: No (Must be unlocked)
+
+> Mike's Tip: Key Programmer & PIN Code Required. Test key is ILCO KK12-P
+
+No Cloning for this Proximity System
+
+: (? TCODE/MVP PRO
+
+(? TDB1000_—
+
+(2 HOTWIRE
+
+S|
+
+A
+
+>
+
+z =
+
+3 Programmer & Diagnostic Tools
+
+Fag (Factory Too! f PIN CODE
+
+m GDS or | REQUIRED
+J2534 &
+== Yes
+Supscription
+
+(? “SMART PRO
+
+[2 AUTO PRO PAD
+
+(2 AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a
+
+Lishi: K5
+
+AccuReader: n/a
+
+EEZ Reader: n/a
+
+Cobra: n/a
+
+NOTE-— Always check the trunk lock for ease of removal: Since Hyundai's & Kia's do not have codes
+— on their locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+
+Method #1 Check owner's manual for codes, written in by the dealer.
+
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #3 Disassemble Door or Trunk cylinder and decode wafers for a complete key.
+
+a, OO |p
+eo UO *
+S| BIO *
+mio *
+
+> Ignition*
+
+> Doors
+
+> Trunk / Hatch*
+> G/B*
+
+¢ if equipped)
+
+~ ©1994, 2021 AutoSmart™ by Michael Hyde =
+
+HYUNDAI = KIA - 31
+
+HK-13 SECTION
+
+2019-21 Telluride (kia) a=
+
+2021-22 Carnival (kia)
+
+CODE SERIES
+
+"Telluride = B, D,G, H, K1-3000 :
+MASTER z : =
+KEYS> LL Carnival = $ 001-2500 —
+
+STYLE | Cut to Cut | Air Bags | Ign Retainer
+
+_ Varies
+
+> Some models have a Proximity system. > Check with dealer for correct part # by VIN.
+
+Determinator:n/a Lishi: KB AccuReader: n/a ‘| EEZ Reader: n/a Cobra: n/a
+
+More Info | > Mike’s Tip: 1) Transponder system, PIN CODE is Required for Programming. Test key is ILCO KKI2- P.
+= : _2) New Codes Series and new keyway. 8 cuts, Centermill High Security,
+
+3) | Some Carnival models may have a Code Prefix of "KA’ switch it to "S” when looking up the series.
+
+> Prox Fob: 95440-RO4I0 (E Key 81996-RO710) FCC Info: n/a | 433 MHz
+
+> Carnival ~
+
+> Prox Fob: 95440-R0420 (E Key 81996-RO710) FCC Info: n/a | 433 MHz
+haut > Prox Fob: 95440-S9000 (E Key 81996-S9000) FCC Info: TQ8-FOB-4F24 | 433 MHz
+> Telluride | > Prox Fob: 95440-$9200 (E Key 81996-S9000) FCC Info: n/a | 433 MHz
+> Prox Fob: 95440-9300 (E Key 81996-$9000) FCC Info: n/a | 433 MHz
+2 :
+= =
+e
+: E
+CARNIVAL 95440-R0420 So
+TELLURIDE
+~ g1999-J7020
+
+peoe5e5aeeeaeaeeeeeeeee
+
+32 - HYUNDAI « KIA 23 ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peecceoue5e
+@©eeoe €2:0206006060 06:0 @¢€
+
+©®e0e e090 6080 :0 ¢
+
+¢
+
+C
+
+Code Series: B, D, H, K 1-3000
+
+continued - HK-13 SECTION
+
+Bow SPACING DEPTHS
+
+: T= .047 a
+
+799 | 705 | 610 | .s16 | .421 | 327 | .232 | age | INTERNAL Ee aly 8
+S : MILLING | 3=-094 ?
+
+4= 118 g
+
+—— == = =
+
+= 2 b3 | -4-]-5 ) & | 21 8 5 = 142 Ss
+
+HidSad 8 J0VdS
+
+Note: Spacing is measured from the tip.
+
+Chip Information & Notes _
+
+Chip: Integrated Circuit Board
+
+Reusable: No (Must be unlocked)
+
+> Mike's Tip: Key Programmer & PIN Code Required. Test key is ILCO KK12-P
+
+=
+re
+= No Cloning for this Proximity System
+4 Programmer & Diagnostic Tools
+=. :
+
+Factory Tool JE
+ee tt peouinen (? TCODE/MVP PRO (2 TDB1000 (2 HOTWIRE
+= GDS or SS
+
+J2534 & Y
+
+Spcnoe es (? SMART PRO [? AUTO PRO PAD [2 AUTEL IM608 ~
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks,
+
+Decoders: Determinator: n/a Lishi: K5
+
+AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+_ NOTE- Always check the trunk lock for ease of removal. Since Hyundai's & Kia's do not have codes
+on their locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+
+_ Method #1 Check owner's manual for codes, written in by the dealer.
+_ Method #2 Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #3 Disassemble Door or Trunk cylinder and decode wafers for a complete key.
+
++*|* | * | * |>Ignitien®
+Gl | bao = Deors:..
+O}0 |} 0} 0 ]> Trunk / Hatch*
+| O| O | O|> Ge
+
+5 -6==% 6
+
+(* if equipped)
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+HYUNDAI « KIA - 33
+HK- 14 SECTION
+
+2020-21 1 Sorento (Kia)
+
+2020-21 Soul (kia)
+
+| stve | carpe | im# | macs | Startcut | cuttocut | AirBags | ign Retainer
+: | B,D,G,H,K = —
+MASTER i Vari
+: 5505 aie Sec Varies
+KEYS > — == ;
+> Some models have a Proximity system. > Check with dealer for correct part # by VIN.
+Determinator: n/a Lishi: K5 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+More Info | > Mike's Tip: 1) Transponder System, PIN CODE is Required for Programming. Test key is ILCO KK12-P.
+aa _ 2) New Codes Series and new keyway. 8 cuts, Centermill High Security. oe
+3) Some models with a keyed ignition ~ may or may not have a transponder system. —
+> Sorento > Prox Fob: 95440-R5000 (3 Btn) or P2000 (4 Btn)
+(Prox) — > E Key 81996- $9000 - FCC Info: SYSMQ4AFGE04 & SYSMQ4AFGE0S | 433 Miz
+|? Sorento | AMT Flip Key: 95430-R5100 (Blade 81996-12000) (128 Bit AES) FCC Info: n/a | 433 MHz
+(Keyed) : = : = ==
+Remote =
+Info > < Soul : == = =
+(Prox) > Prox Fob: 95440-K0000 (E Key 81999-7020) FEC Info: SYSSKFGE04 | 433 MHz
+= ioe 4 | BMTFlip Key: 95430-K0000 (Blade 81996-K0000) (No Chip) FCC Info: SYSSKRGEO4 | 433 MHz
+
+95430-K0000
+
+SORENTO & SOUL
+
+81996-K0000 95440-K0000 81999-J7020
+
+Code Series: B, D, H, K 1-3006
+
+Note: Spacing is measured from the tip.
+
+a ae
+
+v Bow _ SPACING tp - = =| DERTHS |. ==
+
+> : — 1=.047
+
+o fe ae 2=.071 =
+
+Py 799 | 705 | 610 | 516 | .421 | .327 | 232 | 138 | INTERNAL | 3=.094 S
+
+og =—_ == = == |v ieeine 4=.118 2
+= = == = =]
+
+7 — —|-— a 5 = 142 s
+
+a) 1 = aS 2 = == a 2] ==
+
+TE 2S 4 5 5 22g
+
+=
+
+34 - HYUNDAI =
+
+KIA
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+—mpee5aeeaeseeenoeeeeeeneesee
+
+)
+©0220 00' 66006 «
+
+® «
+
+¢
+
+(
+
+¢
+
+YSGNOdSNVYL
+
+: continued - HK-14 SECTION
+
+Chip Information & Notes for Sorento
+
+Transponder: Standard Equipment Chip: 128 BitAES _ Reusable: No
+
+> Mike's Tip: PIN CODE is Required for Programming. Test key is ILCO KK12-P
+
+Cloner Machine Information for Sorento
+
+(ap900 ) (CHINA ) {ILCO/SILCA) ( JMAUSA_) ( KEYLINE )( LL.D.) ( SCORPIO ) ( IEA)
+
+CYCLONE CN900 RW4+ TRS-5000/EVO 884 Ultegra MIRACLONE. TANGO ZEDFULL
+
+No No ="No No No No No No
+
+Programmer & Diagnostic Tools
+
+Factory Tool Z =— : -
+GDS or =
+
+J2534 & Weg EZ
+
+Supscription (? SMART PRO. ¢ AUTO PRO PAD (2 AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks. _
+
+Decoders: Determinator: n/a Lishi: K5 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+NOTE- Always check the trunk lock for ease of removal. Since Hyundai's & Kia's do not have codes
+on their locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #3 _ Disassemble Door or Trunk cylinder and decode wafers for a complete key.
+
+> Ignition*
+
+* | * * *
+O/0O}0O}0O|>Doors
+0} 0} 0} O }> Trunk 7 Hatch*
+OBS) 01) |> G/B*
+ae (* if equipped)
+©1994, 2021 AutoSmart™ by Michael Hyde HYUNDAI = KIA - 35
+Cor UM 1001-3500
+
+Varies
+
+High Sec
+
+MASTER > Some models have a Proximity system. > Check with dealer ie == part # by VIN.
+
+KEYS > Determinator: n/a. =————*|Lishi: HY20R AccuReader: n/a. —=S*|| EEZ Reader: n/a —_| Cobra: n/a
+
+> Mike’ s Tip: Dealer code may have “M* prefix. Look up with “UM" prefix. Example: UM3050. Test 228 is HYI8- us
+
+: > Mike's Hp: No transponder system on Santa Fe models with keyed i ignitions. — _
+
+> Prox Fob: (SPORT) 95440- 47200 (E Key 81996: -2W040) FCC Info: SYSDMFNAQ4 | 316 MHz
+
+> Santa Fe
+eps > Prox Fob: (Not Sport) 95440-B8100 (E Key 81996-20040) FCC Info: SYSDMFNAA3S | 433 MH2
+
+'|> Santa FeXL | > Prox Fob: (2019) 95440- B8100 (E Key 81996-2W040) FCC Info: SYSDMFNAA33 | 433 MHz
+
+Remote > | Sunte Fe | > RMT Flip Key: (2017-18) 95430- 2wio (Blade 81996-2300) FCC Info: 1Q8- RKE- 43 | 433 MHz
+
+Keylgn | > RMT Flip Key: (2013-16) 95430-47101 ‘(Blade 81996-2000!) FCC Info: TO8-RKE-3F04 | 315 MHz
+| Prox Fob: (2018-19) 95440-C6100 (E Key 81996-C5040) FCC Info: T08-FOB-4F06 | 433 MHz
+
+> Sorento _
+
+> Prox Fob: (2015-17) 95440-C6000 (E Key 81996-5040) FCC: T08-FOB-4F06|433MHz sf
+
+SANTEFE |
+
+eeenen0ea2eeeee ee 8
+
+95440-47200, B8100 81996-2W040 -—»«»«-95430-2W10, 47101 81996-2W300 81996-2Wo0r |
+
+SORENTO
+
+peeoeneeoee
+
+36 - HYUNDAI = KIA : =. cos = = ©1994, 2021 AutoSmart=by Michael Hyde.
+©eeoe@080 02 0@e ¢
+
+@ «
+
+¢
+
+@ <
+
+¢
+
+©eeo o0o0
+
+Hidad 8 40VdS
+
+YAGNOdSNVUYL
+
+Code Series: C or UM 1001-3500
+
+Bow SPACING Tip
+799 | 705 | 610 | 516 | 421 | .327 | 232 | 138
+Sieg | 901-4 +6 6 | 7 ae.
+
+INTERNAL
+2-TRACK
+
+continued - HK-15 SECTION
+
+NOTES: The RIGHT track is the one with the cuts. The left track is only a guide track.
+
+Pre-cut the right track to all number one depths and you will have the clearance it
+
+needs to work in the locks.
+
+DEPTHS
+
+1=.150
+
+2 = 138
+
+3=.118 =
+
+4=.098 PS
+
+5 = .079 2
+So
+3
+
+Chip Information & Notes
+
+Chip: Integrated Circuit Board
+
+Reusable: No (Must be unlocked)
+
+No Cloning for this Proximity System
+
+> Mike's Tip: PIN CODE is Required for Programming. Test key is HY18-R
+
+Programmer & Diagnostic Tools
+
+GDS or
+J2534 &
+
+Factory Tool
+
+PIN CODE
+REQUIRED
+
+Supscription
+
+(v TCODE/MVP. PRO
+
+(v TDB1000
+
+¢ HOTWIRE
+
+(v SMART PRO
+
+[v AUTO PRO PAD
+
+¢ AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+‘Decoders: | Determinator: n/a Lishi: HY20R AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTE- Always check the trunk lock for ease of removal. Since Hyundai's & Kia's do not have codes
+on their locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the Boor lock.
+Method #3 ‘Disassemble Door or Trunk cylinder and decode wafers for a complete key.
+
+a;/oOoo *
+o/OO0 *
+11000
+
+e/ooo «|
+
+> Ignition*
+> Doors :
+> Trunk / Hatch*
+
+> G/B* (* if equipped)
+
+= ©1994, 2021 AutoSmart™ by Michael Hyde
+
+HYUNDAI = KIA - 37
+HK-16 SECTION a
+
+2013-17 Elantra ea ioe & GT ti (Hyundai) PROX
+
+-=5 or X 1001- -3500
+
+| sTVLE | carp# | (Tu
+
+KEYS >
+
+me Sec None
+> Models == a Frosdmity system. > Check with dealer for correct part # by VIN.
+Determinator: nla Lishi; HY20 AccuReader: na ‘FEZ Reader: n/a = oe wa
+
+> Mike’ s Tip: Proximity System Optional. PIN Codei is required: Test key is HYIB =
+
+> Elantra
+=tenge ETL
+
+| > Prox Fob: (2016- 17) 95440- A5310 (E Key 81996-A5020) FCC Info: SYS5MDFNA433 | 433, MHz
+
+> Prox Fob: (2013- 1) 95440- eee (E ey 81996-1R020) FCC Info: SYSHMFNAO4 | 315 MHz 7
+
+; Remote >
+
+= Veloster 2
+
+> Prox Fob: 95440- 2vi00 € Kya 81996- 1R020) FCC Info SYSHMENADA| 31 mie = 2s
+
+ELANTRA
+Coupe & GT
+
+95440-A53004X
+
+— $1996-A5020
+
+-VELOSTER |
+
+| DEPTHS | — f
+
+needs to work in the locks.
+
+NOTES: The LEFT track is the one with the cuts, The RIGHT track is only a guide track. :
+Pre-cut the LEFT track to all number one os and you will have the clearance it _
+
+5 =.079
+
+ee
+
+> = a= wap = | t= 450.4 -
+
+ss 799 | 705 | 610 | 516 | 421 | 327 | .232 | 438 | INTERNAL | 2=-138
+
+I 0 . —— STRACK | 3=.118— |—
+os 40 5 Ss |:« 4 = .098
+
+o 23 4 5 a=
+
+m
+
+a]
+
+|
+
+Be
+
+38 - HYUNDAI « KIA
+
+“ Ozosv-96618
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+sé 6 60:6 6:86
+
+peeanee eee eeee
+©o@e@8080 06006006 0 06 '0\0 @6 006 0,0 @ ¢
+
+¢
+
+continued - HK-16 SECTION
+
+| Chip Information & Notes _ == ees
+
+Chip: Integrated Circuit Board Reusable: No (Must be unlocked)
+
+> Mike's Tip: Key Programmer & PIN Code Required. Test key is HY18.
+
+cad
+A
+= No Cloning for this Proximity System
+5 Programmer & Diagnostic Tools : :
+Fal (Factory Tool
+Se = prone [v TCODE/MVP PRO [v TDB1000 (v HOTWIRE
+S GDS or Sanaa :
+J2534 & os 3
+Supscription [v SMART PRO (v AUTO PRO PAD (2 AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: Determinator: n/a Lishi: HY20 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+NOTE- Always check the trunk lock for ease of removal. Since Hyundai's & Kia's do not have codes
+: on their locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+
+Method #1 Check owner's manual for codes, written in by the dealer.
+_ Method #2 Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #3. __ Disassemble Door or Trunk cylinder and decode wafers for a complete key.
+
+: > Ignition
+O0/0/0|)0|0/0}|O;| @}> Doors-
+O/0}0|0) 0/0} 0} O)> Trunk / Hatch*
+O10 |] 0 }> G/B* (* if equipped)
+; 1}/2/3}4|5|6}7|8
+©1994, 2021 AutoSmart™ by Michael Hyde HYUNDAI = KIA - 39
+HK-17 SECTION
+
+- 2015-17 Azera (Hyundai 2015-19 Sonata (Hyundai
+
+= | : SME | MACS | AirBags | ign Retainer
+K or M 01-2500 for Sonata & Tucson ==
+MASTER =n. ao
+KEYS => G 01-2500 for Azera
+
+‘| None
+
+2 These models have a Proximity system. > Check with dealer for correct part # by VIN.
+
+Determinator:n/a ‘| Lishi: HY22. ‘| AccuReader: n/a__—_| FEZ Reader: nla _| Cobra: n/a
+
+ee > Mike’ s Tip: Proximity System, PIN CODE is Required for Programming, Door Test Key: TOY40 or TOY48
+
+: 2014-21 Tucson (Hyundai) sf
+
+> Mike's Tip: Dealer code may have “2” or "N’prefix. Look up with "M” or "K’ prefix. Example: M1241 or -K1234 3
+
+>Azera | > Prox Fob: 95440-3V022 (E Key 81996-3V040) FCC Info: SYSDMFNA433 | 433 MHz
+
+| > Prox Fob: (2018-19) 95440-C2500 (E Key 81999- 25040) FCC Info: CQ0FD00120 | 433 MHz
+
+> Sonata | > Prox Fob: (some 2018) 95440- -CIBOONNA (E Key 81999- 25040) FCC Info: €Q0FDO0120 | 433 MHZ
+
+> Prox Fob: (2015-17) 95440-C1000 (E Key 81999-25040) FCC Info: CQ0FD00120 | 433 MHz :
+
+Proximity > Prox Fob: (2018) 95440-CIS0ONNA (E Key 81999-2040) FCC Info: CQOFD00120 | 433 MHz _
+
+> Sonata
+Remote
+
+info <> | Hybrid | prox Fob: (2016-17) 95440-CIOOONNA (E Key 81999-28040) FCC Info: CQOFDO0120|433MHz
+> Prox Fob: (2019-21) 95440-D3510 (E Key 81996-D3300) FCC Info: n/a | 433 MHz
+
+> Prox Fob: (2018) 95440- D310 (E Key 81996- -03300) FCC Info: TQ8- FOB- afl | 433 MHz
+
+pe5oeaeeoeeoeee ©
+
+> Tucson
+== > Prox Fob: (2016-17) 95440- -D3IOONNA (E Key 81996-D3300) FCC Info: TQ8- FOB- -4F07 | 433 MHz
+
+> Prox Fob: (2014-15) 95440-25600 (E Key 81999-25040) FCC Info: TQ8-FOB-4F03 | 433 MHz
+
+gsa4o-3v022 «81999-3040 ©—»s=«=S=SC«95440-CI000, CISOONNA, 61999-28040, 03300
+=e ae ~ (2500, D3TIO, DSIOONNA, 25600
+
+Code Series: K or M 01-2500
+
+“SPACING — DEPTHS
+
+: et = ae
+475 | 380 | .285 | 190 ==. | 2=.085
+: s - - —| INTERNAL | 3=.072 |
+4 2 ea 5 | 6 |  4TRACK | 4=.046 |
+
+667 | 570 | 475 | 380 | .285 | 190 | —
+
+Hid3ad 8 30VdS
+
+OO€Ed-96618
+
+Note: Spacing is measured from the tip. = = : =|.
+
+40 - HYUNDAI KIA = -  e AutoSmart™ by Michael Hyde
+
+6 6 60:6 6:06:68: 6
+YSQGNOdSNVUL
+
+continued - HK-17 SECTION
+
+Programmer & Diagnostic Tools
+
+Factory Tool :
+soe FINGODE | | TCODE/MVve PRO| |v TDB1000 2? HOTWIRE
+REQUIRED | |" ~~
+GDS or Some
+| J2534 & ==
+| Supscription (v SMART PRO (2 AUTO PRO PAD (> AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: H¥22  - AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+© 0.8: 0):0 @ 0:00, 0 :-@..4
+
+_IMPORTANT NOTES: =
+1) Always check the trunk lock for ease of removal. Since Hyundai & Kia do not have codes on their
+locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+2) Some door cylinders have a clutch type lock cylinder, the trunk does not.
+3) The Door & Trunk cylinders all use split tumblers with numbers on them.
+4) Some Door & Trunk cylinders have drill guards in the cylinder plugs. _
+
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 —_ Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #3__—Disassemble Door or Trunk cylinder and decode wafers to make master key.
+
+@9@eeoeeee2e9o 6 @ «
+
+IGNITION _ DOOR & TRUNK : GLOVE BOX
+: | 6 = |6 rs] 6 |
+5 | = |5/| 5| =
+4 = |4| = 4 45-
+is = |3| @ 3
+= oe = |2| o 2
+— = = /|1| @ }1
+L> =k a R L R
+=| = |
+©1994, 2021 AutoSmart™ by Michael Hyde S20 HYUNDAI = KIA - 41
+
+HK-18 SECTION
+
+MASTER
+
+2018- 21 Kona ee 2020-21 Venue (Hyundai)
+
+B, D, G, H, K 1-3000 n/a
+
+| ma | macs | Startcut | cuttocut | AirBags | Ign Retainer
+
+KEYS >
+
+> Some models have a Proximity system. > Check with dealer for correct part # iy VIN.
+
+Determinator: n/a
+
+Lishi: K5 AceuReader: n/a EEZ Reader: ‘nla Cobra: n/a
+
+More info
+res
+
+> Mike's Tip: 1) Proximity or Non-Transponder System (USA models) > PIN CODE is Required for Programming.
+
+2) New Codes Series and new keyway. 8 cuts, Centermill H/S. Test key is ILCO KKI2-P, —
+3) Some models with a keyed ignition - may or may not have a transponder system.
+
+> Kona :
+(Prox)
+
+> Prox Fob: 95440-19000 a od! 81996-19020) FCC info: T08- FOB-4F18|433MHz
+
+> Prox Fob: 95440-19001 (E Key 81996- 49020) FCC Info: 708-FOB-4F18 | 433 MHz
+
+> Prox Fob: 95440-19010 (Iron Man) (E Key 81996-19020) FCC Info: 108-FOB-4F18 | 433 MHz
+
+> Prox Fob: 95440-19400 (E Key 81996-19020) FCC Info: n/a | 433 MHz
+
+> Kona
+Key Ign
+
+> RMT Flip Key: 95430-19500 (Blade 81996-19000) FCC Info: OSLOKA-450T | 433 MHz
+
+@pAH [PBYIN - [Z0z 1YBuAdoD
+
+> Venue
+(Prox)
+
+> Prox Fob: 95440-K2400 (E Key 81996-}9020) FCC Info: SY5IGFGE04 | 433 MHz
+
+> Venue
+Key Ign
+
+> RMT Flip Key: 95430-S2100 (Blade 81996-1000) FCC Info: n/a | 433 MHz
+
+KONA
+
+95440-19000 : 95430-J9500 81996-19000
+
+VENUE
+
+~ 81996-S1000
+
+81996-19020
+
+95430-S2100
+
+95440-K2400
+
+42 - HYUNDAI =
+
+KIA - a ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeoueveeeeoeaeoeoaeeaeeeeeee 6
+C
+
+eo 0 @¢«
+
+(
+
+ee 602604 ®9e © 60 <
+
+¢
+
+Code Series: B, D, G, H, K or 1-3000
+
+continued -HK-18 SECTION
+
+Hidad 8 30VdS
+
+paw SPACING Tip DEPTHS
+1=.047
+: : 2=-,071
+799 | 705 | 610 | .516 | 421 | 327 | .232 | 438 | INTERNAL| 3=.094
+MILLING 4= 118
+5 = 142
+
+1422-2 3 4 5 6 FE 8°
+
+Note: Spacing is measured from the tip.
+
+Chip Information & Notes
+
+Chip: Integrated Circuit Board
+
+Reusable: No (Must be unlocked)
+
+> Mike's Tip: Key Programmer & PIN Code Required. Test key is ILCO KK12-P
+
+No Cloning for this Proximity System
+
+Programmer & Diagnostic Tools
+
+(? TCODE/MVP PRO
+
+(> TDB1000
+
+(2 HOTWIRE
+
+YAGNOdSNVAL
+
+Factory Tool | ( PIN CODE
+RED
+GDS or Pg oo
+fee = Yes
+Supscription
+
+( SMART PRO
+
+(2 AUTO PRO PAD (2 AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: Ks AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTE- Always check the trunk lock for ease of removal. Since Hyundai's & Kia’s do not have codes
+on their locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #3 Disassemble Door or Trunk cylinder and decode wafers for a complete key.
+
+* | *| *2.= 6 Ignition*
+O/}08|0O}0]|> Doors
+O|0O}0 |) > Trunk / Hatch*
+G] LG: 42s By > G/B*
+
+SENG EE bs (* if equipped)
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+HYUNDAI = KIA - 43
+HK-19 SECTION
+
+MASTER
+
+2019-21 Palisade (tiyundai)
+
+2019-21 Santa Fe (KEY) : 2019-20 Santa Fe (PROX) =
+
+CODES AirBags | Ign Retainer
+
+S 1-2500
+
+STYLE
+High Sec
+
+m# | Macs | Startcut | cuttocut |
+
+n/a n/a n/a n/a Yes nla
+
+KEYS >
+
+> Some models have a Proximity system. > Check with dealer for correct part # by VIN.
+
+Lishi: K5
+
+Determinator: n/a AccuReader: n/a |EEZReader: n/a ——‘| Cobra: n/a
+
+More Info
+
+> Mike's Tip: 1) Proximity or Non-Transponder System (USA models) > PIN CODE is Required for Programming.
+
+= 2) New Codes Series and new keyway. 8 cuts, Centermill H/S. Test key is ILCO KKI2-P, —
+3) Some models with a keyed ignition - may or may not have atransponder system. =
+> Prox Fob: 95440-S8010 (5 Btn) (E Key 81996-$1020) FCC Info: T08-FOB-4F29 | 433 MHz _
+> Palisade SS SS
+roy): 4S Pro Fob: 95440-S8310 (4 Btn) (E Key 81996-$1020) FCC Info: TQ8-FOB-4F19 | 433 MHz
+i evar > RMT Flip Key: 95430-S8400 (Blade 81996-S1000) FCC Info: TQ8-RKE-4F41 | 433 MHz
+> samer : =a eae
+if Fron) © | > Prox Fob: 95440-$2000 (E Key 81996-S1020) FCC Info: T08-FOB-4F19 | 433 MHz
+» Sante Fe | RMTFlip Key: 95430-2100 (4 Btn) (Blade 61996-S1000) FCC Info: T08-RKE-4F39 | 433 MHz PE
+Keylgn | . RMT Flip Key: 95430-2300 (3 Btn) (Blade 81996-S1000) FCC Info: TQ8-RKE-4F41 | 433 MHz
+PALISADE
+95440-8310 95440-8010 —«81996-S1020
+SANTA FE :
+95440-2000 -«-81996-S1020. -««—=—=«=*«BO-SZIOO © —81996-$1000
+
+44 - HYUNDAI KIA Se ee
+
+©1994, 2021 AutoSmart™ by Michael Hyde.
+
+peeonoeeoeeoaneese
+
+ae
+
+pe@ee0e0 8
+90206 «€
+
+e «
+
+¢
+
+eeee-
+
+¢
+
+®©e0 @@\@ ¢
+
+Code Series: $ 1-25006
+
+138 | INTERNAL
+MILLING
+
+Note: Spacing is measured from the tip.
+
+eZ) :
+
+= Bow SPACING Tip
+ol
+
+iti :
+
+Qo 799 105 610 -516 421 2r 232
+
+oO
+
+fe 1 2 3 4 5 6 Ez 8
+= i
+
+continued - H
+
+DEPTHS
+1=.079
+2 = .098
+3=.118
+4=.138
+5= 157
+
+K-19 SECTION
+
+Chip Information & Notes
+
+Chip: Integrated Circuit Board
+
+Reusable: No (Must be unlocked)
+
+> Mike's Tip: Key Programmer & PIN Code Required. Test key is ILCO KK12-P
+
+No Cloning for this Proximity System
+
+Programmer & Diagnostic Tools _
+
+YAGNOdSNVUYL
+
+_Factory Tool PIN CODE
+
+i IE
+J2034 & Yes
+Supscription
+
+(? TCODE/MVP PRO (2 TD
+
+B1000
+
+(2 HOTWIRE
+
+(v SMART PRO
+
+€ AUTO PRO PAD
+
+(> AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: K5 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+~ Method #1 Check owner's manual for codes, written in by the dealer.
+
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #3
+
+Disassemble Door or Trunk cylinder and decode wafers for a complete key.
+
+a/ooo «|
+e/ooo «
+Iw/ooo «
+e/Oooo «
+
+> Ignition*
+
+> Doors
+
+> Trunk / Hatch*
+> GZB*
+
+(* if equipped)
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+HYUNDAI = KIA - 45
+
+HK-20 SECTION
+
+2021 Elantra 4Dr tn) 2020-21 Sonata (KEYED) (Hyundai) | 2022 Tucson (KEYED) (Hyundai)
+
+| stv | card# | iti# | macs | Startcut | Cuttocut | AirBags
+
+B, D, G, H, K
+
+| ign Retainer Ee
+
+MASTER | hi =f “nie
+E ns 1-3000 _ High Sec nla
+KEYS > = Pee
+> Some models have a Proximity system. > Check with dealer for correct Pe # by VIN.
+Determinator: n/a - Lishi: K5_ | AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+More Info
+
+> Mike's Tip: 1) Proximity or Non- Transponder System (USA models) > PIN CODE is Required for Programming,
+aa oe - 2) New Codes Series-and new keyway. 8 cuts, Centermill H/S. Test key is ILCO KKI2-P.
+3) Some models with a keyed ignition - may or may not have a transponder system.
+
+pin E Prox Fob: 95440-AA0O0 (5 Bin) (E Key 81999-63020) FCC: NYOMBECSFOB2004 | 433 MHz
+Hae > Prox Fob: 95440-AA100 (4 Bin) (E Key 81996-G3020) FCC: NYOMBEC5F0B2004 | 433 MHz _
+> Elantra 4Dr | . pwr Flip Key: 95430-AA000 (Blade 81996-13001) FCC Info: NYOMBEC4TX2004 | 433 MHz
+Remote (Keyed) : : : : E
+a ea =e wee
+(Keyed) _ |” RMTFlip Key: 95430-L1000 (Blade 81996-L1100) FCC Info: 108-RKE-4F40 | 433 MHz
+> RMT Flip Key: 95430-N9010 (Blade 81996-13001) FCC Info: n/a| 433 MHz
+> Tucson : = Ss = =
+(Keyed) | RMT Flip Key: 95430-N9040 (Blade 81996-13001) FCC Info: n/a | 433 MHz
+ELANTRA _
+zat > =
+~ -95440-AAI00 81996-63020 95430-AAI00 «81996-13001.
+— SONATA | - TUCSON.
+95430-L1000 —-81996-LT100 95430-11000 81996-L1100
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+46 - HYUNDAI= KIA |
+
+eee
+
+—Ppeeen5uae5a5eeaee4eeneeeeed
+(
+
+0 © @ <
+
+oe 080 06 @ <
+
+¢
+
+continued - HK-20 SECTION
+
+Code Series: B, D, G, H, K or 1-3000 :
+” DEPTHS
+Uv Bow SPACING Tip
+Ds 1=.047
+2) = 2=.071
+me 799 | 705 | 610 | 516 | 421 | .327 | .232 | 138 INTERNAL | 3=.094
+
+MILLING | 4= 418
+~ : 5= 142
+ae 1 | 2] 3] 4 So 7 a:
+= Note: Spacing is measured from the tip.
+Chip Information & Notes :
+Chip: Integrated Circuit Board Reusable: No (Must be unlocked)
+pa) > Mike's Tip: Key Programmer & PIN Code Required. Test key is ILCO KK12-P
+Ps)
+= No Cloning for this Proximity System
+4 Programmer & Diagnostic Tools eee
+=
+Factory Tool : :
+iw) a aie (? TCODE/MVP PRO (2 TDB1000 (2 HOTWIRE
+= GDS or ==
+J2534 & ¥,
+Supscription ee (? SMART PRO (2 AUTO PRO PAD € AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+Decoders: | Determinator: n/a Lishi: K5 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTE- Always check the trunk lock for ease of removal. Since Hyundai's & Kia's do not have codes
+
+on their locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #3 Disassemble Door or Trunk cylinder and decode wafers for a complete key.
+
+ee oo .<
+
+¢
+
+¢
+
+5 ae ee > Ignition*
+©} |0/}O {> Doors
+0/0} 0 | O|> Trunk / Hatch*
+0 | O Hee > G/B*
+5161718! eit equipped)
+©1994, 2021 AutoSmart™ by Michael Hyde HYUNDAI = KIA - 47
+HK-21 SECTION
+
+2019-21 G70 (Genesis)
+
+CODES | stvie | caRD# |
+
+| ms | macs | Startcut | cuttocut | AirBags | ign Retainer
+
+MASTER
+
+| 1, U or X 01-2608 - None
+
+KEYS >
+
+> These models have a Proximity system. > Check with dealer for correct part # by VIN.
+
+Determinator: n/a Lishi: K9 | AccuReader: n/a EEZ Reader: ola Cobra: n/a
+
+More Info |; Mike's Tip: 1) Proximity System, PIN CODE is Required for Programming. Test key is modified TOY48.
+Bs 2) New Codes Series and new keyway. 7 cuts, 4 on left track and 3 onrighttrack.
+(Some factory keys may have a groove down the center apd some Tay not.)
+
+>G70 =| > Prox Fob: 95440-69000 (E Key 81996- 69000) FCC Info: T08- FOB- 4Fi6 | 433 MHz
+Proximity
+Remote | > G80 - | > Prox Fob: 95440-D2000BLH (E Key 81996- B1500) FCC Info: SYSHIFGEO4 | 433 MHz
+Info > :
+5690  _| > Prox Fob: 95440-D2000NNB (E Key 81996-D2000) FCC Info: SYSHIFGEO4 | 433 MHz
+
+SS
+
+95440-D2000BLH, D2000NNB __ 81996-B1500 81996-D2000
+
+Code Series: | or U 01-2608
+
+<M Bow =o SP =p | = EO SETHS
+
+————— —— + tee
+
+O ey 291 “p26 (=~ 2=.083 | :
+
+SS $e NESNAL | 3 =.0883 a
+
+me 1 | 2 | 3 kes Ss | 8] 7 |-4mmcK | 4=.083 S
+
+=: - = 2 | §=.024. |. ?
+== 22 22 == ==
+
+= 539 374} | 20a | = =s =—5
+
+el : = = = E =
+
+be oO
+
+Note: Spacing is measured from the tip.
+
+Chip Information & Notes
+
+Chip: Integrated Circuit Board — Reusable: No (Must be ae
+
+> Mike's Tip: Key Engranmes & PIN Code Required Test Hey is modified TOY48.
+
+oi
+2)
+>
+=
+a
+es
+(2)
+=
+0
+m
+a
+
+No Cloning for this Proximity y System
+
+48 - HYUNDAI + KIA
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeecoaeeoeeoeeoeeeeeeeeee
+C
+
+¢
+
+continued -HK=21 SECTION
+
+Programmer & Diagnostic Tools ses =) = ee : — 2
+
+"Factory Tool ==
+teased Aiea Ecole ? TCODE/MVP PRO ? TDB1000 ? HOTWIRE
+REQUIRED
+GDS or | oe
+J2534 & Yes
+‘Supscription (? SMARFEPRO [? AUTO PRO-PAD (> AUTEL IM608
+
+e0a ea 8 eo0eo5a2e 8 eee8e 6 ¢
+
+eee
+
+YAQNOdSNVYL
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks, ©
+
+Decoders: Determinator: n/a_ Lishi: K9 — AccuReader: n/a FEZ Reader: n/a Cobra: n/a
+
+Note: This anew keyway with 4 cuts on the Left track and 3 cuts on the Right track.
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #2 Disassemble Door or Trunk cylinder and decode wafers to make working key.
+
+Method #3 Disassemble Glove Box cylinder and decode wafers to make working key. Depending on
+
+the type of glove box cylinder you may need to progression some cut positions fora
+working key.
+
+LEFT (RIGHT LEFT (RIGHT LEFT () RIGHT LEFT () RIGHT LEFT () RIGHT
+
+4 3 4\x xa 4|x xis 4'x x 3 4|x x13
+6 COG x xX =| x x E
+=— ae xf2 : Xj2i- +2 x% E? : x fe
+ZA: 2|x : 2{ x 2) X 2
+1 = = = 2a 1 | T| x} * 1 4 ty bX A ae 1
+IGNITION DOOR TRUNK GLOVE BOX GLOVE BOX
+
+(none) = (if equipped) A B
+
+How to modify a TOY48 to work as a test key. First cut the key on a computerized key
+machine. Then file off the side milling to make the key flush on the side.
+
+TOY48 with side milling side milling removed— -
+with flat file
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+HYUNDAI = KIA -
+
+49
+
+HK- 22 SECTION
+
+MASTER
+— KEYS >
+
+2022 GV70 (Genesis) 2021 Gv80 (Genesis) =
+
+| stve | carpe | me |
+
+[| Uorx —— = None
+
+MACS Start Cut | Cut to Cut Air Bags | ign Retainer E
+
+> These models have a Proximity system, > Check with dealer for correct part # us VIN.
+
+Determinator: na Lishi: K9 ‘AccuReader: nia _| EEZ Reader: n/a Cobra: n/a
+= | > Mike’s Tip: 1) Proximity System, PIN CODE is Required for Programming. Test key is modified TOY48.
+: 2) New Codes Series ands new w keyway. 7 cuts, 4 on fa track and 3 on right track.
+_| > Prox Fob: 95440- AROOO (E vel 81996-AR000) FCC Info: n/a | 433 MHz
+Proximity ey |? Prox Fob: 95440-AROIO (E Key 81996-AR000) FCC Info: nia | 433 MHz
+ae pee ~ fe Prox Fob: 95440-T601 (E Key 81996-16000) FCC Info: n/a|433MHz
+= > = = = =
+
+> Prox Fob: 95440-6100 (E Key 81996-T6000) FCC Info: n/a | 433 MHz
+
+DEPTHS
+
+1=.102 |
+2=.083
+SS 3 = .063
+yo5 | 3 4 | 4=.043
+ass = 5 =.024
+939 3374 =| 209
+
+Hidad 8 30VdS
+
+Note: Spacingismeasuredfromthetip, = a coe
+
+Chip Information & Notes
+
+Chip: Integrated Circuit Board
+
+=e Reusable: No SMG unlocked) -
+
+» Mike's = Key = & PIN Code focied: Test key is modified TOY48.
+
+=
+e)
+>
+2
+n
+U
+oe)
+=
+Go
+m
+a
+
+No Cloning for this Proximity system
+
+50 - HYUNDAI - KIA =
+
+©1994, 2021 AaieSmart™by Michael a=
+
+e ©
+
+peecooaeeeeeeee
+
+»p@e050eee 8
+©9ee 0620060060000 6 6
+
+o90eeeoeoeee#ees
+
+continued - HK-22 SECTION
+
+=a Programmer & Diagnostic Tools =
+__( Factory Tool
+Zz Ss os PN ia : 7? TCODE/MVP PRO ? TDB1000 2? HOTWIRE
+“a REQUIRED :
+a GDS or tare
+Oo J2534 & = :
+S Supscription (? SMART PRO [? AUTO PRO PAD (> AUTEL IM608
+m = = =
+a ? = Check with your key programmer supplier to see if your vehicle is supported.
+Codes: | No codes on any locks.
+‘Decoders: | Determinator: n/a | Lishi: K9 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+— Note: This a new keyway with-4 cuts on the Left track and 3 cuts on the Right track.
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Disassemble Door or Trunk cylinder and decode wafers to make working key.
+Disassemble Glove Box cylinder and decode wafers to make working key. Depending on
+
+Method #3
+
+working key.
+
+LEFT () RIGHT _
+
+LEFT a RIGHT
+
+LEFT () RIGHT
+
+the type of glove box cylinder you may need to progression some cut positions for a
+
+LEFT () RIGHT LEFT () RIGHT
+
+as 3 @ xi 41x) x13 4lxlyl3 4|X1 x 3
+“<a z= Es] Xx 34x Ea | x 3|xE4=
+= x x12 =| ; X iz
+Ze 4s x 2|x 2\1x 42
+1 a La} x} ie atx 1 1
+IGNITION DOOR TRUNK GLOVE BOX GLOVE BOX
+(none) (if equipped) A B
+
+How to modify a TOY48 to work as atest key. First cut the key on a computerized key
+machine. Then file off the side milling to make the key flush on the side.
+
+TOY48
+
+_with side milling
+
+4
+
+side milling removed
+with flat file
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+HYUNDAI - KIA - 51
+HK-23 SECTION
+
+2020-21 Sonata (PROX)
+
+2020-21 Nexo (Hyundai) | 2021 Santa Fe (PROX) 2022 Tucson (PROX)
+
+CODES | ste | caro# | im# | macs | Startcut | cuttocut | AirBags | IgnRetainer
+
+MASTER | |, UorX 01-2608 | High Sec n/a nia | nla None
+
+KEYS > == =e = ==
+> These models have a Proximity system. > Check with dealer for correct part # by VIN. -
+
+Determinator: n/a Lishi: K9 AccuReader: n/a EEZReader: n/a _—=| Cobra: n/a
+
+MoreInfo |_ == : —_S == =
+= > Mike's Tip: 1) Proximity System, PIN CODE is Required for Programming. Test key is modified TOY48.
+
+_2) New Codes Series and new keyway. 7 cuts, 4 on left track and 3on right track.
+
+| > Prox Fob: 95440-M5000 (E Key 81996-M5000) FCC Info: 108-FOB-4F20|433 MHz
+
+> Nexo —
+
+: > Prox Fob: 95440-M5300 (E Key 81996-M5000) FCC Info: T08-FOB-4F20 | 433 MHz
+~ | > Prox Fob: 95440-$1560 (7 Btn) (E Key 81996-S1030) FCC Info: n/a | 433 MHz
+> Santa Fe ——— == =
+2s > Prox Fob: 95440-S1570 (5 Btn) (E Key 81996-S1030) FCC Info: n/a | 433 MHz
+| Proximity oe eee See ——___—
+Remote 2 =e > Prox Fob: 95440-L1010 (5 Btn) (E Key 81996-M5000) FCC Info: TQ8-F08-4F27 | 433 MHz —
+
+Info >
+
+> Sonata _| > Prox Fob: 95440-L1060 (6 Btn) (E Key 81996-MS5000) FCC Info: T08-F08-4F27 | 433 MHz
+| > Prox Fob: 95440-L1500 (7 Btn) (E Key 81996-M5000) FCC Info: T08-FO8-4F28 | 433 MHz
+
+|| > Prox Fob: 95440-N9070 (6 Btn) (E Key 81996-N9000) FCC Info: n/a | 433 MHz
+
+> Tucson
+
+_| > Prox Fob: 95440-N9080 (7 Btn) (E Key 81996-N9000) FCC Info: n/a | 433 MHz _
+
+95440-S1570
+
+Code Series: | or U 01-2608 EE
+
+SPACING — | DEPTHS
+— a to =Te102 |
++622 457 291 - | ae CO 2 = 083
+
+=== — | INTERNAL | 3=.063
+| e A4-TRACK 4= .043
+J —2 == 4 §=,024
+
+sos ee
+
+QOOSW-96618,
+
+Wael
+
+See
+
+539 | |. 374 : 209
+
+H1ld3d 8 30VdS
+
+Note: Spacing is measured fromthe tip. =
+
+52 - HYUNDAI = KIA
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+peee
+
+9600060060080 80
+
+peseeouvea0e0s
+@#e<0eeeo070o2e0200200080006000008004
+
+YAGNOdSNVYL
+
+Programmer & Diagnostic Tools
+
+continued - HK-23 SECTION
+
+Factory Tool : s :
+ae EISODE ? TCODE/MVP PRO| | ? TDB1000 ? HOTWIRE
+_ REQUIRED
+GDS or el ee :
+~~ J2534 & Yes g
+Supscription (? SMART PRO (> AUTO PRO PAD (2 AUTEL IM608
+? = Check with your key programmer supplier to see if your vehicle is supported.
+Codes: | No codes on any locks.
+Decoders: | Determinator: n/a Lishi: K9 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Note: This a new keyway with 4 cuts on the Left track and 3 cuts on the Right track.
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Disassemble Door or Trunk cylinder and decode wafers to make working key.
+Method #3 — Disassemble Glove Box cylinder and decode wafers to make working key. Depending on
+
+LEFT () RIGHT
+
+the type of glove box cylinder you may need to progression some cut positions for a
+working key. : :
+
+LEFT (() RIGHT LEFT) RIGHT LEFT () RIGHT LEFT () RIGHT
+
+4 3 41X1x]3 41x) x13 (| 4d x x|3 eX \x ia
+
+= == Es X iBed Z| x = 3 x :
+=E 25 x2 XK (2 Ee | x ie
+
+2 21x 2|x 21x 2
+
+1 SS Sx * |) 1} x{|*{! 4 }x1x}1 7 = 1
+
+IGNITION DOOR TRUNK GLOVE BOX GLOVE BOX
+(none) =A =]
+
+(if equipped)
+
+‘How to modify a TOY48 to work as a test key. First cut the key on a computerized key
+machine. Then file off the side milling to make the key flush on the side.
+
+%i
+
+side milling removed
+with flat file
+
+TOY48
+
+with side milling
+
+~ ©1994, 2021 AutoSmart™ by Michael Hyde
+
+HYUNDAI - KIA - 53
+‘HK-24 SECTION
+
+CODES
+
+— MASTER
+
+2018-21 Accent (Hyundai)
+
+- B, D,G, H, K
+1-3000
+
+_ 2018-21 Veloster (Hyundai)
+
+| ste | carp¢ | ms | macs | startcut | Cuttocut | AirBags | Ign Retainer
+
+‘High Sec” nla
+
+KEYS >
+
+> Some models have a Proximity system. > Check with dealer for correct part # by VIN.
+
+Determinator:
+
+>
+
+More Info | , Mike's Tip:
+
+na _ Lishi: K5 | AccuReader: n/a FEZ Reader: n/a — | Cobra: n/a
+
+1) Proximity or Non-Transponder System (USA models) > PIN CODE is Required for Programming.
+2) New Codes Series and new keyway. 8 cuts, Centermill H/S. Test key is ILCO KK12-P. =
+3) Some models with a keyed ignition - may or may not have a transponder system.
+
+> Accent
+(Prox)
+
+> Prox Fob: 95440-10100 (E Key 81996-H5020) FCC Info: NYOSYEC4FOB1608 | 433 MHz
+
+__ | > Accent
+Key Ign
+
+> RMT Flip Key: 95430-10700 (Blade 81996-H5001) FCC Info: NYOSYECATX1707 | 433 MHz
+
+Remote _| > Veloster
+— Info> (Prox)
+
+> Prox Fob: 95440-3000 (E Key 81999-63020) FCC Info: SYSIGFGEO4 | 433MHz -
+
+pee0eeaeeeeeede
+
+54 - HYUNDAI = KIA
+
+A reg N’ | > Prox Fob: (N model) 95440-K9000 (E Key 81996-G3020) FCC Info: SYSIGFGEO4 | 433 MHz
+heres > RMT Flip Key: 95430-13010 (Blade 81996-13000) FCC Info: SYSIGRGEO4|433MHz
+ACCENT
+_ VELOSTER
+95430-13010 81996-13000
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeeo5une5ue5u 6
+eo 6@e.
+
+C
+
+€
+
+¢
+
+Hidad 2 30VdS
+
+YSGNOdSNVUL
+
+Code Series: B, D, G, H, K or 1-3000
+
+continued -HK-24 SECTION
+
+Bow SPACING Tip DEPTHS
+1=.047
+i 2=.071
+799 | .705 | 610 | .516 | .421 | .327 | .232 | 138 | INTERNAL| 3=.094
+MILLING 4=.118
+5= 142
+
+11-2 ).3 Aoi 8 26 7 te
+
+Note: Spacing is measured from the tip.
+
+Chip Information & Notes
+
+Chip: Integrated Circuit Board
+
+Reusable: No (Must be unlocked)
+
+» Mike's Tip: Key Programmer & PIN Code Required. Test key is ILCO KK12-P
+
+No Cloning for this Proximity System
+
+Programmer & Diagnostic Tools
+
+Factory Tool :
+— oe ? TCODE/MVP PRO ? TDB1000 2? HOTWIRE
+REQUIRED
+GDS or ——
+J2534 & vex
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: K5 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTE- Always check the trunk lock for ease of removal. Since Hyundai's & Kia's do not have codes
+on their locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock.
+"Method #3 Disassemble Door or Trunk cylinder and decode wafers for a complete key.
+* |_© | * | [> Ignition*
+O|O0}0|O]> Doors
+O} 0 | | | > Trunk / Hatch*
+OB S| | 0 |> G/B*
+cd so as (* if equipped)
+©1994, 2021 AutoSmart™ by Michael Hyde HYUNDAI = KIA - 55
+Hie Secs = ee
+
+_ 2018-20 Elantra GT (Hyundai)
+
+2017-21 lonig (Hyundai)
+
+| STYLE
+
+'B,D,G,H, K_ : nik
+1-3000_
+> Some models have a Proximity system. > > Check with dealer for correct part. # by VIN.
+Determinator: ns | Lishi: Kb = aici na _ |EEZReader:- n/a — |Cobra: n/a —
+More Info |, Mike's Tip: 1) Proximity or Non Fanesudet System (USA aoe) > PIN CODE is Required jor ee
+ae 2) New Codes Series and new keyway. 8 cuts, Centermill-H/S. Test key is ILCO KKI2- De —
+3 No transponder system on Elantra GT models with keyed ignitions. =—-
+ae pie ar > Prox: sa OS Fenn FCC Info: ‘NYOSYECAFOBI608 ae :
+oo ay: 2 pee SES |; ne Flip Key: 95430-63100 (oad 81996-G3100, 63101) FCC: OSLOKA- sor] 433MHz
+Key Ign
+Remote
+* _--
+ae - > Prox: “(8/6 to 05/15/18) 95440- G2000 (E Key 81996- 62100) FCC: TQ8- FOB- cal r 433 MHz
+ee > Prox: (05/15/18-2019) 95440-62010 (E Key 81996-G2100) FCC: T08-FOB-4FI| 433 MHz
+a > Prox: (2020-21) 95440-62500 (E Key 81996-62100) FCC: T08-FOB-4FNI | 433MHz
+Elantra GT
+: 95440-63000 -—«81999-G3020 95430-63100 _81996-G3100, G3101__
+~ foniq.
+95440-62000, q2010 ——-81996-G2100
+— &G2500 : ==
+
+| caro¢ | im# | macs | Start Cut | cuttocut | Air Bags | Ign Retainer jm
+
+Bb HYUNDAGEKIA = == Se
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+DCCC CHOCO HOOC EC COC EOOOC ECE EO®S
+902 6€6,02@200 068006 <¢
+
+¢€
+
+Hidad 8 30VdS
+
+YSGNOdSNVYL
+
+Code Series: B, D, H, or K 1-3000
+
+continued -HK-25 SECTION
+
+cot SPACING DEPTHS
+1= .047
+: : 2= .071
+799 | .705 | 610 | .516 | 421 | .327 | .232 | 4138 | INTERNAL| 3=.094
+- : MILLING | 4=.118
+= 5 = 142
+12 =3 4 | 68 15 6: - 8
+
+Note: Spacing is measured from the tip.
+
+Chip Information & Notes
+
+Chip: Integrated Circuit Board
+
+Reusable: No (Must be unlocked)
+
+>» Mike's Tip: Key Programmer & PIN Code Required. Test key is ILCO KKI2-P
+
+No Cloning for this Proximity System
+
+Programmer & Diagnostic Tools
+
+Factory Tool
+. ya o ? TCODE/MVP PRO ? TDB1000 ? HOTWIRE
+; REQUIRED
+—GDS or —— :
+J2534 & Yes -
+Supscription : (? SMART PRO ¢ AUTO PRO PAD € AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator:n/a— — —| Lishi: K5 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTE-_ Always check the trunk lock for ease of removal. Since Hyundai's & Kia's do not have codes
+on their locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #3 Disassemble Door or Trunk cylinder and decode wafers for a complete key.
+=| =| * | * |> Ignition®
+O}0|0|O|> Doors
+O} GO|} ]> Trunk / Hatch*
+O0/0/0|0}|> G/B*
+pete (* if equipped)
+©1994, 2021 AutoSmart™ by Michael Hyde : HYUNDAI: KIA - 57
+HK-26 SECTION. Hi , pe Oe
+
+(PROX) 2014-20 0 Elantra ADr (Hund "(KEYED IGN) 2017-20 Elantra 4Dr (Hyundai)
+
+[ sTvuE | caRD# | ITL# | macs | Startcut | Cuttocut | AirBags | IgnRetainer
+
+Dbl Sided |
+
+H or M 01-2500 _ _ None
+
+> Some ° models have a Proximity system. > Check with dealer for correct part # by VIN.
+
+MASTER
+: Dealer Non-Transponder Key is 81996- 2000 or HY15 =
+
+KEYS >
+
+L Determinator: HYU5 = == |cishi Hise == AccuReader: Na | EEZReader: n/a z 5 n/a
+
+> Mike's Tip: 1) span or Non-Transponder System (USA models) > PIN CODE is Required for Programming le.
+= 2) No transponder system on teas models with keyed. ignitions. Test KeyisHYI5 =|
+
+> Prox Fob: (2019-20) 95440-F2002 (E Key 81996-84520) FCC Info: CA0EDO0120 | 433 MHz
+
+> Prox Fob: (2018) 95440-F2000 (E Key 81996-B4520) FCC Info: COOFDO0120 | 433 MHz
+
+> Elantra
+(Prox) | > Prox Fob: (2017) 95440-F3000 (E Key 81996-84520) FCC Info: CQOFDOOIZO | 433 MHz
+
+> Prox Fob: (2014-16) 95440-3X520 (E Key 81996- 84520) FCC Info: SYSMDFNA433 | 433 MHZ
+Elantra _| > Fob Remote: (2019-20) 95430-F2300SSH (HYIS Key) FCC Info: n/a | 433 MHz
+
+| Keylgn | , Fob Remote: (2017-18) 95430-F2300RDC (HYI5 Key) FCC Info: OSLOKA-423T | 433 MHz
+
+95430-F2300RDC, SSH 81996-2M000. +«=«-=S—=—=<i«é<C*«éAMO-F2000, 2002, 3000 81996-84520
+
+pee5eoeeeeeeeee
+
+Code Series: H or M 01-2500
+Bow = = ~ SPACING
+
+DEPTHS
+
+no : : ——— = 1=:325-
+= 1 === 3 422 S-7 6 ff (228 2=.305 ==
+5 Sears = 22265)
+om 768 | 685 | 602 | 520 | 438 | .355 | 273 | 190 | cutto | 4=.266
+E 00 : = = == = == == == Cut 5 = .246
+fo 2 CHPC Curtis Clipper | Pak-A-Punch ITL —|— 2083 —
+oT E
++ =
+ao
+
+C236" “na se==| = fla na
+
+000WZ-96618
+
+NOTES: * Start with cut position 3 for HPC Card CF235 ==
+
+58 - HYUNDAI - KIA = 262 2 7. ©1994, 2021 Aue ere bide Hyde.
+
+peeev5ueees
+
+@#eoe @20006068060 062006
+
+¢
+
+¢
+
+continued - HK-26 SECTION
+=chininformation& Noles = == = =e =e ==
+
+Chip: Integrated Circuit Board 3 Reusable: No (Must be unlocked)
+Ea] > Mike's Tip: Key Programmer & PIN Code Required. Test key is HY15.
+A
+= No Cloning for this Proximity System
+= Programmer & Diagnostic Tools :
+fe)
+za Factory Tool
+ie] eae ata ee — |? TCODE/MVP PRO -? TDB1000 ? HOTWIRE
+REQUIRED
+2 GDS or aa ee
+— J2534 & ¥
+Supscription 8 (? SMART PRO (2 AUTO PRO PAD (2 AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: HYU5 Lishi: HY15 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+NOTE- Always check the trunk lock for ease of removal. Since Hyundai’s & Kia's do not have codes
+= on their locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #3 Disassemble Door or Trunk cylinder and decode wafers for a complete key.
+
+aS) * | * q se : (* if equipped)
+- = = = > Trunk / Hatch*
+olololoP G/B*
+5|6|7/8
+5=1 at
+TIP: If you see a number on the tumblers, it is 4=2 % = 4
+usually opposite of what it is supposed to be. 3=3 (or) —
+2= =
+l= ; daw
+©1994, 2021 AutoSmart™ by Michael Hyde HYUNDAI KIA - 59
+meas = (Kia) = (Hyundai) (Hyundai) a=
+2006-H1 Azera 2G0SH Borrego | _9009-tLGenesisaur 2 = 20/4 Sonata
+Optional Transponder = = Optional Transponder
+
+MACS | Start Cut Cut to Cut | Ign Retainer
+
+CODES | stve | carpe | me Air Bags
+
+| KG or G 1-2500 :
+_ 31-2500 HighSec | n/a n/a | na Yes Active
+= HK or K1-2500 | — - : : =|
+MASTER NATIONAL: KEVLINE: ICO: Se staarrec: | DEALER: —
+: 5 HY20-PT = Se= ~ HY20-PT = ig TPI2ZHY-18,P._ n/a — 81996-3L010
+KEYS : = —— a
+Determinator: n/a Lishi: HY22 AccuReader: n/a  EEZ Reader: n/a Cobra: n/a ;
+; 1) Transponder system. PIN Code is required. Test key is TOY40 / TOY48
+> Mike's Tip: | 2) Dealer code may have ‘T’ or'N" prefix. Substitute with "HK" or a Ste) = =| =
+: ___ | 3) Transponder System Optional on Borrego & Sonata models.
+>Azera_| > Fob Remote: 95430-31022 (2006-11) FCC Info: SYS5WY8212 | 315 MHz :
+|>Borrego —_| > Fob Remote: 95430-2/200 - FCC Info: SV3HMTX| 315 MHz —— :
+> Fob Remote: 95430-3M201 (04/08-04/10) FCC Info: SYS5WY8212 [315 MHz
+> Genesis 4 Dr == =e 2 = 2a — 2
+a : -|> Fob Remote: 95430-3M202 (04/10-12/11) FCC Info: SYS2NDFNA04 | 315 MHz_ a
+ae > Fob Remote: 95430-30000 or ILCO# RKE-HYUN-4BI (12/09-08/10) FCC: OSLOKA-950T | 313 MHz
+
+> Fob Remote: 95430-30001 or ILCO# RKE-HYUN-4BI (08/10-05/14) FCC: OSLOKA-950T | 313 MHz
+
+> Sonata _| > RMT Flip Key: (2015-17) 95430-C1010-Rmt, 81996-2S020-Blade - FCC Info: TO8-RKE-4FI6 | 433 MHz
+
+> RMT Flip Key: (4/17/17-6/23/18) 95430-C1210-Rmt, 81996-D3000-Blade - FCC Info: 1Q8-RKE-4F25 | 433 MHz |
+
+peeaeeeeeeede
+
+| > RMT Flip Key: (06/23/18+) 95430-C2710-Rmt, 81996-D3000-Blade -FCC Info: n/a|433MHz |
+
+95430-31022, 3M201,202 95430-21200 -—«-95430-30000,001 —-—=—« 81996-25020 95430-cln10, C120, c2210 |
+
+Code
+
+Series: E, G, H, K or ) 01-2500 ==
+— == | DEPTHS
+
+Hild3d 8 30VdS
+
+Bow. SPACING _
+oe: -1=.118
+.667_ | .570 475 .380 2852) 380-7 = = 22 2=.095 —
+: = © EEE EEE - INTERNAL | 3=.072 |
+1 31-4 | 4 5b. 6 |= TRACK 4=.046 |
+667 | 570 | .475 | 380 | .285 | «90
+
+Note: Spacing is measured from the tip.
+
+60 - HYUNDAI: KIA
+
+peeevoneees
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+©0808 © 0@ 006 0@ 0'|0,00 ¢
+
+(
+
+¢
+
+YIGNOdSNVUL
+
+continued - HK=27 SECTION
+
+ChipInformation& Notes $= |
+
+Transponder: Optional on Borrego/Sonata Chip: Philips 46 HT2 Reusable: No
+
+Cloner Machine Information
+
+(DIAG BOX) ( CHINA) (ILCOISILCA) ( JMAUSA ) ( KEYLINE ) (LD. ) (Scorpio ) (| wol_)
+Goi CN900 RW4 TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+Yes fv] Yes ‘Yes 2 MI Yes 2 M] Yes':2 M1 Yes!:2 M1 Yes! M7] Yes
+Green Chip CN3 & GTI Chip & TPX4& FK100 & TPX4 & TPX4 & VVDI Chip &
+& Shell HYN Shell | | HYNShell | | HYN Shell HYN Blade HYN Shell HYN Shell HYN Shell
+
+“4 - May require Internet Access to complete cloning. *2 - Requires Philips Crypto Update. _*3 - Requires Texas Crypto update.
+
+Programmer & Diagnostic Tools = ee
+
+Factory Tool ==
+ee | EM COE Y TCODE/MvP PRO| |v TDB1000 V HOTWIRE
+REQUIRED
+GDS or EOURED
+J2534 & v -
+Supscription (v SMART PRO (v AUTO PRO PAD € AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders:
+
+Determinator: n/a Lishi: H¥22 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+IMPORTANT NOTES: :
+1) Always check the trunk lock for ease of removal. Since Hyundai & Kia do not have codes on their
+
+locks it
+2) Some d
+
+may be easier to remove the trunk lock and decode the tumblers in the lock.
+oor cylinders have a clutch type lock cylinder, the trunk does not.
+
+3) The Door & Trunk cylinders all use split tumblers with numbers on them.
+4) Some Door & Trunk cylinders have drill guards in the cylinder plugs.
+
+Method #
+Method #
+
+Method #
+
+1 Check owner's manual for codes, written in by the dealer.
+
+2 Use a Lock Decoder/Reader tool to decode the door lock.
+
+3 Disassemble Door or Trunk cylinder and decode wafers to make master key.
+IGNITION DOOR & TRUNK GLOVE BOX
+=m |6| = = |6/| @ 6| =
+a 5 = @ 5 _ 5 i
+
+“5 -|4| «= me |4/ @ eee |
+me fo -@ s (2 3
+a i2 oe = (2| @ 2
+
+=m ti) 6 | 1 a A
+L R E R L R
+
+=
+
+©1994, 2021 Auto:
+
+Smart™ by Michael Hyde = HYUNDAI - KIA - 61
+HK-28 SECTION
+
+= = 2004-09 Amanti (Kia) _
+
+| stve | carpe | im# | macs | Startcut | cuttocut | AirBags | Ign Retainer
+
+L 01-1000 High Sec n/a n/a n/a Active
+2007-09 NATIONAL: uo |): =| MA: STRATTEC: DEALER:
+Amanti models KK9-PT KK9-PT nla — TPI2KI-9.P =| nla 81996-3F050
+sar 2004-06 | NATIONAL: TCO: JET: JMA: | __ STRATTEC: DEALER:
+2 _|_Amanti models KK7-PT KK7-PT n/a —— | TPI9KI-9,P n/a _| —81996-3FAI0
+Determinator: n/a Lishi: TOY40 — AccuReader: n/a EEZ Reader: nla : Cobra: n/a
+2 =e Tie: Transponder System. Different Chip is used between the two model < =|
+PY | PIN Code is required. Test key is TOY40 / TOY48__
+2S Fob Remote: 95430-3F300 (09/29/03- -11/05/04) FCC Info: KR55WY8404 315 MHz
+ARR > Amanti > Fob Remote: 95430-3F301 (11/05/04-06/30/06) FCC Info: KR55WY8404 | 315 MHz
+= > Fob Remote: 95430-3F350 (10/30/06+) FCC Info: SY55WY8412 | 315 MHz
+
+Code Series: L 01-1060
+
+Bow SPACING - Teo DEPTHS
+= =. | 5S=.118
+890 | .795 | .700 | .606 | 512 | .417 | 323 | .228 4=.094
+
+______| Internal | 3 =.071
+=o 4-TRACK | 2 = .047
+
+Hiddad 8 30VdS
+
+-eevaeeeeeoeoeeeeeeeeee
+
+2.) 23 ee E
+== =o =a 1=.027
+890 795-= ~700 606 O42 4= Al? 2323 | 226
+Note: Spacing is measured from the tip.
+(BB Programmer & Diagnostic Tools —— : = :
+Ps = 2 =
+Factory Tool | == :
+aq (Factory Tool Se a TCODE/MVP PRO| [? TDB1000~—s«édS (v HOTWIRE
+wn ED | 5 Be =
+ee GDS or Soa ccn onesies : : = z :
+S) J2534 & © Yes sa
+cs Supseription [v sware PRO @ AUTO PRO PAD (7 AUTEL IM608
+m - = ==
+a ? = Check Te vor key programmer supplier to see 2 your vehicle is supported.
+
+62 - HYUNDAI « KIA = 35 = ©1994, 2021 AutoSmart™ by Michael Hyde
+
+)
+oe @€@€ 008 © 00 @ ¢
+
+C
+
+eeeoen
+
+YAGNOdSNVUYL
+
+Cloner Machine Information - 2007-09 Models (PH 46) _
+
+continued - HK-28 SECTION
+
+(DIAG BOX) ( CHINA ) (ILCO/SILCA) ( JMAUSA ) ( KEYLINE \(  L.D. ) ( SCORPIO \( wo!)
+em CN900 rw4__| |TRs-s000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+M1 Yes M1 Yes Mi Yes 2 - Yes? || pyYest2 M1 Yes? MI Yes! M1 Yes
+Green Chip | | _CN3 & GTIChip & TPX4 & TK100 & TPX4 & TPX4 & W0DI Chip &
+ & Shell HYN Shell | | HYN Shell HYN Shell HYN Blade HYN Shell HYN Shell HYN Shell
+
+“4 - May require Internet Access to complete cloning. *2 - May require Philips Crypto Update. *3 - May require Texas Crypto update.
+
+Cloner Machine Information - 2004-06 Models (4D60) _
+
+(DIAG BOX) (CHINA ) (ILCOISILCA) ( JMAUSA \ ( KEYLINE ) (LD. ) ( scorPiO \( wo)
+wo CN900 RW4 TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+“MYes _ Wy Yes M1 Yes 3 7] Yes 3 M1 Yes'3 M1 Yes'3 M1 Yes MI Yes
+
+Blue Chip& | | CN20r5& | | GTIChip& TPX2 & TK100 & TPX2& TPX2& WDI Chip &
+Shell HYN Shell | | HYN Shell HYN Shell HYN Blade HYN Shell HYN Shell HYN Shell
+
+*4 - May require Internet Access to complete cloning. *2 - May require Philips Crypto Update. *3 - May require Texas Crypto update.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a
+
+Lishi: TOY40 _| AccuReader: n/a
+
+EEZ Reader: n/a
+
+Cobra: n/a
+
+Facts to remember:
+
+1. All tumblers are numbered, but are reverse of normal depths, a number 5 is a shallow cut and a number | depth is the deepest
+
+cut.
+
+2, Tumbler position 8R is always a number 4 depth for the master key, and a number 2 depth for a valet key.
+This is the only different between a master and a valet key.
+
+3. Tumblers 4L, 3L, 2L, 1L, and 8L are not used in any locks, but must follow MACS. (So the key works smoothly)
+
+4, Because of the tolerances of the center groove you can not have a number 5 depth on the left track opposite a number 4 or 5
+depth. There wouldn't be enough room for the key to pass down in the keyway of the lock (and vice-versa).
+
+5. There is never a number 1 depth in the 5th, 6th, 7th, or 8th position from the bow, if there is one at all. Either Left or Right.
+
+EEPE Ca RIGHT
+8 a
+ai 7| es]
+a/l6/|e
+=| 5 |e
+4 |
+3 a
+p> |.
+1);
+
+CUTS FOUND IN IGNITION,
+
+DOORS & TRUNK LOCKS
+
+Method #1
+
+Remove Door or Trunk lock and disassemble and
+decode to make a Master key.
+
+All tumblers needed are in the Door or Trunk lock.
+
+_ ©1994, 2021 AutoSmart™ by Michael Hyde _
+
+~ HYUNDAI KIA - 63
+
+HK-29 SECTION
+
+2012-17 Accent (Hyundai 2013-17 Elantra Coupe & GT 2012-17 Veloster (Hyundai
+
+CODES | stve | carpe | im# | macs | StartCut | Cuttocut | AirBags | IgnRetainer [im
+
+XorT 1001-3500 | HighSec | n/a nla 2 nla Active
+MASTER | _NATIONAL: KEYLINE: a | IMA: STRATTEC: | DEALER:
+KEYS > HY nia HYI8 HY18-PH HY-I9D.P3 | n/a 81996-1R000
+_ Determinator: n/a Lishi: HY20 AccuReader: n/a. ——=«s| EEZ Reader: n/a Cobra: n/a
+> Mike's Tip: High Security 2 Track style key. Hyundai Dealer Part# 81996-1R000
+
+> Fob Remote: 95430-1300 (2014-17) FCC Info: T08-RKE-4F145|433MHz
+> Fob Remote: 95430-1R200 or ILCO# RKE-HYUN-3B2 (2012-14) FCC Info: TQ8RKE-3F01| 315 MHz =
+
+> Fob Remote: 95430-A5200 (Check with Dir) FCC Info: TOBRKE-3F03 |315 MHz
+
+| > Fob Remote: 95430-3X500 (Check with Dir) FCC Info: OSLOKA-360T | 313 MHz _
+
+> Veloster > Fob Remote: 95430-2V100 or ILCO# RKE-HYUN-4B2- FCC Info: NYOSEKS-TFIOATX | 315 MHz
+
+> Accent
+
+> Elantra
+
+95430-1R200,1R300  -—~—-:95430-A5200, 2V100, 3X500 ——
+
+P| NO TRANSPONDER
+
+Code Series: X or T 1001-3560
+
+NOTES: The left track is the one with the cuts, The right track is only a guide track.
+Pre-cut the left track to all number one depths and you will have the clearance it needs
+to work in the locks. : = =
+
+io = DEPTHS
+= Bow “== = SPACING pe = ce :
+2 sats | 1=450
+a 799 | 705 | 610 | 516 | .421 | 327_| .232_| 138 | INTERNAL | 2= 138
+He a == IE 2-TRACK 3 = 118
+(@ [22/32 bes _ es a _ 4 =.098
+4072 3S 4 =e —
+oO: : 7 | 7 | a. 5 =.079
+m
+a
+Aa
+x
+
+OOOHI-96619
+
+Codes: | No codes on any locks. —
+
+Method #1 Use a Lock Decoder/Reader tool to decode he Goer ck
+
+‘Method #2 _ Disassemble Door or Trunk cylinder and decode wafers to make master key.
+
+O}0/}0/}0}0/0/0/}0)> Ignition
+0/0,0)@) 6-4 6) [> Doors
+0)0/0)0}0)0} 0/0 }j> Trunk / Hatch* —
+1(2)2 16|7|8| *Ifequipped
+
+64 - HYUNDAI = KIA = _ ee ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peseeo5ouveaeeeeaeeeeeeeee8
+eee.
+
+(
+
+eeeeeeeo
+
+¢
+
+eoees
+
+0 6.4
+
+HK-30 SECTION
+
+‘KEYS
+
+2005-09 Spectra (Kia)
+
+CODES
+
+2005-10 Sportage (Kia)
+
+| stve |
+Dbl Sided
+
+CARDS
+CF302
+
+| ma |
+
+macs | StartCut | CuttoCut | AirBags
+Zz
+
+2005-09 Tucson (Hyundai)
+
+| ign Retainer
+
+098 Active
+
+V 01-1200
+
+NATIONAL;
+HY14
+
+KEYLINE:
+n/a
+
+ILCO:
+X236
+
+ac E
+HY14
+
+DEALER:
+n/a
+
+JMA:
+HY-10
+
+STRATTEC:
+692068
+
+Determinator: HYU1
+
+Lishi: HYNT]
+
+AccuReader: n/a
+
+Cobra: n/a
+
+EEZ Reader: n/a
+
+> Spectra
+
+> Fob Remote: 95430-2F950, 951 (2007-09) FCC Info: OSLOKA-674T | 315 MHz
+
+> Fob Remote: 95430-2F310 (2003-06) FCC Info: OSLOKA-630T | 313 MHz
+
+> Sportage
+
+> Fob Remote: 95430-1F100, 1F110 (10/04-03/08) FCC Info: NYOSEKS-077X | 433 MHz
+
+> Fob Remote: 95430-1F160 (03/08-01/10) FCC Info: NYOSEKS-09TX | 315 MHz
+
+> Tucson
+
+95430-1F100, 1F160
+
+95430-2E200, 2E210
+
+> Fob Remote: 95430-2E200, 2E210 or ILCO# RKE-HYUN-3B1 - FCC Info: OSLOKA-320T | 313 MHz
+
+~ 95430-2F950
+
+95430-2F310
+
+el NO TRANSPONDER
+
+Code Series: V 01-1200
+
+Bow SPACING Tip opps
+2 12 3 4 5 6 L . tte =.=
+3 =.272
+pi 098 | 181 | .264 | 346 | 429 | 512 | 594 | .677 = 4=.248
+s) : :
+i HPC Curtis Clipper. Pak-A-Punch ITL
+= : —
+Cam: DC-3
+ae CF302 Carriage: DC-3B PAK-HY2 517
+Codes: | No codes on any locks. -
+~ Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+~ Method #2, Disassemble Door or Trunk cylinder and decode wafers to make master key.
+
+O}/0;)0;}0/0/0/0) 0 }> ignition
+0;0|0|0/0}0}0)}> Doors
+O/0;0} 0} || 0) 0 }> Trunk 7 Hatch*
+
+0/0 | 0 | O |s-G7e* (* if equipped)
+1|2|3|4/5/6/7/8
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+HYUNDAI = KIA - 65
+HK-34 SECTION
+
+1998-04 Sephia (Kia)
+
+CODES |
+
+STYLE
+
+2002-06 Sedona (kia)
+
+| cARD#
+
+| ma |
+
+2001-02 Sportage (Kia)
+
+macs | StartCut | Cuttocut |
+
+1998-04 Spectra (Kia)
+
+Air Bags | Ign Retainer
+
+master | Y 2001-3000 | DbliSided | CF305 2 | 098 | 098 . Active
+KEYS> | NATIONAL: KEVLINE: ALCO: Ey JMA: STRATTEC: DEALER:
+KK4 nla X267 KK4 : KI-4D nla Nia —
+Info > Determinator: KIA1 Lishi: KIA3R + AccuReader: n/a EEZ Reader: nia = Cobra: n/a
+Remote <> | > Spectra | Fob Remote: Kia# 95430-2F210, 2F310 (2003-04) FCC Info: OSLOKA-630T | 314 MHz
+
+Eg NO TRANSPONDER
+
+Code Series: Y 2001-3000
+
+Hid3d 8 30VdS
+
+DEPTHS
+
+_Bow ___ SPACING Tip” ane
+1 2 =) s 5 6- =e! 8 2=.260
+=F = | | 3 240
+098 | 197 | .295 | .394 | 492 | 591 | 689 | 787 | cytto | 4=.220 |
+: 2 23 2 Cut: ==
+=H1Pe — Curtis Clipper | Pak-A-Punch,; ITL | -098
+Cam: KK-3A l= :
+= a _ Carriage: KK-3A a =
+Codes: | No codes on any locks. :
+Method #1 Check owner's manual for codes, written in by the dealer. ==
+Method #2 Use the KIA #1 Determinator™. a a
+Method #3 Disassemble door, trunk or rear hatch cylinder and decode wafers to make master key.
+Method #4 —_ Impression Locks. 2S
+
+|olo|ojoj;ol;ojo}o}>
+olojo/ol}o}o}o}o}>
+olo\}o/ol|o/o\|o|o}>
+1;2/3/4|5\|6/7
+
+Ignition =
+Doors”
+Trunk
+
+66 - HYUNDAI = KIA
+
+©1994, 2021 AutoSmart™ by Michael Hyde —
+
+PpeCC CCHS HEOO OOOO EOO ECE EEE
+
+9e0eeeoeoe0e2 0862008 06 06,'0600 0'0 6 ¢
+
+C
+
+¢
+
+HK-32 SECTION
+
+2001-05 Rio / Rio 5 (kia)
+
+2003-05 Rio Cinco (kia)
+
+| stve | carps | im# | macs | Startcut | Cuttocut | AirBags | ign Retainer
+Y 2001-3000 Dbl Sided €F305 2 098 Active
+aes NATIONAL; KEYLINE: ILCO: JET: JMA: STRATTEC: DEALER:
+KK3 / KK4 n/a X254 | X267 KK3 / KK4 KI-3D / KI-4D nla nla
+KEYS >
+Determinator: KIA 1 Lishi: KIA3R AccuReader:_n/a _ | bez Reader: n/a Cobra: n/a
+2 different | ste | caro# | im | macs | Startcut | cuttocut |
+
+types WA or A1001-3040 | Dbi Sided v2 106
+possible :
+NATIONAL: KEYLINE: ILCO: JET; JMA: STRATTEC: DEALER:
+KK nla X269 KK5 KI-5D n/a n/a
+Determinator: KIA 3 Lishi:-n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+@y No TRansronveR
+
+Code Series: Y 2001-3000
+
+Bow SPACING Tip
+a 1 2 3 4 5 6 7 8
+fe 098 | 197 | .295 | .394 | 492 | .591 | .689 | .787
+=)
+
+A HPC Curtis Clipper Pak-A-Punch ITL
+mi cF305 ae Kes a | PAK-KA2 251
+
+Cut to
+Cut:
+098
+
+DEPTHS
+1= .280
+2= .260
+3=.240
+4=.220
+
+Code Series: WA or A1001-3040
+
+LT Bow SPACING Tip Sek in
+= 1 2 3 4 5 6 7 8 2=.308
+m = : 3 = .283
+ay t06 | tao | 272 | 364 | 437 | 520 | 602 | 685 | cutto | 4=.258
+Oo Cut:
+e HPC Curtis Clipper | Pak-A-Punch ITL 083
+=~ :
+eal = CF236 See n/a 566
+: Carriage: n/a
+Codes: | No codes on any locks.
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use the KIA #1 or #3 Determinator, depending on keyway. —-
+Method #3 Disassemble door, trunk or rear hatch cylinder and decode wafers to make master key.
+Method #4 Impression Locks.
+6,0)0;0;/0|0|0} O}> Ignition
+0,0|)0;0|0)0) 0} O}> Doors
+0/0/0|0)G@/0} Gj O}> Trunk
+ieee St 4.15 | G7 1G
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+HYUNDAI = KIA - 67
+098
+
+|
+
+1995-01 Sportage (kia)
+
+| Air Bags | Ign Retainer _
+
+MASTER | Y 7001-8200 Varies | Roll Pin
+KEYS> | — Naviona: | —_KEYLINE: uc. =| ser: += | ~—sJMA ss SuRaTTEC: | DEALER:
+KKi -KK2-~ Na_ : X233 / X240| KK1/ KK2 KI-ID/ Kl-2D- - Na : n/a
+Determinator: KIA1 Lishi: n/a | AccuReader: n/a a EEZ Reader: n/a Cobra: n/a
+Info > -
+
+> Mike's Tip: Some Sportage models with an Automactic Transmission will require the KK2 keyblank, ==
+
+@ No TRANSPONDER
+
+0/0} 0} 0] 0] 0 /> Ignition
+'|O}0O}0|)0} 0} 0 }> Doors:
+0/0) 0/0} O)Q |> Trunk
+= /213/4/15/6|7]
+= es = == = S| —— : 551 = 4=1 =
+TIP: If yousee anumber onthe tumblers, itis | 4=2 —— 2
+usually opposite of what itis supposedtobe. = 3=3 (or) oe e
+2 : —— 2=4 ——
+= SS =1=4 —
+
+Code Series: Y 7001-8200 = :
+. Bow SPACING Tip ses
+z is : =.
+O Be 2 3 4 5 6 7 2=.260
+7m =— = -| 3=.240
+My cos | 196 | 204 | 392 | 490 | 588 | 704 | 4=.220 |
+G HPC Curtis Clipper | Pak-A-Punch| ITL ~
+a Cam: KK-1 2 ere
+= : CFsai Carriage: KK-1A sa = :
+Codes: | No codes on any locks. 2S :
+Decoders: | Determinator: KIA1 _| Lishi: n/a. -——_AccuReader: n/a _| EEZ Reader: n/a Cobra: n/a
+NOTE: Do not disassemble the rear hatch cylinder on the Sportage, real pain to get back together.
+Method #1 Check owner's manual for codes, written in by the dealer. 7 :
+Method #2 Use the KIA #1 Determinator™. — Zee -
+Method#3 = Disassemble door and decode wafers to make master key. :
+Method #4 Impression Locks. :
+
+68 - HYUNDAI- KIA _
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeo5u5eee 8
+
+peeoneaeeeveoeeds
+© @e@ 020 @ <«
+
+©@e@o eo @ ¢
+
+(
+
+¢
+
+@©eeoeee
+
+| NO TRANSPONDER
+
+Hid3ad ? 30VdS
+
+HK-34 SECTION
+
+1986-89 Excel (Hyundai)
+| carp | imi# | macs | Startcut | Cuttocut | AirBags | ign Retainer
+
+STYLE
+
+MASTER X 01-1000 Dbl Sided .098 Roll Pin
+
+KEYS NATIONAL: KEYLINE:- ILCO: JET: JMA: STRATTEC: DEALER;
+HY2 n/a X160 HY2 n/a n/a nia
+
+Info=>—_| Determinator: HYU-4 Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Code Series: X 01-1000
+
+So SPACING Tip ——
+1 Zz 3 4 4] 6 Vz Cutto Cut: 2=.256
+3 =.236
+098 | 197 | .295 | .394 | 492 | .591 | 689 | 098 4=.213
+HPC Curtis Clipper Pak-A-Punch ITL
+Cam: MZ-3
+CF301 Carriage: DC-2E PAK-HY1 231
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: HYU4 _Lishi: n/a AccuReader: n/a EEZ Reader: n/a | Cobra: n/a
+
+NOTE-
+
+Always check the trunk lock for ease of removal. Since Hyundai's & Kia's do not have codes
+on their locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+
+Method #1. | Check owner's manual for codes, written in by the dealer.
+
+Method #2  — Use a Lock Decoder/Reader tool to decode the door lock. —
+
+Method #3 Use Try-Out Keys. Use Aero Lock tryout set TO-42
+
+Method #4 Disassemble door cylinder and decode wafers to make master key.
+
+*TIP If you see a number on the wafer, it is opposite of what it is supposed to be.
+
+= : Ex: 4=1/3=2/2=3/1=4 2 :
+0/0)0|}0/0|0}0}> Ignition
+O}0|0;0|0}0}|O}> Doors
+O0/0/0|0)0) 0} }> Trunk / Hatch
+fess Ss 415 6) 7
+©1994, 2021 AutoSmart™ by Michael Hyde : HYUNDAI = KIA - 69
+HK-35 SECTION ee
+
+1990-94 Excel (Hyundai) 1990-94 Scoupe (Hyundai) :
+CODES | stv | carpe | me | macs | startcut | cuttocut | AirBags | Ign Retainer
+MASTER | X 1001-2000 | DblSided : 098 Roll Pin
+KEYS > NATIONAL: | KEYLINE: eh IMA: smraTTec: | DEALER:
+HY5- na | X196 HY5 HY3 | nla nla
+Info=> | Determinator: HYU4 | lishi: n/a =| AccuReader: n/a ‘| EEZ Reader: n/a Cobra: n/a
+Gro TRANSPONDER =:
+Code Series: X 1001-2000 =
+cow _____ SPACING fSe Sars :
+Z > no a =e
+5 : Ae ES oe co ee ea
+m - = = oog | 3=-244—
+peg 098 | 197 | 295 | 304 | 492 | 591 | 689 | 8 | 4-224
+B=) 2 === : =
+nm HPC Curtis Clipper _| Pak-A-Punch | =—sITL
+—— Cam: MZ-3 ; + = 55°
+= CF301 Carriage: DC-2E PAK-H¥1 ~ =—701
+Codes: | No codes on any locks. oo 2 :
+Decoders: | Determinator: HYU4 _Lishi: na | AccuReader: n/a EEZ Reader: nla | Cobra: na
+NOTE- ___ Always check the trunk lock for ease of removal. Since Hyundai's do not have codes on their
+
+_ locks it may be easier to remove ae trunk lock as decode the tumblers in the lock. = Se
+Method #1 Check owner's ae fot cadens, written in = By the dealer.
+Method #2. Use a Lock Decoder/Reader tool to decode the door lock. —
+
+Method #3 —_ Disassemble door einer and decode wafers to Make masiet key.
+
+‘TIP z If you see a number on the wafer: itis opposite of saat itis a supposed to be.
+Ex: 4=1/ 3= cae =3/1=4 :
+
+ololol}o/}o/O}0)> ignition
+
+0}0/0|0/0| 0} |> Doors
+
+O/0/0/0]0/0}0]> Trunks Hatch
+516\7
+
+ae
+i)
+ae
+ie
+
+70-HYUNDAI+ KIA -——_@ 1994, 2021 AutoSmart™ by Michael Hyde
+
+Deo oo COC EHR ECO OOO SOCE EES
+(
+
+¢
+
+@©9ee@eoe@eoeooee08€«
+
+HK-36 SECTION
+
+1989-94 Sonata (Hyundai)
+
+= | ste | cards | im# | macs | Startcut | cuttocut | AirBags | ign Retainer
+~~ MASTER Y 1601-2000 Dbl Sided =) 098 Roll Pin
+KEYS > NATIONAL: KEYLINE:- ILCO: JET: IMA: STRATTEC: DEALER:
+HY4 n/a X187 HY4 HY-3 nla n/a
+Info=> —_| Determinator: HYU1 Lishi: n/a AccuReader: n/a EEZ Reader: n/a - Cobra: n/a
+@ No TRansPonper
+a Code Series: Y 1001-2000
+i> ae SPACING Tip See
+“3 1 2 3 4 5 6 Cutto Cut: | 2=-264
+mi 098 3=.244
+Wee 098 | 197 | 295 | 394 | 492 | 591 | 689 | A= 224
+= =
+e HPC Curtis Clipper Pak-A-Punch ITL
+te =
+Cam: MZ-3
+ze : =
+CF301 Carriage: DC-2E PAK-HY1 231
+Codes: | No codes on any locks.
+Decoders: | Determinator: HYU1 Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTE- _ Always check the trunk lock for ease of removal. Since Hyundai's & Kia's do not have codes
+on their locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+Method #1. —_ Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock. —
+Method #3 Use Try-Out Keys. Use Aero Lock tryout set TO-51
+Method #4 Disassemble door cylinder and decode wafers to make master key.
+*TIP If you see a number on the wafer, it is opposite of what it is supposed to be.
+
+Ex: 4=1/7 3=2/ 2=27] 4
+
+D/oOjo;ojoj;oj;o
+o]oO}o;o}o;o}o
+O/o}o};ojo}o;o
+[11 2|sl4[5|6|7
+
+> Ignition
+> Doors
+> Trunk / Hatch
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+HYUNDAI « KIA - 71
+HK-37 SECTION
+
+1997-08 Tiburon (Hyundai)
+
+1992-06 Elantra (Hyundai)
+
+CODES | STVLE carp¢ | ims | macs | StartCut | Cuttocut | AirBags | Ign Retainer
+
+ T01-1000 Dblsided | cF302 | 517 2 098 =| 083 Some Active
+1992-95 ~ NATIONAL: “tkco: : = = ET: = == JMA: STRATTEC: DEALER:
+Elantra HY6. = X216 HY6  HY4 n/a la __-
+MASTER + }+— a = = 2
+1996-06 NATIONAL: ILCO: JET: JMA: | _STRATTEC: DEALER:
+KEYS => Elantra HY14 _ X236 Hvi4 | HY-10 | 692068 | n/a
+1997-08 — NATIONAL: ILCO: : JET: IMA] = ; STRATTEC: DEALER:
+‘Tiburon | HYI4 | x236 Hyi4 | Hy10 | 692068 | n/a
+Benner HYU1 — | Lishi: HYTI : AccuReader: nia _| EEZ Reader: nla = = Cobra: n/a
+: | > Fob Remote: 95411-26201 (2000-06) (no pic) FCC Info: OSLOKA-221T | 308 MHz
+> Elantra. --—_| > Fob Remote: 95411-20100 (2000-06) FCC Info: OSLOKA-S10T |308MHz
+— Remote = eee z =
+eae > Fob Remote: 95411-20101 (2000-06) FCC Info: OSLOKA-SIOT | 308 MHz
+> Fob Remote: 95440-2C410 (2006-08) FCC Info: LXP-RK225| 315 MHz
+> Tiburon = SS
+> Fob Remote: 95440-2C000 (2001-06) (no pic) FCC Info: LXP-RK225 | 315 MHz
+
+@ no Transponder as
+
+Code Series: T 01-1000
+
+o = : a =
+x Bow SPACING — ie eels
+fom 1 Cd| «C2 34 5 | 6 | 7 i 8 = =| 25.295 ;
+7 = : ale 5 | 3=.272
+—@ 098 | 181 = 346 | .429 12 594 SIF | cutto | 4=.248
+BS sey ee a = z
+oi HPC Curtis Clipper | Pak-A-Punch| ITL | -983
+= =F Se
+Cam: DC-3 == 2c :
+C302 Carriage: Dc.3a _| PAKHYS Si lS
+
+72 - HYUNDAI: KIA = = 1994, 2021 AutoSmart™ by Michael Hyde
+
+peeao5aeeeeeeee
+
+Dpeeoeonae5ee
+e000 <«
+
+(
+
+¢
+
+¢
+
+¢
+
+C
+
+¢
+
+continued - HK-37 SECTION
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: HYU1 Lishi: HYTI AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+NOTE- Always check the trunk lock for ease of removal. Since Hyundai's & Kia's do not have codes
+on their locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #3 Disassemble door cylinder and decode wafers to make master key.
+
+*TIP If you see a number on the wafer, it is opposite of what it is supposed to be.
+- Ex: 4=1/ 3=2/2=3/1=4
+
+01 | > Ignition
+01 |> Doors
+|} >JTrunk / Hatch
+
+ELM
+ea
+oo
+Bio
+oon
+oom
+
+nN
+w
+b
+ao
+on)
+N
+foe}
+
+ie s
+i -Alj j mares
+Looking for /LCO Look-Alike Flip Keys, f |
+RKE Remote Keyless Entry rem? y / | 64 0 J
+=== fe eats ®
+_ & Proximity Fobs?
+We have them on the shelf - ready to ship. |__
+National Auto Lock Service, Inc
+1-650-875-0125 or www.Laserkey.com ;
+\ J
+©1994, 2021 AutoSmart™ by Michael Hyde HYUNDAI « KIA - 73
+HK-38 SECTION
+
+2001-06 Optima (kia) - 2001-06 Santa Fe (Hyundai)
+
+1995-05 Senata (Hyundai) 2003-09 Sorento (kia) 2001-05 XG300/350 (Hyundai)
+
+STYLE
+
+| carp¢ | me | MACS Start Cut | cuttocut | hir Bags | ign Retainer
+
+-$01-1000 | DbiSided | cF302° 2 | 098 | 083 | Yes | seebelow
+MASTER "NATIONAL: KEYLINE: ILCO: : JET} JMA: STRATTEC: DEALER: —
+a HY12 nla __ X232 _ HYI2, =| -HY-6D 692067 | _—sin/a
+‘Determinator: HYU 3 Lishi: HYN7R AccuReader: n/a EEZ Reader: n/a_ __ | Cobra: n/a
+> Mike's Tip: Active Retainer for Optima & Sorento, Roll Pin ignition for Santa Fe, Sonata & XG300 / XG350,
+: > Fob Remote: 95430-3C100 (2001-05) FCC Info: PLNBONTEC-TON | 314 MHz
+> Optima Bas = === ==
+> Fob Remote: 95430-26202 (09/06-03/08) FCC Info: OSLOKA-310T | 314 MHz
+> Fob Remote: 95411-26201 (07/02-11/04) (no pic) FCC Info: OSLOKA-221T | 308 MHz
+> Santa Fe = teers == = =
+> Fob Remote: 95411-26202 (11/04-2006) (no pic) FCC Info: OSLOKA-230T | 308 MHz
+Remote : : See ==> =
+Info> {7 Sonata —‘| > Fob Remote: 95430-30201 (2001-05) FCC Info: PINHACOEFSHT | 311 MHz
+> Fob Remote: 95430-1U000 or ILCO# RKE-KIA-3B1 (2009) FCC Info: PINHA-T036 | 315 MHz
+> Sorento > Fob Remote: 95430-3E51 (2007-08) FCC Info: PLNHM-TO11 | 315 MHz
+> Fob Remote: 95430-36420 (2004-06) FCC Info: PLNBONTEC-T016 | 315 MHz
+> XG300, XG350 | > Fob Remote: 95430-39081 FCC Info: OSLOKA-221T | 308 MHz :
+
+95430-3C100, 3420 95430-26202, 3511  —-—-95430-3D201, 39081 95430-30201
+
+@ No TRANSPONDER
+
+74 - HYUNDAI = KIA 22a == ~_@ 1994, 2021 AutoSmart™ by Michael Hyde
+
+peee5@aeeeeeeoeneoeaeeeeeeee
+eo ogc 0o2020000080060,02802 0006 0 @ «€
+
+continued - HK-38 SECTION
+
+Code Series: S 01-1000
+Bow SPACING Sg: eee
+S 1 213 4 5 6 ZL 8 2=.295
+m : 3= 272
+pam 098 | isi | .264 | 346 | 429 | 512 | 594 | 677 | Cutto | 4=.248
+= : : Cut:
+=— : =
+e HPC Curtis Clipper Pak-A-Punch ITL 083 x
+nN
+= Cam: DC-3
+pi ee Carriage: DC-3B PAK-HY2 517
+Codes: | No codes on any locks.
+Decoders: | Determinator: HYU3 _ | Lishi: HYN7R AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Check owner's manual for codes, written in by the dealer.
+
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #3 _— Disassemble door, trunk or rear hatch cylinder and decode wafers to make master key.
+
+Method #4 Impression Locks.
+
+O0\|0,;0|)0}0}8|0}> Ignition
+0)0/0|)0|0} | O}> Doors
+OO ||) | | OS fen
+2~13|4)5),/6)]/13
+5 = 5-4 At
+TIP: If you see a number on the tumblers, it is 4=2 3 oS "
+usually opposite of what it is supposed to be. 3=3 (or) f a *
+: 2=4 =
+= 1=5 1=4
+©1994, 2021 AutoSmart™ by Michael Hyde HYUNDAI = KIA - 75
+HK-39 SECTION a | a
+
+2006-11 Accent (Hyundai 2006-09 Rio & Rio 5 (Kia)
+
+| srme | carpe | ms | macs | Startcut | cuttocut | AirBags | IgnRetainer
+
+V 01-1200 Dbl Sided n/a Active
+MASTER NATIONAL: | —_ KEYLINE: ILCO: i JMA: STRATTEC: ~ DEALER:
+ens HYI6 fa HY16 HYI6 _ H¥12 | na la
+Determinator: HYU7 — —_| Lishi: HY16 _| AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+> Mike's Tip: A few models have been found to have different keyway and locks installed from the factory.
+Mae > Fob Remote: 95430-1E012 (2009-11) FCC Info: PINHA- T038 | 315 MHz :
+Remote a | > Fob Remote: 95430-1E000 (2006-08) FCC Info: PLNHM-T002|315MHz
+Info > a 8 - > Fob Remote: 95430-16000, igonl (2005-09) FCC Info: PLNHM-T002 | 315 MHz
+2 | > Fob Remote: 95430-1G012 (2006-09) FCC Info: PINHA-T038 | 315 MHz_
+Some 2006 _ :
+
+Accent models
+overlap with :
+keyways. : =
+
+95430-1G000, 1G012
+
+i SPACING es ee
+> 1=.319
+o = 3 4 5 | -2=.295.
+m = geet ee = :
+mig oo | tsi | .264 | 346 | 429 | 512 | 594 | 677 | cutto | s=248 |
+= : : Ss Z Cut: :
+m HPC | Curtis Clipper | Pak-A-Punch|  ITL |  :083
+A
+
+CF302 n/a me ee
+
+Codes: No codes on any locks.
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+
+2 Method #2 Disassemble door, trunk or rear hatch cylinder and decode wafers to make master key.
+
+> Ignition.
+> Doors —
+> Trunk / Hatch
+
+peeceeeeneneoeoeeeeeeeeee
+
+76 - HYUNDAI: KIA IS 222 a= _ ©1994, 2021 AutoSmart™ by Michael a uit
+
+)
+eode8ede8e8@e28e@060 0 0806 6¢€
+
+C
+
+¢
+
+HK-40 SECTION
+
+_ 1995-06 Accent (Hyundai)
+
+STYLE
+
+| carp# | imt# | macs | StartCut | Cuttocut | AirBags | ign Retainer
+
+R.01-1000 Dbl Sided 2 098 Active
+
+MASTER NATIONAL: KEYLINE: ILEO: SET: JMA: STRATTEC: DEALER:
+= HY13 n/a X235 HY13 HY-5 n/a nia
+KEYS > :
+
+Determinator: HYU 2 Lishi: HYNT AccuReader: n/a FEZ Reader: n/a Cobra: n/a
+2 different | ste | carp# | imt# | macs | Startcut | cuttocut |
+
+types 'F61-1000 Dbl Sided CF302 2 098
+possible NATIONAL: KEYLINE: ILCO: JET: IMA: STRATTEC: DEALER:
+HY14 nla _ X236 HY14 HY-10 nla nla
+Determinator: HYU 2 Lishi: HYN1 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+@ no tRansponver
+
+Code Series: T 01-1000
+
+- Bow SPACING Tip
+< 1 2 3 4 52 6 7 8
+m —
+go 098 : 181 .264 ee 429 12 594 677 Cut to
+o Cut:
+m HPC Curtis Clipper _| Pak-A-Punch ITL 083
+Bec
+
+Cam: DC-3
+eam C302 | cariage:DC-3a | PAKHYS 517
+
+DEPTHS
+= 319
+2= 295
+3m ete
+4=.248
+
+Code Series: R 01-1000
+
+< Bow : SPACING Tip =
+a 1 2 = 4 5 6 Z 8 2= .295
+m : 3=.272
+pag 098 | 181 | 264 | 346 | 429 | 512 | 594 | 677 | cutto | 4=.248
+oO Cut:
+m HPC. Curtis Clipper | Pak-A-Punch ITL 083
+a :
+Cam: DC-3
+mem C302 | Carriage: DC-3C PAK-HY4 517
+Codes: | No codes on any locks.
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #2
+
+TIP: If you see a number on the tumblers, it is usually opposite of what it is supposed to be.
+
+Bi ee
+a a
+i
+ood
+Bow
+moo
+ooo
+
+ook
+iy)
+ow
+bh
+a
+fo>)
+~
+
+oe)
+
+Disassemble door, trunk or rear hatch cylinder and decode wafers to make master key.
+
+> Ignition
+> Doors
+
+> Trunk / Hatch
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+HYUNDAI « KIA - 77
+HK-41 SECTION
+
+2008-12 Elantra Touring (Hyundai)
+
+2010-13 Optima (Kia)
+
+2010-11 Rio (Kia) _ 2010-12 Sorento (kia)
+
+2011-14 Tucson (Hyundai)
+
+| sme | carp# | iA | macs | Startcut | cuttocut | AirBags | IgnRetainer &
+
+_|KEorE1-2500} | aie
+s HK or K 1-2500 | High Sec n/a Active
+MASTER = ==
+: NATIONAL: = KEYNES Seco = JMA: STRATTEC: © DEALER:
+KEYS> | TOY48 nia Toy4s | Toy4s | TOYO-36 | n/a — “nla
+Determinator: nia _| Lishi: HY22.__—| AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+> Mike's Tip: A few models have been found to have different keyway and locks installed from the factory.
+fe > Fob: 95430-21300 - FCC Info: PINHA-T008 | 315 MHz _ :
+>ElantraTouring =| — ——
+= > Fob: 95430-21350 - FCC Info: PINHA-T008 | 315 MHz
+> Fob; 95430-26202 (2010) FCC Info: OSLOKA-310T |314MHz
+=| > Optima — -
+aac oF | > Fob: 95430-27000 or ILCO# RKE- KIA-4B1 (2011-13) FCC: NYOSEKS-TFIOATX X| 315 MHz
+Info > : > Fob: 95430-1G000, 1G01l - FCC Info: PLNHM T002| 314 MHz
+Rio
+> Fob: 95430-1G012 - FCC Info: PINHA-T038 | 315 MHZ
+|>Sorento =| > Fob: 95430- 1000 or ILCO# RKE-KIA- 3B] - FCC Info: PINHA-1036 5 [3h 315 MHz
+>Tucson == | > Fob: 95430-25201 or ILCO# RKE-HYUN-3B1 - FCC: OSLOKA-850T | 314MHz
+- 95430-21300, 21350 95430-26202, 27000 95430-16000, 1G012.—«=—«95430-28201
+@ no TRANSPONDER = Z
+78 - HYUNDAI - KIA =. 1994, 2021 AutoSmart™ by Michael Hyde
+
+peeooneoeoeeeeeaeaoeaeeeeeeee
+#ee0n00e202020000000000000 4
+
+¢
+
+continued - HK-41 SECTION
+
+Code Series: E or K 01-2500
+
+n
+
+DEPTHS
+7 SPACING 2
+> £ | 1=.18
+sj 667 | 570 | 475 | 380 | .285 | 190 2 =.095
+go E - INTERNAL 3=.072
+Dp Se ee 4-TRACK 4=.046
+m
+wy 067 | 570 | 475 | 380 | 285 | 190
+x
+
+Note: Spacing is measured from the tip.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: HY¥22 AccuReader:_n/a EEZ Reader: n/a Cobra: n/a
+
+IMPORTANT NOTES:
+1) Always check the trunk lock for ease of removal. Since Hyundai & Kia do not have codes on their
+locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+
+2) Some door cylinders have a clutch type lock cylinder, the trunk does not.
+3) The Door & Trunk cylinders all use split tumblers with numbers on them.
+4) Some Door & Trunk cylinders have drill guards in the cylinder plugs.
+
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use-a-Lock Decoder/Reader tool to decode the door lock.
+
+Method #3 Disassemble Door or Trunk cylinder and decode wafers to make master key.
+
+IGNITION © DOOR & TRUNK GLOVE BOX
+= |6| @ = |6| @ 6| =
+=» |5| =o = |5| @ 5| #
+= |}4| @ =e [4/2 4| «=
+= |3| «8 = |3| 8 3
+= |2| @ =» |2| = 2
+im jij @ s |1| o 1
+L R L R L R
+-_
+©1994, 2021 AutoSmart™ by Michael Hyde HYUNDAI = KIA - 79
+HK-42 SECTION
+
+2014-19
+Soul (Kia)
+
+ITL# | MACS | Start Cut | Cutto Cut | Air Bags | Ign Retainer
+
+2015-21
+Sedona (Kia)
+
+2012-17
+Rio (Kia)
+
+| stwe | caro |
+
+2014-15
+Optima (Kia)
+
+KE orE1-2500 | HighSec | nia nia n/a Active
+MASTER NATIONAL: KEYLINE: “1LCO: JET: JMA: STRATTEC: DEALER:
+Kes TOY48 na TOY48 ToY4s | TOYO-36 | nia = aa
+
+Determinator: n/a Lishi: HY22 _ AccuReader; n/a EEZ Reader: n/a _ — | Cobra: n/a
+
+> Mike's Tip: Remote Flip Keys use Blade# 81996-A4000 & Roll Pin# 81926-1000
+
+> Optima | > RMT Flip Key: 95430-27560 (Rmt) or ILCO# FLIP-KIA-4B3 FCC Info: NYODD4TX1306-TFI | 315 MHz
+
+> RMT Flip Key: 3-button Flip Key, Fob part: 95430-1W022, 1W023, 1W024. or ILCO# FLIP-KIA-4B6
+
+9e@e 60060
+
+afte > Correct Fob part number is determined by a VIN look up. FCC Info: T08-RKE-3F05 | 315 MHz
+aee > RMT Flip Key: (2018-21, 4 Btn) 95430-A9150 (Rmt) FCC Info: T08-RKE-4F19 | 433 MHz
+emote = = = :
+Info > > RMT Flip Key: (2018-21, 6 Btn) 95430-A9350 (Amt) FCC Info: TQ8-RKE-4F19 | 433 MHz
+> Sedona —= :
+
+| > RMT Flip Key: (2015-17, 4 Btn) 95430-A9100 (Rmt) FCC Info: TQ8-RKE-4F19 | 433 MHz
+
+| > RMT Flip Key: (2015-17, 6 Btn) 95430-49300 (Rmt) FCC Info: TQ8-RKE-4F19 | 433 MHz
+
+> Soul > RMT Flip Key: 95430-62100 (Rmt) FCC Info: OSLOKA-875T | 433 MHz
+
+95430-A9100, 95430-A9300, A9350
+
+81996-A4000 95430-27560 ~ 95430-1022
+2 =. A9150, B2100
+
+= | NO TRANSPONDER
+
+Code Series: E, G, H, Kor J 01-2500
+
+“
+Bow SPACING DEPTHS
+4 =—— Ss + 1=ne_| —
+2 cc7 | 570 | 475 | 380 | .285 | 190 2 2=.095
+
+1 90 me —— INTERNAL _ | 3=.072
+oa a2 4 5 4TRACK | 4=.046 |
+a 867 | 670 | 475 | 380 | 285 | 190 |
+x
+
+Note: Spacing is measured from the tip.
+
+~ 80- HYUNDAI+ KIA | ©1994, 2021 AutoSmart™ by Michael Hyde
+
+»)
+
+»>©e€66066°0
+
+,@e@50e€@
+
+» ©
+continued - HK-42 SECTION
+
+AAay ONINVW
+
+Codes: | No codes on any locks.
+
+| F
+Decoders: | Determinator: n/a
+
+Lishi: HY22
+
+AccuReader: n/a
+
+| EEZ Reader: n/a
+
+Cobra: n/a
+
+IMPORTANT NOTES:
+
+1) Always check the trunk lock for ease of removal. Since Hyundai & Kia do not have codes on their
+
+locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+
+2) Some door cylinders have a clutch type lock cylinder, the trunk does not.
+
+3) The Door & Trunk cylinders all use split tumblers with numbers on them.
+
+4) Some Door & Trunk cylinders have drill guards in the cylinder plugs.
+
+Method #1 Check owner's manual for codes, written in by the dealer.
+
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #3 Disassemble Door or Trunk cylinder and decode wafers to make master key.
+
+IGNITION DOOR & TRUNK
+= |6| @ 5 6| #
+mw [5 B HG
+m |4| @ = |4| @
+Z_ a = |3| @
+a 2| # a 21 =
+a : Bi a 1 &
+L R L R
+
+GLOVE BOX
+6| =
++ a
+4| a
+3
+2
+1
+
+L R
+
+——— | ea
+it
+
+=H
+
+AVDI | Key Programming | Security | ECU Programming
+
+.P.B.LEec. For sales and information, please contact Brian
+ABRITES P. 205.276.3656 | keymasterlsw@yahoo.com
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+en
+
+en
+ABRITES USA
+
+ee
+
+www.abritesusa.com
+
+HYUNDAI = KIA - 81
+HK-43 SECTION
+
+2013-15 Sorento (Kia)
+
+2011-21 Sportage {Kia)
+
+| STYLE | AirBags | Ign Retainer
+
+| canoe | ime | macs | Startcut | cuttocut
+
+Mor G 1-2500
+
+2015-21 Tucson (Hyundai)
+
+_ MASTER
+KEYS >
+
+E or K1-2500 High Sec n/a Active
+NATIONAL: _ _KEYLINE: ILCO: JEL: : IMA: : STRATTEC: DEALER:
+~ —FOY48 n/a TOY48 | TOY48 | TOYO-36 n/a == 40
+Determinator; n/a- — Lishi: H¥22 _ | AccuReader; n/a EEZ Reader: n/a Cobra: n/a
+
+| > Mike's Tip: A few models have been found to have different keyway and locks installed from the factory. ;
+
+> Sorento
+
+> RMT Flip Key: 95430-1U500-Rmt, 81996-2P200-Blade or ILCO# FLIP-KIA-4B5 FCC: :1O8-RKE-3F 05 | 315 MHz
+
+_| > Mike's Tip: Kia Sportage 2011-2016 models (non-proximity) have a High Security keyway, however there have been
+
+a small percentage of non-high security variations that have been found. They will use a HY15 keyway and use the M
+001-2500 code series. This occurs more in Rental fleets than anywhere else. :
+
+> RMT Flip Key: (2012) 95430-3W700-Rmt, 81996-2L000-Blade - FCC Info: NYOSEKSAMIIATX | 315 MHz
+
+> Sportage -
+
+_| > RMT Flip Key: (2013) 95430-3W701-Rmt, 81996-2L001-Blade or ILCO# FL P-KIA-3B3- FCC: NYOSEKSAMIIATX | 315 MHz
+
+> RMT Flip Key: (2014-16) 95430-3W350- Rmt, 81996- A4000- Blade or ILCO# FLIP-KIA-4B4 - FCC: ‘NYODD4TX1306- ne 315 MHz
+
+> RMT Flip Key: (2016-19) 95430- D9000-Rmt, 81996- A4000- Blade - FCC Info: TQ8-RKE-4F27 | 433 MHz
+
+_| > RMT Flip Key: (2016-20) 95430-D9100-Rmt, 81996-A4000-Blade - FCC info: T08-RKE-4F27 | 433 MHz
+
+> RMT Flip Key: (2021) 95430-D9410-Rmt, 81996-F6500-Blade - FCC Info: TQ8-RKE-4F42 | 433 MHz
+
+> Tucson
+
+'> RMT Flip Key: 95430-D3010-Rmt, 81996-D3000-Blade - FCC Info: T08-RKE-4F25 | 433 MHz
+
+81996-A4000
+
+95430-10500,
+—3W350,D9000&D9100
+
+—-81996- 2.001 95430- 3W700
+= — 95430- 3w70l
+
+95430-D3010_
+
+81996-A4000°
+
+-95430- p9si0 —
+
+81996-F6500
+
+82 - HYUNDAI =
+
+©1994, 2021 AutoSmart™ by Michael oo
+
+KIA === ———
+
+eeeeveaeaeneeoeooeaeeeneeee @
+©, 0,00 «
+
+@©eeoeoe @ @ ¢
+
+©@eeoe oe «
+
+¢
+
+| NO TRANSPONDER
+
+continued -HK-43 SECTION
+
+Hidad 8 30VdS
+
+Code Series: E, G, H, K or J 01-2506
+i DEPTHS
+Bi PACING al
+=< : = 1=.118
+667 570 475 .380 285 190 2=.095
+= - INTERNAL 3=.072
+=|; 2 2 == 4- 52 26 4-TRACK 4= .046
+667 570 475 .380 265] 190
+Note: Spacing is measured from the tip.
+Codes: | No codes on any locks. :
+Decoders: | Determinator: n/a Lishi: HY22 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+IMPORTANT NOTES:
+1) Always check the trunk lock for ease of removal. Since Hyundai & Kia do not have codes on their
+locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+
+2) Some door cylinders have a clutch type lock cylinder, the trunk does not.
+3) The Door & Trunk cylinders all use split tumblers with numbers on them.
+4) Some Door & Trunk cylinders have drill guards in the cylinder plugs.
+
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #3 _ Disassemble Door or Trunk cylinder and decode wafers to make master key.
+
+IGNITION DOOR & TRUNK GLOVE BOX
+® = = |6| = 6| #
+= |5| @ = |5| @ 5| #
+= |4| @ = |4| = 4| =
+= |3| @ s |3| o Ee
+= |2/| @ = |2| @ 2
+= |i; @ = /1|] = 1
+L R L R L R
+|
+©1994, 2021 AutoSmart™ by Michael Hyde HYUNDAI « KIA - 83
+HK-44 SECTION =
+
+2014-15 Elantra Coupe (Hyundai
+
+| ste | caroa |
+
+ForV1-2500 | DbiSided | n/a _ Active
+NATIONAL: KEYLINE: —ILCO: JET : IMA: STRATTEC: 7 DEALER: == :
+MASTER Bis = nla- HY15 H¥Ia=-  HY-13D Siig = 5 a
+KEYS > Determinator: HYU5 Lishi: HYI5 ‘| AccuReader: n/a = EEZ Reader: nla Cobra: n/a
+
+> Mike's Tip: This car should have 10 cuts with 5 depths. But variations to that have been found.
+Some even use the same code series but with a 8 cut bitting.
+
+> Mike's Tip: Possible Mid year change for some 2006 models. Some 2006 models still use the 2005 S" Codes & Key.
+
+> Elantra Coupe | > Fob Remote: 95430-3X501 - FCC Info: OSLOKA-360T | 314 MHz
+
+> Optima _| > Fob Remote: 95430-26202 - FCC Info: OSLOKA-310T | 314 MHz
+
+> Sonata _| > Fob Remote: 95411-3K200, 201, 202 or ILCO# RKE-HYUN-4B1 - FCC Info: OSLOKA-310T | 314MHz
+
+_DEPTHS
+
+Bow _ SPACING _ 7 = ip
+
+(f7) : — = 1= 33!
+0 baw 2 = 4 5 158 7 A58 | 8 | 10 2=.310
+Dy = = 3 =.290
+O : ae a Cut | 4=.270
+nimy -933 | .850 | .768 .685 | .602 | .520 | 437 | 354 | .272 | 189 to ; = 250
+4 —— == Cut: a
+
+o : = —— — oa 083
+
+an] HPC=: Curtis Clipper Pak-A-Punch | _ITL
+
+= =Nla- — — =A/a n/a — ae nla ==
+
+=z
+
+NOTES: FRAMON— Lay spacing clip flat against left side of vise, ee aligned us- 22]
+ing left side of vise/spacing clip. Set first cut at 317 : Be
+
+84 - HYUNDAI - KIA - = === = -©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeouveeeaneeeeeeeeeeeee
+© 0:6: 0 ' 0:06:06: 0:2 9 0.0 2 '0 0.8 0:06:80. 0.4
+
+continued -HK-44 SECTION ©
+
+Codes: | No codes on any locks,
+
+Decoders: © Determinator: HYU5 Lishi: HY15 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTE- | : ‘Always check the trunk lock for ease of removal. Since Hyundai's & Kia's do not have codes
+= on their locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+Method #1 Check owner's manual for codes, written in by the dealer.
+
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock.
+"Method #3 Disassemble door or trunk cylinder and decode wafers and then progression the ignition lock or
+use InstaCode to determine the missing cuts, if there any to progression.
+E OB o|;8,0;0 > Ignition
+0 Be | | Oe) | 6 | Doors ee
+0/0/0/0}0}0} 0} 0 |> Hatch / Trunk* 2 Different Tumbler
+— 16/0} 1} G |> Glove Box* Positions Possible
+31415/6|17|8191] 10 aH eauipped
+70 El-8 Eee EV Oo > Ignition
+OOO |O/0 ete > Doors -
+Db)O;oO;o/o0O/0/o0o7;0 > Hatch / Trunk*
+(0|0/0/0|> Glove Box*
+2|/3/4|5/6|7}8)9)10
+= *if equipped
+: = : ==) 4=1
+__ TIP: If you see a number on the tumblers, it is 4=2 3 a 2
+usually opposite of what it is supposed to be. 3=3 (or) ee
+= 22 22 = : =2=4 2
+1=5 i=?
+©1994, 2021 AutoSmart™ by Michael Hyde HYUNDAI -= KIA - 85
+Nias ocetae
+
+~ 2009-18 Forte (Kia) 2009-13 Soul (Kia)
+
+| stme | carpe | ima | macs | Startcut | Cuttocut | AirBags | Ign Retainer
+
+WD or D1001-3500 | Dbl Sided 195 Active
+MASTER NATIONAL: KEYLINE: - 1: JET: JIMA: ‘STRATTEC: f DEALER; =|
+KK8 a= = = KKe KKS-= 2 t/a —> = tA | 81996-IM000
+KEYS > — 5 225 ==
+Determinator: KAS | Lishi: KYl4 -| AccuReader: n/a EEZ Reader: nla Cobra: n/a
+
+> Mike's Tip: You can use the HYI5 asa a substitute for the KK8 keyblank, but the HY15 i is not as wide. There is a
+: _ difference of about 5-7 thousands in width, depending on the after-market keyblank you are using.
+
+> RMT Flip Key: (2017-18) 95430-A7200-Rmt, 81996-A7000-Blade or ILCO# FLIP-KIA-4B7 FCC: OSLOKA-875T | 433
+
+>Forte _| > RMT Flip Key: (2013-16) 95430-A7400-Rmt, 81996-A7000-Blade - FCC Info: OSLOKA-870T | 314 MHz_
+
+> Fob Remote: (2009-13) 95430-IMI00, IMTIO- = FOC info: PINHA-TONS [3I5MHz
+
+> Mike’ s Tie Kia has 2 different factory remote flip-out fobs for the Soul but only has 1 part number for both. One
+| type has a red Panic button in the center. The other has a white Trank release button in the center.
+
+> RMT Flip Key: (2012-13) 95430-2K341 (Blade 1996-1M100) or  ILCO# FLIP-KIA-3B2 FCC: NYOSEKSAMTIATK | 315 MHz |
+
+> Soul : : =
+— — |>RMTFlip Key: (2012-13) 95430-2K340 (Blade 81996-1 M100) or ILCO# FLIP-KIA-3B2 FCC: NYOSEKSAMTIATX | 315 MHZ |
+
+|? RMT Flip Key: (2009- 1!) 95430- 2K250 (Blade 81996- 2K000) or ILCO# FLIP-KIA-3B1 FCC; NYOSEKSAMIIATX La 315 MHz
+
+> Fob Remote: 95430-2K100 (2009-11) FCC Info: ‘NYOSEKSAMO8TX | 315 MHz.
+
+95430-2K100 : 95430-1M100, 10 - 81996- A7000 95430-7200 81996- 1M100 — - 95430- 2K250,
+=== 2 ~&AT400 2K340, 340, a4)
+
+@ no TRANSPONDER
+
+86 - HYUNDAI+ KIA : p94, 2021 Autosman™by Michael Hyde
+
+PpeCHCCCSoHOC OC COCO OCO OEE OE
+
+©0000000000000¢
+
+ee
+
+¢
+
+Code Series: WC / WD / C or D1001-3500
+
+continued - HK-45 SECTION
+
+Bow SPACING Tip oT
+< 1 2 3 4 5 S 2 8 2 =.308
+m 3 =.289
+pam 795 | 713 | 630 | 547 | 465 | 382 | .299 | 217 | cutto | 4=.269
+=) - = Cut: 5 = .249
+f HPC Curtis Clipper | Pak-A-Punch ITL 083
+2 a
+x= n/a n/a n/a n/a
+Codes: | No codes on any locks.
+Decoders: | Determinator: KIA3 Lishi: KY14 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTE- Always check the trunk lock for ease of removal. Since Hyundai's & Kia's do not have codes
+on their locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #3 Disassemble Door or Trunk cylinder and decode wafers for a complete key.
+
+0);0;0;0;0|0}0} 0 |>4gnition
+0/0|0,0/0}0; 0/0 }5 Doors
+AO}O}O)0;}/0)0|0)| 0 }> Trunk? Hatch*
+ae | 0 1 | El |> G/B* (* if equipped)
+112/3]/4/5/6|/7/8
+: : 5=7 ‘<5
+TIP: If you see a number on the tumblers, it is 4=2 1S 2
+usually opposite of what it is supposed to be. 3=3 (or) 3 = %
+| aie
+
+- ©1994, 2021 AutoSmart™ by Michael Hyde
+
+HYUNDAI = KIA - 87
+
+HK-46 SECTION
+
+2015-19 Sorento (Kia)
+
+| stwe | carpe | ime | macs | start Cut | cuttocut | Air Bags
+
+| Ign Retainer
+
+Cor UM 1001-3500 High Sec nia _ n/a Active
+MASTER NATIONAL: — | KEYLINE: C0; — | = JER IMA: smaatrec: | DEALER:
+KEYS=> HYI8-R n/a HY18-R HY18-R va n/a na
+
+Determinator: n/a Lishi: HY20R AccuReader: n/a — | EEZReader: n/a Cobra: n/a
+
+> Mike's Tip: Dealer code may have "M" prefix. Look up with “UM" prefix. Example: UM3050_
+
+> RMT Flip Key: (02/13/18+) 95430- C6000-Rmt, 81996-C5000- Blade - FCC Info: = 433 MHz
+
+Remote > > Sorento :
+
+> RMT Flip Key: (up to 02/13/18) 95430-C5100-Rmt, 81996-C5000-Blade - FCC: OSLOKA-S10T
+
+81996-C5000 95430-C5100, C6000 [= ;
+
+@NotransronpeR =
+
+NOTES: The RIGHT track is the one with the cuts, The left track is only a guide track.
+Pre-cut the right track to all number one depths and you | a) = the clearance it
+needs toworkinthelocks. =» = = 7
+
+n DEPTHS
+
+2 SPACING S2R is 1= 150 Z
+
+2 799 | 705 | cto | 516 | 421 | 327 | 232 | 138 | INTERNAL 2= 138
+
+rs = J 2-TRACK | 3=418
+= : a 4=.098
+
+4-42 bs 4 5 | 6 1? “
+
+=] = |= Bigs eS SSS i = 5 = .079
+
+m
+
+)
+
+=!
+
+=x
+
+Codes: | No codes on any locks.
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #2 _ Disassemble Door or Trunk cylinder and decode wafers to make aster key.
+
+| O [> Ignition
+O | O |> Doors
+| }> Trunk / Hatch*
+
+ooo
+ooo
+noo
+aon
+et i
+
+Nn
+w
+py
+lan
+oO
+iN
+0
+
+*if equipped -
+
+: 88 - HYUNDAI = KIA == a ae = ©1994, 2021 Avomerby Michael Hyde
+
+—Ppeeeeoneaeeeeeeee
+
+.
+
+6 6 Ser
+
+eo0oe0e2 e808 @e60e8508@ee¢
+
+(
+
+©oeoeoee#ed
+
+© @e@ @ ¢
+
+HK-47 SECTION
+
+2007-10 Elantra (Hyundai) 2006-09 Rondo {Kia)
+
+| ste | canoe | ms | macs | Startcut | cuttocut | AirBags | ign Retainer
+
+H, M orT 1-2500| DbiSided | CF235 2 768 Active
+MASTER NATIONAL: KEYLINE: | — —_ILCO: JET: IMA: STRATTEC: DEALER:
+KEYS HY17 n/a : HY17 ny HY-11 n/a ' n/a
+
+Determinator: HYU 6 Lishi: HYI7 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+: > Mike's Tip: A few models have been found to have different keyway and locks installed from the factory.
+Remote |> Elantra | > Fob Remote: 95430-2H200, 3K202 or ILCO# RKE-HYUN-4B1 - FCC Info: OSLOKA-310T | 314 MHz
+Info> |; Rondo > Fob Remote: 95430-1D201 - FCC Info: PLNHM-TO11 | 315 MHz
+
+95430-2H200, 3K202 95430-1D201
+
+| NO TRANSPONDER
+
+Code Series: H, M or T 01-2500
+
+SS SPACING Tip paiihe
+
+2 1 2 433 4 5 6 Z 8 9 10 2 =.310
+3 =.290
+
+5 933 | 850 | 768 | 685 | 602 | 520 | 437 | 354| 272 | 199 | ot | 4=-270
+m & : : : : : to | 5=.250
+ge : Cut:
+a =: 083
+a HPC Curtis Clipper Pak-A-Punch ITL
+s°)
+onl n/a n/a =S == = AA n/a_
+r
+
+NOTES: FRAMON— Lay spacing clip flat against left side of vise, Key aligned us-
+ing left side of vise/spacing clip. Set first cut at .317
+
+Codes: | No codes on any locks.
+
+Method #1 Use a Lock Becoder/Reader tool to decode the door lock.
+
+Method #2 Disassemble Door or Trunk cylinder and decode wafers to make master key.
+
+iO )|O fy ad eo > Ignition
+O/}0/0/0|0|0}0} 0 |> Doors
+O}/0|0}0}0}0} | @ }> Hatch / Trunk*
+O}0} 0] O |> Glove Box*
+112/3/4/5/6/7}]8}|9] 10] *if equipped
+©1994, 2021 AutoSmart™ by Michael Hyde — HYUNDAI « KIA - 89
+HK-48 SECTION
+
+2011-16 Elantra 4 Dr (Hyundai
+
+2007-10 Entourage (Hyundai) 2007-12 Santa Fe (Hyundai)
+
+~ 2006-14 Sedona (Kia).
+
+CODES
+
+2010-11 Tucson (Hyundai) =.
+
+= 2008-12 Veracruz (Hyundai)-
+
+STYLE
+
+95430-4)001
+
+95430-4011
+
+95411-0W100, OW120,
+95430-25200, 201
+
+— 95430-A5200,
+3X500
+
+@ no TRansronperR
+
+90 - HYUNDAI + KIA
+
+2 SS ee ©1994, 2021 AutoSmart™ by Michael Hyde
+
+| | carps | ms | macs | Startcut | cuttocut | Air Bags | ign Retainer (em
+HorMo1-2500| Dbisided | n/a | n/a | 2 | 768 | 083 | Yes | Active
+_ MASTER NATIONAL: — KEYLINE: ICO: jE ma: | STRATTEC: DEALER:
+Keysc> | — HYI5 n/a -HYI5 HYI5 | ~—-HY-13D se = = fla
+Determinator: HYU5 Lishi: HYI5 ——_‘| AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+> Mike's Tip: Dealer code may have “H” prefix. Substitute with "M" prefix. == :
+= > Fob Remote: 95430-A5200 (Check with Dir) FCC Info: TQ8RKE-3F03 | 315 MHz
+| > Elantra 4 Dr zs = === =
+> Fob Remote: 95430-3X500 (Check with Dir) FCC Info: OSLOKA-360T | 314 MHz
+> Fob Remote: 95430-4001 (3 Btn) FCC Info: SV3-100060233 | 315 MHz
+> Entourage > Fob Remote: 95430-4J011 (5 Btn) FCC Info: SV3-100060234 | 315 MHz
+| > Fob Remote: 95430-41021 (6 Btn) FCC Info: SV3-100060235 | 315 MHz
+Remote == > Fob Remote: 95411-0W100 or ILCO# RKE-HYUN-3B3 (2006-09) FCC: PINHA-T038|315 |
+Info> |, santa Fe Ss = 222
+: > Fob Remote: 95411-OW120 or ILCO# RKE-HYUN-3B3 (2009-12) FCC: PINHA-T038 jas ==
+> Sedona > Fob Remote: Many different types available depending on VIN. Check with dealer. i
+oe > Fob Remote: 95430-25201 or ILCO# RKE-HYUN-3B1 (05/10-2011) FCC: OSLOKA-850T |
+> Tucson —= = = = : = :
+|| > Fob Remote: 95430-25200 (10/09-05/10) FCC Info: OSLOKA-850T | 314 MHz
+| > Veracruz > Fob Remote: 95430-31500 (no pic) FCC Info: SYS5WY82I2| 315 MHz
+
+Dee Ce CHOeOKECECCOOOSCEOEOOEEES
+
+¢
+
+(
+
+© 6 6 0. @:0 0 6 6.00; 0, 0 00, 6.0.4
+
+HidaG 8 390VdS
+
+continued - HK-48 SECTION
+
+Code Series: H or M 01-2500
+ae DEPTHS
+Bow SPACING Tip 1= 325
+ee. 3 4 5 6 7 8 2 =.305
+=== = : 3 = .285
+768 | 685 | 602 | 520 | 438 | 355. 272 1 190 | gus | 4= 268
+= = : = Cut: 5 =.246
+HPC Curtis Clipper | Pak-A-Punch ITL 083
+CE235* n/a n/a n/a
+NOTES: * Start with cut position 3 for HPC Card CF235
+Codes: | No codes on any locks.
+Decoders: | Determinator: HYU5 Lishi: HY15 — - AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTE- — Always check the trunk lock for ease of removal. Since Hyundai's & Kia's do not have codes
+
+on their locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #3 Disassemble Door or Trunk cylinder and decode wafers for a complete key.
+
+a Oj; 0/0} O}> Ignition
+0/0/00} 0| 0} 0) |s Doors
+Oo/O0 0/0} 0 | ]> Trunk / Hatch*
+0} 0} 0) 0 |> G/B* @ if equipped)
+2/3/4|5|6/7/8
+5=1 at
+TIP: If you see a number on the tumblers, it is 4=2 sae
+usually opposite of what it is supposed to be. 3=3 (or) 2 = 3
+: ag 2S
+os i=4
+©1994, 2021 AutoSmart™ by Michael Hyde HYUNDAI = KIA - 91
+HK-49 SECTION
+
+2010-16 Genesis Coupe 2 Dr
+(Hyundai)
+
+H or M 01-2500
+
+Dbl Sided
+
+STYLE
+
+n/a
+
+| carD# |
+
+2007-12 Santa Fe (Hyundai)
+Optional Transponder
+
+ITL#
+
+2007-14 Sedona (Kia)
+
+Optional Transponder
+
+768
+
+MACS | Start Cut | Cut to Cut Air Bags | Ign Retainer
+
+083
+
+Yes | Active
+
+DEALER: —
+MASTER : : ; : : ==
+wvispt | ma__| HYNIARTI4 va | TPH¥-nppr | 81896-28010-HYN Logo
+KEYS => oS : ~~ | 81996-4D040 - Kia Logo
+Determinator; HYU 5 Lishi: HY15 AccuReader: n/a EEZ Reader: n/a : Cobra: nla :
+
+> Mike's Tip: Dealer code may have “H” prefix. Substitute with "M" prefix.
+
+> Genesis Coupe 2 Dr
+
+> Fob Remote: 95430-2M201 - FCC Info: PINHA-T008 | 315 MHz
+
+> Fob Remote: 95430-0W100 (2007-09) FCC Info: PINHA-T038 | 315 MHz
+
+> SantaFe — == :
+| > Fob Remote: 95430-0W'20 (2009-12) FCC Info: PINHA-T038 | 315 MHz
+> Fob Remote: 95430-40031 (3 Btn, 2007-08) FCC Info: SV3-100060233 | 315 MHiz
+jg > Fob Remote: 95430-4D041 (5 Btn, 2007-08) FCC Info: SV3-100060234 | 315 MHz
+- > Fob Remote: 95430-4D051 (6 Btn, 2007-08) FCC Info: SV3-100060235 | 315 MHz
+
+| > Sedona
+
+> Fob Remote: 95430-40032 (3 Btn, 2009-14) FCC Info: SV3-VOTXNATS | 315 MHz
+
+> Fob Remote: 95430-4D042 (5 Btn, 2009-14) FCC Info: SV3-VQTXNAIS | 315 MHz
+
+95430-2M201 ~ 95430-0W1
+
+00, OW120
+
+> Fob Remote: 95430-40052 (6 Btn, 2009-14) FCC Info: SV3-VQTXNAI6 | 315 MHz
+
+Code Series: H or M 01-25
+
+00
+Pp Bow SPACING _ Tip
+RY 1 2 3- 4 5 6 ce
+OF A a
+m i 768 685 | 602 520 438 (355 L 273. 4190) |. Cutto |
+ge —— : = ee =
+Oo HPC Curtis Clipper — | Pak-A-Punch ITL 083
+ray = z = = ==
+be | = = —
+oul ‘SSabe n/a n/a n/a
+om 2
+
+DEPTHS
+4-= .325 —
+2= .305
+3=.285
+4=.266
+5 = .246
+
+NOTES: * Start with cut position 3 for HPC Card CF235 —
+
+92-HYUNDAI« KIA _
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+peaoaeeaeeaeeoeoeeeeee ee ©
+
+;
+
+>
+¢
+
+¢
+
+@©9@oeeeeoe59«8 se <
+
+©9080 208 0, 0 0 0@@ @ ¢€
+
+| Chip Information & Notes
+
+continued -HK-49 SECTION —
+
+Reusable: No
+
+Transponder: Optional on Santa Fe & Sedona | Chip: Philips 46 HT2
+Cloner Machine Information | =
+
+(DIAG BOX) ( CHINA) (ILCO/SILCA) ( JMAUSA ) ( KEYLINE )( LL.D. )( ScoRPIO \( wo)
+CLONE : :
+& WIZARD CN900 RW4 TRS-5000/EVO 884 Ultegra MIRACLONE TANGO MINI TOOL
+ce M Yes M1 Yes _ WYes2 M1 Yes 2 M7 Yes!2 M1 Yes':2 1 Yes'2 MM Yes
+= Green Chip CN3 & GTI Chip & TPX4 & TK100 & TPX4 & TPX4& WDI Chip &
+a & Shell - HYN Shell — HYN Shell HYN Shell HYN Blade HYN Shell HYN Shell - HYN Shell
+S *4 - May require Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update. | _
+f=i| Programmer & Diagnostic Tools :
+m= 225
+a Factory Tool
+oo Se eee (v TCODE/MVP PRO (v TDB1000 (v HOTWIRE
+GDS or ———
+J2534 & Ves
+Supscription (v SMART PRO (v AUTO PRO PAD [v AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: Determinator: HYU5 — —-Lishi: HY15 AccuReader: n/a
+
+EEZ Reader: n/a
+
+Cobra: n/a
+
+NOTE- Always check the trunk lock for ease of removal. Since Hyundai's & Kia's do not have codes
+on their locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+
+Method #1 Check owner's manual for codes, written in by the dealer.
+
+Method #2 _ Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #3___ Disassemble Door or Trunk cylinder and decode wafers for a complete key.
+
+Boe O;0};0 | 0 }> Ignition
+|0\/0/0/0;0/0}0)|O]> Doors
+0/0/00 O |} QO} | O |> Trunk / Hatch*
+i i El | > G/B (* if equipped)
+Le 31 415'6)17)/3
+ao 5—1 24
+TIP: If you see a number on the tumblers, it is 4=2 & = =
+usually opposite of what it is supposed to be. 3=3 (or) . a 3
+3 2-4 =
+1=5 i=4
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+HYUNDAI = KIA - 93
+
+HK-50 SECTION
+
+2018-21 Rio (Kia)
+___ CODES | stme | carpe | me |
+B, D, G, K1-3000| High Sec
+
+MACS | Start Cut | Cut to Cut | Air Bags | Ign Retainer
+
+n/a Ha =— n/a Yes Active
+
+MASTER ~ > Use ILCO KKI2-P for a mechanical key.
+
+KEYS >
+
+Determinator. n/a : Lishi: K5 AccuReader: n/a -—_—'| EEZ Reader: n/a Cobra: n/a
+
+= Mike's Tip: Test key is Subaru 4-Track. New Codes Series and new keyway. 8 cuts, Centermill High Security,
+
+Remote > | > RMT Flip Key: 95430-H9700 or H9800-Rmt, 81996-H8100-Blade - FCC: NYOSYEC4TX1611 | 433 MHz
+
+81996-H8100 ==»: 95430-9700
+
+@ No TRANSPONDER
+
+Code Series: KB, KD or B, D, G 1-3000
+
+”
+z = 22 —_2 DEPTHS
+
+a) B SPA ap
+EE ow CING Lee son
+2 2 | 2=.071 |
+pay 799 | 705 | 610 | 516 | 421 | 327 | .232 | 138 INTERNAL | 3 = .094
+— ; | | MILLING | 4=.118 E
+m 5 = 5 = .142
+
+oe ee BSS 4 5= 6 = =
+= =: = i : 2|== == == ee = =
+
+Note: Spacing is measured from the tip.
+
+Codes: | No codes on any locks.
+
+NOTE- Always check the trunk lock for ease of removal. Since Hyundai’s & Kia's do not have codes
+
+on their locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+
+Method #1 Check owner's manual for codes, written in by the dealer.
+
+Method #2 Disassemble Door or Trunk cylinder and decode wafers for a complete key.
+
+-_ (*if equipped)
+
+O!10/0/ 0/0/68! 0) 0)}> Ignition
+0,/0/'0|0|0/0; | }> Doors
+0/0}0/0}0/0)0]0 [> Trunk / Hatch
+= z= EAE OO |> G/B* :
+11213/4/5|6|7|8—
+
+94 - HYUNDAI - KIA = 1994, 2021 AutoSmart™ by Michael Hyde
+
+peewee eooeeeeeee ee
+
+"yj
+
+i we om ye Y

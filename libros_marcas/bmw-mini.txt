@@ -1,0 +1,1906 @@
+¢
+
+©9e@@6@6@@e0e06 ¢
+
+C
+
+2021
+
+AutoSmart ™
+_ by Michael Hyde
+
+BMW = MINI
+
+DISCLAIMER: :
+
+A wide variety of key programmers have been added to this book. Most key programmer companies are
+not based in the U.S. Some of their application charts have many mistakes. In some cases, you will need
+to check with your key programmer supplier to see if the vehicle you are working on is supported by their
+tool. There is always a risk in damaging the vehicle electronics when you connect to the vehicle through
+the OBD port if you are not using an OEM diagnostic tool. You as the locksmith take on this risk every
+time you perform work on a vehicle.
+
+If you have any doubt about what part to use, make sure you check with the dealer and have them run
+
+_ the VIN to get you the right part number. Remember, ultimately it is your responsibility to obtain the
+
+|
+
+eons te a ii es
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+correct part. Part numbers and FCC information has been researched and verified as best as possible.
+But no system is perfect or without errors. Car manufacturers’ part numbers and applications guides
+contain mistakes of their own. Therefore, we cannot guarantee or warranty that the part we show for a
+particular vehicle is the absolute right one.
+
+i
+
+BMW - MINI - 1
+2021
+
+- AutoSmart Foreign Book
+
+BMW = MINI Table of Contents
+
+MAKE MODEL YEARS /|TYPE. SECTION |PAGE |
+1600 1968-76 Key BMW-1 6
+2002. 1968-76 _—_| Key BMW-1 6
+3.0 1970-77 Key BMW-7 | 19
+1 Series 2008-13 | Proximity |BMW-8 20 —
+
+: 2014-19 | Proximity BMW-10 24
+2 Series eae: =
+2020-21 Proximity | BMW-11 26
+1975-84 Key _ | BMW-2 8
+3 Series 1985-92* | Key BMW-3 10 —
+1992-94* _| Key _|BMW-4 12
+BMW has many different sub-models and trim levels for the 3 Series
+cars. Between 1999 through 2007 some models may have a 4 Track key
+and some may have a 2 Track key. You will need to check the vehicle
+3 Series yourself or order a key from the dealer by VIN. :
+‘95-06 | 4 Track Remote Head Key | BMW-6 16
+'99-06 | 2 Track Remote Head Key | BMW-5 i
+2006-12 | Proximity | BMW-8 20 —
+BMW rs SSS
+3 Series 2013-18 __| Proximity BMW-10 24
+2019-21 —‘| Proximity | BMW-11 26 ft
+2014-20 ~—'| Proximity | BMW-10 24
+4 Series ==a=
+2021 “| Proximity — | BMW-11 26
+“ 1975-84 __| Key BMW-2 8
+5 Series 11985-87 __| Key BMW-3 | Toa
+1988-94 | Key —|BMW-4— 12 E
+BMW has many different sub-models and trim levels for the 5 Series cars.
+Between 1999 through 2007 some models may have a 4 Track key and
+some may have a 2 Track key. You will need to check the vehicle yourself”
+= 5 Series or order a key from the dealer by VIN. —
+'95-06 | 4 Track Remote Head Key BMW-6 16
+"99-06 | 2 Track Remote Head Key BMW-5 14
+2006-10* _ _| Proximity |BMW-8 _ 20
+5 Series 2011-16 © : Proximity — _| BMW-10 24
+2017-21. ‘| Proximity | BMW-11 26
+2 - BMW: MINI
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+>
+
+»
+
+eoeeaeeeoeoeeeeneeodedeed ©
+o6@2@¢€@e@eeoqoede@eé«
+
+¢
+
+@9e@e@eoeoes9e?@@é <
+
+(
+
+¢
+
+2021 - AutoSmart Foreign Book
+BMW - MINI Table of Contents
+
+MAKE —_ | MODEL YEARS |TYPE |SECTION  |PAGE
+oe. 1978-84 Key BMW-2 8
+1985-89 Key BMW-3 10
+* Overlap year a keyway - depending on model and trim level.
+BMW has many different sub-models and trim levels for the 6 Series cars.
+Between 1999 through 2007 some models may have a 4 Track key and
+some may have a 2 Track key. You will need to check the vehicle yourself
+6 Series or order a key from the dealer by VIN.
+‘95-06 | 4 Track Remote Head Key | BMW-6 16
+99-06 | 2 Track Remote Head Key | BMW-5 14
+oe 2006-10 [Proximity | BMW-8 20
+2012-19 Proximity BMW-10 24
+1978-84 Key BMW-2 8
+1985-87 Key BMW-3 10-
+1988-94 _| Key BMW-4 12
+7 Series: 1995-01 Key BMW-6 16
+BMW 2002-08  |Proximity | BMW-9 22
+2009-15 /Proximity | BMW-10 24
+2016-21 Proximity | BMW-11 26
+1988-94 Key ~ | BMW-4 IZ 2
+8 Series 1995-99 Key BMW-6 16
+2019-21 Proximity | BMW-1 26
+Baveria 1970-77 Key BMW-7 19
+: 2013-15 Proximity | BMW-8 20
+= 2016-21 Proximity | BMW-11 26
+2 2018-21 Proximity | BMW-11 26
+2004-10 Key BMW-5 =
+x3 2011-17 Proximity | BMW-10 24
+2018-21 Proximity BMW-11 26
+2015-18 Proximity BMW-10 24
+= 2019-21 Proximity | BMW-11 26
+©1994, 2021 AutoSmart™ by Michael Hyde BMW-: MINI - 3
+fe eas AutoSmart Foreign Book
+BMW + MINI Table of Contents
+
+MAKE
+
+|MODEL
+
++YEARS
+
+TYPE.
+
+SECTION
+
+'|PAGE
+
+BMW
+
+1X5
+
+~ |2000-06
+
+| Key
+
+BMW-5
+
+a 214
+
+| 2007-13 ©
+
+‘| Proximity ;
+
+BMW-8
+
+20
+
+‘| 2014-21
+
+_ | Proximity.
+
+BMW-11_
+
+26
+
+1X6
+
+2008-14.
+
+Proximity
+
+BMW-8 |
+
+220
+
+2015-24 |
+
+_| Proximity
+
+BMW-11
+
+26
+
+x7
+
+2019-21
+
+Proximity
+
+BMW-11
+
+36
+
+23
+
+{1996-02
+
+Key
+
+| BMW-6
+
+16
+
+24
+
+{2003-08
+
+| Key |
+
+BMW-5
+
+14
+
+—|2009-16
+
+Proximity
+
+BMW-8
+
+20
+
+_| Cooper (Hardtop)
+
+= 2002-06 48
+
+Key
+
+MINI-1 —
+
+28
+
+-|2007-13 —
+
+Proximity =:
+
+MINI-2
+
+=30
+
+}2005-08 ‘|
+
+Key
+
+MINI-1.
+
+28°
+
+Cooper (Convertible)
+
+2009-13
+
+Proximity
+
+MINI-2
+
+30
+
+| Cooper (Conv & Hardtop) |
+
+2014-21
+
+Proximity
+
+MINI-3
+
+Loe
+
+Cooper Clubman —
+
++2051 =
+
+Proximity
+
+MINI-3_
+
+——
+
+| Cooper Coupe
+
+2012-15
+
+_ | Proximity
+
+MINI-2
+
+p20 |
+
+Cooper Paceman
+
+2013-16
+
+Proximity
+
+MINI-2
+
+30
+
+2011-16
+
+1 Proximity :
+
+MINI-2
+
+30 -
+
+Countryman
+
+| 2017-21,
+
+Proximity _
+
+MINI-3,
+
+=o2
+
+2008-14
+
+Proximity
+
+MINI-2
+
+30
+
+‘Clubman .
+
+—|2016-19
+
+| Proximity.
+
+MINI-3
+
+a2
+
+Roadster
+
+;2012-15
+
+Proximity.
+
+-MINI-2
+
+30
+
+4-BMW-: MINI
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+eecaoa5aeeeeeer
+
+p@e@e@e0 008680
+ACDP for BMW _
+
+- Recommended for Price & Ease of Use -
+
+BMW Module
+Programming
+
+For sales and information, please contact Brian
+P. 205.276.3656 | keymasterlsw@yahoo.com
+
+©1994, 2021 AutoSmart™ by Michael Hyde BMW.+ MINI - 5
+IGNITION
+DOOR
+KEYS
+
+TRUNK
+&G/B
+KEYS >
+
+2 different
+types
+
+BMW-1 SECTION
+
+1968-76 1600 & 2002
+
+ITL#
+
+macs | StartCut | CuttoCut | AirBags
+
+STYLE
+
+B 101-630
+
+Sql Sided
+
+macs | StartCut | CuttoCut |
+
+CODES | stvie | carpe | | tgn Retainer
+W 1001-2000 Dbl Sided XF25 n/a | Varies — Roll Pin
+NATIONAL: KEYLINE: ILCO: JET: JMA: _ STRATTEC: DEALER:
+BMWI nla BMW1 BMW1 BM-W A/a Na
+Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader; n/a Cobra: n/a
+| | carpe | me |
+
+NATIONAL:
+WT3
+
+CODES
+
+KEYLINE:
+n/a
+
+| STYLE
+
+| caRD# ie rus
+
+STRATTEC:
+n/a
+
+macs | StartCut | CuttoCcut |
+
+DEALER:
+
+n/a
+
+nla
+
+SX14-240 Sgl Sided
+NATIONAL: KEYLINE: ILCO: JET; JMA: STRATTEC: DEALER:
+63Y nla - 63Y nla BM-SX nia
+
+el NO TRANSPONDER
+
+Code Series: W 1001-2000
+
+DEPTHS
+ée] a
+5 Bow SPACING Tip 1=.256
+a 192 342 492 642 | Plain Side = 2 =.228
+: 3 =.205
+
+m 1 2 3 4 Cut to Cut: .150 4= 182
+S 15 .265 415 565 |ShoulderSide _ :
+4 = =
+Bs HPC Curtis Clipper | Pak-A-Punch ITL
+Be ae
+
+: 67-Plain Side
+
+x25 oF = 68-Shoulder Side
+
+Code Series: B 101-630
+
+as DEPTHS
+ca Bow : SPACING oe es
+= 1 2 3 2 § = Cut to Cut: — 2= .232
+
+3=.210
+
+us 126 | 228 | .331 | .433 | .535 102 4= 185
+g = -
+a HPC Curtis Clipper Pak-A-Punch ITL 2
+A : —
+ond XF26 n/a n/a 59
+z Z
+
+ITL Note: Enter 4 for “A”
+
+6-BMW:M
+
+INI
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+9@6@666060680868086
+
+>@e6 0
+
+D6 @ © @'e
+
+ddl
+©®@eeeoeee8e sé
+
+6 ©, ©@ ¢
+
+C
+
+Code Series: SX 1-240
+: = : : DEPTHS
+S “Bow SPACING. — Tip 1=.260
+> 2 3 4 5 Cut to Cut: 2=.244
+oO — —— 3 =.228
+um 138 | 228 | 319 | 409 | 500 ; 1 42 oa
+‘ha = 5 = 197
+<M] HPC | CurtisClipper | Pak-A-Punch | ITL__
+Be n/a n/a n/a = n/a =
+ok ~~ ~~ ——
+Codes: | Codes on Door cylinder or Trunk cylinder.
+Decoders: Determinator: na _|Lishi; na —_| AccuReader: n/a — | EEZ Reader: n/a Cobra: n/a —
+Method#1 Check owner's manual for codes, written in by the dealer.
+Method #2 Remove the door panel, remove door handle and read the code stamped on it. After you make the key it —
+
+eeeeoe O02Oeoed@
+
+~ continued -BMW-1 SECTION
+
+should work the door & ignition. For the trunk key, if necessary, pick open the trunk cylinder and remove the -
+cylinder. There is a code stamped on it. You can then make a working trunk key. -
+
+IGNITION & DOORS
+
+=[4 Ol 4g oO 4 different cuts on “Shoulder” side of key.
+=|0 oO O O| 4 different cuts on the “Plain” side of key.
+
+> Trunk -
+
+©1994, 2021 AutoSmart™ by Michael Hyde : = ~ BMW.-MINI-7Z
+BMW-2 SECTION —
+
+1978-846 Series | 1978-847Series
+
+1975-84 3 Series" 1975-84 5 Series
+
+| style | CARD# [ mus | "MACS | Start cut Cut to Cut t | Airbags [gn etine
+
+HB1-5000 | DbiSided Spring
+MASTER =—— =
+NATIONAL:— KEYLINE: ILC: : JEL: : JMA: > STRATIEC:. DEALER:
+KEYS > BMW2- n/a X59 BMW2 | BM-HB-P n/a na
+Determinator: n/a Lishi; n/a | AccuReader: n/a | EEZ Reader: n/a | Cobra: n/a ——]-
+
+| NO TRANSPONDER
+
+Code Series: HB 1-5000 :
+” v SPACING
+mei t2tsayetslel7i]e|s|w | 2=33
+re) : : 3=.278
+m SE a= 4=.255
+Qo 106 | 189 | .272 | .354 | 437 | .520-| 602 | .685 | 768 850
+m : a __ Cut
+v HPC Curtis Clipper. Pak-A-Punch | ITL to
+= —= —= = Cut:
+* : 083
+XF33 n/a ala === | G2. :
+Codes: | No codes on any locks, oF :
+Decoders: | Determinator: n/a Lishi: n/a | AccuReader: n/a - | EEZReader: n/a | Cobra: n/a
+Method #1 Check owner's manual ee written in by the dealer. —
+Method #2 Use the new BMW. Determinator.
+Method #3 if the vehicle has a locking glove box lock, remove the lock and carefully ae the —
+
+cylinder, so as not to let the tumblers fall out. Usually the glove cylinder will have 8 out of 10
+tumblers needed to make a master_ key. For the remaining 2 cuts, impression them inthe —
+ignition.
+
+Remember to prep both sides of the key. or Me cece remaining cuts for the ignition. —
+See progression chart. : :
+
+The trunk lock can be picked and\or impressions as well. The trunk lock can also”
+disassembled without a working key. The chrome face cap can easily be removed. Instead
+of sticking a small screwdriver between the cap and the body of the plug and trying to force
+the cap over the place where it was tee drill a small hole right down the center of the
+stamping. =
+
+When re-installing the cap, rotate the capi ina es position, and make new stamps into
+the plug cap. == =
+WATCH OUT for the =i Se detents and springs, the may go flying.
+
+8 - BMW: MINI : a= = ©1994, 2021 AutoSmart™ by Michael Hyde
+
+Se CCOCOCOCOCOSCECOCOEECESE
+Ti
+y IM
+“lll
+
+BMW-3 SECTION ei
+
+1985-92 3 Series 1985-87 5 Series
+
+1985-896 Series | 1985-877 Series
+
+| stve | carps | ima | macs | Startcut | Cutto Cut | Air Bags ‘| tgnretaner
+
+| HB 10001-20000 2 = Varies by :
+- Dbl Sided 106 Active
+MASTER HB 40001-49999 model
+KEYS > NATIONAL: KEYLINE: Soy [em == JMA: STRATTEC: |-— DEALER: —
+BMW3 n/a x144 BMW3 M2 | tae Ma
+Determinator: n/a = Lishi: n/a AccuReader: n/a FEZ Reader: n/a ae. nla —
+
+@ no TRANSPONDER
+
+Code Series: HB 10001-26006, HB 40001-49999
+” : = SPACING — == - 1=.327
+> 2|3 | 4.5 | 6 | #3 | 9706 nu | 223
+5 : : 3=:278 4 =
+m : |= = 4 = ==255 |[-
+ge 106 33183" | 2/72 | 354 | 437 |-.520 602 685 ./68 | 850 933
+= : = : = Cut
+Uv HPC Curtis Clipper Pak-A-Punch ITL. = to
+a : = Cut:
+= : : ; : 083
+XF33 —_ Nfa nia 62 SS
+Codes: | No codes on any locks. co = _ 225 =
+Decoders: | Determinator: n/a Lishi: n/a AccuReader: n/a EEZReader: n/a _| Cobra: n/a.
+Method #1 —_ Check owner's manual for codes, written in by the dealer.
+Method #2. _ Use the BMW Determinator. — = =
+Method #3 If the vehicle has a locking glove box lock, remove the lock and carefully disassemble the
+
+cylinder, so as not to let the tumblers fall out. Usually the glove one will have 7 out of 11
+_ tumblers needed to make a master key. _
+
+Method #4 If the vehicle does not have a locking ‘glove box lock, then either remove a door cylinder to
+_ get to a code, or you can impression the trunk lock. We do not recommend Impressioning the
+door cylinder, as it might have deadiocking tumblers in it, which can be damaged while
+trying to impression it. Deadlocking tumblers do not impression well at all.
+
+The trunk lock can be picked and/or impressions well. The trunk lock can also be disassemble
+without a working key. The chrome face cap can easily be removed. Instead of sticking a small
+screwdriver between the cap and the body of the plug and trying to force the cap over the
+place where it was stamped, drill a small hole right down the center of the stamping. When
+re-installing the cap, rotate the cap in a different position, and make new stamps into the plug
+cap. = ==
+
+WATCH OUT for the ball-bearing detents and springs, they may go flying.
+
+10 - BMW : MINI = ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeeeeeoeeae eeoeaeaeaeeeeeed
+@oe@2@002002080006006000800088@ 4
+
+¢
+
+¢
+
+continued - BMW-3 SECTION
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a | Lishi: n/a _ | AccuReader: n/a | EEZReader: n/a S| Cobra: nla
+olojol/ojojo U > Ignition
+
+== z 8/1010 |G D}D > Doors
+ololojolojo > Trunk :
+Oo )ojojol|o > Glove Box —
+2/3]/4|sl6]{7|s8]9]o]n Se
+
+U = Universal Tumblers* - D = Deadlocking Tumblers**
+
+will allow any cut combination to work.
+
+reading of the lock.
+
+-
+
+Some ignition tumblers have a hardened keyway tu
+
+* Some ignitions use tumblers in all ten positions. Some ignitions have tumblers that are
+commonly referred to as “universal tumblers” in positions 8 through 10. Universal tumblers
+
+** Deadlocking tumblers operate a section of the door lock that only the Master key will turn.
+You cannot deadlock the doors with a Valet key, _
+
+mbler in position two, preventing sight-
+
+A
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+- BMW MINI- 11.
+
+BMW-4 SECTION ee gee
+
+1992-94 3 Series 1988-94 5 Series
+
+STYLE ITL#
+
+| carp# | macs | StartCut | Cuttocut | AirBags | Ign Retainer
+
+2 BH 010001 === = =;
+sieres ~ 240899 High Sec n/a n/a Active
+KEYS > NATIONAL: KEYLINE: ALCO: JET: JMA: STRATTEC: DEALER:
+
+S7BW-P — _|_ BS7BW-P S7BW-P $7BW-PH BM-5P nla nla
+Determinator: nla Lishi: HU58 AccuReader: n/a. EEZ Reader: nia Cobra: n/a
+
+1993-95 Models - Dealer Installed System - FCC: A269ZUA071
+
+| NO TRANSPONDER
+
+12 -
+
+H1dad 8 30VdS
+
+Code Series: BH 010001-240999
+: DEPTHS
+Bow. SPACING Tip 1= 276
+183 31 439 567 695 823 : 2=.252
+___ EXTERNAL 3=.228
+1 2) 3 § = "5 | 6 4-TRACK 4= 197
+.228 356 | .484 612 .740 668° ==
+Codes: | No codes on any locks.
+Decoders: | Determinator: n/a Lishi; HU58 | AccuReader: n/a | EEZ Reader: n/a _| Cobra: na
+
+Method #1 __ =
+Use a Lock Reader / Decoder tool te decode the locks.
+
+Method #2 = = == :
+Remove the trunk lock and disassemble, but remember when you take it apart that there is either one or two ball
+bearings under spring pressure; one might be located in the tailpiece cam assembly and one should be in the plug.
+The trunk lock will contain tumblers in positions 1 through 4, Left & Right. When you have done this, the key should
+start the car. The tumblers in the second to last chamber of the factory ignition, 5 left & right are made so that any
+
+key will operate them. They are not needed to make an ignition key. If you make a key by this method, the key will not
+operate the alarm or deadlocks since cuts in position 5 & 6, left & right are missing and it can be difficult to impression
+the doors because of the construction. : :
+
+continued on next page..........
+
+BMW = MINI . ©1994, 2021 AutoSmart™ by Michael Hyde
+
+» @
+
+)
+
+1 Oe @6'O,6¢ 60:60:60 62.6066 @ 6
+
+»' @
+©ee2oqoe0oeeeeed ec
+
+@®9@eoeoeooeoeoqooeesd <
+
+continued - BMW-4 SECTION
+
+Codes: | No codes on any locks.
+
+Decoders:
+
+Determinator: n/a
+
+Lishi: HU58
+
+“AccuReader: nia
+
+EEZ Reader: n/a
+
+Cobra: n/a
+
+Method #3
+
+You must remove the door panel and then remove the door cylinder/handle assembly. It is a little tricky, the whole
+handle assembly and power door lock motor has to come out of the car to get to the cylinder. The cylinder contains
+all 12 tumblers needed to make the master key.
+
+First remove door panel. On top of the door cylinder/handle assembly is a slide that holds the front handle face plate
+on. Pull the slide towards the edge of the door, you should be able to access this from inside the door or through an
+access hole on the edge of the door. When the slide is pulled the front face plate can be removed. Next you will see
+
+a large threaded ring encircling the cylinder on the front of the door; unscrew and remove the ring. At the opposite
+side of the handle, you will see machine screw that goes all the way through. There is a nut on it. In side the door that
+must be removed before the screw will come out the front.
+
+Next, un-clip the electrical connections and remove the assembly. It may be necessary to move the window track a
+little bit. To-do this, there is usually a hidden screw under the rubber on the window track itself towards the bottom of
+the track. With the assembly out, before you disassemble to decode the cylinder, you should mark everything as to
+where it goes for reassembly. The tumblers are numbered. There are 6 chambers that hold 12 tumblers.
+
+LEFT (RIGHT
+
+D 7 OD
+IMPORTANT NOTE: - 2 : : E= IGNITION
+Last two positions, 5R, 6R & 6L, D D D = DOOR
+the depths always add up to 7 or 9. GTID DITG. | | =2UMBLER:
+
+a
+4
+GTID : a DITG 25 ee ce in the fifth
+2
+1
+
+DITG position that are commonly referred to as
+
+There is never more than one number
+repeated. There is never a number 4
+depth in those positions either. GTID
+
+TID
+
+“universal tumblers" Any key will operate that
+DIT position.
+
+;
+*The ignition LEFT a ee LEFT oO RIGH az Q RIGHT *On the 740 LEFT QO RIGHT
+uses tumblers & oe Eb 6 series, some 6
+inthe fifth aoe 5 Lie 1995 & up, 5
+position that wo Be = (3) * s 7 * there are ee
+are commonly -_ = ee *2 8 tumblers in Sia
+referred to as inl fa : E42 the fifth po- aed ae
+“universal tum- lel bol ae lee sition, in the is
+blers’ Any key = & | a | trunk lock.
+Falcon IGNITION _ DOOR TRUNK GLOVE BOX
+
+There are 6 chambers that hold 12 tumblers. Left tumblers are numbered 11 through 14 and Right tumblers
+are numbered 21 through 24. In chamber number 5, the ignition uses tumblers that do not reach the shear
+line when any key i is used. With that fact in mind, you only need to worry about the first four chambers for the
+pe) only.
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+BMW : MINI - 13 ©
+BMW-5 SECTION
+
+2000-07* 3 Series (BMW) 2000-07* 5 Series (BMW) 2000-07* 6 Series (BMW)
+
+* Overlap year on 2 & 4 Track keys & proximity - depending on model and trim level.
+
+2004-10 x3 (emw) | 2000-06 X5 (BMW) 5 : 2003-08 4 (ew)
+CODES | STYLE | carp# | iml# | MACS | starteut | Cutto Cut | ites ae Retainer |
+1-8100 HighSec | ~ 2 na na Yes | Varies
+BMW Key is ordered from dealer. ere Keys a available. — i
+Deterinator: n/a —__| Lishi: HUSR AccuReader: n/a EEZ ae ‘Cobra: n/a
+
+WASTER > Mike's Tip: Transponder System is Standard - Dealer Closed System. Test key is HU92R
+
+KEYS => | > There are many aftermarket solutions for BMW key programming. Some cars can be programmed through
+: the OBD port and some require Eeprom programming. Abritus, VVDI and Zedfull seem to work well but are not
+cheap and do not fully support every model. Many older model BMWs can be programmed using the AK90.
+
+Some models can be read through the Eeprom for key programming when there is no easier alternative. This
+usually requires a piece of hardware such as AK90, AR32, HRT, Orange5, SMOK or TMPro. The second part to
+this is that you will need software to interpret the data “read” from the Eeprom. Such software tools that can
+be used may or may not be included with the Eeprom hardware or cloners - are AR32, Tango, IKeyClone, HRT,
+MiraClone or TMPro. = oo =
+
+FCC: LX8 FZV
+315 MHZ
+
+Code Series: 1-8100
+
+Bow SPACING "| DEPTHS
+
+1=.150
+2=.126
+
+985-1 865 | .747. |-.629- (=2511 | 393 | .275. |. 156 | INTERNAD 3 = 102
+== MILLING | 4=079 |
+
+Pio) 223 2s 6 ee
+
+Hidsad % A0VdS
+
+NOTES: The right track is the one with the cuts. The left track is only a guide
+track. Pre-cut the right track to all number one depths and the left
+track will have the clearance it needs to work in the locks.
+
+14-BMW =: MINI = : : ©1994, 2021 AutoSmart™ by Michael Hyde
+
+> ©
+
+peeeaoeo eo eooeoee 8
+
+»' @
+
+»)
+
+9 @'@,.,0@ @
+@ <«
+
+o@e2@€@eo@6800680828¢
+
+¢
+
+C
+
+continued - BMW-5 SECTION
+
+Chip Information & Notes
+
+Transponder: Standard ; Chip: Philips 46 = Reusable: No
+
+Cloner Machine Information
+
+(DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA |) ( KEYLINE )( LD. ( SCORPIO \( wo)
+= wee CN900 RW4 TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+> @® No @ No @No || + &No @ No @® No @ No @ No-
+> :
+
+” a = = = = - = =
+U
+Oo
+Ze : ——
+f=), Programmer & Diagnostic Tools
+a =
+Factory Tool PIN CODE
+: REQUIRED (« TCODE/MVP PRO (« TDB1000 Z (« HOTWIRE
+OSS & ==
+ICOM No (« SMART PRO (? AUTO PRO PAD (? AUTEL IM608 ~
+? = Check with your key programmer supplier to see if your vehicle is supported.
+Codes: | No codes on any locks.
+Decoders: | Determinator: n/a Lishi: HUS2R AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Remove door lock and disassemble, Decode tumblers and make working key.
+O0)0|)0/}0| | O}> Ignition
+0/0/0;}0/|0}0}> Door
+3 42251617718
+©1994, 2021 AutoSmart™ by Michael Hyde = BMW «= MINI - 15
+
+BMW-6 SECTION.
+
+1995-07* 3 Series (BMW)
+
+1995-07* 5 Series (BMW)
+
+1995-07* 6 Series (BMW) _
+
+MASTER
+KEYS
+
+1995-01 7 Series (BMW)
+
+* Overlap year on 2 & 4 Track keys & proximity - depending on model and trim level.
+
+1995-99 8 Series (BMW) 1996-02 Z3 (BMW)
+
+CARD# | ITL# | MACS | Start Cut | Cutto Cut | Air Bags | ign Retainer
+
+Unknown - High Sec Active
+BMW Key is ordered from dealer. Aftermarket Keys are available.
+Determinator: n/a Lishi: HU58 AccuReader: nia EEZ Reader: n/a Cobra: n/a
+
+> Mike's Tip: Transponder System is Standard - Dealer Closed System. Test key is HU58 or S7BW-P
+
+Dpeaeoeees
+
+> There are many aftermarket solutions for BMW key programming. Some cars can be programmed through
+the OBD port and some require Eeprom programming, Abritus, VVDI and Zedfull seem to work well but are not
+cheap and do not fully support every model. Many older model BMWs can be programmed using the AK90.
+
+Some models can be read through the Eeprom for key programming when there is no easier alternative. This
+usually requires a piece of hardware such as AK90, AR32, HRT, Orange5, SMOK or TMPro. The second part to
+
+this is that you will need software to interpret the data “read” from the Eeprom. Such software tools that can
+be used may or may not be included with the Eeprom hardware or cloners - are AR32, Tango, |KeyClone, HRT,
+MiraClone or TMPro. == -
+
+2 Code Series: Unknown
+Bow SPACING DEPTHS |
+> === 1= 276
+
+2 183 311 439 | 567 695 823 25.252
+90 —— : -— EXTERNAL 3=.228—
+oO 7 ig 3 4 5 12 = -{ ~ #TRACK 4=.197
+5 : S22
+
+= .228 .356 484 612 740 | .868
+
+= :
+
+16 - BMW : MINI
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+peconeoan5uaueaen5aee 8
+
+6
+@9@eoeoeee ese ¢
+
+@ <
+
+@o9e@eeoqoeoeeoee#8o <
+
+¢
+
+C
+
+continued - BMW-6 SECTION
+
+Chip Information & Notes
+
+Transponder: Standard
+
+Chip: Philips 46
+
+Reusable: No
+
+Cloner Machine Information
+
+(DIAG BOX) ( CHINA ) (ILCO/SILCA) ( JMAUSA ) ( KEYLINE )( LD. )( scorpio \)( wo)
+= aie CN900 -RW4 | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+= @® No ® No —® No @ No ~ @No @®_No ® No @ No
+(és) — — — -— — _ — —
+
+3
+oI *4 - Requires Internet Access to oe cloning. *2 - Requires M-Box. *3 - 50-50 Chance it will work.
+[sj Programmer & Diagnostic Tools © ;
+a
+Factory Tool PIN CODE
+REQUIRED x TCODE/MVP PRO| | x TDB1000 x HOTWIRE
+OSS & :
+ICOM No (« SMART PRO (? AUTO PRO PAD (> AUTEL IM608 -
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders:
+
+Determinator: n/a
+
+Lishi; HU58
+
+AccuReader: n/a
+
+EEZ Reader: n/a
+
+Cobra: n/a
+
+Method #1
+
+Use a Lock Reader / Decoder tool to decode the locks.
+
+"Method #2
+
+Remove the trunk lock and disassemble, but remember when you take it apart that there is either one or two ball
+bearings under spring pressure; one might be located in the tailpiece cam assembly and one should be in the plug.
+The trunk lock will contain tumblers in positions 1 through 4, Left & Right. When you have done this, the key should
+start the car. The tumblers in the second to last chamber of the factory ignition, 5 left & right are made so that any
+
+key will operate them. They are not needed to make an ignition key. if you make a key by this method, the key will not
+operate the alarm or deadlocks since cuts in position 5 & 6, left & right are missing and it can be difficult to impression
+
+the doors because of the construction.
+
+continued on next page.
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+BMW = MINI - 17
+continued - BMW-6 SECTION
+
+Codes: | No codes on any locks,
+
+Decoders: | Determinator:n/a_— Lishi: HU58 AccuReader: n/a EEZ Reader: n/a — ~ Cobra: n/a
+
+Method #3
+
+You must remove the door i bank and than remove the door cylinder/ handle assembly. It is a little Hick, the whole
+handle assembly and power door lock motor has to come out of the « car to get to the cylinder. The oo contains
+all 12 tumblers needed to make the master key. : =
+
+First remove door panel. On top of the door cylinder/handle assembly is a slide that holds the front handle face plate —
+
+on. Pull the slide towards the edge of the door, you should be able to access this from inside the door or through an
+access hole on the edge of the door. When the slide is pulled the front face plate can be removed. Next you will see
+
+a large threaded ring encircling the cylinder on the front of the door; unscrew and remove the ring. At the opposite —
+side of the handle, you will see machine screw that goes all the way through. There is a nut on it. In side the door that
+must be removed before the screw will come out the erent
+
+Next, un-clip the electrical eonrections and remove othe assembly. It may aor necessary to move the window track a
+little bit. To do this, there is usually a hidden screw under the rubber on the window track itself towards the bottom of
+the track. With the assembly out, before you disassemble to decode the cylinder, you should mark everything as to
+where it goes for reassembly. The tumblers are numbered. ‘There are 6 chambers that hold 12 tumblers. :
+
+EEE ia RIGHT
+
+IMPORTANT NOTE: of - = | | = IGNITION
+
+Last two positions, 5R, 6R & 6L, eee ee 7
+
+the depths always add up to 7 or 9. C Gtipl=4 Dita | 1 = TUMBLER”
+
+There is never more than one number G = GLOVE BOX
+
+repeated. There is never a number 4 of Z ete OIG “The ignition uses tumblers in the fifth _
+
+depth in those positions either. | |. GHDi=2. = oli ee Fae le a
+==; =f -Do= position.
+
+There are 6 chambers that hold 12 tumblers. Left tumblers are numbered 11 through 14 and Right tumblers
+are numbered 21 through 24. In chamber number 5, the ignition uses tumblers that do not reach the shear
+line when any key is used. With that fact in mind, you only need to worry about the Hist four chambers for the
+ignition, Se : == =
+
+“The ignition LEFT RIGHT LEFT “RIGHT — LEFT AE RIGHT _ On the 740. LEFT = la RIGHT
+uses tumblers | 6 ee Ee Eo series, some 6
+
+in the fifth Spe ee ios Se | 1995 & up, =
+
+position that Jie Su eee Eta Le there are =.=
+
+are commonly s_ * lk 5 is tumblers in — ee cE
+referred to as inl) Ee a Sel ee the fifth po- = =
+“universal tum- ee EI - = * SLei=* sition, in the =1
+
+blers* Any key a | = | = trunk lock. _ =
+Ua he : IGNITION DOOR TRUNK 1 GLOVE BOX
+
+18 - BMW = MINI : = : ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeeeeeeeooeeeeeeCeeeoees
+(
+
+€
+
+@@e@eeoees
+
+© © <«
+
+@#eoooeeese
+
+¢
+
+BMW-7 SECTION
+
+MASTER
+KEYS >
+
+1970-77 3.0 Coupe / Sedan & Baveria
+
+| stme | carpe | im | macs | Startcut | Cuttocut | AirBags | Ign Retainer
+A-Z 1-1160 High Sec n/a n/a n/a nla nla No Spring
+NATIONAL: KEYLINE: ILCO: JE: JMA: STRATTEC: DEALER:
+PBI nia — PEE- BMW2 BM-IP n/a n/a
+Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+> Mike's Tip: “Dimple” keyway will require a high security machine for duplicates and/or Depth Guides keys.
+
+a NO TRANSPONDER
+
+Code Series: A to Z 1-1100
+
+i?) :
+A) Bow SPACING Tip DEPTHS
+> 1=.083
+2 256 433 689 2 = .067
+: 3 = .047
+ge Dimple
+Oo =
+m
+15/7 334 491 648
++ :
+NOTES: High Security Key Machine Required
+Codes: | No codes on any locks.
+Decoders: | Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Remove a door cylinder or trunk cylinder and read the code on it and make a key by code, using space and
+depth keys. Must have a High Security key machine. The codes have been published and may contain many
+different prefixes but the series runs from 0001-1100. These are dimple keys.
+Method #2 The ignition cylinder is only held in by a metal spring clip similar to VW:s, It should have a code stamped on
+
+it. Make a key by code or replace the cylinder.
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+BMW = MINI - 19
+SME SEEEON 0 ee Fae
+
+2008-13 1 Series 2006-12* 3Series | 2006-10* 5Series | 2006-10 6 Series”
+@MW) == a (BMW) = (BMW) ~ | ot
+2013-15 X1 (BMW) 2007-13 X5 (BMW) 2008-14 X6 (BMW) 2009-16 24 (BMW)
+
+* 2006 Overlap year on keys & proximity - depending on model and trim level. ==
+
+| STYLE | carpe | im# | macs | Startcut | Cutto Cut
+~ High Sec
+
+Air nage | Ign Retainer
+
+BMW Proximity is ordered from dealer. Aftermarket Proximity fobs are available:
+BMW Emergency Slide-In Key i is: 51 217 139 710 :
+
+Determinator: n/a Lishi: HUS2R _ | AccuReader: n/a : EZ Reader: Mla = Cobra: n/a
+
+master | > Mike's Tip: Proximity Transponder System is Standard -[ - Dealer Closed System. Test ‘key is HU92R
+
+KEYS | > There are many aftermarket solutions for BMW key programming. Some cars can be programmed through
+the OBD port and some require Eeprom programming. The top three programmers for BMW & oS
+ACDP, Abritus, VVDI and Zedfull. 1 recommend the ACDP for Price & Ease of Use.
+
+Some models can be read through the Eeprom for key programming when there i is no easier alternative. This
+usually requires a piece of hardware such as AK90, AR32, HRT, Orange5, SMOK or TMPro. The second part to
+this is that you will need software to interpret the data “read” from the Eeprom. Such software tools that can
+be used may or may not be included with the Eero hardware or cloners - are AR32, Tango, Boas HRT, —
+MiraClone or TMPro. —
+
+Code Series: 1-8100
+Bow SPACING
+
+DEPTHS |
+-1= 150
+_ 2= 126
+
+985 | 865 | 747 | 629 | .511 | 393 | .275 | 156 | INTERNAL] 3=.102 —
+: : MILLING | 4=079
+
+Foe 4 5 6é}ffpe| =
+
+Hidsad 8 3J0VdS
+
+NOTES: The right track is the one with the cuts, The left track is only a guide
+track. Pre-cut the right track to all number one depths and the left
+track will have the clearance it needs to work in the locks.
+
+20 - BMW : MINI = ©1994, 2021 AutoSmart™ by Michael Hyde
+
+p06 6 6 6'O: 6 6:6 0.616.646.6666 6 ¢
+¢
+
+®©e@e@e eo eee
+
+¢
+
+¢ j
+
+eoeee 02000
+
+Chip Information & Notes
+
+v continued - BMW-8 SECTION
+
+Transponder: Standard Chip: Integrated Circuit — Reusable: No
+
+Cloner Machine Information : = :
+ca No Cloning for this Proximity System
+> : : :
+n a - = ——
+3 Programmer & Diagnostic Tools _ 2
+cs Factory Tool PIN CODE
+© | iii see ;
+m REQUIRED (« TGQDE/MVP PRO [v ACDP. [v =
+aa | OSS&
+
+ICOM No
+
+. [? SMART PRO
+
+(? AUTO PRO PAD
+
+(v AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: Determinator: n/a ‘Lishi: HU92R AccuReader: nla EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Remove door lock and disassemble. Decode tumblers and make working key.
+> Ignition
+O)0|0;0}0/0/0/0)]> Door
+1/2|3]4/15|6|7
+©1994, 2021 AutoSmart™ ay Michael Hyde = BMW = MINI - 21
+BMW-9 SECTION Jor a oUiees an
+
+| s™eE
+High Sec _
+
+~ None ~
+
+BMW. Proximity i is ordered from dealer. Aftermarket Peony fobs are e available.
+BMW Emergency Slide-In Key is: 51217 066 345 = =
+
+/Determinator: n/a = Lishi: HU92R . ‘| AccuReader: nia — | EEZ Reader: na : “| cobra: nla
+
+master |» Mike's Tip: Proximity Transponder System i is Standard - Dealer Closed ey Test key is e258
+
+KEYS> |> There are many aftermarket solutions for BMW key programming. ,. Some cars can be programmed Sac
+: the OBD port and some require Eeprom programming. The top three programmers for BMW & MINI are
+ACDP, Abritus, VVDI and Zedfull. | recommend the ACDP for Price & Ease of Use.
+
+usually requires a piece of hardware such as AK90, AR32, HRT, OrangeS, SMOK or TMPro. The second part to
+
+be used may or may not be included with the Eeprom hardware or cloners - are AR32, Tango, IKeyClone, HRT,
+| MiraClone or TMPro. E =
+
+Some models can be read through the Eeprom for key programming when there is no easier alternative. This =
+
+this is that you will need software to interpret the data “read” from the Eeprom. Such software tools that can —
+
+Code Series: 1-8100
+Bow SPACING
+
+=a” DEPTHS
+: 1= 150
+| 2=.126
+
+985 | 865 | 747 | 629 | 51 | .393 | .275 | 156 | INTERNAL] 3= 102
+z MILLING | _4=079
+
+a ie lig 2g = fo Lg
+
+NOTES: The right track is the one with the cuts, The left track is only a guide
+track. Pre-cut the right track to all number one depths and the left
+track will have the clearance it needs to work in the locks.
+
+Hid3d 8 30VdS
+
+Ady 1sel
+
+22-BMW=:MINI | : 2 ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeaeee ee @
+
+pea eé66.666666
+@©#eeeeeé
+
+© @ @ «4
+
+C
+
+¢
+
+eee 08020080
+
+continued - BMW-9 SECTION
+
+Chip Information & Notes
+
+Transponder: Standard
+
+Reusable: No
+
+Chip: Integrated Circuit
+
+Cloner Machine Information
+
+No Cloning for this Proximity System
+
+(« TGODE/MVP PRO (v ACDP.
+
+(v ABRITES
+
+=|
+A
+>
+2
+BS Programmer & Diagnostic Tools —
+6 Factory Toot) 7 PIN CODE
+m REQUIRED
+am | OSS &
+ICOM No
+
+= (« SMART PRO
+
+(. AUTO PRO PAD
+
+(v AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator:n/a | Lishi: HU92R AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Remove door lock and disassemble. Decode tumblers and make working key.
+> Ignition
+O;010/}0}0O}0|> Door
+S 541 O4 7
+©1994, 2021 AutoSmart™ by Michael Hyde BMW : MINI - 22
+BMW. 10 SECTION
+
+2014- 19 2 Scfias.
+(BMW)
+
+2013-18 3 Series
+(BMW)
+
+(BMW) s
+
+2014-20 4Series _
+
+2011-16 5 Series —
+(BMW)
+
+2012-19 6 Series
+(BMW)
+
+2009-15 7 Series
+
+2011-17 X3 (BMW)
+
+2015-18 X4 (BMW)
+
+(BMW)
+
+| STYLE | ign Retainer
+
+High Sec
+
+| carps | mms | macs | startcut | cuttocut |  AirBags
+
+_ HF Series : None
+
+BMW Proximity is ordered from dealer. Aftermarket Proximity fobs are available.
+= BMW Emergency Slide-In Key is: 51 217 268 293 or 51 217 227123 :
+
+Determinator: n/a Lishi: HUIO0R— | AccuReader: n/a ‘FEZ Reader: n/a Cobra: n/a
+
+MASTER | > Mike's Tip: Proximity Transponder System is Standard - Dealer Closed System, Test key i is HUI27 / HuIO0R
+
+KEYS _| > There are many aftermarket solutions for BMW. key programming. Some cars can nbe programmed ici ;
+the OBD port and some require Eeprom programming. The top three programmers for BMW & MINI are
+
+: ACDP, Abritus, VVDI and Zedfull. | recommend the ACDP for Price & Ease of Use.
+
+Some models can be read through the Eeprom for key programming when there is no easier alternative, This.
+‘usually requires a piece of hardware such as AK90, AR32, HRT, Orange5, SMOK or TMPro. The second part to
+
+this is that you will need software to interpret the data "read" from the Eeprom. Such software tools that can
+be used may or may not be included me the Eeprom hardware or cloners - are AR32, Tango, IKeyClone, ae
+
+MiraClone or TMPro. : = =
+
+o Code Series: HF Series
+
+A Bow SPACING Tp | 22
+O 2 3 4 Se fe
+m -— : = = 1=.115
+du 882 | .776 | .669 | .563 | .457 | .350 | .244 | 138 | | 2=.095
+m 3=.075
+vu : : :
+= =. 7 -cam:= Carriage: = 4=.055
+= Curtis Clipper: nia n/a Soe 2 oes n/a
+
+24 - BMW : MINI ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeofCOCOoOC OSC oOOOOSEOO OEE SE
+(
+
+(
+
+©#9eeeedeesd7d-<«
+
+oe@e@0e0e8ce0e0-.
+
+Chip Information & Notes
+
+“continued - BMW-410 SECTION
+
+Transponder: Standard
+
+Reusable: No
+
+Cloner Machine Information
+
+Chip: Integrated Circuit
+
+No Cloning for this Proximity System
+
+(« TCODE/MVP PRO (v ACDP.
+
+[v ABRITES
+
+=
+
+5)
+
+>
+
+zZ
+
+” = = — _ =
+BS Programmer & Diagnostic Tools |
+Fl] (FactoryToo!) (— pINcoDE
+
+m ai REQUIRED
+
+mae | OSS&
+
+ICOM No
+
+: (« SMART PRO
+
+(« AUTO PRO PAD
+
+¢ AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: HU100-R AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Remove door lock and disassemble. Decode tumblers and make working key.
+> Ignition
+Els B40) |0) || 0 > Beor
+3/4/516|7
+©1994, 2021 AutoSmart™ by Michael Hyde BMW = MINI - 25
+BMW-14 SECTION
+
+2020-21 2 Series : 2019-21 3 Series 2021 4 Series = 2017-21 5 Series —
+(BMW) 2 - GW - = BNW). (BMW)
+2016-21 7Series | 2019-21 8 Series 2016-21 XI- = |S
+7 ae : (BMW) = = GMW) | 2018-21 X2 & XB (BMW)
+2019-21 X4 (BMW) 2014-21 X5 (BMW) 2015-21 X6 (BMW) 2019-21 X7 (BMW)
+
+Air Bags Ign Retainer
+
+| ste | carpe | me | macs | Startcut | Cutto Cut |
+High Sec Va
+
+HF Series None
+
+_ BMW Proximity is ordered from denier Atma Proximity fobs are a= Fe
+: BMW Emergency Slide-In Key is: 51 217 409 076 (Silver) or 51 217 401 217 (Black)
+
+Determinator: n/a Lishi: HUIOOR | AccuReader: n/a _—_‘| EEZ Reader: n/a | Cobra: n/a
+
+MASTER | > Mike's Tip: Proximity Transponder System is Standard - Dealer Closed System. Test key is HUI27 / HUTOOR :
+
+KEYS | > There are many aftermarket solutions for BMW key programming. Some cars can be programmed through =
+the OBD port and some require Eeprom programming. The top three programmers for BMW & MINI é are
+_| ACDP, Abritus, VVDI and Zedfull. | recommend the ACDP for Price & Ease of Use.
+
+Some models can be read through the Eeprom for | key programming when there is no easier alternative, This _
+_| usually requires a piece of hardware such as AK90, AR32, HRT, Orange5, SMOK or TMPro. The second part to
+this is that you will need software to interpret the data “read” from the Eeprom. Such software tools that can
+
+_ | be used may or may not be included me the ae hardware or cloners - are AR32, Tango, IKeyClone, HRT,
+_| MiraClone or TMPro.
+
+FCC: NBGIDGNG1
+
+434 MHz
+
+77)
+a) : sa eg a es
+b= Bow SPACING = te ==
+oO : DEPTHS
+, = 2 3 4 5 6 7 182 |. :
+
+= == = = T=.115
+ogy 882 | 776 | 669 | 563 | 457 | .350 | .244 | 138 | 2 =.095
+3 ee
+m 3 =.075
+ba © | == 2 =
++ . ma =| Cam: Carriage: : =e ‘| 4=.055
+Ir Curtis Sipe ap a : Pak-A-Punch: n/a :
+
+26 - BMW : MINI ss = : : ©1994, 2021 AutoSmart™ by Michael Hyde
+
+pee ooo eoeoeoeoeoeoeeeeeeeees
+(
+
+o,.2 @: 9 © 2.0.6
+
+¢
+
+¢
+
+©#eee 0200000
+
+Chip Information & Notes
+
+continued - BMW-1 4 SECTION
+
+Transponder: Standard
+
+Chip: Integrated Circuit
+
+Reusable: No —
+
+Cloner Machine Information _
+
+__ No Cloning for this Proximity System
+
+(« ‘TCODE/MVP PRO € ACDP
+
+[v ABRITES
+
+=
+ys)
+>
+z
+” = ——— = = = =
+Oo Programmer & Diagnostic Tools __
+om =
+rs) Factory Tool | ( PIN CODE
+m REQUIRED.
+Ab ae =
+ICOM © No
+
+(« SMART PRO (« AUTO PRO PAD
+
+(2 AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: _ Determinator: n/a Lishi; HUIO0R AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 — Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 _ Remove door lock and disassemble. Decode tumblers and make working key.
+
+> Ignition
+
+> Door
+
+©1994, 2021 AutoSmart™ by Michael Hyde __
+
+BMW « MINI - 27
+MINI-4 SECTION i oe Vhs ue
+
+Mini Key is ordered from dealer. Aftermarket Keys are available. _
+
+Determinator: n/a Lishi: HU92R | AccuReader: n/a EEZ Reader: n/a | Cobra: n/a
+
+eiccs > Mike's Tip: Transponder System is Standard - Dealer Closed System, Test key is HU92R
+KEYS > > There are many shemanal solutions for Mini key programming. Some cars can “he ater Sevag
+
+the OBD port and some require Eeprom programming. Abritus, VVDI and Zedfull seem to work well but are not
+cheap and do not fully support every model. Many older model Mini’s can be programmed using the AK90.
+
+Some models can be read through the Eeprom for key programming when there is no easier alternative. This
+usually requires a piece of hardware such as AK90, AR32, HRT, Orange5, SMOK or TMPro, The second part to
+this is that you will need software to interpret the data ‘read’ from the Eeprom. Such software tools that can
+be used may or may not be included with the Eeprom hardware or cloners - are AR32, Tango, IKeyClone, HRT,
+MiraClone or r TMPro. :
+
+Code Series: 1-8100
+Bow SPACING _ “wave
+
+"| DEPTHS | -
+12450 |
+Ss 2 = 126
+
+985 | 865 | .747 | 629 | .511 | .393 | .275 | 156 | INTERNAL] 3=.102
+a: ~ | MILLING | 4=079
+
+21.) 24 e244] 5 [eee] o--
+
+Hidsad 2 30VdS
+
+NOTES: The right track is the one with the cuts. The left track is only a guide
+track. Pre-cut the right track to all number one depths and the left
+track will have the clearance it needs to work in the locks.
+
+28 - BMW = MINI = = 2 ©1994, 2021 AutoSmart™ by Michael Hyde
+
+Ady 1sa1.
+
+)
+
+Ppeeeeoeeeoeeanoeaeaoeee eee ens
+@ <
+
+*#ee2eOe020002000098808 080 0
+
+¢
+
+C
+
+YAQNOdSNVUL
+
+continued - MINI-1 SECTION
+
+Chip Information & Notes
+
+Transponder: Standard = Chip: Philips 46 Reusable: No
+Cloner Machine Information — = ee :
+(DIAG BOX ) ( CHINA) (ILCO/SILCA) ( JMAUSA ) ( KEYLINE )(  L.D. ) ( scorPiIO )( wol )
+wena LL ene Rw4 | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE | | TANGO MINI TOOL
+@ No : ® No —® No - @ No @ No @®_No @ No ® No
+*4 - Requires Internet Access to complete cloning. *2 - Requires M-Box. *3 - 50-50 Chance it will work.
+Programmer & Diagnostic Tools — :
+Factory Tool PINCODE )
+[= = REQUIRED x TCODE/MVP PRO ? ACDP x* HOTWIRE
+OSS & ee
+ICOM No
+
+(« SMART PRO (« AUTO PRO PAD
+
+€ AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: n/a Lishi: HU92R AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Disassemble the door cylinder and decode the tumblers. There are eight spaces and four
+depths. Making a key to the door lock will give you a complete key.
+0) Oj GO} | O}> Ignition
+O/}0/0|O|O]> Doors 4
+4\;516/7/8
+©1994, 2021 AutoSmart™ by Michael Hyde [sa oe
+MINI-2 SECTION
+
+Cooper Hardtop (Mini) Cooper Convertible (Mini) _ Cooper Coupe (Mini)
+
+2007-13 2009-13 == = = 9012-15
+
+2013-16 2011-16
+Cooper Paceman (Mini) | Countryman (Mini)
+
+2012-15
+-__Roadster (Mini)
+
+2008-14
+Clubman (Mini) —
+
+CODES | sre | carpe | me | macs | Startcut | cuttocut | AirBags
+
+1-8100 | High Sec
+Mini ea is ordered fon aesne Aftermarket Keys = available.
+Determinator: n/a _| Lishi: HU9ZR accufeade: ania ~ | EEZ Reader: n/a Cobra: na =
+aa = > Mike's Tip: Proximity Transponder System is Standard - Dealer Closed System. Test key is HUSA
+KEYS <> | > There are many aftermarket solutions for Mini key programming. Some cars can be programmed through the
+
+| Some models can be read through the Eeprom for key programming when there is no easier alternative. This
+
+_| this is that you will need software to interpret the data “read” from the Eeprom. Such software tools that can
+be used may or may not be included with the Eeprom hardware or cloners - are AR32, Tango, IKeyClone, HRT,
+_| MiraClone or TMPro. = a= = G : = ==)
+
+OBD port and some require Eeprom programming. The top three programmers for BMW & MINI are
+ACDP, Abritus, VVDI and Zedfull. | recommend the ACDP for Price & Ease of Use. —
+
+usually requires a piece of hardware such as AK90, AR32, HRT, Orange5, SMOK or TMPro. The second part to
+
+| ign Retainer §
+
+None = == ==
+
+Code Series: 1-8100
+
+-DEPTHS-
+
+Hid3ad 8 30VdS
+
+Bow SPACING Tip
+- | 1 150
+: : a8 : 2= 126
+985 | .865 | .747 | 629 | .511 | 393 | .275 | 156 | INTERNAL| 3= 4102 o
+: — | MILLING | 4=079 qn
+
+= ! ee
+_ SS =
+S 2 3 421 5 | 6 8 ee
+NOTES: The right track is the one with the cuts. The left track is only a guide OR
+track. Pre-cut the right track to all number one depths and the left = 2
+
+track will have the clearance it needs to work in the locks. =
+
+30 - BMW : MINI == = : : ©1994, 2021 AutoSmart™ by Michael Hyde
+
+—peeeeeeeoeeeeeeeseeseseees
+¢
+
+¢
+
+©*e@e@eeeeeo e
+
+®9@oeeoe8#e@ @ <
+
+¢
+
+continued - MINI-2 SECTION
+
+Chip Information & Notes
+
+(« SMART PRO
+
+(« AUTO PRO PAD
+
+Transponder: Standard Chip: Integrated Circuit Reusable: No =
+Cloner Machine Information = =
+a = =
+= No Cloning for this Proximity System
+a
+” = : = =— = = _ = —
+= Programmer & Diagnostic Tools —/ 2 =
+a Factory Tool PIN CODE
+Oo ee
+7 ee ieee (« TCODE/MVP PRO [v ACDP (v ABRITES
+am | OSS& : :
+ICOM No
+
+[v AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks,
+
+Decoders: Determinator: n/a ~| Lishi; HU92R AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Remove door lock and disassemble. Decode tumblers and make working key.
+> Ignition
+0/0|}0}0}0}O}> Door
+3/4/5|6|7|8
+©1994, 2021 AutoSmart™ by Michael Hyde BMW = MINI - 31
+MINI-3 SECTION.
+
+2014-21
+Cooper (Mini) _
+
+2016-21
+Clubman (Mini)
+
+2017-21
+Countryman (Mini)
+
+carps | im# | MACS | StartCut | Cuttocut | AirBags | Ign Retainer
+
+HF Series High Sec | None
+
+Mini Proximity is ordered from dealer. Aftermarket Keys are available.
+
+Determinator: n/a | Lishi: HUIOOR | AccuReader: n/a _—| EEZ Reader: n/a Cobra: n/a
+a > Mike's Tip: Proximity Transponder System is Standard - Dealer Closed System. Test key is HU127 / HU100R
+Keys <> __| > There are many aftermarket solutions for Mini key programming. Some cars can be programmed through the
+
+OBD port and some require Eeprom programming. The top three programmers for BMW & MINI are
+ACDP, Abritus, VVDI and Zedfull. | recommend the ACDP for Price & Ease of Use.
+
+Some models can be read through the Eeprom for key programming when there is no easier dusinate Ts
+usually requires a piece of hardware such as AK90, AR32, HRT, Orange5, SMOK or TMPro. The second part to
+this is that you will need software to interpret the data “read” from the Eeprom. Such software tools that can
+be used may or may not be included with the Eeprom hardware or cloners - are AR32, Tango, IKeyClone, HRT,
+MiraClone or TMPro.
+
+Code Series: 1-8100
+
+: a DEPTHS a
+o Bow SPACING Tip a= 460 = o
+> 2 = 126 =
+stay 985 | 865 | 747 | 629 | .511 | 393 | .275 | 156 | INTERNAL | 3=.102 ae
+m - |} | MILLING-| 4=079 a>
+9 2X
+
+. = = === = 4 = = — @
+ee 1 | ops ee | eee or
+= : == nN
+= NOTES: The right track is the one with the cuts. The left track is only a guide
+
+track. Pre-cut the right track to all number one depths and the left
+
+track will have the clearance it needs to work in the locks.
+
+32 - BMW « MINI : : ©1994, 2021 AutoSmart™ by Michael Hyde
+
+—peeoaoeaeeeoeeeeaeeeeeeeones
+©9@e eo <«
+
+¢
+
+¢
+
+eee
+
+¢
+
+¢
+
+©e@e@e@ ¢
+
+Chip Information & Notes
+
+continued - MINI-3 SECTION
+
+Transponder: Standard
+
+Chip: Integrated Circuit
+
+| Reusable: No
+
+Cloner Machine Information
+
+No Cloning for this Proximity System
+
+(« TCODE/MVP PRO € ACDP
+
+€ ABRITES —
+
+=
+>)
+>
+z
++ = == == =
+BW Programmer & Diagnostic Tools _
+S Factory Tool PIN CODE
+m REQUIRED
+me | 6OSS &
+ICOM No
+
+(« SMART PRO (« AUTO PRO PAD
+
+(? AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No codes on any locks,
+
+Decoders: | Determinator: n/a Lishi: HUIQOR AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Remove door lock and disassemble. Decode tumblers and make working key.
+> Ignition
+8/0|0/}0|0/0} 0} {> Door
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+—~BMW «MINI - 33
+

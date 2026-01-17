@@ -1,0 +1,4408 @@
+@e2eoeoee
+
+¢
+
+¢
+
+¢
+
+| the OBD port if you are not using an OEM om ates tool. You as the locksmith take on this risk every
+| time you perform work on a vehicle. -
+
+| Butno system is perfect or without errors. Car manufacturers’ part numbers and applications guides
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+AUTO LOCK SERVICE, INC-
+
+2021
+AutoSmart ™
+by Michael Hyde
+
+MAZDA
+
+Tannen
+
+DISCLAIMER:
+
+_ Awide variety of key programmers have been added to this book. Most key programmer companies are
+
+not based in the U.S. Some of their application charts have many mistakes. In some cases, you will need
+
+| to check with your key programmer supplier to see if the vehicle you are working on is supported by their
+
+tool. There is always a risk in damaging the vehicle electronics when you connect to the vehicle through
+
+If you have any doubt about what part to use, make sure you check with the dealer and have them run
+the VIN to get you the right part number. Remember, ultimately it is your responsibility to obtain the
+correct part. Part numbers and FCC information has been researched and verified as best as possible.
+
+contain mistakes of their own. Therefore, we cannot guarantee or warranty that the part we show for a
+particular vehicle is the absolute right one.
+
+MAZDA - 1
+oe 2021 -
+
+- AutoSmart Asian Book
+
+MAZDA Table of Contents —
+
+MAKE
+
+|MODEL
+
+|YEARS" :
+
+TYPE
+
+|SECTION
+
+| PAGE
+
+MAZDA
+
+| 323
+
+‘|1990-94
+
+‘Key =
+
+/MAZ-1
+
+{1980-89
+
+Key
+
+|MAZ-2
+
+626
+
+2000-02 —
+
+Key*
+
+MAZI=
+
+99
+
+1998-99
+
+Key*
+
+MAZA10
+
+__ 20
+
+1993-97
+
+Key
+
+‘MAZ1_
+
+(1988-92
+
+Key —
+
+MAZ-2
+
+929 —
+
+1992-95 _
+
+Key 2
+
+MAZ-1-
+
+1988-91
+
+Key |
+
+MAZS
+
+B-Series Pick Up
+
+—|2001-11_—
+
+Key* -—
+
+MAZ-6
+
+1997-00, |
+
+Key*
+
+MAZ-5
+
+1983-93
+
+Key
+
+MAZ-3
+
+| CX-3
+
+2021
+
+=o Proximity
+
+MAZ-17 _
+
+2016-20
+
+Proximity
+
+MAZ-14
+
+_| CX-30
+
+‘|2020-21
+
+Proximity.
+
+Tazz
+
+| CX-5
+
+2019-21
+
+| Proximity
+
+MAZAT = ==
+
+| 2013-18 |
+
+Proximity _
+
+MAZ-14
+
+Tok
+
+2010-15 ©
+
+| Proximity
+
+| MAZ-15
+
+2006-09
+
+| Proximity _
+
+MAZ-16
+
+200715
+
+Key
+
+MAZ-12
+
+CX-9
+
+| 2019-21
+
+Proximity
+
+~ | MAZ-17
+
+| 2016-18
+
+| Proximity _
+
+| MAZ-14
+
+~ | 2010-15 ©
+
+_| Proximity
+
+MAZ-15
+
+| 2006- 09.
+
+Proximity
+
+| MAZ-16
+
+2007-15 =
+
+MAZ12
+
+Mazda 2
+
+(2015-19
+
+| Proximity
+
+MAZ-14
+
+2011-14
+
+Key
+
+MAZ12——
+
+‘| Mazda 3
+
+| 2019-21
+
+| Proximity —
+
+| MAZ-17
+
+[2014-18
+
+Proximity
+
+MAZ-14 —
+
+2010-13
+
+Proximity
+
+MAZ-15
+
+2004-14
+
+[maz
+
+Mazda 5
+
+. 2006-15
+
+ne 2
+
+soi) Lr ee
+
+24
+
+- ‘Transponder system was Optional. on this vehicle - ae if a mechanical key will start it up? —
+
+- 2-MAZDA
+
+- ©1994, 2021 AutoSmart™ by Michael Hyde — —
+
+Dpeeeaeeeoeeeeeoeaeoeoeeeeee
+© @,e@ @ <
+
+¢
+
+@ee0cr
+
+2021 - AutoSmart Asian Book
+MAZDA Table of Contents
+
+MAKE MODEL YEARS |TYPE _ |SECTION PAGE
+2019-21 | Proximity —_ | MAZ-17 34
+2014-18 Proximity MAZ-14 28
+Mazda 6 2009-13 Proximity MAZ-15 30
+2006-08 Proximity MAZ-16 a2
+—— 2003-13 Key MAZ-13 26
+Millenia 1995-02 Key MAZ-9 18
+2004-06 Key _| MAZ-13 26
+MPV 2000-03 Key* MAZ-11 22
+1989-98 Key MAZ-1
+| MX-3 1992-98 Key MAZ-1
+z 2020-21 Proximity | MAZ-17 34
+aaa 2016-19 ns MAZ-14 28
+2009-15 Proximity MAZ-15 30
+2006-08 |Proximity | MAZ-16 32
+2004-2005 Models - There are TWO different types of transponder systems for the 2004-05 MX-5
+MAZDA MX-5 Miata _| Miata models. One is the carry over of the “8C” chip type from 2003 and the the other is newer
+Mazda CAN with a“4D63" chip. You will need to have the dealer run the VIN to be certain.
+2004-12 Key MAZ-13 26
+MX-5 Miata 2000-03 Key* |MAZ-11 22
+. 1990-99 _—| Key MAZ-1
+ae 1993-97 Key MAZ-1 4
+1988-92 Key MAZ-2 5
+Protege 1990-03 _| Key MAZ-18 36
+= 2006-11 Proximity MAZ-16 32
+—— | 2004-11 Key MAZ-13 26
+1993-02 Key MAZ-1 a5
+RX-7. 1988-92 Key MAZ-2
+_ | 1983-87 Key MAZ-3 6
+2005-11 Key MAZ-7 14
+Tribute
+2001-04 Key MAZ-8 16
+* Transponder system was Optional on this vehicle - See if a mechanical key will start it up?
+©1994, 2021 AutoSmart™ by Michael Hyde MAZDA - 3
+MAZ-4 SECTION
+
+1990-94323
+
+- 1993-97 626
+
+| 1992-95 929
+
+1992-
+
+98 MX-3
+
+1990-99 MX-5 Miata
+
+| STMLE
+
+1993-97 MX-6
+
+| cARD#
+
+| img
+
+1989-98 MPV.
+
+MACS | Start Cut | Cut to Cut | Air Bags | ign Retainer
+
+1993-02 RX-7
+
+KEYS >
+
+10100-12283 | DbiSided | x68 Roll Pin
+"NATIONAL: ~KEYLINE: co: | JET: IMA: _STRATTEC: DEALER:
+MZ19- nla  X201 MZ19- MAZ-17D | 692069 nla
+
+Determinator: MAZ 2 Lishi: MAZ24 AccuReader: nla FEZ Reader: n/a = Cobra: n/a
+
+| Ehor TRANSPONDER
+
+Code = 40100- 12283
+
+=TRY 4
+
+If the code is no good or the car has been re- -coded, disassemble door cylinder to decode wafers,
+
+then impression final cuts, —
+
+IRY2. TRY 3
+
+% SPACING = nue &
+> = =|=3,, =| Cutto = S
+5 =a 2 3 : 5 “ Bed ee cut: ae a
+m =e == === : 083 | 2-299
+go | -098 = 180 | .263 | .345 | 428 | .511 | .593 | .676 | .758 | 841 3 = .284
+o 4= .268
+m Com: Carfiade: : == = 5 =.252
+Bf Curtis Clipper: | jy7'¢ Mz.5A_|Pak-A-Punch: | PAK-F6
+= —— —
+Codes: Code should be stamped on passenger door lock. oe
+Decoders: | Determinator: MAZ2 | Lishi:MAZ24 | AccuReader: nla | EEZReader: nla_—_| Cobra: nla __
+_ Method #1 — Use a Lock Decoder/Reader tool to decode the door lock. Impression missing cuts.
+“Method #2 Remove passenger -door cylinder and =a bac Sanaek on door cylinder and make master aa:
+
+Sinan
+
+TRY 1 TRY —=IRY 3
+
+)~Jo oO].
+
+TRY1 TRY2 TRY3 TRY4 |
+
+TRY4
+
+> Ignition
+
+> Doors & Trunk
+
+To progression aahe remaining cuts for the ignition in n positions 1 & 2, fate iat the depth is in position sGraber 3
+which is found in the door and trunk locks, and then use e the chart below. Use the column that matches the depth | for =
+the tumbler in position number 3, = ===
+
+TRY 2
+
+: TRY 1 “TRY2
+12 222 232 | 218224 43 | 42) 22222 FB 2 42 23 —. —33 g2 = 42 ©
+24 Zo 2=S2S). 24 | : 35 =A3 34 44
+34 33 : 34 =45 = 2 53 = Sf
+a=
+4-MAZDA __ | ©1994, 2021 AutoSmart™ by Michael Hyde
+
+»e0 068
+
+»>eoe oe ©
+
+wBeecéeeoo0oe 8 6
+©9068 €2:00606060'0@:60@ 6 .<¢€
+
+¢
+
+MAZ-2 SECTION
+
+1980-89 323 1988-91 929 1988-92 MX-6 1988-92 RX-7
+
+1988-92 626
+
+CODES | stvie | carp# | imi# | macs | Startcut | cuttocut | AirBags | ign Retainer
+6500-7733 Dbl Sided XF65 3 287 Roll Pin
+MASTER :
+NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: DEALER:
+KEYS > MZ16 MZ16 x178 MZ16 MAZ-20D nia nla
+Determinator: MAZ1 Lishi: n/a AccuReader:_n/a EEZ Reader: n/a Cobra: n/a
+
+| NO TRANSPONDER
+
+Code Series: 6500-7733
+”
+U DEPTHS
+= 1= 315
+oO .
+im 2 = .295
+go 3= 275
+'s) 4= .255
+ee Carriage: | pak-A-Punch: | PAK-MZ2
+~ Pper: | Mz-3 Mz-3A ‘eee 4 4
+=
+FRAMON—Use small hump in key blade as shoulder and set first cut at .287”
+Codes: | Code should be stamped on passenger door lock.
+Decoders: | Determinator: MAZ 1 | Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Remove passenger door cylinder and read code stamped on door cylinder and make master key.
+: If the code is no good or the car has been re-coded, disassemble door cylinder to decode wafers,
+then impression final cuts.
+Method #3 Impression locks. Tumblers can break easily—be careful.
+There can be more than one factory tumbler arrangements.
+O|8}8;0/} 0} O}> Ignition
+Oo O|}O}|O}|O}> Doors
+| O |} 0} 0} O}> Trunk
+2/3/4/5/6|7
+0/0/0|)0/0| O} DO ]> Ignition
+Oo O| 0} O |> Doors
+oO O | O} O}> Trunk
+14-2. 33-475) 6)7
+©1994, 2021 AutoSmart™ by Michael Hyde 2 MAZDA - 5
+MAES SEChOR = 0-22 oe Soe
+
+1983-93B-SeriesPickUp | | 1983- 87 RX-7
+
+“| sm™e g | carp# | im# | macs | Start Cut
+
+| Cut to Cut | Air Bags | ign Retainer =
+
+6500-7733 Dbl Sided Roll Pin
+MASTER ——
+=== NATIONAL: — KEYLINE: ALCO: 40 = = JER = =4 == IMA: ~ STRAHEC:— DEALER:
+KEYS> | Mzi3 na 3 - MZz13 MAZ-3D | n/a nla
+Determinator; MAZ1 ~ | Lishi: n/a AccuReader: 22 | EEZ Reader: n/a | Cobra: n/a
+
+7)
+a) DEPTHS.
+5 1 = 31 ==
+im 2 = .295
+Qo 3=.275 |
+oO 4=.255
+a Cam: |Camage. |, , =a
+ar Curtis Clipper: Mz-3 Mz-3A Pak-A-Punch: | PAK-MZ2 _
+FRAMON—Use small hump in key blade as shoulder and set first cut at 287" =
+Codes: | Code should be stamped on passenger doorlock. ==
+Decoders: | Determinator: MAZ1 | Lishi: nfa _—_| AccuReader: n/a EEZ Reader: nla | Cobra: nla
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Remove passenger door cylinder and read code stamped on door =yinders and make master rey.
+
+If the code is no good or the car has been re- -coded, disassemble = eyunder: to decode wafers, _ i
+then impression final cuts. =
+
+Method #3 Impression locks. Tumblers can break easily—be careful. =
+
+> Ignition 2
+
+6-MAZDA 3 eS ©1994, 2021 AutoSmart™ by Michael Hyde
+
+vee eeeeoeeéeoeoaoebieeeeee 6
+eeoed
+
+ooo ee oe <
+
+e«
+
+eee of
+
+_ Looking for OEM Factory Keys, Keyless Entry &
+Proximity Remote Fobs?
+
+We have them on the shelf - ready to ship.
+
+National Auto Lock Service, Inc
+1-650-875-0125
+www.MichaelHyde.com
+
+Open late on the West Coast - 7pm EST
+
+©1994, 2021 AutoSmart™ by Michael Hyde MAZDA - 7
+MAZ-4 SECTION |
+
+| STYLE
+
+1994-95 B-Series Pick Up
+
+| _cARD#
+
+me | macs | Start Cut | Cuttocut |
+
+1991-94 Navajo |
+
+| Air Bags | ign Retainer
+
+lenition | A-B-C-D-E | DbiSided | X56 2 Active
+& DOOR NATIONAL: __KEYLINE: ILCO:- JET: JMA: ~ STRATTEC: DEALER:
+KEYS <> H60 H54 11I84FD H60 FO-11D 596758 nla
+Determinator: FOR1 Lishi: FO26/H60 AccuReader: FORD 10 EEZ Reader: H54 F Cobra: KDFIO
+| stme | carpe | ma | macs | Startcut | Cuttocut
+FB 0-1863 DblSided | €24|24 = She = :
+
+fans NATIONAL: KEYLINE: ICO; JET: JMA: ~ STRATTEC: DEALER: —
+
+H50. «| ~——«#H50 S1167FD H50 FO-I9D | 321202 nla
+
+Info >
+
+> Fob Remote: (B-Series Pick Up) ILCO# RKE-FORD-3B1 - FCC Info: CWTWBIU345 | 315 MHZ
+
+FCC: CWTWBIU345
+
+Code Series: 10 Cut A-B-C-L -D-E (Ford 16- <a |
+° Eo SPACING Te | oy | DEPTHS
+e 1 2 3 4 5 6 7-1 ¢ 7T 9 | 10 | te | 1= 352
+7 oe oe
+go 7.033 | .941 | .848 | .756 | 663 | .571 | 478 | .386 oe .201 .092 3 = 300°
+fo 4=.274
+a Cam: Caniagé: xray =a =
+cS Curtis Ghisper: FORD-3 FORD-3 : eg th ogee | PAK-F1 : : == =
+NOTES: FRAMON—Use Ford FD84 clip and set for firs rst cut @i = ze
+Code Series: FA & FB001-1863 j
+= as s
+is “SPACING _7%]) | DEPTHS
+a 1 2 3 4 5 Cut to Cut: | 1=.340
+T == : 2150 — 2= .320 |
+ge 803 653 503 .353 .203 | 3=.300
+o 4= 280
+5 | cam: Carriage: Bo 52S eee
+= Curtis Clipper: FORD-2 FORD-2 __| Pak-A-Punch: | PAK-F4
+NOTES: Framon start cut is: 100 — = :
+8 - MAZDA - : : 61994, 2021 AutoSmart™ by Michael Hyde
+
+»>ee00 80
+
+peeeeeueeee@
+
+»@ ©
+
+)
+s:| No Codes on any locks.
+
+- Determinator: FOR
+
+IGNITION / DOOR: - PRIM
+
+oo eee a Soe
+
+se ignition half set of try-out keys to make ‘onion key. Combine the ‘cuts to ‘make final door/ignition key, See
+
+~ Do not impression the ot as it uses a side-bar and the d rs are standard rd plate tumblers. : = ae € Ess
+
+O |> Ignition
+_|> Doors
+
+Wie cmel ek etre Je sae UNE TA eet hi peal [Pcesere pee ee emma TTT sik Soe cee pment meee re TE ID ak a
+
+_( REMINDER: “Standard fd 10-Cut —
+| _ ignitions, the tumblers that contact 2
+
+[ ‘Use try-out keys first in the door,
+Baxter Systems tryout set 65A (Doors), 648 (Ignition), 102 (Ignition & Doors).
+: __ >Aero Lock tryout set TO-40 (Doors), TO-3 (Ignition). —
+
+_ __ Disassemble door cylinder or sight read wafers to make oa key. You will need tienes the cap if you
+
+disassemble the door vine Ft progression spaces 7, 8, 9, & 10 to make working ignition key.
+= d ee i ae : Ls }|> Trunk i
+: oF SS —— > Glove Box* 2) 22
+Method #2 ~ Use tryout Keys. ae = ;
+
+= == ___>Baxter ‘Systems tryout set 82FB
+= >Aero a set TO-2. —
+
+20 0 0 0.0.00 6 © 00,
+
+| Coded baa Coded
+
+eee ee
+
+.
+
+MAZ-5 SECTION —
+
+1997-00 B-Series Pick Up (Optional Transponder)
+MACS | Start Cut | Cut te Cut | Air Bags
+
+| Ign Retainer
+
+| ste | canoe | me |
+
+001-1706X ‘Dbl Sided CxI01 Active
+MASTER : ee
+2 NATIONAL: KEYLINE: ILCO: a JET: JMA: ~ STRATTEC: — : ~ DEALER:
+KEYS > H72-PT BH72-PT H72-PT _ H72-PT H72-PT 598333 n/a
+Determinator: FOR2- Lishi: F038 AccuReader: FORD 8 EEZ Reader: H75 Cobra: KDF8
+
+More » Mike's Tip: *PATS 2 Key - Optional transponder system. Test key is H75,_ :
+_Info> > Fob Remote: ILCO# RKE-FORD-3B1 - FCC Info: CWTWBIU331, 343, 345 | 315 MHz
+
+Code Series: 01-1706X
+
+2)
+
+0 oe
+
+b= Bow SPACING = ae Tp | cutto | DEPTHS
+
+. 1 22 3 4 5 6 7 8 Cut: 4 = .354
+
+Pm eas | 753 | 661 | 509 | .477 | 385 | 203 | 201 | °° | 2=.329
+
+oO a = | == == = == 3 = .304
+
+m an _ | Cam: Carriage: = 55 4=.279
+
+¥ Curtis Clipper: FORD-5 eons Pak-A-Punch: PAKS : —| 5= 254
+Bs
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .405
+
+Chip Information & Notes _
+
+Transponder: Yes on most models _ | Reusable: Yes 2252 225
+
+z Cloner Machine Information a x .
+
+(DIAG BOX) ( CHINA ) (ILCOSILCA) ( JMAUSA ) ( KEYLINE )( LD. \( scorPiO )( wo)
+
+ope: EF “ENO Rw4+ _| |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO ‘MINI TOOL
+
+= Mes ‘fd Yes VJ Yes (J Yes _ © Yes Se [Vj Yes jv] Yes [Vj Yes —
+2 Blue Chip & || CN1&H72 | | EH3&“B" | | TPX1& | | CK100/TK100| | CN1orTPX1 | | CN1orTPX1 | | WWDIChip
+> Shell Shell Blade H72 Shell &H72Blade | | &H72Shell | | &H72Shell | | &H72 Shell
+< 4 Requires Internet Access fo complete cloning. *2 - -Requies Prips Crypto Update. 3. Requires Texas Crypto update.
+of Programmer & Diagnostic 1006. . oe So e=
+= Factory Tool PIN CODE ; Sains ===: :
+Mm oi | |v TCODE/MVP PRO] _ | x TDB1000 ¥ HOTWIRE
+0) == 3 _ REQUIRED — = = = = z=
+
+NGS joke = =
+
+IDS Not ———
+
+vem | | Needed re SMART PRO [v AUTO PRO PAD (2 AUTEL IM608
+
+10 - MAZDA | == 01994, 2021 AutoSmart™ by Michael Hyde
+
+(Oe 6606 6@ 666666 6 6
+
+» @
+
+)
+= ee Zs == === == continued - MAZ-5 SECTION
+
+Codes: No Codes on any locks. _
+
+Decoders: | Determinator: FOR? L
+
+= — Use: a Lock Decoder/R Reader aa in the door lock to determine cuts in » positions 1 1 through ¢ aS
+
+"and then progression t —— pasrs -cuts in the : ignition for ee 7& S-
+Method #2 “Use the Ford Determinator™. =
+Method #3 'eee5 oll keys: Aero ick 10-82 for the doors and then progression the last 2 cuts.
+
+To progression the remaining guts for the ‘antan in positions 7&E Ed es what the ep is in epost =
+rumber 6 which: fg found Fhe doorlock = = = 5 Ss ee
+
+__#5DEPTH |
+
+_TRY1 TRY2 TRY3. | _
+
+au
+
+45
+
+32 42.
+
+= aa
+
+34 44
+
+ee
+
+35 54- 2=
+
+o-*
+
+¢
+
+€
+
+‘a
+
+@«
+
+e
+
+MAZ-6 SECTION
+
+2001-11 B-Series Pick Up (Optional Transponder 2001-06) =
+
+| STYLE
+
+| Ign Retainer
+
+== 001-1706X Dbl Sided Active
+MASTER © |—__ — =
+ys > NATIONAL: ~ KEYLINE: ILCO: = JE JMA: STRATTEC: = DEALER:
+KEYS H92-PT BH92-PT Zee = J92-PHT TP33-FO30P 690212 1F20-76-201.
+‘Determinator: FOR 2 | Lishi: F038 AccuReader: FORD 8 EEZ Reader: H75 Cobra: KDF8 :
+
+> Mike's Tip: PCM for 2001-06, PATS 4 for 2007-11 - Key Programmer Required, Test key i is H75,
+
+More _| > Mike's Tip: *Optional transponder system 2001-06 models.
+
+Info > > Mike's Tip: 2001-04 Models are shipped with transponder key regardless whether that vehicle has it or not.
+
+> Fob Remote: ILCO# RKE-FORD-3B1 - FCC Info: CWTWBIU331, 343, 345 [315 MHz
+
+Code Series: 01-1706X
+
+R a= = :
+
+0 eSFREING Ses DEPTHS
+a 1 2 [3 4 5 a fore yates | 12.354
+m eS 2 = aS = — = : 092 = 2 = .329
+pay 845 | 753 | 661 | 569 | .477 | .385 253° | 201 |= 3= 304
+oO : | 4=.279
+[ 7 Cam: Carriage: _ vo ae oe
+= Curtis Clipper: FORD-5 FORD-5 : Pak-A-Punch: PAK-F3
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at 405— 2
+
+“Chip Information & Notes
+
+Transponder: Standard Equipment
+
+Chip: 4D63 40 or 80-bit
+
+= > Mike's Tip: Key Programmer soos Test Key is 5 H75, ==
+> === = =
+Zz ‘Cloner Machine Information | Se
+” : ———e— e == = : = : == = = =
+Ps (DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE (up. )( scorpio \( wo )
+Z cN900 Rw4+ | |TRS-S000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+a Yes | Yes M Yes _ Yes? 71 Yes == _ Yes? Yes? | Yes
+Blue Chip & | | CN2/5&H92| | EH3&“B” | | TPX2& =: ' cK100/TK100 “CNS or TPX2 | | CNS or TPX2 W0DIChip &
+Shell Shell Blade | | H92 Shell &H92Blade | | & H92 Shell & H92 Shell H92 Shell
+“4 - May Require Internet Access to complete cloning. "2. Requires Philips Crypto Update. 3. Requires Texas Crypto update.
+12 - MAZDA =
+
+— ©1994, 2021 AutoSmart™ by Michael Hyde
+
+Oe € 6:6 6 6 66 6 6
+
+»@ @
+
+» | 6:30 @.
+
+)
+
+)
+
+>
+ecoeeoevneoone1n00e000e020000004
+
+USONOdSNVUL
+
+“OaLLVaLS |
+
+continued -MAZ-6 SECTION
+
+“programmers Diagnostic Tools. — =2 55 . S
+
+PINCODE |
+— REQUIRED ©
+
+_ (Factory Too!
+
+v ‘TCODE/MVP PRO| — [v r081000 =e (v HOTWIRE
+
+- Needed siden SMART PRO @ AUTO PRO PAD (> AUTEL IM608
+
+Note: Check tos see 2e if your key programmer supports your vehicle,
+
+Cones: No Codes on any Fock.
+
+‘Decoders: Determinator: FOR 2— Lishi: FO38 AccuReader: FORD 8 |EEZReader:H75 Cobra: Kors |
+
+Method #1 _ Usea Lock Decoder/Reader tool in the door lock to determine cuts in positions 1 through 6,
+: and then progression the two remaining cuts in the ignition for positions 7 & 8. :
+
+Method #2 __Use the Ford 8-CutDeterminator™ =| : |
+
+Method #3. —_ Use tryout keys: Aero Lock TO-82 for the doors and then progression the last 2 cuts.
+
+: nS : Jojo}o}oOj;olo]o}> ignition
+= Oibio}o\o0 | — |> Doors
+= [2[sla —_
+
+s = = - CUT 1996 & ON — PROGRESSION CHART =
+
+_ To progression the remaining cuts forthe ignition in positions 7 & 8, deere what = depth isin bets ibite
+oe number 6 eben s is oe in ig oo lock. Z = = = :
+
+= ETT | _#2DEPTH =| == #3DEPTH- — |. #4DEPTH | #5DEPTH —
+[tay tav2 tava | Tayi tRY2 TRY3 TRY4 | TAY1 TRY2 TRY3 TRY4 | TRY1 TRY2 TRY3 | TRY1 TRY2 TRY3
+20 22 © a2 ee 82 A = ee | ee e488
+oe Boe eee = — 28— 33 —-44 | 33 43
+eS =... ee
+33 a ao 4a = a p34 33 a
+ab 4 a ae ce ea 45
+= 6a 55 eae 55
+NE = =| =55-
+
+©1994, 2021 AutoSmart™ by Michael Hyde ; : == : _ MAZDA - 13
+MAZ-7 SECTION
+
+2005-11 Tribute
+
+| ste | carD# |_me | macs | startcut | cuttocut
+
+. i .
+AirBags | Ign Retainer
+
+-001-1706X Dbisided | cxior | 5: Active
+MASTER : aa aa
+: NATIONAL: KEYLINE: C0}. 22) == IEE IMA: STRATTEC: | _ DEALER:
+KEYS > H92-PT BH92-PT | H92-PT | J92-PHT | TP33-FO30P | 690212 | 1F20-76-201
+Determinator: FOR 6 Lishi; F038 AccuReader: FORD 8 EEZReader: FOCUS Cobra: n/a
+: > Mike's Tip: PATS 3 - ‘05-'07 / PATS 4- “08- ‘09 / PATS 5 - 2010+ Key Programmer | Required. _ a
+= er ly Remote Key: Strattec 5910762 or ILCO# RHK-FORD-4B4 (2008- Tl) FCC: 0UCD6000022 or CWTWBIU793 7 315 MHz
+> Fob Remote: 1FAA-67-5DI1A or ILCO# RKE-FORD-3B1 or RKE-FORD-4B1 - FCC: CWTWBIU331, 343, 345 | 315 MHz —
+
+Code Series: 01-1706X
+?2) : SS ae = 22
+9 SPACING == | DEPTHS
+= ae 3 ee SO ee a Se
+BAR sss | 753 | 661 | seo | .477 | 305 | 293 | 201 | 02 | 22-329)
+pay 845 | 753 | : : 385 | 293 | 201 | “| 32.304 2
+o = 45279
+a cam : Carriage’ 5 ——
+0 ea = Cam: : pace :
+= le ele FORD-5 | FORD-5— ae fie ey: =
+FRAMON: Laytip stop clip flat against left side of vise, Set first cut at 405
+-Chip InformationS Notes =
+Transponder: Standard Equipment — | Chip:4D6340 = ——- : Reusable: Yes
+= > Mike's Tip: Key Programmer Required. Test key is H75. = =
+>a) ClonerMachinelnformation =§ ee
+(72) _ 5 = = — renee ~— = = e en = 2 ———
+BS; (DIAG BOX) ( CHINA) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LD. )( ScorPiO )( wo )\|__
+CLONE sev | ged ulte apactone || =
+S WIZARD cNg00 RW4+ | |TRS-5000/EVO] | 884 Ultegra | | MIRACLONE TANGO | | MINI TOOL
+@ M1 Yes — Yes _ WYes MYes? | Wes Wes? Yes? - 1 Yes
+Blue Chip & | | CN2/5&H92| | EH3&“B" | | TPX2& ‘ck100/TK100 | | CNS or TPX2 | | CNS or TPX2 | | WDI Chip &
+Shell Shell Blade H92Shell_| | &H92Blade | | &H92Shell | | &H92 Shell H92 Shell
+
+“1 - May Require Internet Access to complete cloning. 2. Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+14 - MAZDA 255 ==. _— ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeoeaeeeeeeee@
+
+»9@0e © 6
+
+56 6 6
+ee 020060000800 ¢€
+
+o@e@e@e@08006080 80 064
+
+==. coninved-MAZ-7 SECTION.
+
+2 Program mer & Diagnostic Tools
+
+sy = - ‘
+5 : :
+
+Factory Tool | ( PIN CODE a
+= | REQUIRED - @ = ps . aa:
+= us! Needed [ smare ERO (v AUTO PRO PAD | — (> AUTEL IM608
+m = ~ i ai,
+ys)
+
+| Note: Check to see if your key programmer supports your vehicle. =
+
+Codes: | No Codes on any locks.
+Decoders: Determinator: FOR 6 Lishi: F038 ——_| AccuReader: FORD 8 | EEZ Reader: FOCUS | Cobra: n/a
+
+Method #1 : Use a Lock. Decoder/ Reader tool i in the door lock to determine cuts in etic: 1 through 6, and then
+: peieson the two emSne cuts i in the ignition for positions 7&8,
+
+Method #2 Remove the hatch lock and in most cases the drain hole opening on the lock will be large enough to
+Z : stick a blank in it and read the tumbler depths by the height of the tumblers against the blank key,
+
+~ Note:
+____ 1) The tumblers you see through the drain hole that spring up towards you with the key blank inserted,
+— should sit just slightly below the shear line of the cylinder plug when cut to the correct depth.
+
+2) The tumblers you see through the drain hole that Do Not spring up towards you with the key blank
+inserted, should sit perfectly at the shear line of the cylinder plug when cut to the correct depth.
+
+Method #3 Disassemblethe door or hatch lock to determine cuts in peas 1 = 6, and then progression
+the two remaining cuts in the ignition for positions 7 & 8.
+
+O | O|> Ignition
+
+Ao ee
+El | Ee bsGe = > Doors
+0) 6 BsO7 Oo >Trunk/Hatch
+= O|O| 0 |> Glove Box*
+
+: = =o * If so equipped
+
+N
+w
+ES
+a
+o
+al
+oo
+
+#1 DEPTH ‘#2DEPTH -#3DEPTH = =—s#4DEPTH —s #5 DEPTH
+
+| TRY1_TRY2 TRY3| TRY1 TRY2 TRY3 TRY4 | TRY1 TRY2 TRY3 TRY4 | TRY1 TRY2 TRY3| TRY1 TRY2 TRY3
+12 22) 325) 2 eo 62 ae ie ee 42 |) 22 82 ae 2 a2 53
+15 Oe a 16) 24 35 23. 2338. 44 | 3 43
+23 34 2 p2z3-] 34 == = = eee OF eg S88 Se | 44
+|=33— 35 33-— 44 ao 33 ad 34 53 = foo = 54
+: a5. 45 43 45 gb. 254 45
+5 So 5a = 55 45. 55
+54 55_
+©1994, 2021 AutoSmart™ by Michael Hyde SS MAZDA - 15
+WAZA SECTION {0 = = rhs
+
+2001-04 Tribute
+
+stvie | carp# | im | macs | Ex cut | cuttocut | AirBags | Ign Retainer
+001-1706X DbiSided | CXIO1 ee Active
+MASTER <5 - — : —
+NATIONAL: | —_ KEYLINE: eo Er JMA: STRATTEC: | DEALER:
+KEYS | H86-PT | BH86-PT | H86-PT | H86-PHT | nia 691643 nla
+Determinator: FOR 4 Lishi: F038 AccuReader:FORD8 | EEZ Reader: FOCUS Cobra: n/a
+More > Mike's Tip: PCM - H86-PT & H74-PT are interchangeable / Key Programmer Required. Test key is H75.
+Info | > Fob Remote: ILCO# RKE-FORD-3B1 - FCC Info: CWTWBIU331, 343, 345 | 315 MHz
+
+Code Series: 01-1766X
+
+Ie _ SPACING 2 2 = DEPTHS
+z 1 2_|=3 4 Ss 2 6.[ 7 [6s Cutto | 4354
+2 ie S| et ge | 2 = 28
+
+PRE 845 | 753 | 661 | 509 | 477 | 385 | 203 | 201 | Sr
+
+is = 45,279
+5 : Cam: Carriage: ee eo ee
+
+| = Curtis Clipper: FORD-5 ; FORD-5 . fate geen PAK-F3
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set firstcutat.405
+
+Chip Information &Notes =
+
+Transponder: Standard Equipment Chip: 4D60
+
+> @
+
+: = > Mike's Tip: Key Programmer Required. Test key is H75.
+PP eee] _—— (SS = —— = == =
+>2| Cloner Machine Information _ =
+: Oo (DIAG BOX) ( CHINA  (ILCO/SILCA) ( JMAUSA ) ( KEYLINE )( LD. )( SCORPIO )( wo )
+— Wey CN900 -Rw4+ — | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE | | TANGO | | MINI TOOL
+i _ Yes ™ Yes @ Yes Yes? 3 : Yes : Yes? M Yes? || M Yes
+Blue Chip & | | CN2/5&H74| | EH3&“D” || TPX2& | | CK100/TK100| | CNS or TPX2 | | CNS or TPX2 | | WDIChip &
+Shell Shell Blade _H74 Shell &H84 Blade | | & H74 Shell & H74 Shell H74 Shell -
+™ - Requires Internet Access to complete cloning. *2 - Requires Philips Crypto Update. Ze Requires Texas Crypto update.
+16 - MAZDA - _ ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeoeuaneeoeeeeeee
+
+>e°@
+
+, ©
+eo0ees
+
+C
+
+ooo es @ ¢
+
+¢
+
+@ <
+
+©eee @ ¢
+
+continued - MAZ-8 SECTION
+
+= Programmer & Diagnostic Tools —
+z =
+~{ Factory Tool = {=
+oe uep | (~ TCODEMVvP PRO| |v TDB1000 ¥ HOTWIRE
+on : QUIRED =
+i Eee : =
+Oo VCM Not —
+S Needed (v SMART PRO (v AUTO PRO PAD (2 AUTEL IM608
+= 5s \
+“ell Note: Check to see if your key programmer supports your vehicle.
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: FOR 4 | Lishi: F038 AccuReader: FORD 8 /| EEZ Reader: FOCUS | Cobra: n/a
+
+NOTE: 1) Some aftermarket keys are not milled back far enough to go all the way into this type of ignition lock
+cylinder. You will need to check your key blanks!
+
+2) The tolerances are tighter in the ignition locks. It’s possible to have asmooth working key in the doors and
+hatch that will not progression to a working ignition key. :
+
+3) You can use either a JET or ILCO H86-PT or a H74-PT. The H74-PT is a longer blank with the same chip as
+the H86-PT,
+
+Method #1 Use a Lock Decoder/Reader tool in the door lock to determine cuts in positions 1 through 6, and then
+progression the two remaining cuts in the ignition for positions 7 & 8.
+
+Method #2 Remove the hatch lock and in most cases the drain hole opening on the lock will be large enough to
+stick a blank in it and read the tumbler depths by the height of the tumblers against the blank key.
+
+Note: :
+1) The tumblers you see through the drain hole that spring up towards you with the key blank inserted,
+should sit just slightly below the shear line of the cylinder plug when cut to the correct depth.
+
+2) The tumblers you see through the drain hole that Do Not spring up towards you with the key blank
+__ inserted, should sit perfectly at the shear line of the cylinder plug when cut to the correct depth.
+
+Method #3 _ Disassemble the door or hatch lock to determine cuts in positions 1 through 6, and then progression
+the two remaining cuts in the ignition for positions 7 & 8. :
+
+oO1oO/oO O} O| O}> Ignition
+WSeSpg | imme => Doors :
+BO Oo Oo > Trunk/Hatch
+
+O| 0/0 |> Glove Box*
+1/213) 4] 5-6-2775 8
+
+* If the vehicle is so equipped
+
+©1994, 2021 AutoSmart™ by Michael Hyde MAZDA - 17
+MAZ-9 SECTION = ee
+
+1995-02 Millenia — ==
+| MACS | Start Cut | Cut to Cut | Air Bags | ign Retainer
+
+CODES | stve | caro# |
+
+ITL#
+
+: 20,000-21,200 High Sec nia 7 n/a n/a nla n/a Yes Roll Pin
+MASTER —- deus —
+NATIONAL: KEYLINE: (C0:= =a = = JER = =] == IMA: STRATTEC: | FACTORY:
+KEYS | ixpgop/Tov4o | BLXP9OP | LxPQOP «= |~—«LXP90-PH | ~—‘TOYO-I8P n/a nla
+Determinator: n/a | Lishi: Toy40 AccuReader: n/a __| EEZ Reader: n/a Cobra: n/a
+More |» Fob Remote: TC86-67-5RYC (2001-02) FCC Info: KPU41701 / IC: 1988-1031939 | 315 MHz
+info> |» Fob Remote: TAI7-67-5DYA (1995-00) FCC Info; KPU41048 / IC: 1988-101275|315MHz
+
+| NO TRANSPONDER
+
+Code Series: 20,000-21,200
+
+. ==
+ie Bow SPACING DEPTHS
+>: 2 = —— 5 = 118
+
+SS 890 | 795 | 700 | 606 | 512 | 417 | .323 | .228 _ | 4=.094
+
+oo agers ee AC Or
+
+= 7 2 3 + a-— 5 1-628. @ | 8-4 4-TRACK 2=.047— 2
+
+= a ars 1=.024
+
+A 890 | 795 | 700 | 606 | 512 | 417 | 323 ‘228
+
+= :
+
+_ Note: Spacing is measured from the tip.
+
+18 - MAZDA - : = : 2= == = = = = : ©1994, 2021 AutoSmart™ by Michael Hyde —
+
+peeooe5oaavuaeaeeeeoeeeeeeeee 8
+continued - MAZ-9 SECTION
+
+‘Codes: | No Codes on any locks.
+
+ecoaoo0av0 00a e00e0e0e0e
+
+Decoders: — Determinator: n/a Lishi: TOY40- AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Facts to remember: i
+|. All tumblers are numbered, but are reverse of normal depths, a number 5 is a shallow cut and a number 1 depth is the
+deepest cut,
+
+2. Tumbler position 8R is always a number 4 depth for the master key, and a number 2 depth for a valet key. This is the only
+different between a master and a valet key.
+
+3. Tumblers 41, 3L, 2L, 1L, and 8L are not used in any locks, but must follow MACS. (So the key works smoothly)
+
+4. Because of the tolerances of the center groove you can not have a number 5 depth on the left track opposite a number
+4 or 5 depth. There wouldn't be enough room for the key to pass down in the keyway of the lock (and vice-versa).
+
+5. There is never a number 1 depth in the Sth, 6th, 7th, or 8th position from the bow, ifthere is one at all. Either Left or Right.
+
+Method #1 Get key code from dealer and make key by code, The dealer can retrieve the key code for the Millenia by
+entering the VIN into their national computer hook-up with the factory.
+
+Method #2 The Millenia has an electric trunk release on the driver's door. There is an on/off switch for the electric trunk
+release in the top section of the glove box. Open the trunk and remove the cylinder. Disassemble and
+decode, to make master key, since all the tumblers needed are located in the trunk lock.
+
+All the cuts are found in all the locks,except
+the glove box.
+
+For the positions that do not have a
+pre-determined depth, you should use a
+#3 depth. 1L, 2L, 3L,4L & 8L
+
+bh
+D\e\/e\|e\|e\ ee ee
+
+CUTS FOUND IN IGNITION,
+DOORS & TRUNK LOCKS
+
+~ ©1994, 2021 AutoSmart™ by Michael Hyde
+
+oee @ooeoe0eos
+
+MAZDA - 19
+1998-99626
+macs | StartCut
+
+| STYLE
+
+| CARD# | ITL# | cuttoCut | Air Bags | ign Retainer
+
+MAZ-40 SECTION z ea kiae
+
+: 10100-12283 Dbl Sided C68 | 297 3 098 083 — Yes Roll Pin
+MASTER : =
+NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: _ FACTORY:
+KEYS > MAZ24RT5 MAZ24RT5 MAZ24R15 | MAZ24-N-PHT | TPOSMAZIIDVP | 692080 GE4T-76-2GX
+Determinator: MAZ2 — | Lishi: MAZ24 _| AccuReader: nla EEZ Reader: nia | Cobra: n/a
+
+» Mike's Tip: Transponder system-was Optional. Make sure key is Pre-Cloned. Test key is MZ27 or MZ31.
+
+> Programming key procedure is On-Board method with PIN number conversion from Immobilizer Control Unit.
+
+> Fob Remote: GD7D-67-5DYA (1998-02) FCC Info: NHVWBI1U215 or CWTWB1U411 | 314-315 MHz
+
+Code Series: 10100-12283
+so es
+3 i= SPACING ; DEPTHS
+a 1 ba 3 4 5 6 j-7 | 8.| 8 10 atte 1=.315
+1 = == 083 | 2=-299
+go .098 -180_ |=.263 + 3345 | .428 |-.5411- — fy -758 | .841 3=.284 oO
+o : 4= 268 Ny
+5 Cam Carriage: coc 55202 ce
+. . si . if : = = = cor) = =
+= Curtis Clipper: MZ-5 MZ-5A Rabun Se ke PS
+
+Chip Information & Notes ee
+
+Chip: T5 —
+
+Transponder: Standard Equipment Reusabie: Yes
+
+= > Mike's Tip: Key Programmer Required. Test key is MZ27 or MZ31.
+> = —— : —— = = = — ==
+>a, Cloner Machine Information ao SF —r———— oo:
+O (DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA \ ( KEYLINE \( LD. \( ScorPiO )( wo!)
+re oe CN900 RW4+ | |TRS-SO00/EVO|'| 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+1s) == : ==
+2 Yes 1 Yes {Yes — Yes J Yes 7 Yes [VJ Yes [v7] Yes
+
+RedChip& || 158 8 =| | 158 mee | os 15& 158
+
+MAZ Shell MAZ Shell MAZ Shell ~ MAZ Shell MAZ Shell MAZ Shell MAZ.Shell MAZ Shell
+
+*4 —Requires Internet Access to complete cloning. = Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+20 - MAZDA
+
+- ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeeeoneeeee
+
+»@©e008666
+
+)
+
+5 @ ©
+¢
+
+eoo0e00e000000006
+
+eoeoooeoees
+
+: continued - MAZ-10 SECTION ©
+
+YAGNOdSNVAL
+
+“Programmer & Diagnostic Teole == == == = == === —
+
+> Programming keys is an On-Board method with —
+PIN number conversion from Immobilizer Control Unit.
+
+> See instructions for this procedure at the end of this Mazda section.
+
+Codes: | Code should be stamped on passenger door lock.
+
+Determinator: MAZ 2 | Lishi: MAZ24 AccuReader: n/a EEZ Reader: n/a __| Cobra: n/a
+
+‘Decoders:
+Method #1 Use ale Loe Decoder/Reader tool to decode the door lock. Impression missing cuts.
+Tae passenger door cylinder and read code stamped on door cylinder and make master key.
+
+~ Method #2
+
+To progression the remaining cuts for the ignition in positions 1 & 2, determine what the depth i isin position number 3
+which is found in the door and trunk Mk locks, and then use the chart below. Use the column that matches the depth for
+the tumbler i in position number 3 22 2
+
+If the code is no good or the car has been re-coded, disassemble door cylinder to decode wafers,
+__ theni impression final cuts.
+
+Olo|o| | (|>lgnition
+O|0/0} 0] oO |> Doors & Trunk
+: 6|7/8|9|10; —
+
+#2 DEPTH PTH =—s—“‘éaA~@DEPTH=©= #5 DEPTH
+
+ol aRvi TRY2 TRY3| TRY1 TRY2 TRY3 | TRY’ TRY2 TRY3 TRY4 | TRY1 TRY2_ | TRY1 TRY 2
+42 22 32 132245 43 42 22 oo = 22 - 23 ee) 32 42
+: 24-—= = =} 23 - 54 24 35 == = 34 44
+34 ad 34 45 53 = 54
+20 55 !
+©1994, 2021 AutoSmart™ by Michael Hyde MAZDA - 21
+MAZ-41 SECTION
+
+2000-03 MX-5 Miata
+|
+
+2000-02 626 2000-03 MPV
+
+| stwe | carpe | imu
+
+MACS | Start Cut | Cut to Cut Air Bags | ign Retainer
+
+»>e@©@ee0e0086 @
+
+wenn 10100-12283 ye Sided ) = Pin
+KEYS > Factory Key: BJYV-76-2GX
+
+Determinator: MAZ2 —_| Lishi: MAZ24 AccuReader: n/a —_—'| EEZ Reader: n/a ~ Cobra: n/a
+_ More > Mike's Tip: Transponder system Optional. Usually always on ‘V6’ engine models. Test key is MZ27 or MZ31.
+_ Into > Programming key procedure is On-Board method with PIN number conversion from Immobilizer Control Unit.
+
+> 626 > Fob Remote: GD7D-67-5DYA -FCC Info: NHVWBIU2I5 or CWTWBIUAT | 314-315 MHZ
+
+| > Fob Remote: LC62-67-5RY (2000- -01) FCC Info: E4EG8D-320A-A | 313 MHz _ :
+ae > MPV _| > Fob Remote: LD47-67-5RY (2002-03) (3 Bin) FCC Info; OUCG8D-325A-A | 313. 85 MHz :
+: > Fob Remote: LD52-67-5RY (2002- 03) (5 Btn) FCC Info: OUCG8D-325A-A is 313. 85 MHz
+1) MX-5 | >Fob Remote: TC86- 67-5RY - FCC ci ae 315 MHz
+
+UNLOCK UNLOCK
+
+GD7D-67-5DYA : LC62-67-5RY - LD47-67-5RY = == 02 07 ORY TC86-67-5RY
+
+Code Series: 10100-12283 LS
+¢ Bow = SPACING = == Eipoes : DEPTHS
+Ds 2 : : = : Cut to =
+3 sot |= 2 3 se & oo? 9 ess Lee
+
+; aS 083 | <=.
+go 008 180 | .263 | .345 | .428 | .511 Ss : a : Le Mt 3 = .284 @
+oO 4=.268 | <
+m ae hiSS a 2S 5 = .252 =
+akrfa Curtis Clipper: | 77". MZsA__|Pak-A-Punch: | PAK-F6 : 5
+= : — 2
+Ee Programmer & Diagnostic Tools ——
+
+> gs
+a > Programming keys is an On-Board method with
+= PIN number conversion from Immobilizer Control Unit.
+S)
+m > See instructions for this procedure at the end of this Nees section
+
+»>6 ©e
+
+22 - MAZDA ee ©1994, 2021 AutoSmart™ by Michael Hyde
+
+»p@026800600660
+
+» ©
+C
+
+& © 6.0:0 0 0.02 0:0 4
+
+oee eo 0 0068 4
+
+continued - MAZ-14 SECTION |
+
+Chip Information & Notes | :
+Transponder: Optional Equlpent Chip: 8C — Reusable: Yes _
+= =
+co > Mike's op Key Programmer Required. Test key is MzZ27 or MZ31.
+rs Cloner Machine Information — -
+vU =
+fey ( DIAGBOX |) ( CHINA ) (ILCO/SILCA) ( JMAUSA ) ( KEYLINE )( LD. ) ( ScoRPIO )( wo)
+ya | CLONE : = Ean :
+oC WIZARD : CN900 RW4+ : TRS-5000/EVO 884 Ultegra MIRACLONE TANGO MINI TOOL
+pL ® No ® No ~@ No @® No ® No © Yes M1 Yes M1 Yes
+= - S 2 = ADE-8C& | | TK5561A& | | WWDIChip&
+= : MAZ Shell MAZ Shell. MAZ Sheil
+Codes: | Code should be stamped on passenger door lock.
+Decoders: | Determinator: MAZ 2 | Lishi: MAZ24 —_| AccuReader: n/a EEZ Reader: n/a _| Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock. Impression missing cuts.
+Method #2 Remove passenger door cylinder and read code stamped on door cylinder and make master key.
+
+To progression the remaining cuts for the ignition in positions 1 & 2, determine what the depth is in position number 3
+which is found in the door and trunk = and wet use the chart below. Use the column that matches the depth for
+
+If the code is no good or the car has been re-coded, disassemble door cylinder to decode wafers,
+
+then impression final cuts.
+
+_|> Ignition
+
+the tumbler in Position number 3.
+
+#1 DEPTH
+TRY2 TRY3
+
+#2 DEPTH
+
+TRY 1. TRY2 TRY3
+
+"#3 DEPTH”
+
+TRY 1 TRY 2 = ERY trya
+
+TRYA TRY2
+
+oO > Doors & Trunk
+10
+
+TRY 1
+
+TRY 1 Uy
+A022) Ss 32) 4S = 5 43 (2 222) 32, 42 Zo = 233 322 42 =
+24 23 a 35 == 2 43 34 44
+34 3= 34 45 oe => 54
+35 a4 55 _
+©1994, 2021 AutoSmart™ by Michael Hyde MAZDA - 23
+MAZ-42 SECTION
+
+MASTER
+
+KEYS &>
+
+2007-15 CX-7, CX-9
+
+2011-14 Mazda 2 2004-14Mazda3 | 2006-15 Mazda5
+
+| Ign Retainer
+
+| carp# | | macs | start Cut | cuttocut | Air Bags
+
+| STYLE ITL#
+
+10100-12283 | DblSided | CF68 Roll Pin
+NATIONAL: KEYLINE: CO: JET: IMA: STRATTEC: | FACTORY:
+MAZ-CAN80-KEY | — BMZ24TK14 MAZ24RT17 MZ34-PHT TP2OMAZIIDP — Wa : FIYI-76-2GX
+
+Determinator: MAZ 2 Lishi: MAZ24__ AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+> Mike's Tip: Transponder system. Tester Required for Key Programming & PIN Needed. Test key is MZ31.
+
+Remote
+
+Info>> —
+
+KEY Section for Mazda Factory Flip Out Remotes is G2VA-76- 2GBX - ILCO Keys include ee tes —
+
+> CX7
+> CX-9
+
+> Mazda 2
+
+> Flip-Out Remote Section: CC43-67-5RYC - FCC Info: BGBXITATESKEI2501 | 315 MHz
+
+> Or use ILCO# FLIP-MAZ-3B1 (includes Flip Key & Remote Section)
+
+> Mazda 5
+
+> Mazda 3
+
+> Flip-Out Remote Section: BBM4-67-5RY (2010- "3, 4 Door) - FCC Info: BGBXIT478SKEI2501 "7 315°
+
+> Or use ILCO# FLIP-MAZ- ABI (includes Flip Key & Remote Section)
+
+> Flip-Out Remote Section: BCR2-67-5RY (2010-13, 5 Door) - FCC Info: rT | 315 MHz |
+
+UNLOCK
+
+BN8P-67-5RY
+
+> Fob Remote: BN@P-67-5RY or ILCO# RKE-MAZ-3B2 (2004-09) FCC Info: KPU41846 | 313 MHz
+
+G2YA-76-2GBX
+
+~ BBM4-67-5RY
+
+BCR2-67-5RY, CC43-67-5RYC
+
+Code Series: 10100-12283
+
+HildsAG 8 30VdS
+
+SPACING © = DEPTHS
+
+4 2 3 4 5 Pata se ]. ae 1=.315
+
+go! 6 ; | 2=.299
+
+oo | 180 | .263 | 345 | .428 | 511 | 593 | .676 | .758 | 841 | °* | 3 _ ‘554
+
+a= = 4= 268
+
+Curtis Clipper: | CaM: __| Carriage: Pak-A-Punch: aces : aos
+2 el Mz-5 Mz-5A aes.
+
+24 - MAZDA
+
+— ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeCeCeeCeoeeeeeeeeeeeoseese
+eee0e@00060 ¢
+
+¢
+
+¢
+
+¢
+
+oe eo <
+
+¢
+
+continued - MAZ-12 SECTION
+Chip Information & Notes _ =:
+Transponder: Yes on most models Chip: 4D63 — Reusable: Yes
+Cloner Machine Information —__ 2
+( DIAG BOX ) (cana) (ccosuca) (~ JMAUSA) ( KEYLINE ) (LD. ) (Scorpio) (| wo!)
+aa CN900 Rw4+ | |TRs-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+| 71 Yes M1 Yes _ Yes myes? || pyYes || M1 Yes? Yes? lv] Yes
+= Blue Chip & CN2/5 & EH3 & “J” TPX2& ck100/TK100 | | CNS or TPX2 | | CNS or TPX2 | | VVDIChip &
+> Mazda Shell Mazda Shell Blade Mazda Shell & Mazda Blade |_| & Mazda Shell | | & Mazda Shell Mazda Shell
+g ~ “4 - Requires Internet Access to complete she *2- beni SB o- Update. *3 - Requires Texas Crypto update.
+= Tipauiniier & Diagnostic Toe. 3 :
+2 Factory Tool © PIN CODE : = :
+1) Ee geres REQUIRED & TCODE/MVP PRO (> TDB1000 (v HOTWIRE
+VCM Il & Yes
+Supscription. home ss (- SMART PRO ¢ AUTO PRO PAD (2 AUTEL IM608
+oe = Note: Check to see if your key programmer supports your vehicle.
+Codes: | Code should be stamped on passenger door lock. -
+Decoders: Determinator: MAZ 2 | Lishi: MAZ24 AccuReader: na. EEZ Reader: nla Cobra: n/a
+‘Method #1 Use a Lock Decades header tool to decode the door lock. Impression missing cuts.
+Method #2 Rao passenger door cylinder and read code stamped on door cylinder and make master key.
+
+If the code is no good or the car has been re-coded, disassemble door cylinder to decode wafers,
+then impression final cuts.
+
+fE | Ooo Ee > Ignition
+C2 a yo O|O} O |> Doors &
+i273, 4)/516 8 | 9/10
+
+Frunk
+
+To progression the remaining cuts for the ignition in positions 1 & 2, determine what the depth is in position number 3
+which is found in the door and trunk locks, and then use the chart below. Use the column that matches the depth for
+position number 3. —
+
+the tumbler in
+
+: =a TRY Zz TRY 3 aoe, TRY 2 TRY3 TRY 1=IRYZ TRY3 _TRYA TRY TRY 4 TRY? TRY 2
+12 22 o2 13 45 43 | 12 22 32 42 23 oe! 32 42
+24 23 54 24 35 43 34 44
+34 35 =34 45 53 54
+oo 44 55
+©1994, 2021 AutoSmart™ by Michael Hyde MAZDA - 25
+
+MAZ-13 SECTION Dee 2 ee
+
+2004-06 MPV 2004-11 RX-8
+
+2003-13 Mazda 6 2004-12 MX-5 Miata
+
+CODES | ste | carpe | me |
+
+MACS | Start Cut Cut to Cut | Air Bags | ign Retainer E
+
+UNLOCK UNLOCK
+
+_GM9A-67-5RY GM9A-67-5RY — _ LD47-67-5RY
+
+HOLD HOLD
+
+G2YA-76-2GBX
+
+LF20-67-5RYB,  _ BBM4-67-5RY, GP7A-67-5RYB,
+
+LF22-67-5RYB
+
+10100-12283 Dbl Sided | CF68 E _ Roll Pin
+NATIONAL: KEYLINE: (ios = oe JMA: sTRATTEC: | FACTORY: —
+MASTER | MAZ-CAN8O-KEY| BMZ24TKI4 | MAZ24RTI7 | MZ34-PHT | TP2OMAZIDP nla FIVI-76-26X
+Laas Determinator: MAZ 2 Lishi: MAZ24_ AccuReader: nla EEZ Reader: n/a Cobra: n/a
+> Mike's Tip: Transponder system. Tester Required for Key Programming & PIN Needed. Test key is MZ31. _
+> Mazda 6 models made before 09/22/03 use Part# GJYA-76-2GX Mazda Factory Key - No substitute.
+KEY Section for Mazda Factory Flip Out Remotes is G2VA-76-26BX - ILCO Keys include both parts.
+> Flip-Out Key: GP7A-67 -5RYB- rmt only or ILCO# FLIP-MAZ-3B2-rmt & key - FCC Info: KPU41788 | 313 MHz
+> Flip- -Out Key: BBM4-67-5RYB-rmt only or ILCO# FLIP-MAZ-3B1- rmt & key - FCC: BGBXIT478SKE12501 313 MHz
+Fegaas _ | > Fob Remote: GM9A-67-5RY or ILCO# RKE-MAZ-3B2 (2003-05, hatchback, wagon) FCC Info: KPU4I846 | 313 MHz |
+> Fob Remote: GK2A-67-5RY or ILCO# RKE-MAZ-4B1 (2003-05, sedan) FCC Info: KPU41846 | 313 MHz
+> Flip-Out Remote Section: LF20-67-5RYB (3 Btn) FCC Info: OUCGSD-335A-A | 313 MHz
+> Flip-Out Remote Section: LF22-67-5RYB (6 Bin w/PWR Sliders) FCC Info: OUCG8D-335A-A | 313 MHz
+— > Fob Remote: LD47-67-5RY (3 Btn) FCC Info: OUCG8D-335A-A | 313 MHz
+> Fob Remote: LD52-67-5RY (5 Btn with PWR Sliders) FCC Info: OUCG8D-335A-A | 313 MHz
+ce > Flip-Out Remote Section: NF49-67-5RYA (2006- 08) FCC Info: BGBX1T478SKE12501 | 313 MHz
+> Flip-Out Key: BBM4-67-5RY-rmt only or ILCO# FLIP-MAZ-3B1-rmt & key) (2009-12) FCC: BGBXIT478SKEI 250
+== > Flip-Out Remote Section: FE04-67-5RYB (2004-08) FCC Info: KPU4I788 | 313 MHz =. =
+> Flip-Out Key: FFI4-67-5RYA-rmt only or ILCO# FLIP-MAZ-4B2-rmt & key (2009-11) FCC: KPU41788 | 313 MHz
+
+FE04-67-5RYB _ FFI4- = os NF49-67-5RYA-
+= : : ©1994, 2021 AutoSmart™ by Michael Hyde-
+
+26 - MAZDA
+
+pe ee eee 0
+
+»e@
+
+» ©
+
+>
+
+ve
+©oee@0e000 06 0 @ <«
+
+continued -MAZ-13 SECTION
+
+Code Series: 10100-12283
+
+”
+
+Y Bow _ SPACING Tip ——. DEPTHS
+
+9° 1 2 3 4 = e 7 8 9 10 Cut: ; — te
+.083 ==
+
+@ .098 -180 | .263 | .345 | .428 | .511 593 | .676 af 841 3= 284
+
+: : 5 = 282
+
+a Curtis Clipper: | C2™ Carriage: : -
+
+4 urtis Clipper: Mz-5 MZ-5A Pak-A-Punch: | PAK-F6
+
+se
+
+Chip Information & Notes Se |
+
+Transponder: Yes on most models Chip: 4D63 Reusable: Yes
+
+‘Cloner Machine Information —__
+
+(DIAG BOX.) ( CHINA) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )
+
+f=._.B \( scorpio )( wo)
+
+as CN900 RW4+ TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+MyYes || MyYes || MyYes 1 Yes" M1 Yes v1 Yes? Yes? || Yes
+rau Blue Chip & CN2/5 & —EH3 & “J” TPX2 & CK100 / TK100 CN5 or TPX2 CN5 or TPX2 VVDI Chip &
+> CNS ¢
+2 Mazda Shell Mazda Shell Blade Mazda Shell & Mazda Blade | | & Mazda Shell |_| & Mazda Shell Mazda Shell
+- *4 - Requires Internet Access to complete cloning. *2- Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+S ‘Programmer & Diagnostic Tools — — :
+S Factory Tool PINCODE )
+um SS i 2
+0 REQUIRED (v TCODE/MVP PRO (: TDB1000 (v HOTWIRE
+
+VCM Il & Yes_
+
+ipti Some key ¥ SMAI 2? AUTO PRO PAD ?
+Supscription ae SMART PRO 2 UTO ? AUTEL IM608
+bypass the PIN
+
+Note: Check to see if your key programmer supports your vehicle.
+
+Codes: | Code should be stamped on passenger door lock.
+
+Decoders: | Determinator: MAZ 2 | Lishi: MAZ24 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock. Impression missing cuts.
+Method #2 “Remove passenger door cylinder and read code stamped on door cylinder and make master key.
+
+If the code is no good or the car has been re-coded, disassemble door cylinder to decode wafers,
+then impression final cuts.
+
+ololo|olojoja > Ignition
+> Doors & Trunk*
+
+10
+Oo
+
+oO
+
+El
+1/0
+10
+Oo
+
+oO
+
+*if equipped
+
+©1994, 2021 AutoSmart™ by Michael Hyde MAZDA - 27
+‘MAZ-14 SECTION He == aS ee begs
+
+2013-18 CX-5
+
+2016-20 CX-3 2016-18 CX-9
+
+2014-18 Mazda 3 2014-18 Mazda6 | 2016-19 MX-5 Miata
+
+2015-19 Mazda 2
+
+| ign Retainer
+
+“STYLE | carps | ime# | macs | Startcut | Cutto Cut | Air Bags
+
+Dbl Sided
+
+~ 10100-12283 None —
+
+MASTER
+
+> These models have a Proximity system. > Check with dealer for correct part # by VIN.
+KEYS > = 225 2
+
+Determinator: MAZ2 | Lishi: MAZ24__| AccuReader: n/a EEZ Reader: n/a _—| Cobra: n/a
+
+| > Mike's Tip: Proximity system. Tester Required for Key Programming & PIN Needed. Test key is MZ31..
+
+_ Emergency Key for the Proximity Fobs below is KDY3-76-201. (No Chip) :
+
+>CX3 > Prox Fob: KDY3-67-5DY - FCC Info: WAZSKEI3D01 | 315 MHz
+> Prox Fob: TKY2-67-5DY (with Power Hatch) FCC Info: WAZSKE13D01 | 315 MHz _
+
+> CX-5, CX-9
+
+> Prox Fob: KDY3-67-5DY (No Power Hatch) FCC Info: WAZSKEI3D01 | 315 MHz ==
+Proximity | > Prox Fob: KDY3-67-5DY (2015-19, Hatchback) FCC Info: WAZSKE13D01 | 315 MHz
+info |? Mazia? 1 Prox Fob: GiV9-67-6DY (2016-19, Sedan) FCC info: WAZSKEI3D01 | 315 MHz
+q cae > Prox Fob: KDY3-67-5DY (Hatchback) FCC Info: WAZSKE13D01 | 315 MHZ
+
+|> Prox Fob: GJY9-67- 5DY (Sedan) FCC Info: WAZSKE13D01 | 315 MHz
+
+> Mazda6 —_| > Prox Fob: GJY9-67-5DY - FCC Info: WAZSKE13D01 | 315 MHz
+
+> MX-5 —_| > Prox Fob: GJY9-67-5DY - FCC Info: WAZSKET3D01 | 315 MHz
+
+KDY3-67-5DY GIY9-67-5DY  —_‘TKY2-67-5DY ~ KDY3-76-201
+
+Code Series: 10100-12283
+OE
+1 Uo ae =— —— SPACING i a els. = Sse DEPTHS | 3 =
+= 1 2 2 4 5 6 =— == 4= 8 2= 2 | 10 Se 1=.315 S :
+mm : E =| _ | 093 | 2=.299
+go F 098 = Fle 263 -345 | .428 | .511 ge | -676 = 841 | 3=.284 S
+os =a oe 4=.268 =
++ ; Cam: Carriage: = = - | 5=.252
+z Curtis Clipper: | 75 | Mz-5A Pak-A-Punch: | PAK-F6 = 22
+
+28-MAZDA = 01994, 2021 AutoSmart™ by Michael Hyde
+
+9p0©0e©00008868080088
+
+peo0e50neee
+© 06 08 0'@0600 086060 ¢€
+
+eo @ ¢
+
+© @ 08 @ <
+
+¢
+
+continued - MAZ-14 SECTION
+
+Chip Information & Notes __
+
+Chip: Integrated Circuit Board
+
+Reusable: Yes
+
+“Cloner Machine Information __
+
+No Cloning for this Proximity System
+
+Programmer & Diagnostic Tools —
+
+Factory Tool _ PIN CODE
+
+YAGNOdSNVYL
+
+bypass the PIN
+
+REQUIRED
+-VCM II & ~ Yes
+=F Some key.
+Supscri ption programmers.can
+
+(v TCODE/MVP PRO
+
+(? TDB1000 (v HOTWIRE
+
+(v SMART PRO
+
+¢ AUTO PRO PAD ¢ AUTEL IM608
+
+Note: Check to see if your key programmer supports your vehicle.
+
+Codes: | Code should be stamped on passenger door lock, if it has one, otherwise the drivers door.
+
+Decoders: | Determinator: MAZ 2
+
+Lishi: MAZ24
+
+AccuReader: n/a
+
+EEZ Reader: n/a Cobra: n/a
+
+Method #1 _ _ Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #2 Remove door cylinder and read code stamped on door cylinder and make working key.
+: If the code is no good or the car has been re-coded, disassemble door cylinder to decode wafers.
+
+10.
+
+> Ignition (None)
+> Doors & Trunk*
+
+*if equipped
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+MAZDA - 29
+MAZ-15 SECTION
+
+2010-13 Mazda 3 2009-13 Mazda 6
+
+2010-15 CX-7, CX-9 2009-15 MX-5 Miata
+
+Air Bags | Ign Retainer
+
+| stwe | carpe | ms | macs | StartCut | Cutto Cut
+
+yo100-12283 | DblSided | Cr6B None
+MASTER = 22
+> These models have a Proximity system. > Check with dealer for correct pat # Se VIN.
+KEYS > == = :
+Determinator: MAZ 2 Lishi: MAZ24 AccuReader: n/a EEZ Reade: Ma = Cobra: n/a
+| > Mike's Tip: Proximity system. Tester Required for Key Programming & PIN Needed. “Test key is MZ31.
+= Emergency Key for the Proximity Fobs below is D6Y1-76-2GXC: (with Chip)
+> Prox Fob: TEYI-67-5RY (with Power Hatch) FCC Info: WAZXIT763SKETIAG4 | 315 MHz.
+> CX-7, CX-9 =
+= > Prox Fob: EHY5-67-5RYA (No Power Hatch) FCC Info: WAZXIT763SKENIAO4 | 315 MHz
+Proximity 7 = > Prox Fob: BBY2-67- SRY (4 Door) FCC Info: WAZXIT768SKEIIA03 | 315 MHz ! :
+we > Prox Fob: BCYI-67-5RY (5 Door) FCC Info: WAZXIT76BSKETIAO3|316 MHz
+> Mazda6 —_ | > Prox Fob: GSYL-67-5RY - FCC Info: KR55WK49383 | 315 MHz =
+——____|5 Prox Fob: NHY8-67-5RY (with Panic Button) FCC Info: WAZXIT763SKETIAO4 | 315 MHz —
+» MX-5 = = = = = = = :
+> Prox Fob: NHY3-67-5RY (No Panic Button) FCC Info: WAZXIT763SKEIIA04 | 315 MHz
+
+TEYL-G7-SRY EHY5-67-5RYA, — BBY2-67-5RY, NHY8-67-5RY _NHY3-67-5RY D6Y1-76-26xC
+a BCYI-67-5RY = = = —-GSYL-67-5RY a
+
+Code Series: 10100-12283
+
+: = i=)
+
+” = —> =o
+
+a) = SPACING. 8 | DEPTHS =a
+
+= 1 2 3 455 S50 7 Bo a | 4p pars 1=.315 3
+
+m ae oe an & (St a 3
+| oo El .098 -180 | .263 | .345 | .428 = | -593 | .676 - 1m : 841 “| 3=.284 : x -
+
+oO = 4= .268
+
+me : ; : : : =,
+
+A) Curtis Cli =.= =| Gall: Carriage: Pak-A-P Se staan C= 25.252
+
+a urtis Clipper: Mz-5 MZ-5A ak-A-Punch: | PAK-F6
+
+30-MAZDA = : = ©1994, 2021 AutoSmart™ by Michael Hyde _
+
+peeeeeeeeeeoeoeeaeeeeseede
+C
+
+eee
+
+¢
+
+¢
+
+continued - MAZ-15 SECTION
+
+Chip Information & Notes
+
+Transponder: Yes
+
+Chip: 4D63
+
+Reusabie: Yes
+
+Cloner Machine Information for Emergency Key _
+
+LD. )( scorPio )( wo _)
+
+(DIAGBOX )( CHINA) (ILCO/SILCA) ( JMAUSA ) ( KEYLINE ) (
+
+vans N900 rw4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
++ MI Yes M1 Yes _ M1 Yes M1 Yes? ‘© Yes? M1 Yes® M1 Yes® M1 Yes
+Foam | Blue Chip one Slee To CK100 & Shell} | CN5&Shell | | cN5Sa@shen | | YV'Chip
+> & Shell & Shell & Shell & Shell & Shell
+. _*1 - Requires Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+= Programmer & Diagnostic Tools es
+my (Fest Tool) (pw cone 7 ideomae peor (2 ¥ HOTWIRE
+D REQUIRED fieys 4
+
+VCM Il & Yes
+
+ic Some key 5 T ¥ AUTO PRO PAD 2? AUTELIM
+Supscription— prograrimers can ( SMART PRO UTO PRO ? AU 608
+bypass the PIN
+
+Note: Check to see if your key programmer supports your vehicle.
+
+Codes: | Code should be stamped on passenger door lock, ifit has one, otherwise the drivers door.
+
+Decoders: Determinator. MAZ 2 | Lishi: MAZ24
+
+AccuReader: n/a
+
+EEZ Reader: n/a
+
+Cobra: n/a
+
+Method #1
+
+Method #2
+
+Use a Lock Decoder/Reader tool to decode the door lock.
+
+Remove door cylinder and read code stamped on door cylinder and make working key.
+If the code is no good or the car has been re-coded, disassemble door cylinder to decode wafers.
+
+> Ignition (None)
+
+|> Doors & Trunk*
+
+10
+
+*if equipped
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+MAZDA - 31
+MAZ-16 SECTION
+
+Hidsad 8 a0VdS
+
+32 -
+
+MASTER
+
+2006-09 CX-7, CX-9
+
+CODES
+
+10100-12283 _
+
+2006-08 Mazda 6
+
+STYLE
+
+Dbl Sided | CF68
+
+| carp¢ | ims# |
+
+: 2
+
+‘| 2006-08 MX-5 Miata
+
+macs | Start Cut
+
+098
+
+| Cut to Cut |
+
+2006-11 RX-8
+
+Air Bags | Ign Retainer
+
+Roll Pin
+
+> These models have a Proximity system. > Check with dealer for correct part # by VIN.
+KEYS > oe : : 2 =
+Determinator: MAZ 2 Lishi: MAZ24___| AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+> Mike's Tip: Proximity system. Tester Required for Key Programming & PIN Needed. Test key is MZ31.
+Emergency Key for the Proximity Fobs below is D4Y1-76-2GXA: (with Chip)
+| > Prox Fob: TDY1-67-5RY (with Power Hatch) FCC Info: BGBXIT4S8SKENIAOI | 315 MHz
+> CX-7, CX-9 = SS = = =
+eae _ ___| > Prox Fob: TDY2-67-5RYA (No = Hatch) FCC Info: BGBXIT458SKETIAO! | 315 oe
+Info |) mazda6 _ | > Prox Fob: GPYA-67-5RYC - FCC Info: BGBXIT458SKENIA0! | 315 MHz
+> MX-5 > Prox Fob: NFY7-67-5RYB - FCC Info: BGBXIT458SKENIA01 | 315 MHz
+> RX-8 > Prox Fob: NFY7-67-5RYB - FCC Info: BGBX1T458SKENIAO1 | 315 MHz
+
+NFY7-67-5RYB
+
+DAYI-76-2GXA
+
+-TDY1-67-5RY
+
+Code Series: 10100-12283
+
+_— TDY2-67-5RYA =————«GPYA-67-5RYC-
+
+SPACING =
+
+DEPTHS | __
+
+Bow — :
+é ——= Cut t ==
+1 2 3 4 5 6 : z 2 S 10 ] “Cut: 3 one
+oss | 180 | .263 | 345 | 428 | .511 | 593 | .676 | .758 | 41 | °° | 3 _ "oa,
+: : : 4= .268
+Cait Carriage: = —- anaes
+Curtis Shipper: Mz-5_ MZ-5A jon eer bln PAK-F6 — i
+MAZDA
+
+©1994, 2021 AutoSmart™ by Michael Hyde —
+
+WX9Z-9/-lAvC
+
+pee eee onuenuenueneeoeeee 8
+
+)
+
+)
+
+)
+¢
+
+¢
+
+Ce ee et
+
+=
+2)
+>
+Zz
+2)
+| U
+O
+Zz
+O
+m
+a
+
+eee 0200600808080 06 ¢
+
+continued - MAZ-16 SECTION
+
+Chip Information & Notes |
+
+Transponder: Yes
+
+Chip: 4D63
+
+Reusable: Yes
+
+“Cloner Machine Information TOE Emergency Key
+
+( ScoRPIO. )
+
+(DIAG BOX) ( CHINA) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LD. _ ) (wo)
+een -CN900 Rw4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+Yes” M1 Yes Yes M1 Yes? Yes? || MYes® 1 Yes? M1 Yes
+Blue Chip CNS 130 Texsw | | W0I Chip
+ & Shell &Shell || &Shell i ee eee eee & Shell
+
+4. Requires Internet Access to complete conn *2- a Palos Ze Update. *3- Requires Texas owe update.
+
+Tees & Diagnostic Tools =
+
+i Factory T Sol)
+
+-VCM II &
+
+Supscription-
+
+REQUIRED
+
+_| programmers can
+bypass the PIN
+
+PIN CODE
+
+aC TCODE/MVP PRO|
+
+(
+
+TDB1000
+
+Fa HOTWIRE
+
+Yes
+Some key— —
+
+(v SMART PRO
+
+[? AUTO PRO PAD
+
+(> AUTEL IM608
+
+~ Note: Check to see if your key programmer supports your vehicle.
+
+Codes:
+
+Code should be stamped on passenger door lock, if it has one, otherwise the drivers door.
+
+Decoders:
+
+Determinator. MAZ 2
+
+Lishi: MAZ24
+
+AccuReader: n/a
+
+EEZ Reader: n/a
+
+Cobra: n/a
+
+“Method #1
+
+Method #2
+
+To progression the remaining cuts for the ignition in positions 1 & 2, determine what the depth is in position number 3
+which is found in the door and trunk locks, and then use the chart below. Use the column that matches the depth for
+
+Use a 2 Lock Decoder/Reader tool to decode the door lock. Impression missing cuts.
+
+Remove door cylinder and read code stamped on door cylinder and make master key.
+If the code is no good or the car has been re-coded, disassemble door cylinder to decode wafers,
+
+then impression final cuts.
+
+> Ignition
+> Doors &
+
+o10
+oO
+oO
+
+he tumbler in position number a;
+
+TRY 1
+
+SRY 2c, TRY 3
+
+TRY 1 + “TRY 2 TRY3
+
+“TRY1 TRY2 TRY3 TRY 4
+
+TRY 4 TRY 2
+
+Frunk*
+
+*if equipped
+
+TRY 14
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+TRY 2
+Wee ee i IS 42 ee 2 eae 8 33 32 42
+BA ae 35 43-2|5 34. 44
+ss == <34 4s -  oe 54
+35 44 55
+MAZDA - 33
+MAZ-17 SECTION
+
+CX-3 2021
+
+CX-30 2020-21 CX-5 2019-21
+
+CX-9 2019-21
+
+Mazda 6 2019-21 MX-5 Miata 2020-21
+
+Mazda 3 2019-21
+
+stve | cards | ims | macs | startcut | cuttocut | AirBags | ignRetainer
+
+20100-22283 DbI Sided -|— None
+__ MASTER > These models have a Proximity system. > Check with dealer for correct part # by VIN.
+KEYS=> = |-——— ———
+Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a _- Cobra: na
+
+> Mike's Tip: Proximity system. Tester Required for Key Programming & PIN Needed. Test key is Mz31.
+
+»>0@0@@e@0080
+
+Emergency Key for the Proximity Fobs below is BCY0-76-201 (no Chip)
+
+> CX-3
+
+> Prox Fob: TAYA-67-5DYB - FCC Info: WAZSKE13D03 | 315 MHz
+
+‘| > €X-30
+
+> Prox Fob: BCYN-67-5DY (No PWR Hatch) FCC Info: WAZSKENIDO1 | 315 MHz —
+
+> Prox Fob: DGY2-67-5DY (with PWR Hatch) FCC Info: WAZSKE11D01 | 315 MHz
+
+Proximity | > CX-5
+
+> Prox Fob: TAYA-67-5DY (No PWR Hatch) FCC Info: WAZSKENIDO1 | 315 MHz
+
+aro | POs > Prox Fob: TAYB-67-DY (with PWR Hatch) FCC Info: WAZSKETIDOI | 315 MHz.
+> Prox Fob: BCYA-67-5DY (Sedan 4 Door) FCC Info: WAZSKE11D01 | 315 MHz
+> Mazda 3 =——= —— ; ——
+= > Prox Fob: BCYN-67-5DY (Hatchback 5 Door) FCC Info: WAZSKE11D01 | 315 MHz
+> Mazda 6 > Prox Fob: NEYR-67-5DYB - FCC Info: WAZSKENIDOI | 315 MHz
+> MX-5 Miata > Prox Fob: NFYR-67-5DYB - FCC Info: WAZSKENIDOI | 315 MHz
+
+3 Button Prox 4 Button Prox : Front View : Emerg Key
+
+34 - MAZDA
+
+- ©1994, 2021 AutoSmart™ by Michael Hyde
+
+)
+
+peee5aveeeee eee 8
+© ee @ 08 @ ¢
+
+6 006 «
+
+oe 0 @
+
+¢
+
+© 0 @e «
+
+continued -MAZ-17 SECTION
+
+Code Series: 20100-22283 (es
+& Bow : SPACING Tip DEPTHS oo
+> 2 Bese 7 | 8. | Sutte| 4 = 375 Q
+2) ; Cut: = s
+m =2 083 | 2=.299 >
+go 846 | .764 | 681 | .598 | .516 | .433 | 350 .268 3 = 284 a
+ok 4 = .268 3
+m z 5 = .252
+Ss Curtis Clipper: | n/a Pak-A-Punch: n/a
+-- -
+Chip Information & Notes _
+Chip: Integrated Circuit Board : Reusable: No (Must be unlocked)
+= Cloner Machine Information ==” eo
+od No Cloning for this Proximity System
+4] Programmer & Diagnostic Tools _
+= Factory Tool
+actory Too PINCODE |
+= SS = REQUIRED (« TCODE/MVP PRO [2 TDB1000 (« HOTWIRE
+meee ee LC =.
+A VCM II & Yes :
+== Some key
+Supscription programmers can (v SMART PRO (« AUTO PRO PAD E AUTEL IM608
+bypass the PIN |= S : ;
+: = Note: Check to see if your key programmer supports your vehicle.
+Codes: Code should be stamped on the door lock.
+Decoders: | Determinator:_n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Get a keycode from a friendly dealer.
+Method #2 Remove door cylinder and read code stamped on door cylinder and make working key.
+if the code is no good or the car has been re-coded, disassemble door cylinder to decode wafers.
+> Ignition (None)
+O/0|)0/0/0|0/O}> Doors
+271314 )5 161773
+©1994, 2021 AutoSmart™ by Michael Hyde MAZDA - 35
+MAZ-18 S
+
+ECTION —
+
+MASTER
+
+KEYS >
+
+1990-03 Protege
+
+MACS Start Cut | Cut to Cut | Air Bags | Ign Retainer
+
+| sve | carpe | me |
+
+10100-12283 ; Dbl Sided CX68 Roll Pin
+NATIONAL: KEYLINE: eG = 4 = IE JMA: _ STRATTEC: "DEALER:
+— MZz19 nia X201 MZ19 MAZ-17D 692069 | ~~ n/a
+Determinator: MAZ2 : Lisi: MAZ24 AccuReader: A/a— -EEZ Reader: n/a i Cobra: n/a
+
+> Fob Remote: BJOE-67-5DY (1999-00) FCC Info: KPU4IO1S | 315 MHz
+
+| > Fob Remote: BL8D-67-5RY (2001-03) FCC Info: KPUAI704 | 315 MHz
+
+UNLOCK UNLOCK
+
+BJOE-67-5DY = “BL8D-67-5RY
+
+SE SPACING |
+= > s >| 9 — |— 49 | Cutto =
+so 1 oF 5 6 os 8 9 10 | Cur | 1 = -315
+m = = = | 983 | 2=.299
+90 ‘098 -180 | .263 —— 428 | 511 | 593 | 676 = 158 = ~ 844 == 3 = .284
+o =Es5 4= .268
+= = =. Cam: Carriage: : oe ey : |=
+4 Curtis Clipper: Mz-5 MZ-5A E Pak-A-Punch: PAK-F6
+mi —
+Codes: | Code should be stamped on passenger door lock. | =
+Decoders: Determinator: MAZ 2 | Lishi: MAZ24 AccuReader: nla EEZ Reader: nia —_| Cobra: nia
+Method #1 Use a Lock Decoder/ Reader tool to decode the door lock. ‘Impression missing cuts. =
+Method #2 Remove passenger door cylinder and read code stariped on door cylinder = hake master key.
+If the code is no good or the car has been re-coded, disassemble door cylinder to decode wafers,
+__ then impression final cuts. =
+o}oO;oO}ojo;o/;o0 > Ignition —
+O/0/0}0/0} 0) 0) O|> Doors & Trunk
+2}3/4/5|6}7/8/9|10 =
+36 - MAZDA S es ©1994, 2021 AutoSmart™ by Michael Hyde — — :
+
+roe eCeCooeeoeee eb eee
+
+pe@000 680
+e0200000000080008000008
+
+7
+
+¢
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+- Transponder Information - MAZDA
+
+MAZDA CAN TYPE SYSTEMS: MAZDA 3, MAZDA 6 & RX-8:
+> These cars use the C.A.N. system that requies an QUTCODE that you need to get Soros from the desler into
+anINCODE. The OUTCODE is cies 6 digits and the INCODE is aes 4 digits.
+
+FORD TYPE SYSTEMS: PICK UPS & TRIBUTE
+
+_ > The B-Series Pick Ups and the Tribute models are actually Ford style transponder systems. The B-Series Pick Up
+
+is the brother to the Ford Ranger. The Tribute is the brother to the Ford Escape. A T-Code or NGS device is needed
+for 22 bene No PIN number is Speruee:
+
+-MAZDA 626 - MIATA - MPV:
+
+> The “Immobilizer Control Unit” can hold up oe 8 registered (econnized) keys. If a new key has to be programmed
+in to the car's Immobilizer system, all other keys will be erased. Therefor, all available keys will need to be present for
+programming. The immobilizer Unit and PCM (Power Control Module) cannot be taken off and used on other cars
+and visa-versa. If there are less than 2 pre- plopreived transponder keys, a password will be needed to open the
+Immobilizer Unit's programming — == :
+
+> For cars without the Immobilizer system, the ignition face will have the large words "LOCK", “ACC% "ON" “START”
+stamped (molded) into the metal gray face, as with other Mazda products. :
+
+> For cars with the Immobilizer system, the ignition face will look much smaller and the words "LOCK" "ACC', “ON’,
+
+= “START” will be stamped (molded) into the black induction coil itself.
+
+=> 10 program in keys you will need the serial # off the transponder box mounted near the right side of the steering
+
+column in most cases. The dealer can provide the “CodeWord” which is needed to program a new transponder
+key. You can use factory keys for programming, or “8C” keys that are pre-programmed to work on these vehicles.
+
+No special equipment needed. Follow the instructions on entering the CodeWord into the cars computer, in the
+following panes Z =
+
+¢ 893L fk
+
+a in
+
+6014664946
+
+MAZDA -37
+MAZDA -
+
+Transponder Information
+
+'98-'02 626, '00-'05 MIATA & MPV Transponder
+
+PRE- Footed KEY AND YOU NEED TO PROGRAM = KEYS:
+
+USE THIS PROCEDURE FOR WHEN THERE ARE NO KEYS OR ONLY 1
+
+IMPORTANT: YOU CAN USE FACTORY KEYS or “8C” KEYS THAT ARE ©
+_ PRE-PROGRAMMED TO WORK WITH THIS SYSTEM. :
+
+Cut the mechanical cuts on each new transponder key.
+
+LOCK position, five times. You cannot leave the key in the ON or LOCK position _
+
+Insert the first key and turn the ignition to the ON position and then backtothe _
+
+for more than one second. Do not turn the key too fast or it will not register.
+
+Turn the my back to the ON position and watch the flashing security light on 1 the:
+dash. The light should flash epee less than 1 second on and off. :
+
+Within 20 seconds, turn the key to atte LOCK position for 5 minutes. After 5
+
+flashes.
+
+minutes the security light should decrease i in flashing to 1. 2 seconds between
+
+Within 20 seconds, start to enter the PINCODE (password). (See NEXT PAGE.) —
+
+38 -MAZDA
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+Ppeeeonveen eoeoeoeeoeoeeeeeeeee
+@ @ @ «
+
+(
+
+(
+
+Transponder Information - MAZDA
+
+'98-'02 626, ‘00-'05 MIATA & MPV Transponder
+How to enter ‘PINCODE’ Procedure
+
+The PINCODE can be obtained by retrieving the serial number off the -
+Immobilizer Unit and then converting it with the MVP or TCODE or getting it converted
+from the Dealer. The PINCODE has eight numbers. y
+
+A Before you start, the security light on the dash should be flashing on and off for 1.2
+seconds each.
+
+= _| For this purpose, let's say the PINCODE is “23681457” Below is an example.
+
+The first digit in the PINCODE is a ‘2!
+
+Cc Turn the ignition key to the ON position while the security light i is not illuminated.
+: Count the illumination flashes TWO times and while the light is not illuminated
+
+turn the key to the LOCK position. (This is an example.)
+
+The second digit in the PINCODE is a ‘3
+
+: Within 30 seconds of turning the key to the LOCK position, turn the ignition key to
+
+: D the ON position while the security light is not illuminated. Count the illumination
+flashes THREE times and while the light is not illuminated turn the key to the
+
+LOCK position.
+
+- Repeat the above step to enter the rest of the PINCODE.
+
+== After you have entered the last number, turn the ignition to LOCK and then back
+= ON. Once you have entered the PINCODE correctly, the security light will stop
+
+flashing and stay illuminated. If you make a mistake, just wait 45 seconds and start
+over. Do not remove the key.
+
+— ©1994, 2021 AutoSmart™ by Michael Hyde z MAZDA - 39
+MAZDA - Transponder — eee
+
+'98- ‘02 626, ‘00-'05 MIATA & MPV. Transponder
+
+Follow the next steps “He: you have entered met PINCODE
+
+1 _| When you have entered the PINCODE E correctly, the acute light Sass stay on
+and not flash. :
+
+: 2 _| The car should now start. Start the car and the security light should stay lit El =
+: ~ | between 1 to 2 seconds. :
+
+If you are 2 going to adda aa = for programming, within 20 F seconde remove.
+3 the first key and insert the second key and start the car. The eso baht should =
+stay lit for between 1 to2seconds. _ :
+
+4 “Stop if you have no more keys to program. _
+
+£3) You must wait 30 seconds to end the program mode. _
+
+IMPORTANT INFO: ==
+_ > The ignition key should not be turned ON twice e within one non- ‘-illumination cycle.
+
+> The ignition key should not be turned ON during 2 an illumination cycle.
+
+> The ignition key should not be turned to Lock twice within one non-illumination cycle.
+
+40 - MAZDA a. 1994, 2021 AutoSmart™ by Michael Hyde
+
+Deeecoeoeeneeoeoeceeeee ee eee
+© © '0@ 0 @, ¢ o@e
+
+¢
+
+(
+
+2021
+
+AutoSmart ™
+by Michael Hyde —
+
+MITSUBISHI
+
+A wide variety of key programmers have been added to this book. Most key programmer companies are
+to check with your key programmer supplier to see if the vehicle you are working on is supported by their
+tool, There is always a risk in damaging the vehicle electronics when you connect to the vehicle through
+
+| the OBD port if you are not using an OEM diagnostic tool. You as the locksmith take on this risk every
+| time you perform work on a vehicle.
+
+| the VIN to get you the right part number. Remember, ultimately it is your responsibility to obtain the
+
+| contain mistakes of their own. Therefore, we cannot guarantee or warranty that the part we show for a
+| particular vehicle is the absolute right one.
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+DISCLAIMER:
+
+not based in the U.S. Some of their application charts have many mistakes. In some cases, you will need
+
+If you have any doubt about what part to use, make sure you check with the dealer and have them run
+
+correct part. Part numbers and FCC information has been researched and verified as best as possible.
+But no system is perfect or without errors. Car manufacturers’ part numbers and applications guides
+
+MITSUBISHI - 1
+2021
+
+- AutoSmart Asian Book
+MITSUBISHI Table of Contents _
+
+MAKE
+
+MODEL
+
+TYPE
+
+ |SECTION ©
+
+pe5uaoeoeee
+
+|+YEARS PAGE ©
+| 3000GT_ 4991-99 _—| Key | MITS-S1
+Cordia 1982-90 Key — _| MITS-S2
+i ee 2000-04 Key MITS-S8 a2
+Diamante — a= ; : =
+1992-99 Key MITS-S1 4
+Eclipse | 2007-12 Key _ /MITS-SQ__ 44
+| 2007 Models - Some 2007 Eclipse models will use the 2007 keyway with 30010-32009 codes
+Eclipse and some will use the 2006 keyway with the codes F001-1571 series. YOU willneedto == |
+= determine which keyway is used to determine the proper key. a
+2006 Key MITS-S11__ = 16 -
+Eclipse | 2000-05 Key _ MITS-S12 Dee
+- 1990-99 _| Key MITS-S1 4
+ee | 2018-21 Proximity | MITS-S14 a
+Eclipse Cross :
+_ | 2018-21 Key MITS-S9 id= =
+_| Endeavor 2007-11 Key |MITS-SQ. 214
+| 2007 Models - Some 2007 Endeavor models will use the 2007 keyway with 30010-32009. codes
+Endeavor | and some will use the 2006 keyway with the codes FO01-1571 series. YOU willneedto
+MITSUBISHI determine which keyway is used to determine the proper key. : - S
+Endeavor 2006 Key | MITS-S11 18
+SplitYearsfor (2004-05 | Key (4D61) |MITS-S12.__ 27
+Endeavor | Transponder -}————— —— =
+= Chip ~=|2004-05 | Key (PH46)__| MITS-S13 22
+Expo _ ‘{is92-09° | Key MiTS-S1_-—-
+Different {1985-96 _| Key (wiTt)_| MITS-S1
+keyways :
+Fuso == depending = 1985- 96 _| Key (0C3) _ MITS-S2 - :
+onmodel. |1985-96 | Key (Fu2)__| MITS-S7 A
+Galant 2007-12 : __[ Key | MITS-S9 ae
+: 2007 Models - Some 2007 Galant models will use the 2007 keyway with 30010 -32009 codes
+Galant : and some will use the 2006 keyway with the codes FO01-1571 series. YOU willneedto —
+: determine which keyway is used to determine the proper key. =
+2006 = ==|Key — | MISSn- 18
+2004-05 —_| Key MITS-S13 2.
+‘Galant {2000-03 |Key ——s ||MITS-Si2_|_—20
+1999 _—| Key" /MITS-S3__ =
+1989-98 |Key | MITS-S1
+
+2 - MITSUBISHI
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeeoeeeeeeeee ©
+@
+
+¢ C
+
+¢
+
+©9eoo 0:06 04
+
+¢
+
+¢
+
+2021 - AutoSmart Asian Book
+
+MITSUBISHI Table of Contents
+
+©'0,0¢6 <¢€
+
+MAKE MODEL YEARS TYPE SECTION PAGE
+Galant -|1985-88 Key MITS-S2 6
+I-Miev 2011-17 Key MITS-S9 14
+
+2008-17 Proximity MITS-S14 24
+Lancer 2008-16 Key MITS-S10 16
+2002-06 Key MITS-S6 10
+2008-15 Proximity MITS-S14 24
+Lancer EVO
+2003-07 Key MITS-S17 30
+2014-21 Proximity MITS-S14 24
+: 2014-21 © Key MITS-S10 16
+Mirage
+1993-02 © Key MITS-S6 10
+1989-92 Key MITS-S1 4
+2001-06 Key MITS-S8 12
+| Montero 1992-00 Key MITS-S1
+: 1983-91 Key MITS-S2
+: : a 2000-04 Key MITS-S8 12
+: Montero Sport
+MITSUBISHI 1997-99 Key MITS-S1 4
+_| 2007-18 Proximity MITS-S15 26
+= 2007-18 Key MITS-S10 16
+Outlander
+2004-06 Key MITS-S16 28
+: 2003 Key MITS-S6 10
+Outlander PHEV | 2018-21 Proximity MITS-S14 — 24
+= ; 2011-21 Proximity | MITS-S15 26
+Outlander Sport
+2011-21 Key | MITS-S10 16
+Pick Up. 1983-96 Key MITS-S2
+== | 1990-91 Key | MITS-S4
+Precis
+ae 1987-89 Key MITS-S5 2)
+Raider 2006-09 Key MITS-S18 32
+Sigma 1982-90 Key MITS-S2 6
+Starion 1982-90 Key MITS-S2 6
+| Tredia | 1982-90 Key MITS-S2 6
+Van — 1987-90 Key MITS-S2 6
+Gio, 2021 AutoSmart™ by Michael Hyde
+
+MITSUBISHI - 3
+MITS-S4 SECTION —
+
+1991-993000GT | 1992-99 Diamante 1990-99 Eclipse 1992-99 Expo”
+
+1997-99
+Montero Sport
+
+1985-96 FUSO 1989-98 Galant 1989-92 Mirage 1992-00 Montero
+
+| caro# | ime | macs | Startcut | cut to Cut | Air Bags | Ign Retainer
+
+| STYLE
+
+E 5000-7679 | DbiSided Active
+NATIONAL: KEYLINE: co: JET: JMA: STRATTEC: DEALER:
+KEYS > MIT = =| sa |= X76 MIT1 MA | es
+Determinator: JAP 1 Lishi: MIT8 AccuReader: n/a EEZ Reader: n/a Cobra: n/a :
+> 3000GT  _| > Fob Remote: MB920014 (1992-99) FCC Info: E4EG8DA|308MHz
+__ | > Diamante > Fob Remote: MR238004 (1998, others were discontinued) FCC Info: E4EG8DF E 308 MHz
+“ea >Galant > Fob Remote: MBg20014 (1994- 95) FCC Info: E4EGBDA | 308 MHz
+= == > Fob Remote: MR587977 or ILCO# RKE-MITS- 3B3 (1998- -00) FCC: E4EG8D- 522M- wae 315
+oe > Fob Remote: MB920014 (1994-97) FCC Info: E4EG8DA | 308 MHz
+
+MB920014 -MR587977 _MR238004
+
+= NO TRANSPONDER Se
+
+- Code Series: E 5001-7679
+> SPACING DEPTHS
+
+: a2 5s oe 1= .325
+
+1 2 3 7 s
+oa === See) See 2=.297
+py 098 | 181 | .264 | 346 | .429 | .512 | 594 | .677 | cutto | 3=.270
+Co oe SS | a ee
+ie HPC Curtis Clipper | Pak-A-Punch| ITL | -083
+Cam: DC50 ee z
+
+==] CF88 / XF88 Carriage: TOY-50X PAK-GO4 6 |
+
+4- MITSUBISHI 5 ee ©1994, 2021 AutoSmart™ by Michael Hyde
+
+reeeCoeoeoeaeeeeeees
+
+pe5o5ue5u50e
+e020 02,0 6
+
+(
+
+¢
+
+continued - MITS-S1 SECTION.
+
+“Codes: | Passenger door lack will have a code on it.
+Decoders: | Determinator: JAP 1 Lishi: MIT 8 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTE: 1992-95 MONTERO - Mitsubishi made a big goof-up and put all the tumblers in the gas door lock. Unlock the
+z vehicle and pull gas door release, located on right side of steering column. The gas-door will then open,
+remove the lock and decode to make master key. Some models have had the tumblers removed by the dealer
+or the locksmith because of the vehicle being stolen, previously.
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock for a working key.
+Method #3 Remove passenger door cylinder and read code stamped on lock.
+Method #4 Disassemble door cylinder or trunk cylinder, and decode wafers to make master key.
+0/O0/0/0)0} 0} 0/6 [> Ignition
+-|0}0|0|0| 0} 0] 0} 0 }> Doors & Trunk / Hatch
+O}O|O |} |> Glove Box
+1/21/3/4/5|6|7/8
+a :
+
+K
+
+Looking for ILCO Look-Alike Flip Keys,
+
+RKE Remote Keyless Entry —=—HIC0
+
+& Proximity Fobs?
+
+We have them on the shelf - ready to ship.
+National Auto Lock Service, Inc
+
+1-650-875-0125 or www.Laserkey.com
+
+©1994, 2021 AutoSmart™ by Michael Hyde : MITSUBISHI - 5
+MITS-S2 SECTION
+
+1982-90 Cordia | 1985-96 Fuso 1985-88 Galant 1983-91 Montero
+
+1983-96 Pick Up | 1982-90 Sigma 1987-90 Van
+
+1982-90 Starion | 1982-90Tredia |
+
+ign Retainer
+Roll Pin
+
+macs | StartCut | CuttoCut | Air Bags
+
+3-098 =098
+
+CODES “| STW | | ms |
+
+ H01-5143 DblSided |
+
+CARD# 2
+XF80_
+
+MASTER
+
+NATIONAL: | —_KEYLINE: ICO: JET: JMA: ~ STRATTEC: DEALER:
+KEYS > Dee na | XB DC3_ =] MIT-2IP |~ aa | — —nla
+
+Determinator: MIT 2 Lishi: n/a ___| AccuReader: n/a EEZ Reader: X121/DC3 | Cobra: n/a
+
+@ No tRANsPonveR |
+
+Code Series: H 01-5143
+
+_ Bow : SPACING
+
+a ae 3 1 a ios Gg a
+= = 22 2=.256
+
+098 | 197 | .295 | .394 | .492 | .591 | | Gutte = .236
+—_—__| Cut | 4=.217 |
+098 |
+
+DEPTHS |
+
+HPC-_ Curtis Clipper Pak-A-Punch ITL
+
+Cam: DC-1
+Carriage: DC-1_
+
+Hid]ad 8 30VdS
+
+_ XF80 PAK CA 0 gr
+
+Codes: | The passenger door cylinder should havea code onit.
+
+Decoders: | Determinator: MIT2 _| Lishi: n/a | AccuReader: n/a EEZReader: DC3  —| Cobra: n/a
+
+Method #2 Use EEZ-Reader to determine door cuts for master key. Lube cylinder well.
+
+‘Method #3 Remove passenger door cylinder and read code stamped on lock. © ==
+
+Method #4 Use the Aero Lock tryout set T0-18 (XI21Keyway). = — a
+
+Method #5 Disassemble door cylinder and decode wafers to make master key, _
+
+| © |> Ignition
+> Doors
+
+Method #1 Check owners manual for code, written in by the dealer. = —— Pe z
+
+6 - MITSUBISHI : 58 ©1994, 2021 AutoSmart™ by Michael Hyde
+
+Ppeeeeeceeoeeeeoeeeeeeeees
+MITS-S3 SECTION
+
+® @ 02,60 @ <
+
+@ <«
+
+C
+
+®@®e'e 8 <«
+
+¢
+
+1999 Galant
+| stme | carpe | im# | macs | Startcut | Cuttocut | AirBags | IgnRetainer
+F 01-1571 Dbl Sided CF306 TA Z 985 083 eS | Active
+MASTER NATIONAL: KEYLINE: ILCO: JET: _JMA: STRATTEC: DEALER:
+MIT6 BMIT6-P. — X263 MIT6 MIT-18 692566 n/a
+KEYS > ae
+: Determinator: MIT 1- Lishi: MITS/MIT6 AccuReader: n/a EEZ Reader: MITS99 Cobra: n/a
+> Fob Remote: MR301714 or ILCO# RKE-MITS-2B1 - FCC Info: HYQI2ABA | 315 MHz
+ILCO# RKE-MITS-2B1
+@ No TRANSPONDER
+> Code Series: F 01-1571
+a4 Bow : -— SPACING age
+l=.
+3 1 2 3 4 5 6 7 8 = 302
+Py 985 | .902 | .820 | .737 | 655 | .572 | .491 | .407 | cutto | 3=.276
+Oo Cut: 4=.251 fre)
+m HPC Curtis Clipper | Pak-A-Punch| —ITL ed =
+4 :
+Cam: DC-5
+= —_ Carriage: DC-5A es sy
+Codes: | No codes on any locks.
+Decoders: | Determinator: MIT1 Lishi; MIT9/MIT6 _ | AccuReader: n/a EEZ Reader: MITS99 | Cobra: n/a
+NOTES: There is usually manual trunk release lever next to the driver's seat.
+- Method #1 Remove and disassemble trunk cylinder, and decode wafers to make a master key.
+
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock for a working key.
+
+Method #3 = — Remove and disassemble door cylinder, and decode wafers to make a master key.
+0/0}0|0/0/0/0}O}> Ignition
+0/0/0/}0/0;,0} 0) 0 }> Doors
+0/0) 0}0}0/0/0}0)}> Trunk / Hatch
+1}2/3|4/5/6|7/8
+
+MITSUBISHI - 7
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+MITS-S4 SECTION
+Meeedain 1990-91Precis  _ 2 eee
+
+ign Retainer
+
+CODES | ste | caro# | im | macs | Startcut | cuttocut | AirBags
+
+X 1001-2000 | DbiSided | cr2n | 517 3 | 098 | 098 No Active
+MASTER =
+NATIONAL: KEYLINE:- ILCO: JET: — %JMA: STRAT TEE: - DEALER:
+KEYS > HY5 nla xia7. =] ~~ «HY5 _‘Hy-3 n/a na
+Determinator: HYU 4 Lishi: n/a AccuReader: n/a EEZ Reader: n/a | Cobra: n/a
+
+| NO TRANSPONDER
+
+Code Series: X 1001-2000 =
+Bow ‘SPACING = =tp | See
+> =e = = jet
+o 2 a. 4 5 6 Tl Gece | 2= 264
+ffi = = 098 3=.244
+Wy 098 | 197 | 205 | 304 | 492 | 591 | 689 | | 45 oa
+m HPC Curtis Clipper Pak-A-Punch |_ ITE
+a] 3 ==
+= Cam: MZ-3 Le a!
+= CF301 Carriage: DC-2E - PAK-HY1 231 =
+Codes: | No codes on any locks. :
+Decoders: |Determinator; HYU4 | Lishi: na _-—_| AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTE- Always check the trunk lock for ease of removal. Since Hyundai's do not have codes on their
+- locks it may be easier to remove the trunk lock and decode the tumblers inthe lock,
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock. Sime :
+Method #3 Disassemble door cylinder and decode wafers to make master key, = _.
+“TIP ==—_—sif you see a number on the wafer, it is opposite of what it is supposed to be. _
+
+Ex: 4=1/ 3=2/ 2=3/1=4 ~
+
+|||] [> Ignition
+O/0/|0/O}> Doors —
+
+O} O} | @}> Trunk / Hatch
+22 ia
+
+8 - MITSUBISHI == Se ©1994, 2021 AutoSmart™ by Michael Hyde
+
+a i ee
+
+pe00ee 0
+
+peo50a0e8 e6 ©
+
+)
+
+>
+eo e@ 6 <«
+
+@e oe
+
+¢
+
+¢
+
+(
+
+®o @e0 €
+
+oeeo
+
+MITS-S5 SECTION ©
+
+STYLE
+
+1987-89 Precis
+| carpe |
+
+ITL#
+
+macs | StartCut | Cuttocut | Air Bags
+
+| Ign Retainer
+
+X 01-1000 Dbl Sided 231 3 098 ‘Active
+MASTER
+NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: DEALER:
+KEYS > HY¥2 nla X160 HY2 nla nla n/a
+Determinator: HYU 4 Lishi: n/a AccuReader: n/a £EZ Reader: n/a Cobra: n/a
+@ No TRANsPonDER
+& Code Series: X 01-1000
+Bow SPACING Tip aeeih
+> : = =
+(@) 1 Zz $ : 4 : 5 6 F Cutto Cut: 2= .200
+mi 098 3 =.236
+pay 098 | 197 | .295 | 394 | 492 | 591 | 689 | | 4=.213
+o S
+a HPC Curtis Clipper Pak-A-Punch ITL
+ar 72 ae
+Cam: MZ-3 =F
+a : 2
+_ CF301 - Carriage: DC-2E PAK-HY1 231
+Codes: | No codes on any locks,
+Decoders: | Determinator: HYU4 _| Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTE- Always check the trunk lock for ease of removal. Since Hyundai's & Kia's do not have codes
+on their locks it may be easier to remove the trunk lock and decode the tumblers in the lock.
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 —_ Use a Lock Decoder/Reader tool to decode the door lock. —_
+- Method #3 Use Try-Out Keys. Use Aero Lock tryout set TO-42
+Method #4 _Disassemble door cylinder and decode wafers to make master key.
+*TIP. If you seea number on the wafer, it is opposite of what it is supposed to be.
+
+Ex: 4=1/ 3=2/ 2=3/ t=4
+
+O,O/O);0;0/;0)0
+O/O0/0,0/0/0;0
+O/O/0,);0)0/0/0
+15 2-3-4 1516) 7
+
+> Ignition
+> Doors —
+> Trunk / Hatch
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+MITSUBISHI - 9
+WISE SEONONET ce Seer Pee es 7,
+
+2002-06 Lancer 1993-02 Mirage _ 2003 Outlander
+
+| stve | carp | ima | macs | Startcut | cuttocut | AirBags | Ign Retainer
+
+/- 30010-32009 Dbl Sided | CX89 _Active
+
+MASTER : ~ — : was —
+: NATIONAL: __ KEYLINE: ILCO:= = JET: JMA: STRATTEC: — ~ DEALER:
+
+KEYS > MIT3. nla X224 MIT3 MIT-14D | 692071 nla
+
+ Determinator: JAP 2 Lishi: MIT 11 ‘AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+|» Lancer —_| > Fob Remote: MR587983 or ILCO# RKE-MITS-2B2 - FCC Info: OUCG8D-525M-A | 314 MHz
+
+Hs ” > Mirage > Fob Remote: (Installed at port of entry) FCC Info: GOH-MM6-101890 | 315 MHz
+
+> Outlander _ [> Fob Remote: MR587983 or ILCO# RKE-MITS-2B2 - FCC Info: OUCG8D-525M-A | 314 MHz
+
+ARM DISARM
+
+RKE-MITS-2B2 «=F: GOH-MM6-101890
+
+| NO TRANSPONDER Se. ao 2532
+
+Code Series: 30010-32009
+
+2 : SPACING DEPTHS
+; == = 1=.310
+a= 2 = fF 2|2 :
+
++ SS SS Se
+peg 098 | isi | .264 | .346 | .429 | .512 | 594 | .677 | cutto | 3=.279
+> 222e2e : : = | Cut: | 4=.263
+BL HPC Curtis Clipper | Pak-A-Punch,; [TL | 055_| 5= -249
+
+5 -|— — Cam: GM-5 2 : = ===
+
+<= = 4 - =: =
+
+=e Carriage: GM-5B eae = ae.
+
+Codes: ‘The passenger door-cylinder should havea codeonit,
+
+Decoders: | Determinator: JAP 2 Lishi: MITT _|Aecufeader: nla = = _-| EEZ Reader: nla Cobra: n/a
+_ Method #1 Use a Lock Decoder/Reader tool to decode the door lock. : —
+
+Method #2 ~ Remove passenger door cylinder: and read code stamped on lock if the car has one, otherwise —_ lock.
+
+Method #3 Disassemble door cylinder or trunk cylinder, and: decode wafers to = master key.
+O}oO}o|o}o}o}oO}oO}> Ignition
+0/0}0/0)0} 0/0} }> Doors
+O0|0|0/0/0/O}O|O}> Trunk / Hatch
+1]/2/3/4|/5};6}/7/8
+
+10 - MITSUBISHI =2 : ©1994, 2021 AutoSmart™ by Michael Hyde
+
+peeoe5eeeeeeeee
+
+»>@@6@®@
+
+»>@e6e 6
+© 6 080606 06:60:80 080, 8 @ ¢
+
+¢
+
+0';e,e@ @ ¢
+
+MITS-S7 SECTION
+
+MASTER
+KEYS >
+
+STYLE
+
+1985-96 Fuso
+
+| carps | im# | macs | startcut | cuttocut | AirBags | Ign Retainer
+
+8100-9113 | Dbl Sided 2 223 Active
+NATIONAL: KEYLINE: JET: 4MA: STRATTEC: DEALER:
+FU2 n/a FU2 n/a MIT-11D n/a n/a
+Determinator: n/a Lishi: n/a AccuReader:_n/a EEZ Reader: n/a Cobra: n/a
+
+e NO TRANSPONDER
+
+Code Series: 8100-9113
+Pm = «Bow SPACING Tip DEPTHS
+> x 2 3 4 5 4-6 7 8 ees
+ra 2 = .283
+iy) -907 | .809 | .711 | .613 | .515 | .417 | .319 | .221 | cutto | 3=.251
+& : Cut:
+o HPC Curtis Clipper | Pak-A-Punch ITL 098
+Uv Cam: HD-9
+4 ne __ Carriage: FS-1A he le
+NOTES: FRAMON - Use FD84 spacing clip and start first cut at .223”
+Codes: | The passenger door cylinder may or may not have a code on it.
+Decoders: | Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Remove passenger door cylinder and read code stamped on lock.
+Method #3 Disassemble door cylinder or trunk cylinder, and decode wafers to make master key.
+Method #4 Impression locks.
+©1994, 2021 AutoSmart™ by Michael Hyde MITSUBISHI - 11
+‘MITS.$8 SECTION :
+
+oe
+
+ee
+_ MASTER ——>
+
+ao woke en | ig yer | IMA: ~ | smparrec: | DEALER: =e =
+= 5907793 a] MITI2- PEA |) MIT12-PT MITI2-PHT | TP26MITI2P 5907793 -MR587315 =
+
+KEYS =>
+
+Deteminatoc APY =  Lishi: MITS [cerca a EEZ Reader: nla ~— T cobra: n/a | =
+"| > Fob Remote: MR587979 or ILCO# AKE-MITS-481 (2000-04) FCC: oucasD- “S22M-A | 315 wz |
+_|> Fob Remote: MR58798i (2004) FCC Info: OUCG8D-525M- nia MHz
+
+> > Fob Remote: MR587977 or ILCO# RKE- MITS 383 - - FCC Info:  OUCGEL 522M- A316. Miz
+
+eee
+
+: |» Diamante
+
+> Fob Remote: MR587978 or ILCO# RKE- MITS-2B3 (2000- -03, 2 Btn) FCC: ‘oucGsD- 522M- Al 315
+
+Montero = = > Fob Remote: “MR87877 or LCF RKE-MITS-3B3 3 (2000-03, 3 Btn) Fcc: OUCG8D- 522M-A ust 315
+SPORT
+
+oy
+
+» @
+
+TRUNK
+
+2 ies Series: E 5001-7679
+a — _ SPACING
+
+Aes 4 5 46 Fe
+a1 | 264 | 346 | .429 | 512 |
+
+Curtis Clipper
+
+Carriage: TOY-50X |. = = oe
+
+Hidsad 8 utah
+
+(OPIN CODE
+REQUIRED | |
+
+E (v Horwre 2E==
+
+G
+
+Z _Note: *Many key emprenee can bypass the P PIN. Check t to see if your ‘key programmer supports your =e
+ce MITSU BISHI 3 ==
+
+AUTEL IM608
+
+q w2aNodeNvaL
+
+a
+
+©1994, 2021 AutoSmart™ by Michael Hyde =
+
+a
+oe © 02,0 @ ¢
+
+¢
+
+eoeeoe0en
+
+C
+
+eeoen
+
+Chip Information & Notes"
+
+continued - MITS-S8 SECTION
+
+Transponder: Standard Equipment Chip: 4D61 (N)
+
+Reusable: Yes
+
+a > Mike's Tip: Key Programmer Required. Test key is MIT8.
+
+Pp === z = == =s
+
+>2, Cloner Machine Information :
+
+” — = : : =
+
+o (DIAG BOX) (CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LD. \( scorPio \)( wo |
+
+S Kena CN900 Rw4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE | | TANGO MINI TOOL
+
+= 7] Yes | Yes — = Yes _ M1 Yes? Yes M1 Yes? | Yes? Yes
+Blue Chip& | | —_CN2/5 EH3&“K" || TPX2& GK100/TK100 | | CNS or TPX2 | | CN5 or TPX2 | | VVDIChip
+‘Mits Shell | | & Mits Shell Blade || MitsShell | | &MitsBlade | | &MitsShell | | &Mits Shell | | & Mits Shell
+
+_ “4 - Requires Internet Access to complete cloning. *2 - Requires Philips Crypto Update. “3 - Requires Texas Crypto update.
+
+Codes: The passenger door cylinder may or may not have a code on it.
+
+‘AccuReader: n/a EEZ Reader: n/a
+
+Decoders: | Determinator: JAP 1 Lishi: MIT3 Cobra: n/a
+Method #1 Check owner's manual for codes, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock for a working key.
+
+~ Method #3 = Remove passenger door cylinder and read code stamped on lock.
+
+Method #4
+
+Disassemble door cylinder or trunk cylinder, and decode wafers to make master key.
+
+6/O/}0/0/0/0 }> Ignition
+olojolojojo
+
+| 0| 0] 0 |> Glove Box
+|3l4alslel7is
+
+> Doors & Trunk / Hatch
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+MITSUBISHI - 13 —
+
+MITS-S9 SECTION
+
+- 2007-12 Eclipse 2018-21 Eclipse Cross
+
+2007-12 Galant 2011-17 I-Miev
+
+2007-11 Endeavor
+
+| srme | caro# | ms | macs | Startcut | Cuttocut | AirBags | ignRetainer §
+
+30010-32009 | DblSided | CX89_ Active
+NATIONAL: KEYLINE: co; set: | Ma: | STRATTEC: | _ DEALER:
+MASTER MIT3-CAN n/a MITI7A-PT | MITI7-PHT | TPI2-MIT-8D.P2 | n/a _ See below
+ MeYs Oo Determinator: JAP 2 Lishi: MITi1 | AccuReader: n/a EEZ Reader: n/a —| Cobra: n/a :
+> Mike's Tip: Transponder system. Key Programmer is required. Test key X224/MIT3. eS
+> Mike’ 's Tip: If you have trouble programming a aftermarket key (non-dealer) you will need to eek in the
+_ dealer oem factory key. This is always a risk on Mitsubishi vehicles. :
+» aR | > Remote Key: MN141545 or ILCO# RHK-MITS-4B2 - FCC Info: OUCG8D-620M- -A | 314 MHz
+> Eclipse Cross | > Remote Key: 6370C135 - FCC Info: OUCIIGEN | 314 MHz :
+vam > Endeavor —_| > Remote Key: 6370A364 or ILCO# RHK-MITS-3B1 - FCC Info: OUCG8D-620M-A | 314MHz
+: > Galant > Remote Key: MN141545 or ILCO# RHK- MITS- -4B2 - FCC Info: OUCGRD- 8 A [314 MHz _
+> I-Miev > Remote Key: 6370B519 - FCC Info: OUCG8D-625M-A-HF |315 MHz oS =
+
+ILCO# RHK-MITS-3B1
+
+Code Series: 30010-32009
+
+2 | :
+
+RY SPACING | “ip | DEPTHS ©
+: === 1= .310
+
+i o 4 5 6 ==
+
+ma Ss 2 =.295
+
+pe 098 | 181 | .264 | .346 | .429 | 512 | .594 | .677 | cutto | 3=.279 |
+
+= = == | Cur | 4=.263
+
+i HPC Curtis Clipper Pak-A-Punch Te {= 083 -| 5=.249
+Cam: GM-5 2 ==
+
+ok = =
+
+___ CX89 Carriage: GM-5B | PAK-G06 507
+
+14-MITSUBISH] — === a ©1994, 2021 AutoSmart™ by Michael Hyde
+
+Pee CCC SOE HOOHEOHOSOOCEE ES
+C
+
+@6 08,06 «
+
+¢
+
+¢
+
+oe 6006
+
+C
+
+continued - MITS-S9 SECTION
+
+Chip Information & Notes
+
+Transponder: Standard Equipment
+
+Chip: see below s
+
+Reusable: No
+
+> Mike's Tip: Key Programmer Required. Test key is MIT3.
+
+Cloner Machine Information - For All - except Eclipse Cross (PH46)
+
+ae SMART PRO
+
+[v AUTO PRO PAD |
+
+€ AUTEL IM608
+
+(DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE |) (LD. ) (SCORPIO ) ( wo)
+eis CN900 RW4+ TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+M1 Yes M1 Yes Yes? M1 Yes? 1 Yes! M1 Yes':2 M1 Yes'2 M1 Yes
+Green Chip CN3 GTI Chip & TPX4 & Gk100/TK100 | | CN3 or TPX4 | | CN3 or TPX4 | | VVDIChip
+Bary] | &Mits Shell | | &Mits Shell | | Mits Shell Mits Shell | | &Mits Blade | | &Mits Shell | | &MitsShell | | &Mits Shell
+= *4 - Requires Internet Access to complete cloning: *2-- Requires Philips owe Update.
+: = Cloner Machine e Information - “for Eclipse Cross (HiTag 3 PH52)
+Uv
+. (DIAG == (CHINA > (iicoisica) ( JMAUSA ) ( KEYLINE) (LD. ) ( Scorpio.) (. wo)
+CLONE
+5 ee CN900 _ RW4+ TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+@_No @ No @® No ® No @ No ® No @® No @ No
+A
+Programmer & Diagnostic Tools _
+“Factory Tool | ( PINCODE ) ( rconemvppRO| {x TDB1000 ¥ HOTWIRE
+REQUIRED
+J2534 &
+Supscription | | Yes*
+
+Note: *Many key programmers can bypass the PIN. Check to see if your key programmer supports your vehicle.
+
+Codes: | The passenger door cylinder should have a code on it - otherwise check the drivers door lock.
+
+Decoders: | Determinator: JAP 2 Lishi: MIT11 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Remove passenger door cylinder and read code stamped on lock if the car has one, otherwise drivers lock.
+Method #3
+
+Disassemble door cylinder or trunk cylinder, and decode wafers to make master key.
+
+|0/0|0)0/0}0| 0) 0 }> Ignition
+£O/}/O}0O)0|/0/0}0}|0}> Doors
+0/0/0}0/0] |] 0 )> Trunk / Hatch*
+£121314/5/6)7:8 :
+=== *If Equipped
+©1994, 2021 AutoSmart™ by Michael Hyde MITSUBISHI - 15
+MITS-S410 SECTION
+
+2011-21 Outlander Sport
+
+- 2008-16 Lancer 2014-21Mirage | 2007-18 Outlander
+
+| Cutto Cut |
+
+| STYLE |
+
+| cARD# | im | macs | StartCut
+
+Air Bags [igetitaner =
+
+30010-32009 Dbl Sided CX89 Active
+NATIONAL: = | — KEYLINE: ICO: JET: JMA: ~ STRATTEC: DEALER:
+MIT3-CAN n/a MITI7A-PT | MITI7-PHT | TP12-MIT-8D.P2 nla : see below ==
+_ MASTER | Determinator: JAP 2 Lishi: MIT 11 AccuReader: nia _—*| EZ Reader: n/a Cobra: n/a
+ug Mike's Tip: Transponder system. Key Programmer is required. Test key x224/MIT3 =
+> Mike’s Tip: If you have trouble programming a aftermarket key (non-dealer) you will need to program in = 22
+dealer oem factory key. This is always a risk on Mitsubishi vehicles, — i == =
+> Mike's Tip: Check the-VIN with the Dealer for correct part. ee variations possible depending ontrim. _
+> Remote Key: 63704148 (2008-14, No Trunk Button) FCC Info: OUCG8D-625M-A | 314 MHz |
+> Lancer > Remote Key: 6370A477 (2008- 14, with Trunk Button) FCC Info: oucGsD- 625M-A ‘| 314 MHz
+> Remote eee (2015 -16) FCC Info: OUCJIB6N | 315 MHz :
+> Remote Key: 6370B711 (2014-15) FCC Info: OUCG8D-625M-A-HF | 315 MHz
+Remote |? Mirage = —
+is > Remote Key: 6370B904 (2017-21) FCC Info: OUCJI66N | 315 MHz
+> Remote Key: 6370B944 (2017-18) FCC Info: OUCJIG6N | 315 MHz
+> Outlander ——= == = ===
+a= _ | > Remote Key: 6370A148 (2007-16) FCC Info: OUCG8D-625M-A | 315 MHz
+> Outlander > Remote Key: 6370B944 (2016-21) FCC Info: QUCJI66N | 315 MHz
+Sport > Remote Key: € nee ras en FCC Info: ‘OUCG8D- 625M-A ise MHz
+
+6370A148, 6370B711
+
+6370A477, 63708944
+
+63708904
+
+16- MITSUBISH|
+
+¢2] — =
+
+2 SPACING Le ~ | DEPTHS
+: 3 J===F = === 1=.310—>
+
+1 2 5 4 > ==
+
+2 66 === : : oe (2=.295
+
+Poy 098 | 181 | .264 | .346 | .429 | .512 | 594 | 677 | cutto | 3=.279
+
+o 222 : : _| Cut | 4=.263
+
+a HPC | —CurtisClipper | Pak-A-Punch|  ITL _ 083 | 5 =.249
+
+— — — = ; === ——_
+
+= Cam: GM-5 SAA
+= Oxe8. Carriage: GM-5B — PAK-G06 507
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+peoceoaeeee 6
+
+pee5aeenueeees
+@o'e 006
+
+©96e@ee0e080880 08 6 ¢
+
+¢
+
+¢
+
+continued - MITS-S10 SECTION ©
+
+‘ChipInformation&Notes
+
+Transponder: Standard Equipment _ oe Philips 46 Reusable: No
+
+> Mike's hs et Programmer Required. Test key i is MIT3.
+
+Cloner Machine Information — all
+
+4- - Requires Internet Access to ea cloning. *2- ——— sy Cpe Update. 3- Requires Texas Crypto wae.
+
+= (DIAG BOX) (CHINA ) (ALCOISILCA ) (JMAUSA ) ( KEYLINE \ (LD. ™\ ( scorPio ) ( wo)
+7 eed cN900 RW4+ TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+> : -
+
+> MH Yes MYes || Yes? M1 Yes? M1 Yes! M1 Yes‘? M1 Yest2 fv] Yes
+we Green Chip || __CN3 GTI Chip & TPX4 & GK100/TK100 | | CN3 or TPX4 | | CN3 or TPX4 | | VVDIChip
+fo} | &Mits Shell | | &Mits Shell | | Mits Shell Mits Shell &Mits Blade | | &Mits Shell | | &Mits Shell | | & Mits Shell
+2 |
+
+\s)
+
+m
+
+A=
+
+“Programmer & Diagnostic Tools 0 eee
+
+t Factory Tool.
+
+PIN CODE :
+_ REQUIRED © | a TCODE/MVP PRO 1 TDB1000 [v HOTWIRE
+
+J2534 &
+Supscription
+
+_Yest= [- SMART PRO ¢ AUTO PRO PAD ¢ AUTEL IM608
+
+Note: *Many key programmers can bypass the PIN. Check to see if your key programmer supports your vehicle.
+
+Codes: The passenger door cylinder should have a code on it - otherwise check the drivers door lock.
+
+Decoders: | Determinator: JAP 2 ‘Lishis MITT AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use-a Lock Decoder/Reader tool to decode the door lock. :
+~Method#2 Remove passenger door cylinder and read code stamped on lock if the car has one, otherwise drivers lock.
+Method #3 Disassemble door cylinder or trunk cylinder, and decode wafers to make master key.
+: o/0/0}0/0}0}0]0)}> Ignition
+a Oo O;0|0/0O}0|O}> Doors
+3 O}0}0}0/0/0/0]0)> Trunk / Hatch
+1121/3145 6/7\8
+~ ©1994, 2021 AutoSmart™ by Michael Hyde : MITSUBISHI - 17
+
+WITS-S14 SECTION
+
+ee ee
+
+peeee0ee0 @
+
+‘a
+
+2006 Eclipse ~ 2006 Endeavor 2006Galant ———s
+stvie | carps | ms | macs | Start Cut | cuttocut | AirBags | Ign Retainer ie
+F 01-1571 Dbl Sided | CF306 | 171 2 | 985 | 083 Yes ‘Active |
+MASTER NATIONAL: KEYLINE: Me
+weys> | MITE-CAN n/a___| MITI6A-PT | MITI6-PHT | TPI2MITIBP | 692562 see below
+Determinator: MIT1 ‘| Lishi: MIT9MIT6 | AccuReader: n/a -—*| EEZ Reader: MITS99._—_| Cobra: n/a :
+> Mike's Tip: Transponder system. Key Programmer is required. Test key MIT6
+> Eclipse > Remote Key: MN141381 or ILCO# RHK-MITS-481 - FCC Info: OUCG8D-620M-A | 314 MHz = =
+— > Endeavor _| > Remote Key: MN141383 or ILCO# RHK-MITS-3B2 - FCC Info: OUCG8D-620M-A|314MHz
+> Galant > Remote Key: MN141381 or ILCO# RHK-MITS-4B1 - FCC Info: OUCG8D-620M-A | 314 MHz =
+pee Code Series: F 01-1571 :
+> 2 SPACING || DEPTHS | —
+= i= 327 E
+1 2. 3 4 =| a | Z
+m : ot ge 8 Sg = == 2 = 302
+pam 985 | .902 | .820 | .737 | .655 | .572 | -491 | .407 | cutto | 3=.276 :
+—=———— : os = ~=6GE 4 = 251
+st HPC Curtis Clipper | Pak-A-Punch| ITL | 83
+or = —
+: === Cam: DC-5 a = = 2|= =
+= 2 oe Carriage: DC-5A onda. = ut ==
+
+peeooa5uece
+
+18 - MITSUBISHI ~ 22 5 ee _ ©1994, 2021 AutoSmart™ by Michael Hyde
+
+(
+
+@' ee:
+
+¢
+
+¢
+
+©@e0 €2606 6 06 6' 0:0 6:
+
+continued - MITS-§11 SECTION
+
+Chip Information & Notes _
+
+Transponder: Standard Equipment
+
+Chip: Philips 46
+
+Reusable: No
+
+> Mike's Tip: Key Programmer Required. Test key is MIT6.
+
+Cloner Machine Information _
+
+(v SMART PRO
+
+(? AUTO PRO PAD
+
+(> AUTEL IM608
+
+= (DIAG BOX) (CHINA ) (ILcorsicA) ( JMAUSA ) ( KEYLINE ) (LD. )( scorPiOo \)( wo )
+7 eae CN900 ~ RW4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+> - -
+Z MYes || M Yes M1 Yes? 1 Yes? M1 Yes! 1 Yes'2 1 Yes! iv] Yes
+ob Green Chip CN3 GTI Chip & TPX4 & Gk100/TK100 | | CN3 or TPX4 | | CN3 or TPX4 | | VVDIChip
+Fey] | &Mits Shell | | &Mits Shell | | Mits Shell | | _ Mits Shell &Mits Blade | | &Mits Shell | | &Mits Shell | | & Mits Shell
+S “4 = Requires Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+= Programmer & Diagnostic Tools _ : :
+
+Factory Tool PIN CODE = =.
+
+REGUS Y TCODE/MVP PRO| | x TDB1000 VY HOTWIRE
+J2534 &
+Supscription Yes *
+
+Note: *Many key programmers can bypass the PIN. Check to see if your key programmer supports your vehicle.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: MIT1 _| Lishi: n/a AccuReader: n/a EEZ Reader: MITS99 _ | Cobra: n/a
+
+NOTES: There is usually manual trunk release lever next to the driver's seat.
+
+Method #1 Remove and disassemble trunk cylinder, and decode wafers to make a master key.
+
+Method #2 — Use a Lock Decoder/Reader tool to decode the door lock for a working key.
+
+Method #3 Remove and disassemble door cylinder, and decode wafers to make a master key.
+0/O0/0/0}0)| 0] O)> Ignition
+0)0/0|0/G/| 0} Q|> Doors
+O}O}O|8}8} 0] O}> Trunk / Hatch
+2\|37415|/617)8
+
+©1994, 2021 AutoSmart™ by Michael Hyde MITSUBISHI - 19
+
+MITS. $12 SECTION
+
+2000-03 Galant
+l
+
+2000-05 Eclipse 2004-05 Endeavor
+
+[sme | carpe | im# | macs | Startcut | Cuttocut hir Bags. | ign Retainer
+
+F 01-1571 Dbl Sided | CF306— Active
+NATIONAL: KEYLINE: ICO: JET: JMA: STRATTEC: DEALER:
+MASTER 692564 BMIT13-PT | MIT13-PT | MITI3-PHT | TP26MITISP | 692564 see below :
+KEYS > _| Determinator: MIT 1 lish: MIT9 MIT6 | AccuReader: n/a | EEZReader: MITS99__| Cobra: n/a
+> Mike’s Tip: Transponder system. Key. Programmer i is required. Test key MIT6
+> Mike’s Tip: Some Endeavor models use the “N” transponder chip and some use the “A” jranapoivier chip.
+STRATTEC 692562 or 692020 (“A” Chip) or STRATTEC 690648 or 692564 ("N" Chip)
+— ** CHECK WITH DEALER FOR CORRECT FOB REMOTE BASED ON YOUR VIN**
+> Fob Remote: MR587859 or ILCO# RKE- MITS-2B1 (2000- 01) FCC Info: HYQI2ABA | 315 MHz
+> Fob Remote: MR587983 or ILCO# RKE-MITS-2B2 (2000-05) FCC: OUCG8D-525M-A | 314 MHz
+> Eclipse | > Fob Remote: MR587982 or ILCO# RKE-MITS-3B1 (2002-05) FCC: OUCG8D-525M-A | 314 MHz
+: > Fob Remote: MR587981 (2003-05) FCC Info: OUCG8D-525M-A | 314 MHz .
+wide > Fob Remote: MR587980 or ILCO# RKE-MITS-3B2 (2003-05) FCC: OUCG8D-525M-A | 314 MHz
+> Endeavor _| > Fob Remote: MR587982 or ILCO# RKE-MITS-3B1 - FCC Info: OUCG8D-525M-A | 314 MHz
+> Fob Remote: MR587858 or ILCO# RKE-MITS-2B1 (1999-01) FCC Info: HYQI2ABA | 315 MHz
+> Fob Remote: MR587859 (1999- 01) FCC Info: HYQI2ABA | 315 MHz ~
+Jo > Fob Remote: MR587980 or ILCO# RKE-MITS-3B2 (2002-05) FCC: OUCG8D-525M- A A 314 MHz =
+> Fob Remote: MR587981 (2002 05) FCC Info: QUCG8D-525M-A | 314 MHz
+
+LOCK
+
+UNLOCK
+Css, — *
+
+MR587980, MR587981
+
+— 1LCO# RKE-MITS-3B1 __MR587983, MR587858
+
+ce Code Series: F 01-1571 = == =
+Z| SPACING — DEPTHS
+1=.327
+1 2 4 S272 2 Be || == =
+C= z ot eee Ee ae
+Pay 985 | 902 | .820 | .737 | .655 | .572 | .491 | .407 | cutto | 3=.276
+s) a UE | t= 281 =
+m HPC Curtis Clipper | Pak-A-Punch| ITL | -983 -<
+a= oO
+ond ==
+Cam: DC-5 == =
+= = Carriage: DC-5A Me; ef
+
+20 - MITSUBISHI
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+DPeeeeeeaeeeeeeeeeeeoee se 6
+©eo @©:0606090 0,00 «€
+
+(
+
+¢
+
+continued - MITS-§12 SECTION
+
+Chip Information & Notes —
+
+Transponder: Standard Equipment 25
+
+Chip: 4D61 (N)
+
+Reusable: Yes
+
+> Mike's Tip: Key Programmer Required.
+
+Test key is MIT6.
+
+Cloner Machine Information —__
+
+*4 - Requires Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - May Require Texas Crypto update.
+
+Programmer & Diagnostic Tools —
+
+= ‘(DIAG BOX) ( CHINA ) (iLcorsitca) ( JMAUSA ) ( KEYLINE )( LD. ) ( scorpio \)( wo)
+= Pe CN900 Rw4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+> =
+
+Z {¥] Yes [J Yes [J] Yes M1 Yes? Yes Yes? M1 Yes? {VJ Yes
+- Blue Chip & CN2/5 EH3a“k” || TPX2& | | Gk100/TK100| | CN5orTPX2 | | CNS orTPX2 | | VVDIChip _
+Foy] | Mits Shell | | & Mits Shel Blade Mits Shell &Mits Blade | | &Mits Shell | | &MitsShell | | & Mits Shell
+Zz
+
+1s)
+
+mi
+
+A
+
+L PIN CODE
+REQUIRED
+
+[v toooEnve PRO| [x rostoo
+
+(v HO
+
+TWIRE
+
+(v SMART PRO
+
+(v AUTO PRO PAD
+
+(> AUTEL IM608
+
+Note: *Many key programmers can bypass the PIN. Check to see if your key programmer supports your vehicle.
+
+Codes: | No codes on any locks.
+
+Decoders: | Determinator: MIT1 Lishi: n/a AccuReader: n/a FEZ Reader: MITS99 _| Cobra: n/a
+
+NOTES: There is usually manual trunk release lever next to the driver's seat.
+
+Method #1 Remove and disassemble trunk cylinder, and decode wafers to make a master key.
+
+Method #2 "Use a Lock Decoder/Reader tool to decode the door lock for a working key.
+
+Method #3 Remove and disassemble door cylinder, and decode wafers to make a master key.
+0/0/06} 0} 0] O)}> Ignition
+0/0)0)0)0/O} Q}> Doors
+O|0|0}0}0}0}O)> Trunk7 Hatch
+213,4,516|7\8
+
+©1994, 2021 AutoSmart™ by Michael Hyde MITSUBISHI - 21
+MITS- $13 SECTI ION
+
+MASTER
+KEYS >
+
+~ 2004- 05 Endanvor == : : 2004-05 iar
+
+| srme | carpe | me | macs | startCut | Cuttocut | AirBags pore =
+
+- F01-1571 Dbl Sided | CF306 | Active
+NATIONAL: KEYLINE: wo; =| JET: ~S | JMA STRATTEC: | DEALER; = |
+692562 n/a__| MITIGA-PT | MITI6-PHT | TPI2MITIBP | 692562 | see below
+
+Determinator: MIT Lishi: MIT9 MIT6 | AccuReader: n/a ‘(| EEZ Reader: MITS99.-—_‘| Cobra: n/a
+
+> Mike's Tip: Transponder system. Key Programmer is required. Test key MIT6
+
+> Mike's Tip: So
+
+me Endeavor models use the “N” transponder chip and some use the "A" transponder chip. —
+-STRATTEC 692562 or 692020 ("A” Chip) or STRATTEC 690648 or 692564 ("N° Chip)
+
+Remote
+Info >
+
+_ ** CHECK WITH DEALER FOR CORRECT FOB REMOTE BASED ON YOUR VIN **
+
+> Endeavor
+
+> Fob Remote: MR587982 or ILCO# RKE-MITS-3B1 - FCC Info: OUCG8D-525M- A A 314 MHz
+
+> Fob Remote: MR587980 - FCC Info: OUCG8D-525M-A | 314 MHz
+
+» Galant
+
+> Fob Remote: MR587981 - FCC Info: OUCG8D-525M-A | 314 MHz
+
+LOCK
+
+UNLOCK
+— as
+
+MR587980,MR587981 = =~—«sILCO# RKE-MITS-3B1
+
+Code Series: F 01-1571
+
+_Bow SPACING : ip __| DEPTHS
+= a _ | 1=.327
+1 . 4 5 6 (7 26 2 = 302
+
+985 | .902 | .820 | .737 | .655 | .572 | .491 | .407 | cutto | 3=.276
+
+Cut: 4=.251
+
+HPC
+
+Curtis Clipper | Pak-A-Punch nm 1
+
+H1dad 8 30VdS
+
+CF306
+
+Cam:DC
+
+Carriage: DC-5A
+
+= n/a =i =
+
+22 - MITSUBISHI
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+»>©00000686800
+
+)
+
+pee
+
+:
+
+i}
+
+)
+
+oe 6€060606 06 0' 0608006 6@@ «
+
+¢
+
+ee
+
+¢
+
+continued - MITS-§13 SECTION
+
+Chip Information & Notes.
+
+Transponder: Standard Equipment
+
+Chip: Philips 46
+
+Reusable: No
+
+> Mike's Tip: Key Programmer Required. Test key is MIT6.
+
+Cloner Machine Information __
+
+“4 - Requires Internet Access to complete cloning. *2-Requires Philips Crypto Update.
+
+*3.- Requires Texas Crypto update.
+
+z (DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE \( LD. \( scorPIO \( wo )
+CLONE CN900 Rw4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+
+os WIZARD :
+
+S M1 Yes MI Yes M1 Yes? M1 Yes? M1 Yes'2 MI Yes! M1 Yes':2 fv] Yes
+
+o Green Chip CN3 GTIChip & TPX4 & GK100/TK100 | | CN3 or TPX4 | | CN3 or TPX4 | | VVDIChip
+
+fey) | &Mits Shell | | & Mits Shell | | Mits Shell Mits Shell &Mits Blade | | &MitsShell | | &Mits Shell | | & Mits Shell
+
+=
+
+Oo
+
+m
+
+A
+
+Programmer & Diagnostic Tools —
+
+ee
+
+MUT Ill
+
+PIN CODE
+REQUIRED
+
+Yes *
+
+[- TCODE/MVP PRO
+
+( TDB1000
+
+(v HOTWIRE
+
+[v SMART PRO
+
+[- AUTO PRO PAD
+
+(2 AUTEL IM608
+
+Note: *Many key programmers can bypass the PIN. Check to see if your key programmer supports your vehicle.
+
+Codes: | No codes on any locks. —
+
+Decoders: | Determinator: MIT 1 Lishi-n/a AccuReader: n/a FEZ Reader: MITS99 _ | Cobra: n/a
+NOTES; ..__ thereis usually manual trunk release lever next to the driver's seat.
+Method #1 Remove and disassemble trunk cylinder, and decode wafers to make a master key.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock for a working key.
+Method #3
+
+Remove and disassemble door cylinder, and decode wafers to make a master key.
+
+-|0 00
+hm O
+oo oO Fl
+SiO O10
+ajooo
+eM!
+
+S70) CO]
+reid io oO
+
+> Ignition
+> Doors
+> Trunk / Hatch
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+MITSUBISHI - 23
+
+MITS- 814 SECTION
+
+2018-21 siecle Cross
+
+-2008-17Lancer
+
+-2018- 21 Outlander PHEV
+|
+
+2014-21 Mirage
+
+2008-15 bones Evo
+
+| STYLE cARD# | iTLe | MACS | Startcut | Cutto Cut
+
+Air Bags lien Retainer Ee
+
+30010-32009 | Dbl Sided “Active.
+MASTER oS Beaty System - VIN search from Dealer for correct Part,
+KEYS > ‘2 Emergency Key Blade: 6370A770 or 6370C155 or 6370C158 =
+: Determinator: JAP2 Lishi: MIT11 AccuReader: n/a EEZReader:n/a_ — —_| Cobra: na :
+
+> Mike's Tip: Proximity Transponder system. Key Programmer i is required, Test key x224/MIT3 |
+
+> Eclipse Cross | > Prox: 86378639 - FCC Info: OUCGHR-MO13 | 315 MHz = 2
+
+>Lancer ——_—'| > Prox: 8637A228 - FCC Info: OUC644M-KEY-N | 315 MHz
+> Prox: 8637A228 - FCC Info: OUC644M-KEY-N | 315 MHz
+
+Remote — > Lancer EVO
+
+iies > Prox: 86378885 - - FEC Info: OUC644M- KEY-N | 315 MHz
+
+> Prox: 8637B153 (2014-18) (Emerg Key: 6370C158) FCC Info: oUcé44M- KEN 318 ak
+
+> Mirage
+= = > Prox: Check the VIN with Dealer for correct part.
+
+» Outlander PHEV | > Prox: 8637B666 (Emerg Key: 6370158) FCC Info: OUC644M-KEY-N | 315 MHz
+
+- 8637B666
+
+” oe —— = = = =
+2 SPACING _ -DEPTHS |
+eee 1=.310
+
+- : a
+ozs = Ae pe
+Pog 098 | 181 | .264 | 346 | .429 | .512 | -594 | -677 | cutto | 3=.279 2
+> Sate = | cut: | 4=.263 3
+m HPC | CurtisClipper | Pak-A-Punch| {TL _ =| aa 5 =.249 ae
+cond = - . = — ic : : =| = : =
+
+= =| — Cam: GM-5 =
+me °°? | Carriage: GM-58 | PAK-G08 ==
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+24 - MITSUBISHI ee eS
+
+peoaneeneeeeeeeeees 8
+
+»5e@ @
+
+or
+continued - MITS-§14 SECTION
+
+Chip Information & Notes
+
+Chip: Integrated Circuit Board Reusable: No (Must be unlocked)
+
+ear > Mike's Tip: PIN CODE is Required for Programming. Test key is X224/MIT3
+A
+= No Cloning for this Proximity System
+a Programmer & Diagnostic Tools
+g
+
+Factory Tool
+0 fe el ie (v TCODE/MVP PRO [v ABRITES (v HOTWIRE
+m —— -
+Zz J2534 &
+
+Supscription — (v SMART PRO (« AUTO PRO PAD (x AUTEL IM608
+
+Note: *Many key programmers can bypass the PIN. Check to see if your key programmer supports your vehicle.
+
+Codes: | The passenger door cylinder should have a code on it - otherwise check the drivers door lock.
+
+Decoders: | Determinator: JAP 2 Lishi: MIT 11 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Remove passenger door cylinder and read code stamped on lock if the car has one, otherwise drivers lock.
+Method #3 Disassemble door cylinder or trunk cylinder, and decode wafers to make master key.
+0/0)0|0/0}0}0 [0 )> Ignition
+0O/O\|0|0/0j0/0}O/> Doors
+O0/0,0|0/0}0}0|O)}> Trunk / Hatch
+1:2) 3 |425 26/27
+
+AVDI | Key Programming | Security | ECU Programming
+
+.D.D.LT.c. For sales and information, please contact Brian
+AB R ITES P. 205.276.3656 | keymasterlsw@yahoo.com ABRITES USA
+
+www.abritesusa.com
+
+©1994, 2021 AutoSmart™ by Michael Hyde MITSUBISHI - 25
+MITS-S15 SECTION 2as>
+
+2007-18 Outlander _ 2011-21 | Outlander sport 2
+
+|
+
+j Cut to Cut | Air Bags ign R Retainer
+
+| stve | CARDS 2 TL
+Dbl Sided
+
+macs | Start Cut
+
+30010-32009
+
+MASTER. : Proximity System - VIN search from Dealer for correct Part.
+KEYS | Determinator: JAP2 | Lishi: MITi| | AccuReader: n/a —_—*| EZ Reader: na _—_—| Cobra: n/a
+
+_|> Mike's Tip: Proximity Transponder system. Key Programmer is required. Test key X224/MIT3 _
+
+mA Non PROX key can also be programmed | in, using the 2004 Outlander key asa cheaper 2 alternative cuniaso. |
+
+= _ | > Prox: 8637A817 (2014-18) (Key Blade 6370155) FCC Info: OUC644M-KEY-N | 315 MHz :
+
+> Outlander > Prox: 8637A316 (2008- -13) (Key Blade 6370C155) FCC Info: OUC644M- -KEY-N | 315 Mi
+
+Remote
+
+ae = _| > Prox: B637A025 (2007) (E- _ 6370A362) FCC Info: oucaaD- -640M “KEY- N [a 315 MHz
+
+> Outlander :
+Sport
+
+> Prox: “Check the VIN with Dealer for correct part.
+
+—6370A362 _ Sagas
+= — 8637A316
+
+8637A025
+
+SPACING DEPTHS
+
+z ae = See |
+ope et | 4 | 8 er | 2=.295
+
+098 | 181 | .264 | .346 | .429 | .512 | .594 | .677 | cutto | 3=.279
+Z == aS == Cut: | 4=.263 |
+
+Hid3d 8? S30VdS
+“ gg1o0ceo
+
+HPC Curtis Clipper im. |_ 983: «| 5 =.249 |
+aa 2 se = Ca GMS ee :
+ROS = came ames |.) ee
+26 - MITSUBISHI = eS ©1994, 2021 AutoSmart™ by Michael Hyde
+
+eeoo0eee0
+
+“i a a ar
+
+2°
+
+)
+
+9e@€e086
+
+e:
+continued - MITS-$815 SECTION
+
+Chip Information & Notes
+
+Chip: Integrated Circuit Board Reusable: No (Must be unlocked)
+
+Ear] > Mike's Tip: PIN CODE is Required for Programming. Test key is X224/MIT3
+P,)
+= No Cloning for this Proximity System
+= Programmer & Diagnostic Tools
+2
+
+Factory Tool
+=) Sees PINGODE | | TCODE/MVPPRO| | ABRITES Y HOTWIRE
+m REQUIRED
+A J2534 &
+
+Supscription Yea.* (v SMART PRO (« AUTO PRO PAD (« AUTEL IM608
+
+Note: *Many key programmers can bypass the PIN. Check to see if your key programmer supports your vehicle.
+
+Codes: | The passenger door cylinder should have a code on it - otherwise check the drivers door lock.
+
+Decoders: | Determinator: JAP 2 Lishi: MIT 11 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+
+Method #2 Remove passenger door cylinder and read code stamped on lock if the car has one, otherwise drivers lock.
+
+Method #3 Disassemble door cylinder or trunk cylinder, and decode wafers to make master key.
+0/0/0/0|0)0/0/0}> Ignition
+0}0;0/}0;0;0| Oj G}> Doors
+O/0;0}0|0}0|0O}O)>Trunk/ Hatch
+1/2/3/4|5/6]7|8
+
+AVDI | Key Programming | Security | ECU Programming
+
+.Pp.D.1-TE. For sales and information, please contact Brian
+ABRI + ES P. 205.276.3656 | keymasterisw@yahoo.com ABRITES USA
+
+www.abritesusa.com
+
+©7994, 2021 AutoSmart™ by Michael Hyde MITSUBISHI - 27
+MITS-S16 SECTION = Ee te ae
+
+2004-06 Outlander | =
+
+| carps | im | macs | startcut | cuttocut | AirBags
+
+| STYLE | Ign Retainer
+
+Dbl Sided
+
+30010-32009 Active
+
+Dealer Key: MN141307 - Master Key
+
+- Available from National Auto Lock Service -
+
+MASTER
+
+Keys > _ | Determinator: JAP 2 Lishi: MIT 1 AccuReader: n/a _| EEZ Reader: n/a Cobra: n/a
+
+> Mike's Tip: Transponder system. PIN Code is 7129 or 8A42. Test key X224/ MIT3 :
+
+Z Mike's Tip: If you have trouble programming a aftermarket key (non-dealer) you will need to program in the.
+dealer oem factory key. This is aaayee a risk. on Mitsubishi vehicles. _
+
+ae '|> Outlander —_| > Fob Remote: MR587983 or ILCO# RKE-MITS-282 - Fe Info: OUCG8D-525M-A | 314 MHz
+
+— ILCO# RKE-MITS-2B2
+
+Code Series: 30010-32009 _===
+== : DEPTHS
+
+o
+2 SPACING
+_— <I 1=.310
+2 4
+“ ———_— 2 : 2% = .295
+- _481 | .264 | .346 | .429 | .512 | 594 | .677 | cutto | 3=.279
+oO == oe Cut: | 4=.263
+m HPC | CurtisClipper | Pak-A-Punch| ITL | 83 | 5=.249
+= Bec Com Gis PAK-Gos | 507
+
+Carriage: GM-5B =
+
+28-MITSUBISH| SS ©1994, 2021 AutoSmart™ by Michael Hyde _
+
+véeesieorege@eeeéeovuaeeeeeee ee
+oe2@2e@ 00° 00 @
+
+¢
+
+@e-
+
+©®eeeoe ee @ t
+
+continued - MITS-S16 SECTION
+
+Chip Information & Notes _
+
+Transponder: Standard Equipment
+
+Chip: Philips-46
+
+Reusable: No
+
+> Mike's Tip: Key Programmer Required. Test key is MIT3.
+
+Cloner Machine Information —=-__
+
+| Supscription Yes *
+
+= (DIAG BOX) ( CHINA ) (ILCOISILCA\ ( JMAUSA ) ( KEYLINE ){  L.D. \( scorPIO \( wo! )
+pee) tone cN900 ~ RW4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO | | MINI TOOL
+p> = =
+> M Yes _ M1 Yes M1 Yes* M1 Yes? M1 Yes':2 M1 Yes'2 M1 Yes'2 fw] Yes
+SL | Green Chip cn3 | | GTIChipa& TPX4& | | Gk100/TK100| | CN3 or TPX4 | | CN3 or TPX4 | | VVDIChip
+U =
+Fey) | &Mits Shell | | &Mits Shell | | Mits Shell | | Mits Shell &Mits Blade | | &Mits Shell | | &MitsShell | | & Mits Shell |
+S : *4 - Requires Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+WE Programmer & Diagnostic Tools ; : 3
+7 = lage
+
+FactoryTool | ( PINCODE ) (. _
+
+| | peouinep | |“ TCODE/MVP PRO] | x TDB1000 ¥ HOTWIRE
++J2534 & 2
+
+C SMART PRO
+
+[v AUTO PRO PAD
+
+(2 AUTEL IM608
+
+Note: *Many key programmers can bypass the PIN. Check to see if your key programmer supports your vehicle.
+
+Codes: The passenger door cylinder should have a code on it - otherwise check the drivers door lock.
+
+Decoders: | Determinator: JAP 2 Lishi: MIT TI AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Remove passenger door cylinder and read code stamped on lock if the car has one, otherwise drivers lock.
+Disassemble door cylinder or trunk cylinder, and decode wafers to make master key.
+
+Method #3
+
+O/0/0/0}0}0/0}O)> Ignition
+
+| G)6s0 |e) 0 | O10 |> Boors
+O|/0|0/0}0|G/ 0} B}> Trunk / Hatch
+12131415 61718
+
+_ ©1994, 2021 AutoSmart™ by Michael Hyde
+
+MITSUBISHI - 29
+[SIME
+
+2003-07 Lancer EVO |
+
+| caro¢ | im# | macs | Startcut |
+
+Cut to Cut | Air Bags | Ign Retainer
+
+30010-32009 | DblSided | CX89 Active
+MASTER = : 4 —
+NATIONAL: KEYLINE: ILCO: JET: _ IMA: -STRATIEC: | __ DEALER:
+KEYS? | MITS-EVO-KEY | MITSI4-PT | MITI4-PT n/a TP26-MIT-8DP nla MR587430
+Determinator: JAP 2 Lishi: MIT 11 AccuReader: n/a EEZ Reader: n/a Cobra: na
+» Mike's Tip: Transponder system. Key Programmer i is required. Test key X224/MIT3 —
+More > Mike's Tip: If you have trouble programming a aftermarket key (non-dealer) you will niead to program in the
+dealer oem factory key. This is always a risk on Mitsubishi vehicles. =
+
+Info a
+
+> Remote Key: MR587983 or ILCO# RKE-MITS-2B2 (2003- 06) FCC Info: OUCG8D-525M-A En MHz
+
+ ILCO#RKE-MITS-2B2
+
+Code Series: 30010-32009
+
+Hidad % 30VdS
+
+| DEPTHS
+
+“1=.310- 5
+2=.295
+3 =.279
+4=.263__
+5 = .249
+
+30 - MITSUBISHI _
+
+_Bow SPACING = == =p
+1 3 | 4 |-5=E-6 | 7 7
+098 181 264 | .346 | 429 512 = 594 | -677 | Cutto |
+= 2 = = = ao Cut:
+HPC Curtis Clipper | Pak-A-Punch 2 AL aes
+PF: : Garans GM SP oe Ee a
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+pee eee eoeeeeeeeeeee
+
+96686
+© @ 0600 @ «
+
+®
+
+©
+
+#eeen0gcoe0d ed0ae 00d
+
+continued - MITS-S17 SECTION
+
+Chip Information & Notes —
+
+Transponder: Standard eee
+
+Chip: 4D61_
+
+Reusable: Yes
+
+> Mike's Tip: Key Sega: Required. Test key X224/MIT3
+
+Cloner Machine Information _ = 8
+
+= (DIAG BOX ) ( CHINA ) (ILCOISLCA ( JMAUSA ) ( KEYLINE )( LD. \( scorPiO \( wo! )
+2 Aetee CN900 Rw4+ | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE | | TANGO MINI TOOL
+> = = = =
+z M1 Yes M1 Yes Yes M1 Yes? M1 Yes MI Yes? M1 Yes? fv] Yes
+~ Blue Chip & CN2/5 EH3 & "P” TPX2& | | Gk100/TK100| | CN5 or TPX2 | | CN5orTPX2 | | VVDIChip
+fe) Mits Shell & Mits Shell Blade — Mits Shell -& Mits Blade _& Mits Shell & Mits Shell & Mits Shell
+S ie Requires Internet Access to = cloning. *2- Requires Philips Crypto Update. *3 - May Require Texas Crypto update.
+- Programmer & Diagnostic Tools __ oe : a
+(Factory Tool PINCODE | | TCODE/MVP PRO| | x TDB1000 V HOTWIRE
+REQUIRED
+—~MUT III
+
+Yes *
+
+: [v SMART PRO
+
+[v AUTO PRO PAD
+
+€ AUTEL IM608
+
+Note: *Many key programmers can bypass the PIN. Check to see if your key programmer supports your vehicle.
+
+Codes: | The passenger door cylinder should have a code on it - otherwise check the drivers door lock.
+
+Decoders: | Determinator: JAP 2 -Lishi: MIT 1 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2, Remove passenger door cylinder and read code stamped on lock if the car has one, otherwise drivers lock.
+Method #3
+
+Disassemble door cylinder or trunk cylinder, and decode wafers to make master key.
+
+0/0/}O/}0/0}0/0}O)}> Ignition
+O/O0/0}0/0/0]0/0)> Doors
+O|0/0}0|0}0 | O/ o|> Trunk / Hatch
+1/2/3/4/5|6/7/8
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+MITSUBISHI - 31
+wITSS4OSECHONT = = Sa .
+
+__— 2006-09 Raider —
+| stvie | carpe | im# | macs | StartCut | CuttoCut| AirBags
+M1-2618 | DbiSided | CX102 | 69 2 0 oe | ies
+
+| Ign Retainer
+Active
+
+NATIONAL: | —KEYLINE: | ——_ILCO: JET: — JMA: ~——_| _STRATTEC: — DEALER:
+
+MASTERS] CHRY-CAN-KEY | BY165-PT YI64-PT | YI65-PHT | TP12-CHRI5P| 692352 | OSI70631AA
+
+KEYS > |
+
+Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 | Cobra: KDC8
+
+Remote key may be needed to shut off the factory alarm - before key programming is possible.
+
+> Mike's Tip: This model is a Dodge Dakota is disguise, made for Mitsubishi by Dodge. Test key is Y157 / Y159.
+
+> Remote Key: 05170631AA or ILCO# RHK-CHRY-3B2 - FCC Info: KOBDTO4A | 315 MHz
+
+Chip Information & Notes
+
+Transponder: Optional. i Chip: Philips 46
+
+| Reusable: No (Must be Unlocked) i
+
+> Mike's Tip: Key Programmer & PIN Required. Test key is Y157 / Y159. == = = 7.
+
+Cloner Machine Information =
+
+(DIAG BOX) (CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LD. ) ( SCORPIO )( wo |)
+
+ere cngoo || RWw4 | |TRS-S000/EVO| | 884 Ultegra | | MIRACLONE || TANGO | | MINI TOOL
+
+YAGNOdSNVYL
+
+| EH3-P & “A” TPX4& | | Gk100/TK100| | MostChips | | Most Chips | | VVDIChip
+Blade | | Y160Shel | | &Y160Blade | | &Y160Shell | | &Y160Shell | | & Mits Shell
+
+Green Chip
+— &Shell _
+
+| CN3& Shell |
+
++4 - Requires Internet Access to complete cloning.
+
+MyYes || MyYes* || MYes? || M Yes? AWeEs |b wives Tl wyes? || wyYes |
+
+3 - Requires Texas Crypto update. :
+
+yea 2c ll pepper
+
+‘a ee ee ee ee ee ae ee
+eeeoaoeonnewooooaooeer
+
+ee @e ¢
+
+sJ22 22 mus S Sao = 25 ‘continued - MITS-S48 SECTION
+
+"Programmer & Diagnostic Tools 2 = ee
+BR (factory Too!) (PINCODE)
+= > je REQUIRED — : == ae =
+z DRB ie TCODE/MVP PRO (. TDB1000 (v HOTWIRE
+(e2) = Ss... 2 == == =. : : ==
+ze | StarScan | | [VW] Yes —_s :
+z ects A-digit — (v SMART PRO _ (v AUTO PRO PAD ¢ AUTEL IM608
+2 wiTECHe PIN Needed | 2222 : : =
+| ~ @e : = = :
+; 2s Check with sa key programmer supplier to see if your vehicle is supported.
+
+aS SPACING © = DEPTHS
+A Faq, (9 |. 32 4=4- 5 Sj 2 |) 8 se | 1=.340
+a. =| =2 7-5 og2 | 2=.315
+Wis 941 | 849 | 757 | 665 | .573 | 481 | 389 | 207 | “| 3 D909
+eo 2 = = 4= 265 =
+5 | cam: —— : Los 8
+= hi Curtis ; Clipper: CHRY-5 CHRY-5 | Pak-A-Punch: | PAK-C5 e
+
+FRAMON: lay tin stop tip flat os left side of vise, Set first cut at.310
+
+Codes: No Codes on any = _ ==
+
+“Decoders: | Determinator: CHR2 | Lishi: CY24 | AccuReader: CHRY8 | EEZ Reader: 157 | Cobra: KDCB
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock and progression the remaining cut for the ignition.
+_ Method #2 —_Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set T0-93.
+
+Method #3 Remove a door or trunk cylinder and decode it and progression the remaining cut for the ignition.
+
+= o,oO|;o\o\0 Fal ol> ignition
+252 25.8) 8.) B CO |> Doors -
+O}0}0}0/}0}|O | O}> Trunk (if ete
+2[alalstel7 [3]
+
+IGNLOCK | DOORLOCK | TAILGATELOCK
+
+: Pu s | Coded Uncoded |
+= 2006-09 ‘| Raider PickUp _ -704650C | 704650 | 703691 | 708553 702785* 703927
+= - — — = - =) = = = = = = = =
+
+= |* lf equipped.
+
+©1994, 2021 AutoSmart™ by Michael Hyde = z _= = MITSUBISHI - 33
+aD ‘Transponder Information - MITSUBIS 32 =S
+
+Proximity Information =
+
+Proximity Ignition with TWISTY Knob Insert the metal emergency key _
+(Squeeze the sides to release the knob) __ _and slide on the proximity remote. _
+
+peeeeeeeeeoeees
+
+= This is the correct position —
+for programming the
+proximity remote.
+
+_ Anon-prox key can also be ee
+_ programmed to start the car. : :
+
+There have been many after-market
+versions of this key - BUT the dealer
+_ key is always the most reliable. ce
+
+__ ©1994, 2021 AutoSmart™ by Michael Hyde
+
+re
+
+34 - MITSUBISHI

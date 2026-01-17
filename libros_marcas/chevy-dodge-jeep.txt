@@ -1,0 +1,7012 @@
+@ @ «
+
+©®eoee<
+
+(
+
+¢
+
+¢
+
+@o @@,06 @ @ <
+
+@ <
+
+¢
+
+AUTO LOCK-SERVICE, INC?
+
+2021
+
+AutoSmart ™
+by Michael Hyde
+
+CHRYSLER
+DODGE
+JEEP
+PLYMOUTH
+
+DISCLAIMER:
+
+| Awide variety of key programmers have been added to this book. Most key programmer companies are
+
+not based in the U.S. Some of their application charts have many mistakes. In some cases, you will need
+
+| to check with your key programmer supplier to see if the vehicle you are working on is supported by their
+| tool. There is always a risk in damaging the vehicle electronics when you connect to the vehicle through
+__ the OBD port if you are not using an OEM diagnostic tool. You as the locksmith take on this risk every
+
+| time you perform work on a vehicle.
+
+If you have any doubt about what part to use, make sure you check with the dealer and have them run
+the VIN to get you the right part number. Remember, ultimately it is your responsibility to obtain the
+correct part. Part numbers and FCC information has been researched and verified as best as possible.
+But no system is perfect or without errors. Car manufacturers’ part numbers and applications guides
+contain mistakes of their own. Therefore, we cannot guarantee or warranty that the part we show for a
+particular vehicle is the absolute right one.
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+CHRY-DODGE-JEEP - 1
+2021 - AutoSmart Domestic Book
+
+Table of Contents
+
+MAKE MODEL YEARS’ |TYPE SECTION |PAGE
+ic 2015-17 Proximity CHRY-1 8
+2011-14 Key CHRY-4 14
+2011-21 Proximity CHRY-1 8
+300 2008-10 Fobik ‘| CHRY-2 10
+2005-07 Key CHRY-5 16
+300M 1999-04 Key* CHRY-8 22
+Aspen 2007-09 Key CHRY-5 16
+1999-00 Key* CHRY-10 26
+Cirrus : 1998 Key CHRY-14 4
+1995-97 Key CHRY-16 36
+1998-04 Key* CHRY-8 22
+Concorde 1994-97 Key CHRY-16 36
+1993 Key CHRY-17 38
+1987-89 _—_| Key ‘CHRY-18 39
+Conquest
+1982-86 Key DGE-23 82
+Crossfire 2004-08 Key CHRY-11 28
+1993 Key CHRY-17___ 38
+CHRYSLER _|Fifth Avenue 1990-92 Key CHRY-20 41
+1983-90 Key | DGE-21 80
+1993 Key CHRY-17 38
+Imperial
+1991-92 Key CHRY-20- 41
+1994 Key CHRY-16 36
+1993 Key | CHRY-17 38
+LeBaron - :
+1989-92 Key CHRY-20 4
+1977-88 _| Key DGE-21 80
+1999-01 _ Key CHRY-8 22
+LHS ab
+1994-97 Key CHRY-16 36
+1994-96 Key ~— | CHRY-16 36
+1993 | Key CHRY-17 38
+New Yorker :
+1990-92 Key CHRY-20. _ 41
+1983-89 Key _ | DGE-21 a0
+Ls 2017-21 Proximity  _ | CHRY-12 30
+Pacifica _— :
+2004-08 Key CHRY-7 20°
+Prowler 1998-03 Key CHRY-15 35°
+PT Cruiser 2006-10 Key CHRY-5 16
+
+* Transponder system was Optional on this vehicle - See if a mechanical key will start it up? _
+
+2 - CHRY-DODGE-JEEP : ©1994, 2021 AutoSmart™ by Michael Hyde
+
+¢
+
+@©@ee90de -¢
+
+¢
+
+¢
+
+©oe2@e@@eoeoes$?@,..«
+
+C
+
+¢
+
+2021 - AutoSmart Domestic Book
+
+Table of Contents
+
+MAKE MODEL YEARS’ |TYPE SECTION |PAGE
+PT Cruiser 2001-05 Key* CHRY-9 24
+2001-05 Key CHRY-13 32
+Sebring 2 Dr Hardtop
+1995-00 Key DGE-22 81
+2007-10 Ke CHRY-6 18
+Sebring 4 Dr as
+2001-06 Key* CHRY-8 22
+2008-10 Key CHRY-6 18
+2001-06 Key* CHRY-9 24
+Sebring Convertible Z
+1998-00 Key* CHRY-10 26
+1996-97 Key CHRY-16 36
+1€ 1989-91 Ke CHRY-20 4)
+CHRYSLER x
+2008-20 Fobik CHRY-3 12
+2004-07 Key CHRY-7 20
+2001-03 Key* CHRY-9 24
+1998-00 Key CHRY-14 34
+Town & Country Van
+1994-97 Key CHRY-16 36
+1993 Key CHRY-17 38
+1991-92 Key CHRY-20 41
+1980-90 Key DGE-21 80
+2004-07 Key CHRY-7 20
+Voyager
+2001-03 Key* CHRY-9 24
+Aries 1981-90 Key DGE-21 80
+2008-14 Key DGE-10 60
+Avenger
+1995-00 Key DGE-22 81
+Caliber 2007-12 Key DGE-10 60
+2008-21 Fobik DGE-5 50
+2004-07 Key* CHRY-7 20
+2001-03 Key* CHRY-9 24
+DODGE 1998-00 Key DGE-17 74
+Caravan
+1994-97 Key DGE-18 76
+1993 Key CHRY-17 38
+1991-92 Key CHRY-20 41
+1986-90 Key DGE-21 80
+2015-21 Proximity DGE-1 42
+Challenger -
+2008-14 Fobik DGE-6 52
+Charger 2011-21 Proximity DGE-3 46
+
+* Transponder system was Optional on this vehicle - See if a mechanical key will start it up?
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+CHRY-DODGE-JEEP - 3
+
+2021 - AutoSmart Domestic Book
+
+Table of Contents
+
+MAKE MODEL YEARS TYPE SECTION | PAGE|
+
+| 2008-10 Fobik DGE-7 54
+
+Charger
+2005-07 Key DGE-12 64
+1993-97 Key DGE-24 | 83
+Colt & Colt Vista 1989-92 _—‘| Key DGE-22 2 et
+1970-88 ‘Key DGE-23 82
+D50 Pick Up 1979-93 Key CHRY-18 : 39
+| 2005-11 Key* DGE-13 66
+2001-04 Key* DGE-14 68
+1998-00 | Key DGE-17_ 74
+Dakota 1994-97 _| Key DGE-18 76
+1993. | Key CHRY-17_ = 3
+1990-92 _| Key CHRY-20 ee
+1987-89 Key DGE-21 | BO
+Fart | 2012-16 Proximity DGE-2 44
+2012-16 Fobik DGE-7 5A
+1993 Key CHRY-17 ee
+Daytona 1990-92 _—| Key CHRY-20 4
+DODGE 1981-90 _| Key DGE-21 80
+Diplomat 1986-90 Key DGE-21 80
+2014-21 Proximity DGE-4 48
+2011-13 _—| Fobik DGE-9 +56
+Durango — | 2004-09 Key* DGE-11 62
+2001-03 Key* DGE-14 68
+1998-00 Key DGE-17 74
+1993 Key CHRY-17 =| — 38
+Dynasty 1990-92 Key CHRY-20 41
+1988-90 __| Key DGE-21 80
+1998-04 Key* | DGE-15 70
+Intrepid 1994-97 Key DGE-18 76
+1993 Key CHRY-17 38
+Se 2011-20 — | Proximity DGE-2 44
+2009-10 Fobik DGE-8 56
+Ena 1989 | Key CHRY-20 | 41
+1986-88 Key DGE-21 80
+Magnum 12008 Fobik DGE-8 56
+
+* Transponder system was Optional on this vehicle - See if a mechanical key will start it up?
+
+4 - CHRY-DODGE-JEEP - : ©1994, 2021 AutoSmart™ by Michael Hyde
+
+@©@eeo
+
+(
+
+¢
+
+ee ee ee
+
+¢
+
+¢
+
+MAKE MODEL YEARS’ |TYPE SECTION PAGE
+Magnum 2005-07 Key DGE-12 64
+2000-05 Key* DGE-15 70
+1998-99 Key DGE-17 74
+Neon
+1995-97 Key DGE-20 79
+1994 Key DGE-19 78
+Nitro 2007-11 Key DGE-10 60
+: 1990 Key CHRY-20 4
+Omni
+1986-89 Key DGE-21 80
+Promaster 2015-21 Key DGE-16 72
+Promaster City 2015-21 Key DGE-16 72
+Raider 1987-89 Key CHRY-18 39
+1993 Key CHRY-17 38
+Ram Charger
+1991-92 Key CHRY-20 41
+RAM P/U_ (New Design) 2019-21 Proximity DGE-27 88
+2013-21 Proximity DGE-4 48
+RAM P/U (Older Design) 2009-21 Fobik DGE-8 56
+2006-12 Key* DGE-13 66
+2002-05 Key* DGE-14 68
+1998-01 Key DGE-17 74
+DODGE
+1994-97 Key DGE-18 76
+RAM PICK UP
+1993 Key CHRY-17 38
+1990-92 Key CHRY-20 41
+1986-89 Key DGE-21 80
+1998-03 Key DGE-17 74
+1994-97 Key DGE-18 76
+RAM Van Full Size 1993 Key CHRY-17 38
+1990-92 Key CHRY-20 41
+1971-89 Key DGE-21 80
+1994 Key DGE-18 76
+1993 Key CHRY-17 38
+Shadow
+1991-92 Key CHRY-20 41
+1987-90 Key DGE-21 80
+1994-97 Key DGE-18 76
+Spirit 1993 Key CHRY-17 38
+1990-92 Key CHRY-20 4)
+: 2007-09 Key DGE-26 86
+Sprinter
+2003-06 Key DGE-25 84
+Stealth 1991-97 Key DGE-22 81
+
+* Transponder system was Optional on this vehicle - See if a mechanical key will start it up?
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+CHRY-DODGE-JEEP - 5
+
+2021 - AutoSmart Domestic Book
+
+Table of Contents
+
+MAKE | MODEL -|YEARS'- | TYPE SECTION | PAGE
+Stratus 2 Dr 2001-05 Key — | CHRBY-12 32
+1999-06 Key* DGE-15 70
+Stratus 4 Dr : :
+1995-98 Key JEEP-8 : 102
+DODGE oC 2013-17 _| Proximity DGE-3 | 46
+; 1998-09 Key — DGE-17 74
+Viper - -
+1994-97 Key _ | DGE-18 75 =
+1993 Key CHBYIZ= = 38
+: 1993-96 Key DGE-24 83
+Summit - —— -
+1989-92 Key DGE-22 81
+EAGLE Talon 1990-97 Key _ | DGE-22 ee
+= 1994-97 Key PLYMOUTH-1 108
+Vision : :
+1993 Key _ | CHRY-17 38
+Pee Some 2018 & up models sold to rental car companies are using a Fiat keyway with
+the “DE” code series.
+: : Proximity JEEP-1 90
+2014-21 :
+Fobik JEEP-2 92
+1998-01 Key* JEEP-6 100
+Cherokee - -
+1994-97 Key JEEP-8 104
+1993 Key CHRY-17 : 38
+1991-92 Key CHRY-20 41
+1991-92 Key CHRY-20 41
+Comanche :
+1986-90 Key JEEP-9 106
+2008-10 Fobik JEEP-2 92
+Commander : :
+2006-07 Key JEEP-5 98
+
+JEEP COMPASS note: In 2017 - Jeep compass was released with a Fiat based keyway. Some
+
+fleet models were still being produced with the older Y159 keyway. You will need to deter-
+mine which keyway is being used.
+
+2017-21 ~—_—i| Proximity JEEP-10 108
+Compass 2017-21 Key (SIP22) | DGE-16 72
+2007-18 _| Key (Y159) JEEP-4 + = 96
+Gladiator : 2020-21 ‘| Key/Prox JEEP-10 108
+2014-21 Proximity JEEP-1 90
+2008-13 Fobik JEEPS
+Grand Cherokee 2005-07 Key JEEP-5 98
+1998-04 Key* JEEP-7 102
+1994-97. _| Key JEEP-8 104
+
+* Transponder system was Optional on this vehicle - See if a mechanical key will start it up?
+
+6 - CHRY-DODGE-JEEP : ©1994, 2021 AutoSmart™ by Michael Hyde
+
+¢
+
+¢
+
+@ <«
+
+@.0 6@©20e60 060 064
+
+MAKE MODEL YEARS |TYPE SECTION PAGE
+S52 SS eres 1993 Key CHRY-17 38
+1992 Key CHRY-20 41
+Grand Wagoneer 1974-91 Key JEEP-9 106
+2008-12 Key JEEP-5 98
+Liberty 2005-07 Key CHRY-7 20
+2002-04 Key* JEEP-7 102
+Patriot 2007-17 Key JEEP-4 96
+Renegade 2015-21 Key/Prox DGE-16 72
+JEEP Wagoneer 1984-90 Key JEEP-9 106
+2018-21 “JL” | Key/Prox JEEP-10 108
+2007-18 Key JEEP-4 96
+2001-06 Key* JEEP-7 102
+Wrangler 1998-00 Key* JEEP-6 100
+1994-97 Key PLYMOUTH-1 110
+1993 Key CHRY-17 38
+1991-92 Key CHRY-20 41
+1974-90 Key JEEP-9 106
+1994-95 Key PLYMOUTH-1 110
+Acclaim 1993 Key CHRY-17 38
+1989-92 Key CHRY-20 41
+Brderd 1998-00 Key* CHRY-10 26
+1996-97 Key PLYMOUTH-1 110
+1993-97 Key DGE-24 83
+Colt & Colt Vista 1989-92 Key DGE-22 81
+1983-88 Key DGE-23 82
+HorizeA 1990 Key CHRY-20 41
+1978-89 Key DGE-21 80
+PLYMOUTH Laser 1990-94 Key DGE-22 81
+Sapporo 1977-89 Key CHRY-18 39
+1994 Key PLYMOUTH-1 110
+Sands 1993 Key CHRY-17 38
+1991-92 Key CHRY-20 41
+1987-90 Key DGE-21 80
+1998-00 Key CHRY-14 34
+1994-97 Key PLYMOUTH-1 110
+Voyager 1993 Key CHRY-17 38
+1991-92 Key CHRY-20 41
+1984-90 Key DGE-21 80
+
+* Transponder system was Optional on this vehicle - See if a mechanical key will start it up?
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+CHRY-DODGE-JEEP - 7
+
+CHRY-1 SECTION =” eee
+
+| sTyLe | carp# | itL# | macs | Startcut [ett cat Air Bags | Ign Retainer
+
+ -M1-2618 _ Dbl Sided None
+
+MASTER : ===
+KEYs<> | __ This model uses a GEN4 Proximity remote. Check with dealer for correct part # by VIN -
+Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY8 |EEZReader:Y157 | Cobra: KDC8
+
+- Some models starting in 2018+ will require. a “Gateway” bypass cable to program Prox Remotes.
+
+Ne - Check with key programmer supplier. —
+
+2015-17 Prox Fob: Chry# 68155686AB (4 Bin) FCC: M3M-40821302 | 433 MHz
+
+200 (Chrysler) | prox Fob: Chry# 68155687AB (5 Btn, w/Rmt Start) FCC: M3M-40821302 | 433 MHz
+Prox Fob: Chry# 56046758AF or ILCO# PRY-CHRY-4B6 (2011-18, 4 Btn) FCC: M3N-40821302 | 433 MHz
+
+Prox Fob: Chry# 56046759AF or ILCO# PRX- CHRY-5B5 (2011-18, 5 Btn, w/Rmt Start) FCC: M3N-40821302 ~ 433 MHz
+
+2011-21
+
+300 (Chrysler) Prox Fob: Chry# 68234957AA (SRT, 2011-18, 5 Btn, w/Rmt Start) FCC: M3N- 40821302 | 433 MHz
+
+Prox Fob: Chry# 68394190AA (2019-21, 4.Btn) FCC: M3N-40821302 | 433 MHz
+
+Prox Fob: Chry# 68394191AA (2019-21, 5 Btn _w/Rmt Start) FEC: M3M-40821302 | 433 MHz
+
+vvizzooze
+
+n
+ale SPACING c = DEPTHS
+> zx 2 a. 5 6 eee
+m = 092 2= .315
+ge 941 .849 or -665 ae -481 389 _ 297 == 3= 290
+rw} = 4 = .265
+_ Cam: Carriage: : :
+= Curtis Clipper: CHRY-5 CHRY-5A Pak-A-Punch: : PAK-C5 —
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at.310 —
+8 - CHRY-DODGE-JEEP a 2 == i ©1994, 2021 AutoSmart™ by Michael Hyde
+
+)
+
+)
+
+bpeeoeoeeae5aeeeeeee ee
+@#e2e@OO020e0eeeeeoeeoeeaeeeseoee @ ee
+
+continued - CHRY-1 SECTION
+
+wool
+A
+>
+za
+n
+UO =
+Og
+za
+a Factory Tool PIN CODE
+Ps) REQUIRED [? teovene PRO (? TDB1000 (2 HOTWIRE
+MicroPod !
+wiTECHe | | _/1 Yes
+PIN Needed ¥ SMART PRO ? AUTO PRO PAD 2? AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock for a working key.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set TO-93.
+
+Method #3 Remove a door or trunk cylinder and decode it. Once you have those seven cuts you will have a working key.
+
+> Ignition (no lock)
+> Doors
+Ol |> Trunk
+
+oo
+Es
+
+1GNLOCK | DOORLOCK | TRUNKLOCK | py
+Coded | Uncoded | Cor Uncoded | Coded | Uncoded| KIT —
+
+Year
+
+2015-17 200 Locks not available from Strattee 703927
+
+OaLIVELS
+
+2011-21 300 / 300€ Locks not available from Strattec 703927
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 9
+CHRY-2 SECTION
+
+M 1-261 8_
+
+| STYLE
+
+| CARD#
+
+ITL# | MACS | Start Cut | Cut to Cut | Air Bags
+
+| ign Retainer
+
+Dbl Sided _ None
+MASTER FOBIK Remote - Check with dealer for correct part # by VIN
+KEYS @ NATIONAL: __KEYLINE: ILCO: JET: JMA:- STRATTEC: DEALER:
+DGE-POD-KEY | BY170-PT Y170-PT BY166-PHT | TPI2CHRISPI 5909874 see below
+Determinator: CHR 2 Lishi. cy24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+2008-10
+300 (Chrysler)
+
+Remote Fobik: chry# 68058346AG or ILCO# POD-LAL-4B1 (4 Btn) FCC: IYZ-COIC [433 MHz
+
+Remote Fobik: aot 68058348AH or tLco# POD- LAL-5B1 6 Btn, w/Rmt Start) FCC: IYZ-CO1C | 433 MHz
+
+av6zg6z089
+
+Code Series: Moot- M2618
+
+<3 ~ SPACING
+
+= 1 2 3 = gee a Cutten:
+zi -941 849 for -665 013 481 | .389 .297 : 092
+Oo
+
+ie Curtis Cli _ | Cam: Carriage: P _. . =
+
+= urtis Clipper: CHRY-5 CHRY.-5A -Pak-A-Punch: ievey :
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .310
+
+DEPTHS
+
+4 = 340
+2= .315
+3 = .290
+4= .265
+
+10 - CHRY-DODGE-JEEP
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+)
+
+)
+
+peeeoeoeeoneeeoeoeeeneen
+@e@eoe@o0@2e@2eo0e@eeoeeee60608060608008086 64
+
+Transponder: Yes Chip: Philips 46 Reusable: No (Must be Unlocked)
+
+> Mike's Tip: FOBIK System - Key Programmer & PIN Required. Test key is Y157 / Y159.
+
+By] (DIAG BOX) (CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LD. )( SCORPIO )( wo!
+rey | CLONE cN900 RW4 TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+ssa | WIZARD
+a M1 Yes M1 Yes? © Yes? fv] Yes? | M Yes? M1 Yes# © Yes
+U Green Chip CN3 & Shell EH3-P & “T” TPX4 & GK100 / TK100 Most Chips Most Chips VVDI Chip &
+
+z x & Shell Blade Y170 Shell & Y170 Blade & Y170 Shell & Y170 Shell Y170 Shell
+iw) *4 - Requires Internet Access to complete cloning. *2- Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+DE nostic Too! :
+
+( Factory Tool ) ( PINCODE )
+SEGURED (v TCODE/MVP PRO (v TDB1000 [v HOTWIRE
+MicroPod [v] Yes
+wiTECH® 4-digit (v SMART PRO (? AUTO PRO PAD [v AUTEL IM608
+PIN Needed
+< Za JS
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set TO-93.
+Method #3 Remove a door or trunk cylinder and decode it.
+
+> Ignition (Fobik)
+> Doors
+> Trunk (if equipped)
+
+a
+ee
+z | 2008-10 300 / 300C ~ _ — 708165 = 706183 703927
+a
+m
+O
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP -11
+CHRY-3 SECTION
+
+| stv.e | carp# | im# | macs | startCut | cuttoCut| Air Bags | Ign Retainer
+
+Town-& Country
+with KEYLESS GO
+
+M1-2618 | Dbl Sided ‘None
+MASTER FOBIK Remote - Check with dealer for correct part # by VIN
+KEYS = NATIONAL: KEYLINE: ILCO: JET: JMA: : STRATTEC: DEALER:
+DGE-POD-KEY | BY170-PT Y170-PT BY166-PHT | TPI2CHRI5P1 5909874 | — see below
+Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 _ Cobra: KDC8
+For models with “Keyless Go” which isa Proximity system.
+2013-20 > To program new Prox Fobik remote’s, The “Start” Keyless Go button will unsnap to reveal a Fobik
+
+ignition switch behind, that will allow you to insert the remote for programming. POD pare
+keys are not recommended for this type of system.
+
+(Chrysler) Prox Fob: Chry# 68070394AI (6 Btn, No Rmt Start) FCC Info: IYZ-COIC | 433 MHz | MFR: Marquardt
+Prox Fob: Chry#.05026590Al (7 Btn, Loaded) FCC Info: IYZ-CO1C | 433 MHz | MFR: Marquardt
+For models with FOBIK system_(Non Proximity)
+2008-20 Fobik: Chry# 56046706AG or ILCO# POD-LAL-3BI (2016, 3 Btn) FCC: IYZ-COIC | 433 MHz
+ert Fobik: Chry# 56046704AG or ILCO# POD-LAL-6BI (2010-16, 6 Btn, Pwr Sliders & Liftgate) FCC: IYZ-COIC 433
+(Chrysler) Fobik: Chry# 68066871AF or ILCO# POD-LAL-4B2 (2008-09, 4 Btn, Rmt Start) FCC: IYZ-COIC | 433 MHz
+
+Fobik: Chry# 56046708AG or ILCO# POD-LAL-7B1 (2008-16, 7 Btn, Loaded) FCC: IYZ-COIC | 433 MHz
+
+\GW6c86c089
+
+»>ee68
+
+Chip Information &Notes
+
+Transponder: Yes
+
+Chip: Philips 46 Reusable: No (Must be Unlocked)
+
+> Mike's Tip: FOBIK System - Key Programmer & PIN Required. Test key is Y157 / Y159.
+
+—|
+
+A = SS = SS = = —_— = = = = = —
+
+»-| Cloner Machine Information _ = = = =
+
+Fu —e = ==
+
+SL] (DiaG BOX) (—_ CHINA) (1LCOISILCA) (— JMAUSA ) ( KEYLINE ) (LD. ( ScorPiO.) (wo)
+
+O CLONE Sale ==
+
+SF | wizard CN900 RW4 | | TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL |
+
+a © Yes M1 Yes2~ M1 Yes? Yes? Ww Yes? | yl Yes? =| - Yes
+
+ell | Green Chip | | use shou | | EHRP&'T” TPX4& | | Gk100/TK100| | Most Chips | | Most Chips | | vvpIChipa |
+& Shell Blade Y170Shell_| | &Y170Blade | | &Y170Shell | | &Y170Shell | | 170 Shell
+
+“4 - Requires internet Access to complete cloning. *2- Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+> Mike's Tip: No “Keyless GO” Cloning - because it’s a Proximity Fob.
+
+12 - CHRY-DODGE-JEEP fa i ©1994, 2021 AutoSmart™ by Michael Hyde
+
+)
+
+»)
+
+»'@
+
+5 @ @'e@ @'6 @ @
+
+)
+@eooeoeoeedeoe@e@e@0dceeedeoegeee@e@egeoeee sé
+
+= (Factory Tool ) ( PINCODE
+> REQUIRED
+za
+
+€2)
+
+Oo MicroPod Iv] Yes
+> wilTECH® 4-digit
+
+= PIN Needed
+A Bs eG =)
+
+[v TCODE/MVP PRO
+
+(? TDB1000 (v HOTWIRE
+
+(v SMART PRO
+
+(> AUTO PRO PAD
+
+[v avtet IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Code Series: M001-M2618
+
+e2)
+v SPACING cu (PecTe
+= 1 2 3 4 5 6 7 8 me | -1= 340
+m 092 2 = .315
+go -941 .849 -157 -665 573 481 -389 297 3= 290
+Oo 4= .265
+a Cam: Carriage:
+a Curtis Clipper: CHRY-5 CHRY-5A Pak-A-Punch: | PAK-C5
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .310
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set T0-93.
+Method #3
+
+Remove a door or trunk cylinder and decode it.
+
+> Ignition (Fobik)
+> Doors
+> Trunk (if equipped)
+
+Year
+
+2011-20
+
+Town & Country Van
+
+Locks not available from Strattec
+
+=
+
+703927
+
+OaLLVYLS
+
+2009-10 Town & Country Van Fobik Ignition - 709336 Liftgate 703927
+2008 Town & Country Van Fobik Ignition 704275C | 704275 706371 Liftgate 703927
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+CHRY-DODGE-JEEP - 13
+CHRY-4 SECTION
+
+CODES
+
+| style | carp# | ima | MACS | Start cut | CuttoCut | AirBags | Ign Retainer
+
+: M 1-2618 Dbl Sided €X102 69 2 210 | 002 Yes Active
+MASTER : ==
+NATIONAL: KEYLINE: ILCO: JET; JMA: STRATTEC: DEALER:
+KEYS > | CHRY-CAN-KEY | BYI65-PT Y164-PT YI65-PHT | TP12-CHRI5P| 692352 | see below
+Determinator: CHR 2 Lishi: CY24 | AccuReader: CHRY 8 —_| EEZ Reader: Y157 Cobra: KDC8
+Remote Key: Chry# 68273343AA or ILCO# RHK-CHRY-4B1 (4 Btn, Trunk Rel) FCC: OHT692714AA | 315 MHz
+2011-14 Remote Key: Chry# 68092989AA or ILCO# RHK-CHRY-5BI (5 Btn, Rmt Start) FCC: OHT692427AA | 315 MHz
+
+200 (Chrysler) —_| Remote Key: Chry# 68092992AB (5 Btn, Convertible) FCC: OHT692427AA | 315 MHz
+
+Remote Key: Chry# 68092995AA (6 Btn, Convertible) FCC: OHT692427AA | 315 MHz
+
+»e@e ©
+
+Transponder: Yes Chip: Philips 46
+
+> Mike's Tip: Key Programmer & PIN Required. Test key is Y157 / Y159.
+
+ClonerMachine Information = sss
+
+*{ -Requires Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+Programmer & Diagnostic Tools
+
+(DIAGBOX | ( CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LL.D. )( SCORPIO )( wo!)
+a aro CN900 RW4 TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+= [VJ Yes M1 Yes? WiYes? || [1 Yes? VJ MW Yes? M1 Yes? 1 Yes
+= Green Chip || cuss snen | | EHS? & “A” TPx4& | | GK100/TK100| | MostChips | | MostChips | | WDI Chip &
+A | & Shel Blade ¥160 Shell | | &Y160Blade | | &Y160Shell | | &Y160Shell | | Y160 Shell
+a
+Oo
+m
+A
+
+(Factory Tool) ( PINCODE  )
+REQUIRED / z == =
+DRB [v TCODE/MVP PRO (? TDB1000 [v HOTWIRE
+StarScan | | [V1 Yes :
+MicroPod - hie (v SMART PRO _ € AUTO PRO PAD [v AUTEL IM608
+wiTECH@ eeded
+Sale a
+
+>@e64 ®@
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+14 - CHRY-DODGE-JEEP s == : ©1994, 2021 AutoSmart™ by Michael Hyde
+
+» 66 ©
+
+)
+
+>
+
+)
+
+)
+eee @oe@e;e@e@e@eg@eedege@e@eeege@e-6esdeeé
+
+continued - CHRY-4 SECTION
+
+Code Series: M001-M2618
+
+- Bow SPACING Tip DEPTHS
+> a 2 3 4 5 6 7 1 ee.
+2) Cut:
+m 092 2= .315
+90 941 849 Bice 665 -573 481 -389 297 3=.290
+fe Cam: Carriage:
+= Curtis Clipper: CHRY-5 CHRY-5A Pak-A-Punch: | PAK-C5
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at 310
+
+Codes: | No Codes on any locks. -
+
+Decoders: Determinator: CHR2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock and progression the remaining cut for the ignition.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set T0-93.
+
+Method #3 Remove a door or trunk cylinder and decode it and progression the remaining cut for the ignition.
+
+0}0/0)0/0}]0)}> Ignition
+
+O/0}0}0}0}O}> Doors
+
+O}O}O} 0} O} G}> Trunk (if equipped)
+213/4/5]6]7/8
+
+on IGN LOCK DOOR LOCK TRUNK LOCK PIN
+a Coded | Uncoded| Coded | Uncoded | Coded | Uncoded| KIT
+» 1 2011-14 200 = 708742 = = = 703927
+=
+m
+oO
+
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 15
+CHRY-5 SECTION —
+
+H1ldad 8 30VdS
+
+MASTER
+KEYS >
+
+| stve
+
+| caRp# | iTL# | macs | Startcut | CuttoCut| AirBags | Ign Retainer
+
+M 1-2618 Dbl Sided | CX102 69 ps 310 .092 Yes Active -
+
+NATIONAL: KEYLINE: ses: JET: JMA: STRATTEC: DEALER: ==
+CHRY-CAN-KEY BY165-PT YI64-PT. Y165-PHT |TP12-CHRI5P | 692352 | seebelow ©
+Determinator: CHR2 | Lishi: CY24 ‘| AccuReader: CHRY8 |EEZReader:Y157 —_‘| Cobra: KDC8
+
+2005-07
+300 (Chrysler)
+
+Dealer remote key may be needed to shut off the factory alarm - before key programming is possible.
+
+Remote Key: Chry# 05179514AA or ILCO# RHK-CHRY-4B2 (2005-07, 4 Btn, Trunk Rel) FCC: KOBDTO4A | 315
+
+2007-09
+Aspen (Chrysler)
+
+Remote Key: Chry# 05179514AA or ILCO# RHK-CHRY-4B! (4 Btn) FCC: KOBDTO4A | IC: 3521A-T04B | 315 MHz
+
+Remote Key: Chry## 68003659AB or ILCO# RHK-CHRY-4B3 (4 Btn, w/Rmt Start) FCC: KOBDTO4A | 315 MHz
+
+| Remote Key: Chry# 68273344AA or ILCO# RHK-CHRY-5B1 (5 Btn, w/Rmt Start) FCC: OHT692427AA | 315
+
+2006-10
+PT Cruiser (Chrysler)
+
+Remote Key: Chry# 68273328AA or ILCO# RHK-CHRY-3B1 (3 Btn) FCC: OHT692714AA | 315 MHz
+
+\' Remote Key: Chry# 68273343AA or ILCO# RHK-CHRY-4BI (4 Btn, Trunk Rel) FCC: OHT692714AA| 315 MHz |
+
+PACING
+
+DEPTHS
+
+Bow : S Tip =
+3 = Cut to =
+= 2 3 4 5 6 -- Cut: ee
+
+: .092 a=
+941 | 849 | .757 | 665 | 573 | 481 | 389 | 207 42500
+4 = 265
+Curtis Clipper: | ©2™: Carriage: | pak-a-Punch: | PAK-C5-
+* | CHRY-5 | CHRY-5A a hee
+
+FRAMON: Lay-+ip stop clip flat against left side of vise, Set first cut at .310
+
+16 - CHRY-DODGE-JEEP
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+mpe5ao5e5eeee 6
+
+1 @ 06,6
+
+)
+
+»>@ 6. @e@
+
+>
+
+» © ©
+@oe@eoe02@6@8@06280606080600898 86 @©dDeeede@edee ea
+
+continued - CHRY-5 SECTION
+
+Transponder: Yes Chip: Philips 46 Reusable: No (Must be Unlocked)
+
+> Mike's Tip: Key Programmer & PIN Required. Test key is Y157 / Y159.
+
+i
+He
+
+(DIAGBOX) ( CHINA ) (ILCO/SILCA) ( JMAUSA )\ ( KEYLINE )( LD.) ( SCORPIO.) (— wo!»
+
+*1 - Requires Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+=|
+
+pe | wean CN900 RW4 —_| |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+> =
+
+= fv] Yes I Yes? M7] Yes? fv] Yes? v7 M1 Yes? M1 Yes? M7 Yes -
+LG} | Greenchip || ous e shew | |EHSP&“A’| | Texte | [ Gkt00/TK100| | Most chips | | mostchips | | wot Chip &
+Py | _& Shell Blade Y160Shell_| | &Y%60Blade | | &Y160Shell | | &Y160Shell | | 160 Shell
+=z
+
+Sb
+
+m ne
+
+A
+
+E Factory Tool ) (— PIN CODE =)
+DRB sce te [v Teovene PRO (? TDB1000 (v HOTWIRE
+StarScan [V1 Yes
+eae 4-digit
+MicroPod ¥ SMART PRO ? AUTO PRO PAD v AUTEL IM608
+: PIN Needed
+| WITECHe )
+
+= S)
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock and progression the remaining cut for the ignition.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set T0-93.
+Method #3 Remove a door or trunk cylinder and decode it and progression the remaining cut for the ignition.
+
+O0/0/0/0/}0} 0/0 }> Ignition
+O0/0|0/0/}0}0}]O}> Doors
+O}O}0/}]0} 0] | )|> Trunk (if equipped)
+213/4/5|6/7] 8]
+
+ame KIT
+a 2005-07 : 300 703719C | 702418 = 708165 706183 703927
+in 2007-09 Aspen 704650C | 704650 = 708553 = 703927
+Q 2006-10 PT Cruiser = 708742 = 703327 708155 703927
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 17
+CHRY-6 SECTION = -8 = a0ae
+
+CODES | styLe | carp# | imL# | macs | Startcut | CuttoCut| Air Bags
+
+M1-2618 | DblSided | Cx102 | 69 es 092 | Yes Active
+MASTER 2 SS eu
+NATIONAL: KEYLINE: ILCO: JET: JMA: ~_ STRATTEC: DEALER:
+KEYS > | cHRY-CAN-KEY | BYI65-PT | YI64-PT YI65-PHT | TP12-CHRI5P | 692352 see below
+Determinator: CHR 2 — Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 ‘Cobra: KDC8
+Dealer remote key may be needed to shut off the factory alarm - before key programming is possible,
+2007-10 : =
+Sebring 4 Dr Remote Key: Chry# eee or ILCO# RHK-CHRY-4B1 (4 Btn with Trunk Rel) FCC: tee | 315
+Remote Key: Chry# 68273344AA or ILCO# RHK-CHRY-5B1 (5 Btn, Trunk, Rmt Start) FCC: OHT692714AA [315
+: Remote Key: Chry# 68273343AB or ILCO# RHK-CHRY-4B1 (4 Btn, Trunk Rel) FCC: OHT692714AA | 315
+2008-10 : - ——
+Sebring Remote Key: Chry# 68291090AA (4 Btn, Trunk, Conv Top) FCC: 0HT692427AA | 315
+Convertible : : = =
+Remote Key: Chry# 68025105AA (6 Btn, Loaded) FCC: OHT692714,A | 315
+
+Ign Retainer
+
+Code Series: M001-M2618
+2) = = : =
+=" Bow SPAGING : = =e = va DEPTHS
+ra 1 2 3 4 5 e176. 1= 340
+m x : 092 | 2=.315 =
+go -941 .849 157 -665 sas 481 -389 | .297 3=.290
+Y 4= 265
+i | Cam: Carriage: : ie :
+= Curtis Clipper: CHRY-5_ | CHRY-5A Pak-A-Punch: PAK-C5 —
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at 310
+18 - CHRY-DODGE-JEEP == = = ©1994, 2021 AutoSmart™ by Michael Hyde.
+
+pee5oecoeeoeeaeoeeeeeeeeee 8
+continued - CHRY-6 SECTION
+
+=
+
+Transponder: Yes
+
+Chip: Philips 46
+
+> Mike's Tip: Key Programmer & PIN Required. Test key is Y157 / Y159.
+
+achine Infc
+
+@eeeosc@d oo oceaoeeoogeoeoeaeoeeeoeed @ a
+
+MET] (DIAGBOX) (CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LD. )( ScoRPIO )( wo
+Fag | | CLONE CN900 RW4 TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+ba) | WIZARD :
+
+= MI Yes 1 Yes? J Yes? MI Yes? Vv 1 Yes? MW] Yes? lv] Yes
+
+Bs Green Chip | | awa e shen | | EHSP& “A TPX4 & GK100/TK100 | | Most Chips Most Chips | | WDIChip &
+= & Shell Blade Y160Shell | | &Y160Blade | | &Y160Shell | | &Y160Shell | | Y160 Shell
+Oo ™ - Requires Internet Access to complete cloning. *2 - a a Crypto Update. *3 - Requires Texas == _
+mi: aa z
+AE er & Diagnostic Tools” :
+
+( PINCODE )
+REQUIRED (v TCODE/MVP PRO (? TDB1000 [v HOTWIRE
+[Vv] Yes
+MicroPod 4-digit (v SMART PRO (2 AUTO PRO PAD [v AUTEL IM608
+i PIN Needed
+( WITECH® J 3
+Codes: | No Codes on any locks.
+Decoders: | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+— Method #1 Use a Lock Decoder/Reader tool to decode the door lock and progression the remaining cut for the ignition.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set TO-93,
+Method #3 Remove a door or trunk cylinder and decode it and progression the remaining cut for the ignition.
+
+0/0/0/0|0/0} 0 }> Ignition
+0}0/0}0/0} 0] }> Doors
+O}0)0}0}0} 0} 0 }> Trunk (if equipped)
+}213]4/5]6|7/8
+
+‘m - IGNLOCK
+
+a 2007-10 Sebring 4 DR = 708742 = 708165 709337 703927
+pe 2008-10 Sebring Convertible _ 708742 - 708165 709337 703927
+Q
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+CHRY-DODGE-JEEP - 19
+CHRY-7 SECTION
+
+CODES | sTyLe | carp# | imL# | macs | Startcut | CuttoCut| AirBags | Ign Retainer
+
+M 1-2618 Dbl Sided | CX102 Active
+
+NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: = _ DEALER:
+MASTER | cupy-cAN-KEY | BYI65-PT Y164-PT Y165-PHT | TP12-CHRISP| 692352 see below
+KEYS | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 | EEZ Reader: Y157 Cobra: KDC8
+
+Dealer remote key may be needed to shut off the factory alarm - before key programming is possible.
+
+=> Mike's Tip: PIN Read is NOT possible on the below listed models through the OBD2 Port. _
+
+2004-08
+
+Pacifica (Chrysler) Remote Key: Chry# 68273341AB or ILCO# RHK-CHRY-4B4 (4 Btn) FCC: OHT692714AA | 315 MHz
+
+2004-07 Remote Key: Chry# 68273338AB or ILCO# RHK-CHRY-383 (3 Btn) FCC: M3NSWY72Xx | 315 MHz
+Town & Country
+Van (Chrysler) | Remote Key: Chry# 05183681AA or ILCO# RHK-CHRY-6B1 (6 Btn) FCC: M3NSWY72XX|315MHz =
+rae s Remote Key: Chry# 68273338AB or ILCO# RHK-CHRY-3B3 (3 Btn) FCC: M3NSWY72XX | 315 MHz
+Voyager (Chrysler) | Remote Key: Chry# 05183681AA or ILCO# RHK-CHRY-6B1 (6 Btn) FCC: M3NSWY72XX | 315 MHz
+ae Remote Key: Chry# 05183683AA or ILCO# RHK-CHRY-3B3 (3 Btn) FCC: M3NSWY72XX | 315 MHz
+
+Caravan (Dodge) | Remote Key: Chry# 05183686AA or ILCO# RHK-CHRY-6BI (6 Btn) FCC: M3NSWY72Xx | 315 MHz
+
+2005-07
+
+ee
+
+YAGNOdSNVYL
+
+Liberty (Jeep)
+
+Remote Key: Chry# 68273340AB or ILCO# RHK-CHRY-4B4 (05-07, 4 Btn, Liftgate) FCC: OHT692714AA | 315
+
+Chip Information & Notes
+
+Transponder: Yes
+
+Chip: Philips 46
+
+> Mike's Tip: Key Programmer & PIN Required. Test key is Yth7 (i592
+
+Cloner Machine Information
+
+(DIAG BOX) ( CHINA) (ILCO/SLCA) ( JMAUSA ) ( KEYLINE ) (LD. \ (scorpio) (wo)
+ores CN900 RwW4 | |TRS-S000/EVO| | 884 Ultegra | | MIRACLONE |] TANGO | | MINI TOOL
+J Yes fv] Yes? © Yes? MM Yes? — -M lv] Yes? ic Yes? [v7] Yes
+
+Green Chip | | ong e snen | | EHP &“A”| | TPX4a | | GK100/TK100 Most Chips | | MostChips | | VDIChip &
+& Shell Blade Y160 Shell | | &Y160Blade | | &Y160Shell | | &Y160Shell | | Y160 Shell
+
+* - Requires Internet Access to complete Cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+20 - CHRY-DODGE-JEEP
+
+©1994, 2021 AutoSmart™ by Michael Hyde_
+
+9eee60
+
+) @:@
+
+y' o's @:'@
+
+)
+
+)
+@ <
+
+@® © @:¢
+
+#20e€@eeoe002000080808008 4
+
+= (Factory Tool ) ( PINCODE )
+
+> REQUIRED
+
+Zz DRB (v TCODE/MVP PRO (? TDB1000 (v HOTWIRE
+
+| :
+
+BS StarScan | | [¥] Yes
+
+za MicroPod 4-digit (v SMART PRO (? AUTO PRO PAD (v AUTEL IM608
+a wiTECHe | | PIN Needed
+
+A Bs UZ Xs =
+
+= Mike's Tip: PIN Read is NOT possible on the listed models through the OBD2 Port. You can Eeprom the SKIM module.
+
+Code Series: M001-M2618
+
+a”
+
+a) SPACING cute. | DEPTHS
+> = 2 3 4 5 6 7 8 cue | 1 = .340
+m & 092 2= .315
+90 -941 849 157 665 .573 481 .389 297 3= 290
+re) 4 = .265
+i Cam: Carriage:
+
++ Curtis pper: CHRY-5 CHRY-5A Pak-A-Punch: | PAK-C5
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at 310
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR2 Lishi: CY¥24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDE8
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock and progression the remaining cut for the ignition.
+
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set TO-93.
+
+Method #3 Remove a door or trunk cylinder and decode it and progression the remaining cut for the ignition.
+0/0)0}0}0}0]O)}> Ignition
+0/0/0/]0}O| QO} O}> Doors
+O/0/}0/] 0/6] 0} )> Trunk (if equipped)
+2131415/6|7\|8
+
+IGNLOCK | DOORLOCK | TRUNKLOCK
+
+a | 2004-07 Caravan 703719C | 702418 | 704275C 704275 706371 703927
+
+: = 2005-07 Liberty 703719C | 702418 = 706752 704521 703927
+
+ss! 2004-08 Pacifica 703719C | 702418 = 107837 = 703927
+
+1@)] 2004-07 Town & Country Van 703719C | 702418 | 704275C 704275 706371 703927
+2004-07 Voyager Van No listing from Strattec 703927
+
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 21
+CHRY-8SECTION = S2G Ge
+
+CODES
+M 1-2618
+
+| style | carp# | iTL# | macs | StartCut | CuttoCut| AirBags | Ign Retainer
+Dbl Sided | CX102 69 2-=1= =310 02 | es Active
+
+NATIONAL: ~ KEYLINE: ILCO: are JMA: STRATTEC; | —_ DEALER:
+MASTER | _‘Y160-PT BY160-PT Y160-PT Y160-PHT | TP21-CHRI5P | 692325 n/a
+KEYS > | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 —_| EEZ Reader: Y157 Cobra: KDC8 —
+
+= Mike's Tip: Your vehicle may or may not have a transponder system - See if a mechanical key will start it up?
+
+i a
+
+=> Mike's Tip: VPW (Type 2 System) PIN Read is possible - depending on the key programmer you are using.
+
+4999-04 Fob Remote: Chry# 04602260AD or ILCO# RKE-CHRY-4B1 (2001-04) FCC: GO43VTI7T | 315 MHz
+
+300M (Chrysler) | Fob Remote: Chry# 04602268AC or ILCO# RKE-CHRY-4B2 (1998-00) FCC: GQ43VT9T | 315 MHz
+
+400504 Fob Remote: Chry# 04602260AD or ILCO# RKE-CHRY-4B1 (2001-04) FCC: GQ43VTI7T | 315 MHz
+
+Concorde (Chrysler) | Fob Remote: Chry# 04602268AC or ILCO# RKE-CHRY-4B2 (1998-00) FCC: GO43VT9T | 315 MHz
+
+4999-01 Fob Remote: Chry# 04602260AD or ILCO# RKE-CHRY-4B1 (2001) FCC: GQ43VTI7T | 315 MHz
+
+sec @
+
+LHS (Chrysler) | Fob Remote: Chry# Chry# 04602268AC or ILCO# RKE-CHRY-4B2 (1999-00) FCC: GQ43VT9T | 315 MHz
+
+2001-06
+
+Sebring 4 Dr (Chry) Fob Remote: Chry# 04602260AD or ILCO# RKE-CHRY-4BI1 (2001-06) FCC Info: GOSSVTIZE | 315 MHz
+
+DV892Z0970
+6SIA
+
+Chip Information & Notes 25 =
+Transponder: Optional on some models _| Chip: Texas 4D64 i __ | Reusable: No
+= > Mike's Tip: Key Programmer & PIN Required. Test key is Y157 / Y159.
+»4, Cloner Machine Information — = — = .
+” = : = a
+BS (DIAG BOX) (CHINA ) (ILCO/SILCA) ( JMAUSA ) ( KEYLINE )( LD. \( SCORPIO )( wo )
+= on cN900 | | RW4 | |TRS-5000/EVO] | 884 Ultegra | | MIRACLONE |] TANGO | | MINI TOOL
+im M1 Yes M1 Yes? M1 Yes? M1 Yes? Ze Yes? Yes? ‘| Yes
+Blue Chip & N64 & Shell EH3 & “A” TPX2& — GK100/ TK100_ Most Chips Most Chips _| Wol Chip &
+Shell Blade Y160 Shell ~ & Y160 Blade & Y160 Shell & Y160 Shell Y160 Shell
+“4 - Requires Internet Access to complete cloning. 2. Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+22 - CHRY-DODGE-JEEP — —— ©1994, 2021 AutoSmart™ by Michael Hyde
+
+> ©
+
+)
+
+p>@e@5a oe
+
+)
+#e2eeo0e202020e2ee0020000080800804
+
+continued - CHRY-8 SECTION
+
+Bra] ( FactoryTool ) ( PINCODE )
+A DART REQUIRED
+> (v TCODE/MVP PRO € TDB1000 (v HOTWIRE
+= DRB
+” [ViYes | -
+4 | StarScan =
+Oo : 4-digit v¥ SMART PRO 2? AUTO PRO PAD ¥ AUTEL IM608
+S MicroPod | | PIN Needed
+a (WITECH® } | 2
+A
+
+=> Mike's Tip: VPW (Type 2 System) PIN Read is possible - depending on the key programmer you are using.
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Code Series: M001-M2618
+
+1 2 3 4 5 6 7 8 Subto = 340
+Cut: 9 315
+.092 =:
+941 | 849 | .757 | .665 | 573 | .481 | .389 | .297 5 a8 ,
+
+4= .265
+
+Cam: Carriage: -
+
+CHRY-5 CHRY-5A Pak-A-Punch: | PAK-C5
+
+Curtis Clipper:
+
+HLd3jdG 8 30VdS
+
+Decoders: | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .310
+
+Codes: | No Codes on any locks.
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock and progression the remaining cut for the ignition.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set T0-93.
+Method #3 Remove a door or trunk cylinder and decode it and progression the remaining cut for the ignition.
+
+0|0/0|0}0)0}O}> Ignition
+
+O0/0/0}O}O| OQ] }> Doors
+
+EBL LOlLO| Oro > Trunk (if equipped)
+(|2/3/4/5|617/8
+
+es 1999-04 300M 703719C | 702418 | 704275C 704275 702787 703927
+: a 1999-04 Concorde 703719C | 702418 | 704275C 704275 702787 703927
+5 1999-01 LHS 703719C | 702418 | 704275C 704275 702787 703927
+: 2001-06 Sebring 4DR 703719C | 702418 | 704275C 704275 706183 703927
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 23
+CHRY-9 SECTION
+
+STYLE | CARD# | ITL# | MACS | Start Cut | Cutto Cut | Air Bags | Ign Retainer
+
+M 1-2618 Dbl Sided 6X102 Active —
+
+NATIONAL: KEYLINE: 1LCO: JET: JMA: = STRATTEG: _ | = DEALER:
+MASTER Y160-PT BY160-PT Y160-PT Y160-PHT TP21-CHRI5P 692325— n/a
+KEYS = | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 | EEZ Reader: Y157 Cobra: KDC8
+
+= Mike's Tip: Your vehicle may or may not have a transponder system - See if a mechanical key will start it up?
+
+=> Mike's Tip: VPW (Type 2 System) PIN Read is possible - depending on the key programmer you are using.
+
+2001-05 Fob Remote: Chry# 04759008AF or ILCO# RKE-CHRY-4B2 (2004-05, 4 Btn) FCC: SOT Eu 315 MHz
+PT Cruiser (Chry) | Fob Remote: Chry# 04671641AE (2001-05, 3 Btn) FCC: GQ43VTI3T [315 MHz
+2001-06 2:
+Sebring Fob Remote: Chry# 04602260AD or ILCO# RKE-CHRY-4B1 (4 Btn) FCC: GQ43VTI7T | 315 MHz
+Convertible : == 2 : :
+2001-03 Fob Remote: Chry# 04686481AC or ILCO# RKE-CHRY-3B1 (3 Btn) FCC Info: GQ43VTI7T | 315 MHz
+
+Town & Country :
+Van (Chrysler) Fob Remote: Chry#04686797AB (6 Btn) FCC Info: GOQ43VTIST | 315 MHz
+
+2001.03 Fob Remote: Chry# 04686481AC or ILCO# RKE-CHRY-381 (3 Btn) FCC Info: GQ43VTI7T | 315 MHz
+Voyager (Chrysler) | Fob Remote: Chry# 04686797AB (6 Btn) FCC Info: GO43VTIST | 315 MHz =
+2001-03 Fob Remote: Chry# 0468648IAC or ILCO# RKE-CHRY-3B1 (3 Btn) FCC Info: GQ43VTI7T | 315 MHz
+
+Caravan (Dodge) _| Fob Remote: Dodge# 04686797AB (6 Btn) FCC Info: GQ43VTIST | 315 MHz
+
+QvI8r989r0
+4v8006SZr0
+av/6/989%0
+
+Chip Information & Notes | es
+
+Transponder: Optional on some models | Chip: Texas 4D64 : | Reusable: No
+
+& > Mike's Tip: Key Programmer & PIN Required. Test key is Y157 / Y159.
+> = ; 522
+>a) Cloner Machine Information — = a
+a : = == S ;
+BS (DIAG BOX) ( CHINA ) (ILCO/SILCA) ( JMAUSA ) ( KEYLINE )( L.D. ) ( ScorPiO )( wo)
+re ee | _cNg00 RW4 TRS-5000/EVO| | 884 Ultegra | | MIRACLONE | | TANGO MINI TOOL
+S z= ==
+ut I Yes M1 Yes? M1 Yes® MyYes? || M Yes? M1 Yes? - MYes
+Blue Chip & | | ones g she | | EH3& “A” TPxX2& | | Gk100/TK100| | Most Chips | | Most Chips | | VDIChip &
+Shell Blade Y160Shell | | &Y160Blade | | &Y160Shell | | &Y160Shell | | 160 Shell
+*4 - Requires Internet Access to complete cloning. *2 - ae Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+»>@60 86
+
+24 - CHRY-DODGE-JEEP i ee Zs ©1994, 2021 AutoSmart™ by Michael Hyde
+
+)
+
+)
+
+)
+
+)
+
+)
+
+)
+
+)
+
+)
+@eoeca ©9008 OOOOH O88O8 O88 OOO -
+
+4YAGNOdSNVUL
+
+HLd3d ? 30VdS
+
+continued -CHRY-9 SECTION
+(Factory Tool ) ( PINCODE
+: REQUIRED
+DART (- TCODE/MVP PRO (> TDB1000 [v HOTWIRE
+DRB
+IvlYes |-
+StarScan —
+4-digit V SMART PRO x AUTO PRO PAD / AUTEL IM608
+MicroPod | | PIN Needed
+| WITECH® a =
+
+=> Mike's Tip: VPW (Type 2 System) PIN Read is possible - depending on the key programmer you are using.
+
+Code Series: M001-M2618
+
+Bow. SPACING DEPTHS
+1 2 3 4 5 6 7 8 ree G5
+Cut: ae
+
+941 | 84 eee
+2 -849 ASE -665 Df -481 .389 297 3= 290
+4= .265
+
+Curtis Clipper: | C2: Carriage: | pak-A-Punch: | PAK-C5
+
+“| CHRY-5 CHRY-5A :
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .310
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock and progression the remaining cut for the ignition.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or in Lock tryout set TO-93.
+
+Method #3 Remove a door or trunk cylinder and decode it and progression the remaining cut for the ignition.
+
+yjOOO0
+
+oiOOod
+£1000
+
+«/ooo
+°jood0
+~fooo
+
+> Ignition
+> Doors
+> Trunk (if equipped)
+
+Year —
+
+OaLIVYLS
+
+4 2005 PT Cruiser 703719C | 702418 = 703327 708155 703927
+2001-04 PT Cruiser 703719C | 702418 = 703327 705744 703927
+2001-06 Sebring Convertible 703719C | 702418 = 702786 706183 703927
+2001-03 Town & Country Van 703719C | 702418 | 704275C | 704275 706371 703927
+2001-03 Voyager Van 703719C | 702418 | 704275C | 704275 706371 703927
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+CHRY-DODGE-JEEP - 25
+CHRY-10 SECTION
+
+CODES | styte | carp# | iL# | macs | StartCut | CuttoCut| AirBags | Ign Retainer
+M 41-2618 Dbl Sided CX102 222 — 2810 092 Yes
+
+NATIONAL: KE¥LINE: ILCO; JET: JMA: STRATTEC: DEALER:
+MASTER Y160-PT BY160-PT Yi60-PT Y1I60-PHT | TP21-CHRI5P =692325=> == n/a
+
+KEYS — | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8‘ | EEZ Reader: Y157 Cobra: KDC8-
+
+Active
+
+=> Mike's Tip: Your vehicle may or may not have a transponder system - See if a mechanical key will start it up?
+
+=> Mike's Tip: CCD (Type 1 System) NO PIN Read is possible. You can Eeprom the SKIM module.
+
+1999-00
+
+Cirrus (Chrysler) Fob Remote: Chry# 4608229AB = FCC Info: KYPTO3C98JA | IC: 2171 102 575 | 315 MHz
+
+1998-00 = -
+Sebring Fob Remote: Chry# 04671226 (1997-00, 4 Btn) FCC Info: KYPTX002 | IC: 2171102125 | 315 MHz
+Convertible : :
+
+1999-00
+
+Breeze (Plymouth) Fob Remote: Chry# 4608229AB = FCC Info: KYPTO3C98JA | IC: 2171102 575 | 315 MHz.
+
+04671226
+4608229AB
+
+Chip Information & Notes _
+
+Transponder: Optional on some models _| Chip: Texas 4D64
+
+> Mike's Tip: Key Programmer & PIN Required. Test key is Y157 / Y159.
+
+(DIAG BOX ) ( CHINA) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LL.D.) ( scoRPiO )( wo)
+
+ied CNg00 RW4 | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE | | TANGO | | MINI TOOL
+
+M1 Yes 1 Yes? Yes? MI Yes? Mi M1 Yes? 1 Yes? Yes
+
+Blue Chip & CN64 & Shell EH3 & “A” —_ TPX2& GK100 / TK100 Most Chips : Most Chips VVDI Chip &
+Shell Blade — ¥160 Shell & Y160 Blade & Y160 Shell & Y160 Shelt Y160 Shell
+
+TRANSPONDER
+
+*{ - Requires Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+26 - CHRY-DODGE-JEEP : ©1994, 2021 AutoSmart™ by Michael Hyde
+
+@®eee28@0€ €2: 6 08'0@:0 © 06 60. 6:0e,4
+
+¢
+
+¢
+@©e@e@e@oe@ee608068080d8606208000606060808868 «4
+
+a ( Factory Tool ) ( PIN CODE =)
+> DART REQUIRED
+z
+
+o DRB
+
+a) [V1 Yes
+oH | StarScan =
+
+z 4-digit
+
+. MicroPod PIN Needed
+= ( wITECH® Je S
+
+(v TCODE/MVP PRO
+
+(> TDB1000
+
+(v HOTWIRE
+
+(v SMART PRO
+
+(«
+
+AUTO PRO PAD
+
+[2 avres IM608
+
+= Mike's Tip: CCD (Type 1 System) NO PIN Read is possible.
+
+Code Series: M001-M2618
+
+2)
+2) . = eae | 1 = 040
+m Z 092 2 = .315
+90 941 .849 757 665 573 481 .389 297 3 = 290
+o 4= .265
+ay Cam: Carriage:
+= Curtis Clipper: CHRY-5 CHRY-5A Pak-A-Punch: | PAK-C5
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .310
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR 2 Lishi: C¥24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock and progression the remaining cut for the ignition.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set TO-93.
+
+Method #3 Remove a door or trunk cylinder and decode it and progression the remaining cut for the ignition.
+O0/0/0;}0}0/0)}]0}> Ignition
+O/0/}0|O}|Oj) QO] O}]> Doors
+O}O}0O} 0/0} 0/0 |> Trunk (if equipped)
+21314/5|6/7)/8
+IGN LOCK _ DOORLOCK
+
+Coded ;
+
+ose
+
+_| TRUNK LOCK
+
+PN.
+
+IT
+
+= 1998-00 Breeze 703719C | 703719 = 702786 702787 703927
+= 1998-00 Cirrus — 703719C | 703719 _ 702786 702787 703927
+©) 1998-00 Sebring Convertible 703719C | 703719 = 702786 702797 703927
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+CHRY-DODGE-JEEP - 27
+CHRY-11SECTION =” Ele aias
+
+H1id3d ? A0VvdS
+
+| sTyLe | carp# | itL# | macs | Startcut | CuttoCut| AirBags | Ign Retainer
+High Sec n/a n/a 22 2E 3949 091 — Yes
+
+3501-6700 Active
+
+MASTER : ——
+No Longer available from the Dealer - Eeprom Aftermarket Solution Required
+
+KEYS > E _-H/S Mercedes 2-Track with Transponder System.
+
+Determinator: n/a Lishi: HU64 AccuReader: nla EEZ Reader: nla Cobra: n/a
+
+> Mike's Tip: This remote flip out key used to be available from the dealer and would be ordered by VIN. A lot of
+the older Mercedes-style remote flip out keys were discontinued and can no longer be ordered. This opens up an
+opportunity for the Locksmith to make keys that will start this transponder car through Eeprom.
+
+2004-08
+Crossfire (Chrysler)
+
+Code Series: 3501-6700
+
+Bow SPACING : . Tip as DEPTHS
+i 2 4 4 5 6 22. 8 a_| 10 Cut: | 1 =-196
+= n/a 2 = .132
+1.049 | .958 | .867 | .776 | .685 | .594 | 503 | 412 | .321 | .230 3= 108
+4= 085
+Cam: Carriage: SS5 32 06)
+Curtis Clipper: nia nie Pak-A-Punch: ue :
+NOTES: External 2-Track: Measured from tip. Flat of .026" for the Shoulder cut.
+
+»>e@ 020206066686
+
+ChipInformation&Notes
+
+Transponder: Yes Chip: Philips 33 | Reusable: No
+
+> Mike's Tip: Dealer Only - High Security Mercedes 2-Track with Transponder System. Order key from Dealer.
+
+Cloner Machine Information _
+
+No Cloning for this System
+
+=
+A — —— es a
+Ea Programmer &DiagnosticTools
+2 (fe
+i) Factory Tool ) ( PINCODE )
+= REQUIRED —
+rom | DRE (« TCODE/MVP PRO (« TDB1000 (. HOTWIRE
+m = :
+a | ore On
+: 0
+MicroPod [« swaeer ERS = € AUTO PRO PAD (. AUTEL IM608
+wilTECH® :
+< bee /
+Note: Always check with your key programmer application list to ensure it will support this type of vehicle.
+28 - CHRY-DODGE-JEEP = —— : ©1994, 2021 AutoSmart™ by Michael Hyde
+
+)
+
+» @ 0
+
+»'@'@,, @''o
+
+)
+@o@e@@eeqecede0e06 0620000608000 060 4
+
+€
+
+@ 0, <
+
+SISTRATTEC
+
+703719 with Keys or without
+We Have It!
+
+a 3
+www.Laserkey.com
+650-875-0125 |
+
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 29
+CHRY-12 SECTION
+
+CODES
+M 14-2618
+
+| sTyLe | carp# | itL# | macs | Startcut | CuttoCut| AirBags | Ign Retainer
+Dbl Sided | CX102 | 69 2 310 | .092 = Yes Active
+
+This-model uses a Proximity remote. Check with dealer for correct part # by VIN
+MASTER ——
+
+KEYS >
+
+Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8—
+
+> Mike's Tip: New type of Proximity system for this vehicle. Uses a Special Prox Fob called “Key Sense” that
+allows you to limit speed and other options for teenage drivers. Each vehicle seems to.come with 2 Regular
+Prox fobs and 1 Key Sense Prox fob. Key Programmer & PIN Required. Test key is Y157 / Y159.
+NOTE: Aftermarket Key Programmers may not work. Chry Part# Emerg Key: 68289894AB
+
+Prox Fob: Chry# 68217827AC or ILCO# PRX-CHRY-3B2 (3 Btn, Basic) FCC: M3N-97395900 | 433 MHz
+
+3017.24 Prox Fob: Chry# 68241531AC or ILCO# PRX-CHRY-5B3 (5 Btn, Pwr Sliders) FCC: M3N-97395900 | 433 MHz
+
+Pacifica _ | Prox Fob: Chry#68217829AC or ILCO# PRX-CHRY-6B2 (6 Btn, Rmt Start, Pwr Sliders) FCC: M3N-97395900 | 433
+(Chrysler) ; :
+
+Prox Fob: Chry# 68241532AC or ILCO# PRX-CHRY-6BI (6 Btn, Pwr Liftgate & Sliders) FCC: M3N-97395900 | 433
+
+Prox Fob: Chry# 68217832AC or ILCO# PRX-CHRY-7B1 (7 Btn, Rmt Start, Pwr Sliders & Liftgate) FCC: M3N-97395900
+
+aVr6868c89
+
+68217827AC 68241531AC 68217832AC
+Chip Information & Notes _ : : SS
+Transponder: Proximity Chip: Philips 46 Reusable: No (Must be Unlocked)
+= > Mike's Tip: Key Programmer & PIN Required. Test key is Y157 / Y159.
+> ees = Es eS == = = Z ——
+>2| Cloner Machine Information | = = 2 =
+(¢,) = —
+BS; (DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE \( LD. ){( scorPio )( wo)
+yam | CLONE CN900 RW4 TRS-5000/EVO} | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+Foy |_Wizarp
+m
+A
+
+© No © No @ No ® No @ No @® No ® No ® No
+
+4 - Requires Internet Access to complete ¢loning. *2-- Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+30 - CHRY-DODGE-JEEP - : ©1994, 2021 AutoSmart™ by Michael Hyde
+@@@@ee@e@e@eeoe@e@etgeeeeoeoe@e#@edee@eee@ -«
+
+continued - CHRY-12 SECTION
+
+= | (Factory Tool | ( PINCODE )
+> : REQUIRED
+= (« TCODE/MVP PRO ¢ TDB1000 (v HOTWIRE
+BS] | MicroPod [VI Yes
+pay | WITECH® 4-digit (v SMART PRO [v AUTO PRO PAD [v AUTEL IM608
+= PIN Needed
+A Es JX ,
+Note: Always check with your key programmer application list to ensure it will support this type of vehicle.
+
+Code Series: M001-M2618
+
+SPACING DEPTHS
+
+1 2 3 4 5 6 7 8 Gute [f= 340
+Cut: :
+
+092 2= .315
+
+-941 .849 .157 665 | .573 481 -389 | .297 3= 290
+
+4= .265
+
+Cam: Carriage:
+
+CHRY-5 CHRY-5A Pak-A-Punch: | PAK-C5
+
+Curtis Clipper: —
+
+H1ldad ? J0VdS
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .310
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set TO-93,
+
+Method #3 Remove a door or trunk cylinder and decode it.
+
+> Ignition (no lock)
+| G |> Doors
+O} [> Trunk
+
+Oo
+oo
+
+an -IGNLOCK | DOORLOCK | TRUNKLOCK —
+
+3 od ed | ded | Coded | Uncoded| *
+
+= Locks not available from Strattec
+
+a
+
+m
+
+i's)
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 31
+CHRY-13 SECTION
+
+ar
+A
+>
+z
+”
+=)
+(e)
+2
+Oo
+m
+r°)
+
+| STYLE
+
+| carpe | iTL# | macs | StartCut | Cutto Cut | AirBags | Ign Retainer
+
+MASTER
+
+KEYS =
+
+Fo1-1571 | DbiSided | CX306 Active
+
+NATIONAL: KEYLINE: ILCO: Jer JIMA: STRATTEC: — DEALER:
+
+692353 BMIT13-PT Y165-PT MIT13-PT n/a 692353 — n/a
+Determinator: MIT 1 Lishi: MIT6 AccuReader: n/a EEZ Reader: MITS 99 ‘Cobra: KDMIT
+
+> Mike's Tip: MITS System - Key Programmer & PIN Required, Test key is MIT6 / X263. Key has an“N" _
+
+stamped on the blade - Strattec MITS key can also be used #692564
+
+> Pin Code built into MVP, SDD, TCode & TKO products.
+
+Fob Remote: Chry# MR587981 or ILCO# RKE-MITS-3B2 (2002-05) FCC Info: OUCG8D-525M-A | 313 MHz
+
+2001-05
+Sebring (Chrysler)
+2 Dr Hardtop Fob Remote: Chry# MR587860 (2001) FCC Info: HYQI2BBA | 315 MHz
+2001-05 Fob Remote: Chry# MR587981 or ILCO# RKE-MITS-3B2 (2002-05) FCC Info; OUCG8D-525M-A | 313 MHz
+
+Stratus (Dodge)
+2 Dr Hardtop
+
+Fob Remote: Chry# MR587860 (2001) FCC Info: HYOI2BBA | 315 MHz
+
+voSz69
+
+LOCK
+
+UNLOCK
+
+TRUNK
+
+Transponder: Yes
+
+Chip Information & Notes
+
+Chip: Texas 4D61
+
+> Mike's Tip: Key Programmer & PIN Required. Test me is NUS / X263.
+
+Cloner Machine Information
+
+(DIAG BOX) (CHINA) (ILCOISILCA) ( JMAUSA) ( KEYLINE ) (LD. ) (_ ScoRPIO.) (wor)
+Sees CN900 RW4 TRS-S000/EVO| | 884 Ultegra | | MIRACLONE TANGO | | MINI TOOL
+1 Yes I Yes? M1 Yes? Yi Yes? MI 1 Yes? fv] Yes? 1 Ye3
+Blue Chip & | | CN2orCNS | | EH3 &“L” TPX2 & GK100/TK100 | | CNS or TPX2 | | CNS or TPX2 | | WDIChip—
+Shell & Shell Blade MIT6 Shell | | &MIT6Blade | | &MIT6Shell | | &MITGShell | | & MITE Shell
+
+4 - Requires Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3- Requires Texas Crypto update.
+
+32 - CHRY-DODGE-JEEP
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+i Me Se A ie
+
+)
+
+»' @.
+
+» @,@
+
+)
+
+»)
+
+)
+@ 0) 0: ©. 6 0,0 © O28 .0:0;, 8 O28 ©, 2.0, 0.9.9 4
+
+continued - CHRY-13 SECTION
+
+= ( Factory Tool \) (— PIN CODE a
+
+> REQUIRED :
+
+= wiTECH® (v TCODE/MVP PRO (> TDB1000 [v HOTWIRE
+Uv
+
+OC — DRB3 Mes
+
+=a — -4-digit lv SMART PRO (v AUTO PRO PAD [v AUTEL IM608
+74 MUT3 PIN Needed
+
+A ES OS === 7
+
+> Pin Code built into MVP, SDD, TCode & TKO products.
+
+CODE SERIES: F 0001-1571
+oe =
+Say Bow SPACING DEPTHS
+> 2 3 4 5 6 7 8 Se tia
+ro) Cut: Eas
+m .083 zo
+90 985 | .902 | .820 | .737 | .655 | 572 | .491 | .407 3= 276
+3 4= 251
+ie Cam: Carriage:
+= Curtis Clipper: DC-5 DC-5A Pak-A-Punch: | N/A
+ae
+Codes: | No Codes on any locks.
+Decoders: | Determinator: MIT1 Lishi: MIT6 AccuReader: n/a EEZ Reader: MITS 99 |. Cobra: KDMIT
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock for positions 1 through 8.
+Method #2 Remove and disassemble trunk cylinder, and decode wafers to make a master key.
+Method #3 Remove and disassemble door cylinder, and decode wafers to make a master key.
+_ Method #4 Impression locks.
+O0,)0/0;0|0/0}0}|O}> Ignition
+O|0O|}0O}0}0/0/0jO}> Doors
+O}0}0|0O}0@/0}0}O)]> Trunk
+1121544 15/67 78
+
+igniock | pooRLock | TRUNKLOCK |
+Coded | Uncoded| Coded | Uncoded —
+
+704606 “Push” Svc Pkg
+704607 No “Push” Svc Pkg
+
+2001-05 704608 706559 704605
+
+Sebring 2 Dr Hardtop
+
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 33
+_ CHRY-14 SECTION
+
+| stvce | carp# | imL# | macs | StartCut | CuttoCut| AirBags | Ign Retainer
+Dbl Sided } CX102 2 310 092 Yes Active
+
+M 17-2618
+
+MASTER NATIONAL: KEYLINE: ILCO: Hap JMA: STRATTEC: | == DEALER:
+KEYS © Y157 / Y159 BY157 Y¥157 F-Y159 157. / Yi59 CHR-14 596504 : n/a =
+Determinator: CHR 2 Lishi: CY24 AccuReader:CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+=> Mike's Tip: Some vehicles, depending on trim tevel, may not have had a Wireless Remote Fob from the factory.
+
+1998
+
+Cirrus (Chrysler) Fob Remote: Chry# 4608229AB = FCC Info: KYPTO3C98IJA | IC; 2171 102 575 | 315 MHz
+
+1998-00 Fob Remote: Chry# 05014736AA (1996-98, 3 Btn) FCC: GO43VT/7T | 315 MHz
+
+& Voyager
+
+Town & Country | Eoh Remote: Chry# 04686481AC or ILCO# RKE-CHRY-3B1 (1999-03, 3 Btn) FCC: GQ43VTI7T | 315 MHz
+
+ayezzsoor
+yv9E/Pl0S0
+
+| NO TRANSPONDER
+
+Code Series: M001-M2618
+
+Cam: Carriage:
+
+Curtis Clipper: | Guny-5 | CHRY-5A
+
+Pak-A-Punch: | PAK-C5
+
+~ :
+
+5 SPACING att DEPTHS
+a 1 2 3 4 5 eo 7 8 o 14-30
+m ; ; - 092 2=.315
+go .941 .849 5ST -665 afi 481 389 .297 : 3= 290
+m
+
+me)
+
+sa
+
+is i
+
+FRAMON: Lay-ip-stop clip flat against teft side of vise, Set first cut at .310
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock and progression the remaining cut for the ignition.
+
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set 10-93.
+Method #3 Remove a door or trunk cylinder and decode it and progression the remaining cut for the ignition.
+
+> Ignition
+> Doors
+> Trunk (if equipped)
+
+o/OO0
+sj/oo00
+ajoo0
+el/ooo)
+yj0Oo00
+e©j/OoOo0
+
+njOoo
+
+34 - CHRY-DODGE-JEEP _ : See = a ee
+
+»>€@€6686
+
+»>e5ae e800
+
+)
+
+)
+
+)
+6966060 0 <
+
+@@e@eoeooeoeeoe?@=
+
+¢
+
+¢
+
+CHRY-15 SECTION
+
+| sTYLE | caRp# | iTL# | macs | Startcut | Cuttocut| AirBags | Ign Retainer
+
+M 1-2618 Dbl Sided CX102 2 Active
+MASTER NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: DEALER:
+Y157 /-Y159 BY157 / BYI59 Y157 / Y159 Y157 / Y159 CHR-14 596504 nla
+KEYS >
+Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+= Mike's Tip: Some vehicles, depending on trim level, may not have had a Wireless Remote Fob from the factory.
+4998-03 Fob Remote: Chry# 04686481AF (2000-03) FCC Info: GQ43VT17T | IC: 14701021294 | 315 MHz
+
+Prowler (Chrysler) | Fob Remote: Chry# 05014736AA (1998-99) FCC Info: GQ43VT9T | IC: 1470102460 | 315 MHz
+
+04686481AF
+
+@q No TRaNsPonDeER
+
+SE SPACING Ti
+mole DOW 1p cues DEPTHS
+Ss 1 2 3 4 5 6 7 8 et oe
+m 092 2 = .315
+ge 941 849 .757 665 13 -481 389 .297 3 = 290
+oO 4= 265
+a Cam: Carriage:
+= Curtis Clipper: CHRY-5 CHRY-5A Pak-A-Punch: | PAK-C5
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .310
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock and progression the remaining cut for the ignition.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set TO-93.
+Method #3 Remove a door or trunk cylinder and decode it and progression the remaining cut for the ignition.
+
+0}0/O}0/}0]0}O}> Ignition
+0O/}/0O/0}0O}0|O}O}]> Doors
+O10/0]0}0} GO} [> Trunk (if equipped)
+213/4|5|6\|7ial —
+
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 35
+CODES
+
+GHRY-4ESECTION | 222222 === ee
+
+| style | carp# | iL# | macs | StartCut | CuttoCut| AirBags | Ign Retainer
+
+L1-3580 Db! Sided CX660 { 515 2 .052 .092 Yes Active
+MASTER NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: DEALER:
+KEYS > ¥157 / Y159 BY157 Y157 / Y159 Y157 / Y159 CHR-14 596504 i n/a
+Determinator: CHR 1 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y154 Cobra: KDC8
+
+=> Mike's Tip: Some vehicles, depending on trim level, may not have had a Wireless Remote Fob from the factory.
+
+'°@6@686 86 ®@
+
+»>@@
+
+Town & Country
+Van (Chrysler)
+
+1995-97 a= AA.
+Cirrus (Chryslen) _| Fob Remote: Chry# 04608229 = FCC Info: KYPTXO01 | 315 MHz
+hana | Fob Remote: Chry# 04759136AB (1993-97) FCC Info: GO43V77T | 315 MHz
+Concorde (Chrysler) =a :
+tie Fob Remote: Chry# 04469341 (1991-94) FCC Info: GQ43VTST | 315 MHz
+LeBaron (Chrysler) — : :
+sae Fob Remote: Chry# 04759136AB (1994-97) FCC Info: GQ43VT7T | 315 MHz
+LHS (Chrysler) ene ee
+ie ba: Fob Remote: Chry# 04759136AB (1993-96) FCC Info: GQ43VT7T | 315 MH
+New Yorker (Chry) | "2? Memote: Lnry sa
+1996-97 Fob Remote: Chry# 04671226 (1997-00) FCC Info: KYPTX002 | 315 MHz
+Sebring == : :
+Convertible Fob Remote: Chry# 04608229 (1996) FCC Info: KYPTXO01 | 315 MHz
+eee Fob Remote: Chry# 05014736AA (1996-98, 3 Btn) FCC Info: GO43VT7T | 315 MHz
+
+Fob Remote: Chry# 04759136AB (1995) FCC Info: GQ43VT7T | 315 MHz
+
+04608229
+
+Fob Remote: Chry# 04469341 (1991-94) FCC Info: GQ43VT5T | 315 MHz
+
+04759136AB 04469341 04671226 -05014736AA
+
+LOCK
+
+eZ)
+
+Q DEPTHS
+O 1 = .340
+m 2=.315
+a 3 = .290
+iw) 4= 265
+a Curtis Clipper: = Cartage: Pak-A-Punch: =-PAK-C2
+
+BL " | CHRY-4 =f
+
+CHRY-4B
+
+FRAMON—Use Ford 5 pin clip and set for first cut at .052
+
+36 - CHRY-DODGE-JEEP
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+»>@e88680080
+
+)
+
+“4
+@©9e@@e0e0e0¢
+
+@o#eoeooeooeoeoees9@*«
+
+¢
+
+¢
+
+continued - CHRY-16 SECTION
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR1 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y154 Cobra: KDC8
+
+Method #1A (MOST 1993-95) - 5 WAFER DOOR
+Use a Lock Decoder/Reader tool to decode the door lock for positions 3 through 7. Next use the tool to
+determine the cuts in the ignition for positions 1 & 2. You will have all the cuts necessary for a complete key.
+
+Method #1B (MOST 1996-97) - 7 WAFER DOOR
+Use a Lock Decoder/Reader tool to decode the door lock for positions 1 through 7 You will then have all the
+cuts necessary for a complete key.
+
+Method #2 Baxter Systems Tryout keys set 97 All Locks (1993-2002) (except 1993 Trunk & Glove) (or)
+Aero Tryout Key for Y155 keyway use T0-64 (Doors), T0-65 (Doors & Ignition)
+Aero Tryout Key for Y157 keyway use 10-70 (Doors - 1994 Only), T0-71 (Doors & Ign - 94-97)
+
+HPT S93 95 MODELS MOST 1996-97 MODELS
+
+O0)0/}0O/}0} 0} }> Ignition O]O/G)> ignition
+0/0} 0|0|O]> Doors
+: O} 0/0 {> Doors
+0/0} 0|0] 0 /> Slider/trunk olol als Slider/Trunk
+Ss ss = Se = O|O| 0 }> Glove Box
+2(3};415 {i Eauipped) Bai7 (If Equipped)
+
+To progression the remaining cuts for the ignition in positions 1 & 2, determine what the depth is in position
+number three that is found in the door and trunk locks, and then use the chart below, Use the column that
+matches the depth for the tumbler in position number three
+
+KEY KEY2 KEY 3 KEY 1 KEY 2 KEYS 2KEY-4 KEY 1. KEY 2 KEYS
+11 21 31 11 21 24 31 12 22 24
+12 22 12 22 13 32
+13 32 13 32 23 42
+23 42 23 42 33 43
+a3 i) 43 34
+43 34 aa
+
+44
+
+IGN LOCK BOOR LOCK TRUNK LOCK PIN
+
+: Kn
+
+1995-97 Cirrus | 703609 702418 _ 702786 - 702787 703927
+1995-97 Concorde - 702418 — 702785 = 702853 703927
+211994 Concorde : 703609 702418 703611 702143 = 702423 703927
+- 1994 Lebaron Coupe & Conv 701757 702417 703610 702127 - 702723 703927
+: = 1995-97 LHS 703609 702418 > 702785 - 702787 703927
+= 1994 ERS 703609 702418 703611 702143 - 702427 703927
+Te) 1 1995-96 New Yorker 703609 702418 - 702785 - 702787 703927.
+1994 New Yorker 703609 702418 703611 702143 =— 702427 703927
+1996-97 Sebring Convertible 703609 702418 - 702786 - 702797 703927
+
+| 1996-97 Town & Country 703609 702418 - 102784 - 702784 7103927
+1995 Town & Country — 702788 - 702785 701515 702421 703927
+
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 37
+CHRY-17 SECTION —
+
+| style | carp# | iTL# | macs | start cut | CuttoCut | AirBags | Ign Retainer
+
+CODES
+J1-3580 Dbl Sided CXx60 515 2 | — 082 092 Yes. Active e
+MASTER NATIONAL: KEYLINE: = LCO: JET: JMA: __STRATTEC: ~ _ DEALER:
+155 BY155 Y155 Y155 CHR-10 595895 n/a
+KEYS >
+Determinator: CHR 1 | Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y154 —_ | Cobra: KDC8 —
+= Mike's Tip: Some vehicles, depending on trim level, may not have had a Wireless Remote Fob from the factory.
+
+Fob Remote: Chry# 06045191AD - FCC Info: GQ43VT9T | IC: 1470102460 | 315 MHz | MFR: TRW
+
+Most 1993 Models | Fob Remote: Chry# 04759136AB - FCC Info: GQ43V77T | IC: 1470 K1361 | 315 MHz | MFR: TRW
+
+Fob Remote: Chry# 04469341 - FCC Info: GQ43VT5T | IC: 1470 K1119 | 315 MHz | MFR: TRW
+
+1993
+
+Acclaim, Caravan, Cherokee;
+Concorde, Dakota, Daytona, Dy-
+nasty, Grand Cherokee Intrepid,
+Fifth Avenue, Imperial, LeBaron,
+New Yorker, Ram Charger, Ram
+
+P/U, Ram Van, Shadow, Spirit,
+Sundance, Town & Country Van,
+Viper, Vision, Voyager, Wrangler.
+
+IBLAEVOD
+AV9IEL6SZb0
+lye69vr0
+
+| NO TRANSPONDER
+
+Code Series: J 01-3580
+
+2)
+vu DEPTHS
+= = Cut t
+
+= 1 2 3 4 5 6 =F cut | 1 = 546
+m 092 2 = .315
+x .849 157 665 573 481 .389 age 3 = 290
+o 4= 265
+. = Cam: Carriage:
+a Curtis Clipper: CHRY-4 CHRY-4B Pak-A-Punch: | PAK-C2
+= i =
+
+FRAMON-—Use Ford 5 pin clip and set for first cut at .052
+
+Codes: | No Codes on-any locks.
+
+Decoders: | Determinator: CHR 1 Lishi: CY24— AccuReader: CHRY8 | EEZ Reader: Yi54 Cobra: KDC8 |
+
+Method #1A (MOST 1993-95)-5WAFERDOOR : :
+: Use a Lock Decoder/Reader tool to decode the door lock for positions 3 through 7. Next use the tool to
+determine the cuts in the ignition for positions 1 & 2. You will have all the cuts necessary for a complete key.
+
+MOST 1993-95 MODELS
+
+0)0}0} 8; 8) 0] 0 }> Ignition
+O, 0/0} 0 | G)> Doors
+O|} 0} 0] | @}> Slider/Trunk
++O} 0) | 0 |> Glove Box
+oes 314151617 |. (Equipped)
+
+38 - CHRY-DODGE-JEEP i a
+
+:
+@oeoeeoee@eddee@qeed@eeeq@od;e8edededesa«
+
+¢
+
+¢
+
+CHRY-18 SECTION
+
+1987-89 Conquest
+(Chrysler)
+
+1979-93 D50 Pick Up
+(Dodge)
+
+1977-89 Sapporo
+(Plymouth)
+
+1987-89 Raider (Dodge)
+
+| sTYLE | carp# | iTL# | macs | StartCut | CuttoCut| AirBags | IgnRetainer
+
+H001-5143 Dbl Sided 3 Sealed
+NATIONAL: KEYLINE: JET: JMA: STRATTEC: DEALER:
+DC3 n/a Xx121 DC3 MIT-21P n/a n/a
+KEYS >
+Determinator: MIT 2 Lishi: n/a AccuReader: n/a EEZ Reader: X121 Cobra: n/a
+=> Mike's Tip: As the vehicles get older and wear down, a Lock Decoder/Reader tool will not work as well.
+
+| NO TRANSPONDER
+
+Code Series: H 01-5143
+re)
+— DEPTHS
+Cutt
+= 1 2 P) 4 5 6 ace 1=.276
+a) 098 2 = .256
+pa .098 .197 .295 .394 .492 591 3 = 236
+o 4= 217
+iy Cam: Carriage:
+Pt Curtis Clipper: DC-1 DC-1 Pak-A-Punch: | PAK-C4
+ae
+Codes: | No Codes on any locks.
+Decoders: | Determinator: MIT 2 Lishi: n/a AccuReader: n/a EEZ Reader: X121 Cobra: n/a
+Method #1 To make first key, remove passenger door cylinder and read code stamped on the lock.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock for a working key.
+Method #3 Disassemble the door cylinder and decode the wafers to make a master key. The door lock should contain all
+the necessary tumblers to make a master key.
+H001-5143
+O/O)0O}0/}0}O}> Ignition
+O}O|}8!}0}0] G|> Doors & Trunk
+1) 213|4)|516
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 39
+- GHRY-49 SECTION |
+
+CODES | stv.e | carp# | im# | macs | Startcut | cuttoCut| AirBags | Ign Retainer
+L 1-3580 Dbl Sided | CX60 | 515 2 052 092 Yes Active
+MASTER
+NATIONAL: KEYLINE: ILCO: JET: JMA: | _ STRATTEC: DEALER:
+KEYS | 157 / Y159 BY157 157 /Y159_ | Y157/ Y159 CHR-14 596504 n/a
+Determinator: CHR 1 Lishi: CY24 AccuReader: CHRY 8 ‘| EEZ Reader: Y154 Cobra: KDC8
+
+| NO TRANSPONDER
+
+Code Series: L0001-3580
+
+o
+=) DEPTHS
+> = 2 3 4 Sel 8 S27 t= 3
+wu 6 sag | 757 | 1665 | .573 | .481 | .389 | .297 ee
+90 |= 3 = 290
+- 4 = 265
+ae cea (oe Carriage: | pak.a-Punch: | PAK-C2 :
+4 Pper: | CHRY-4 | CHRY-4B yy
+a = =
+
+FRAMON—Use Ford 5-pin clip and set for first-cut at .052
+
+Codes: | No Codes on any locks. = :
+Decoders: | Determinator: CHR1 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y154 Cobra: KDC8
+Method #1 Check owner's manual for code, written in by the dealer.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock and then you can progression
+the 1 remaining cut in the ignition. :
+Method #3 Use tryout keys, Aero Lock set T0-73. Baxter Systems set 84B or 97
+Method #4 You must remove a door cylinder and decode it Once you have those six cuts, then you can progression the
+
+remaining cut for the ignition. The missing cut needed for the ignition is in position, from the bow, for a
+
+complete key.
+1994 NEON
+O| 8 | O| O}> Ignition
+O}0/]O]| O}> Doors
+0} 0/0 {0 [> Hatch/Arunk
+O | 0} 0 ]> Glove Box (none)
+14|516|7
+
+40 - CHRY-DODGE-JEEP
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+“Et
+
+»>@@e0 @
+
+)
+@@e@oqoo@odooe@q@e@@€se3e0e@e@e@eeqee-ede@ ea
+
+¢
+
+CHRY-20 SECTION
+
+Acclaim 91-92, Caravan 91-92, Cherokee 91-92, Comanche 91-92, Dakota 90-92, Daytona 90-92,
+Dynasty 90-92, Fifth Avenue 90-92, Grand Cherokee 92, Horizon 90, Imperial 91-92, Lancer 89,
+Lebaron 89-92, New Yorker 90-92, Omni 90, Ram Charger 91-92, Ram Pickup 90-92, Ram Van 90-92,
+Shadow 91-92, Spirit 90-92, Sundance 91-92, Tc 89-91, Town & Country 91-92, Wrangler 91-92, Voyager 91-92,
+
+| sTyLe | caRp# | iL# | macs | StartCut | CuttoCut| AirBags | Ign Retainer
+
+G 0-1394 Dbl Sided | CX59 2 Active
+MASTER I
+NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: DEALER:
+KEYS > Y154 n/a Y154 Y154 CHR-9 594145 n/a
+Determinator: CHR 1 Lishi: n/a AccuReader: CHRY 8 EEZ Reader: Y154 Cobra: KDC8
+
+| NO TRANSPONDER
+
+Code Series: G 0-1394
+”
+a) DEPTHS
+= 1 = .340
+oO .
+m 2 = .315
+go 3 = .290
+Oo 4= 265
+= : = Cam: Carriage:
+a Curtis Clipper: CHRY-4 CHRY.4A Pak-A-Punch: | PAK-C3
+Sa
+FRAMON—Use Ford 5 pin clip and set for first cut at 144”
+Codes: | No Codes on any locks.
+Decoders: | Determinator: CHR1 Lishi: n/a AccuReader: CHRY 8 EEZ Reader: Y154 Cobra: KDC8
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock for positions 1 through 5, in the door lock.
+Progression the ignition for position 6, Next, progression the final cut in position 7 for sliding door or trunk
+lock.
+Method #2 Use tryout keys, Baxter Systems set 84B or 97 or Aero Lock set TO-73.
+Method #3 You must remove a door cylinder and decode it to determine the 5 cuts in the door for positions 1 through 5,
+
+in the door lock. Progression the ignition for position 6.
+Next, progression the final cut in position 7 for sliding door or trunk lock.
+
+G 001-1394
+Gy pe ee -a > Ignition
+BERS ee ae > Doors
+O}0/}0!0] 1 )> Slider / Hatch / Trunk
+O |} Oj GO |> Glove Box
+21314151617
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 41
+DGE-1 SECTION _
+
+| SIYLE
+Dbl Sided
+
+| carp# | ITL# | MACS | StartCut | CuttoCut| AirBags | Ign Retainer
+092 Yes :
+
+M 1-2618 None
+
+MASTER
+KEYS >
+
+This model uses a GEN4 Proximity remote. Check with dealer for correct part # by VIN
+
+Cobra: KDC8
+
+Lishi: CY 24 EEZ Reader: Y157
+
+Determinator: CHR 2 AccuReader: CHRY 8
+
+. Some models starting in 2018+ will require a “Gateway” bypass cable to program Prox Remotes.
+
+Prox Fob: Dge# 68394204AA ('19-'21 SRT, RED) (4 Btn) FEC: M3N40821302 | 433 MHz
+
+ayy Check with key programmer supplier.
+
+Prox Fob: Dge# 68051387AH or ILCO#PRX-CHRY-4B6 (2011-18, 4 Btn) FEC: M3N40821302 | 433 MHz
+Prox Fob: Dge# 05026676AH or ILCO# PRX-CHRY-5B5 (2011-18, 5 Btn w/Rmt Start) FCC: M3N40821302 | 433
+Prox Fob: Dge# 68394195AA (2019-21, 5 Btn) FCC: M3N40821302 | 433 MHz
+Prox Fob: Dge# 68234958AA (‘15-18 SRT, BLK) (4 Btn) FCC: M3N40821302 | 433 MHz
+Prox Fob: Dge# 68394199AA (‘19-21 SRT, BLK) (4 Btn) FCC: M3N40821302 | 433 MHz
+
+chaloge Prox Fob: Dge# 68234960AA (‘15-'18 SRT, RED) (4 Btn) FCC: M3N40821302 | 433 MHz
+
+odge. :
+
+Prox Fob: Dge# 68234957AA (15-18 SRT, BLK) (5 Btn w/Rmt Start) FCC: M3N40821302 | 433 MHz
+
+Prox Fob: Dge# 68394198AA (119-'21 SRT, BLK) (6 Bin w/Rmt Start) FCC: M3N40821302 | 433 MHz
+
+Prox Fob: Dge# 68234959AA ('15-'18 SRT, RED) (5 Btn w/Rmt Start) FCC: M3N40821302 | 433 MHz
+
+Prox Fob: Dge# 68394203AA (19-21 SRT, RED) 6 Btn w/Rmt Start) FCC: M3N40821302 | 433 MHz
+
+vvizzoozeo
+
+” = : =
+Ry Bow SPACING Tip as S DEPTHS
+> = 2 3 4 5 6] 7 |. 8 | Gy =| 1=:940
+m i 22> 092 2 = .315
+90 -941 849 -75T .665 BYES 481 | .389 .297 3 = 290
+oO = 4= 265°
+5 Cam Carria ==55
+eee = : ge: : s 4
+
+= Curtis Clipper: CHRY-5 CHRY-5A Pak-A-Punch: | PAK: cs
+
+FRAMON: Lay-tip-step-clip flat against left side of vise, Set first cut at .310
+
+42 - CHRY-DODGE-JEEP
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+»>eo oa O©ooeoee ee 8
+
+»>@e08 86
+
+)
+
+>» ee
+
+)
+(
+
+@e2e@eee0@@690680 06, @ ¢
+
+@o@ee@oe8ee«
+
+YASGNOdSNVUL
+
+Transponder: Proximity
+
+Factory Tool PIN CODE
+
+REQUIRED
+
+MicroPod
+
+wiTECH®
+PIN Needed
+
+(° TCODE/MVP PRO
+
+(v SMART PRO
+
+(? TDB1000
+
+(? HOTWIRE
+
+(v AUTO PRO PAD
+
+[v AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Lishi: CY24 AccuReader: CHRY 8
+
+EEZ Reader: Y157
+
+Cobra: KDC8
+
+> Doors
+> Trunk
+
+> Ignition (no lock)
+
+IGN LOCK
+
+Locks not available from Strattec
+
+‘DOORLOCK _
+| Coded | Unceded| Coded | Uncoded
+
+TRUNK LOCK
+Coded ‘Uncoded
+
+PIN
+KIT.
+
+703927
+
+Codes: | No Codes on any locks.
+Decoders: | Determinator: CHR 2
+Method #1 Use a Lock Decoder/Reader too! to decode the door lock for a working key.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set TO-93.
+Method #3 Remove a door or trunk cylinder and decode it. Once you have those seven cuts you will have a working key.
+n
+4
+a
+>
+a
+al
+m
+@)
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+CHRY-DODGE-JEEP - 43
+DGE-2 SECTION pee
+
+CODES
+M 41-2618
+
+STYLE | ign Retainer
+
+Dbl Sided
+
+| caRD# | imL# | macs | StartCut | CuttoCut | Air Bags
+
+None —
+
+MASTER
+
+ete | oe | 2 | 0 092 | Yes
+
+KEYS >
+
+This model uses a GEN4 Proximity remote. Check with dealer for correct part # by VIN -
+
+Determinator: CHR 2
+
+Lishi: CY24
+
+AccuReader: CHRY 8
+
+EEZ Reader: Y157
+
+Cobra: KDC8
+
+- Some models starting in 2018+ will require a “Gateway” bypass cable to program Prox Remotes.
+
+a Check with key programmer supplier.
+Prox Fob: Dge# 56046768AA (2012-13, 4 Btn) FCC Info: M3N-40821302 | IC: 7812A-40821302 | 433.90 MHz
+Seb ae Prox Fob: Dge# 56046777AB (2012-13, 5 Btn w/Rmt Start) FCC Info: M3N-40821302 | 433.90 MHz
+Part (Dodge) _| Prox Fob: Dge# 68225802AB (2014-16, 4 Btn) FCC Info: M3N-40821302 | IC: 7812A-40821302 | 433.90 MHz
+Prox Fob: Dge# 68225803AB (2014-16, 5 Btn w/Rmt Start) FCC Info: M3N-40821302 | 433.90 MHz
+Sie ae Prox Fob: Dge# 68066349AG (3 Btn) FCC Info: M3N-40821302 | 433 MHz
+Journey (Podge) | Prox Fob: Dge# 68066350AG (4 Btn w/Rmt Start) FCC Info: M3N-40821302 | 433 MHz
+
+Vviec00¢s9
+
+Code Series: M001-M2618
+
+2 Bow SPACING Te |... | DEPTHS
+S 1 2 3 245 6 7 8 Cat: 1 = 340
+Ae oat | 849 | .757 | .665 | 573 | .481 | 389 | .207 | 09? =
+Yo 4= 265
+o }
+
+fi Curtis Clipper: ck capes Pak-A-Punch: | PAK-C5
+
+2
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at.310
+
+44 - CHRY-DODGE-JEEP
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+»)
+
+»0@06¢06 06
+
+)
+
+)
+@#9eoe 02Gdedoe@e?e@ereeoaeeee@eeee ae
+
+YAGNOdSNVYL
+
+OaLIVULS |
+
+Transponder: Proximity
+
+Chip: Philips 46
+
+Reusable: No (Must be Unlocked)
+
+> Mike's Tip: GEN4 System - Key Programmer & PIN Required. Test key is Y157 / Y159.
+
+PIN CODE
+
+Factory Tool
+
+-MicroPod
+wilTECH®
+
+PIN Needed
+
+REQUIRED - (? TCODE/MVP PRO
+
+[v SMART PRO
+
+(? TDB1000
+
+(2 HOTWIRE
+
+(v AUTO PRO PAD
+
+[v AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+Method #1 ~ Use a Lock Decoder/Reader tool to decode the door lock for a working key.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set T0-93.
+Method #3 Remove a door a rink cylinder and decode it. Once you have those seven cuts you will have a working key.
+
+> Trunk
+
+nloo
+oO
+
+> Ignition (no lock)
+1 |> Doors
+
+2012-16 Dart
+
+IGN LOCK DOOR LOCK
+Coded | Uncoded| Coded | Uncoded
+
+Locks not available from Strattec
+
+TRUNKLOCK |
+
+‘uncoded |
+
+703927
+
+| 2011-20 Journey
+
+Locks not available from Strattec
+
+703927
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+CHRY-DODGE-JEEP - 45
+GEG SECTION ts et
+
+M 1-2618
+
+| stve | carp# | ime | macs | Start Cut | CuttoCut | AirBags | Ign Retainer
+Dbl Sided SS
+
+MASTER
+KEYS >
+
+This model uses a GEN4 Proximity remote. Check with dealer for correct part # by VIN
+
+Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 = Reader. Y157 Cobra: KDC8
+
+INFO
+
+- Some models starting in 2018+ will require a "Gateway" bypass cable to program Prox Remotes.
+« Check with key programmer supplier. : : =
+
+2013-17
+Viper (Dodge)
+
+Prox Fob: Dge# 05035188AB (2013-14) FCC: M3N-40821302 | 433 MHz
+
+Prox Fob: Dge# 05035395AA (2015-17) FCC: M3N-40821302 | 433 MHz
+
+2011-21
+Charger
+(Dodge)
+
+Prox Fob: Dge# 68051387AH, 68060750AH or ILCO# PRX-CHRY-4B6 (2011-18) (4 Btn) FCC: M3N40821302 | 433
+
+_| Prox Fob: Dge# 05026676AH or ILCO# PRX-CHRY-5B5 (2011-18) (5 Btn w/Rmt Start) FCC: M3N40821302 | 433
+
+Prox Fob: Dge# 68051387AH (2019-21, 4 Btn, Police Pusuit) FCC: M3N40821302 | 433 MHz
+
+Prox Fob: Dge# 68394195AA (2019, 5 Btn) FCC: M3N40821302 | 433 MHz = =
+
+Prox Fob: Dge# 68234957AA (‘15-18 SRT, BLK) 6 Btn w/Rmt Start) FCC; M3N40821302 433 MHz
+
+Prox Fob: Dge# 68234959AA (‘15-18 SRT, RED) (5 Btn w/Rmt Start) FCC: M3N40821302 | 433 MHz
+
+WVL2z00¢89
+
+¢ a _ SPACING To |= | pepTas
+2 1 2 3 4 5 6 =F 76 rg 1 = 340
+m : 092 2 = .315
+go 944 849 15t .665 FS) 481 rea 297 | 3=.290 |
+A Cam Carriag Sos %
+
+c E : arriage: me : K-C!
+= Curtis Clipper: CHRY-5 CHRY-5A Pak-A-Punch: : PAK-C5
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .310 ==
+46 - CHRY-DODGE-JEEP ~ = : == = : ©1994, 2021 AutoSmart™ by Michael Hyde-
+
+peeeeweoae'eeeeee
+
+)
+
+)
+
+,»@0e'e@ 6 6
+
+)
+
+)
+eeoeeee ec
+
+@9e2@@eoeoeee@e@es8 68 06 @«
+
+Chip: Philips 46 Reusable: Yes
+
+Transponder: Proximity
+
+> Mike's Tip: GEN4 System - Key Programmer & PIN Required. Test key is Y157 / Y159.
+
+Factory Tool PIN CODE
+
+REQUIRED (? TCODE/MVP. PRO (? TDB1000 ¢ HOTWIRE
+
+YAGNOdSNVUYL
+
+MicroPod
+wilTECH®
+
+PIN Needed [v SMART PRO [v AUTO PRO PAD (v AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No Codes on any locks.
+
+_ Decoders: Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock for a working key.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set TO-93.
+
+Method #3 Remove a door or trunk cylinder and decode it. Once you have those seven cuts you will have a working key.
+
+> Ignition (no lock)
+> Doors
+> Trunk
+
+Q
+
+=|
+D oS : ees
+= 2012-21 Charger Locks not available from Strattec 703927
+a }20n Charger = = = = — | 706183 | 703927
+© | 2013-17 Viper Locks not available from Strattec 703927
+
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 47
+DGE-4 SECTION
+
+H1Ld3G0 8 A0VdS
+
+MASTER
+KEYS >
+
+CODES |
+M 14-2618
+
+STYLE
+Dbl Sided
+
+€X102
+
+69 2
+
+| carD# | iTL# | MACs | StartCut | CuttoCut | Air Bags
+310 092
+
+| ign Retainer
+
+None
+
+Yes
+
+This model uses a GEN4 Proximity remote. Check with dealer for correct part # by VIN
+
+Determinator: CHR 2
+
+Lishi: CY24
+
+AccuReader: CHRY 8
+
+EEZ Reader: Y157
+
+Cobra: KDE8
+
+- Some models starting in 2018+ will require a “Gateway” bypass cable to program Prox Remotes.
+
+a Check with key programmer supplier.
+Prox Fob: Dge# 68066349AG or ILCO# PRX-CHRY-3B3 (3 Btn) FCC: M3N-40821302 | 433 MHz
+Bundd Prox Fob: Dge# 68066350AG or ILCO# PRX-CHRY-4B5 (4 Btn, w/Rmt Start) FCC: M3N-40821302 | 433
+oe Prox Fob: Dge# 68150061AC or ILCO# PRX-CHRY-5B4 (5 Btn, Rmt Start & Liftgate ) FCC: M3N-40821302 | 433
+Prox Fob: Dge# 56046954AF (3 Btn) FCC: GQ4-54T | 433 MHz
+2013-21 :
+RAM P/U Prox Fob: Dge# 56046956AG (4 Btn w/Rmt Start) FCC: GQ4-54T | 433 MHz
+Older Design | prox Fob: Dge# 68159656AG (4 Btn, Air Susp) FCC: GO4-54T | 433 MHz
+tLe Prox Fob: Dge# 68159657AG (2014+ 5 Btn, Air Susp, Rmt Start) FCC: GQ4-54T | 433 MHz
+
+Vviz200289
+
+et yo
+
+Code Series: M001-M2618
+
+Bow SPACING. Tip DEPTHS
+1 2 3 4 5 6 7) Pulte Fy 325 -
+tee
+=_ 092 =
+941 | 49 | .757 | .665 | 573 | .481 | .389 | .297 3 = 598
+E 4 =.265
+Curtis Clipper: | £2 Carriage: | pak-A-Punch: | PAK-C5
+* |cury-s | CHRY-5A : | PAK-C5
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .310
+
+48 - CHRY-DODGE-JEEP
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+)
+
+)
+
+)
+
+)
+
+D
+@eeoeoeooegd gc2eeeede@e@e@qeeong@@?@eeee
+
+continued - DGE-4 SECTION
+
+Reusable: No* (*Durango = Yes)
+
+| Chip: Philips 46
+
+> Mike's Tip: GEN4 System - Key Programmer & PIN Required. Test key is ¥157 / Y159.
+
+Transponder: Proximity
+
+YAGNOdSNVUYL
+
+Factory Tool PIN CODE
+
+REQUIRED — (? TCODE/MVP PRO (? TDB1000 (? HOTWIRE
+MicroPod
+wiTECH® PIN Needed [v SMART PRO (v AUTO PRO PAD [v AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No Codes on any locks.
+
+Decoders: Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock for a working key.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set TO-93.
+
+Method #3 Remove a door or trunk cylinder and decode it. Once you have those seven cuts you will have a working key.
+
+> Ignition (no lock)
+O0)/0|}0}0}0/}O} O}j> Doors
+O}0}O/O}0}O{O}> Trunk
+1}2]/3]4/5|6|7]8
+
+IGNLOCK {| DOORLOCK TRUNKLOCK | pin _
+
+n
+; =| Coded | Uncoded| Coded | Uncoded | Coded | Uncoded| KIT
+bas } 2014-21 Durango Locks not available from Strattec 703927
+ro 2013-21 _| Ram Pick Up Locks not available from Strattec 703927
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 49
+DGE-5 SECTION
+
+CODES |
+
+STYLE
+
+| carp# | itL# | macs | Startcut | CuttoCut| AirBags | Ign Retainer
+
+_M 1-2618 Dbl Sided | CX102 | 69 2: 310 ce None
+MASTER FOBIK Remote - Check with dealer for correct part # by VIN
+hee NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: DEALER:
+DGE-POD-KEY | _ BY170-PT Y170-PT BY166-PHT | TPI2CHRI5P1 5909874 see below
+Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 | EEZ Reader: Y157 Cobra: KDC8
+
+2008-21
+
+Caravan
+(Dodge)
+
+Remote Fobik: Dge# 56046707AG or ILCO# POD-LAL-3B1 (2008-19, 3 Btn) FCC: IYZ-COIC | 433 MHz
+
+Remote Fobik: Dge# 56046713AE or ILCO# POD-LAL-5B2 (2008-15, 5 Btn, Pwr Sliders) FCC: IYZ-COIC | 433 MHz
+
+Remote Fobik: Dge# 56046705AG or ILCO# POD-LAL-6BI (2010-19, 6 Btn, Pwr Sliders & Liftgate) FCC: IYZ-COIC | 433
+
+Remote Fobik: Dge# 56046709AG or ILCO# POD-LAL-7B1 (2010-20, 7 Btn, Loaded) FCC: 1YZ-COIC | 433 MHz
+
+PANIC
+
+€V6z862089
+
+Remote Fobik: Dge# 68043587AC or ILCO# POD-LAL-6B1 (2008-10, 6 Btn, Pwr Sliders & Liftgate) FCC: IYZ-COIC | 433
+
+»>0e@@e@o4@ea600608606866868
+
+n
+A) SESGHG | DEPTHS
+= 1 2 3 4 5 6 7 fae : 1 = 340
+m 092 2-= 315
+go 941 -849 157 665 573 481 389 297 3= 290
+i} 4= .265
+it Cam Carriage
+
+so = : arriage: — : 2 z
+= Curtis Clipper: CHRY-5 CHRY-5A Bas eed Fale =! :
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .310
+
+50 - CHRY-DODGE-JEEP
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+»@6 6
+
+> ee
+
+)
+@2e@e@@66eeé
+
+@9e@ @O@ee@e@e@e@e@teee*«
+
+continued - DGE-5 SECTION
+
+Reusable: No (Must be Unlocked)
+
+Transponder: Yes Chip: Philips 46
+
+> Mike's Tip: FOBIK System - Key Programmer & PIN Required. Test key is Y157 / Y159.
+
+*4 - Requires Internet Access to complete cloning. *2- Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+(DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( L.D. )\( scorpio \( wo)
+= yo CNg900 RW4 | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE | | TANGO | | MINI TOOL
+= M1 Yes M1 Yes? M7 Yes? M1 Yes? VJ © Yes? 1 Yes? © Yes
+- Green Chip CN3 & Shell EH3-P & “T” TPX4 & GK100 / TK100 Most Chips Most Chips VVDI Chip &
+oO & Shell Blade Y170Shell | | &Y170Blade | | &Y170Shell | | &Y170Shell | | Y170 Shell
+a
+2 =
+m =
+A
+
+gnostic Tools
+
+(Factory Tool ) ( PINCODE )
+REQUIRED
+¥ TCODE/MVP PRO| | Vv TDB1000 Y HOTWIRE
+MicroPod [v1] Yes
+wilTECH® ini
+4-digit (v SMART PRO [v AUTO PRO PAD [v AUTEL IM608
+PIN Needed
+Ae {= Z
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set TO-93.
+Method #3 Remove a door or trunk cylinder and decode it.
+> Ignition (Fobik)
+O} O|> Doors
+| O|> Trunk (if equipped)
+718
+
+n iGNLock | DooRLOcK | TRUNKLOCK | pin
+=a Coded | Uncoded | Coded | Uncoded | Coded | Uncoded | KN
+= 2011-21 Caravan -| Locks not available from Strattec 703927
+e ] 2008-10 Caravan — Fobik Ignition - 704275 706371 Liftgate 703927
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 51
+DGE-6 SECTION
+
+| stv.e | caro# | im# | macs | StartCut | CuttoCut | Air Bags | ign Retainer
+
+M1-2618 Dbl Sided CX102 69 Zz =210 3- 092 — Yes “None
+MASTER FOBIK Remote - Check with dealer for correct part #-by VIN
+KEYS > NATIONAL: KEYLINE: ILCO: = — JMA: STRATTEC: ’ DEALER:
+DGE-POD-KEY | _ BY170-PT Yi70-PT | BYI66-PHT | TPI2CHRISPI 5909874 see below
+Determinator: CHR 2 Lishi: C¥24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDG8
+
+Fobik: Dge# 05026886AK or ILCO# POD-LAL-4B1 (2008-10, 4 Btn, Basic Fobik) FCC: IYZ-COIC | 433 MHz
+
+2008-14 Fobik: Dge# 05026567AK (2008-09, 4 Btn, Keyless Go) FCC: IYZ-COIC | 433 MHz
+
+Challenger _| Fobik: Dge# 05026457AK (2009, 5 Btn, Keyless Go, Rmt Start) FCC: IYZ-COIC | 433 MHz
+
+(Dodge)
+
+Fobik: Dge# 56046695AG (2010-14, 4 Btn, Keyless Go) FCC: IYZ-COIC | 433 MHz
+
+Fobik: Dge# 56046694AG (2010-14, 5 Btn, Keyless Go, Rmt Start) FCC: IYZ-COIC | 433 MHz
+
+> The Challenger model is sold with different Trim levels. Depending on the Trim level -Some models have a basic
+
+Fobik system and some have “Keyless GO” with a “START” button on dash. Keyless Go system is a Proximity system.
+To program new Prox Fobik remote’s, The “Start Keyless Go button will unsnap to reveal a Fobik ignition switch behind, that
+will allow you to insert the remote for programming. : 2 = - : : ==
+
+PANIC
+
+aVv6c862089
+
+Chip Information& Notes Ss a 2 =
+Transponder: Yes Chip: Philips 46 _ | Reusable: No (Must be Unlocked) —
++ & Mike's Tip: FOBIK System - Key Programmer & PIN Required. Test key is Y157 / Y159.
+a = : = = : ———_— = = = ===
+>=] Cloner Machine Information ee = |
+— (DIAG BOX ) (CHINA) (ILCOISILCA) ( JMAUSA \ ( KEYLINE )( LL.D.) ( SCORPIO )( Wo)
+CLONE ; =
+2 WIZARD CN900 RW4 | TRS-5000/EVO 884 Ultegra MIRACLONE TANGO MINI TOOL
+2 1 Yes M1 Yes? M1 Yes? (Yes? Mw M1 Yes? — Yes? lv] Yes
+rel | Green Chip | | cus shen | | EHP &“T” | | _TPX4 & GK100/TK100 | | Most Chips Most Chips | | VVDIChip & |
+& Sheil = Blade Y170 Shell —& ¥170 Blade ‘| & Y170 Shell | | & Y170 Shell Y170 Shell
+*4 - Requires Internet Accesso complete cloning. oe Requires Philips Crypto Update. “3 - Requires Texas Crypto update.
+> Mike's Tip: No “Keyless GO” Cloning - because it's a Proximity Fob.
+52 - CHRY-DODGE-JEEP =e: ©1994, 2021 AutoSmart™ by Michael Hyde
+
+eee @ 6
+
+)
+
+)
+
+eo.
+
+> ©
+
+)
+
+)
+
+@9eeo 0©e@Ooee@egqge@eeoe@e@e@€@de@ee@e@0e6es8 é¢
+
+continued - DGE-6 SECTION
+
+= ( Factory Tool ) (— PIN CODE 3
+> = REQUIRED
+= (v TCODE/MVP PRO (> TDB1000 (? HOTWIRE
+O MicroPod [VJ Yes
+pay | WITECH® 4-digit (v SMART PRO (v AUTO PRO PAD [v AUTEL IM608
+2 PIN Needed :
+A ES J A
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Code Series: M001-M2618
+
+S Bow : SPACING Tip DEPTHS
+r=! 1 2 3 4 5 6 7 8 one 1 = 340
+m 092 2 = .315
+go 941 .849 757 -665 573 481 .389 297 3 = 290
+au Cam: Carriage:
+ae Curtis Clipper: cuay.é Canny A Pak-A-Punch: | PAK-C5
+=
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .310
+
+> Ignition (Fobik)
+> Doors
+> Trunk (if equipped)
+
+2010-14 Challenger Locks not available from Strattec 703927
+
+= | 2008-09 Challenger Fobik Ignition = 708165 = = 703927
+
+Codes: | No Codes on any locks.
+Decoders: | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set TO-93.
+Method #3 Remove a door or trunk cylinder and decode it.
+@
++
+A
+>
+a4
+=|
+m7
+oO
+
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 53
+DGE-7 SECTION ,
+
+| sTyLe | caRD# | IT
+
+L# | MACS | StartCut | CuttoCut | AirBags | Ign Retainer
+
+M 1-2618 Dbl Sided | C wm | 2 310 =| 092 | Yes. “None
+
+MASTER FOBIK Remote - Check with dealer for correct part # by VIN _
+
+KEYS | national: KEYLINE: ico: eT IMA: STRATTEC: DEALER:
+DGE-POD-KEY BY170-PT Y170-PT BY166-PHT TPIZCHRI5P1 | 5909874 see below
+Determinator: CHR 2 Lishi: cy24 AccuReader: GHRY 8 | EEZ Reader: Y157 Cobra: KDC8
+
+2008-10 Fobik: Dge# 05026886AK or ILCO# POD-LAL-4B1 (2008-10, 4 Btn, Basic Fobik) FCC: IYZ-COIC | 433 MHz
+
+Charger (Dodge) | Fobik: Dge# 05026887AK or ILCO# POD-LAL-5BI (2008-10, 5 Btn, w/Rmt Start) FCC: IYZ-COIC | 433 MHz
+
+2012-16 Fobik: Dge# 56046771AA (2012-16) FCC: M3N32297100 | 433 MHz
+
+fe eee Fobik: Dge# 56046773AA (2012-16, w/Rmt Start) FCC: M3N32297100 | 433 MHz
+
+PANIC
+o
+0
+
+av6c862089
+
+Code Series: M001-M2618 =
+
+7) — : -
+bey Bow SPACING Tip cat DEPTHS
+_ 1 2 3 4 5 6 ee can fl = S40:
+m - : 092 2=.315
+go 941 -849 SL .665 573 481 oe .297 3 = .290
+o 4 = .265
+= Cam: Carriage:
+= Curtis Clipper: CHRY-5 CHRY-5. A cone yen PASS
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .310
+
+54 - CHRY-DODGE-JEEP : == =: ©1994, 2021 AutoSmart™ by Michael Hyde
+
+»>@50o0 ©0666 6 6
+
+peeooeaoeso1ecesee se
+@9e@@o@eoee@ee@ede@e@g80ee0e00e 6 deee@ ¢
+
+Transponder: Yes
+
+Chip: Philips 46
+
+Reusable: No (Must be Unlocked)
+
+> Mike's Tip: FOBIK System - Key Programmer & PIN Required. Test key is Y157 / Y159.
+
+YAGNOdSNVYL
+
+achine Information : ae
+
+(DIAGBOX) ( CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LL.D. )( ScorPIO )( wo )
+ee CN900 RW4 _| |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+M1 Yes M1 Yes? M Yes? M1 Yes? wv ©] Yes? I Yes? M Yes
+Green Chip || ons shen | | EHSP&‘T” TPX4 & GK100/TK100| | MostChips | | MostChips | | VVDIChip &
+& Shell Blade Y170Shell | | &Y170Blade | | &Y170Shell | | &Y170Shell | | 170 Shell
+
+“1 - Requires Internet Access to complete cloning. *2- Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+iagnostic Tools
+
+(Factory Tool) ( PINCODE _)
+REQUIRED
+v TCODE/MVP PRO v TDB1000 ¥ HOTWIRE
+MicroPod [Vv] Yes
+wilTECH® re
+4-digit [v SMART PRO (v AUTO PRO PAD (v AUTEL IM608
+PIN Needed
+<= SiS = /
+Codes: | No Codes on any locks. :
+Decoders: | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set TO-93.
+Method #3 Remove a door or trunk cylinder and decode it.
+
+> Ignition (Fobik)
+1 |> Doors
+C1 |> Trunk (if equipped)
+
+‘OaLLVeLS:
+
+_tentock | _poortock | Trunktock |
+‘Coded | Uncoded| Coded | Uncoded | Coded
+2008-10 Charger Locks not available from Strattec 703927
+2012-16 Dart Locks not available from Strattec 703927
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+CHRY-DODGE-JEEP - 55
+DGE-8 SECTION
+
+CODES
+
+| sTyLe | caRD# | imL# | macs | Startcut | cutt
+
+oCut | Air Bags |
+
+Ign Retainer
+
+‘M1-2618 Dbl Sided | CX102 | 69 2 eee None
+MASTER FOBIK Remote - Check with dealer for correct part # by VIN
+KEYS > NATIONAL: KEYLINE: ILCO: JET= JMA: STRATTEC: DEALER:
+DGE-POD-KEY BY170-PT Y170-PT BY166-PHT TPI2EHRI5SP1 5909874 see below
+Determinator: CHR2 — | Lishi:CY¥24 | AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+Always check with the dealer for the correct FOBIK Remote Fob by VIN number.
+2009-10 - -
+
+Journey & 2008 _| Fobik: Dge# 05026376AG or ILCO# POD-LAL-3B1 (3 Btn) FCC Info: 1YZ-COIC | 433 MHz ©
+
+Magnum (Dodge)
+
+Fobik: Dge# 05026378AN or ILCO# POD-LAL-4B2 (4 Btn, Rmt Start) FCC Info: IYZ-COIC | 433 MHz
+
+Fobik: Dge# 56046953AG (13-19, 3 Btn) FCC Info: GQ4-53T | 433 MHz
+
+2009-21 Fobik: Dge# 56046955AG or ILCO# POD-LAL-4B4 (13-19, 4 Btn w/Rmt Start) FCC Info: GQ4-53T | 433
+RAM P/U =m e 4
+: Fobik: Dge# 68159654AG or ILCO# POD-LAL-5B5 (13-18, 5 Bin, Air Susp, Rmt Start) FCC: GQ4-53T | 433 _
+Older Design == [= — ==
+(Dodge) Fobik: Dge# 56046638AG or ILCO# POD-LAL-3B1 (09-12, 3 Btn) FCC Info: IYZ-COIC | 433 MHz
+
+Fobik: Dge# 56046639AG or ILCO# POD-LAL-4B2 (09-12, 4 Btn with Rmt Start) FCC: IYZ-COIC | 433 MHz
+
+| €W62862089
+
+Chip Information & Notes
+
+Transponder: Yes Chip: Philips 46
+
+Reusable: No (Must be Unlocked)
+
+~~ Bae = =
+
+bol > Mike's Tip: FOBIK System - Key Programmer & PIN Required. Test key is Y157 / Y159.
+
+—3——$______________ a
+
+>4| Cloner Machine Information = a
+
+(¢p) = —_— ——
+
+0 ao
+
+re} (DIAG BOX) ( CHINA ) (ILCO/SILCA) ( JMAUSA ) ( KEYLINE )( LD. )( scorPiO )( ol)
+
+>a | CLONE aa :
+
+Sy |_wizarD CN900 | RW4 TRS-5000/EVO| | 884 Ultegra | | MIRACLONE | | TANGO _| | MINI TOOL
+
+Be | Yes M1 Yes? M1 Yes* M1 Yes? vy M1 Yes? 7 Yes? (VJ Yes
+Green Chip | | ons & Shell EH3-P&‘T”| | TPXx4& | | GK100/TK100| | Most Chips | | Most Chips | | VVDIChip &
+
+& Shell | Blade v170Shell_| | &Y170Blade | | &Y170Shell | | &Y170Shell | | 170 Shell
+
+*4 - Requires Internet Access to complete cloning. 125 Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+56 - CHRY-DODGE-JEEP
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+(>o@6 8 ©
+
+»''@
+
+»>@¢6e
+
+)
+@©eeeee
+
+oe@e@gegee0e90i¢
+
+€
+
+® 0@ 0@0e «4
+
+a Factory Tool )
+
+MicroPod
+wilTECH®
+
+( PINCODE )
+REQUIRED
+
+[v1 Yes
+
+YAGNOdSNVYL
+
+4-digit
+PIN Needed
+
+JX J
+
+[v TCODE/MVP PRO
+
+(v TDB1000
+
+(v HOTWIRE
+
+[v SMART PRO
+
+[v AUTO PRO PAD
+
+(v AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Code Series: M001-M2618
+
+oT Bow SPACING Tp
+
+= 1 2 3 4 5 6 7 8 ake
+- 941 | .249 | .757 | .665 | 573 | 481 | .389 | .297 | -992
+Oo
+
+: Curtis Cli | | Cam: Carriage: ;
+
+= urtis Clipper: CHRY-5 CHRY-5A Pak-A-Punch: | PAK-C5
+
+DEPTHS
+1 = .340
+2=.315
+3 = .290
+4= 265
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .310
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set T0-93.
+Method #3 Remove a door or trunk cylinder and decode it.
+
+O}O}o;o0/o/o0/}o0
+O|O/O}oO|o/o}o
+21/3|4|5|6/7/8
+
+> Ignition (Fobik)
+> Doors
+> Trunk (if equipped)
+
+Model _
+
+eo eyes Coded | Uncoded 7
+
+. 2009-10 —_| Journey Fobik Ignition not listed 709336 Liftgate | 703927
+
+BEE 2008 Magnum Fobik Ignition - 708165 - - 703927
+
+5 2011-19 RAM P/U Locks not available from Strattec 703927
+2009-10 RAM P/U Fobik Ignition 703691 708553 - _ 703927
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+CHRY-DODGE-JEEP - 57
+DGE-9 SECTION
+
+| styte | caRp# | !TL# | macs | Startcut | Cuttocut| AirBags | Ign Retainer
+
+M 1-2618 Dbl Sided None
+MASTER FOBIK Type Remote - Check with dealer for correct part # by VIN
+KEYS > NATIONAL: — KEYLINE: ILCO: JET: JMA: STRAHEC: DEALER:
+DGE-POD-KEY | BY170-PT Y170-PT BY166-PHT | TPIZCHRI5P1 5909874 ~ see below
+Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 | EEZ Reader: Y157 Cobra: KDC8
+For models with "Keyless Go” which is a Proximity system.
+2011-13 > To program new Prox Fobik remote’s, The “Start” Keyless Go button will unsnap to reveal a Fobik
+Durango (Dodge) ignition switch behind, that will allow you to insert the remote for programming. POD emergency
+
+with KEYLESS GO_ | keys are not recommended for this type of system.
+Prox Fobik: Dge# 05026538A! 6 Btn) FCC Info: YZ-COIC | IC: 2701A-COIC | 433 MHz
+
+For models with FOBIK system. (Non Proximity)
+
+mitt Fobik: Dge# 05026542Al or ILCO# POD-LAL-3B1 (2011-13, 3 Btn) FCC Info: IYZ-COIC | 433 MHz
+Durango (Dodge)
+
+with FOBIK Fobik: Dge# 05026378AN or ILCO# POD-LAL-4B2 (4 Btn, w/Rmt Start) FCC: IYZ-COIC | 433 MHz —
+
+Fobik: Dge# 05026537AD (2011-12, 5 Btn, Pwr Rear, Rmt Start) FCC Info: IYZ-COIC | 433 MHz
+
+dyv6z86zog9
+
+ee@8@
+
+»@ @
+
+Chip Information & Notes
+
+Transponder: Yes Chip: Philips 46 Reusable: No (Must be Unlocked)
+
+Je ve ee
+
+aa] > Mike's Tip: FOBIK System - Key Programmer & PIN Required. Test key is Y157 / Y159.
+>) — ~ rn -
+5-5] Cloner Machine Information | : :
+Zz : == =e =
+<i! “DiaG BOX) (_ CHINA) (1LCOISILCA) ( JMAUSA ) ( KEYLINE ) (__L.D.__) (_ SCORPIO.) (__wol_)
+(e) CLONE : == = |
+= WIZARD CN900 RW4 TRS-5000/EVO 884 U Itegra MIRACLONE TANGO MINI TOOL
+S lv] Yes 1 Yes? M1 Yes? M Yes? Mw M1 Yes? M1 Yes? 1 Yes
+A Green Chip CN3 & Shell EH3-P & “T” | TPX4 & GK100 / TK100 Most Chips | | Most.Chips WDI Chip & |
+& Shell : Blade Y170 Shell | | & Y170 Blade & Y170 Shell & Y170 Shell Y170 Shell
+*4 - Requires Internet Access to complete pring ie ss Philips Crypto Update. *3 - Requires Texas Crypto update.
+> Mike's ed No “Keyless GO” Cloning - because it’s a 2 Proximity Fob.
+58 - CHRY-DODGE-JEEP z ©1994, 2021 AutoSmart™ by Michael Hyde
+
+)
+
+)
+
+>
+
+)
+
+)
+
+)
+
+)
+@eeoe;eoedodod@e@e@eoeoe@e@egeoe@ede@eg e088 «
+
+= (Factory Too! Eo PIN CODE =
+> REQUIRED
+Zz ( TCODE/MVP PRO [v TDB1000 (> HOTWIRE
+2)
+a | MicroPod [v] Yes
+BSS | witecHe | | aa
+z 4-digit Vv SMART PRO v¥ AUTO PRO PAD ¥ AUTEL IM608
+Oo PIN Needed
+m
+A ES DX /
+
+continued - DGE-9 SECTION
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Code Series: M001-M2618
+
+2 Bow SPACING Tip DEPTHS
+> Cut to aS
+ra 1 2 3 4 5 6 7 8 Cut: x = =
+m .092 ae
+90 941 .849 157 665 573 -481 .389 297 3= 290
+Oo 4= .265
+2 Cam Carriage
+uU == 4 : : : =
+= Curtis Clipper: CHRY-5 CHRY-5A Pak-A-Punch: | PAK-C5
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first-cut at.310
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set T0-93.
+
+Method #3 Remove a door or trunk cylinder and decode it.
+
+> Ignition (Fobik)
+1 |> Doors
+(1 |> Trunk (if equipped)
+
+IGNtock = [ _ TRUNKLOCK |
+
+= : “Coded | Uncoded | Coded
+
+ia 2011-13 Durango : Locks not available from Strattec 703927
+=
+
+mm
+
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 59
+DGE-10 SECTION
+
+itL# | macs | StartCut | CuttoCut | Air Bags
+
+CODES | sTyLe | CARD# | Ign Retainer
+M 1-2618 Dbl Sided | CX102 2 Active
+NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: DEALER: —
+MASTER | CHRY-CAN-KEY | BY165-PT Y164-PT Y165-PHT | TP12-CHRISP| 692352 see below
+KEYS > | Determinator: CHR 2 Lishi: CY24 AccuReader. CHRY8 _| EEZ Reader: Y157 Cobra: KDC8
+
+Dealer remote key-may be needed to shut off the factory alarm - before key programming is possible.
+
+=> Mike's Tip: Remote Key was Optional on these models based on the Trim Level.
+
+> Remote Key; 68273329AA or ILCO# RHK-CHRY-4B1 (2008-14, 4 Btn) FCC Info: OHT692714AA | 315 MHz
+
+Nitro (Dodge)
+
+2008-14
+Avenger (Dodge) —_| .. Remote Key: 68273345AA or ILCO# RHK-CHRY-5B2 (08-14, 5 Btn w/Rmt Start) FCC: OHT692714AA | 315
+noneas > Remote Key: 68001705AB or ILCO# RHK-CHRY-3B! (3 Btn) FCC Info; OHT692713AA | 315 MHz
+Calitper (Dodge) | , Remote Key: 68026372AB or ILCO# RHK-CHRY-4B5 (4 Btn, w/Rmt Start) FCC: OHTE92713AA | 315 MHz
+oa > Remote Key: 68001705AB or ILCO¥ RHK-CHRY-aB1 (3 Btn) FCC Info: OHTE9Z7I3AA | 315 MHZ
+
+> Remote Key: 68026372AB or ILCO# RHK-CHRY-4B5 (4 Btn, w/Rmt Start) FCC: OHT692713AA | 315 MHz
+
+> eB 6 6 6 6618 ¢ 6.6 6
+
+Chip Information & Notes —
+
+Transponder: Yes
+
+=
+
+A = = = =
+
+> ee :
+
+za ==
+
+O ===
+
+eS (DIAG BOX | (CHINA) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LD. ) ( SCORPIO )( wo)
+
+: See CN900 RW4 TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO | | MINI TOOL
+
+= M1 Yes Yes? M Yes* M1 Yes? vi Wes? _ Yes? M7 Yes
+
+ell | Green Chip | | cys g show | | EHP & “A” TPX4 & GK100/TK100| | Most Chips | | Most Chips | | woIChip & | |
+& Shell Blade Y160 Shell | | &Y460Blade | | &Y160Shell | | &Y160Shell | | Y%60 Shell
+
+“4 - Requires internet Access to complete cloning. "2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+60 - CHRY-DODGE-JEEP
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+)
+
+)
+
+)
+®@9@ee@eooee?eeoo0e8dedeeedogeoeeed@eed sé
+
+conti
+
+nued - DGE-10 SECTION
+
+== (Factory Tool ) ( PINCODE
+> : REQUIRED
+Zz DRB
+
+Bees
+
+5 StarScan [v1 Yes
+
+= MicroPod 4-digit
+
+4 wiTECHe PIN Needed
+A Bs goa =
+
+(
+
+TCODE/MVP PRO
+
+(v TDB1000
+
+[v HOTWIRE
+
+(v
+
+SMART PRO
+
+(v AUTO PRO PAD
+
+[v AUTEL IM608
+
+Code Series: M001-M2618
+
+° SiS DEPTHS
+> Cut to
+
+5 1 2 3 4 5 6 7 8 nue 1 = 340
+m 092 2=.315
+go 941 -849 757 665 573 481 389 297 : 3 = 290
+oO 4= .265
+i Cam: Carriage:
+
+= Curtis Clipper: CHRY-5 CHRY-5A Pak-A-Punch: | PAK-C5
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at 310
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock and progression the remaining cut for the ignition.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set T0-93.
+
+Method #3 Remove a door or trunk cylinder and decode it and progression the remaining cut for the ignition.
+
+O/O/O|0)0)0)0}>
+O/O,O;O;O,;0O/0}
+O/O}O/O,0|0)\0)>
+2131415) 6) 72 8
+
+Ignition
+Doors
+Trunk (if equipped)
+
+o 2
+a | 2012-14 Avenger No listing from Strattec 703927
+2 2008-11 Avenger _ 708742 _ 708165 = 703927
+B 2010-12 Caliber _ 708742 — - - 703927
+fe) 2007-09 Caliber — 708742 708163 / 708165 709307 103927
+2007-11 Nitro - 708742 = 703327 _ 703927
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+CHRY-DODGE-JEEP - 61
+-DGE-14 SECTION
+
+| carp# | itL# | macs | StartCut | CuttoCut| Air Bags
+-Cx102
+
+| Ign Retainer
+
+Active
+
+| STYLE
+Dbl Sided
+
+M 1-2618
+
+DEALER:
+_ see below
+
+= STRATTEC:
+692352-
+
+NATIONAL:
+CHRY-CAN-KEY
+
+KEYLINE:
+BY165-PT
+
+ILCO: JEI: JMA:
+YI64-PT Y165-PHT | TP12-CHRI5P.
+
+MASTER
+KEYS >
+
+EEZ Reader: Y157
+
+Determinator: CHR 2 Lishi: CY24 _ AccuReader: CHRY 8 Cobra: KDC8
+
+Dealer remote key may be needed to shut off the factory alarm - before key programming is possible.
+
+> Some Durango’s have a remote head key but no transponder. The part number for the
+_transponder model and non-transponder models can be different. Always see if a regular metal a will start
+the vehicle to see whether is has transponder system or not. Don't be fooled by the Remote Head Key.
+2004-2005 Only: In an emergency - you could use a new remote head key from another vehicle if you need
+to start a transponder equipped ‘04-'05 Durango, however “remote” function will not work.
+
+Remote Key: Dge# 05179513AB or ILCO# RHK-CHRY-3B1 (2004-05, 3 Btn) FCC: OHT692714AA [315 MHz
+> Models using this Key now come with a warning to not install the battery until the key has been programmed.
+
+Remote Key: Dge# 05183348AB or ILCO# RHK-CHRY-3B2 (2004-07, 3 Btn) FCC: KOBDTO4A | 315 MHz
+
+2004-09
+Durango
+(Dodge)
+
+Remote Key: Dge# 68002316AB (2007- 09, 4 Btn, Rmt Start) FCC: KOBDTO4A | 315 MHz
+
+Remote Key: Dge# 05179512AB or ILCO# RHK-CHRY-4B2 (2006-09, 4 Btn, Liftgate) FCC: KOBDTO4A [a
+> Models using this Key now come with a warning to not install the battery until the key has been programmed.
+
+Rmt Key: 68273345AA or ILCO# RHK-CHRY-5BI (2006-09, 5 Btn, Rmt Start, Liftgate) FCC: OHT692714AA
+
+Chip Information& Notes
+Chip: Philips 46
+
+Transponder: Yes
+
+= > Mike's Tip: Key Programmer & PIN Required. Test key is Y157 / Y159.
+p> ees = — = = - = = = = = = c= =
+_ Cloner Machine Information eS -
+
+OS (DIAG BOX) (CHINA ) (ILCO/SILCA) ( JMAUSA )( KEYLINE )( L.D. )( SCORPIO )( wo)
+Z Soe CN900 RW4 TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+m ae “MYes* | | Yes? (Yes? wm 1 Yes? M1 Yes? M1 Yes
+
+Green Chip || onze snen | | EHSP&°A"| | _TPXA8 _| | Gk100/7K100 | | Most Chips | | Most Chips | | VVDIChip &
+
+& Shell Blade Y160Shell | | &Y160Blade | | &Y160Shell | | &Y160Shell | | 160 Shell
+
+™ - Requires internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+pe5aoeo5a5ue5ee
+
+62 - CHRY-DODGE-JEEP
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+»>@ee00
+
+»>©@0e2Ce86086
+
+)
+
+)
+
+@#e@eeo 0008080800606 4
+
+eo @@e ¢
+
+® @ 08 @ ¢
+
+continued -DGE-11 SECTION
+
+( PINCODE )
+
+=
+
+MicroPod
+wiTECH®
+
+=
+ys)
+>
+z
+=, StarS
+tarScan
+e)
+za
+Oo
+m
+Pe)
+
+REQUIRED
+
+[Vv] Yes
+
+4-digit
+PIN Needed
+we =,
+
+(v TCODE/MVP PRO
+
+(v TDB1000
+
+(v HOTWIRE
+
+(v SMART PRO
+
+[v AUTO PRO PAD
+
+(v AUTEL IM608
+
+Code Series: M001-M2618
+
+MT Bow SPACING Tip ae
+= 1 2 3 4 5 6 7 8 pare 1 = 340
+m 092 2= .315
+90 941 .849 ASE 665 7S) 481 .389 297 3 = 290
+Oo 4= .265
+m :
+3 Curtis Clipper: a Ss = Pak-A-Punch: | PAK-C5
+ae
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .310
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock and progression the remaining cut for the ignition.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set T0-93.
+
+Method #3 Remove a door or trunk cylinder and decode it and progression the remaining cut for the ignition.
+
+0/0/0/10/}0|0]0)> Ignition
+O/0/}0/}0}] Oj] )|> Doors
+O|O}O}0O} 0] 0] O}> Trunk (if equipped)
+213/4/5|/6}718
+
+IGN LOCK
+
+[coset Toncans |
+
+“ 2008-09 Durango 704650C | 704650 = 708553 = 703927
+= 2007 Durango 704650C | 704650 _ 708553 702785 703927
+on | 2005-06 Durango 704650C | 704650 | 703691 708553 702785
+
+e) 2004 Durango 704650C | 704650 | 703691 706400 702785 703927
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+CHRY-DODGE-JEEP - 63
+DGE-12 SECTION
+
+| sTYLE | carp# | irL# | MACS | Startcut | CuttoCut | AirBags | Ign Retainer
+
+ M1-2618 Dbl Sided CX102 69 2 = 210 .092 Yes- Active
+MASTER : NATIONAL: KEYLINE: ILCO; JET: JMA: © STRATTEG: DEALER:
+evs CHRY-CAN-KEY BY165-PT Y164-PT Y165-PHT__| TP12-CHRI5P 692352 : see below
+Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 —_| Cobra: KDC8
+Dealer remote key may be needed to shut off the factory alarm —before key programming is possible.
+
+Remote Key: Dge# 05179513AB or ILCO# RHK-CHRY-3B2 (3 Btn) FCC Info: KOBDTO4A | 315 MHz ~
+2005-07 _ > Models using this Key now come with a warning to not install the battery until the key has been programmed.
+
+Charger (Dodge) | Remote Key: Dge# 05179512AB or ILCO# RHK-CHRY-4B2 (4 Btn, w/Trk Release) FCC: KOBDTO4A | 315
+
+> Models using this Key now come with a warning to not install the battery until the key has been programmed.
+
+Remote Key: Dge# 68001705AB or ILCO# RHK-CHRY-3B1 (3 Btn) FCC: OHT692713AA | 315 MHz
+
+2005-07 : = - : = ——
+Magnum (Dodge) Remote Key: Dge# 05179512AB or ILCO# RHK-CHRY-4B2 (4 Btn, w/Trk Release) FCC: KOBDTO4A | 315 —
+> Models using this Key now come with a warning to not install the battery until the key has been programmed.
+
+| Chip Information & Notes _
+
+Transponder: Yes : -| Chip: Philips 46 == Reusable: No (Must be Unlocked) ~~
+
+»@
+
+»@°e
+
+ear] > Mike's Tip: Key Programmer & PIN Required. Test key is Y157 /Y159.. =
+oe = == ==> a ae = — == -
+>=) Cloner Machine Information - =o: 2 5
+= esiecaveieedene : = ——{
+4 (DIAG BOX) (CHINA ) ({LCOISILCA) ( JMAUSA \ ( KEYLINE )( LD. ) ( SCORPIO )( Wwol
+oO CLONE : =
+4 WIZARD CN900 RW4 TRS-5000/EVO 884 Ultegra: MIRACLONE TANGO E MINI TOOL
+= M1 Yes MW Yes? M1 Yes? Yes? Mw MI Yes? M1 Yes? M Yes
+A Green Chip CN3 & Shell EH3-P & “A” TPX4 & GK100 / TK100 Most Chips—|-| Most Chips | | VVDI Chip & |
+& Shell Blade Y160 Shell & Y160 Blade & Y160 Shell & Y160 Shell Y160 Shell
+*{ - Requires Internet Access to complete cloning. *2 - Requires Philips Crypto Update. “3 - Requires Texas Crypto update.
+64 - CHRY-DODGE-JEEP : : ©1994, 2021 AutoSmart™ by Michael Hyde
+
+> @
+
+) pee e50eee0@ )
+
+)
+
+>
+@©@e2@@e0@e0eeeeoeeneeegdeeoee eed @ a
+
+continued - DGE-12 SECTION
+
+= (Factory Tool ) ( PINCODE )
+
+> : REQUIRED
+
+2 DRB (- TCODE/MVP PRO (v TDB1000 (v HOTWIRE
+Bs StarScan [VJ Yes
+
+ra | MicroPod 4-digit (v SMART PRO [v AUTO PRO PAD (v AUTEL IM608
+wiTECHe PIN Needed
+
+A EES yo =,
+
+Code Series: M001-M2618
+
+SPACING DEPTHS
+1 2 3 4 5 6 7 8 Cutto= | 4-340
+= Cut: :
+092 2=.315
+941 | .849 | .757 | .665 | .573 | .481 | .389 | .297 : 3 = 290
+
+4 = .265
+
+Cam: Carriage:
+
+CHRY-5 CHRY-5A Pak-A-Punch: | PAK-C5
+
+Curtis Clipper:
+
+Hidad 8 A0VdS
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at 310
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock and progression the remaining cut for the ignition.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set 10-93.
+Method #3 Remove a door or trunk cylinder and decode it and progression the remaining cut for the ignition.
+
+O0/}0/0}0/0} 0} }> Ignition
+0}0/O0|0|0}0/O }> Doors
+0O/}0/0}0/|0}0)}]O}> Trunk (if equipped)
+/2/3/4|5/6}71/8
+
+IGNLOCK | DOORLOCK TRUNKLOCK | pin
+
+wn
+
+; = Charger 703719C | 702418 = 708165 706183 703927
+a 2005-07 Magnum 703719C | 702418 = 708165 - 703927
+
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 65
+DGE-13 SECTION
+
+| STYLE
+Dbl Sided
+
+M 1-2618
+
+| carp# | ITL# | macs | StartCut | CuttoCut| AirBags | Ign Retainer
+Cx102 | 69
+
+Z
+
+Active
+
+310 092 Yes
+
+KEYLINE:
+BY165-PT
+
+NATIONAL:
+CHRY-CAN-KEY
+
+MASTER
+KEYS >
+
+ILCO:
+Y164-PT
+
+JET:
+Y165-PHT
+
+DEALER: —
+see below
+
+STRATTEC:
+692352
+
+JMA:— —
+TP12-CHRI5P
+
+Determinator: CHR 2
+
+Lishi: CY24
+
+AccuReader: CHRY 8
+
+EEZ Reader: Y157 Cobra: KDC8
+
+Dealer remote key may be needed to shut off the factory alarm =before key programming is possible.
+
+2005-11
+Dakota
+
+> Some Dakota's have a remote head key but no transponder. The part number for the transponder
+model and non-transponder models can be different. Always see if a regular metal key will start the
+vehicle to see whether is has transponder system or not. Don't.be fooled by the Remote Head Key.
+
+(Dodge) -
+
+Remote Key: Dge# 68001705AB or ILCO# RHK-CHRY-3B1 (3 Btn) FCC Info: OHT692713AA | 315 MHz
+
+2006-12
+
+> Some Ram P/U's have a remote head key but no transponder. The part number for the transpon-
+der model and non-transponder models can be different. Always see if a regular metal key will start
+the vehicle to see whether is has transponder system-or not. Don’t be fooled by the Remote Head.
+
+RAM P/U
+(Dodge)
+
+Remote Key: Dge# 68001705AB or ILCO# RHK-CHRY-3B1 (3 Btn) FCC Info: OHT692713AA | 315 MHz
+
+Remote Key: Dge# 68002316AB or ILCO# RHK-CHRY-4B3 (2007-08, 4 Btn, Rmt Start) FCC: KOBDTO4A
+
+| Chip Information & Notes __
+
+Transponder: Yes
+
+Chip: Philips 46
+
+Reusable: No (Must be Unlocked)
+
+ey) > Mike's Tip: Key Programmer & PIN Required. Test key is Y157 / Y159.
+
+>) me sneennn ene = : - =——
+
+p=) Cloner Machine Information -
+
+4 (DIAG BOX) ( CHINA ) (ILCO/SILCA) ( JMAUSA | ( KEYLINE )(— L.D. ) ( SCORPIO )( wo!)
+
+fo | CLONE || = S= =
+
+S49 | wizarb CN900 RW4 TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+
+2 M1 Yes M1 Yes? M1 Yes? M1 Yes? Vv _ MW Yes? M7] Yes? M7] Yes
+
+A Green Chip CNB & oe EH3-P-& “A” TPX4 & GK100 / TK100 Most Chips Most Chips VVDI Chip &
+& Shell Blade Y160Shell_| | &Y160Blade | | &Y160Shell | | &Y160Shell | | 160 Shell
+
+— Requires Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+»>6@ 6 8 ©@
+
+> eo
+
+66 - CHRY-DODGE-JEEP
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+1 Oo 03:0 @ 8 '\e"e@
+
+1 @ 6 @
+
+)
+
+)
+@®e@e@e@oeoeoee@eoeoe@ed@ecvoe5@edoee@e@ee?@e@eee
+
+continued - DGE-13 SECTION
+
+Diagnostic Toc
+
+=i] (Factory Tool) (— PINCODE
+
+> REQUIRED
+
+A DRB (v TCODE/MVP PRO (v TDB1000 (v HOTWIRE
+2 StarScan IV] Yes
+
+--4) | MicroPod 4-digit (v SMART PRO [v AUTO PRO PAD (v AUTEL IM608
+S wiTECHe | | PIN Needed
+
+A ES Fo S
+
+Code Series: M001-M2618
+SPACING i DEPTHS
+
+Cut to
+1 2 3 4 5 6 7 8 Cut: 4= 340
+
+092 2=.315
+941 .849 .157 -665 is -481 .389 .297 3= 290
+4 = .265
+
+Cam: _ | Carriage:
+
+cury.s |cHRy.sa | Pak-A-Punch: | PAK-C5
+
+Curtis Clipper:
+
+Hld3ad 8 30VdS
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .310
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock and progression the remaining cut for the ignition.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set T0-93.
+
+Method #3 Remove a door or trunk cylinder and decode it and progression the remaining cut for the ignition.
+
+0/0/0160} 0} Oj O}> Ignition
+O/0/0/}0}0} Oj} O}> Doors
+
+0O}0|0} 0]! | O)> Trunk (if equipped)
+21314;5/617/8] —
+
+2005-11 Dakota Pick Up 704650C | 704650 | 703691 708553 702785* 703927
+: 2006-08 - RAM Pick Up 704650C | 704650 | 703691 708553 702785* 703927
+1 * If equipped.
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 67
+DGE-14 SECTION _
+
+CODES
+
+STYLE
+
+| caRD# | iTL# | macs | StartCut | Cutto Cut | Air Bags | ign Retainer
+
+Dakota (Dodge)
+
+M 1-2618 Dbl Sided | CX102 69 2 310 092 Yes Active
+NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: DEALER:
+MASTER Y160-PT ~ BY160-PT Y160-PT Y160-PHT | TP21-CHR15P 692325 n/a
+KEYS > | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 _| EEZ Reader: Y157 Cobra: KDC8
+=> Mike's Tip: Your vehicle may or may not have a transponder system - See if a mechanical key will start it up?
+=> Mike's Tip: VPW (Type 2 System) PIN Read is cue - depending on the key programmer you are using. —
+2001-04
+
+Fob Remote: Dge# 04686481AF or ILCO# RKE-CHRY-3B1 (3 Btn) FCC Info: GQ43VTI7T | 315 MHz
+
+2001-03
+Durango (Dodge)
+
+Fob Remote: Dge# 04686481AF or ILCO# RKE-CHRY-3B1 (3 Btn) FCC Info: GQ43VTI7T | 315 MHz c
+
+- 2002-05
+RAM P/U (Dodge)
+
+Fob Remote: Dge# 04686481AF or ILCO# RKE-CHRY-3B1 (3 Btn) FCC Info: GQ43VT17T | 315 MHz
+
+pe50oeeee 6 6
+
+2 Chip Information & Notes
+
+Transponder: Optional on-some models
+
+Chip: Texas 4D64 _
+
+oe > Mike's Tip: Key Programmer & PIN Required. Test key is Y157 /Y159.
+
+—+¥—_____—— ——— — -
+
+>a, Cloner Machine Information : 3 Lee
+
+io) =a = = =
+
+o (DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LL.D.) ( SCORPIO )( wo)
+
+Z Eee CN900 RW4 TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+
+= | we =
+
+i MI Yes | Yes? M1 Yes? Yes? = Fal 1 Yes? — 7 Yes? : @] Yes
+Blue Chip& | | ones e snen| | EHS& “A” | | _TPX28 Gk100/TK100 | | Most Chips | | Most Chips | | VDI Chip &
+
+Shell Blade ¥160Shell | | &Y160Blade | | &Y160Shell | | &Y160Shell | | Y160 Shell
+
+68 - CHRY-DODGE-JEEP
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+“1 - Requires Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+‘6’ e168 6:6
+
+)
+
+» ©
+
+»| @
+
+> e
+
+@©9eeee?ed <«
+
+C
+
+©®e@e@o 0€©O@2808O0O8 86 @
+
+( Factory Tool ) CL PIN CODE )
+
++
+
+D REQUIRED
+
+> DART (v TCODE/MVP PRO (« TDB1000 (v HOTWIRE
+DRB
+
+7) [v] Yes
+
+v StarScan i
+
+ro) 4-digit V SMART PRO VY AUTO PRO PAD ¥ AUTELIM608
+
+= MicroPod PIN Needed
+
+m | wiTECHe J | J
+
+=> Mike's Tip: VPW (Type 2 System) PIN Read is possible - depending on the key programmer you are using.
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Code Series: M001-M2618
+° Em SPACING Tip DEPTHS
+a 1 2 3 4 5 6 7 8 ae 1 = 340
+m 092 2=.315
+go 941 -849 AST -665 513 -481 .389 .297 3= 290
+2) 4 = .265
+Be Cam: Carriage:
+= Curtis Clipper: CHRY-5 CHRY-5A Pak-A-Punch: | PAK-C5
+FRAMON: Lay-tip step-clip flat against left side of vise, Set first cut at .310
+
+Codes: | No Codes on any locks.
+
+Decoders: Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock and progression the remaining cut for the ignition.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set T0-93.
+
+Method #3 Remove a door or trunk cylinder and decode it and progression the remaining cut for the ignition.
+
+> Ignition
+> Doors
+> Trunk (if equipped)
+
+qi/0O 7
+4/000
+alioogd
+S10 OO
+S110 oO
+oj000
+
+= 7 2001-04 Dakota Pick Up 704650C | 704650 - 702785 : - 703927
+= 2001-03 Durango | 704650C | 704650 - 702785 702785 703927
+— 2002-06 RAM Pick Up 704650C | 704650 703691 708553 702785 Tailgate 703927
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 69
+DGE-15 SECTION
+
+| ign Retainer
+
+sTYLE | caRD# | 1L# | macs | StartCut | CuttoCut| Air Bags
+
+M 1-2618 Dbl Sided | CX102 2 “Active
+
+NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: ‘DEALER:
+MASTER | _Y160-PT BYI60-PT |  YI60-PT YI60-PHT |TP2I-CHRISP}| 692325 | n/a
+KEYS > | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY8 |EEZReader:Y157 _| Cobra: KDC8
+
+=> Mike's Tip: Your vehicle may or may not have a transponder system - See if a mechanical key will start it up? —
+
+=> Mike's Tip: VPW (Type 2 System) PIN Read is possible - depending on the key programmer you are using.
+
+jatabe Fob Remote: Dge# 04602260AD or ILCO# RKE-CHRY-4B1 (2001-04) FCC Info: GQ43VTI7T | 315 MHz
+
+Intrepid (Dodge) | Fob Remote: Dge# 04602268AC or ILCO# RKE-CHRY-4B2 (1998-00) FCC Info: GQ43VT9T | 315 MHz
+
+2000-05
+
+Neon (Dodge) Fob Remote: Dge# 04759008AF or ILCO# RKE-CHRY-4B2 (4 Btn) FCC Info: GQ43VTST | 315 MHz
+
+4999-06 Fob Remote: Dge# 04602260AD or ILCO# RKE-CHRY-4B1 (2001-06) FCC Info: GQ43VTI7T | SIGMHz
+
+Stratus 4 Dr (Dodge) | Fob Remote: Dge# 4608229AB (1998-00) FCC Info: KYPTO3C9BIA | IC: 2171 102 575 | 315 MHz
+
+04759008AF
+
+4608229AB
+
+PANIC.
+
+Chip Information & Notes =
+
+Transponder: Optional on some models | Chip: Texas 4D64 Reusable: No
+= > Mike's Tip: Key Programmer & PIN Required. Test key is Y157 / Y159.
+> Se : Ss =
+-a, Cloner Machine Information —__ ee =
+yp —_— —S— : = ee a=
+BS (DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LD. ) ( SCORPIO \( wo)
+ag | CLONE — CN900 RW4 TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+Fey |_WIZARD E Z
+n [1 Yes 7] Yes? M1 Yes? M7 Yes? MW M1 Yes? M1 Yes? M Yes
+Blue Chip & CNG64 & Shell EH3 & “A” TPX2 & GK100/TK100 | | Most Chips- Most Chips | wol Chip &
+Shell Blade Y160 Shell —& Y160 Blade & Y160 Shell & Y160 Shell — Y160 Shell
+*4_- Requires Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3.- Requires Texas Crypto-update.
+70 - CHRY-DODGE-JEEP = = : 2 ©1994, 2021 AutoSmart™ by Michael Hyde.
+
+pe@5oae ©
+
+pb o'e @ 6 8 @
+
+» ©
+
+)
+
+18 @'e@' @,
+
+)
+
+#e@e@edeee@eee1eoeee?e@e7dees8 «
+
+@®e oe oe
+
+continued - DGE-15 SECTION
+
+= ( Factory Tool ) ( PIN CODE )
+> DART REQUIRED
+= (v TCODE/MVP PRO (« TDB1000 {v HOTWIRE
+ey DRB
+U [Vv] Yes
+le | StarScan a
+z 4-digit v¥ SMART PRO v AUTO PRO PAD v AUTEL IM608
+a MicroPod | | PIN Needed
+xi \ wITECH® ok eS
+=> Mike's Tip: VPW (Type 2 System) PIN Read is possible - depending on the key programmer you are using.
+
+Code Series: M001-M2618
+
+”
+ej BOW SPACING Tip uae DEPTHS
+= 1 2 3 4 5 6 7 8 cue | 1 = 340
+m 092 2=.315
+go 941 849 Gye -665 573 -481 389 297 3= 290
+A Cam: Carriage:
+= Curtis Clipper: CHRY-5 CHRY-5A Pak-A-Punch: | PAK-C5
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .310
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock and progression the remaining cut for the ignition.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set T0-93.
+Method #3 Remove a door or trunk cylinder and decode it and progression the remaining cut for the ignition.
+
+O/}/0}0/0/}0}0}O}> Ignition
+O}O}0O|0/}O}0}|O]> Doors
+
+0/0) 0} 0} 0} 0] O)J> Trunk (if equipped)
+21314/5/61718
+
+2 J} 1998-04 —_‘| Intrepid 703719C | 702418 704275 702787 703927
+a 2000-05 | Neon 703719C | 702418 a 704275 702797 703927
+= 2001-06 _| Stratus 4 Dr 703719C | 702418 2 704275 706183 703927
+*11999-00 _| Stratus 4 Dr 703719C | 702418 “ 702786 702787 703927
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 71
+-DGE-16 SECTION.
+
+[SSTYLE | CARD# | im# | MACS | Startcut | CuttoCut | AirBags | Ign Retainer
+
+DE1-11210 __| High Security Active
+This model uses a Fiat based Key System. Keys are ordered by VIN.
+MASTER : : :
+KEYS > Determinator: n/a Lishi: SIP22 AccuReader: nla EEZ Reader: n/a — | Cobra: n/a
+
+> Mike's Tip: Key Programmer & PIN Required. Test key is KEYLINE: F122, ILCO: SIP22KP, JMA: FI-46C1
+NOTE: Aftermarket Key Programmers may not work. Check with your tool supplier.
+
+> Mike's Tip: Non-Remote key part# 68224013AA - See FIAT Section more key info.
+
+2017-21
+
+Compass (Jeep) Remote Key: Check with dealer for ees a the VIN.
+
+2015-21 Remote Key: Check with dealer for correct part using the VIN.
+RAM (Dodge)
+Promaster Remote Key: Dge# 68224015AA or ILCO# FLIP- PROMASTER-3B1 FCC Info: RX2TRF198 a! 433 MHz
+2015-21 Remote Key: Check 7 dealer for correct part using the VIN. :
+—RAM (Dodge) -
+
+Promaster City Remote Key: Dge# 68334510AA or ILCO# FLIP-PROMASTERCITY-3B1 FCC Info: RXZTRFI98 | 433 MHz
+
+> Mike's Tip: Some models have optional proximity and some are flip out remote =
+
+2015-21 Remote Key: Jeep# 68296748AA = FCC Info: 2ADFTFISAM4331xX | IC; 12435A-FISAM4331X | 433 MHz
+Renegade
+(Jeep) Prox FOB: Jeep# 6BY88DX9AA (with Rmt Start) FCC Info: M3N40821302 | 433.90 MHz
+
+Prox FOB: Jeep# 6MP33DX9AA (No Rmt Start) FCC Info: M3N40821302 | 433.90 MHz
+
+VVS6S9EE89
+
+s SPACING _ == =2| pepras
+
+a 1 2 3 4 5 6 7G — A= .166—
+m a= 092 B= .135
+
+90 .098 .201 -303 406 508 610 .713 a5 C=.103
+
+iw) : = D=.072
+
+a Cam: Carriage: =
+
+= Curtis Clipper: N/A N/A ro nein NAA
+
+72 - CHRY-DODGE-JEEP = : = ©1994, 2021 AutoSmart™ by Michael Hyde
+
+)
+
+)
+
+—»>e@e eee 0800e ©
+
+> @ @e
+
+»>@©6e@
+
+)
+¢
+
+9 ee *<
+
+¢
+
+YAGNOdSNVUL
+
+Chip Information & Notes
+
+continued - DGE-16 SECTION
+
+Transponder: Yes
+
+Chip: Philips 46
+
+Reusable: No
+
+> Mike's Tip: Key Programmer & PIN Required. Test key is KEYLINE: FT22, ILCO: SIP22KP, JMA: FI-16C1
+
+r Machine Information
+
+(DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LL.D.) ( scorpio )( wo)
+— CN900 RW4 TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+M1 Yes M1 Yes? I Yes? M1 Yes? Mi M1 Yes? 1 Yes? M1 Yes
+Green Chip TPX4 & Gk100/TK100 | | CN3 or TPX4 | | CN3 or TPX4 | | VVDIChip &
+& Shell i Fiat Shell &FiatBlade | | &FiatShell | | & Fiat Shell Fiat Shell
+
+Programmer & Diagnostic Tools
+
+“4 - Requires Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+(Factory Tool) ( PINCODE )
+REQUIRED (; TCODE/MVP PRO (? TDB1000 (2 HOTWIRE
+MicroPod [V] Yes
+wiTECH®e 5 -digit ( SMART PRO (? AUTO PRO PAD € AUTEL IM608
+PIN Needed
+J _) *New OBD System for 2021 Jeep Renegrade - MicroPod required
+
+> Mike's Tip: Key Programmer & PIN Required - ? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No Codes on any locks.
+Decoders: Determinator: n/a Lishi: SIP22 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTE: ALL models are equipped with a Transponder.
+
+Remote key must be ordered from Fiat or Chrysler dealers.
+Test key is KEYLINE: FT22, ILCO: SIP22KP, JMA: FI-16C1
+
+PIN Code is required. PIN Code came with car new, on a small card in the glove box.
+
+0O)0}0/}0/ 0] GO] }> Ignition (if equipped)
+O0;0/0}0|0;0}0)]> Doors
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+CHRY-DODGE-JEEP - 73
+DGE-17 SECTION
+
+CODES
+
+| stve | carp# | iTL# | macs | StartCut | Cuttocut| AirBags | Ign Retainer
+
+M 1-2618 Dbl Sided GXté2 — 69 2 310 .092 Yes Active
+MASTER NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: DEALER:
+¥157 / Y159 BY157 Y157 / Y159 Y157 / Y159 €HR-14 596504 n/a
+KEYS > = :
+Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+=> Mike's Tip: Some vehicles, depending on trim level, may not have had a Wireless Remote Fob from the factory.
+
+1998-00
+
+Fob Remote: Dge# 05014736AA (1996-98, 3 Btn) FCC Info: GQ43VT7T | IC: 1470 K1361 | 315 MHz
+
+Caravan (Dodge)
+
+Fob Remote: Dge# 04686481AC or ILCO# RKE-CHRY-3B1 (1999-03, 3 Btn) FCC: GQ43VTI7T | 315 MHz
+
+1998-00
+
+Fob Remote: Dge# 56045497AC or ILCO# RKE-CHRY-3B2 (1999-00) FCC Info: GQ43VTST | 315 MHz
+
+Dakota (Dodge)
+
+Fob Remote: Dge# 05014736AA (1998) FCC Info: GQ43VT9T | IC: 1470102460 | 315 MHz | MFR: TRW
+
+1998-00
+
+Fob Remote: Dge# 56045497AC or ILCO# RKE-CHRY-3B2 (1999-00) FCC Info: GQ43VT9T | 315 MHz
+
+Durango (Dodge)
+
+Fob Remote: Dge# 05014736AA (1998) FCC Info: GQ43VT9T | IC: 1470102460 | 315 MHz | MFR: TRW
+
+;e@50ee
+
+1998-99
+Neon Dae) Fob Remote: Dge# 05014736AA (1996-99, 3 Btn) FCC Info: GQ43VT9T | IC: 1470102460 | 315 Miz
+een: Fob Remote: Dge# 56045497AC or ILCO# RKE-CHRY-3B2 (1999-01) FCC Info: GQ43VT9T | 315 MHz
+
+RAM PIU (Dodge)
+
+Fob Remote: Dge# 05014736AA (1998) FCC Info: GQ43VT9T | IC: 1470102460 | 315 MHz | MFR: TRW
+
+1998-03 = oe :
+VAN Full Size Fob Remote: Dge# 56045191AD (1990-03) Fee Info: GQ43VTST | IC: 1470102460 | 315 MHz | MFR: TRW
+1998-09 Fob Remote: Dge# 04602260AD (2003-09) FCC Info: GOQ43VTI7T | IC: 14701021294 | 315 MHz
+Viper (Dodge)
+
+Fob Remote: Dge# 04865431AA (1992-02) FCC Info: ABO0302T | 315 MHz | MFR: GM VEFE
+
+05014736AA
+
+56045191AD 56045191AD = 04865431AA ©
+
+Loc
+
+K
+| WNLOCK) | #)
+
+ee | NO TRANSPONDER
+
+74 - CHRY-DODGE-JEEP
+
+©1994, 2021 AutoSmart™ by Michael Hyde-
+
+» ©
+
+)
+
+)
+
+)
+
+)
+
+)
+
+@eooC0eCeo@e?@e@eedeeee@eeoe@egeg@egd ede
+
+continued - DGE-17 SECTION
+
+Code Series: M001-M2618
+
+(2) :
+ep Bow SPACING Tip oe DEPTHS
+a 4 [2 3 4 5 5 7 8 ieee EE
+m 092 2=.315
+go 941 -849 157 665 573 481 389 297 3 = 290
+Oo 4=.265
+= Cam: Carriage:
+= Curtis Clipper: CHRY-5 CHRY-5A Pak-A-Punch: | PAK-C5
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .310
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock and progression the remaining cut for the ignition.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set T0-93.
+Method #3 Remove a door or trunk cylinder and decode it and progression the remaining cut for the ignition.
+
+O}0/0}]0]0)]> Ignition
+O}O|}0}O]|O}> Doors
+
+O/}0| 0/0} 0} Trunk (if equipped)
+4|}5|6|7] 8)
+
+IGN LOCK BOOR LOCK TRUNK LOCK
+1998-00 Caravan - 702418 = 702784 — 702784 703927
+<2) 1 1998-00 Dakota Pick Up - 703718 = 702785 = _ 103927
+r 1998-00 Durango - 703718 _ 702785 - 702785 703927
+= 1998-99 Neon _ 702418 = 702785 = 702797 703927
+* 1998-01 Ram Full Size Pick Up = 703718 - 702785 = — 703927
+(@ 4 2001-03 Ram Van Full Size = 704650 - 702786 — 702854 703927
+1998-00 Ram Van Full Size = 703545 - 702786 _ 702854 703927
+2003-10 Viper = 702418 = 691397 = 702851 703927
+1998-02 Viper == 0st - - - 702851 703927
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 75
+DGE-18 SECTION |
+
+H1dad 8 30VdS
+
+76 - CHRY-DODGE-JEEP
+
+| STYLE
+
+| carp# | itL# | macs | StartCut | CuttoCut| AirBags | Ign Retainer
+
+MASTER
+
+KEYS >
+
+L 1-3580 Dbl Sided CX60 55 2 052 .092- Yes Active
+NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: | DEALER:
+Mi57/ YI59 BY157 Y157 / Y159 Y157 / Y159 CHR-14 596504 n/a
+Determinator: CHR 1 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y154 Cobra: KDC8
+
+=> Mike's Tip: Some vehicles, depending on trim level, may not have had a Wireless Remote Fob from the factory.
+
+Fob Remote: Dge# 05014736AA (1996-98, 3 Btn) FCC Info: GQ43VT7T | IC: 1470 K1361 | 315 MHz_
+
+1994-97
+
+Caravan (Dodge) —_| Fob Remote: Dge# 04469341 (1991-94) FCC Info: GQ43VTS5T | IC: 1470 KINI9 | 315 MHz | MFR: TRW
+1994-97 ——
+
+Dakota (Dodge) __| Fob Remote: Dge# 56045191AD (1990-97) FCC Info: GQ43VTIT | IC: 1470102460 | 315 MHz | MFR: TRW
+Leka dk Fob Remote: Dge# 04759136AB (1993-97) FCC Info: GO43VT7T | IC: 1470 KI361 | 315 MHz | MFR: TRW
+
+Intrepid (Dodge) oe : :
+ieiee Fob Remote: Dge# 56045191AD (1990-97) FCC Info: GQ43VT9T | IC: 1470102460 | 315 MHz | MFR: TRW
+
+Ram P/U (Dodge) | SO? Remote: Dge -97) FCC Info: | IC: | z | MFR: TR
+ee Fob Remote: Dge# 56045191AD (1990 03) FCC Info: GQ43VT9T | IC: 1470102460 | 315 MHz | MFR: TRW
+
+Ram Van (Dodge) oe eee : ‘Ic: | 2 | MFR:
+1994-97 ek ere
+
+Shadow & Spirit > NO remotes avaliable.
+1994-07 Fob Remote: Dge# 04865431AA (1992-02) FCC Info: ABO0302T | 315 MHz | MFR: GM VEFE
+
+Viper (Dodge) _ ob Remote: Dge# (1992-02) FCC Info: | z| MFR:
+
+56045191AD
+
+04469341 04759136AB _
+
+05014736AA
+
+“Lock
+
+ING t
+
+UNLOCK
+
+04865431AA
+
+DEPTHS
+Cutt
+q 2 3 4 5 6 if sais 1=.340
+==345
+g43° | wsr 4 Be 1 s72-] : O92. |=
+
+481 389 297 3 = 290
+4= 265.
+
+Curtis Clipper: | C2: Gamage: Pak-A-Punch: PAK-C2
+
+* |CHRY-4 | CHRY-4B ee
+FRAMON—Use Ford 5 pin clip and set forfirst cut at .052
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+pe 5o28 8666 6 CO
+
+)
+
+bed
+©0e2020000800008006 0
+
+¢
+
+@® @ 08 @ «
+
+continued - DGE-18 SECTION
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR1 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y154 Cobra: KDC8
+
+Method #1A (MOST 1993-95) - 5 WAFER DOOR
+Use a Lock Decoder/Reader tool to decode the door lock for positions 3 through 7 Next use the tool to
+determine the cuts in the ignition for positions 1 & 2. You will have all the cuts necessary for a complete key.
+
+Method #1B (MOST 1996-97) - 7 WAFER DOOR
+Use a Lock Decoder/Reader tool to decode the door lock for positions 1 through 7 You will then have all the
+cuts necessary for a complete key.
+
+MOST 1993-95 MODELS MOST 1996-97 MODELS
+
+o;O/oO}|oO 11 |> Ignition 0) 0/0] 0] O}> Ignition
+oO > Doors O;O}0O}0O}O}> Doors
+O }> Slider/Trunk O}O|0} 0} O}> Slider/Trunk
+a > Glove Box O |} 0} O]> Glove Box
+‘7 | (If Equipped) 314151617] (lfEquipped)
+
+To progression the remaining cuts for the ignition in positions 1 & 2, determine what the depth is in position
+number three that is found in the door and trunk locks, and then use the chart below. Use the column that
+matches the depth for the tumbler in position number three
+
+KEY 1 =KEY 2-=KEY 3 KEY = KEY2 KEY3 KEY4 KEY4 2cE¥Y2 KEY3
+aT 21 31 rT 24 24 31 12 22 24
+12 22 12 22 13 32
+13 32 13 32 23 42
+23 42 23 42 33 43
+33 33 43 34
+43 34 44
+
+44
+
+IGN LOCK DOOR LOCK TRUNK LOCK
+
+1996-97 Caravan 703609 | 702418 = 702784 ie 702784 | 703927
+
+1995 Caravan ue 702788 = 702785 | 701515 | 702421 | 703927
+
+1994 Caravan 701757 | 702417 | 70361 | 702143 | 701515 | 702421 | 703927
+
+P1997 Dakota Pick Up ae ® 703502 = 702785 = = 703927
+
+on | 1995-96 Dakota Pick Up = 702788 | 703611 | 702143 = = 703927
+
+= J 1994 Dakota Pick Up 701757 | 702417 | 7036" | 702143 = = 703927
+
+a 1995-97 Intrepid 703609 | 702418 2 702785 = 702851 | 703927
+
+»u) | 1994 Intrepid 703609 | 702418 | 70361 | 702143 | 701516 | 702425 | 703927
+
+Eee 1997 Ram Full Size Pick Up = 703502 = 702785 = = 703927
+
+1995-96 Ram Full Size Pick Up = 702788 = 702785 = = 703927
+
+} 1994 Ram Full Size Pick Up | 701757 | 702417 | 7o36n | 702143 = = 703927
+
+1997 Ram Van Full Size a 703502 “4 702786 = 702854 | 703927
+
+| 1995-96 Ram Van Full Size = 702788 - 702786 = 702854 | 703927
+
+| 1994 Ram Van Full Size 701757 | 702417 | 703610 | 702127 = 702433 | 703927
+©1994, 2021 AutoSmart™ by Michael Hyde CH RY-DO DG E-JEEP = 77
+DGE-19 SECTION eo =
+
+1994 Neon (Dodge)
+| sTYLE | cARD# | ITL# [t MACS | Start Cut Pane AirBags | Ign Retainer
+
+£1-3580 Dbl Sided CX60 Active
+MASTER
+NATIONAL: KEYLINE: ILCO: JERS = JMA: STRATTEC: DEALER:
+KEYS™ | 157/159 BY157 y157/Y159 | Y157/ Y159 CHR-14 596504 n/a
+Determinator: CHR 1 Lishi:-G¥24 AccuReader: CHRY 8 EEZ Reader: Y154 Cobra: KDC8
+
+| NO TRANSPONDER
+
+Code Series: L0001-3580
+
+Cam: Carriage:
+
+CHRY-4 CHRY-4B Pak-A-Punch: | PAK-C2
+
+Curtis Clipper:
+
+”
+2 DEPTHS
+2 1 = .340
+m 22415
+go 3 = 290
+o 4 = 265
+m
+me)
+cod
+a
+
+FRAMON—Use Ford 5 pin clip and set for first cut at .052
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR1 Lishi: CY24 ~ AccuReader: CHRY 8 EEZ Reader: Y154 | Cobra: KDC8
+
+Method #1 Check owner's manual for code, written in by the dealer.
+
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock and then you can progression
+the 1 remaining cut in the ignition.
+
+Method #3 Use tryout keys, Aero Lock set 10-73. Baxter Systems set 84B or 97._
+
+Method #4 You must remove a door cylinder and decode it. Once you have those six cuts, then you can progression the
+remaining cut for the ignition. The Leek. cut needed for the ignition is in position 1, from the bow, for a
+complete key. :
+
+1994 NEON
+O0;0}0}0/}0]O}> Ignition
+O}O}0O}0} 0) O}> Doors
+0/0;0)} 0 | O}> Hatch/trunk
+O |} 0} 0 }> Glove Box (none)
+21214151817
+
+78 - CHRY-DODGE-JEEP = : : ©1994, 2021 AutoSmart™ by Michael Hyde
+
+“er 2 a a a a
+
+)
+
+)
+@©@€@eoe<o@eo3oe@eoee@edese ea
+
+eo @ <
+
+¢
+
+@,e@,e@ @ <
+
+DGE-20 SECTION
+
+MASTER
+KEYS >
+
+| STYLE
+
+1995-97 Neon (Dodge)
+
+| caRD# | iTL# | MACS | StartCut | CuttoCut| Air Bags
+
+Ign Retainer
+
+L 1-3580 Dbl Sided CxX60 2 Active
+NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: DEALER:
+Yis7./ 159 BY157 / BY159 Y157/ Y159 Y157 / Y159 CHR-14 596504 n/a
+Determinator: CHR-1 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y154 Cobra: KDC8
+
+| NO TRANSPONDER
+
+Code Series: 0001-3580
+
+DEPTHS
+1 = .340
+2=.315
+3 = .290
+4= 265
+
+Cam:
+
+Curtis Clipper: CHRY-4
+
+H1d30 8 30VdS
+
+Carriage:
+CHRY-4B
+
+Pak-A-Punch:
+
+PAK-C2
+
+FRAMON—Use Ford 5 pin clip and set for first cut at .052
+
+Codes: | No Codes on any locks.
+Decoders: | Determinator: CHR1 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y154 Cobra: KDC8
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock for positions 1 through 7, You will then have all the
+cuts necessary for a complete key.
+Method #2 Use tryout keys, Baxter Systems set 84B or 97 or Aero Lock set TO-73.
+Method #3 You must remove a door cylinder and decode it. Once you have those seven cuts, you will then have all the
+
+cuts necessary for a complete key.
+
+1995-97 NEON
+
+O/O/O;}O0
+Oj0|010
+O,/0/0/0);0
+
+oO
+Oo
+Oo
+
+ooo
+
+> Ignition
+
+> Doors
+
+> Hatch/Trunk
+
+> Glove Box (none)
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+CHRY-DODGE-JEEP - 79
+DGE-21 S$
+
+ECTION
+
+IGNITION
+& DOOR,
+TRUNK
+KEYS >
+
+Aries 81-90, Caravan 86-90, Dakota 87-89, Daytona 81-90, Diplomat 86-90, Dynasty 88-90,
+
+Fifth Avenue 83-90, Horizon 78-89, Lancer 86-88, Lebaron 77-88, New Yorker 83-89, Omni 86-89,
+Ram Pickup 86-89, Ram Van 71-89, Shadew 87-89, Sundance 87-90, Town & Country 80-90, Voyager 84-90.
+
+| ste | carp¢ | ms | macs | Startcut | cuttocut | AirBags | Ign Retainer
+EP 1-3000 SglSided 5 146 see Note
+NATIONAL: KEYLINE: JET: MA: STRATTEC: DEALER:
+Y152 n/a sere ¥152 CHR-7 320514 n/a
+Determinator: n/a Lishi: n/a AccuReader: n/a FEZ Reader: n/a Cobra: n/a
+
+More >
+
+GLOVE
+BOX
+KEYS =
+
+> Mike's Tip: If the model has a non-tilt column it should use an Active Retainer, tilt column uses a Spring Retainer.
+
+| stvie | carp¢ | im# | macs | Startcut | CuttoCut
+
+ES 1-3000 Sql Sided 140_ Space & Depth Grid: E
+
+STRATTEC: DEALER:
+320433 nia
+
+KEYLINE: ILCO: JEL JMA:
+—Y149 CHR-12
+
+“NATIONAL:
+Y149 n/a Y149
+
+ee | NO TRANSPONDER ©
+
+Code Series: EP & ES 1-3000
+
+DEPTHS
+
+1 =.246
+
+2 = .226
+3 = .206
+
+4= 186
+
+H1Ld4aG 8 30VdS
+
+»e@@e@ ©
+
+a= _ | Cam: Carriage: Sa i
+
+Curtis Clipper: CHRY-2 CHRY-2 Pak-A-Punch: PAK-C1 6 = 145 i
+
+Codes: | Codes should be stamped on Ignitions, Some Doors and most Trunk/Hatch Locks.
+
+Decoders: | _Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+NOTE: These are Pin Tumbler Locks.
+Method #1 Use the Aero Lock tryout set 10-20. Baxter Systems tryout set 37
+Method #2 Impression locks. These locks impression well.
+Method #3 Remove steering wheel to get to retainer see in the ignition cylinder on most pin tumbler locks.
+
+Remove door or trunk lock to make secondary key on a pin tumbler system.
+
+EP 01-3000 Codes
+
+0 |> Ignition
+
+oe
+olololals Doors — ES 01-3000 Codes
+
+22274/5 O}O}|0O} 0} G)}> Trunk / Tailgate
+O,;0/0 > Glove Box
+1]2]}3];4|5
+
+80 - CHRY-DODGE-JEEP
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+)
+
+"
+
+)
+
+)
+
+:
+@oe@eeoe@ede
+
+¢
+
+@oeeso«
+
+¢
+
+C
+
+DGE-22 SECTION
+
+MASTER
+KEYS >
+
+Avenger 95-00, Colt & Colt Vista 89-92, Laser 90-94, Sebring 2 Door 95-00,
+Stealth 91-97, Summit 90-97, Talon 90-97.
+
+| STYLE
+
+| carp# | ITL# | macs | StartCut | CuttoCut| AirBags | Ign Retainer
+
+E 5001-7679 Dbl Sided CF88 2 Active
+NATIONAL: KEYLINE: ILEO: JET: JMA: STRATTEC: DEALER:
+MIT1 n/a X176 MIT1 MIT-12 n/a n/a
+Determinator: JAP 1 Lishi: MIT8 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+ie NO TRANSPONDER
+
+Code Series: E5001-7679
+
+H1lddad 8 30VdS
+
+SPACING DEPTHS
+4 5 6 7 8 eae 1 pe
+
+Cut: :
+083 2= .297
+346 429 512 594 .677 : 3= 270
+4= 242
+
+Curtis Clipper: are: Se eis Pak-A-Punch: | PAK-G04
+“| DC-50 TOY-50 |
+
+Codes: | Passenger door lock cylinder should have a Code on it.
+
+Decoders: | Determinator: JAP 1 Lishi: MIT8 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 To make first key, remove passenger door cylinder and read code stamped on the lock.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock for a working key.
+Method #3 Disassemble the door cylinder and decode the wafers to make a master key. The door lock should contain all
+
+the necessary tumblers to make a master key.
+
+E5001-7679
+
+Oooo
+
+oO
+
+oO
+
+oO
+ea om
+O0'o o
+i ft
+
+NI
+
+oe; OOOO
+
+> Ignition
+
+> Doors
+
+> Trunk / Tailgate
+> Glove Box
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+CHRY-DODGE-JEEP - 81
+DGE-23 SECTION
+
+1982-86 Conquest (Chrysler) 1970-88 Colt / Colt Vista (Dodge)
+
+| stve | carpe | im# | macs | Start Cut | CuttoCut | AirBags | Ign Retainer
+
+H 1-5143 Dbl Sided XF80 31 5) 098 | .098 No —_|__ Sealed
+MASTER : :
+NATIONAL: KEYLINE: 1LCO: JET: JMA: STRATTEC: DEALER:
+KEYS> | = pc3 n/a X21 DC3 MIT-21P n/a n/a
+Determinator: MIT 2 Lishi: n/a AccuReader: n/a EEZ Reader: X1214 Cobra: n/a
+
+=| NO TRANSPONDER
+
+Code Series: H 1-5143
+n : an
+iz SPACING : 2 DEPTHS
+> 2 3 4 5 6 oa 1 1-26
+m : 098 2 = 256
+go -098 -197 .295 394 .492 591 3= 236
+o 4= 217
+be Curtis Clipper: aE, Sc Pak-A-Punch: | PAK-C4
+=z =e
+Codes: | Passenger door lock cylinder should have a Code on it. :
+Decoders: | Determinator: MIT 2 Lishi: n/a AccuReader: n/a EEZ Reader: X121 Cobra: n/a
+Method #1 To make first key, remove passenger door cylinder and read code stamped on the lock.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock for a working key. =
+Method #3 Disassemble the door cylinder and decode the wafers to make a master key. The door lock should contain all
+
+the necessary tumblers to make a master key,
+
+HO001-5143
+
+0/0/00} O| O [> Ignition
+O{|0|0/| 0] 0]> Doors & Trunk
+
+82 - CHRY-DODGE-JEEP : : ©1994, 2021 ase by Michael Hyde
+
+»>@oeao ooeoe@8 @@ ®@
+
+)
+
+)
+©9@e@eeoeeoe@ee0dsee«
+
+© @@ <
+
+®9@2e06 @,¢
+
+¢
+
+DGE-24 SECTION
+
+1993-97 Colt / Colt Vista (Dodge) 1993-96 Summit (Eagle)
+
+| sTYLE | carp# | ITL# | macs | StartCut | CuttoCut| AirBags | Ign Retainer
+
+30010-32009 Dbl Sided CF89 3 Active
+MASTER
+NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: DEALER:
+KEYS > MIT3 MIT3 X224 MIT3 MIT-14D n/a n/a
+Determinator: JAP. 2 Lishi: MIT11 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+| NO TRANSPONDER
+
+Code Series: 30010 - 32009
+S EE SPACING Tip DEPTHS
+a 1 2 3 4 5 6 7 8 babe 1= 310
+m 083 2 = .295
+90 098 | .181 | .264 | .346 | .429 | 512 | .594 | .677 3= 279
+o 4 = 263
+m a ae 5 = .249
+a Curtis Clipper: Bees ee Pak-A-Punch: | PAK-G0O4
+ae
+Codes: | Passenger door lock cylinder should have a Code on it.
+Decoders: | Determinator: JAP 2 Lishi: MIT 11 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTE: These models are using a MIT3 Japanese keyway.
+Method #1 To make first key, remove passenger door cylinder and read code stamped on the lock.
+Method #2 Use a Lock Decoder/Reader tool to decode the door lock for positions 1 through 8.
+Method #3 Disassemble the door cylinder and decode the wafers to make a master key. The door lock should
+contain all the necessary tumblers to make a master key.
+0/O}/0/}0/0|0)}0} O}> ignition
+0;0;0;0;0|0;0|0}> Doors
+0O,;0)0|)0)0)}0/0)O}> Trunk
+1/2]/3|4|5l|6l7|/8
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 83
+DGE-25 SECTION
+
+H1d3dd 8 30VdS
+
+oo |
+A
+>
+Zz
+ie)
+5
+O
+za
+OC
+m
+5)
+
+CODES
+
+| STYLE
+
+2003-06 Sprinter (Dodge)
+
+| carox | ms | macs | startcut | cuttocut | AirBags | Ign Retainer
+
+HM 6001-7110 Dbl Sided n/a n/a Active
+MASTER
+NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: DEALER:
+
+KEYS > BYSISTKI BYSISTKI nla n/a nla nla n/a
+
+Determinator: MER 2 Lishi: YM15 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+Transponder: Yes —E-Chip: (12) 15 Clone: Yes PIN: Yes* | Program: DRB3, MVP_TCODE
+
+| > Mike's Tip: Mercedes Keyway - Remote or Non Remote keys can be programmed. If using KEYLINE key
+aa make sure it is pre-cloned or it will not work. Test key is MB17 / M81X. Remote key is ordered by VIN at the dealer.
+Info
+> Mike's Tip: * To program keys you will need a special Incode & Outcode from the Dore dealer.
+Also, you could Eeprom the Temic Immobilizer box.
+
+»>@°@
+
+Code Series: HM 6001-7110
+
+Chip: (12) T5
+
+SPACING a DEPTHS
+1 2 3 4 5 6 7 8 Tee = oeie fe
+Cut: :
+: i 091 | 2=-262
+-102 | .193 | .284 | .375 | .466 | .557 | .648 | .739 | .830 | .921 : 3= 242
+4= 222
+Curtis Clipper: eae Coniee: Pak-A-Punch: ‘n/a
+—In/a n/a :
+Chip Information & Notes ee —- :
+Transponder: Yes Reusable: Yes
+
+> Mike's Tip: Test key is MB17 / M81X. Remote key is ordered by VIN at the dealer.
+
+Cloner Machine Information
+
+( \KEYLINE ) (
+
+( wo)
+
+(DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA_ ) L.D. \ ( SCORPIO )
+ee -CN900 RW4 | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+[J Yes [Vv] Yes [¥] Yes VJ Yes [v] Yes [VJ Yes lv] Yes [YJ Yes
+Red Chip & TPO8ME- TS Chip
+pb 15 & Shell | | YM15T5-S1 fr _ YSISTKI T5 & Shell 15 & Shell pees
+
+™ - Requires Internet Access fo complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+84 - CHRY-DODGE-JEEP
+
+©1994, 2021-AutoSmart™ by Michael Hyde
+
+7666 ©
+
+)
+
+)
+
+)
+
+)
+¢
+
+¢
+
+ee en
+
+¢
+
+¢
+
+| Programmer & Diagnostic Tools
+
+continued - DGE-25 SECTION
+
+= (Factory Tool ) ( PINCODE )
+
+> REQUIRED
+
+Zz DRB (v TCODE/MVP PRO (« TDB1000 (« HOTWIRE
+2 [Vv] Yes
+
+e) 2 Dealer
+
+ra | MicroPod Access (v SMART PRO (. AUTO PRO PAD (> AUTEL IM608
+2 wilECH® Needed
+
+A ES JX =)
+
+> Mike's Tip: Key Programmer & PIN Required - ? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No Codes on Any Locks.
+Decoders:. | Determinator; MER2 | Lishi: YM15 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+NOTE: Transponder Equipped - Requires DEALER IN/OUT CODE for key programming.
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock for positions 1 through 8. Progression the 2
+remaining cuts in the ignition for a complete key.
+Method #2 Remove the screw on the side of the door handle to remove. Disassemble door cylinder, and decode wafers.
+
+Progression the 2 remaining cuts in the ignition for a complete key.
+
+ooo
+
+> Ignition
+> Doors
+> Rear Door
+
+w/OoOo
+&(/Oo00
+alooo
+oi/OoOo
+~/Ooo
+of/Ooo
+©/OoO0o0
+
+Looking for OEM Factory Keys, Keyless Entry
+& Proximity Remote Fobs?
+
+We have them on the shelf - ready to ship.
+
+National Auto Lock Service, Inc
+650-875-0125
+
+www.Laserkey.com
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+CHRY-DODGE-JEEP - 85
+DGE-26 SECTION
+
+2007-09 Sprinter (Dodge)
+
+MACS | Start Cut | Cut to Cut | Air Bags
+
+CODES | stve | carpe | me | | Ign Retainer
+001-6400 High Sec n/a Active
+MASTER
+> Mike's Tip: Mercedes Keyway - Transponder equipped - Standard - Dealer Only (similar to HU64P)
+KEYS > Key is ordered by VIN at the dealer.
+Determinator: n/a Lishi: HU64 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+More _| Transponder: Yes Clone: No Program: Eeprom or Dealer Key PIN: No
+
+Code Series: 01-6400
+
+< SPACING cute | DEPTHS
+ra 1 2 3 4 5 6 7 8 9 ag | “| 4156
+m == | aa | 2= 132
+go 1.049 | .958 | .867 | .776 | .685 | .594 | .503 | .412 | .321 | .230 3=.108
+a xe Cam: Carriage: se
+= Curtis Clipper: dla =F Pak-A-Punch: | n/a
+
+NOTES: External 2-Track: Measured from tip. Flat of 026” for the Shoulder cut.
+
+> @
+
+ChipInformation& Notes s—‘“Ss—S
+
+Transponder: Yes Chip: Philips 46 Reusable: No
+
+> Mike's Tip: Dealer Only - High Security Mercedes 2-Track with Transponder System. Order key from Dealer.
+
+Cloner Machine Information = a He ee : = = Sees
+
+No Cloning for this System
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
++
+ys) aa a
+a _ Programmer & Diagnostic Tools a : : : oo
+a 2
+mel] ( Factory Tool ) ( PINCODE )
+S, REQUIRED
+= StarScan 2S ae (« TCODE/MVP PRO (. TDB1000 (« HOTWIRE
+= : 2 :
+= ®@
+
+MicroPod No (« SMART PRO (. AUTO PRO PAD (« AUTEL IM608
+
+wilTECH®
+
+< J. S,
+
+86 - CHRY-DODGE-JEEP
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+)
+
+)
+
+)
+
+)
+
+)
+
+)
+
+)
+
+o@<@e@e@eeoeoeeeee@e@?08 dee
+
+@o@eoe <
+
+¢
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+TDB1000
+
+ADVANCED SECURITY SYSTEMS
+
+ELECTRONIC TESTER
+
+The TDB1000 is the simplest and most cost
+effective key programming system on the market
+
+The TDB1000 Advanced Security Systems Electronic Tester or
+‘The ASSET' has been designed and developed to provide a simple
+and easy system for:
+
+2 LR & fa &
+
+Programming Programming Reading Resetting Programming
+Transponder Remote Security Used Remote Proximity
+Keys Control Keys Pin Codes Control Keys System Keys
+
+Features:
+
+® Simple and_easy to use
+
+e Low cost machine and
+software packages
+
+e Simple PC update software
+
+e Wiki Key App for Apple and
+Android systems and
+web portal
+
+® Asset App technical support
+
+e App for Android and |OS
+
+Itis-also free of Tokens, those
+invisible horrible things you never
+quite know how much they cost or
+whether you might lose one, two
+or more and-waste yourtime and
+effort on a job that should make
+you money.
+
+WWW.THEDIAGNOSTICBOX.COM
+
+CHRY-DODGE-JEEP - 87
+DGE-27 SECTION
+
+CODES
+
+MASTER
+
+‘M 1-2618
+
+| sTyLe | caRp# | iTL# | macs | StartCut | CuttoCut| AirBags | Ign Retainer
+Dbl Sided 2 310 .092 Yess None
+
+KEYS > This mode
+
+| uses a New Proximity remote for the 2019 model. Check with dealer for correct part.
+
+Determinator: CHR 2 Lishi: CY¥24_ AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+Prox Fob: Dge# 68312804AD (3 Btn, RAM Logo, Black, RAM Logo)
+
+Prox Fob: Dge#-68312805AD (4 Btn, RAM Logo, Black w/Air Suspension)
+
+Prox Fob: Dge# 68312806AD (4 Btn, RAM Logo, Black w/Rmt Start)
+
+Prox Fob: Dge# 68312807AD {5 Btn, RAM Logo, Black w/Rmt Start & Air Suspension)
+
+Prox Fob: Dge# 68291687AD (3-Btn, RAM Logo, Satin Chrome)
+
+2019-21
+
+Prox Fob: Dge# 68291688AD (4 Btn, RAM Logo, Satin Chrome w/Air Suspension)
+
+RAM Pick Up
+
+Prox Fob: Dge#.68291689AD (4 Btn, RAM Logo, Satin Chrome w/Rmt Start)
+
+New Design
+startting in 2019
+
+Prox Fob: Dge# 68291690AD {5 Btn, RAM Logo, Satin Chrome w/Rmt Start & Air Suspension)
+
+(Dodge)
+
+Prox Fob: Dge#68291691AD (5 Btn, RAM Logo, Satin Chrome w/Rmt Start & Pwr Tailgate)
+
+Prox Fob: Dge# 68291692AD (6 Btn, RAM Logo, Satin Chrome w/Rmt Start & Pwr Tailgate, Air Susp.)
+
+Prox Fob: Dge# 68291693AD (5 Btn, Longhorn Logo w/Rmt Start & Air Suspension)
+
+Prox Fob: Dge# 68291694AD (6 Btn, Longhorn Logo w/Rmt Start & Pwr Tailgate, Air Suspension)
+
+Prox Fob: Dge# 68312808AD (6 Btn, Limited Logo w/Rmt Start & Pwr Tailgate, Air Suspension)
+
+Emerg Key: Dge# 68399889AA -- ALL use FCC Info: OHT-4882056 | 433 MHz
+
+-o - “ s=
+ep Bow SPACING Tip: mae DEPTHS
+ns 1 2 3 4 5 6 7G se 1 = 340
+m = = 092 2=.315
+go 941 849 AST -665 573 481 389 : = 3= 290
+oO == 4= .265
+J Cam: Carriage:
+= Curtis Clipper: CHRY-5 CHRY-5A Paley onen: : PAK-C5
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .310
+
+88 - CHRY-DODGE-JEEP
+
+= ©1994, 2021 AutoSmart™ by Michael Hyde
+
+©@eee <«
+
+¢
+
+¢
+
+@9eeoeoeee
+
+¢
+
+DGE-27 SECTION
+
+Transponder: Proximity Chip: Philips 46
+
+Reusable: No (Must be Unlocked)
+
+> Mike's Tip: New System - Key Programmer & PIN Required.
+
+Test key is Y157 / Y159.
+
+| Cloner Machine Information
+
+No Cloning
+
+for this System
+
+oes
+
+eDiagnoslle Toole= Special Bypass CableNecdad
+
+Factory Tool
+
+PIN CODE
+
+YAQGNOdSNVYL
+
+REQUIRED (« TCODE/MVP PRO (? TDB1000
+
+€ HOTWIRE
+
+MicroPod
+
+[v7] Yes
+
+wilTECH®
+
+PIN Needed (v SMART PRO
+
+(v AUTO PRO PAD [v AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR 2 Lishi: CY24
+
+AccuReader: CHRY 8
+
+EEZ Reader: Y157 Cobra: KDC8
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock for a working key.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set T0-93.
+Method #3 Remove a door or trunk cylinder and decode it. Once you have those seven cuts you will have a working key.
+
+> Doo
+
+> Ignition (no lock)
+
+> Trunk
+
+rs
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+CHRY-DODGE-JEEP - 89
+JEEP-1 SECTION
+
+CODES
+
+| sTyLe | CARD# | ITL# | macs Start Cut | CuttoCut | AirBags | Ign Retainer
+
+: M 1-2678 Dbl Sided None
+MASTER = -
+KEYS > This model uses a GEN4 Proximity remote. Check with dealer for correct part # by VIN
+Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+- Some models starting in 2018+ will require a “Gateway” bypass cable to program Prox Remotes.
+
+rere Check with key programmer supplier.
+
+Prox Fob: Jeep# 68105087AG or ILCO# PRX-JEEP-3B1 (3 Btn) FCC Info: GQ4-54T | 433 MHz
+
+2014-21
+
+Gherokee (een) Prox Fob: Jeep# 68105078AG or ILCO# PRX-JEEP-4B1 (4 Btn, w/Rmt Start) FCC Info: GQ4-54T | 433 MHz
+
+Prox Fob: Jeep# 68141580AG or ILCO# PRX-JEEP-5B1 (5 Btn, w/Rmt Start & Liftgate) FCC: GQ4-54T | 433
+
+Prox Fob: Jeep# 68143502AC or ILCO# PRX-CHRY-3B3 (3 Btn, Basic) FCC: M3N-40821302 | 433 MHz
+
+2014-21 Prox Fob: Jeep# 68143500AC or ILCO# PRX-CHRY-4B5 (4 Bin w/Rmt Start) FCC: M3N-40821302 | 433
+Grand Cherokee - ———
+(Jeep) Prox Fob: Jeep# 68143505AC or ILCO# PRX-CHRY-5B4 (5 Btn, Rmt Start, Pwr Liftgate) FCC: M3N-40821302
+
+Prox Fob: Jeep# 68240167AA (SRT, 5 Btn, Rmt Start, Pwr Liftgate) FCC Info: M3N-40821302 | 433 MHz
+
+Vvvlezo0ce9
+
+Code Series: M001-M2618
+
+Bow SPACING 2 | DEPTHS
+1 2 3 4 5 6 “7 8 eu | r= 340
+a 12s
+
+Oér | so 757 [605 7-573 |. 481.4 me lg fo = oan
+
+4= 265
+
+Cam: _ Carriage:
+
+CHRY-5 CHRY-5A Pak-A-Punch: | PAK-C5
+
+Curtis Clipper:
+
+HLd3ad 8 30VdS
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at 310
+
+90 - CHRY-DODGE-JEEP ©1994, 2021 AutoSmart™ by Nichaal Hyde
+
+> @ ©@
+
+)
+
+9 @e@ @
+
+)
+@*eeO0Oedeeeoeoqeqe@eoedqeoeee?e@d
+
+©9eoeo @ ¢
+
+continued - JEEP-1 SECTION
+
+Transponder: Proximity
+
+Chip: Philips 46 Reusable: Grand Cherokee only
+
+> Mike's Tip: GEN4 System - Key Programmer & PIN Required. Test key is Y157 / Y159.
+
+jalBypassCableRequired
+
+YAGNOdSNVYL
+
+Factory Tool
+
+MicroPod
+wilECH®
+
+PIN CODE :
+REQUIRED 2? TCODE/MVP PRO ? TDB1000 ? HOTWIRE
+PIN Needed [v SMART PRO (v AUTO PRO PAD [v AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+Method #1 Use a Lock Decoder/Reader tool to —— the door lock for a working key.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set TO-93.
+Method #3
+
+Remove a door or trunk cylinder and decode it. Once you have those seven cuts you will have a working key.
+
+> Ignition (no lock)
+> Doors
+> Trunk
+
+ie,
+= Mowe | eodea [Uncoded | Coded | uncoded | | «
+fon 2014-21 -| Cherokee Locks not available from Strattec 703927
+: = 2014-21 Grand Cherokee Locks not available from Strattec 703927
+oO
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 91
+JEEP-2 SECTION
+
+| styLe | carp# | imL# | macs | Startcut | CuttoCut| Air Bags
+
+CODES
+M 71-2618 Dbl Sided CX102 69 2 310 092 ~ Yes None
+FOBIK Remote - Check with dealer for correct part # by VIN
+MASTER ==
+== Ss NATIONAL: CO: JET: JMA: — | ___ STRATTEC:
+KEYS > Pi OEce Y173-PT Y173-PT Y173-PHT n/a n/a
+= NATIONAL: ILCO; JET: IMA: (| _STRATTEC:
+Commander DGE-POD-KEY Y170-PT BYI66-PHT | TP12CHRI5P1 5909874
+Determinator: GHR 2 Lishi: GY24 AccuReader: CHRY8 | EEZ Reader: Y157 Cobra: KDC8
+2014-21 Remote Fobik: Jeep# 68105081AG (3 Btn) FCC Info: GQ4-53T | 433 MHz
+Cherokee (leep) | Remote Fobik: Jeep# 68105083AG (4 Btn, w/Rmt Start) FCC: GQ4-53T | 433 MHz
+2008-10 Remote Fobik: Jeep# 68066848AF or ILCO# POD-LAL-4B3 (4 Btn) FCC Info: IYZ-COIC | 433 MHz
+Commander (lee) | Remote Fobik: Jeep# 68066849AF or ILCO# POD-LAL-5B4 (5 Btn, w/Rmt Start) FCC: IVZ-COIC | 433 MHz
+
+av6é86z089
+
+n :
+x Bow SPACING ! Fip ea DEPTHS
+> = 2 3 4 5 ee. 8 = ft 0
+m ew 2= 315
+go 941 849 2 (278 .665 573 481 389 297 : 3 = 290
+oO == =| 4=.265
+it Cam Carri
+=.) : z arriage: — OE z
+= Curtis Clipper: CHRY-5 CHRY-5A Pak-A-Punch: | PAK-C5
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .310 = :
+92 - CHRY-DODGE-JEEP = == ©1994, 2021 AutoSmart™ by Michael Hyde
+
+9eeoe 008d @
+
+4
+
+)
+
+)
+
+)
+
+)
+
+ee
+eee @ooaooeaeoegaeaoaegnea5egvueaoenaoeaneeade @
+
+“OSLLVYLS
+
+ml (DIAG BOX ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LD. )( ScorPIO \)( wo)
+A CLONE
+
+AM | Wizarp cN900 RW4 TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+a M1 Yes MW] Yes? MW] Yes? I Yes? Vv MW Yes? I Yes? M Yes
+
+o Green Chip || ose shen | | EHSP&“T" TPX4 & GK100/TK100 | | Most Chips Most Chips | | VVDIChip &
+= & Shell Blade Y170 Shell &Y170Blade | | &Y170Shell | | &Y170Shell | | 170 Shell
+oO *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+A
+
+Factory Tool PIN CODE
+
+REQUIRED ( TCODE/MVP PRO
+
+(? TDB1000
+
+(-
+
+HOTWIRE
+
+MicroPod
+
+wiTECH® 4-digit (v SMART PRO
+
+(v AUTO PRO PAD
+
+(v AUTEL IM608
+
+PIN Needed
+
+Codes: | No Codes on any locks.
+Decoders: | Determinator: CHR2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock for a working key.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set TO-93.
+Method #3 Remove a door or trunk cylinder and decode it. Once you have those seven cuts you will have a working key.
+
+> Ignition (no lock)
+> Doors
+> Trunk
+
+Coded KIT
+2014-21 Cherokee Locks not available from Strattec 703927
+2008-10 Commander Fobik Ignition - 708170 - 703927
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+CHRY-DODGE-JEEP - 93
+JEEP-3 SECTION
+
+Hid3ad 8 390VdS
+
+94 - CHRY-DODGE-JEEP
+
+| stvce | carpe | im# | macs | StartCut | CuttoCut| AirBags | Ign Retainer
+-M1-2618 Dbl Sided lone
+MASTER FOBIK Type Remote - Check with dealer for correct part # by VIN
+> = :
+Sy NATIONAL: - KEYLINE: ILCO: JET: _JMA: STRAFTEC: DEALER:
+DGE-POD-KEY | BY170-PT Y170-PT BY166-PHT | TPI2CHRI5P1 5909874 see below
+Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY8 | EEZ Reader: Y157 — Cobra: KDC8
+For models with “Keyless Go” which is a Proximity system.
+> To program new Prox Fobik remote’s, The “Start Keyless Go button will unsnap to reveal a Fobik
+ignition switch behind, that will allow you to insert the remote for programming. Fao Steet gency
+2011-13 - keys are not recommended for this type of system.
+Grand Cherokee
+
+with KEYLESS GO
+
+Remote Fobik: Jeep# 56046733AG (3 Btn, Basic) FCC Info: IYZ-COIC | 433 MHz
+
+(Jeep) Remote Fobik: Jeep# 56046734AE (4 Btn w/Pwr Liftgate) FCC Info: IYZ-COIC | 433 MHz
+Remote Fobik: Jeep# 56046736AG (4 Btn w/Rmt Start) FCC Info: IYZ-COIC | 433 MHz
+RemoteFobik: Jeep# 56046735AG (5 Btn, Rmt Start, Pwr Liftgate) FCC Info: IYZ-CO1C | 433 MHz
+For models with FOBIK system. (Non Proximity)
+2008-10 ee
+Grand Cherokee | Remote Fobik: Jeep# 68066848AF or ILCO# POD-LAL-4B3 (4 Btn, Rear Glass) FCC: IYZ-COIC | 433 MHz
+with FOBIK —
+
+Remote Fobik: Jeep# 68066849AF or ILCO# POD-LAL-5B4 (5 Btn, Rmt Start, Rear Glass) FCC: IYZ-COIC
+
+PANIC
+
+gv6c86c089
+
+Code Series: M001-M2618
+
+Bow. ~ SPACING = = Tip DEPTHS
+1 = 3 4 5 6 Z 8 Sutte 4 = 340
+= Cut: = 315 =
+44 =| 40 | 757 | -.665=| 3573-| 48%. | 389 | 207 | = 2 3 _ 5a,
+== 4 = 265
+Curtis Clipper: | £2 Carriage: Pak-A-Punch: | PAK-C5
+* | CHRY-5 | CHRY-5A be
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .310
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+»>82 02660606 90 ©
+
+)
+
+)
+@©eee6064
+
+@o@e@e@e@eoe?8 ee *
+
+@ <
+
+¢
+
+@ 0 <
+
+Transponder: Yes Chip: Philips 46
+
+Reusable: No (Must be Unlocked)
+
+> Mike's Tip: FOBIK System - Key Programmer & PIN Required. Test
+
+key is Y157 / Y159.
+
+( DIAG BOX ) (\LCOISILCA) ( JMAUSA ) ( KEYLINE )( LL.D.) ( SCORPIO \( wo!)
+fos cNg00 RW4 TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+1 Yes MI Yes? MI Yes? MI Yes? MI MI Yes? fv] Yes? MI Yes
+Green Chip | | ons @ shen | | ERSP&'T” TPX4 & GK100/TK100| | Most Chips | | Most Chips | | VVDIChip &
+& Shell Blade y170Shell_| | &Y170Blade | | &Y170Shell | | &Y170Shell | | 170 Shell
+
+* - Requires Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+> Mike's Tip: No “Keyless GO” Cloning - because it's a Proximity Fob.
+
+YAGNOdSNVUL
+
+Factory Tool
+
+PIN CODE
+REQUIRED
+
+(v TCODE/MVP PRO
+
+(> TDB1000
+
+(v HOTWIRE
+
+MicroPod
+
+wiTECH®
+
+4-digit
+PIN Needed
+
+[v SMART PRO (- AUTO PRO PAD (v AUTEL IM608
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Cobra: KDC8
+
+Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157
+
+> Ignition (Fobik)
+01 |> Doors
+> Trunk (if equipped)
+
+foo
+oo
+oo
+oo
+
+Joo
+
+~/oOoO
+oO
+
+Codes: | No Codes on any locks. :
+Decoders: | Determinator: CHR 2
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set TO-93.
+Method #3 Remove a door or trunk cylinder and decode it.
+”
++
+a
+>
+4
+—|
+m
+
+2012-13 Grand Cherokee Locks not available from Strattec 703927
+2011 Grand Cherokee Fobik Ignition 7010334 / 7010333 _ 703927
+.@ | 2008-10 Grand Cherokee Fobik Ignition — 708170 - 703927
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+CHRY-DODGE-JEEP - 95
+JEEP-4 SECTION
+
+CODES | stvce | carp# | iTL# | macs | StartCut | CuttoCut| AirBags | ign Retainer
+
+M 1-2618 Dbl Sided | CX102 | 69 2 310 092 | Yes Active
+
+NATIONAL: KEYLINE: iLCO: JET: JMA: strate: | DEALER:
+MASTER | CHRY-CAN-KEY | BYI65-PT Yi64-PT |. YI65-PHT | TP12-CHRI5P| 692352 see below
+KEYS > Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EE Reader: YI5SE : Cobra: KDC8
+
+Dealer remote key-may be needed to shut off the factory alarm - before key programming is possible.
+
+=> Mike's Tip: Remote Key was Optional on these models based on the Trim Level.
+
+2007-18 Remote Key: Jeep# 68000603AC or ILCO# RHK-CHRY-3B1 (2007-16, 3 Btn) FCC: OHT692713AA | 315 MHz
+Compass : : -
+(Jeep) Remote Key: Jeep# 68039414AC or ILCO# RHK-CHRY-4B5 (2007-18, 4 Btn, w/Rmt Start) FCC: OHT692713AA | 315
+
+2007-17 _—‘| Remote Key: Jeep# 68000603AC or ILCO# RHK-CHRY-3B1 (3 Btn) FCC: OHT692713AA | 315 MHz
+Patriot = - -
+(Jeep) Remote Key; Jeep# 68039414AC or ILCO# RHK-CHRY-4B5 (4 Btn, w/Rmt Start) FCC: OHT692713AA | 315 MHz
+
+2007-18 Remote Key: Jeep# 68001702AC or 1LCO# RHK-CHRY-3B1 (3 Btn) FCC: OHT692713AA | 315 MHz
+Wrangler. =
+(Jeep) Remote Key: Jeep# 68039414AC€ or ILCO# RHK-CHRY-4B5 (4 Btn, w/Rmt Start) FCC: OHT692713AA | 315 MHz
+
+Chip Information &Notes 2
+
+Transponder: Yes Chip: Philips 46 Reusable: No (Must be Unlocked)
+
+== | > Mike's Tip: Key Programmer & PIN Required. Test key is Y157 / Y159.
+A : E = = = = = = ——_ = SS
+p= Cloner Machine information == lr hc cr
+rs : - —_——_____—
+ot (DIAG BOX) ( CHINA ) (ILCO/SILCA) ( JMAUSA ) ( KEYLINE )( LL.D. ) {( SCORPIO )( wo)
+< er CN900 RW4 TRS-5000/EVO 884 Ultegra MIRACLONE TANGO MINI TOOL
+= © Yes MZ Yes? 1 Yes? Mw Yes? iv] Yes? M1 Yes? M Yes
+ys] | Green Chip | | cuss shen | | EHS? a“a”| | TPX48 GK100/TK100 | | Most Chips Most Chips | | VVDIChip &
+& Shell Blade Y160 Shell | | & Y160 Blade & Y160 Shell & Y160 Shell -Y160 Shell
+*4 - Requires Internet Access to complete cloning. *2- Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+96 - CHRY-DODGE-JEEP = = ——= ©1994, 2021 AutoSmart™ by Michael Hyde
+
+9'e @'66@ @€ @ ©
+
+» @:
+
+9
+#eeeo Ooo oeoeseeoeeaeeaeneeee eee
+
+continued - JEEP-4 SECTION
+
+gnostic Tools
+
+= ( Factory Tool ) ( PINCODE )
+
+> REQUIRED
+
+= DRB (v TCODE/MVP PRO (v TDB1000 [v HOTWIRE
+Fe StarScan [V] Yes
+
+4 | MicroPod 4-digit (v SMART PRO [v AUTO PRO PAD (v AUTEL IM608
+3 wiTECHe PIN Needed
+
+A Bes oe =,
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Code Series: M001-M2618
+
+SPACING DEPTHS
+
+Ce os | ee) Cut: 1 = .340
+
+092 2= .315
+
+941 -849 ASE .665 573 481 389 297 4 3 = .290
+: 4= .265
+
+Cam: Carriage:
+
+CHRY-5 CHRY-5A Pak-A-Punch: | PAK-C5
+
+Curtis Clipper:
+
+Hidad 8 3A0VdS
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at 310
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock and progression the remaining cut for the ignition.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set T0-93.
+Method #3 Remove a door or trunk cylinder and decode it and progression the remaining cut for the ignition.
+
+O}/O}0/}0/0)0]0)> Ignition
+0)0|}0/}0]0;] OG] }> Doors
+O0/0|0!0}0}0| |> Trunk (if equipped)
+213|4}5/6|71/8
+
+a 2011-18 Compass _ = 708742 _ = 703927
+2 2007-10 Compass = 708742 708165 / 708165 = 703927
+a 2007-17 Patriot ‘ 708742 = = 703927
+\@)] 2011-18 Wrangler x 708742 = = 703927
+2007-10 Wrangler a 708742 703327 703327 Rear 703927
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODG E-J EEP fa 97
+JEEP-5 SECTION = teeta ue
+| |
+
+CODES
+
+| stvce | carp# | iml# | macs | StartCut | CuttoCut| AirBags
+
+Ign Retainer
+
+M 1-2618 Dbl Sided | Cxt02 2 Active
+MASTER | _ NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: : DEALER:
+ee CHRY-CAN-KEY BY165-PT Y164-PT Y165-PHT TP12-CHRI5P | 692352 __see below
+Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader. YE= Cobra: KDC8
+Dealer remote key may be needed to shut off the factory alarm - before key programming is possible. :
+
+2006-07
+
+Gommander (leep) Remote Key: Jeep# 05183349AB or ILCO# RHK-CHRY-4B1 (4 Btn) FCC 22 KOBDTO4A Bb MHz
+
+2005-07 (Jeep) Remote Key: Jeep# 05183349AB or ILCO# RHK-CHRY-4B1 (4 Btn) FCC Info: OHT692714AA | 315 MHz
+
+Grand Cherokee
+
+Remote Key: Jeep# 68273336AA or ILCO# RHK-CHRY-5B! (5 Btn w/Rmt Start) FCC: OHT6927I4AA [315 -
+
+ane 42 Remote Key: Jeep# 68029833AA or ILCO# RHK-CHRY-4B1 (4 Btn, Liftgate) FCC: OHT692713AA | 315 MHz
+
+Liberty (eer) | Remote Key: Jeep# 68029834AB or ILCO# RHK-CHRY-5BI (6 Btn, Rmt Start, Liftgate) FCC: OHT692713AA
+
+Chip Information
+
+Transponder: Yes : Chip: Philips 46
+
+‘a i er ae
+
+e > Mike's Tip: Key Programmer & PIN Required. Test key is Y157 / Y159.
+Es Cloner Machine Information == —s—s™ =e :
+
+: AS (DIAG BOX) (CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LD. )( scorPiOo )( wo)
+2 Tae CN900 RW4 TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO MINI TOOL
+S) 4 a : 5
+m 1 Yes 1 Yes? MI Yes* MW Yes? — MW fv] Yes? MI Yes? lv] Yes
+
+Green Chip CN3 & Shell EH3-P & “A” TPX4 & GK100/TK100 Most Chips Most-Chips VVDI Chip &
+& Shell Blade Y160 Shell & ¥160-Blade & Y160 Shell & Y160 Shell Y160 Shell
+* - Requires Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+98 - CHRY-DODGE-JEEP — ©1994, 2021 AutoSmart™ by Michael Hyde
+
+eee0eede
+
+, oe @ 86'@ @ 6 e@ @
+
+)
+®©®e@@e @@~oeoe@e@€0ee@ece@eoeeoed@@€@e.«
+
+continued - JEEP-5 SECTION
+
+= (Factory Tool ) ( PINCODE )
+
+> REQUIRED
+
+= DRB [v TCODE/MVP PRO (> TDB1000 [v HOTWIRE
+5 StarScan [Vv] Yes
+
+1 | MicroPod 4-digit (v SMART PRO [v AUTO PRO PAD [v AUTEL IM608
+=) wiTECHe PIN Needed
+
+A ES oN y,
+
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Code Series: M001-M2618
+
+SPACING i DEPTHS
+
+1 2 3 4 5 6 7 8 Cutto™ | «= 340
+= 1 oie
+
+Sat | 840 | .757 |= .065_| 2573 |_481 | 359 7 207 | “°°? | | _ Saq
+
+4= .265
+
+Cam: Carriage:
+
+CHRY-5 CHRY-5A Pak-A-Punch: | PAK-C5
+
+Curtis Clipper:
+
+Hidad 8 30VdS
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .310
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock and progression the remaining cut for the ignition.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set TO-93.
+Method #3 — — Removea door or trunk cylinder and decode it and progression the remaining cut for the ignition.
+
+O0/0/}0}0}0}]O]0)}> Ignition
+O0/0)0;0}0}0]O}> Doors
+O010O|0}0| 0] 0} |> Trunk (if equipped)
+2|3|4|5|6|7/8
+
+IGNLOCK | DOORLOCK | TRUNKLOCK —
+
+Le de _ | Coded [Uncoded | Coded | uncoded | Coded | Uncoded | KIT
+ey 2006-07 | Commander 7os7i9c | 702418 | — 708170 . 703927
+> 2005-07 _| Grand Cherokee 7os7i9c | 702418 | — 708170 = 703927
+aA 2012 Liberty 1 ee | = = 703927
+Te)] 2009-1 Liberty | fe} 703327 = 703927
+2008 Liberty : 703719C | 702418 - 706752 a 703927
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 99
+JEEP-6 SECTION
+
+CODES |
+
+STYLE
+
+| caro# | imi¢ | macs | Startcut | CuttoCut| AirBags | ign Retainer
+
+M 1-2618 Dbl Sided | cx102 | 69 2 | 30 Active
+NATIONAL: KEYLINE: {LCO: JEL: JMA: STRATTEC: ; DEALER:
+MASTER | Y160-PT BY160-PT Y160-PT Y160-PHT | TP21-CHRISP | 692325 n/a
+| KEYS © | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY8 |EEZReader.Y157 _| Cobra: KDC8
+
+<> Mike's Tip: Your vehicle may or may not have a-transponder system - See if a mechanical key will start it up?
+
+= Mike's Tip: CCD (Type 1 System) NO PIN Read is possible. You can Eeprom the SKIM module.
+
+1998-01
+
+Fob Remote: Jeep# 56036859AE or ILCO# RKE-JEEP-3B1 (1999-01) FCC Info: GQ43VT9T [315 MHz
+
+Cherokee (Jeep)
+
+Fob Remote: Jeep# 56008968AB (1997-98) FCC Info: GQ43VTI10T | 315 MHz
+
+1998-00
+
+Wrangler (Jeep) No Factory Remotes.
+
+56008968AB _
+4 LOCK
+| MNLOCK {
+
+3
+
+SEES
+
+Chip Information & Notes
+
+Transponder: Optional on some models
+
+Chip: Texas 4D64
+
+= > Mike's Tip: Key Programmer & PIN Required, Test key is Y157 / Y159.
+
+QP =S==5 =. SS = = =
+
+>a) Cloner Machine Information 22 oe
+
+re :
+
+oS (DIAG BOX) (CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE |) ( LD. \ ( SCORPIO ) (wo!)
+
+ag | CLONE N900 RW4 TRS-5000/EVO| | 884 Ultegra | | MIRACLONE MINI TOOL
+
+rofl |_wizarp : =
+
+AL | Yes © Yes? 1 Yes? M7] Yes? iv] RA Yes? M Yes? -_ |¥] Yes
+Blue Chip & | | ones sney| | EHS& “A” _TPX2& | | GK100/TK100| | Most Chips Most Chips | | VVDIChip&
+
+Shell Blade Y160Shell | | &Y160Blade | | &Y160Shell | | &Y160Shell | | Y160 Shell
+
+*{ - Requires Internet Access to complete cloning. *2 - Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+100 - CHRY-DODGE-JEEP
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+pee e086 e686 6
+
+'»>@e20 668086
+
+)
+eee @eooeaeeeaeaesgenaeaeeaonaeaeeede @
+
+continued - JEEP-6 SECTION
+
+= a Factory Tool ) ( PIN CODE >)
+> DART REQUIRED
+Z [v TCODE/MVP PRO (« TDB1000 [v Horwire
+n DRB
+U | | WW Yes
+e7 | StarScan i
+Zz 4-digit V SMART PRO x AUTO PRO PAD ? AUTEL IM608
+2 MicroPod PIN Needed
+a \ wiTECH® sl S
+=> Mike's Tip: CCD (Type 1 System) NO PIN Read is possible.
+
+Code Series: M001-M2618
+
+3 or DEPTHS
+
+> Cut to
+
+ra 1 2 3 4 5 6 7 8 Cue 1 = 340
+a= 315
+
+26 oat | 849 | 757. |--ee5_|=s72 |= 401 | sep | aor-| °°? | 2 So,
+
+o 4 = 265
+
+tu Cam: Carriage:
+
+>. Curtis Clipper: CHRY-5 CHRY-5A Pak-A-Punch: | PAK-C5
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .310
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: CHR 2 Lishi: CY24 | AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock and progression the remaining cut for the ignition.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set TO-93.
+Method #3 Remove a door or trunk cylinder and decode it and progression the remaining cut for the ignition.
+
+01/0/0/0/ 0} 0} ]> lgnition
+O0)/0)0}0}0} 0} )]> Doors
+O}O}O}0!} 0} 0] O]> Trunk (if equipped)
+2/3|415/6|71/8
+
+IGNLOCK | DOORLOCK | TRUNKLOCK |
+
+702785
+
+1998-01 Cherokee
+
+OSLLVULS
+
+703719C | 702418 = 703327 703927
+1998-01 Wrangler 703719C | 702418 = 702786 702787 703927
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 101
+JEEP-7 SECTION ieee
+
+| styie | carp# | iL# | macs | StartCut | CuttoCut| Air Bags
+
+| Ign Retainer
+
+M 1-2618 Dbl Sided CX102 2_= = 002 = Yes. Active
+
+NATIONAL: KEYLINE: ILC: JET: JMA: STRATTEC: | DEALER:
+MASTER -Y160-PT BY160-PT YI60-PT Y160-PHT TP21-CHRI5P 692325— : n/a —
+KEYS => | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+=> Mike's Tip: Your vehicle may or may not have a transponder system - See if a mechanical key will-start it up?
+
+<> Mike's Tip: -VPW (Type 2 System) PIN Read is possible - depending on the key programmer you are using.
+
+* gon OA Fob Remote: Jeep# 56036859AE or ILCO# RKE-JEEP-3B1 (1999-04, Drv 1) FCC: GQ43VT9T | 315 MHz
+
+Grand Cherokee | Fob Remote: Jeep# 56036860AE (1999-04, Drv 2, 433 MHz) FCC Info: GQ43VT9T | 433 MHz
+Ueep) : : =
+Fob Remote: Jeep# 05014736AA (1994-98) FCC Info: GQ43VT9T | 315 MHz
+= ; Fob Remote: Jeep# 04602260AD or ILCO# RKE-CHRY-4BI (4 Btn) FCC Info: GQ43VTI7T | 315 MHz
+Liberty (Jeep) 4 : = : : = <=
+2001-06
+
+Wrangler (Jeep) No Factory Remotes,
+
+56036859AE 56036860AE 04602260AD
+
+PANIC
+
+Chip information & Notes = == =
+
+Transponder: Optional on some models _ | Chip: Texas 4D64 = = ‘| Reusable: No
+
+a > Mike’s Tip: Key Programmer & PIN Required. Test key is Y157 / Y159.
+
+> aa = ==
+
+>a) Cloner Machine Information Z
+
+i¢2) = : == =
+
+BS (DIAG BOX) ( CHINA ) (ILCOISILCA) ( JMAUSA ) ( KEYLINE )( LD. )( Scorpio )( wo )|
+
+= Hae — Ng00 RW4 | |TRS-5000/EVO| | 884 Ultegra | | MIRACLONE TANGO ‘MINI TOOL.
+
+Kt M1 Yes 1 Yes? M1 Yes® M Yes? WI MyYes® || Yes? _ MYes —
+
+Blue Chip & CN64 & Shell EH3 & “A” TPX2 & _GK100 17K100 Most Chips - Most Chips Wo! Chip &
+Shell Blade || Y160Shell | | &Y160Blade | | &Y160Shell | | &Y160Shell | | Y160 Shell
+*4 -Requires Internet Access-to complete cloning. *2- Requires Philips Crypto Update. *3 - Requires Texas Crypto update.
+
+102 - CHRY-DODGE-JEEP : == ©1994, 2021 AutoSmart™ by Michael Hyde
+
+> ‘eo @ 8 8 6:6 6 6 6 6
+
+» @
+
+»n@oeaoeee82886
+
+)
+©9e@e@eee0e«
+
+(
+
+@eeoeoeoeeeegeoeee@e é¢
+
+continued - JEEP-7 SECTION
+
+- (Factory Tool ) ( PINCODE )
+
+> DART REQUIRED
+
+Zz (v TCODE/MVP PRO (« TDB1000 [v HOTWIRE
+” DRB
+
+Uv [Vv] Yes
+
+eH | StarScan =
+
+= : 4-digit Vv SMART PRO V AUTO PRO PAD ¥ AUTEL IM608
+mi MicroPod | | PIN Needed
+
+x | wiTECH® oe oe
+
+= Mike's Tip: VPW (Type 2 System) PIN Read is possible - depending on the key programmer you are using.
+
+Code Series: M001-M2618
+
+1 2 3 4 5 6 7 8 Cutte= | = 340
+Cut: :
+
+092 2= .315
+
+941 .849 .157 -665 ES 481 -389 297 : 3 = 290
+
+4= .265
+
+Cam: Carriage:
+
+Curtis Clipper: | cuny-5 | CHRY-5A
+
+Pak-A-Punch: | PAK-C5
+
+H1idad 8 A0VdS
+
+FRAMON: Lay tip stop clip flat against left side of vise, Set first cut at .310
+
+Codes: | No Codes on any_locks.
+
+Decoders: | Determinator: CHR 2 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y157 Cobra: KDC8
+
+Method #1 Use a Lock Decoder/Reader tool to decode the door lock and progression the remaining cut for the ignition.
+Method #2 Use tryout keys, Baxter Systems Tryout keys set 97 All Locks, or Aero Lock tryout set TO-93.
+Method #3 Remove a door or trunk cylinder and decode it and progression the remaining cut for the ignition.
+
+O0/0}0}0}0/}0/}O)> Ignition
+0O/0/0/0} Oj O|O}> Doors
+O|O|O}O}0} 0} |> Trunk (if equipped)
+2131415161778
+
+DOORLOCK | TRUNKLOCK _
+
+nd 2 Uneoiies
+
+Ee 1 1999-04 Grand Cherokee 703719C 702418 = 704521 = 703927
+é 1998 Grand Cherokee 703719C | 702418 = 703327 702785 703927
+a 2002-08 Liberty 703719C | 702418 = 706752 704521 703927
+9 2002-06 Wrangler 703719C | 702418 = 703327 703327 103927
+1998-01 Wrangler 703719C | 702418 702786 702786 703927
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 103
+JEEP-8 SECTION |
+
+MASTER
+KEYS >
+
+CODES
+
+[> SINE
+
+| caRp# | imL# | macs | Start Cut
+
+| Cut to Cut | Air Bags |
+
+ign Retainer
+
+L1-3580 Dbl Sided }| CX60 2 Active
+NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: “DEALER:
+Y157 / Y159 BY157 Y157 / Y159 ¥157 / Y159 €HR-14 596504 =="
+Determinator: CHR 1 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y154 Cobra: KDC8
+
+> Mike's Tip: Some vehicles, depending on trim level, may not have had a Wireless Remote Fob from the factory.
+
+1995-98 (Dodge)
+Stratus 4 Dr
+
+Fob Remote: Dge# 4608229AB (1998) FCC Info: KYPTO3C98JA | IC: 2171 102 575 | 315 MHz
+
+-Fob Remote: Dge# 04608229 (1995-97) FCC Info: KYPTX001 | IC: 2171 K1413 | 315 MHz
+
+1994-97
+Cherokee (leep)
+
+Fob Remote: Jeep# 56008968AB (1997-98) FCC Info: GQ43VTIOT | IC: 1470101803 | 315 MHz
+
+1994-97 (Jeep)
+Grand Cherokee
+
+Fob Remote: Jeep# 56009031 (1991-96) FCC Info: n/a
+
+Fob Remote: Jeep# 05014736AA (1994-98) FCC Info: GQ43VTST | IC: 1470102460 | 315 MHz
+
+04608229
+
+05014736AA
+4608229AB :
+
+56008968AB
+
+Lock
+
+i@NLOCK 7 *]
+
+El NO TRANSPONDER
+
+HLd3d0 8 J0VdS
+
+104 - CHRY-DODGE-JEEP
+
+»>e@@e°e
+
+Code Series: L0001-3580
+
+p36 | beens
+1 2 3 - | 6 =2 Ge | t= 340
+2=.315
+249 | 757 [2665 | . ; 2 : 092
+573 481 389 297 3= 290 |
+4= 265
+Curtis Clipper: at Carriage: Pak-A-Punch: | PAK-C2
+= : | CHRY-4 CHRY-4B : : =
+FRAMON—Use Ford 5 pin clip and set for first cut at .052 _ =
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+>
+
+)
+
+)
+
+)
+@oeoeo @@0020e0eeee@e7@edgcte@eeeeodes «4
+
+continued - JEEP-8 SECTION
+
+Codes:
+
+No Codes on any locks.
+
+Decoders: | Determinator: CHR1 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y154 Cobra: KDC8
+
+Method #1A (MOST 1993-95) - 5 WAFER DOOR
+
+Method #1B (MOST 1996-97) - 7 WAFER DOOR
+
+To progression the remaining cuts for the ignition in positions 1 & 2, determine what the depth is in position
+number three that is found in the door and trunk locks, and then use the chart below. Use the column that
+matches the depth for the tumbler in position number three
+
+Use a Lock Decoder/Reader tool to decode the door lock for positions 3 through 7 Next use the tool to
+determine the cuts in the ignition for positions 1 & 2. You will have all the cuts necessary for a complete key.
+
+Use a Lock Decoder/Reader tool to decode the door lock for positions 1 through 7, You will then have all the
+cuts necessary for a complete key.
+
+MOST 1993-95 MODELS MOST 1996-97 MODELS
+
+0) 0/0) 0/0) 0) O)> Ignition OD] Oo oO;os os ola) Ignition
+O}0O|0O} 0) 0} Doors
+olola ols slid k 0/0)0/O/}0}0}0}> Doors
+Sip oe 5/O}o)/0}0} 0] o)> slider/trunk
+aS = BE ees O} 0 | O|> Glove Box
+112] 5] Z Bogs ai2 3l4alsi6. 7: (If Equipped)
+
+KEY1 KEY? KEY3 KE¥Y4= KEY 2 KEY3 KEY4 Key) - KEY 2. KEY 3
+11 21 31 11 21 24 31 12 22 24
+12 22 : 12 22 13 32
+13 32 13 32 23 42
+23 42 23 42 33 43
+33 33 43 34
+43 34 44
+
+44
+
+IGN LOCK DGOR LOCK TRUNK LOCK ©
+
+11997 Cherokee =e) eee ls = 702786 — | 702799 | 703927
+Fp 1996 Cherokee = | fore | 702786 — | 702799 | 703927
+mT] 1995 Cherokee 702007 | 702419 az 702786 — | 702799 | 703927
+= 1994 Cherokee 702007 | 702419 | 703610 | 702127 — | 702428 | 703927
+aH | 1997 Grand Cherokee =| yoss2 1 703327 -__| 702785 | 703927_
+711) | 1996 Grand Cherokee = = - 7o27ee 11s = 703327 — | 702785 | 703927
+° rs Grand Cherokee = 702788 = eee 702785 | 703927
+1994 Grand Cherokee 701757 | 702417 | 703610 | 702127 702429 | 703927
+1998-00 _| Stratus iG 702418 = 702786 - 702787 | 703927
+1995-97 _| Stratus 703609 | 702418 & 702786 = 702787 | 703927
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 105
+~ JEEP-9 SECTION
+
+(Jeep)
+
+1986-90 Comanche
+
+74-91 Grand Wagoneer
+
+| STYLE
+
+(Jeep)
+
+| carp# | me# |
+
+1984-90 Wagoneer
+
+(eep)
+
+macs | startcut | cut
+
+1974-90 Wrangler
+(Jeep)
+
+to Cut | Air Bags Ign Retainer
+
+IGNITION E 0-999 Sgl Sided Z 109 — Bolt
+
+KEYS > NATIONAL: KEYLINE: ILCO: IMA: STRATTEC: DEALER:
+B46 B46 : P1098) B46 BS-9 321816 nla
+CODES | ste | caro# | me | “MACS | Startcut | Cutto Cut
+
+DOOR L 1-1000 Sgl Sided C1
+& HATCH NATIONAL: KEYLINE: ILCO: JET: JMA: STRATTEC: __DEALER:
+KEYS > RA3 n/a S1970AM RA3 BS-2 321815 nla
+Determinator: n/a Lishi: n/a AccuReader: n/a EEZ Reader: n/a Cobra: n/a.
+@ xo TRANSPONDER
+
+Code Series: L & K 1-1000
+
+” :
+
+a) : DEPTHS
+= 1 2 3 4 5 Cut #2 Cut 4 = 250
+m S ce. 2 = .225
+90 -150 243 336 429 522 3= 200
+: : ‘25
+a oe = | Can: Carriage: : : =
+
+a Curtis Clipper: AM-2 AM-2X Pak-A-Punch: | PAK-A2
+
+= :
+
+Code Series: E 0-999
+
+n
+
+Uv DEPTHS
+= 1 2 3 4 5 6 Cut eS sa 4 = 248
+m UY. 2 = .223
+90 -109 201 .293 385 ATT -569 3 = 198
+a 4= =
+m == 5 = .148
+vU = _ | Cam: Carriage: yp
+
+Z Curtis Clipper: GM-1 GM-2x Pak-A-Punch: | PAK-G1
+
+106 - CHRY-DODGE-JEEP
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+eeoeoeed ©
+
+peeeoeenoeaeaeee ©
+
+» ©
+@#ee@OO@eeeoeeneemseoeeesneoneeeodees
+
+continued - JEEP-9 SECTION
+
+Codes: | No Codes on any locks.
+
+Decoders: | Determinator: n/a Lishi:n/a_ | — AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+Method #1 Check owners manual for code, written in by the dealer.
+: IGNITION KEY: 2
+Method #2 © Use Baxter Systems set 42A or Aero Lock tryout set TO-4.
+Method #3 Remove ignition lock and read code stamped on lock, and make primary key. This involves having
+
+to take the steering column apart.
+
+DOOR & TAILGATE KEY:
+NOTE: The keyways shutters are prone to breakage if you impression the door or tailgate cylinders.
+Method #1 Remove glove box lock, if the car has one, disassemble to get the 4 out of the 5 cuts necessary to
+
+make a working secondary key.
+~ Method #2 Use Baxter Systems set 42A or Aero Lock tryout set TO-4.
+
+Method #3 Remove door cylinder and disassemble and decode the wafers to make working key.
+
+> Ignition
+
+> Doors & Tailgate
+] |> Glove Box
+
+IGN LOCK DGOR LOCK TRUNK LOCK
+
+=
+
+= 1986-90 COMANCHEE 609/80 | = = = 605965 = = 609862
+
+3 1986-91 GRAND WAGONEER 609780 — = 607822 _ a 609862
+/aE | 1985 WAGONEER 609780 = = 607822 = — 609862
+
+" 1987-90 JEEP WRANGLER | 609780 _ 605125 605965 - = 609862
+©1994, 2021 AutoSmart™ by Michael Hyde : CHRY-DODGE-JEEP. - 107
+_ JEEP-10 SECTION
+
+| sTyLe | caRD# | ITL# | macs | StartCut | CuttoCut | AirBags | ign Retainer
+
+“DE 1-11210 High Security 2 098 -- Yes Varies
+MASTER |- This model uses a Fiat based Key System. Keys are ordered by VIN.
+KEYS > | Determinator: n/a Lishi: SIP22 AccuReader: n/a EEZ Reader: n/a Cobra: nla
+
+> Mike's Tip: Key Programmer & PIN Required. Test key is KEYLINE: F122, ILCO: SIP22KP, JMA: FI-16C1
+NOTE: Aftermarket Key Programmers may not work. Check with your tool supplier.
+
+Prox Fob: Jeep# 68250335AB (3 Btn) FCC Info: M3N40821302 | IC: 7812A-40821302 | 433 MHz
+
+2017-21
+
+Prox Fob: Jeep# 68250337AB (4 Btn, with Rmt start) FCC Info: M3N40821302 | 433 MHz
+
+Compass (Geep)
+New Prox Model
+
+Prox Fob: Jeep# 68250343AB (5 Btn) FCC Info: M3N40821302 | IC: 7812A-40821302 | 433 MHz
+
+Emerg Key: Jeep# 68336595AA or National: FIAT-PROX-KEY
+
+2020-21
+
+Remote Key: Jeep# 68416785AA - Flip Key (No Bins) FCC Info: 0HT113026102 | 433 MHz
+
+Gladiator (Jeep)
+
+Prox Fob: Jeep# 68416784/AA - 4 Button Prox w/ Flip Key - FCC Info: OHT113026102 | 433 MHz
+
+2018-21
+
+Remote Key: Jeep# 68416785AA - Flip Key (No Btns) FCC Info: OHT113026102 | 433 MHz
+
+Wrangler (Jeep)
+
+Prox Fob: Jeep# 68416782AA - 3 Button Prox w/ Flip Key - FCC Info: OHT113026102 | 433 MHz
+
+New JL Model
+
+Prox Fob: Jeep# 68416784AA - 4 Button Prox w/ Flip Key - FCC Info: OHT113026102 | 433 MHz
+
+68416785AA
+
+Wrangler JL &
+Gladiator
+
+Compass
+
+VVS6G9EER9 |
+
+“Chip Information @ Notes = === = es = =
+
+Transponder: Proximity
+
+Chip: Philips 46 Reusable: No (Must-be Unlocked)
+
+> Mike's Tip: Key Programmer & PIN Required. Test key is KEYLINE: FT22, ILCO: SIP22KP, JMA: FI-6C1
+
+Cloner Machine Information = eee ee Se
+
+YAGNOdSNVYL
+
+No Cloning for this System
+
+108 - CHRY-DODGE-JEE
+
+P : = ©1994, 2021 AutoSmart™ by Michael Hyde
+
+»p'Oe'@e oo 6 Oe 6 @
+
+)
+
+)
+
+© @' 6@'@,0' 6: @
+
+)
+
+)
+@eeae@e@e @2e@oeeqeoeqoeeeoee?etce$ueed?@@e&es0 ¢
+
+continued - JEEP-10 SECTION
+
+a ( Factory Tool ) (— PIN CODE a
+> REQUIRED
+= (« TCODE/MVP PRO (v TDB1000 (. HOTWIRE
+Bi | MicroPod [VJ Yes
+pag | WITECH@ 5-digit (v SMART PRO (« AUTO PRO PAD (v AUTEL IM608
+= PIN Needed
+A Be eo z
+? = Check with your key programmer supplier to see if your vehicle is supported.
+
+Code Series: DE 1-11210
+
+4 Bow : SPACING DEPTHS
+4 1 2 3 41 5 6 7 8 Catto A= .166
+m 092 B=.135
+pay, 098 | 201 | .303 | 406 | 508 | 610 | 713 | .815 C= .103
+Oo D = .072
+A Cam: Carriage:
+
+5 Curtis Clipper: | 7," = ge: Pak-A-Punch: | N/A
+
+Codes: | No Codes on any locks.
+
+Decoders: Determinator: n/a Lishi: SIP22 AccuReader: n/a EEZ Reader: n/a Cobra: n/a
+
+NOTE: ALL models are equipped with a Transponder.
+Remote key must be ordered from Fiat or Chrysler dealers.
+Test key is KEYLINE: FT22, ILCO: SIP22KP, JMA: FI-16C1
+PIN Code is required. PIN Code came with car new, on a small card in the glove box.
+
+O}0O}O}0O} 0] O}> Ignition
+0/0/}0|0;}0}0}> Doors
+
+_|_TRUNKLOCK _
+
+Locks not available from Strattec
+
+©1994, 2021 AutoSmart™ by Michael Hyde CHRY-DODGE-JEEP - 109
+PLYMOUTH-1 SECTION
+
+| STYLE
+
+| carp# | iL# | macs | Startcut | cuttocut| AirBags | IgnRetainer |
+
+~-L1-3580 Dbl Sided Cx60 5 ey 092 Yes- Active
+MASTER NATIONAL: KEYLINE: ILCO: JET: JMA: - STRATTEC: ‘DEALER: :
+KEYS © ¥157 / ¥159 BY157 Y157 -¥159 157 / ¥169 CHR-14 — 596504 | n/a
+Determinator: CHR 1 Lishi: CY24 AccuReader: CHRY 8 EEZ Reader: Y154 Cobra: KDC8
+=> Mike's Tip: Some vehicles, depending on trim level, may not have had a Wireless Remote Fob from the factory.
+
+>@6e680
+
+Acclaim (Plymouth)
+
+1994-97 N ti ilabl
+Wiasniar Tae > No remotes available.
+4994-95 | Fob Remote: Chry# 56007049 (1995) FCC Info: GQ43V17T | IC: 1470 K1361 | 315 MHz | MFR: TRW
+
+Fob Remote: Chry# 04469341 (1991-94) FCC Info: GQ43VTST | IC: 1470 KI119 | 315 MHz | MFR: TRW
+
+1996-97
+Breeze (Plymouth)
+
+Fob Remote: Chry# 04608229 = FCC Info: KYPTXOO1 | IC: 2171 K1413 | 315 MHz | MER: Yazaki NA
+
+1994
+Sundance (Plymouth)
+
+>No remotes available.
+
+1994-97
+Vision (Eagle)
+
+> No remotes available.
+
+Fob Remote: Chry# 05014736AA (1996-98, 3 Btn) FCC Info: GQ43VT7T | IC: 1470 K1361 | 315 MHz
+
+ee0ee
+
+1994-97 7
+Voyager (Plymouth) Fob Remote: Chry# 04759136AB (1995) FCC Info: GQ43V77T | IC: 1470 K1361 | 315 MHz| MFR: TRW
+Fob Remote: Chry# 04469341 (1991-94) FCC Info: GQ43VTST | IC: 1470 K1119 | 315 MHz | MFR: TRW
+
+04608229 04469341 05014736AA
+
+-04759136AB
+
+| NO TRANSPONDER
+
+Code Series: L0001-3580
+
+o2)
+Uv = = DEPTHS
+> 2 3 4 5 j22-4-7 cute | 1= 340
+um 6849 | (757 | .665 | 573 | .481 | .389 | .297 O82 5222 15
+Ge Z 3 = .290
+Oo 4= .265
+m Cam: Carriage: a=
+4 Curtis Clipper: CHRY-4 CHRY-4B Pak-A-Punch: PAK-C2
+8 i x = =
+
+FRAMON—Use Ford 5 pin clip and set for first cut at .052
+
+110 - CHRY-DODGE-JEEP
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+» @
+
+> @ @
+
+)
+@@e@eeooeeaeeo;odeeoePeee@eg@e$o9ewe@e#@e0868 ¢
+
+continued -PLYMOUTH-1 SECTION
+
+Codes: | No Codes on any locks.
+Decoders: | Determinator: CHR1 Lishi: CY24 — AccuReader: CHRY 8 EEZ Reader: Y154 Cobra: KDC8
+Method #1A (MOST 1993-95) - 5 WAFER DOOR
+Use a Lock Decoder/Reader tool to decode the door lock for positions 3 through 7 Next use the tool to
+determine the cuts in the ignition for positions 1 & 2. You will have all the cuts necessary for a complete key.
+Method #1B (MOST 1996-97) - 7 WAFER DOOR
+
+Use a Lock Decoder/Reader tool to decode the door lock for positions 1 through 7 You will then have all the
+cuts necessary for a complete key. z
+
+MOST 1993-95 MODELS
+
+> Ignition
+
+> Doors
+
+> Slider/Trunk
+> Glove Box
+
+, | (if Equipped)
+
+MOST 1996-97 MODELS
+
+O}0O}0O}0]0}> Ignition
+
+O}0),0}0]|0}> Doors
+
+O| 0} 0} 0} G)> Slider/Trunk
+O|O}]O}> Glove Box
+
+3141516|7]| (fEquipped)
+
+matches the depth for the tumbler in position number three
+
+To progression the remaining cuts for the ignition in positions 1 & 2, determine what the depth is in position
+number three that is found in the door and trunk locks, and then use the chart below. Use the column that
+
+43
+
+34
+44
+
+KEY? KEY2= KEYS KEYa= KEY 2 -KEY3 — KEY 4 KE¥-1 KEY2. KEY 3
+1 21 31 nl 21 24 31 12 22 24
+12 22 12 22 13 32
+8 32 13 32 23 42
+23 42 23 42 33 43
+= 33 43 34
+
+IGN LOCK ~DGOR LOCK TRUNK LOCK
+
+2) 11995 Acclaim - 702788 _ 702785 _ 702421 703927
+= 1994 Acclaim 701757 702417 703611 : 702143 - 702421 703927
+cA 1996-97 Breeze - 702418 = 702786 _ 702787 703927
+
+: aa 1994 Sundance 701757 702417 703611 702143 701517 702424 703927
+L -@ | 1996-97 Voyager 703609 702418 > 702784 - 702784 703927
+1995 Voyager = 702788 - 702785 701515 702421 703927
+
+1994 Voyager 701757 702417 703611 702143 701515 702421 703927
+
+©1994, 2021 AutoSmart™
+
+by Michael Hyde
+
+CHRY-DODGE-JEEP - 111
+
+112 - CHRY-DODGE-JEEP
+
+On-Board Programming with Existing Keys 3
+
+A Chrysler transponder key once programmed into one car can not be programmed to work any
+other car, but the it can re-programmed back into the same vehicle if it got erased.
+
+The transponder code identification is learned by the Sentry Key Immobilizer Module during
+programming. The Sentry Key Immobilizer Module sends the “Secret Code” to the transponder
+key and is retained by the transponder key, during programming. After programming of the
+transponder key identification to the Sentry Key Immobilizer Module and the Secret Code is
+exchanged, the Sentry Key Immobilizer Module will ask for the transponder identification and ne
+Secret Code every time the key is turned to ON or START.
+
+No Emergency “Start” procedures for Chrysler vehicles.
+
+ADD A KEY WHEN YOU ALREADY HAVE TWO:
+(Two existing pre-programmed keys must be present for this next method.)
+
+1. Insert one of the pre-programmed transponder keys into the ignition lock cylinder and turn the
+
+switch to the ON position.
+
+2. The key should remain in the ON position for 5 seconds but not more than 15 seconds before
+you turn it back to the OFF position.
+
+3. Within 10 seconds, insert the second pre-programmed transponder key into the ignition lock
+cylinder and turn the switch to the ON position. The VTSS (Vehicle Theft Security System) or
+Sentry Key Immobilizer System lamp (depending on model) should start to flash. This along
+with a audible tone will indicate to you that the system has entered the “Customer Learn”
+programming mode.
+
+4, Within 45 seconds, turn the switch to the OFF position. Insert the new transponder key and
+turn the switch to the ON position. After approximately 10 seconds an audible tone will sound
+and the Indicator lamp will stay illuminated for 3 seconds. This will be your acknowledgement
+that you have successfully programmed in the new transponder key.
+
+5. To add additional keys, repeat steps 1 through 4.
+
+©1994, 2021 AutoSmart™ by Michael Hyde
+
+» ©, @ @
+
+)
+
+)
+
+)
+
+)
