@@ -333,6 +333,9 @@ async function generateViralVideo(title, idea, imageUrl, jobId = null) {
 }
 
 // Función auxiliar para esperar a KIE (Polling)
+// Documentación: https://docs.kie.ai/market/common/get-task-detail
+// States: waiting, queuing, generating, success, fail
+// Video URL está en resultJson (string JSON) -> resultUrls (array)
 async function pollKieTask(taskId) {
   const maxAttempts = 120; // 10 minutos (120 * 5s) - aumentado para videos largos
   const interval = 5000; // 5 segundos
@@ -347,60 +350,66 @@ async function pollKieTask(taskId) {
 
       // Debug: Log full response structure on first poll
       if (i === 0) {
-        logger.info(`🔍 KIE Response structure: ${JSON.stringify(response.data).substring(0, 500)}`);
+        logger.info(`🔍 KIE Response structure: ${JSON.stringify(response.data).substring(0, 800)}`);
       }
 
-      logger.info(`⏳ Polling KIE (${i + 1}/${maxAttempts}): Status ${taskData?.status || taskData?.state || 'unknown'} | Progress: ${taskData?.progress || 'N/A'}`);
+      // KIE uses 'state' field with values: waiting, queuing, generating, success, fail
+      const state = taskData?.state || 'unknown';
+      logger.info(`⏳ Polling KIE (${i + 1}/${maxAttempts}): State "${state}"`);
 
-      // Check various success conditions
-      const isSuccess =
-        taskData?.status === 3 ||
-        taskData?.status === 'SUCCEEDED' ||
-        taskData?.status === 'completed' ||
-        taskData?.status === 'success' ||
-        taskData?.state === 'completed' ||
-        taskData?.state === 'success' ||
-        taskData?.videoUrl ||
-        taskData?.video_url ||
-        taskData?.result?.videoUrl ||
-        taskData?.result?.video_url ||
-        taskData?.output?.video;
+      // Check for success
+      if (state === 'success') {
+        // resultJson is a STRING that needs to be parsed to get resultUrls array
+        let videoUrl = null;
 
-      if (isSuccess) {
-        // Extract video URL from various possible locations
-        const finalUrl =
-          taskData.videoUrl ||
-          taskData.video_url ||
-          taskData.result?.videoUrl ||
-          taskData.result?.video_url ||
-          taskData.output?.video ||
-          taskData.url ||
-          taskData.result;
+        if (taskData.resultJson) {
+          try {
+            const resultData = typeof taskData.resultJson === 'string'
+              ? JSON.parse(taskData.resultJson)
+              : taskData.resultJson;
 
-        if (finalUrl && typeof finalUrl === 'string') {
-          logger.info(`✅ KIE Video URL found: ${finalUrl.substring(0, 80)}...`);
-          return finalUrl;
+            if (resultData.resultUrls && resultData.resultUrls.length > 0) {
+              videoUrl = resultData.resultUrls[0];
+            }
+          } catch (parseError) {
+            logger.warn(`⚠️ Error parsing resultJson: ${parseError.message}`);
+          }
         }
 
-        // Maybe in a list?
-        if (Array.isArray(taskData.result)) {
-          return taskData.result[0];
+        // Fallback checks for other possible field locations
+        if (!videoUrl) {
+          videoUrl = taskData.videoUrl || taskData.video_url ||
+                     taskData.result?.videoUrl || taskData.result?.video_url ||
+                     taskData.output?.video;
         }
 
-        logger.warn(`⚠️ Success status but no URL found: ${JSON.stringify(taskData).substring(0, 300)}`);
+        if (videoUrl && typeof videoUrl === 'string') {
+          logger.info(`✅ KIE Video URL found: ${videoUrl.substring(0, 80)}...`);
+          return videoUrl;
+        }
+
+        logger.warn(`⚠️ Success state but no URL found. Full data: ${JSON.stringify(taskData).substring(0, 500)}`);
+        throw new Error('KIE returned success but no video URL found');
       }
 
-      if (taskData?.status === 4 || taskData?.status === 'FAILED') {
-        throw new Error(`KIE Task Failed: ${JSON.stringify(taskData)}`);
+      // Check for failure
+      if (state === 'fail') {
+        const errorMsg = taskData.failMsg || taskData.failCode || 'Unknown error';
+        throw new Error(`KIE Task Failed: ${errorMsg}`);
       }
 
+      // Still processing (waiting, queuing, generating)
       await new Promise((resolve) => setTimeout(resolve, interval));
     } catch (e) {
-      logger.warn(`⚠️ Error polling KIE (intento ${i}):`, e.message);
+      // Don't retry on known failures
+      if (e.message.includes('KIE Task Failed') || e.message.includes('no video URL found')) {
+        throw e;
+      }
+      logger.warn(`⚠️ Error polling KIE (intento ${i + 1}):`, e.message);
       await new Promise((resolve) => setTimeout(resolve, interval));
     }
   }
-  throw new Error('Timeout waiting for KIE video generation');
+  throw new Error('Timeout waiting for KIE video generation (10 min)');
 }
 
 async function generateSoraPrompt(title, idea) {
