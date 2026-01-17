@@ -7,16 +7,34 @@ try {
     const data = fs.readFileSync(inputFile, 'utf8');
     const lines = data.split('\n');
 
-    let currentMake = 'Chevrolet'; // Default from index
+    let currentMake = 'Chevrolet'; // Default
     let currentModel = '';
     let startYear = 0;
     let endYear = 0;
 
+    // Known Brands to look for as headers
+    const KNOWN_BRANDS = [
+        'CHEVROLET', 'FORD', 'LINCOLN', 'MERCURY',
+        'CHRYSLER', 'DODGE', 'JEEP', 'RAM',
+        'GMC', 'BUICK', 'CADILLAC', 'PONTIAC', 'SATURN', 'HUMMER', 'OLDSMOBILE',
+        'HONDA', 'ACURA',
+        'TOYOTA', 'LEXUS', 'SCION',
+        'NISSAN', 'INFINITI',
+        'MAZDA',
+        'HYUNDAI', 'KIA',
+        'VOLKSWAGEN', 'AUDI', 'SEAT',
+        'BMW', 'MINI',
+        'MERCEDES', 'SMART',
+        'FIAT', 'ALFA ROMEO',
+        'SUZUKI', 'MITSUBISHI', 'SUBARU', 'LAND ROVER', 'VOLVO', 'JAGUAR'
+    ];
+
     const db = [];
 
     // Regex patterns
-    const modelYearRegex = /^([A-Za-z0-9\s\-\/\(\)]+)\s+(\d{4})[-–](\d{4})/;
-    const singleYearRegex = /^([A-Za-z0-9\s\-\/\(\)]+)\s+(\d{4})/;
+    const indexRegex = /^(?:Í|I)NDICE\s+(.+)/i; // Relaxed: Matches "ÍNDICE ..." ignoring end constraints
+    const modelYearRegex = /^([A-Za-z0-9\s\-\/\(\)\.]+)\s+(\d{4})[-–](\d{4})/;
+    const singleYearRegex = /^([A-Za-z0-9\s\-\/\(\)\.]+)\s+(\d{4})/;
     const fccRegex = /FCC\s*ID:\s*([A-Za-z0-9\-\_]+)/i;
     const freqRegex = /Freq[:\.]?\s*(\d{3}(?:\.\d+)?)\s*MHz/i;
 
@@ -24,12 +42,100 @@ try {
 
     for (let i = 0; i < lines.length; i++) {
         const line = lines[i].trim();
+        const upperLine = line.toUpperCase();
 
-        // Skip empty lines or page numbers (simple digit only lines)
-        if (!line || /^\d+$/.test(line) || line.includes('INDICE')) continue;
+        // Skip empty lines or pure digits
+        if (!line || /^\d+$/.test(line)) continue;
 
-        // Check for Model Header
-        let match = line.match(modelYearRegex);
+        // 1. Check for Explicit Brand Header
+        // Pattern A: "ÍNDICE FORD" or "ÍNDICE CHRYSLER DODGE JEEP"
+        let match = line.match(indexRegex);
+
+        if (match) {
+            let potentialMakeString = match[1].trim();
+            let upperPotential = potentialMakeString.toUpperCase();
+
+            // Check if this string contains ANY known brand
+            let containsBrand = KNOWN_BRANDS.some(b => upperPotential.includes(b));
+
+            if (containsBrand) {
+                currentMake = potentialMakeString;
+                console.log(`[${i + 1}] Switching Make to: ${currentMake}`);
+                currentModel = '';
+                continue;
+            } else {
+                console.log(`DEBUG: Header found but no known brand in '${upperPotential}'`);
+            }
+        }
+
+        // ... (Pattern B stays same) ...
+        // ... (Rest of loop) ...
+
+        // Check for FCC ID and other logic...
+        // [Existing logic in loop is assumed to remain via replace_file_content context matching, but wait.]
+        // replace_file_content replaces contiguous blocks. I need to be careful not to delete the loop body.
+        // My start line is 33 (where regex definitions are).
+        // I should only replace the Regex definition.
+
+    }
+    // ...
+
+    // Correcting my instruction: I will replace just the Regex definition line.
+    // And add the console.log at the end.
+
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+        const upperLine = line.toUpperCase();
+
+        // Skip empty lines or pure digits
+        if (!line || /^\d+$/.test(line)) continue;
+
+        // 1. Check for Explicit Brand Header
+        // Pattern A: "ÍNDICE FORD" or "ÍNDICE CHRYSLER DODGE JEEP"
+        let match = line.match(indexRegex);
+
+        // DEBUG: Trace Ford Line
+        if (upperLine.includes("FORD") && upperLine.length < 50) {
+            console.log(`DEBUG: Line match? ${!!match} | Content: '${line}'`);
+        }
+
+        if (match) {
+            let potentialMakeString = match[1].trim();
+            let upperPotential = potentialMakeString.toUpperCase();
+
+            // Check if this string contains ANY known brand
+            let containsBrand = KNOWN_BRANDS.some(b => upperPotential.includes(b));
+
+            if (containsBrand) {
+                currentMake = potentialMakeString;
+                console.log(`[${i + 1}] Switching Make to: ${currentMake}`);
+                currentModel = '';
+                continue;
+            } else {
+                console.log(`DEBUG: Header found but no known brand in '${upperPotential}'`);
+            }
+        }
+
+        // Pattern B: Just "FORD" or "CHRYSLER" alone on a line
+        // Also check for composite "CHRYSLER DODGE JEEP" on one line
+        if (upperLine.length < 50 && KNOWN_BRANDS.some(b => upperLine.includes(b))) {
+            // Heuristic: If it matches a known brand EXACTLY or contains explicit separators?
+            // Actually, single line "FORD" is safe. "CHRYSLER DODGE JEEP" is also safe if it's short.
+            // But valid model names might contain brands? e.g. "Ford Expedition"
+            // Typically headers are UPPERCASE. Models might be mixed.
+            // Let's strictly check if the line IS a known brand OR strictly matches a composite string we trust.
+            // For now, let's rely on pattern A mostly. Pattern B only for exact matches.
+
+            if (KNOWN_BRANDS.includes(upperLine)) {
+                currentMake = upperLine.charAt(0).toUpperCase() + upperLine.slice(1).toLowerCase();
+                console.log(`[${i + 1}] Switching Make to: ${currentMake}`);
+                currentModel = '';
+                continue;
+            }
+        }
+
+        // 2. Check for Model Header
+        match = line.match(modelYearRegex);
         if (match) {
             // If we have a pending entry with an FCC ID, save it (though usually FCC comes after)
             // But actually, we are resetting for a new block
@@ -129,6 +235,8 @@ try {
     }
 
     console.log(`Parsed ${db.length} entries.`);
+    const uniqueMakes = [...new Set(db.map(e => e.make))];
+    console.log(`Unique Makes Found: ${uniqueMakes.join(', ')}`);
     fs.writeFileSync(outputFile, JSON.stringify(db, null, 2));
 
     // Print first 5 for verification

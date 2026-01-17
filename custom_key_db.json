@@ -1,6 +1,6 @@
 [
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Astra",
     "startYear": 2000,
     "endYear": 2003,
@@ -8,7 +8,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Astra",
     "startYear": 2004,
     "endYear": 2006,
@@ -16,7 +16,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Astra",
     "startYear": 2007,
     "endYear": 2008,
@@ -24,7 +24,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Astro",
     "startYear": 1997,
     "endYear": 1999,
@@ -32,7 +32,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Astro",
     "startYear": 1999,
     "endYear": 2000,
@@ -40,7 +40,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Astro",
     "startYear": 2001,
     "endYear": 2006,
@@ -48,7 +48,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Avalanche",
     "startYear": 2001,
     "endYear": 2002,
@@ -56,7 +56,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Avalanche",
     "startYear": 2003,
     "endYear": 2006,
@@ -64,7 +64,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Avalanche",
     "startYear": 2007,
     "endYear": 2013,
@@ -72,7 +72,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Aveo",
     "startYear": 2008,
     "endYear": 2018,
@@ -80,7 +80,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Aveo",
     "startYear": 2018,
     "endYear": 2022,
@@ -88,7 +88,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Beat",
     "startYear": 2017,
     "endYear": 2022,
@@ -96,7 +96,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Blazer",
     "startYear": 1992,
     "endYear": 1996,
@@ -104,7 +104,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Blazer",
     "startYear": 1997,
     "endYear": 1997,
@@ -112,7 +112,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Blazer",
     "startYear": 1998,
     "endYear": 2001,
@@ -120,7 +120,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Blazer",
     "startYear": 2002,
     "endYear": 2009,
@@ -128,7 +128,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Blazer",
     "startYear": 2019,
     "endYear": 2020,
@@ -136,7 +136,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Blazer y Trailblazer",
     "startYear": 2021,
     "endYear": 2022,
@@ -144,7 +144,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Camaro",
     "startYear": 1996,
     "endYear": 2002,
@@ -152,7 +152,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Camaro",
     "startYear": 2010,
     "endYear": 2019,
@@ -160,7 +160,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Camaro",
     "startYear": 2016,
     "endYear": 2020,
@@ -168,7 +168,7 @@
     "freq": "433.92 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Camaro",
     "startYear": 2021,
     "endYear": 2022,
@@ -176,7 +176,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Captiva",
     "startYear": 2007,
     "endYear": 2015,
@@ -184,7 +184,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Captiva",
     "startYear": 2021,
     "endYear": 2022,
@@ -192,7 +192,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Captiva",
     "startYear": 2021,
     "endYear": 2022,
@@ -200,7 +200,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Cavalier",
     "startYear": 1997,
     "endYear": 1999,
@@ -208,7 +208,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Cavalier",
     "startYear": 2000,
     "endYear": 2005,
@@ -216,7 +216,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Cavalier",
     "startYear": 2018,
     "endYear": 2022,
@@ -224,7 +224,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Colorado",
     "startYear": 2004,
     "endYear": 2012,
@@ -232,7 +232,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Colorado",
     "startYear": 2015,
     "endYear": 2021,
@@ -240,7 +240,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Corsa (Opel)",
     "startYear": 2003,
     "endYear": 2008,
@@ -248,7 +248,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Corvette",
     "startYear": 1997,
     "endYear": 2000,
@@ -256,7 +256,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Chevrolet Corvette",
     "startYear": 2001,
     "endYear": 2004,
@@ -264,7 +264,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Corvette",
     "startYear": 2005,
     "endYear": 2007,
@@ -272,7 +272,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Corvette",
     "startYear": 2008,
     "endYear": 2013,
@@ -280,7 +280,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Corvette",
     "startYear": 2014,
     "endYear": 2015,
@@ -288,7 +288,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Corvette",
     "startYear": 2016,
     "endYear": 2019,
@@ -296,7 +296,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Corvette",
     "startYear": 2020,
     "endYear": 2021,
@@ -304,7 +304,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Cruze",
     "startYear": 2016,
     "endYear": 2019,
@@ -312,7 +312,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Cruze",
     "startYear": 2016,
     "endYear": 2019,
@@ -320,7 +320,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Equinox",
     "startYear": 2005,
     "endYear": 2006,
@@ -328,7 +328,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Equinox",
     "startYear": 2007,
     "endYear": 2009,
@@ -336,7 +336,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Equinox",
     "startYear": 2010,
     "endYear": 2018,
@@ -344,7 +344,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Equinox",
     "startYear": 2018,
     "endYear": 2021,
@@ -352,7 +352,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Equinox",
     "startYear": 2022,
     "endYear": 2022,
@@ -360,7 +360,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Express Van",
     "startYear": 1998,
     "endYear": 2002,
@@ -368,7 +368,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Express Van",
     "startYear": 2003,
     "endYear": 2007,
@@ -376,7 +376,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Express Van",
     "startYear": 2003,
     "endYear": 2007,
@@ -384,7 +384,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Express Van",
     "startYear": 2008,
     "endYear": 2014,
@@ -392,7 +392,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Express Van",
     "startYear": 2015,
     "endYear": 2021,
@@ -400,7 +400,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Groove",
     "startYear": 2021,
     "endYear": 2022,
@@ -408,7 +408,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Groove",
     "startYear": 2021,
     "endYear": 2022,
@@ -416,7 +416,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "HHR",
     "startYear": 2006,
     "endYear": 2011,
@@ -424,7 +424,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Malibu",
     "startYear": 1997,
     "endYear": 1999,
@@ -432,7 +432,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Malibu",
     "startYear": 2000,
     "endYear": 2000,
@@ -440,7 +440,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Malibu",
     "startYear": 2001,
     "endYear": 2005,
@@ -448,7 +448,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Malibu",
     "startYear": 2004,
     "endYear": 2007,
@@ -456,7 +456,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Malibu",
     "startYear": 2008,
     "endYear": 2012,
@@ -464,7 +464,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Malibu",
     "startYear": 2013,
     "endYear": 2016,
@@ -472,7 +472,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Malibu",
     "startYear": 2016,
     "endYear": 2021,
@@ -480,7 +480,7 @@
     "freq": "433.92 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Malibu",
     "startYear": 2016,
     "endYear": 2021,
@@ -488,7 +488,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Malibu",
     "startYear": 2022,
     "endYear": 2022,
@@ -496,7 +496,7 @@
     "freq": "433.92 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Meriva (Opel)",
     "startYear": 2004,
     "endYear": 2008,
@@ -504,7 +504,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Monte Carlo",
     "startYear": 2001,
     "endYear": 2005,
@@ -512,7 +512,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Monte Carlo",
     "startYear": 2006,
     "endYear": 2007,
@@ -520,7 +520,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "ONIX",
     "startYear": 2020,
     "endYear": 2022,
@@ -528,7 +528,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "ONIX",
     "startYear": 2020,
     "endYear": 2022,
@@ -536,7 +536,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Optra",
     "startYear": 2006,
     "endYear": 2011,
@@ -544,7 +544,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "S-10",
     "startYear": 1998,
     "endYear": 2001,
@@ -552,7 +552,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "S-10",
     "startYear": 2001,
     "endYear": 2004,
@@ -560,7 +560,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Silverado",
     "startYear": 1993,
     "endYear": 1996,
@@ -568,7 +568,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Silverado",
     "startYear": 1997,
     "endYear": 1998,
@@ -576,7 +576,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Silverado",
     "startYear": 1999,
     "endYear": 2001,
@@ -584,7 +584,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Silverado",
     "startYear": 2001,
     "endYear": 2002,
@@ -592,7 +592,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Silverado",
     "startYear": 2003,
     "endYear": 2006,
@@ -600,7 +600,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Silverado",
     "startYear": 2007,
     "endYear": 2014,
@@ -608,7 +608,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Silverado",
     "startYear": 2014,
     "endYear": 2018,
@@ -616,7 +616,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Silverado",
     "startYear": 2019,
     "endYear": 2021,
@@ -624,7 +624,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Silverado",
     "startYear": 2021,
     "endYear": 2021,
@@ -632,7 +632,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Sonic",
     "startYear": 2010,
     "endYear": 2017,
@@ -640,7 +640,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Spark",
     "startYear": 2011,
     "endYear": 2013,
@@ -648,7 +648,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Spark",
     "startYear": 2013,
     "endYear": 2016,
@@ -656,7 +656,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Spark",
     "startYear": 2016,
     "endYear": 2018,
@@ -664,7 +664,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Spark",
     "startYear": 2019,
     "endYear": 2021,
@@ -672,7 +672,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Spark",
     "startYear": 2018,
     "endYear": 2022,
@@ -680,7 +680,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Suburban",
     "startYear": 2000,
     "endYear": 2001,
@@ -688,7 +688,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Suburban",
     "startYear": 2001,
     "endYear": 2002,
@@ -696,7 +696,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Suburban",
     "startYear": 2003,
     "endYear": 2006,
@@ -704,7 +704,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Suburban",
     "startYear": 2007,
     "endYear": 2014,
@@ -712,7 +712,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Suburban",
     "startYear": 2015,
     "endYear": 2020,
@@ -720,7 +720,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Suburban",
     "startYear": 2015,
     "endYear": 2020,
@@ -728,7 +728,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Suburban",
     "startYear": 2015,
     "endYear": 2020,
@@ -736,7 +736,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Suburban",
     "startYear": 2021,
     "endYear": 2022,
@@ -744,7 +744,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Tahoe",
     "startYear": 2000,
     "endYear": 2001,
@@ -752,7 +752,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Tahoe",
     "startYear": 2001,
     "endYear": 2002,
@@ -760,7 +760,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Tahoe",
     "startYear": 2003,
     "endYear": 2006,
@@ -768,7 +768,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Tahoe",
     "startYear": 2007,
     "endYear": 2015,
@@ -776,7 +776,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Tahoe",
     "startYear": 2015,
     "endYear": 2016,
@@ -784,7 +784,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Tahoe",
     "startYear": 2015,
     "endYear": 2020,
@@ -792,7 +792,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Tahoe",
     "startYear": 2015,
     "endYear": 2020,
@@ -800,7 +800,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Tahoe",
     "startYear": 2021,
     "endYear": 2022,
@@ -808,7 +808,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Tornado (Opel)",
     "startYear": 2004,
     "endYear": 2011,
@@ -816,7 +816,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Tornado (Opel)",
     "startYear": 2011,
     "endYear": 2014,
@@ -824,7 +824,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Tornado (Opel)",
     "startYear": 2015,
     "endYear": 2020,
@@ -832,7 +832,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Tornado",
     "startYear": 2021,
     "endYear": 2022,
@@ -840,7 +840,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Traverse",
     "startYear": 2009,
     "endYear": 2017,
@@ -848,7 +848,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Traverse",
     "startYear": 2018,
     "endYear": 2020,
@@ -856,7 +856,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Trax",
     "startYear": 2012,
     "endYear": 2018,
@@ -864,7 +864,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Trax",
     "startYear": 2019,
     "endYear": 2021,
@@ -872,7 +872,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Trax",
     "startYear": 2017,
     "endYear": 2020,
@@ -880,7 +880,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Uplander",
     "startYear": 2005,
     "endYear": 2009,
@@ -888,7 +888,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHEVROLET",
     "model": "Venture",
     "startYear": 2002,
     "endYear": 2005,
@@ -896,7 +896,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "200 (Chrysler)",
     "startYear": 2011,
     "endYear": 2013,
@@ -904,7 +904,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "200 (Chrysler)",
     "startYear": 2011,
     "endYear": 2017,
@@ -912,7 +912,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "300 (Chrysler)",
     "startYear": 2005,
     "endYear": 2007,
@@ -920,7 +920,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "300 (Chrysler)",
     "startYear": 2008,
     "endYear": 2012,
@@ -928,7 +928,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "300 (Chrysler)",
     "startYear": 2011,
     "endYear": 2018,
@@ -936,7 +936,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "300 (Chrysler)",
     "startYear": 2019,
     "endYear": 2022,
@@ -944,7 +944,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Attitude (Dodge)",
     "startYear": 2006,
     "endYear": 2011,
@@ -952,7 +952,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Attitude (Dodge)",
     "startYear": 2012,
     "endYear": 2014,
@@ -960,7 +960,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Avenger (Dodge)",
     "startYear": 2008,
     "endYear": 2014,
@@ -968,7 +968,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Caliber (Dodge)",
     "startYear": 2007,
     "endYear": 2012,
@@ -976,7 +976,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Caravan y Grand Caravan (Dodge)",
     "startYear": 1996,
     "endYear": 1998,
@@ -984,7 +984,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Caravan Y Gran Caravan (Dodge)",
     "startYear": 1999,
     "endYear": 2003,
@@ -992,7 +992,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Caravan (Dodge)",
     "startYear": 2004,
     "endYear": 2007,
@@ -1000,7 +1000,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Caravan (Dodge)",
     "startYear": 2008,
     "endYear": 2020,
@@ -1008,7 +1008,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Challenger (Dodge)",
     "startYear": 2008,
     "endYear": 2015,
@@ -1016,7 +1016,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Challenger (Dodge)",
     "startYear": 2015,
     "endYear": 2022,
@@ -1024,7 +1024,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Charger (Dodge)",
     "startYear": 2005,
     "endYear": 2007,
@@ -1032,7 +1032,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Charger (Dodge)",
     "startYear": 2008,
     "endYear": 2014,
@@ -1040,7 +1040,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Charger (Dodge)",
     "startYear": 2011,
     "endYear": 2018,
@@ -1048,7 +1048,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Cherokee (Jeep)",
     "startYear": 1997,
     "endYear": 1998,
@@ -1056,7 +1056,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Cherokee (Jeep)",
     "startYear": 1999,
     "endYear": 2001,
@@ -1064,7 +1064,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Cherokee (Jeep)",
     "startYear": 2014,
     "endYear": 2022,
@@ -1072,7 +1072,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Grand Cherokee (Jeep)",
     "startYear": 1996,
     "endYear": 1998,
@@ -1080,7 +1080,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Grand Cherokee (Jeep)",
     "startYear": 1999,
     "endYear": 2004,
@@ -1088,7 +1088,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Grand Cherokee (Jeep)",
     "startYear": 2005,
     "endYear": 2007,
@@ -1096,7 +1096,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Grand Cherokee (Jeep)",
     "startYear": 2008,
     "endYear": 2010,
@@ -1104,7 +1104,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Grand Cherokee (Jeep)",
     "startYear": 2011,
     "endYear": 2013,
@@ -1112,7 +1112,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Grand Cherokee (Jeep)",
     "startYear": 2014,
     "endYear": 2021,
@@ -1120,7 +1120,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Grand Cherokee (Jeep)",
     "startYear": 2021,
     "endYear": 2022,
@@ -1128,7 +1128,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Gladiator (Jeep)",
     "startYear": 2019,
     "endYear": 2022,
@@ -1136,7 +1136,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Commander (Jeep)",
     "startYear": 2006,
     "endYear": 2007,
@@ -1144,7 +1144,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Commander (Jeep)",
     "startYear": 2008,
     "endYear": 2010,
@@ -1152,7 +1152,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Compass (Jeep)",
     "startYear": 2007,
     "endYear": 2018,
@@ -1160,7 +1160,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Compass (Jeep)",
     "startYear": 2018,
     "endYear": 2021,
@@ -1168,7 +1168,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Concorde (Chrysler)",
     "startYear": 1998,
     "endYear": 2004,
@@ -1176,7 +1176,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Crossfire (Chrysler)",
     "startYear": 2004,
     "endYear": 2008,
@@ -1184,7 +1184,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Dakota (Dodge)",
     "startYear": 2001,
     "endYear": 2004,
@@ -1192,7 +1192,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Dakota (Dodge)",
     "startYear": 2005,
     "endYear": 2013,
@@ -1200,7 +1200,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Dart (Dodge)",
     "startYear": 2012,
     "endYear": 2016,
@@ -1208,7 +1208,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Dart (Dodge)",
     "startYear": 2012,
     "endYear": 2016,
@@ -1216,7 +1216,7 @@
     "freq": "433.90 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Durango (Dodge)",
     "startYear": 1998,
     "endYear": 2000,
@@ -1224,7 +1224,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Durango (Dodge)",
     "startYear": 2001,
     "endYear": 2003,
@@ -1232,7 +1232,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Durango (Dodge)",
     "startYear": 2004,
     "endYear": 2010,
@@ -1240,7 +1240,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Durango (Dodge)",
     "startYear": 2011,
     "endYear": 2013,
@@ -1248,7 +1248,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Durango (Dodge)",
     "startYear": 2014,
     "endYear": 2022,
@@ -1256,7 +1256,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Intrepid (Chrysler)",
     "startYear": 2001,
     "endYear": 2004,
@@ -1264,7 +1264,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Journey (Dodge)",
     "startYear": 2008,
     "endYear": 2011,
@@ -1272,7 +1272,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Journey (Dodge)",
     "startYear": 2012,
     "endYear": 2020,
@@ -1280,7 +1280,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Journey (Dodge)",
     "startYear": 2022,
     "endYear": 2022,
@@ -1288,7 +1288,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Liberty (Jeep)",
     "startYear": 2002,
     "endYear": 2004,
@@ -1296,7 +1296,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Liberty (Jeep)",
     "startYear": 2005,
     "endYear": 2007,
@@ -1304,7 +1304,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Liberty (Jeep)",
     "startYear": 2008,
     "endYear": 2012,
@@ -1312,7 +1312,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Neon (Dodge)",
     "startYear": 2000,
     "endYear": 2005,
@@ -1320,7 +1320,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Nitro (Dodge)",
     "startYear": 2007,
     "endYear": 2012,
@@ -1328,7 +1328,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Pacifica (Chrysler)",
     "startYear": 2004,
     "endYear": 2008,
@@ -1336,7 +1336,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Pacifica (Chrysler)",
     "startYear": 2017,
     "endYear": 2022,
@@ -1344,7 +1344,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Patriot (Jeep)",
     "startYear": 2007,
     "endYear": 2018,
@@ -1352,7 +1352,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "PT Cruiser (Chrysler)",
     "startYear": 2001,
     "endYear": 2005,
@@ -1360,7 +1360,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "PT Cruiser (Chrysler)",
     "startYear": 2006,
     "endYear": 2010,
@@ -1368,7 +1368,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Ram Pick Up (Dodge)",
     "startYear": 1998,
     "endYear": 2001,
@@ -1376,7 +1376,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Ram Pick Up (Dodge)",
     "startYear": 1998,
     "endYear": 2001,
@@ -1384,7 +1384,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Ram Pick Up (Dodge)",
     "startYear": 2002,
     "endYear": 2005,
@@ -1392,7 +1392,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Ram Pick Up (Dodge)",
     "startYear": 2006,
     "endYear": 2012,
@@ -1400,7 +1400,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Ram Pick Up (Dodge)",
     "startYear": 2009,
     "endYear": 2013,
@@ -1408,7 +1408,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Ram Pick Up (Dodge)",
     "startYear": 2013,
     "endYear": 2019,
@@ -1416,7 +1416,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Ram Pick Up (Dodge)",
     "startYear": 2013,
     "endYear": 2018,
@@ -1424,7 +1424,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Ram Pick Up 1500 (Dodge)",
     "startYear": 2019,
     "endYear": 2022,
@@ -1432,7 +1432,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Ram Promaster (Dodge)",
     "startYear": 2014,
     "endYear": 2021,
@@ -1440,7 +1440,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Renegade (Jeep)",
     "startYear": 2015,
     "endYear": 2020,
@@ -1448,7 +1448,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Renegade (Jeep)",
     "startYear": 2015,
     "endYear": 2022,
@@ -1456,7 +1456,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Stratus (Dodge)",
     "startYear": 1998,
     "endYear": 2000,
@@ -1464,7 +1464,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Stratus (Dodge)",
     "startYear": 1999,
     "endYear": 2006,
@@ -1472,7 +1472,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "siguiendo los pasos explicados en este manual en Concorde",
     "startYear": 1998,
     "endYear": 2004,
@@ -1480,7 +1480,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "siguiendo los pasos explicados en este manual en Concorde",
     "startYear": 1998,
     "endYear": 2004,
@@ -1488,7 +1488,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "1999-2000 NO USA TRANSPONDER",
     "startYear": 2001,
     "endYear": 2003,
@@ -1496,7 +1496,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "1999-2000 NO USA TRANSPONDER",
     "startYear": 2001,
     "endYear": 2003,
@@ -1504,7 +1504,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "1999-2000 NO USA TRANSPONDER",
     "startYear": 2001,
     "endYear": 2003,
@@ -1512,7 +1512,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Viper (Dodge)",
     "startYear": 2003,
     "endYear": 2009,
@@ -1520,7 +1520,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Viper (Dodge)",
     "startYear": 2013,
     "endYear": 2017,
@@ -1528,7 +1528,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Wagoneer y Gran Wagoner (Jeep)",
     "startYear": 2022,
     "endYear": 2022,
@@ -1536,7 +1536,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Wrangler Rubicon (Jeep)",
     "startYear": 2001,
     "endYear": 2006,
@@ -1544,7 +1544,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Wrangler Rubicon (Jeep)",
     "startYear": 2007,
     "endYear": 2018,
@@ -1552,7 +1552,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "CHRYSLER DODGE JEEP",
     "model": "Wrangler Rubicon (Jeep)",
     "startYear": 2018,
     "endYear": 2022,
@@ -1560,7 +1560,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Aviator (Lincoln)",
     "startYear": 2003,
     "endYear": 2006,
@@ -1568,7 +1568,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Aviator (Lincoln)",
     "startYear": 2020,
     "endYear": 2022,
@@ -1576,7 +1576,7 @@
     "freq": "902 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Bronco (Ford)",
     "startYear": 2021,
     "endYear": 2022,
@@ -1584,7 +1584,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Bronco (Ford)",
     "startYear": 2021,
     "endYear": 2022,
@@ -1592,7 +1592,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Bronco (Ford)",
     "startYear": 2021,
     "endYear": 2022,
@@ -1600,7 +1600,7 @@
     "freq": "902 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Continental (Lincoln)",
     "startYear": 1998,
     "endYear": 2002,
@@ -1608,7 +1608,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Continental (Lincoln)",
     "startYear": 2017,
     "endYear": 2020,
@@ -1616,7 +1616,7 @@
     "freq": "902 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Contour (Ford)",
     "startYear": 1996,
     "endYear": 2000,
@@ -1624,7 +1624,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Courier (Ford)",
     "startYear": 2001,
     "endYear": 2008,
@@ -1632,7 +1632,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Courier (Ford)",
     "startYear": 2008,
     "endYear": 2012,
@@ -1640,7 +1640,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Crown Victoria (Ford)",
     "startYear": 1998,
     "endYear": 2011,
@@ -1648,7 +1648,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Ecosport (Ford)",
     "startYear": 2004,
     "endYear": 2012,
@@ -1656,7 +1656,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Ecosport (Ford)",
     "startYear": 2013,
     "endYear": 2017,
@@ -1664,7 +1664,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Ecosport (Ford)",
     "startYear": 2018,
     "endYear": 2022,
@@ -1672,7 +1672,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Ecosport USA (Ford)",
     "startYear": 2018,
     "endYear": 2022,
@@ -1680,7 +1680,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Edge (Ford)",
     "startYear": 2007,
     "endYear": 2010,
@@ -1688,7 +1688,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Edge (Ford)",
     "startYear": 2011,
     "endYear": 2015,
@@ -1696,7 +1696,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Edge (Ford)",
     "startYear": 2016,
     "endYear": 2017,
@@ -1704,7 +1704,7 @@
     "freq": "902 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Edge (Ford)",
     "startYear": 2016,
     "endYear": 2017,
@@ -1712,7 +1712,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Edge ST Sport (Ford)",
     "startYear": 2017,
     "endYear": 2022,
@@ -1720,7 +1720,7 @@
     "freq": "902 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Edge ST Sport (Ford)",
     "startYear": 2017,
     "endYear": 2022,
@@ -1728,7 +1728,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Escape (Ford)",
     "startYear": 2000,
     "endYear": 2007,
@@ -1736,7 +1736,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Escape (Ford)",
     "startYear": 2008,
     "endYear": 2009,
@@ -1744,7 +1744,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Escape (Ford)",
     "startYear": 2010,
     "endYear": 2012,
@@ -1752,7 +1752,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Escape USA (Ford)",
     "startYear": 2013,
     "endYear": 2019,
@@ -1760,7 +1760,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Escape (Ford)",
     "startYear": 2013,
     "endYear": 2016,
@@ -1768,7 +1768,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Escape Titanium USA (Ford)",
     "startYear": 2013,
     "endYear": 2016,
@@ -1776,7 +1776,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Escape USA (Ford)",
     "startYear": 2013,
     "endYear": 2019,
@@ -1784,7 +1784,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Escape (Ford)",
     "startYear": 2020,
     "endYear": 2022,
@@ -1792,7 +1792,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Escape (Ford)",
     "startYear": 2020,
     "endYear": 2022,
@@ -1800,7 +1800,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Escape (Ford)",
     "startYear": 2020,
     "endYear": 2022,
@@ -1808,7 +1808,7 @@
     "freq": "902 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Excursion (Ford)",
     "startYear": 2000,
     "endYear": 2005,
@@ -1816,7 +1816,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Expedition (Ford)",
     "startYear": 1997,
     "endYear": 2002,
@@ -1824,7 +1824,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Expedition (Ford)",
     "startYear": 2003,
     "endYear": 2008,
@@ -1832,7 +1832,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Expedition (Ford)",
     "startYear": 2009,
     "endYear": 2013,
@@ -1840,7 +1840,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Expedition (Ford)",
     "startYear": 2015,
     "endYear": 2017,
@@ -1848,7 +1848,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Expedition (Ford)",
     "startYear": 2018,
     "endYear": 2021,
@@ -1856,7 +1856,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Expedition (Ford)",
     "startYear": 2018,
     "endYear": 2022,
@@ -1864,7 +1864,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Expedition (Ford)",
     "startYear": 2018,
     "endYear": 2022,
@@ -1872,7 +1872,7 @@
     "freq": "902 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Explorer (Ford)",
     "startYear": 1995,
     "endYear": 1997,
@@ -1880,7 +1880,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Explorer (Ford)",
     "startYear": 1998,
     "endYear": 2005,
@@ -1888,7 +1888,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Explorer (Ford)",
     "startYear": 2006,
     "endYear": 2010,
@@ -1896,7 +1896,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Explorer (Ford)",
     "startYear": 2011,
     "endYear": 2015,
@@ -1904,7 +1904,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Explorer (Ford)",
     "startYear": 2011,
     "endYear": 2015,
@@ -1912,7 +1912,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Explorer (Ford)",
     "startYear": 2016,
     "endYear": 2021,
@@ -1920,7 +1920,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Explorer (Ford)",
     "startYear": 2016,
     "endYear": 2017,
@@ -1928,7 +1928,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Explorer (Ford)",
     "startYear": 2016,
     "endYear": 2017,
@@ -1936,7 +1936,7 @@
     "freq": "902 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Explorer (Ford)",
     "startYear": 2018,
     "endYear": 2022,
@@ -1944,7 +1944,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Explorer (Ford)",
     "startYear": 2018,
     "endYear": 2022,
@@ -1952,7 +1952,7 @@
     "freq": "902 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Explorer Sport Trac (Ford)",
     "startYear": 2000,
     "endYear": 2001,
@@ -1960,7 +1960,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Explorer Sport Trac (Ford)",
     "startYear": 2001,
     "endYear": 2011,
@@ -1968,7 +1968,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Fiesta (Ford)",
     "startYear": 1999,
     "endYear": 2002,
@@ -1976,7 +1976,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Fiesta (Ford)",
     "startYear": 2003,
     "endYear": 2010,
@@ -1984,7 +1984,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Fiesta (Ford)",
     "startYear": 2011,
     "endYear": 2013,
@@ -1992,7 +1992,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Fiesta (Ford)",
     "startYear": 2013,
     "endYear": 2016,
@@ -2000,7 +2000,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Fiesta (Ford)",
     "startYear": 2015,
     "endYear": 2019,
@@ -2008,7 +2008,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Fiesta (Ford)",
     "startYear": 2011,
     "endYear": 2019,
@@ -2016,7 +2016,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Fiesta Ikon (Ford)",
     "startYear": 2001,
     "endYear": 2008,
@@ -2024,7 +2024,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Five Hundred (Ford)",
     "startYear": 2005,
     "endYear": 2007,
@@ -2032,7 +2032,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Five Hundred (Ford)",
     "startYear": 2008,
     "endYear": 2008,
@@ -2040,7 +2040,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Focus (Ford)",
     "startYear": 2000,
     "endYear": 2005,
@@ -2048,7 +2048,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Focus (Ford)",
     "startYear": 2004,
     "endYear": 2006,
@@ -2056,7 +2056,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Focus (Ford)",
     "startYear": 2006,
     "endYear": 2007,
@@ -2064,7 +2064,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Focus Europa (Ford)",
     "startYear": 2012,
     "endYear": 2016,
@@ -2072,7 +2072,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Focus USA (Ford)",
     "startYear": 2008,
     "endYear": 2019,
@@ -2080,7 +2080,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Focus USA (Ford)",
     "startYear": 2015,
     "endYear": 2019,
@@ -2088,7 +2088,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Frestar (Ford)",
     "startYear": 2004,
     "endYear": 2007,
@@ -2096,7 +2096,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Frestar (Ford)",
     "startYear": 2004,
     "endYear": 2007,
@@ -2104,7 +2104,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "F-Series (Ford)",
     "startYear": 1998,
     "endYear": 2009,
@@ -2112,7 +2112,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "F-Series (Ford)",
     "startYear": 2004,
     "endYear": 2010,
@@ -2120,7 +2120,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "F-Series (Ford)",
     "startYear": 2011,
     "endYear": 2015,
@@ -2128,7 +2128,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "F-Series (Ford)",
     "startYear": 2015,
     "endYear": 2018,
@@ -2136,7 +2136,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "F-Series (Ford)",
     "startYear": 2018,
     "endYear": 2022,
@@ -2144,7 +2144,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "F-Series (Ford)",
     "startYear": 2018,
     "endYear": 2022,
@@ -2152,7 +2152,7 @@
     "freq": "902 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Fusion (Ford)",
     "startYear": 2006,
     "endYear": 2012,
@@ -2160,7 +2160,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Fusion (Ford)",
     "startYear": 2013,
     "endYear": 2016,
@@ -2168,7 +2168,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Fusion (Ford)",
     "startYear": 2017,
     "endYear": 2021,
@@ -2176,7 +2176,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Fusion (Ford)",
     "startYear": 2017,
     "endYear": 2021,
@@ -2184,7 +2184,7 @@
     "freq": "902 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Grand Marquis (Mercury)",
     "startYear": 1998,
     "endYear": 2011,
@@ -2192,7 +2192,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Ikon (Ford)",
     "startYear": 2012,
     "endYear": 2015,
@@ -2200,7 +2200,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Mariner (Mercury)",
     "startYear": 2003,
     "endYear": 2007,
@@ -2208,7 +2208,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Mariner (Mercury)",
     "startYear": 2008,
     "endYear": 2011,
@@ -2216,7 +2216,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Mark LT (Lincoln)",
     "startYear": 2005,
     "endYear": 2008,
@@ -2224,7 +2224,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Mark LT (Lincoln)",
     "startYear": 2009,
     "endYear": 2013,
@@ -2232,7 +2232,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Maverick (Ford)",
     "startYear": 2022,
     "endYear": 2022,
@@ -2240,7 +2240,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Maverick (Ford)",
     "startYear": 2022,
     "endYear": 2022,
@@ -2248,7 +2248,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Maverick (Ford)",
     "startYear": 2022,
     "endYear": 2022,
@@ -2256,7 +2256,7 @@
     "freq": "902 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Milan (Mercury)",
     "startYear": 2006,
     "endYear": 2011,
@@ -2264,7 +2264,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "MKC (Lincoln)",
     "startYear": 2014,
     "endYear": 2016,
@@ -2272,7 +2272,7 @@
     "freq": "902 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "MKC (Lincoln)",
     "startYear": 2017,
     "endYear": 2021,
@@ -2280,7 +2280,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "MKC (Lincoln)",
     "startYear": 2017,
     "endYear": 2021,
@@ -2288,7 +2288,7 @@
     "freq": "902 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "MKS (Lincoln)",
     "startYear": 2009,
     "endYear": 2013,
@@ -2296,7 +2296,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "MKS (Lincoln)",
     "startYear": 2013,
     "endYear": 2016,
@@ -2304,7 +2304,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "MKZ (Lincoln)",
     "startYear": 2007,
     "endYear": 2016,
@@ -2312,7 +2312,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "MKZ (Lincoln)",
     "startYear": 2017,
     "endYear": 2019,
@@ -2320,7 +2320,7 @@
     "freq": "902 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Mondeo (Ford)",
     "startYear": 2001,
     "endYear": 2007,
@@ -2328,7 +2328,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Monterey (Mercury)",
     "startYear": 2004,
     "endYear": 2007,
@@ -2336,7 +2336,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Monterey (Mercury)",
     "startYear": 2004,
     "endYear": 2007,
@@ -2344,7 +2344,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Mountaineer (Mercury)",
     "startYear": 1998,
     "endYear": 2003,
@@ -2352,7 +2352,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Mountaineer (Mercury)",
     "startYear": 2004,
     "endYear": 2011,
@@ -2360,7 +2360,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Mustang (Ford)",
     "startYear": 1996,
     "endYear": 1998,
@@ -2368,7 +2368,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Mustang (Ford)",
     "startYear": 1999,
     "endYear": 2009,
@@ -2376,7 +2376,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Mustang (Ford)",
     "startYear": 2010,
     "endYear": 2010,
@@ -2384,7 +2384,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Mustang (Ford)",
     "startYear": 2011,
     "endYear": 2013,
@@ -2392,7 +2392,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Mustang (Ford)",
     "startYear": 2015,
     "endYear": 2017,
@@ -2400,7 +2400,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Mustang (Ford)",
     "startYear": 2015,
     "endYear": 2017,
@@ -2408,7 +2408,7 @@
     "freq": "902 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Mustang (Ford)",
     "startYear": 2018,
     "endYear": 2020,
@@ -2416,7 +2416,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Mustang (Ford)",
     "startYear": 2018,
     "endYear": 2020,
@@ -2424,7 +2424,7 @@
     "freq": "902 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Mystique (Mercury)",
     "startYear": 1995,
     "endYear": 2000,
@@ -2432,7 +2432,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Navigator (Lincoln)",
     "startYear": 1999,
     "endYear": 2002,
@@ -2440,7 +2440,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Navigator (Lincoln)",
     "startYear": 2003,
     "endYear": 2008,
@@ -2448,7 +2448,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Navigator (Lincoln)",
     "startYear": 2007,
     "endYear": 2011,
@@ -2456,7 +2456,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Navigator (Lincoln)",
     "startYear": 2012,
     "endYear": 2013,
@@ -2464,7 +2464,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Navigator (Lincoln)",
     "startYear": 2014,
     "endYear": 2017,
@@ -2472,7 +2472,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Navigator (Lincoln)",
     "startYear": 2018,
     "endYear": 2021,
@@ -2480,7 +2480,7 @@
     "freq": "902 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Ranger (Ford)",
     "startYear": 1999,
     "endYear": 2000,
@@ -2488,7 +2488,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Ranger (Ford)",
     "startYear": 2001,
     "endYear": 2012,
@@ -2496,7 +2496,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Ranger (Ford)",
     "startYear": 2018,
     "endYear": 2022,
@@ -2504,7 +2504,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Sable (Mercury)",
     "startYear": 1996,
     "endYear": 1997,
@@ -2512,7 +2512,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Sable (Mercury)",
     "startYear": 1998,
     "endYear": 2005,
@@ -2520,7 +2520,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Sable (Mercury)",
     "startYear": 2008,
     "endYear": 2009,
@@ -2528,7 +2528,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Taurus (Ford)",
     "startYear": 2004,
     "endYear": 2009,
@@ -2536,7 +2536,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Taurus USA (Ford)",
     "startYear": 2010,
     "endYear": 2019,
@@ -2544,7 +2544,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Taurus USA (Ford)",
     "startYear": 2013,
     "endYear": 2019,
@@ -2552,7 +2552,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Thunderbird (Ford)",
     "startYear": 2002,
     "endYear": 2005,
@@ -2560,7 +2560,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Transit (Ford)",
     "startYear": 2010,
     "endYear": 2014,
@@ -2568,7 +2568,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Transit (Ford)",
     "startYear": 2016,
     "endYear": 2018,
@@ -2576,7 +2576,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Transit Van (Ford)",
     "startYear": 2015,
     "endYear": 2020,
@@ -2584,7 +2584,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Town Car (Lincoln)",
     "startYear": 1995,
     "endYear": 1997,
@@ -2592,7 +2592,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Town Car (Lincoln)",
     "startYear": 1995,
     "endYear": 1997,
@@ -2600,7 +2600,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Town Car (Lincoln)",
     "startYear": 1998,
     "endYear": 2011,
@@ -2608,7 +2608,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "FORD LINCOLN MERCURY",
     "model": "Windstar (Ford)",
     "startYear": 1999,
     "endYear": 2004,
@@ -2616,7 +2616,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Acadia",
     "startYear": 2007,
     "endYear": 2017,
@@ -2624,7 +2624,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Acadia",
     "startYear": 2017,
     "endYear": 2021,
@@ -2632,7 +2632,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Acadia",
     "startYear": 2021,
     "endYear": 2022,
@@ -2640,7 +2640,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Canyon",
     "startYear": 2004,
     "endYear": 2012,
@@ -2648,7 +2648,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Canyon",
     "startYear": 2015,
     "endYear": 2022,
@@ -2656,7 +2656,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Envoy",
     "startYear": 2002,
     "endYear": 2009,
@@ -2664,7 +2664,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Safari",
     "startYear": 2002,
     "endYear": 2005,
@@ -2672,7 +2672,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Savana",
     "startYear": 2003,
     "endYear": 2007,
@@ -2680,7 +2680,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Savana",
     "startYear": 2008,
     "endYear": 2014,
@@ -2688,7 +2688,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Savana",
     "startYear": 2015,
     "endYear": 2020,
@@ -2696,7 +2696,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Sierra Pick Up",
     "startYear": 1999,
     "endYear": 2001,
@@ -2704,7 +2704,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Sierra Pick Up",
     "startYear": 2001,
     "endYear": 2002,
@@ -2712,7 +2712,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Sierra Pick Up",
     "startYear": 2003,
     "endYear": 2007,
@@ -2720,7 +2720,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Sierra Pick Up",
     "startYear": 2007,
     "endYear": 2013,
@@ -2728,7 +2728,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Sierra Pick Up",
     "startYear": 2014,
     "endYear": 2019,
@@ -2736,7 +2736,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Sierra Pick Up",
     "startYear": 2019,
     "endYear": 2020,
@@ -2744,7 +2744,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Sierra Pick Up",
     "startYear": 2019,
     "endYear": 2021,
@@ -2752,7 +2752,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Sierra Pick Up",
     "startYear": 2021,
     "endYear": 2022,
@@ -2760,7 +2760,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Sonoma Pick Up",
     "startYear": 1998,
     "endYear": 2001,
@@ -2768,7 +2768,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Terrain",
     "startYear": 2010,
     "endYear": 2018,
@@ -2776,7 +2776,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Terrain",
     "startYear": 2018,
     "endYear": 2021,
@@ -2784,7 +2784,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Terrain",
     "startYear": 2022,
     "endYear": 2022,
@@ -2792,7 +2792,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Yukon",
     "startYear": 1999,
     "endYear": 2000,
@@ -2800,7 +2800,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Yukon",
     "startYear": 2000,
     "endYear": 2001,
@@ -2808,7 +2808,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Yukon",
     "startYear": 2001,
     "endYear": 2002,
@@ -2816,7 +2816,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Yukon",
     "startYear": 2003,
     "endYear": 2006,
@@ -2824,7 +2824,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Yukon",
     "startYear": 2007,
     "endYear": 2014,
@@ -2832,7 +2832,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Yukon",
     "startYear": 2015,
     "endYear": 2020,
@@ -2840,7 +2840,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "GMC",
     "model": "Yukon",
     "startYear": 2015,
     "endYear": 2020,
@@ -2848,7 +2848,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Accord",
     "startYear": 1998,
     "endYear": 2002,
@@ -2856,7 +2856,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Accord Sedan/Coupe",
     "startYear": 2003,
     "endYear": 2007,
@@ -2864,7 +2864,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Accord (4 Puertas)",
     "startYear": 2008,
     "endYear": 2014,
@@ -2872,7 +2872,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Accord Coupe",
     "startYear": 2008,
     "endYear": 2012,
@@ -2880,7 +2880,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Accord",
     "startYear": 2013,
     "endYear": 2015,
@@ -2888,7 +2888,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Accord Proximity",
     "startYear": 2013,
     "endYear": 2015,
@@ -2896,7 +2896,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Accord",
     "startYear": 2016,
     "endYear": 2017,
@@ -2904,7 +2904,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Accord Proximity",
     "startYear": 2016,
     "endYear": 2017,
@@ -2912,7 +2912,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Accord Proximity",
     "startYear": 2018,
     "endYear": 2021,
@@ -2920,7 +2920,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Accord Proximity",
     "startYear": 2022,
     "endYear": 2022,
@@ -2928,7 +2928,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "City",
     "startYear": 2010,
     "endYear": 2013,
@@ -2936,7 +2936,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "City",
     "startYear": 2014,
     "endYear": 2021,
@@ -2944,7 +2944,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "City Proximity",
     "startYear": 2014,
     "endYear": 2021,
@@ -2952,7 +2952,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Civic",
     "startYear": 2001,
     "endYear": 2002,
@@ -2960,7 +2960,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Civic",
     "startYear": 2003,
     "endYear": 2005,
@@ -2968,7 +2968,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Civic",
     "startYear": 2006,
     "endYear": 2013,
@@ -2976,7 +2976,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Civic",
     "startYear": 2012,
     "endYear": 2013,
@@ -2984,7 +2984,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Civic",
     "startYear": 2014,
     "endYear": 2015,
@@ -2992,7 +2992,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Civic Proximity",
     "startYear": 2014,
     "endYear": 2015,
@@ -3000,7 +3000,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Civic",
     "startYear": 2016,
     "endYear": 2021,
@@ -3008,7 +3008,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Civic Proximity",
     "startYear": 2016,
     "endYear": 2021,
@@ -3016,7 +3016,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Crosstour",
     "startYear": 2010,
     "endYear": 2012,
@@ -3024,7 +3024,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Crosstour",
     "startYear": 2013,
     "endYear": 2015,
@@ -3032,7 +3032,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "CR-V",
     "startYear": 1997,
     "endYear": 2001,
@@ -3040,7 +3040,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "CR-V",
     "startYear": 2002,
     "endYear": 2004,
@@ -3048,7 +3048,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "CR-V",
     "startYear": 2005,
     "endYear": 2007,
@@ -3056,7 +3056,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "CR-V",
     "startYear": 2007,
     "endYear": 2013,
@@ -3064,7 +3064,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "CR-V",
     "startYear": 2014,
     "endYear": 2016,
@@ -3072,7 +3072,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "CR-V",
     "startYear": 2017,
     "endYear": 2020,
@@ -3080,7 +3080,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "CR-V Proximity",
     "startYear": 2015,
     "endYear": 2016,
@@ -3088,7 +3088,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "CR-V Proximity",
     "startYear": 2017,
     "endYear": 2020,
@@ -3096,7 +3096,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Element",
     "startYear": 2003,
     "endYear": 2005,
@@ -3104,7 +3104,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Element",
     "startYear": 2003,
     "endYear": 2005,
@@ -3112,7 +3112,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Element",
     "startYear": 2006,
     "endYear": 2012,
@@ -3120,7 +3120,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Element",
     "startYear": 2006,
     "endYear": 2012,
@@ -3128,7 +3128,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Fit",
     "startYear": 2006,
     "endYear": 2008,
@@ -3136,7 +3136,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Fit",
     "startYear": 2009,
     "endYear": 2013,
@@ -3144,7 +3144,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Fit",
     "startYear": 2015,
     "endYear": 2020,
@@ -3152,7 +3152,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Fit Proximity",
     "startYear": 2015,
     "endYear": 2020,
@@ -3160,7 +3160,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "H-RV",
     "startYear": 2015,
     "endYear": 2021,
@@ -3168,7 +3168,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "H-RV Proximity",
     "startYear": 2016,
     "endYear": 2021,
@@ -3176,7 +3176,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Insight",
     "startYear": 2010,
     "endYear": 2014,
@@ -3184,7 +3184,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Insight EX Hybrid",
     "startYear": 2019,
     "endYear": 2021,
@@ -3192,7 +3192,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Odyssey",
     "startYear": 1998,
     "endYear": 2002,
@@ -3200,7 +3200,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Odyssey",
     "startYear": 2000,
     "endYear": 2002,
@@ -3208,7 +3208,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Odyssey",
     "startYear": 2003,
     "endYear": 2004,
@@ -3216,7 +3216,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Odyssey",
     "startYear": 2003,
     "endYear": 2004,
@@ -3224,7 +3224,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Odyssey",
     "startYear": 2005,
     "endYear": 2010,
@@ -3232,7 +3232,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Odyssey",
     "startYear": 2010,
     "endYear": 2014,
@@ -3240,7 +3240,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Odyssey",
     "startYear": 2011,
     "endYear": 2017,
@@ -3248,7 +3248,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Odyssey",
     "startYear": 2014,
     "endYear": 2017,
@@ -3256,7 +3256,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Odyssey",
     "startYear": 2018,
     "endYear": 2020,
@@ -3264,7 +3264,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Pilot",
     "startYear": 2003,
     "endYear": 2007,
@@ -3272,7 +3272,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Pilot",
     "startYear": 2005,
     "endYear": 2009,
@@ -3280,7 +3280,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Pilot",
     "startYear": 2009,
     "endYear": 2015,
@@ -3288,7 +3288,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Pilot",
     "startYear": 2016,
     "endYear": 2018,
@@ -3296,7 +3296,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Pilot",
     "startYear": 2019,
     "endYear": 2021,
@@ -3304,7 +3304,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Ridgeline",
     "startYear": 2005,
     "endYear": 2014,
@@ -3312,7 +3312,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Ridgeline",
     "startYear": 2017,
     "endYear": 2019,
@@ -3320,7 +3320,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HONDA",
     "model": "Ridgeline",
     "startYear": 2021,
     "endYear": 2021,
@@ -3328,7 +3328,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Accent",
     "startYear": 2006,
     "endYear": 2008,
@@ -3336,7 +3336,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Accent",
     "startYear": 2009,
     "endYear": 2011,
@@ -3344,7 +3344,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Accent",
     "startYear": 2012,
     "endYear": 2014,
@@ -3352,7 +3352,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Accent",
     "startYear": 2014,
     "endYear": 2017,
@@ -3360,7 +3360,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Accent",
     "startYear": 2018,
     "endYear": 2021,
@@ -3368,7 +3368,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Attitude",
     "startYear": 2006,
     "endYear": 2011,
@@ -3376,7 +3376,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Attitude",
     "startYear": 2012,
     "endYear": 2014,
@@ -3384,7 +3384,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Atos",
     "startYear": 2001,
     "endYear": 2012,
@@ -3392,7 +3392,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Creta",
     "startYear": 2016,
     "endYear": 2018,
@@ -3400,7 +3400,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Creta",
     "startYear": 2019,
     "endYear": 2022,
@@ -3408,7 +3408,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Elantra",
     "startYear": 2006,
     "endYear": 2011,
@@ -3416,7 +3416,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Elantra",
     "startYear": 2011,
     "endYear": 2016,
@@ -3424,7 +3424,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Elantra",
     "startYear": 2014,
     "endYear": 2016,
@@ -3432,7 +3432,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Elantra",
     "startYear": 2016,
     "endYear": 2020,
@@ -3440,7 +3440,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Elantra",
     "startYear": 2017,
     "endYear": 2020,
@@ -3448,7 +3448,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Elantra",
     "startYear": 2021,
     "endYear": 2021,
@@ -3456,7 +3456,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "i10",
     "startYear": 2012,
     "endYear": 2014,
@@ -3464,7 +3464,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Grand i10",
     "startYear": 2015,
     "endYear": 2021,
@@ -3472,7 +3472,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Santa Fe",
     "startYear": 2007,
     "endYear": 2012,
@@ -3480,7 +3480,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Santa Fe",
     "startYear": 2013,
     "endYear": 2016,
@@ -3488,7 +3488,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Santa Fe",
     "startYear": 2013,
     "endYear": 2016,
@@ -3496,7 +3496,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Santa Fe",
     "startYear": 2017,
     "endYear": 2018,
@@ -3504,7 +3504,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Santa Fe (No Sport y XL)",
     "startYear": 2014,
     "endYear": 2018,
@@ -3512,7 +3512,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Santa Fe Sport",
     "startYear": 2014,
     "endYear": 2018,
@@ -3520,7 +3520,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Santa Fe",
     "startYear": 2018,
     "endYear": 2021,
@@ -3528,7 +3528,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Santa Fe",
     "startYear": 2019,
     "endYear": 2020,
@@ -3536,7 +3536,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Santa Fe",
     "startYear": 2021,
     "endYear": 2022,
@@ -3544,7 +3544,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Sonata",
     "startYear": 2011,
     "endYear": 2014,
@@ -3552,7 +3552,7 @@
     "freq": "313 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Sonata",
     "startYear": 2011,
     "endYear": 2014,
@@ -3560,7 +3560,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Sonata",
     "startYear": 2015,
     "endYear": 2017,
@@ -3568,7 +3568,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Sonata",
     "startYear": 2014,
     "endYear": 2017,
@@ -3576,7 +3576,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Sonata",
     "startYear": 2018,
     "endYear": 2019,
@@ -3584,7 +3584,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Sonata",
     "startYear": 2019,
     "endYear": 2022,
@@ -3592,7 +3592,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Sonata",
     "startYear": 2020,
     "endYear": 2022,
@@ -3600,7 +3600,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Tucson",
     "startYear": 2010,
     "endYear": 2011,
@@ -3608,7 +3608,7 @@
     "freq": "314 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Tucson",
     "startYear": 2011,
     "endYear": 2014,
@@ -3616,7 +3616,7 @@
     "freq": "314 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Tucson",
     "startYear": 2015,
     "endYear": 2019,
@@ -3624,7 +3624,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Tucson",
     "startYear": 2014,
     "endYear": 2018,
@@ -3632,7 +3632,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Tucson",
     "startYear": 2019,
     "endYear": 2021,
@@ -3640,7 +3640,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Tucson",
     "startYear": 2021,
     "endYear": 2022,
@@ -3648,7 +3648,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Veloster",
     "startYear": 2012,
     "endYear": 2017,
@@ -3656,7 +3656,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Veloster",
     "startYear": 2012,
     "endYear": 2017,
@@ -3664,7 +3664,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Veloster",
     "startYear": 2018,
     "endYear": 2019,
@@ -3672,7 +3672,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "HYUNDAI",
     "model": "Veracruz",
     "startYear": 2008,
     "endYear": 2012,
@@ -3680,7 +3680,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Forte",
     "startYear": 2013,
     "endYear": 2016,
@@ -3688,7 +3688,7 @@
     "freq": "314 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Forte",
     "startYear": 2014,
     "endYear": 2016,
@@ -3696,7 +3696,7 @@
     "freq": "314 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Forte",
     "startYear": 2016,
     "endYear": 2018,
@@ -3704,7 +3704,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Forte",
     "startYear": 2019,
     "endYear": 2021,
@@ -3712,7 +3712,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Optima",
     "startYear": 2014,
     "endYear": 2015,
@@ -3720,7 +3720,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Optima",
     "startYear": 2016,
     "endYear": 2020,
@@ -3728,7 +3728,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Optima",
     "startYear": 2017,
     "endYear": 2020,
@@ -3736,7 +3736,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Rio",
     "startYear": 2014,
     "endYear": 2017,
@@ -3744,7 +3744,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Rio",
     "startYear": 2014,
     "endYear": 2017,
@@ -3752,7 +3752,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Rio",
     "startYear": 2018,
     "endYear": 2022,
@@ -3760,7 +3760,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Rio",
     "startYear": 2018,
     "endYear": 2022,
@@ -3768,7 +3768,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Sedona",
     "startYear": 2006,
     "endYear": 2014,
@@ -3776,7 +3776,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Sedona",
     "startYear": 2015,
     "endYear": 2021,
@@ -3784,7 +3784,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Sedona",
     "startYear": 2015,
     "endYear": 2021,
@@ -3792,7 +3792,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Sorento",
     "startYear": 2013,
     "endYear": 2014,
@@ -3800,7 +3800,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Sorento",
     "startYear": 2013,
     "endYear": 2015,
@@ -3808,7 +3808,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Sorento",
     "startYear": 2015,
     "endYear": 2018,
@@ -3816,7 +3816,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Sorento",
     "startYear": 2016,
     "endYear": 2020,
@@ -3824,7 +3824,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Sorento",
     "startYear": 2021,
     "endYear": 2021,
@@ -3832,7 +3832,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Soul",
     "startYear": 2014,
     "endYear": 2019,
@@ -3840,7 +3840,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Soul",
     "startYear": 2014,
     "endYear": 2019,
@@ -3848,7 +3848,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Soul",
     "startYear": 2019,
     "endYear": 2021,
@@ -3856,7 +3856,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Sportage",
     "startYear": 2014,
     "endYear": 2016,
@@ -3864,7 +3864,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Sportage",
     "startYear": 2016,
     "endYear": 2020,
@@ -3872,7 +3872,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Sportage",
     "startYear": 2014,
     "endYear": 2019,
@@ -3880,7 +3880,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "KIA",
     "model": "Sportage",
     "startYear": 2021,
     "endYear": 2021,
@@ -3888,7 +3888,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "Mazda 2",
     "startYear": 2011,
     "endYear": 2015,
@@ -3896,7 +3896,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "Mazda 2",
     "startYear": 2015,
     "endYear": 2022,
@@ -3904,7 +3904,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "Mazda 2 Sedan",
     "startYear": 2015,
     "endYear": 2022,
@@ -3912,7 +3912,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "Mazda 3",
     "startYear": 2004,
     "endYear": 2006,
@@ -3920,7 +3920,7 @@
     "freq": "314 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "Mazda 3",
     "startYear": 2007,
     "endYear": 2009,
@@ -3928,7 +3928,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "Mazda 3",
     "startYear": 2005,
     "endYear": 2009,
@@ -3936,7 +3936,7 @@
     "freq": "314 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "Mazda 3",
     "startYear": 2010,
     "endYear": 2013,
@@ -3944,7 +3944,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "Mazda 3 Sedan",
     "startYear": 2014,
     "endYear": 2018,
@@ -3952,7 +3952,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "Mazda 3 Hatchback",
     "startYear": 2019,
     "endYear": 2020,
@@ -3960,7 +3960,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "Mazda 3 Sedan",
     "startYear": 2019,
     "endYear": 2021,
@@ -3968,7 +3968,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "Mazda 5",
     "startYear": 2006,
     "endYear": 2015,
@@ -3976,7 +3976,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "Mazda 6",
     "startYear": 2005,
     "endYear": 2008,
@@ -3984,7 +3984,7 @@
     "freq": "314 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "Mazda 6",
     "startYear": 2009,
     "endYear": 2013,
@@ -3992,7 +3992,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "Mazda 6",
     "startYear": 2009,
     "endYear": 2013,
@@ -4000,7 +4000,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "Mazda 6",
     "startYear": 2014,
     "endYear": 2019,
@@ -4008,7 +4008,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "Mazda 6 Sedan",
     "startYear": 2019,
     "endYear": 2020,
@@ -4016,7 +4016,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "CX-3",
     "startYear": 2016,
     "endYear": 2020,
@@ -4024,7 +4024,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "Mazda CX3",
     "startYear": 2021,
     "endYear": 2022,
@@ -4032,7 +4032,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "CX-5",
     "startYear": 2010,
     "endYear": 2012,
@@ -4040,7 +4040,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "CX5",
     "startYear": 2013,
     "endYear": 2019,
@@ -4048,7 +4048,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "Mazda CX5",
     "startYear": 2020,
     "endYear": 2022,
@@ -4056,7 +4056,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "CX7",
     "startYear": 2007,
     "endYear": 2009,
@@ -4064,7 +4064,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "CX7",
     "startYear": 2007,
     "endYear": 2012,
@@ -4072,7 +4072,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "CX-7",
     "startYear": 2010,
     "endYear": 2015,
@@ -4080,7 +4080,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "CX-9",
     "startYear": 2007,
     "endYear": 2011,
@@ -4088,7 +4088,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "CX-9",
     "startYear": 2007,
     "endYear": 2015,
@@ -4096,7 +4096,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "CX-9",
     "startYear": 2016,
     "endYear": 2019,
@@ -4104,7 +4104,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "Mazda CX9",
     "startYear": 2020,
     "endYear": 2021,
@@ -4112,7 +4112,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "Mazda CX30",
     "startYear": 2020,
     "endYear": 2021,
@@ -4120,7 +4120,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "MX-5 Miata",
     "startYear": 2006,
     "endYear": 2015,
@@ -4128,7 +4128,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "MX-5 Miata",
     "startYear": 2010,
     "endYear": 2014,
@@ -4136,7 +4136,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "MX-5 Miata",
     "startYear": 2016,
     "endYear": 2019,
@@ -4144,7 +4144,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "Mazda CX5",
     "startYear": 2020,
     "endYear": 2021,
@@ -4152,7 +4152,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "RX-8",
     "startYear": 2004,
     "endYear": 2008,
@@ -4160,7 +4160,7 @@
     "freq": "313 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "RX-8",
     "startYear": 2004,
     "endYear": 2011,
@@ -4168,7 +4168,7 @@
     "freq": "313 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "RX-8",
     "startYear": 2004,
     "endYear": 2011,
@@ -4176,7 +4176,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "Mazda Tribute",
     "startYear": 2001,
     "endYear": 2007,
@@ -4184,7 +4184,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MAZDA",
     "model": "Mazda Tribute",
     "startYear": 2008,
     "endYear": 2011,
@@ -4192,7 +4192,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "ASX",
     "startYear": 2010,
     "endYear": 2016,
@@ -4200,7 +4200,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "ASX",
     "startYear": 2015,
     "endYear": 2019,
@@ -4208,7 +4208,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Diamante",
     "startYear": 2000,
     "endYear": 2004,
@@ -4216,7 +4216,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Eclipse",
     "startYear": 2002,
     "endYear": 2006,
@@ -4224,7 +4224,7 @@
     "freq": "314 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Eclipse",
     "startYear": 2006,
     "endYear": 2007,
@@ -4232,7 +4232,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Eclipse",
     "startYear": 2007,
     "endYear": 2012,
@@ -4240,7 +4240,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Eclipse Cross",
     "startYear": 2018,
     "endYear": 2020,
@@ -4248,7 +4248,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Eclipse Cross",
     "startYear": 2018,
     "endYear": 2022,
@@ -4256,7 +4256,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Endeavor",
     "startYear": 2004,
     "endYear": 2006,
@@ -4264,7 +4264,7 @@
     "freq": "314 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Endeavor",
     "startYear": 2006,
     "endYear": 2007,
@@ -4272,7 +4272,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Endeavor",
     "startYear": 2007,
     "endYear": 2012,
@@ -4280,7 +4280,7 @@
     "freq": "314 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Galant",
     "startYear": 2002,
     "endYear": 2003,
@@ -4288,7 +4288,7 @@
     "freq": "314 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Galant",
     "startYear": 2004,
     "endYear": 2005,
@@ -4296,7 +4296,7 @@
     "freq": "314 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Galant",
     "startYear": 2006,
     "endYear": 2007,
@@ -4304,7 +4304,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Galant",
     "startYear": 2007,
     "endYear": 2012,
@@ -4312,7 +4312,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Grandis",
     "startYear": 2004,
     "endYear": 2010,
@@ -4320,7 +4320,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Lancer",
     "startYear": 2002,
     "endYear": 2007,
@@ -4328,7 +4328,7 @@
     "freq": "314 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Lancer",
     "startYear": 2007,
     "endYear": 2016,
@@ -4336,7 +4336,7 @@
     "freq": "314 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Lancer",
     "startYear": 2008,
     "endYear": 2017,
@@ -4344,7 +4344,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "L-200",
     "startYear": 2008,
     "endYear": 2020,
@@ -4352,7 +4352,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Mirage",
     "startYear": 2015,
     "endYear": 2022,
@@ -4360,7 +4360,7 @@
     "freq": "433.92 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Montero",
     "startYear": 1998,
     "endYear": 2004,
@@ -4368,7 +4368,7 @@
     "freq": "314 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Montero Sport",
     "startYear": 2001,
     "endYear": 2008,
@@ -4376,7 +4376,7 @@
     "freq": "314 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Outlander",
     "startYear": 2002,
     "endYear": 2006,
@@ -4384,7 +4384,7 @@
     "freq": "314 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Outlander",
     "startYear": 2007,
     "endYear": 2007,
@@ -4392,7 +4392,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Outlander",
     "startYear": 2007,
     "endYear": 2015,
@@ -4400,7 +4400,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Outlander",
     "startYear": 2008,
     "endYear": 2020,
@@ -4408,7 +4408,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "MITSUBISHI",
     "model": "Outlander",
     "startYear": 2016,
     "endYear": 2021,
@@ -4416,7 +4416,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Almera",
     "startYear": 2001,
     "endYear": 2007,
@@ -4424,7 +4424,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Altima",
     "startYear": 1999,
     "endYear": 2000,
@@ -4432,7 +4432,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Altima",
     "startYear": 2001,
     "endYear": 2004,
@@ -4440,7 +4440,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Altima",
     "startYear": 2005,
     "endYear": 2006,
@@ -4448,7 +4448,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Altima",
     "startYear": 2007,
     "endYear": 2012,
@@ -4456,7 +4456,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Altima",
     "startYear": 2013,
     "endYear": 2015,
@@ -4464,7 +4464,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Altima",
     "startYear": 2016,
     "endYear": 2018,
@@ -4472,7 +4472,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Altima",
     "startYear": 2019,
     "endYear": 2022,
@@ -4480,7 +4480,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Aprio",
     "startYear": 2008,
     "endYear": 2011,
@@ -4488,7 +4488,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Armada",
     "startYear": 2004,
     "endYear": 2013,
@@ -4496,7 +4496,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Armada",
     "startYear": 2008,
     "endYear": 2016,
@@ -4504,7 +4504,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Armada",
     "startYear": 2008,
     "endYear": 2016,
@@ -4512,7 +4512,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Armada",
     "startYear": 2017,
     "endYear": 2020,
@@ -4520,7 +4520,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Armada",
     "startYear": 2017,
     "endYear": 2022,
@@ -4528,7 +4528,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Armada",
     "startYear": 2017,
     "endYear": 2022,
@@ -4536,7 +4536,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Frontier",
     "startYear": 1998,
     "endYear": 2000,
@@ -4544,7 +4544,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Frontier",
     "startYear": 2000,
     "endYear": 2001,
@@ -4552,7 +4552,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Frontier",
     "startYear": 2002,
     "endYear": 2015,
@@ -4560,7 +4560,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Frontier",
     "startYear": 2007,
     "endYear": 2015,
@@ -4568,7 +4568,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Frontier NP 300",
     "startYear": 2016,
     "endYear": 2020,
@@ -4576,7 +4576,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Frontier",
     "startYear": 2018,
     "endYear": 2020,
@@ -4584,7 +4584,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Frontier NP 300",
     "startYear": 2018,
     "endYear": 2022,
@@ -4592,7 +4592,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Juke",
     "startYear": 2011,
     "endYear": 2017,
@@ -4600,7 +4600,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Kicks",
     "startYear": 2017,
     "endYear": 2021,
@@ -4608,7 +4608,7 @@
     "freq": "433.9 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Leaf",
     "startYear": 2011,
     "endYear": 2012,
@@ -4616,7 +4616,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Leaf",
     "startYear": 2013,
     "endYear": 2017,
@@ -4624,7 +4624,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Leaf",
     "startYear": 2018,
     "endYear": 2020,
@@ -4632,7 +4632,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "March",
     "startYear": 2011,
     "endYear": 2022,
@@ -4640,7 +4640,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "March",
     "startYear": 2015,
     "endYear": 2022,
@@ -4648,7 +4648,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Maxima",
     "startYear": 1996,
     "endYear": 1999,
@@ -4656,7 +4656,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Maxima",
     "startYear": 2000,
     "endYear": 2003,
@@ -4664,7 +4664,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Maxima",
     "startYear": 2001,
     "endYear": 2006,
@@ -4672,7 +4672,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Maxima",
     "startYear": 2007,
     "endYear": 2008,
@@ -4680,7 +4680,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Maxima",
     "startYear": 2009,
     "endYear": 2014,
@@ -4688,7 +4688,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Maxima",
     "startYear": 2016,
     "endYear": 2018,
@@ -4696,7 +4696,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Maxima",
     "startYear": 2019,
     "endYear": 2021,
@@ -4704,7 +4704,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Murano",
     "startYear": 2003,
     "endYear": 2008,
@@ -4712,7 +4712,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Murano",
     "startYear": 2004,
     "endYear": 2008,
@@ -4720,7 +4720,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Murano",
     "startYear": 2009,
     "endYear": 2014,
@@ -4728,7 +4728,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Murano",
     "startYear": 2015,
     "endYear": 2018,
@@ -4736,7 +4736,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Murano",
     "startYear": 2019,
     "endYear": 2021,
@@ -4744,7 +4744,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Note",
     "startYear": 2014,
     "endYear": 2019,
@@ -4752,7 +4752,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "NP300",
     "startYear": 2016,
     "endYear": 2022,
@@ -4760,7 +4760,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Pathfinder",
     "startYear": 1996,
     "endYear": 1999,
@@ -4768,7 +4768,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Pathfinder",
     "startYear": 1999,
     "endYear": 2000,
@@ -4776,7 +4776,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Pathfinder",
     "startYear": 2001,
     "endYear": 2004,
@@ -4784,7 +4784,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Pathfinder",
     "startYear": 2005,
     "endYear": 2012,
@@ -4792,7 +4792,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Pathfinder",
     "startYear": 2013,
     "endYear": 2018,
@@ -4800,7 +4800,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Pathfinder",
     "startYear": 2019,
     "endYear": 2021,
@@ -4808,7 +4808,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Platina",
     "startYear": 2002,
     "endYear": 2009,
@@ -4816,7 +4816,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Quest",
     "startYear": 2004,
     "endYear": 2011,
@@ -4824,7 +4824,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Quest",
     "startYear": 2011,
     "endYear": 2017,
@@ -4832,7 +4832,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Rogue",
     "startYear": 2008,
     "endYear": 2015,
@@ -4840,7 +4840,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Rogue",
     "startYear": 2015,
     "endYear": 2018,
@@ -4848,7 +4848,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Rogue",
     "startYear": 2014,
     "endYear": 2020,
@@ -4856,7 +4856,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Rogue",
     "startYear": 2019,
     "endYear": 2021,
@@ -4864,7 +4864,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Sentra",
     "startYear": 2000,
     "endYear": 2006,
@@ -4872,7 +4872,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Sentra",
     "startYear": 2000,
     "endYear": 2004,
@@ -4880,7 +4880,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Sentra",
     "startYear": 2003,
     "endYear": 2006,
@@ -4888,7 +4888,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Sentra",
     "startYear": 2007,
     "endYear": 2012,
@@ -4896,7 +4896,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Sentra",
     "startYear": 2008,
     "endYear": 2012,
@@ -4904,7 +4904,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Sentra",
     "startYear": 2013,
     "endYear": 2019,
@@ -4912,7 +4912,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Sentra",
     "startYear": 2013,
     "endYear": 2019,
@@ -4920,7 +4920,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Sentra",
     "startYear": 2020,
     "endYear": 2022,
@@ -4928,7 +4928,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Tiida",
     "startYear": 2007,
     "endYear": 2019,
@@ -4936,7 +4936,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Tiida",
     "startYear": 2010,
     "endYear": 2015,
@@ -4944,7 +4944,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Tiida",
     "startYear": 2010,
     "endYear": 2015,
@@ -4952,7 +4952,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Titan",
     "startYear": 2004,
     "endYear": 2015,
@@ -4960,7 +4960,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Titan",
     "startYear": 2016,
     "endYear": 2018,
@@ -4968,7 +4968,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Titan",
     "startYear": 2019,
     "endYear": 2021,
@@ -4976,7 +4976,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Tsuru",
     "startYear": 2007,
     "endYear": 2017,
@@ -4984,7 +4984,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "V- drive",
     "startYear": 2021,
     "endYear": 2022,
@@ -4992,7 +4992,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Versa",
     "startYear": 2010,
     "endYear": 2020,
@@ -5000,7 +5000,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Versa",
     "startYear": 2013,
     "endYear": 2020,
@@ -5008,7 +5008,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Versa",
     "startYear": 2020,
     "endYear": 2022,
@@ -5016,7 +5016,7 @@
     "freq": "433.9 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Versa",
     "startYear": 2020,
     "endYear": 2022,
@@ -5024,7 +5024,7 @@
     "freq": "433.9 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "X-terra",
     "startYear": 2000,
     "endYear": 2001,
@@ -5032,7 +5032,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "X-terra",
     "startYear": 2002,
     "endYear": 2004,
@@ -5040,7 +5040,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "X-terra",
     "startYear": 2005,
     "endYear": 2013,
@@ -5048,7 +5048,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "X-trail",
     "startYear": 2002,
     "endYear": 2007,
@@ -5056,7 +5056,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "X-trail",
     "startYear": 2008,
     "endYear": 2013,
@@ -5064,7 +5064,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "X-Trail",
     "startYear": 2015,
     "endYear": 2020,
@@ -5072,7 +5072,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Peugeot 206",
     "startYear": 2003,
     "endYear": 2010,
@@ -5080,7 +5080,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Peugeot 207",
     "startYear": 2007,
     "endYear": 2010,
@@ -5088,7 +5088,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Peugeot 207",
     "startYear": 2011,
     "endYear": 2018,
@@ -5096,7 +5096,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Peugeot 208",
     "startYear": 2013,
     "endYear": 2019,
@@ -5104,7 +5104,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Peugeot 307",
     "startYear": 2004,
     "endYear": 2012,
@@ -5112,7 +5112,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Peugeot 308",
     "startYear": 2013,
     "endYear": 2019,
@@ -5120,7 +5120,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Peugeot 406",
     "startYear": 2002,
     "endYear": 2005,
@@ -5128,7 +5128,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Peugeot 508",
     "startYear": 2013,
     "endYear": 2018,
@@ -5136,7 +5136,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Peugeot 3008",
     "startYear": 2010,
     "endYear": 2016,
@@ -5144,7 +5144,7 @@
     "freq": "434 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Peugeot 3008",
     "startYear": 2016,
     "endYear": 2019,
@@ -5152,7 +5152,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Peugeot 5008",
     "startYear": 2017,
     "endYear": 2020,
@@ -5160,7 +5160,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Peugeot Partner",
     "startYear": 2013,
     "endYear": 2019,
@@ -5168,7 +5168,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Peugeot Partner",
     "startYear": 2020,
     "endYear": 2020,
@@ -5176,7 +5176,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "NISSAN",
     "model": "Peugeot Rifther",
     "startYear": 2019,
     "endYear": 2022,
@@ -5184,7 +5184,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "PONTIAC",
     "model": "Aztek",
     "startYear": 2001,
     "endYear": 2005,
@@ -5192,7 +5192,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "PONTIAC",
     "model": "Bonneville",
     "startYear": 2000,
     "endYear": 2005,
@@ -5200,7 +5200,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "PONTIAC",
     "model": "Bonneville",
     "startYear": 2000,
     "endYear": 2005,
@@ -5208,7 +5208,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "PONTIAC",
     "model": "G3 (Aveo)",
     "startYear": 2007,
     "endYear": 2009,
@@ -5216,7 +5216,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "PONTIAC",
     "model": "G5",
     "startYear": 2007,
     "endYear": 2010,
@@ -5224,7 +5224,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "PONTIAC",
     "model": "G6",
     "startYear": 2007,
     "endYear": 2010,
@@ -5232,7 +5232,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "PONTIAC",
     "model": "Grand Prix",
     "startYear": 2000,
     "endYear": 2003,
@@ -5240,7 +5240,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "PONTIAC",
     "model": "Montana",
     "startYear": 1997,
     "endYear": 2000,
@@ -5248,7 +5248,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "PONTIAC",
     "model": "Montana",
     "startYear": 2001,
     "endYear": 2005,
@@ -5256,7 +5256,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "PONTIAC",
     "model": "Montana",
     "startYear": 2005,
     "endYear": 2008,
@@ -5264,7 +5264,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "PONTIAC",
     "model": "Solstice",
     "startYear": 2006,
     "endYear": 2010,
@@ -5272,7 +5272,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "PONTIAC",
     "model": "Torrent",
     "startYear": 2007,
     "endYear": 2010,
@@ -5280,7 +5280,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "SEAT",
     "model": "Arona",
     "startYear": 2018,
     "endYear": 2022,
@@ -5288,7 +5288,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "SEAT",
     "model": "Cordoba",
     "startYear": 2004,
     "endYear": 2007,
@@ -5296,7 +5296,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "SEAT",
     "model": "Cordoba",
     "startYear": 2008,
     "endYear": 2009,
@@ -5304,7 +5304,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "SEAT",
     "model": "Ibiza",
     "startYear": 2003,
     "endYear": 2009,
@@ -5312,7 +5312,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "SEAT",
     "model": "Ibiza",
     "startYear": 2009,
     "endYear": 2012,
@@ -5320,7 +5320,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "SEAT",
     "model": "Ibiza",
     "startYear": 2010,
     "endYear": 2016,
@@ -5328,7 +5328,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "SEAT",
     "model": "Ibiza",
     "startYear": 2010,
     "endYear": 2016,
@@ -5336,7 +5336,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "SEAT",
     "model": "Ibiza",
     "startYear": 2016,
     "endYear": 2020,
@@ -5344,7 +5344,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "SEAT",
     "model": "Leon",
     "startYear": 2002,
     "endYear": 2009,
@@ -5352,7 +5352,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "SEAT",
     "model": "Leon",
     "startYear": 2010,
     "endYear": 2016,
@@ -5360,7 +5360,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "SEAT",
     "model": "Leon",
     "startYear": 2010,
     "endYear": 2016,
@@ -5368,7 +5368,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "SEAT",
     "model": "Leon",
     "startYear": 2017,
     "endYear": 2020,
@@ -5376,7 +5376,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "SEAT",
     "model": "Tarraco",
     "startYear": 2019,
     "endYear": 2022,
@@ -5384,7 +5384,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "SEAT",
     "model": "Toledo",
     "startYear": 2002,
     "endYear": 2008,
@@ -5392,7 +5392,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "SEAT",
     "model": "Toledo",
     "startYear": 2013,
     "endYear": 2015,
@@ -5400,7 +5400,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "SEAT",
     "model": "Toledo",
     "startYear": 2013,
     "endYear": 2015,
@@ -5408,7 +5408,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "SEAT",
     "model": "Toledo",
     "startYear": 2016,
     "endYear": 2019,
@@ -5416,7 +5416,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "4Runner",
     "startYear": 2001,
     "endYear": 2002,
@@ -5424,7 +5424,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "4Runner",
     "startYear": 2003,
     "endYear": 2009,
@@ -5432,7 +5432,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "4Runner",
     "startYear": 2010,
     "endYear": 2019,
@@ -5440,7 +5440,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "4Runner",
     "startYear": 2010,
     "endYear": 2019,
@@ -5448,7 +5448,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "4Runner",
     "startYear": 2020,
     "endYear": 2021,
@@ -5456,7 +5456,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "4Runner",
     "startYear": 2020,
     "endYear": 2021,
@@ -5464,7 +5464,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "4Runner",
     "startYear": 2022,
     "endYear": 2022,
@@ -5472,7 +5472,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Avanza",
     "startYear": 2007,
     "endYear": 2015,
@@ -5480,7 +5480,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Avanza",
     "startYear": 2016,
     "endYear": 2021,
@@ -5488,7 +5488,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Avalon",
     "startYear": 2005,
     "endYear": 2008,
@@ -5496,7 +5496,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Avalon",
     "startYear": 2007,
     "endYear": 2012,
@@ -5504,7 +5504,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Avalon",
     "startYear": 2013,
     "endYear": 2018,
@@ -5512,7 +5512,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Avalon",
     "startYear": 2019,
     "endYear": 2021,
@@ -5520,7 +5520,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Camry",
     "startYear": 2000,
     "endYear": 2002,
@@ -5528,7 +5528,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Camry",
     "startYear": 2003,
     "endYear": 2006,
@@ -5536,7 +5536,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Camry",
     "startYear": 2007,
     "endYear": 2010,
@@ -5544,7 +5544,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Camry",
     "startYear": 2010,
     "endYear": 2013,
@@ -5552,7 +5552,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Camry",
     "startYear": 2012,
     "endYear": 2013,
@@ -5560,7 +5560,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Camry",
     "startYear": 2014,
     "endYear": 2016,
@@ -5568,7 +5568,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Camry",
     "startYear": 2012,
     "endYear": 2017,
@@ -5576,7 +5576,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Camry",
     "startYear": 2017,
     "endYear": 2021,
@@ -5584,7 +5584,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "C-HR",
     "startYear": 2018,
     "endYear": 2020,
@@ -5592,7 +5592,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "C-HR",
     "startYear": 2018,
     "endYear": 2021,
@@ -5600,7 +5600,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Corolla",
     "startYear": 1998,
     "endYear": 2002,
@@ -5608,7 +5608,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Corolla",
     "startYear": 2003,
     "endYear": 2006,
@@ -5616,7 +5616,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Corolla",
     "startYear": 2007,
     "endYear": 2010,
@@ -5624,7 +5624,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Corolla",
     "startYear": 2007,
     "endYear": 2010,
@@ -5632,7 +5632,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Corolla",
     "startYear": 2010,
     "endYear": 2013,
@@ -5640,7 +5640,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Corolla",
     "startYear": 2014,
     "endYear": 2019,
@@ -5648,7 +5648,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Corolla",
     "startYear": 2020,
     "endYear": 2021,
@@ -5656,7 +5656,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Corolla",
     "startYear": 2014,
     "endYear": 2020,
@@ -5664,7 +5664,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Corolla",
     "startYear": 2019,
     "endYear": 2021,
@@ -5672,7 +5672,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "FJ Cruiser",
     "startYear": 2007,
     "endYear": 2008,
@@ -5680,7 +5680,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "FJ Cruiser",
     "startYear": 2007,
     "endYear": 2008,
@@ -5688,7 +5688,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "FJ Cruiser",
     "startYear": 2008,
     "endYear": 2010,
@@ -5696,7 +5696,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "FJ Cruiser",
     "startYear": 2011,
     "endYear": 2015,
@@ -5704,7 +5704,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "FJ Cruiser",
     "startYear": 2011,
     "endYear": 2015,
@@ -5712,7 +5712,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Highlander",
     "startYear": 2001,
     "endYear": 2003,
@@ -5720,7 +5720,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Highlander",
     "startYear": 2001,
     "endYear": 2003,
@@ -5728,7 +5728,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Highlander",
     "startYear": 2001,
     "endYear": 2003,
@@ -5736,7 +5736,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Highlander",
     "startYear": 2001,
     "endYear": 2003,
@@ -5744,7 +5744,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Highlander",
     "startYear": 2004,
     "endYear": 2007,
@@ -5752,7 +5752,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Highlander",
     "startYear": 2004,
     "endYear": 2007,
@@ -5760,7 +5760,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Highlander",
     "startYear": 2007,
     "endYear": 2010,
@@ -5768,7 +5768,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Highlander",
     "startYear": 2008,
     "endYear": 2013,
@@ -5776,7 +5776,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Highlander",
     "startYear": 2010,
     "endYear": 2014,
@@ -5784,7 +5784,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Highlander",
     "startYear": 2014,
     "endYear": 2019,
@@ -5792,7 +5792,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Highlander",
     "startYear": 2014,
     "endYear": 2019,
@@ -5800,7 +5800,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Hilux",
     "startYear": 2007,
     "endYear": 2013,
@@ -5808,7 +5808,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Hilux",
     "startYear": 2011,
     "endYear": 2015,
@@ -5816,7 +5816,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Hilux",
     "startYear": 2016,
     "endYear": 2022,
@@ -5824,7 +5824,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Land Cruiser",
     "startYear": 2008,
     "endYear": 2010,
@@ -5832,7 +5832,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Land Cruiser",
     "startYear": 2008,
     "endYear": 2016,
@@ -5840,7 +5840,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Land Cruiser",
     "startYear": 2018,
     "endYear": 2019,
@@ -5848,7 +5848,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Land Cruiser",
     "startYear": 2020,
     "endYear": 2021,
@@ -5856,7 +5856,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Matrix",
     "startYear": 2003,
     "endYear": 2008,
@@ -5864,7 +5864,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Matrix",
     "startYear": 2008,
     "endYear": 2014,
@@ -5872,7 +5872,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Prius",
     "startYear": 2010,
     "endYear": 2015,
@@ -5880,7 +5880,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Prius C",
     "startYear": 2012,
     "endYear": 2016,
@@ -5888,7 +5888,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Prius C",
     "startYear": 2012,
     "endYear": 2019,
@@ -5896,7 +5896,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Prius",
     "startYear": 2016,
     "endYear": 2021,
@@ -5904,7 +5904,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Prius",
     "startYear": 2021,
     "endYear": 2022,
@@ -5912,7 +5912,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Rav 4",
     "startYear": 2001,
     "endYear": 2005,
@@ -5920,7 +5920,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Rav 4",
     "startYear": 2006,
     "endYear": 2010,
@@ -5928,7 +5928,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Rav 4",
     "startYear": 2010,
     "endYear": 2012,
@@ -5936,7 +5936,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Rav 4",
     "startYear": 2013,
     "endYear": 2016,
@@ -5944,7 +5944,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Rav 4 USA",
     "startYear": 2013,
     "endYear": 2018,
@@ -5952,7 +5952,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Rav 4",
     "startYear": 2013,
     "endYear": 2018,
@@ -5960,7 +5960,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Rav 4",
     "startYear": 2019,
     "endYear": 2021,
@@ -5968,7 +5968,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Rav 4",
     "startYear": 2019,
     "endYear": 2021,
@@ -5976,7 +5976,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Sequoia",
     "startYear": 2001,
     "endYear": 2002,
@@ -5984,7 +5984,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Sequoia",
     "startYear": 2003,
     "endYear": 2007,
@@ -5992,7 +5992,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Sequoia",
     "startYear": 2008,
     "endYear": 2010,
@@ -6000,7 +6000,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Sequoia",
     "startYear": 2011,
     "endYear": 2013,
@@ -6008,7 +6008,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Sequoia",
     "startYear": 2014,
     "endYear": 2016,
@@ -6016,7 +6016,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Sequoia",
     "startYear": 2017,
     "endYear": 2020,
@@ -6024,7 +6024,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Sequoia",
     "startYear": 2019,
     "endYear": 2021,
@@ -6032,7 +6032,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Sequoia",
     "startYear": 2022,
     "endYear": 2022,
@@ -6040,7 +6040,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Sienna",
     "startYear": 2004,
     "endYear": 2010,
@@ -6048,7 +6048,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Sienna",
     "startYear": 2011,
     "endYear": 2014,
@@ -6056,7 +6056,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Sienna",
     "startYear": 2015,
     "endYear": 2020,
@@ -6064,7 +6064,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Sienna",
     "startYear": 2011,
     "endYear": 2020,
@@ -6072,7 +6072,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Sienna",
     "startYear": 2021,
     "endYear": 2022,
@@ -6080,7 +6080,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Tacoma",
     "startYear": 2005,
     "endYear": 2010,
@@ -6088,7 +6088,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Tacoma",
     "startYear": 2011,
     "endYear": 2015,
@@ -6096,7 +6096,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Tacoma",
     "startYear": 2015,
     "endYear": 2015,
@@ -6104,7 +6104,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Tundra",
     "startYear": 2005,
     "endYear": 2010,
@@ -6112,7 +6112,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Tundra",
     "startYear": 2010,
     "endYear": 2015,
@@ -6120,7 +6120,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Tundra",
     "startYear": 2016,
     "endYear": 2017,
@@ -6128,7 +6128,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Tundra",
     "startYear": 2017,
     "endYear": 2019,
@@ -6136,7 +6136,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Yaris",
     "startYear": 2007,
     "endYear": 2012,
@@ -6144,7 +6144,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Yaris",
     "startYear": 2012,
     "endYear": 2015,
@@ -6152,7 +6152,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Yaris",
     "startYear": 2015,
     "endYear": 2019,
@@ -6160,7 +6160,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "TOYOTA",
     "model": "Yaris IA",
     "startYear": 2017,
     "endYear": 2020,
@@ -6168,7 +6168,7 @@
     "freq": "315 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Amarok",
     "startYear": 2010,
     "endYear": 2015,
@@ -6176,7 +6176,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Amarok",
     "startYear": 2016,
     "endYear": 2021,
@@ -6184,7 +6184,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Beatle",
     "startYear": 1999,
     "endYear": 2001,
@@ -6192,7 +6192,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Beatle",
     "startYear": 1999,
     "endYear": 2001,
@@ -6200,7 +6200,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Beatle",
     "startYear": 2001,
     "endYear": 2010,
@@ -6208,7 +6208,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Beatle",
     "startYear": 2011,
     "endYear": 2019,
@@ -6216,7 +6216,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Bora",
     "startYear": 2005,
     "endYear": 2006,
@@ -6224,7 +6224,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Bora",
     "startYear": 2007,
     "endYear": 2011,
@@ -6232,7 +6232,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Cabrio",
     "startYear": 2000,
     "endYear": 2002,
@@ -6240,7 +6240,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Cross Fox",
     "startYear": 2007,
     "endYear": 2010,
@@ -6248,7 +6248,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Cross Fox",
     "startYear": 2010,
     "endYear": 2014,
@@ -6256,7 +6256,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Cross Fox",
     "startYear": 2015,
     "endYear": 2019,
@@ -6264,7 +6264,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "EURO VAN",
     "startYear": 2000,
     "endYear": 2011,
@@ -6272,7 +6272,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Gol",
     "startYear": 2008,
     "endYear": 2013,
@@ -6280,7 +6280,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Gol",
     "startYear": 2013,
     "endYear": 2020,
@@ -6288,7 +6288,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Golf",
     "startYear": 1999,
     "endYear": 2001,
@@ -6296,7 +6296,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Golf",
     "startYear": 1999,
     "endYear": 2001,
@@ -6304,7 +6304,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Golf",
     "startYear": 2002,
     "endYear": 2007,
@@ -6312,7 +6312,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Golf",
     "startYear": 2010,
     "endYear": 2014,
@@ -6320,7 +6320,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Golf",
     "startYear": 2015,
     "endYear": 2019,
@@ -6328,7 +6328,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Jetta",
     "startYear": 1995,
     "endYear": 1999,
@@ -6336,7 +6336,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Jetta",
     "startYear": 1999,
     "endYear": 2001,
@@ -6344,7 +6344,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Jetta",
     "startYear": 1999,
     "endYear": 2001,
@@ -6352,7 +6352,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Jetta",
     "startYear": 2002,
     "endYear": 2010,
@@ -6360,7 +6360,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Jetta Clasico",
     "startYear": 2011,
     "endYear": 2015,
@@ -6368,7 +6368,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Jetta MK6",
     "startYear": 2010,
     "endYear": 2016,
@@ -6376,7 +6376,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Jetta MK6",
     "startYear": 2012,
     "endYear": 2014,
@@ -6384,7 +6384,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Jetta MK6",
     "startYear": 2017,
     "endYear": 2018,
@@ -6392,7 +6392,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Jetta",
     "startYear": 2019,
     "endYear": 2022,
@@ -6400,7 +6400,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Jetta",
     "startYear": 2019,
     "endYear": 2022,
@@ -6408,7 +6408,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Lupo",
     "startYear": 2005,
     "endYear": 2007,
@@ -6416,7 +6416,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Passat",
     "startYear": 1999,
     "endYear": 2001,
@@ -6424,7 +6424,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Passat",
     "startYear": 1999,
     "endYear": 2001,
@@ -6432,7 +6432,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Passat",
     "startYear": 2002,
     "endYear": 2005,
@@ -6440,7 +6440,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Passat",
     "startYear": 2006,
     "endYear": 2013,
@@ -6448,7 +6448,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Passat",
     "startYear": 2012,
     "endYear": 2019,
@@ -6456,7 +6456,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Pointer",
     "startYear": 1998,
     "endYear": 2008,
@@ -6464,7 +6464,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Polo",
     "startYear": 2002,
     "endYear": 2008,
@@ -6472,7 +6472,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Polo",
     "startYear": 2013,
     "endYear": 2019,
@@ -6480,7 +6480,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Routan",
     "startYear": 2009,
     "endYear": 2012,
@@ -6488,7 +6488,7 @@
     "freq": "433 MHz"
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Saveiro",
     "startYear": 2010,
     "endYear": 2013,
@@ -6496,7 +6496,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Saveiro (Robust)",
     "startYear": 2014,
     "endYear": 2022,
@@ -6504,7 +6504,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Sharan",
     "startYear": 2004,
     "endYear": 2008,
@@ -6512,7 +6512,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Sport Van",
     "startYear": 2007,
     "endYear": 2010,
@@ -6520,7 +6520,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Taos",
     "startYear": 2021,
     "endYear": 2022,
@@ -6528,7 +6528,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Tiguan",
     "startYear": 2009,
     "endYear": 2013,
@@ -6536,7 +6536,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Tiguan",
     "startYear": 2011,
     "endYear": 2017,
@@ -6544,7 +6544,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Tiguan",
     "startYear": 2018,
     "endYear": 2019,
@@ -6552,7 +6552,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Touareg",
     "startYear": 2004,
     "endYear": 2010,
@@ -6560,7 +6560,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Touareg",
     "startYear": 2011,
     "endYear": 2018,
@@ -6568,7 +6568,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Up",
     "startYear": 2016,
     "endYear": 2019,
@@ -6576,7 +6576,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Vento",
     "startYear": 2013,
     "endYear": 2022,
@@ -6584,7 +6584,7 @@
     "freq": null
   },
   {
-    "make": "Chevrolet",
+    "make": "VOLKSWAGEN",
     "model": "Virtus",
     "startYear": 2020,
     "endYear": 2022,
