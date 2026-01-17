@@ -2,14 +2,12 @@
  * Marketing Agent
  * Handles social media publishing via Blotato API
  * Includes video generation via KIE (Sora 2)
+ * Jobs now persisted in Supabase (no memory loss on restart)
  */
 const logger = require('../logger');
 require('dotenv').config();
 
 const BLOTATO_API_KEY = process.env.BLOTATO_API_KEY;
-
-// Video generation status tracking
-const videoJobs = new Map();
 const BLOTATO_ACCOUNTS = {
   tiktok: process.env.BLOTATO_ACCOUNT_ID,
   instagram: process.env.BLOTATO_INSTAGRAM_ID,
@@ -41,13 +39,26 @@ async function publishToSocial(platform, content, mediaUrl = null) {
       payload.media_url = mediaUrl;
     }
 
-    const response = await fetch('https://api.blotato.com/v1/posts', {
+    const response = await fetch('https://backend.blotato.com/v2/posts', {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${BLOTATO_API_KEY}`,
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(payload),
+      body: JSON.stringify({
+        post: {
+          accountId: accountId,
+          content: {
+            text: content,
+            mediaUrls: mediaUrl ? [mediaUrl] : [],
+            platform: platform.toLowerCase(),
+          },
+          target: {
+            targetType: platform.toLowerCase(),
+            platform: platform.toLowerCase(),
+          },
+        },
+      }),
     });
 
     if (!response.ok) {
@@ -88,7 +99,7 @@ async function publishToAll(content, mediaUrl = null) {
  */
 async function getScheduledPosts() {
   try {
-    const response = await fetch('https://api.blotato.com/v1/posts?status=scheduled', {
+    const response = await fetch('https://backend.blotato.com/v2/posts?status=scheduled', {
       headers: {
         'Authorization': `Bearer ${BLOTATO_API_KEY}`,
       },
@@ -107,6 +118,7 @@ async function getScheduledPosts() {
 
 /**
  * Generate viral video using video_engine
+ * Jobs are persisted in Supabase automatically by video_engine
  * @param {string} idea - Video idea/concept
  * @returns {Promise<{success: boolean, message: string, jobId?: string}>}
  */
@@ -116,34 +128,22 @@ async function generateVideo(idea) {
     const jobId = Date.now().toString();
     const title = idea.substring(0, 50);
 
-    // Track job
-    videoJobs.set(jobId, { status: 'processing', idea, startedAt: new Date() });
-
     logger.info(`🎬 Video job ${jobId} started: ${title}`);
 
     // Start async generation (don't await - let it run in background)
+    // video_engine handles persistence and notifications automatically
     (async () => {
       try {
-        const result = await generateViralVideo(title, idea);
-        videoJobs.set(jobId, {
-          status: 'completed',
-          result,
-          completedAt: new Date()
-        });
+        await generateViralVideo(title, idea, null, jobId);
         logger.info(`✅ Video job ${jobId} completed`);
       } catch (error) {
-        videoJobs.set(jobId, {
-          status: 'failed',
-          error: error.message,
-          failedAt: new Date()
-        });
         logger.error(`❌ Video job ${jobId} failed: ${error.message}`);
       }
     })();
 
     return {
       success: true,
-      message: `🎬 Video en proceso (#${jobId})\nIdea: "${title}..."\n\n⏳ Generando con IA (3-5 min).\nUsa \`mkt video status\` para ver progreso.`,
+      message: `🎬 Video en proceso (#${jobId})\nIdea: "${title}..."\n\n⏳ Generando con IA (5-10 min).\nRecibirás WhatsApp cuando termine.\nUsa \`mkt video status\` para ver progreso.`,
       jobId,
     };
   } catch (error) {
@@ -153,30 +153,40 @@ async function generateVideo(idea) {
 }
 
 /**
- * Get video jobs status
- * @returns {string}
+ * Get video jobs status from Supabase
+ * @returns {Promise<string>}
  */
-function getVideoJobsStatus() {
-  if (videoJobs.size === 0) {
-    return '📹 No hay videos en proceso.';
-  }
+async function getVideoJobsStatus() {
+  try {
+    const { getVideoJobs } = require('../video_engine');
+    const jobs = await getVideoJobs(10);
 
-  let status = '🎬 **VIDEOS EN PROCESO**\n\n';
-
-  for (const [jobId, job] of videoJobs) {
-    const emoji = job.status === 'completed' ? '✅' :
-                  job.status === 'failed' ? '❌' : '⏳';
-    status += `${emoji} #${jobId}: ${job.status}\n`;
-
-    if (job.status === 'completed' && job.result?.video) {
-      status += `   📹 ${job.result.video.substring(0, 50)}...\n`;
+    if (!jobs || jobs.length === 0) {
+      return '📹 No hay videos recientes.';
     }
-    if (job.status === 'failed') {
-      status += `   ❌ ${job.error}\n`;
-    }
-  }
 
-  return status;
+    let status = '🎬 **VIDEOS RECIENTES**\n\n';
+
+    for (const job of jobs) {
+      const emoji = job.status === 'completed' ? '✅' :
+                    job.status === 'failed' ? '❌' : '⏳';
+      status += `${emoji} #${job.job_id}: ${job.status}\n`;
+      status += `   📝 ${job.title || job.idea?.substring(0, 30) || 'Sin título'}...\n`;
+
+      if (job.status === 'completed' && job.video_url) {
+        status += `   📹 ${job.video_url.substring(0, 50)}...\n`;
+      }
+      if (job.status === 'failed' && job.error) {
+        status += `   ❌ ${job.error}\n`;
+      }
+      status += '\n';
+    }
+
+    return status;
+  } catch (error) {
+    logger.error(`Error getting video jobs: ${error.message}`);
+    return '❌ Error obteniendo estado de videos.';
+  }
 }
 
 /**
@@ -190,11 +200,12 @@ async function processMarketingCommand(command) {
   // Status command
   if (lowerCmd === 'status' || lowerCmd === '') {
     const scheduled = await getScheduledPosts();
-    const videoStatus = videoJobs.size > 0 ? `\n\n${getVideoJobsStatus()}` : '';
+    const videoStatus = await getVideoJobsStatus();
 
     return `📱 **MARKETING STATUS**\n\n` +
       `Plataformas: ${Object.keys(BLOTATO_ACCOUNTS).filter(k => BLOTATO_ACCOUNTS[k]).join(', ')}\n` +
-      `Posts programados: ${scheduled.length}${videoStatus}\n\n` +
+      `Posts programados: ${scheduled.length}\n\n` +
+      `${videoStatus}\n\n` +
       `Comandos:\n` +
       `• \`mkt video [idea]\` - Generar video con IA\n` +
       `• \`mkt video status\` - Ver videos en proceso\n` +
@@ -208,7 +219,7 @@ async function processMarketingCommand(command) {
 
     // Video status
     if (subCmd.toLowerCase() === 'status' || subCmd === '') {
-      return getVideoJobsStatus();
+      return await getVideoJobsStatus();
     }
 
     // Generate new video

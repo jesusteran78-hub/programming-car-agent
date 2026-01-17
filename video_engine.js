@@ -1,12 +1,27 @@
 // 🎬 MOTOR DE VÍDEO VIRAL (REEMPLAZO DE N8N)
-// Workflow: OpenAI (Idea) -> KIE (Sora 2 Video) -> Blotato (Posting)
+// Workflow: OpenAI (Idea) -> KIE (Sora 2 Video) -> TTS Audio -> FFmpeg -> Blotato (Posting)
 
 const OpenAI = require('openai');
 const axios = require('axios');
+const fs = require('fs');
+const path = require('path');
+const { exec } = require('child_process');
+const util = require('util');
+const execPromise = util.promisify(exec);
 require('dotenv').config();
 const logger = require('./logger');
+const { createClient } = require('@supabase/supabase-js');
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
+
+// Owner phone for notifications
+const OWNER_PHONE = process.env.OWNER_PHONE || '17868164874@s.whatsapp.net';
+const WHAPI_TOKEN = process.env.WHAPI_TOKEN;
+
+// Configurable URLs (can be overridden in .env)
+const KIE_DEFAULT_IMAGE = process.env.KIE_DEFAULT_IMAGE || 'https://res.cloudinary.com/dtfbdf4dn/image/upload/v1767748438/ugc-auto/nbdfysted9kuvfcpgy28.png';
+const KIE_FALLBACK_VIDEO = process.env.KIE_FALLBACK_VIDEO || 'https://res.cloudinary.com/dtfbdf4dn/video/upload/v1767949970/ugc-watermarked/hiu2w9fv9ksvnhrzcvgp.mp4';
 
 // SYSTEM PROMPT MAESTRO (Afinado con el "Silverado Protocol")
 const SORA_SYSTEM_PROMPT = `
@@ -45,8 +60,16 @@ const KIE_CREATE_TASK_URL = 'https://api.kie.ai/api/v1/jobs/createTask';
 const KIE_GET_TASK_URL = 'https://api.kie.ai/api/v1/jobs/recordInfo'; // Confirmed general endpoint
 const BLOTATO_API_URL = 'https://backend.blotato.com/v2/posts';
 
-async function generateViralVideo(title, idea, imageUrl) {
-  logger.info(`🏭 FABRICA INICIADA: ${title}`);
+async function generateViralVideo(title, idea, imageUrl, jobId = null) {
+  // Generar jobId si no se proporciona (para tracking)
+  const internalJobId = jobId || Date.now().toString();
+  logger.info(`🏭 FABRICA INICIADA: ${title} (Job #${internalJobId})`);
+
+  // Guardar en Supabase al inicio
+  await saveVideoJob(internalJobId, title, idea);
+
+  let usedFallback = false;
+  let kieErrorMsg = null;
 
   try {
     // PASO 1: GENERAR PROMPT CINEMATOGRÁFICO (OpenAI)
@@ -67,10 +90,7 @@ async function generateViralVideo(title, idea, imageUrl) {
             model: 'sora-2-image-to-video',
             input: {
               prompt: soraPrompt,
-              image_urls: [
-                imageUrl ||
-                  'https://res.cloudinary.com/dtfbdf4dn/image/upload/v1767748438/ugc-auto/nbdfysted9kuvfcpgy28.png',
-              ],
+              image_urls: [imageUrl || KIE_DEFAULT_IMAGE],
               aspect_ratio: 'portrait',
               n_frames: '15',
               size: 'standard',
@@ -92,23 +112,49 @@ async function generateViralVideo(title, idea, imageUrl) {
         }
         logger.info(`⏳ Tarea KIE Iniciada. ID: ${taskId}. Esperando renderizado...`);
 
-        // 2.2 POLLING (Esperar a que termine)
+        // 2.2 POLLING (Esperar a que termine) - Timeout aumentado a 10 min
         videoUrl = await pollKieTask(taskId);
       } catch (kieError) {
+        kieErrorMsg = kieError.response?.data?.message || kieError.message;
         logger.error(
           '❌ ERROR EN KIE API:',
           kieError.response?.status,
           kieError.response?.data || kieError.message
         );
         logger.info('⚠️ KIE falló. Usando video de respaldo.');
-        videoUrl =
-          'https://res.cloudinary.com/dtfbdf4dn/video/upload/v1767949970/ugc-watermarked/hiu2w9fv9ksvnhrzcvgp.mp4';
+        videoUrl = KIE_FALLBACK_VIDEO;
+        usedFallback = true;
       }
     } else {
       logger.info('⚠️ MODO SIMULACIÓN (Falta API Key de KIE)');
-      videoUrl =
-        'https://res.cloudinary.com/dtfbdf4dn/video/upload/v1767949970/ugc-watermarked/hiu2w9fv9ksvnhrzcvgp.mp4';
+      videoUrl = KIE_FALLBACK_VIDEO;
+      usedFallback = true;
     }
+
+    // Notificar si usó fallback
+    if (usedFallback && kieErrorMsg) {
+      await notifyFallbackUsed(internalJobId, kieErrorMsg);
+    }
+
+    // PASO 2.5: AGREGAR AUDIO TTS
+    logger.info('🔊 2.5. Generando audio TTS...');
+    try {
+      const audioScript = await generateAudioScript(title, idea);
+      const tempDir = path.join(__dirname, 'temp');
+      if (!fs.existsSync(tempDir)) {
+        fs.mkdirSync(tempDir);
+      }
+      const audioPath = path.join(tempDir, `audio_${internalJobId}.mp3`);
+
+      const audioFile = await generateTTSAudio(audioScript, audioPath);
+      if (audioFile) {
+        videoUrl = await mergeVideoWithAudio(videoUrl, audioFile);
+        logger.info('✅ Audio agregado al video');
+      }
+    } catch (ttsError) {
+      logger.warn(`⚠️ TTS falló, video sin audio: ${ttsError.message}`);
+    }
+
     logger.info('✅ Video URL Final:', videoUrl);
 
     // PASO 3: PUBLICACIÓN (BLOTATO)
@@ -236,22 +282,31 @@ async function generateViralVideo(title, idea, imageUrl) {
 
     logger.info('✅ FLUJO FINALIZADO.');
 
+    // Actualizar job en Supabase
+    await updateVideoJobComplete(internalJobId, videoUrl, soraPrompt, captions);
+
+    // Notificar al owner por WhatsApp
+    await notifyVideoComplete(internalJobId, videoUrl, postResults);
+
     return {
       status: 'success',
+      jobId: internalJobId,
       video: videoUrl,
       prompt: soraPrompt,
-      captions: captions, // Return all variations
+      captions: captions,
       deployment: postResults,
     };
   } catch (error) {
     logger.error('❌ ERROR CRÍTICO EN LA FÁBRICA:', error.message);
+    // Marcar job como fallido en DB
+    await updateVideoJobFailed(internalJobId, error.message);
     throw error;
   }
 }
 
 // Función auxiliar para esperar a KIE (Polling)
 async function pollKieTask(taskId) {
-  const maxAttempts = 60; // 5 minutos (60 * 5s)
+  const maxAttempts = 120; // 10 minutos (120 * 5s) - aumentado para videos largos
   const interval = 5000; // 5 segundos
 
   for (let i = 0; i < maxAttempts; i++) {
@@ -354,4 +409,259 @@ async function generateViralCaption(title, script) {
   return response.choices[0].message.content;
 }
 
-module.exports = { generateViralVideo };
+// ==========================================
+// PERSISTENCIA EN SUPABASE
+// ==========================================
+
+/**
+ * Guardar nuevo job en Supabase
+ */
+async function saveVideoJob(jobId, title, idea) {
+  try {
+    const { error } = await supabase.from('video_jobs').insert({
+      job_id: jobId,
+      status: 'processing',
+      title,
+      idea,
+    });
+    if (error) throw error;
+    logger.info(`💾 Job ${jobId} guardado en DB`);
+  } catch (e) {
+    logger.error(`❌ Error guardando job: ${e.message}`);
+  }
+}
+
+/**
+ * Actualizar job completado
+ */
+async function updateVideoJobComplete(jobId, videoUrl, prompt, captions) {
+  try {
+    const { error } = await supabase
+      .from('video_jobs')
+      .update({
+        status: 'completed',
+        video_url: videoUrl,
+        prompt,
+        captions,
+        completed_at: new Date().toISOString(),
+      })
+      .eq('job_id', jobId);
+    if (error) throw error;
+    logger.info(`✅ Job ${jobId} marcado completado en DB`);
+  } catch (e) {
+    logger.error(`❌ Error actualizando job: ${e.message}`);
+  }
+}
+
+/**
+ * Actualizar job fallido
+ */
+async function updateVideoJobFailed(jobId, errorMsg) {
+  try {
+    const { error } = await supabase
+      .from('video_jobs')
+      .update({
+        status: 'failed',
+        error: errorMsg,
+        completed_at: new Date().toISOString(),
+      })
+      .eq('job_id', jobId);
+    if (error) throw error;
+    logger.info(`❌ Job ${jobId} marcado fallido en DB`);
+  } catch (e) {
+    logger.error(`❌ Error actualizando job fallido: ${e.message}`);
+  }
+}
+
+/**
+ * Obtener todos los jobs (para status)
+ */
+async function getVideoJobs(limit = 10) {
+  try {
+    const { data, error } = await supabase
+      .from('video_jobs')
+      .select('*')
+      .order('created_at', { ascending: false })
+      .limit(limit);
+    if (error) throw error;
+    return data || [];
+  } catch (e) {
+    logger.error(`❌ Error obteniendo jobs: ${e.message}`);
+    return [];
+  }
+}
+
+// ==========================================
+// NOTIFICACIONES WHATSAPP
+// ==========================================
+
+/**
+ * Enviar WhatsApp al owner
+ */
+async function sendOwnerWhatsApp(message) {
+  if (!WHAPI_TOKEN) {
+    logger.warn('⚠️ WHAPI_TOKEN no configurado, no se puede enviar WhatsApp');
+    return;
+  }
+
+  try {
+    await axios.post(
+      'https://gate.whapi.cloud/messages/text',
+      {
+        to: OWNER_PHONE,
+        body: message,
+      },
+      {
+        headers: { Authorization: `Bearer ${WHAPI_TOKEN}` },
+      }
+    );
+    logger.info(`📱 WhatsApp enviado al owner`);
+  } catch (e) {
+    logger.error(`❌ Error enviando WhatsApp: ${e.message}`);
+  }
+}
+
+/**
+ * Notificar video completado
+ */
+async function notifyVideoComplete(jobId, videoUrl, platforms) {
+  const platformList = Object.keys(platforms)
+    .filter((p) => platforms[p]?.status === 'success')
+    .join(', ');
+
+  const message =
+    `🎬 *Video #${jobId} completado!*\n\n` +
+    `📹 ${videoUrl}\n\n` +
+    `✅ Publicado en: ${platformList || 'Ninguna (error)'}`;
+
+  await sendOwnerWhatsApp(message);
+}
+
+/**
+ * Notificar fallback usado
+ */
+async function notifyFallbackUsed(jobId, errorMsg) {
+  const message =
+    `⚠️ *Video #${jobId} usó fallback*\n\n` +
+    `❌ KIE falló: ${errorMsg}\n\n` +
+    `📹 Se usó video genérico de respaldo.`;
+
+  await sendOwnerWhatsApp(message);
+}
+
+// ==========================================
+// AUDIO TTS (OpenAI)
+// ==========================================
+
+/**
+ * Generar script de audio para el video
+ */
+async function generateAudioScript(title, idea) {
+  // Script fijo + contexto dinámico
+  const contextPart = idea.length > 100 ? idea.substring(0, 100) + '...' : idea;
+  return `Programming Car, tu solución en llaves de auto. ${contextPart}. Llámanos al 786-816-4874.`;
+}
+
+/**
+ * Generar audio con OpenAI TTS
+ * @param {string} text - Texto a convertir
+ * @param {string} outputPath - Ruta de salida del MP3
+ */
+async function generateTTSAudio(text, outputPath) {
+  try {
+    logger.info('🔊 Generando audio TTS (voz: onyx)...');
+
+    const response = await openai.audio.speech.create({
+      model: 'tts-1',
+      voice: 'onyx', // Voz masculina profunda
+      input: text,
+    });
+
+    const buffer = Buffer.from(await response.arrayBuffer());
+    fs.writeFileSync(outputPath, buffer);
+
+    logger.info(`✅ Audio TTS guardado: ${outputPath}`);
+    return outputPath;
+  } catch (e) {
+    logger.error(`❌ Error generando TTS: ${e.message}`);
+    return null;
+  }
+}
+
+/**
+ * Combinar video y audio con FFmpeg
+ * @param {string} videoUrl - URL del video sin audio
+ * @param {string} audioPath - Ruta del archivo de audio local
+ * @returns {Promise<string>} - URL del video final (subido a Cloudinary)
+ */
+async function mergeVideoWithAudio(videoUrl, audioPath) {
+  try {
+    logger.info('🎞️ Combinando video + audio con FFmpeg...');
+
+    const tempDir = path.join(__dirname, 'temp');
+    if (!fs.existsSync(tempDir)) {
+      fs.mkdirSync(tempDir);
+    }
+
+    const videoPath = path.join(tempDir, `video_${Date.now()}.mp4`);
+    const outputPath = path.join(tempDir, `final_${Date.now()}.mp4`);
+
+    // Descargar video
+    const videoResponse = await axios.get(videoUrl, { responseType: 'arraybuffer' });
+    fs.writeFileSync(videoPath, videoResponse.data);
+
+    // Combinar con FFmpeg
+    const ffmpegCmd = `ffmpeg -i "${videoPath}" -i "${audioPath}" -c:v copy -c:a aac -map 0:v:0 -map 1:a:0 -shortest -y "${outputPath}"`;
+
+    await execPromise(ffmpegCmd);
+    logger.info('✅ Video + audio combinados');
+
+    // Subir a Cloudinary
+    const finalUrl = await uploadToCloudinary(outputPath);
+
+    // Limpiar archivos temporales
+    fs.unlinkSync(videoPath);
+    fs.unlinkSync(audioPath);
+    fs.unlinkSync(outputPath);
+
+    return finalUrl;
+  } catch (e) {
+    logger.error(`❌ Error combinando video/audio: ${e.message}`);
+    return videoUrl; // Devolver video original si falla
+  }
+}
+
+/**
+ * Subir video a Cloudinary
+ */
+async function uploadToCloudinary(filePath) {
+  try {
+    const cloudinary = require('cloudinary').v2;
+
+    cloudinary.config({
+      cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+      api_key: process.env.CLOUDINARY_API_KEY,
+      api_secret: process.env.CLOUDINARY_API_SECRET,
+    });
+
+    const result = await cloudinary.uploader.upload(filePath, {
+      resource_type: 'video',
+      folder: 'ugc-auto',
+    });
+
+    logger.info(`☁️ Video subido a Cloudinary: ${result.secure_url}`);
+    return result.secure_url;
+  } catch (e) {
+    logger.error(`❌ Error subiendo a Cloudinary: ${e.message}`);
+    throw e;
+  }
+}
+
+module.exports = {
+  generateViralVideo,
+  getVideoJobs,
+  saveVideoJob,
+  updateVideoJobComplete,
+  updateVideoJobFailed,
+  sendOwnerWhatsApp,
+};
