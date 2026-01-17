@@ -2,6 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 const logger = require('./logger');
+const { searchFccId } = require('./libro_maestro_parser');
 
 // Load databases
 const csvDatabase = [];
@@ -52,7 +53,7 @@ loadDatabases();
 
 /**
  * Finds key details (FCC ID) for a given vehicle.
- * Prioritizes Custom Book, falls back to CSV.
+ * Priority: 1) Libro Maestro (parsed txt), 2) Custom JSON, 3) CSV, 4) Web fallback
  * @param {number} year
  * @param {string} make
  * @param {string} model
@@ -64,44 +65,43 @@ function findKeyDetails(year, make, model) {
   const searchModel = model.toLowerCase();
   const searchYear = typeof year === 'string' ? parseInt(year) : year;
 
-  // 1. Search Custom Database (Priority)
+  // 1. Search Libro Maestro (Highest Priority - parsed from txt files)
+  const libroMatches = searchFccId(searchYear, make, model);
+  libroMatches.forEach((match) => {
+    if (!results.some((r) => r.fccId === match.fccId)) {
+      results.push({
+        fccId: match.fccId,
+        frequency: match.freq,
+        source: 'Libro Maestro',
+        note: `${match.make} ${match.model} ${match.yearStart}-${match.yearEnd}`,
+      });
+    }
+  });
+
+  // 2. Search Custom JSON Database
   const customMatches = customDatabase.filter((entry) => {
     const entryMake = entry.make.toLowerCase();
     const entryModel = entry.model.toLowerCase();
 
-    // Check Make
     if (!entryMake.includes(searchMake) && !searchMake.includes(entryMake)) {return false;}
-
-    // Check Model (fuzzy match)
     if (!entryModel.includes(searchModel) && !searchModel.includes(entryModel)) {return false;}
-
-    // Check Year Range
     if (searchYear >= entry.startYear && searchYear <= entry.endYear) {return true;}
 
     return false;
   });
 
   customMatches.forEach((match) => {
-    if (!results.some((r) => r.fccId === match.fccId)) {
+    if (match.fccId && match.fccId !== 'Info' && !results.some((r) => r.fccId === match.fccId)) {
       results.push({
         fccId: match.fccId,
         frequency: match.freq,
-        source: 'Libro Maestro (Prioridad)',
+        source: 'Custom DB',
         note: `Rango: ${match.startYear}-${match.endYear}`,
       });
     }
   });
 
-  // 2. If no results or we want backups, Search CSV Database (Fallback)
-  // We append these even if Custom found something, to give options,
-  // OR we could return early if custom found something (Strict Priority).
-  // Let's return mixed results but labelled, so user sees "Book" vs "Generic".
-
-  // Actually, usually if the Book has it, it's right. But let's verify coverage.
-  // If Custom matches found, maybe we skip generic?
-  // Let's include both for maximum helpfulness, sorted by priority in UI?
-  // The agent will present them.
-
+  // 3. Search CSV Database (Fallback)
   const csvMatches = csvDatabase.filter((entry) => {
     return entry.year === searchYear && entry.make === searchMake && entry.model === searchModel;
   });
@@ -110,26 +110,24 @@ function findKeyDetails(year, make, model) {
     if (!results.some((r) => r.fccId === match.fccId)) {
       results.push({
         fccId: match.fccId,
-        source: 'Base de Datos Genérica',
+        source: 'CSV Database',
         note: 'Coincidencia Exacta',
       });
     }
   });
 
-  // 3. Fallback: If no results found in DBs, return Web Search Links
+  // 4. Fallback: If no results found, return Web Search Links
   if (results.length === 0) {
     const links = getSupplierLinks(make, model, year);
 
     results.push({
-      fccId: 'No encontrado en base de datos',
-      source: 'Búsqueda Web (Respaldo)',
-      note: 'Intente buscar manualmente en los siguientes enlaces:',
-      links: links, // Pass links object for frontend/agent to parse if needed
+      fccId: 'NO_ENCONTRADO',
+      source: 'Búsqueda Web',
+      note: 'No se encontró en bases de datos locales',
+      links: links,
+      frequency: 'N/A',
+      db_miss: true,
     });
-
-    // Also append text representation for simple agents
-    results[0].frequency = 'N/A';
-    results[0].db_miss = true; // Flag for agent handling
   }
 
   return results;

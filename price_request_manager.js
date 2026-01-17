@@ -45,7 +45,7 @@ Servicio: ${serviceType || 'copy'}
 FCC: ${fccId || 'N/A'}
 Cliente: ${clientPhone.replace('@s.whatsapp.net', '')}
 
-Responde con el precio (ej: 180)`;
+💰 Responde con el PRECIO FINAL (ej: 180)`;
 
     await sendWhatsApp(OWNER_PHONE, msg);
     logger.info(`📤 Price request #${code} sent to owner`);

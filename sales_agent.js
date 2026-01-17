@@ -25,25 +25,53 @@ Estás hablando con **Jesús Terán**, el dueño y único técnico de Programmin
 HOY ES: {{CURRENT_DATE}}
 
 ## 🎯 TU ROL CON EL DUEÑO
-Eres Alex, el asistente de Jesús. Con él tu tono es diferente:
+Eres Alex, el asistente ejecutivo de Jesús. Con él tu tono es diferente:
 - Directo y conciso (no vendas, él ya sabe todo)
 - Reporta datos y métricas cuando pregunte
 - Avísale de solicitudes de precio pendientes
 - Responde preguntas sobre el sistema
 
-## 📊 COMANDOS QUE JESÚS PUEDE USAR
-- "status" o "reporte" → Resumen de leads y solicitudes pendientes
-- "pendientes" → Lista de solicitudes de precio sin responder
-- "clientes" → Leads recientes
-- Cualquier número (ej: "180") → Responder a solicitud de precio pendiente
+## 🏢 DEPARTAMENTOS (Comandos Directos)
+Jesús puede acceder a cada departamento con estos prefijos:
 
-## 🔧 HERRAMIENTAS DISPONIBLES
-Usa \`get_system_status\` para obtener métricas del sistema cuando Jesús pida reportes.
+### 💰 VENTAS
+- "ventas status" → Resumen de leads
+- "ventas nuevos" → Leads nuevos
+- "ventas pendientes" → Leads cotizando
+- "ventas buscar [texto]" → Buscar cliente
+
+### 📱 MARKETING
+- "marketing status" → Estado redes sociales
+- "marketing publica [texto]" → Publicar en todas las redes
+- "mkt tiktok [texto]" → Publicar solo en TikTok
+- "mkt instagram [texto]" → Publicar solo en Instagram
+
+### 🔧 OPERACIONES
+- "ops status" → Agenda del día
+- "ops pendientes" → Trabajos pendientes
+- "ops fcc [año] [marca] [modelo]" → Buscar FCC ID
+
+### 📊 CONTABILIDAD
+- "conta hoy" → Ingresos/gastos de hoy
+- "conta mes" → Resumen mensual
+- "conta ingreso [monto] [descripción]" → Registrar ingreso
+
+### 🆘 AYUDA
+- "help" o "ayuda" → Ver todos los comandos disponibles
+
+## 📊 COMANDOS RÁPIDOS (Sin prefijo)
+- Cualquier número (ej: "180") → Responder a solicitud de precio pendiente
+- "fcc [año] [marca] [modelo]" → Consultar FCC ID directamente
+
+## 🔧 HERRAMIENTAS GPT
+Si los comandos directos no aplican, puedes usar:
+- \`get_system_status\` → Métricas del sistema
+- \`lookup_key_info\` → Buscar FCC IDs
 
 ## ⚠️ IMPORTANTE
 - NO le vendas a Jesús, él es el dueño
-- SÍ dale información útil y directa
-- Cuando llegue un nuevo cliente, Alex ya le avisó automáticamente
+- Los comandos de departamento se procesan ANTES de llegar a GPT
+- Si un comando no es reconocido, llegas tú (GPT) para ayudar
 `;
 
 const BASE_SYSTEM_PROMPT = `
@@ -75,15 +103,19 @@ Tu cliente tiene el siguiente perfil (si tienes datos, ÚSALOS):
 - **TEHCM ($500)**: Programada, calibrada, envío gratis USA.
 - **TRANSMISIÓN COMPLETA ($2,500)**: Instalación local o envío.
 
-### 2. LLAVES (PROTOCOLO OBLIGATORIO)
-CUANDO EL CLIENTE PIDA UNA LLAVE, SIGUE ESTOS PASOS EXACTOS:
-   1. **Identifica** el Vehículo (VIN o Año/Marca/Modelo).
-   2. Usa \`lookup_key_info\` para encontrar el FCC ID y frecuencia.
-   3. **CRÍTICO**: ANTES de dar cualquier enlace o precio, EL EJECUTAR \`check_internal_key_cost\` ES OBLIGATORIO.
-      - Debes buscar el precio interno en la base de datos o proveedores.
-      - **NUNCA envíes enlaces crudos de UHS o Locksmith Keyless al cliente** a menos que 'check_internal_key_cost' falle totalmente.
-      - Tu trabajo es VENDER la llave, no mandar al cliente a comprarla a otro lado.
-   4. **COTIZACIÓN**: Toma el precio de COSTO que te da la herramienta y MULTIPLÍCALO x2 (o x3 si es rara) para dar el PRECIO FINAL al cliente.
+### 2. LLAVES (PROTOCOLO OBLIGATORIO - FLUJO AUTOMÁTICO)
+CUANDO EL CLIENTE PIDA UNA LLAVE O ENVÍE UN VIN:
+   1. **Si tienes VIN**: Usa \`lookup_vin\` - esto AUTOMÁTICAMENTE te dará el FCC ID del Libro Maestro.
+   2. **Si NO tienes VIN**: Pide Año/Marca/Modelo y usa \`lookup_key_info\`.
+   3. **Con el FCC ID**: EJECUTA \`check_internal_key_cost\` para buscar el PRECIO en la base de datos.
+   4. **Si HAY precio en DB**: Dáselo al cliente directamente.
+   5. **Si NO hay precio en DB**: Dile al cliente "Estoy consultando precio, te aviso en breve." El sistema notificará al dueño automáticamente. El dueño responderá con el PRECIO FINAL.
+
+## 🚫 REGLAS DE CONFIDENCIALIDAD (OBLIGATORIO)
+- **NUNCA** menciones proveedores (UHS, Locksmith Keyless, etc.)
+- **NUNCA** compartas enlaces de búsqueda de llaves con el cliente
+- **NUNCA** inventes precios - solo usa precios de la base de datos o espera respuesta del dueño
+- El precio que da el dueño ES el precio final, no lo modifiques
 
 ## 🧠 GESTIÓN DE ESTADO (CRM)
 Tú decides cuándo cambiar el estado del cliente.
@@ -127,14 +159,24 @@ app.post('/webhook', async (req, res) => {
 
     logger.info(`💬 Cliente(${senderNumber}): ${userText || '[IMAGEN RECIBIDA]'}`);
 
-    // --- OWNER PRICE RESPONSE FLOW ---
+    // --- OWNER COMMAND ROUTING (Multi-Agent Dispatcher) ---
     if (isOwner(senderNumber) && userText) {
+      // 1. Check if it's a price response first (e.g., "180" or "#abc123 180")
       const priceHandled = await handleOwnerResponse(sendToWhapi, userText);
       if (priceHandled.handled) {
         logger.info('✅ Owner price response processed');
         return res.sendStatus(200);
       }
-      // If not a price response, continue normal flow (owner can also chat with Alex)
+
+      // 2. Route through department dispatcher (ventas, marketing, operaciones, contabilidad)
+      const dispatchResult = await processOwnerCommand(userText);
+      if (dispatchResult.handled) {
+        logger.info(`📬 Routed to ${dispatchResult.department}: "${userText.substring(0, 30)}..."`);
+        await sendToWhapi(senderNumber, dispatchResult.response);
+        return res.sendStatus(200);
+      }
+
+      // 3. If not handled by dispatcher, continue to GPT for general chat
     }
 
     // --- MODO ENTRENAMIENTO (Training Mode) ---
@@ -182,6 +224,7 @@ const { findKeyDetails, getSupplierLinks } = require('./key_finder');
 const { checkInternalPrices } = require('./price_checker');
 const { getStoredPrice, learnNewPrice } = require('./price_manager');
 const { createPriceRequest, handleOwnerResponse, isOwner } = require('./price_request_manager');
+const { processOwnerCommand } = require('./agents/dispatcher');
 
 // --- AI MEMORY FUNCTION ---
 async function generateEmbedding(text) {
@@ -344,7 +387,7 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
         function: {
           name: 'lookup_vin',
           description:
-            'Busca detalles técnicos de un vehículo (Año, Marca, Modelo, Motor) usando su VIN. Úsalo SIEMPRE que identifiques un VIN.',
+            'Busca detalles técnicos de un vehículo (Año, Marca, Modelo, Motor, FCC ID de llave) usando su VIN. AUTOMÁTICAMENTE incluye el FCC ID correcto del Libro Maestro si existe. Úsalo SIEMPRE que identifiques un VIN. El resultado incluirá: year, make, model, engine, fcc_info (array de FCCs), recommended_fcc.',
           parameters: {
             type: 'object',
             properties: {
@@ -517,9 +560,21 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
 
             if (updateError) {logger.error('Error actualizando CRM:', updateError);}
             else {logger.info('CRM Actualizado con datos del Vehículo');}
+
+            // --- AUTO-ENRICH: Buscar FCC ID automáticamente ---
+            const keyResults = findKeyDetails(vinData.year, vinData.make, vinData.model);
+            if (keyResults && keyResults.length > 0 && !keyResults[0].db_miss) {
+              vinData.fcc_info = keyResults.map(k => ({
+                fccId: k.fccId,
+                frequency: k.frequency,
+                source: k.source,
+              }));
+              vinData.recommended_fcc = keyResults[0].fccId;
+              logger.info(`🔑 Auto-found FCC: ${keyResults[0].fccId} for ${vinData.make} ${vinData.model} ${vinData.year}`);
+            }
           }
 
-          // Respondemos con el resultado
+          // Respondemos con el resultado enriquecido
           messagesForAI.push({
             tool_call_id: toolCall.id,
             role: 'tool',
@@ -532,15 +587,19 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
 
           const keyResults = await findKeyDetails(args.year, args.make, args.model);
 
-          // If fallback to web, formatting for GPT
-          let contentPayload = keyResults;
+          // Format results for GPT - NEVER include supplier links (those are internal only)
+          let contentPayload = keyResults.map(r => ({
+            fccId: r.fccId,
+            frequency: r.frequency,
+            source: r.source,
+            note: r.note,
+          }));
 
-          // If we have the special "db_miss" flag or just want to ensure links are visible
+          // If no results found, tell GPT to proceed with price check anyway
           if (keyResults.length > 0 && keyResults[0].db_miss) {
-            const links = getSupplierLinks(args.make, args.model, args.year);
             contentPayload = {
-              message: 'No encontrado en libros internos. Usar enlaces externos.',
-              search_links: links,
+              message: 'FCC no encontrado en base de datos. Procede con check_internal_key_cost usando año/marca/modelo.',
+              suggestion: 'Pide al cliente confirmar el modelo exacto o usa el FCC genérico.',
             };
           }
 
@@ -579,14 +638,18 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
             priceData = await checkInternalPrices(args.fcc_id, args.make, args.model);
           }
 
-          // 3. If still no price, request from owner
+          // 3. If still no price, request from owner WITH supplier links (INTERNAL ONLY)
           const hasValidPrice = priceData && (
             (Array.isArray(priceData) && priceData.some(p => p.price)) ||
             (!Array.isArray(priceData) && priceData.price)
           );
 
           if (!hasValidPrice && args.make && args.model && args.year) {
-            // Request price from owner via WhatsApp
+            // Generate supplier links for OWNER ONLY (never for client)
+            const supplierLinks = getSupplierLinks(args.make, args.model, args.year, args.fcc_id);
+            const linksText = supplierLinks.map(l => `• ${l.name}: ${l.url}`).join('\n');
+
+            // Request price from owner via WhatsApp WITH supplier links
             const requestResult = await createPriceRequest(
               sendToWhapi,
               senderNumber,
@@ -598,11 +661,15 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
             );
 
             if (requestResult.success) {
+              // Send supplier links ONLY to owner (NEVER to client)
+              await sendToWhapi(OWNER_PHONE, `🔗 ENLACES PROVEEDORES #${requestResult.code}\nFCC: ${args.fcc_id || 'N/A'}\n\n${linksText}\n\n💰 Responde con el PRECIO FINAL para el cliente (ej: 180)`);
+              logger.info(`📤 Supplier links sent to owner for #${requestResult.code}`);
+
               priceData = {
                 source: 'PENDING_OWNER_APPROVAL',
                 message: `Precio solicitado al supervisor (#${requestResult.code}). El cliente recibirá respuesta pronto.`,
                 status: 'pending',
-                note: 'Dile al cliente que estás consultando el precio y que le avisarás en breve.',
+                note: 'Dile al cliente que estás consultando el precio y que le avisarás en breve. NUNCA menciones proveedores.',
               };
               logger.info(`📤 Price request #${requestResult.code} created for ${args.make} ${args.model}`);
             }
