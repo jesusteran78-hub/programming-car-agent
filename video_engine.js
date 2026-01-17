@@ -1,5 +1,6 @@
 // 🎬 MOTOR DE VÍDEO VIRAL (REEMPLAZO DE N8N)
 // Workflow: OpenAI (Idea) -> KIE (Sora 2 Video) -> TTS Audio -> FFmpeg -> Blotato (Posting)
+// VERSION: 2.1 - Fixed KIE state field (2025-01-17)
 
 const OpenAI = require('openai');
 const axios = require('axios');
@@ -14,6 +15,9 @@ const { createClient } = require('@supabase/supabase-js');
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
+
+// Log version on load
+console.log('🎬 video_engine.js v2.1 loaded - KIE uses STATE field');
 
 // Owner phone for notifications
 const OWNER_PHONE = process.env.OWNER_PHONE || '17868164874@s.whatsapp.net';
@@ -351,7 +355,7 @@ async function pollKieTask(taskId) {
 
       // KIE uses 'state' field with values: waiting, queuing, generating, success, fail
       const state = taskData?.state || 'unknown';
-      logger.info(`⏳ Polling KIE (${i + 1}/${maxAttempts}): State "${state}"`);
+      logger.info(`⏳ [v2.1] Polling KIE (${i + 1}/${maxAttempts}): State "${state}"`);
 
       // Check for success
       if (state === 'success') {
