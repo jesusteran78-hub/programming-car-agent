@@ -3,38 +3,10 @@ const fs = require('fs');
 const path = require('path');
 
 // Load databases
-let csvDatabase = [];
 let customDatabase = [];
 
 function loadDatabases() {
-    // 1. Load CSV (Generic DB)
-    try {
-        const dbPath = path.join(__dirname, 'fcc_db.csv');
-        if (fs.existsSync(dbPath)) {
-            const fileContent = fs.readFileSync(dbPath, 'utf8');
-            const lines = fileContent.split('\n');
-            // Headers: Year,Make,Model,FCCID
-            // Skip header row
-            for (let i = 1; i < lines.length; i++) {
-                const line = lines[i].trim();
-                // Handle commas inside quotes if any (simple split for now as DB is simple)
-                const parts = line.split(',');
-                if (parts.length >= 4) {
-                    csvDatabase.push({
-                        year: parseInt(parts[0]),
-                        make: parts[1].trim().toLowerCase(),
-                        model: parts[2].trim().toLowerCase(),
-                        fccId: parts[3].trim()
-                    });
-                }
-            }
-            console.log(`Loaded ${csvDatabase.length} entries from generic CSV.`);
-        }
-    } catch (error) {
-        console.error('Error loading CSV DB:', error);
-    }
-
-    // 2. Load Custom JSON (High Priority)
+    // 1. Load Custom JSON (Sole Source of Truth)
     try {
         const customPath = path.join(__dirname, 'custom_key_db.json');
         if (fs.existsSync(customPath)) {
@@ -52,7 +24,7 @@ loadDatabases();
 
 /**
  * Finds key details (FCC ID) for a given vehicle.
- * Prioritizes the Custom Book.
+ * USES ONLY CUSTOM BOOK.
  * @param {number} year 
  * @param {string} make 
  * @param {string} model 
@@ -64,7 +36,7 @@ function findKeyDetails(year, make, model) {
     const searchModel = model.toLowerCase();
     const searchYear = typeof year === 'string' ? parseInt(year) : year;
 
-    // 1. Search Custom Database (Priority)
+    // Search Custom Database
     // Custom DB structure: { make, model, startYear, endYear, fccId, freq }
     const customMatches = customDatabase.filter(entry => {
         const entryMake = entry.make.toLowerCase();
@@ -88,25 +60,8 @@ function findKeyDetails(year, make, model) {
             results.push({
                 fccId: match.fccId,
                 frequency: match.freq,
-                source: 'Libro Maestro (Prioridad)',
+                source: 'Libro Maestro (Exclusivo)',
                 note: `Rango: ${match.startYear}-${match.endYear}`
-            });
-        }
-    });
-
-    // 2. Search CSV Database (Fallback)
-    const csvMatches = csvDatabase.filter(entry => {
-        return entry.year === searchYear &&
-            entry.make === searchMake &&
-            entry.model === searchModel;
-    });
-
-    csvMatches.forEach(match => {
-        if (!results.some(r => r.fccId === match.fccId)) {
-            results.push({
-                fccId: match.fccId,
-                source: 'Base de Datos Genérica',
-                note: 'Coincidencia Exacta'
             });
         }
     });
