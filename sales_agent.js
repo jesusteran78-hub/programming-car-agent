@@ -14,35 +14,38 @@ const PORT = process.env.PORT || 3000;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const WHAPI_TOKEN = process.env.WHAPI_TOKEN;
 
-// Agente de Ventas "Alex" - Version 7.0 (Global & Pricing)
-const SYSTEM_PROMPT = `
+// Agente de Ventas "Alex" - Version 8.0 (CRM & AI Memory)
+const BASE_SYSTEM_PROMPT = `
 ## 🎯 TU MISIÓN
-Eres Alex, el cerebro de ventas de "Programming Car". Administras el negocio digital con autoridad. Tu objetivo es CATEGORIZAR y CERRAR.
+Eres Alex, el cerebro de ventas de "Programming Car".
+Tu objetivo es CATEGORIZAR, DIAGNOSTICAR y CERRAR.
+
+## 📊 ESTADO DEL CRM
+Tu cliente tiene el siguiente perfil (si tienes datos, ÚSALOS):
+- VIN: {{VIN}}
+- Vehículo: {{YEAR}} {{MAKE}} {{MODEL}} {{ENGINE}}
+- Estado Actual: {{STATUS}}
 
 ## ⚠️ REGLAS DE ORO
-1. **PIDE EL VIN**: Sin VIN no hay diagnóstico preciso.
+1. **PIDE EL VIN**: Si no lo tienes arriba, PÍDELO. Sin VIN no hay diagnóstico preciso.
 2. **UBICACIÓN**: 
-   - Miami/Broward: Servicio móvil.
-   - USA/Internacional: Envío o Soporte Remoto.
+   - Miami/Broward: Servicio móvil ($150 diagnóstico).
+   - USA/Internacional: Envío o Soporte Remoto ($100/hora).
 
-## 🛠️ SERVICIOS Y PRECIOS (No dudes en cobrar)
-
+## 🛠️ SERVICIOS Y PRECIOS
 ### 1. TRANSMISIONES
-- **TEHCM ($500)**: Programada, calibrada y con envío gratis en USA. 1 año de garantía.
-- **TRANSMISIÓN COMPLETA ($2,500)**: Instalación local o envío nacional.
+- **TEHCM ($500)**: Programada, calibrada, envío gratis USA.
+- **TRANSMISIÓN COMPLETA ($2,500)**: Instalación local o envío.
 
-### 2. DIAGNÓSTICOS (Valor de experto)
-- **PRESENCIAL (Miami/Broward)**: **$150 USD**. Incluye escaneo profesional con equipo original.
-- **REMOTO (Internacional/USA)**: **$100 USD por HORA**. Requiere Laptop + J2534 + Internet.
+### 2. LLAVES
+- **Copia/Perdida**: Pide VIN -> Usa herramienta 'lookup_key_info'.
 
-### 3. LLAVES Y MÓDULOS
-- **Copias/Perdidas**: Consulta VIN para precio. Solo local.
-- **Programación de Módulos**: Puede ser remota si tienen el equipo.
-
-## 💬 DINÁMICA DE VENTA
-- **Venta local**: "El diagnóstico presencial de Jesus son $150. Él va con equipo original y te dice exactamente qué tiene el auto. Pásame el VIN para agendarlo."
-- **Venta remota**: "Podemos programar tu módulo ahora mismo por $100 la hora de soporte remoto. Necesitas una laptop y J2534. ¿Me das el VIN?"
-- **Transmisión**: "La solución definitiva es la TEHCM por $500. Se paga por Zelle al 7868164874 y te la envío hoy."
+## 🧠 GESTIÓN DE ESTADO (CRM)
+Tú decides cuándo cambiar el estado del cliente. Si detectas un cambio, usa la herramienta explícita (simulada por ahora) o sugiérelo.
+- **COTIZANDO**: Si le diste precio.
+- **PROGRAMADO**: Si aceptó la cita.
+- **COMPLETADO**: Si ya se hizo el trabajo.
+`;
 `;
 
 if (!OPENAI_API_KEY || !WHAPI_TOKEN) {
@@ -78,20 +81,20 @@ app.post('/webhook', async (req, res) => {
 
         if (!userText && !userImage) return res.sendStatus(200);
 
-        console.log(`💬 Cliente(${senderNumber}): ${userText || '[IMAGEN RECIBIDA]'}`);
+        console.log(`💬 Cliente(${ senderNumber }): ${ userText || '[IMAGEN RECIBIDA]' } `);
 
         // 🧠 PENSAR (Consultar a OpenAI)
         // Pasamos tanto texto como imagen a la función
         const aiResponse = await getAIResponse(userText, senderNumber, userImage);
-        console.log(`🤖 Agente: ${aiResponse}`);
+        console.log(`🤖 Agente: ${ aiResponse } `);
 
         // 🗣️ RESPONDER (Enviar a Whapi)
         const sentResult = await sendToWhapi(senderNumber, aiResponse);
         console.log('📤 Resultado envío Whapi:', JSON.stringify(sentResult));
 
         // 📝 AUDITAR (Guardar para revisión de Jesus y Antigravity)
-        const logEntry = `[${new Date().toLocaleString()}] CLIENTE (${senderNumber}): ${userText}\n` +
-            `[${new Date().toLocaleString()}] AGENTE ALEX: ${aiResponse}\n` +
+        const logEntry = `[${ new Date().toLocaleString() }]CLIENTE(${ senderNumber }): ${ userText } \n` +
+            `[${ new Date().toLocaleString() }] AGENTE ALEX: ${ aiResponse } \n` +
             `--------------------------------------------------\n`;
         fs.appendFileSync('audit.log', logEntry);
 
@@ -114,33 +117,39 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
     try {
         // 1. Identificar al CLiente (Lead)
         let leadId;
-
-        // Buscar si ya existe (Usamos limit(1) por si hay duplicados en la tabla antigua)
+        // Recuperar datos completos del Lead para contexto
         let { data: leadsFound, error } = await supabase
             .from('leads')
-            .select('id, name')
+            .select('id, name, vin, make, model, year, engine, pipeline_status')
             .eq('phone', senderNumber)
             .limit(1);
 
         if (leadsFound && leadsFound.length > 0) {
-            leadId = leadsFound[0].id; // Usamos el primero que encontremos
+            leadId = leadsFound[0].id;
+            // Inject knowledge of the car into the prompt context later
+            var currentLeadData = leadsFound[0];
         } else {
-            // Si no existe, crearlo
+            // Si no existe, crearlo con status NUEVO
             const { data: newLead, error: createError } = await supabase
                 .from('leads')
-                .insert([{ phone: senderNumber, name: "WhatsApp User" }])
+                .insert([{
+                    phone: senderNumber,
+                    name: "WhatsApp User",
+                    pipeline_status: 'NUEVO'
+                }])
                 .select()
                 .single();
 
             if (createError) throw createError;
             leadId = newLead.id;
+            var currentLeadData = { pipeline_status: 'NUEVO' };
         }
 
         // 2. Guardar el mensaje del USUARIO en la BBDD
         await supabase.from('conversations').insert({
             lead_id: leadId,
             role: 'user',
-            content: userMessage || `[ENVIÓ UNA FOTO: ${userImage || 'Sin Link'}]`
+            content: userMessage || `[ENVIÓ UNA FOTO: ${ userImage || 'Sin Link' }]`
         });
 
         // 3. Recuperar Historial Reciente (Últimos 10 mensajes para contexto)
@@ -155,8 +164,18 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
         const dbHistory = historyData ? historyData.reverse() : [];
 
         // Construimos el array para OpenAI (System Prompt + Historia)
+        // Construimos el array para OpenAI (System Prompt + Historia)
+        // Inject dynamic data into prompt
+        let dynamicPrompt = BASE_SYSTEM_PROMPT
+            .replace('{{VIN}}', currentLeadData.vin || 'NO DISPONIBLE')
+            .replace('{{YEAR}}', currentLeadData.year || '')
+            .replace('{{MAKE}}', currentLeadData.make || '')
+            .replace('{{MODEL}}', currentLeadData.model || '')
+            .replace('{{ENGINE}}', currentLeadData.engine || '')
+            .replace('{{STATUS}}', currentLeadData.pipeline_status || 'NUEVO');
+
         let messagesForAI = [
-            { role: "system", content: SYSTEM_PROMPT },
+            { role: "system", content: dynamicPrompt },
             ...dbHistory.map(msg => ({ role: msg.role, content: msg.content }))
         ];
 
@@ -241,10 +260,28 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
             for (const toolCall of message.tool_calls) {
                 if (toolCall.function.name === 'lookup_vin') {
                     const args = JSON.parse(toolCall.function.arguments);
-                    console.log(`🔧 GPT Tool Call: lookup_vin(${args.vin})`);
+                    console.log(`🔧 GPT Tool Call: lookup_vin(${ args.vin })`);
 
                     // EJECUTAR LA HERRAMIENTA
                     const vinData = await decodeVIN(args.vin);
+
+                    // --- ACTUALIZAR CRM (Supabase) ---
+                    if (vinData && vinData.year) {
+                         const { error: updateError } = await supabase
+                            .from('leads')
+                            .update({
+                                vin: args.vin,
+                                year: parseInt(vinData.year) || null,
+                                make: vinData.make,
+                                model: vinData.model,
+                                engine: vinData.engine,
+                                pipeline_status: 'COTIZANDO' // Si ya tenemos VIN, pasamos a cotizar
+                            })
+                            .eq('id', leadId);
+                        
+                        if (updateError) console.error("Error actualizando CRM:", updateError);
+                        else console.log("CRM Actualizado con datos del Vehículo");
+                    }
 
                     // Respondemos con el resultado
                     messagesForAI.push({
@@ -255,7 +292,7 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
                     });
                 } else if (toolCall.function.name === 'lookup_key_info') {
                     const args = JSON.parse(toolCall.function.arguments);
-                    console.log(`🔧 GPT Tool Call: lookup_key_info(${args.year} ${args.make} ${args.model})`);
+                    console.log(`🔧 GPT Tool Call: lookup_key_info(${ args.year } ${ args.make } ${ args.model })`);
 
                     const keyResults = await findKeyDetails(args.year, args.make, args.model);
 
@@ -264,7 +301,7 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
 
                     // If we have the special "db_miss" flag or just want to ensure links are visible
                     if (keyResults.length > 0 && keyResults[0].db_miss) {
-                        const query = `${args.year} ${args.make} ${args.model}`;
+                        const query = `${ args.year } ${ args.make } ${ args.model } `;
                         const links = getSupplierLinks(args.make, args.model, args.year);
                         contentPayload = {
                             message: "No encontrado en libros internos. Usar enlaces externos.",
@@ -310,7 +347,7 @@ async function sendToWhapi(chatId, text) {
         headers: {
             accept: 'application/json',
             'content-type': 'application/json',
-            authorization: `Bearer ${WHAPI_TOKEN}`
+            authorization: `Bearer ${ WHAPI_TOKEN } `
         },
         body: JSON.stringify({
             to: chatId,
@@ -335,7 +372,7 @@ app.post('/api/video/start', async (req, res) => {
     // Initial State
     jobs.set(jobId, { status: 'processing', steps: ['Iniciando...'], result: null });
 
-    console.log(`🎬 JOB ${jobId} STARTED: ${title}`);
+    console.log(`🎬 JOB ${ jobId } STARTED: ${ title } `);
 
     // Start background process (Fire & Forget)
     (async () => {
@@ -347,10 +384,10 @@ app.post('/api/video/start', async (req, res) => {
 
             const result = await generateViralVideo(title, idea, image);
             jobs.set(jobId, { status: 'completed', steps: ['Done'], result: result });
-            console.log(`✅ JOB ${jobId} COMPLETED`);
+            console.log(`✅ JOB ${ jobId } COMPLETED`);
 
         } catch (error) {
-            console.error(`❌ JOB ${jobId} FAILED:`, error);
+            console.error(`❌ JOB ${ jobId } FAILED: `, error);
             jobs.set(jobId, { status: 'failed', error: error.message });
         }
     })();
@@ -370,6 +407,6 @@ app.get('/api/video/status/:id', (req, res) => {
 // ----------------------------------------------------
 
 app.listen(PORT, () => {
-    console.log(`🚀 Agente de Ventas escuchando en puerto ${PORT}`);
+    console.log(`🚀 Agente de Ventas escuchando en puerto ${ PORT } `);
     console.log(`🔗 Webhook local: http://localhost:${PORT}/webhook`);
 });
