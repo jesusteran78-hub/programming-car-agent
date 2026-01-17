@@ -183,18 +183,19 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
             content: userMessage || `[ENVIÓ UNA FOTO: ${userImage || 'Sin Link'}]`
         });
 
-        // 3. Recuperar Historial Reciente (Últimos 10 mensajes para contexto)
+        // 3. Recuperar Historial Reciente (Últimos 11 mensajes para descartar el actual)
         const { data: historyData } = await supabase
             .from('conversations')
             .select('role, content')
             .eq('lead_id', leadId)
-            .order('created_at', { ascending: false }) // Traer los más nuevos primero
-            .limit(10);
+            .order('created_at', { ascending: false })
+            .limit(11);
 
-        // Ordenamos cronológicamente (antiguo -> nuevo) para GPT
-        const dbHistory = historyData ? historyData.reverse() : [];
+        // DESCARTAMOS el mensaje más reciente (index 0) porque es el que acabamos de insertar
+        // y lo vamos a añadir manualmente con la imagen abajo.
+        const cleanHistory = historyData ? historyData.slice(1) : [];
+        const dbHistory = cleanHistory.reverse();
 
-        // Construimos el array para OpenAI (System Prompt + Historia)
         // Construimos el array para OpenAI (System Prompt + Historia)
         // Inject dynamic data into prompt
         let dynamicPrompt = BASE_SYSTEM_PROMPT
@@ -207,9 +208,7 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
 
         let messagesForAI = [
             { role: "system", content: dynamicPrompt },
-            ...dbHistory
-                .filter(msg => msg.content !== (userMessage || `[ENVIÓ UNA FOTO: ${userImage || 'Sin Link'}]`))
-                .map(msg => ({ role: msg.role, content: msg.content }))
+            ...dbHistory.map(msg => ({ role: msg.role, content: msg.content }))
         ];
 
         // Añadimos el mensaje actual
