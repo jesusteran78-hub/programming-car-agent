@@ -3,6 +3,8 @@
  * Handles social media publishing via Blotato API
  * Includes video generation via KIE (Sora 2)
  * Jobs now persisted in Supabase (no memory loss on restart)
+ *
+ * FLUJO VIDEO: idea -> pedir foto -> generar
  */
 const logger = require('../logger');
 require('dotenv').config();
@@ -15,6 +17,10 @@ const BLOTATO_ACCOUNTS = {
   twitter: process.env.BLOTATO_TWITTER_ID,
   facebook: process.env.BLOTATO_FACEBOOK_ID,
 };
+
+// Estado pendiente de foto para video (en memoria)
+// Se pierde si el servidor reinicia, pero es suficiente para el flujo corto
+let pendingVideoIdea = null;
 
 /**
  * Publish content to social media via Blotato
@@ -196,6 +202,21 @@ async function getVideoJobsStatus() {
 }
 
 /**
+ * Check if there's a pending video idea waiting for image
+ * @returns {string|null}
+ */
+function getPendingVideoIdea() {
+  return pendingVideoIdea;
+}
+
+/**
+ * Clear the pending video idea
+ */
+function clearPendingVideoIdea() {
+  pendingVideoIdea = null;
+}
+
+/**
  * Process marketing command from owner
  * @param {string} command - Command after "marketing"
  * @param {string|null} imageUrl - Optional image URL from WhatsApp
@@ -209,9 +230,14 @@ async function processMarketingCommand(command, imageUrl = null) {
     const scheduled = await getScheduledPosts();
     const videoStatus = await getVideoJobsStatus();
 
+    let pendingMsg = '';
+    if (pendingVideoIdea) {
+      pendingMsg = `\n⏳ **ESPERANDO FOTO**\nIdea: "${pendingVideoIdea.substring(0, 40)}..."\nEnvía una foto para continuar.\n`;
+    }
+
     return `📱 **MARKETING STATUS**\n\n` +
       `Plataformas: ${Object.keys(BLOTATO_ACCOUNTS).filter(k => BLOTATO_ACCOUNTS[k]).join(', ')}\n` +
-      `Posts programados: ${scheduled.length}\n\n` +
+      `Posts programados: ${scheduled.length}\n${pendingMsg}\n` +
       `${videoStatus}\n\n` +
       `Comandos:\n` +
       `• \`mkt video [idea]\` - Generar video con IA\n` +
@@ -229,7 +255,25 @@ async function processMarketingCommand(command, imageUrl = null) {
       return await getVideoJobsStatus();
     }
 
-    // Generate new video (with optional image)
+    // Cancel pending video
+    if (subCmd.toLowerCase() === 'cancelar' || subCmd.toLowerCase() === 'cancel') {
+      if (pendingVideoIdea) {
+        const cancelled = pendingVideoIdea;
+        pendingVideoIdea = null;
+        return `❌ Video cancelado.\nIdea descartada: "${cancelled.substring(0, 40)}..."`;
+      }
+      return '❓ No hay video pendiente para cancelar.';
+    }
+
+    // FLUJO DE 2 PASOS: idea -> pedir foto -> generar
+    // Si NO hay imagen, guardar idea y pedir foto
+    if (!imageUrl) {
+      pendingVideoIdea = subCmd;
+      logger.info(`📝 Video idea guardada, esperando foto: "${subCmd.substring(0, 50)}..."`);
+      return `📝 **IDEA GUARDADA**\n\n"${subCmd}"\n\n📸 Ahora envía una FOTO del producto/servicio.\n\n💡 La foto se usará como base para el video.\nUsa \`mkt video cancelar\` para descartar.`;
+    }
+
+    // Si SÍ hay imagen, generar video directamente
     const result = await generateVideo(subCmd, imageUrl);
     return result.message;
   }
@@ -260,6 +304,29 @@ async function processMarketingCommand(command, imageUrl = null) {
   return '❓ Comando no reconocido. Usa `marketing status` para ver opciones.';
 }
 
+/**
+ * Handle image received when waiting for video photo
+ * Called from dispatcher when owner sends an image
+ * @param {string} imageUrl - Image URL from WhatsApp
+ * @returns {Promise<{handled: boolean, response?: string}>}
+ */
+async function handlePendingVideoImage(imageUrl) {
+  if (!pendingVideoIdea || !imageUrl) {
+    return { handled: false };
+  }
+
+  const idea = pendingVideoIdea;
+  pendingVideoIdea = null; // Clear pending state
+
+  logger.info(`📸 Foto recibida para video: "${idea.substring(0, 50)}..."`);
+
+  const result = await generateVideo(idea, imageUrl);
+  return {
+    handled: true,
+    response: result.message,
+  };
+}
+
 module.exports = {
   publishToSocial,
   publishToAll,
@@ -267,4 +334,7 @@ module.exports = {
   generateVideo,
   getVideoJobsStatus,
   processMarketingCommand,
+  getPendingVideoIdea,
+  clearPendingVideoIdea,
+  handlePendingVideoImage,
 };

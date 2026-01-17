@@ -4,7 +4,7 @@
  */
 const { DEPARTMENTS, detectDepartment, getDepartmentsHelp } = require('./index');
 const { processVentasCommand } = require('./ventas_agent');
-const { processMarketingCommand } = require('./marketing_agent');
+const { processMarketingCommand, handlePendingVideoImage } = require('./marketing_agent');
 const { processOperacionesCommand } = require('./operaciones_agent');
 const { processContabilidadCommand } = require('./contabilidad_agent');
 const logger = require('../logger');
@@ -17,6 +17,21 @@ const logger = require('../logger');
  */
 async function processOwnerCommand(message, imageUrl = null) {
   const lowerMsg = message.toLowerCase().trim();
+
+  // PRIMERO: Si solo hay imagen (sin texto), verificar si hay video pendiente esperando foto
+  if (imageUrl && (!message || message.trim() === '')) {
+    const pendingResult = await handlePendingVideoImage(imageUrl);
+    if (pendingResult.handled) {
+      logger.info('📸 Imagen procesada para video pendiente');
+      return {
+        handled: true,
+        response: pendingResult.response,
+        department: 'marketing',
+      };
+    }
+    // Si no hay video pendiente, la imagen no se maneja aquí
+    return { handled: false };
+  }
 
   // Help command
   if (lowerMsg === 'help' || lowerMsg === 'ayuda' || lowerMsg === '?') {
