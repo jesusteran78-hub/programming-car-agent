@@ -206,7 +206,9 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
 
         let messagesForAI = [
             { role: "system", content: dynamicPrompt },
-            ...dbHistory.map(msg => ({ role: msg.role, content: msg.content }))
+            ...dbHistory
+                .filter(msg => msg.content !== (userMessage || `[ENVIÓ UNA FOTO: ${userImage || 'Sin Link'}]`))
+                .map(msg => ({ role: msg.role, content: msg.content }))
         ];
 
         // Añadimos el mensaje actual
