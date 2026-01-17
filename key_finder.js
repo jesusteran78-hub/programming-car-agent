@@ -3,10 +3,11 @@ const fs = require('fs');
 const path = require('path');
 
 // Load databases
+let csvDatabase = [];
 let customDatabase = [];
 
 function loadDatabases() {
-    // 1. Load Custom JSON (Sole Source of Truth)
+    // 1. Load Custom JSON (High Priority)
     try {
         const customPath = path.join(__dirname, 'custom_key_db.json');
         if (fs.existsSync(customPath)) {
@@ -17,6 +18,32 @@ function loadDatabases() {
     } catch (error) {
         console.error('Error loading Custom DB:', error);
     }
+
+    // 2. Load CSV (Generic DB - Fallback)
+    try {
+        const dbPath = path.join(__dirname, 'fcc_db.csv');
+        if (fs.existsSync(dbPath)) {
+            const fileContent = fs.readFileSync(dbPath, 'utf8');
+            const lines = fileContent.split('\n');
+            // Headers: Year,Make,Model,FCCID
+            // Skip header row
+            for (let i = 1; i < lines.length; i++) {
+                const line = lines[i].trim();
+                const parts = line.split(',');
+                if (parts.length >= 4) {
+                    csvDatabase.push({
+                        year: parseInt(parts[0]),
+                        make: parts[1].trim().toLowerCase(),
+                        model: parts[2].trim().toLowerCase(),
+                        fccId: parts[3].trim()
+                    });
+                }
+            }
+            console.log(`Loaded ${csvDatabase.length} entries from generic CSV.`);
+        }
+    } catch (error) {
+        console.error('Error loading CSV DB:', error);
+    }
 }
 
 // Initialize on load
@@ -24,7 +51,7 @@ loadDatabases();
 
 /**
  * Finds key details (FCC ID) for a given vehicle.
- * USES ONLY CUSTOM BOOK.
+ * Prioritizes Custom Book, falls back to CSV.
  * @param {number} year 
  * @param {string} make 
  * @param {string} model 
@@ -36,8 +63,7 @@ function findKeyDetails(year, make, model) {
     const searchModel = model.toLowerCase();
     const searchYear = typeof year === 'string' ? parseInt(year) : year;
 
-    // Search Custom Database
-    // Custom DB structure: { make, model, startYear, endYear, fccId, freq }
+    // 1. Search Custom Database (Priority)
     const customMatches = customDatabase.filter(entry => {
         const entryMake = entry.make.toLowerCase();
         const entryModel = entry.model.toLowerCase();
@@ -55,13 +81,38 @@ function findKeyDetails(year, make, model) {
     });
 
     customMatches.forEach(match => {
-        // Avoid duplicates
         if (!results.some(r => r.fccId === match.fccId)) {
             results.push({
                 fccId: match.fccId,
                 frequency: match.freq,
-                source: 'Libro Maestro (Exclusivo)',
+                source: 'Libro Maestro (Prioridad)',
                 note: `Rango: ${match.startYear}-${match.endYear}`
+            });
+        }
+    });
+
+    // 2. If no results or we want backups, Search CSV Database (Fallback)
+    // We append these even if Custom found something, to give options, 
+    // OR we could return early if custom found something (Strict Priority).
+    // Let's return mixed results but labelled, so user sees "Book" vs "Generic".
+
+    // Actually, usually if the Book has it, it's right. But let's verify coverage.
+    // If Custom matches found, maybe we skip generic? 
+    // Let's include both for maximum helpfulness, sorted by priority in UI?
+    // The agent will present them.
+
+    const csvMatches = csvDatabase.filter(entry => {
+        return entry.year === searchYear &&
+            entry.make === searchMake &&
+            entry.model === searchModel;
+    });
+
+    csvMatches.forEach(match => {
+        if (!results.some(r => r.fccId === match.fccId)) {
+            results.push({
+                fccId: match.fccId,
+                source: 'Base de Datos Genérica',
+                note: 'Coincidencia Exacta'
             });
         }
     });
