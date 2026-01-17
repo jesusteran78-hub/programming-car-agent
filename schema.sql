@@ -25,3 +25,38 @@ ALTER TABLE conversations ENABLE ROW LEVEL SECURITY;
 -- OJO: Esto es permisivo. En producción idealmente restringimos más.
 CREATE POLICY "Enable all for anon" ON leads FOR ALL USING (true);
 CREATE POLICY "Enable all for anon" ON conversations FOR ALL USING (true);
+
+-- 5. Tabla de Solicitudes de Precio (Owner-Approval Flow)
+CREATE TABLE IF NOT EXISTS price_requests (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  request_code TEXT UNIQUE NOT NULL,
+  client_phone TEXT NOT NULL,
+  make TEXT NOT NULL,
+  model TEXT NOT NULL,
+  year INTEGER NOT NULL,
+  service_type TEXT DEFAULT 'copy',
+  fcc_id TEXT,
+  status TEXT DEFAULT 'pending',
+  price DECIMAL(10,2),
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  answered_at TIMESTAMPTZ
+);
+
+ALTER TABLE price_requests ENABLE ROW LEVEL SECURITY;
+CREATE POLICY "Enable all for anon" ON price_requests FOR ALL USING (true);
+
+-- 6. Tabla de Precios de Servicios
+CREATE TABLE IF NOT EXISTS service_prices (
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  make TEXT NOT NULL,
+  model TEXT NOT NULL,
+  year_start INTEGER NOT NULL,
+  year_end INTEGER NOT NULL,
+  service_type TEXT DEFAULT 'copy',
+  price DECIMAL(10,2) NOT NULL,
+  description TEXT,
+  created_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+ALTER TABLE service_prices ENABLE ROW LEVEL SECURITY;
+CREATE POLICY "Enable all for anon" ON service_prices FOR ALL USING (true);

@@ -97,6 +97,16 @@ app.post('/webhook', async (req, res) => {
 
     logger.info(`💬 Cliente(${senderNumber}): ${userText || '[IMAGEN RECIBIDA]'}`);
 
+    // --- OWNER PRICE RESPONSE FLOW ---
+    if (isOwner(senderNumber) && userText) {
+      const priceHandled = await handleOwnerResponse(sendToWhapi, userText);
+      if (priceHandled.handled) {
+        logger.info('✅ Owner price response processed');
+        return res.sendStatus(200);
+      }
+      // If not a price response, continue normal flow (owner can also chat with Alex)
+    }
+
     // --- MODO ENTRENAMIENTO (Training Mode) ---
     if (userText && userText.toLowerCase().startsWith('aprende:')) {
       logger.info(`🎓 Modo Entrenamiento Detectado: ${userText}`);
@@ -141,6 +151,7 @@ const { decodeVIN } = require('./vin_decoder');
 const { findKeyDetails, getSupplierLinks } = require('./key_finder');
 const { checkInternalPrices } = require('./price_checker');
 const { getStoredPrice, learnNewPrice } = require('./price_manager');
+const { createPriceRequest, handleOwnerResponse, isOwner } = require('./price_request_manager');
 
 // --- AI MEMORY FUNCTION ---
 async function generateEmbedding(text) {
@@ -448,6 +459,35 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
           // 2. If no DB hit, use Scraping
           if (!priceData) {
             priceData = await checkInternalPrices(args.fcc_id, args.make, args.model);
+          }
+
+          // 3. If still no price, request from owner
+          const hasValidPrice = priceData && (
+            (Array.isArray(priceData) && priceData.some(p => p.price)) ||
+            (!Array.isArray(priceData) && priceData.price)
+          );
+
+          if (!hasValidPrice && args.make && args.model && args.year) {
+            // Request price from owner via WhatsApp
+            const requestResult = await createPriceRequest(
+              sendToWhapi,
+              senderNumber,
+              args.make,
+              args.model,
+              args.year,
+              'copy',
+              args.fcc_id
+            );
+
+            if (requestResult.success) {
+              priceData = {
+                source: 'PENDING_OWNER_APPROVAL',
+                message: `Precio solicitado al supervisor (#${requestResult.code}). El cliente recibirá respuesta pronto.`,
+                status: 'pending',
+                note: 'Dile al cliente que estás consultando el precio y que le avisarás en breve.',
+              };
+              logger.info(`📤 Price request #${requestResult.code} created for ${args.make} ${args.model}`);
+            }
           }
 
           messagesForAI.push({
