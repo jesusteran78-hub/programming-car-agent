@@ -15,7 +15,37 @@ const PORT = process.env.PORT || 3000;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const WHAPI_TOKEN = process.env.WHAPI_TOKEN;
 
-// Agente de Ventas "Alex" - Version 8.1 (Spam Protection & Strict Pricing)
+// Agente de Ventas "Alex" - Version 8.2 (Owner Recognition + Strict Pricing)
+const OWNER_PHONE = process.env.OWNER_PHONE || '17868164874@s.whatsapp.net';
+
+// Prompt especial para el dueño (Jesús)
+const OWNER_SYSTEM_PROMPT = `
+## 🔐 MODO DUEÑO ACTIVADO
+Estás hablando con **Jesús Terán**, el dueño y único técnico de Programming Car.
+HOY ES: {{CURRENT_DATE}}
+
+## 🎯 TU ROL CON EL DUEÑO
+Eres Alex, el asistente de Jesús. Con él tu tono es diferente:
+- Directo y conciso (no vendas, él ya sabe todo)
+- Reporta datos y métricas cuando pregunte
+- Avísale de solicitudes de precio pendientes
+- Responde preguntas sobre el sistema
+
+## 📊 COMANDOS QUE JESÚS PUEDE USAR
+- "status" o "reporte" → Resumen de leads y solicitudes pendientes
+- "pendientes" → Lista de solicitudes de precio sin responder
+- "clientes" → Leads recientes
+- Cualquier número (ej: "180") → Responder a solicitud de precio pendiente
+
+## 🔧 HERRAMIENTAS DISPONIBLES
+Usa \`get_system_status\` para obtener métricas del sistema cuando Jesús pida reportes.
+
+## ⚠️ IMPORTANTE
+- NO le vendas a Jesús, él es el dueño
+- SÍ dale información útil y directa
+- Cuando llegue un nuevo cliente, Alex ya le avisó automáticamente
+`;
+
 const BASE_SYSTEM_PROMPT = `
 ## 🎯 TU MISIÓN
 Eres Alex, el cerebro de ventas de "Programming Car".
@@ -201,6 +231,13 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
       if (createError) {throw createError;}
       leadId = newLead.id;
       currentLeadData = { pipeline_status: 'NUEVO' };
+
+      // Notificar al dueño de nuevo cliente (solo si no es el dueño mismo)
+      if (senderNumber !== OWNER_PHONE) {
+        const clientPhone = senderNumber.replace('@s.whatsapp.net', '');
+        await sendToWhapi(OWNER_PHONE, `🆕 NUEVO CLIENTE\nTeléfono: ${clientPhone}\nMensaje: "${userMessage || '[Imagen]'}"`);
+        logger.info(`📢 Owner notified of new client: ${clientPhone}`);
+      }
     }
 
     // --- SPAM CHECK (Deduplication) ---
@@ -245,8 +282,12 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
     const dbHistory = cleanHistory.reverse();
 
     // Construimos el array para OpenAI (System Prompt + Historia)
-    // Inject dynamic data into prompt
-    const dynamicPrompt = BASE_SYSTEM_PROMPT.replace(
+    // Detectar si es el dueño
+    const isOwnerChat = senderNumber === OWNER_PHONE;
+
+    // Inject dynamic data into prompt (usar prompt de dueño si corresponde)
+    const basePrompt = isOwnerChat ? OWNER_SYSTEM_PROMPT : BASE_SYSTEM_PROMPT;
+    const dynamicPrompt = basePrompt.replace(
       '{{CURRENT_DATE}}',
       new Date().toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' })
     )
@@ -282,6 +323,22 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
 
     // --- DEFINICIÓN DE HERRAMIENTAS (TOOLS) ---
     const tools = [
+      {
+        type: 'function',
+        function: {
+          name: 'get_system_status',
+          description:
+            'Obtiene el estado del sistema: leads recientes, solicitudes de precio pendientes, y métricas. SOLO usar cuando Jesús (el dueño) pida reportes o status.',
+          parameters: {
+            type: 'object',
+            properties: {
+              include_leads: { type: 'boolean', description: 'Incluir lista de leads recientes' },
+              include_pending: { type: 'boolean', description: 'Incluir solicitudes de precio pendientes' },
+            },
+            required: [],
+          },
+        },
+      },
       {
         type: 'function',
         function: {
@@ -376,7 +433,68 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
       messagesForAI.push(message); // Agregamos la intención de llamada al historial
 
       for (const toolCall of message.tool_calls) {
-        if (toolCall.function.name === 'lookup_vin') {
+        if (toolCall.function.name === 'get_system_status') {
+          const args = JSON.parse(toolCall.function.arguments);
+          logger.info(`🔧 GPT Tool Call: get_system_status()`);
+
+          // Obtener métricas del sistema
+          const statusData = {};
+
+          // Contar leads por status
+          const { data: leadsCount } = await supabase
+            .from('leads')
+            .select('pipeline_status');
+
+          if (leadsCount) {
+            statusData.total_leads = leadsCount.length;
+            statusData.leads_by_status = leadsCount.reduce((acc, l) => {
+              acc[l.pipeline_status || 'NUEVO'] = (acc[l.pipeline_status || 'NUEVO'] || 0) + 1;
+              return acc;
+            }, {});
+          }
+
+          // Solicitudes de precio pendientes
+          const { data: pendingRequests } = await supabase
+            .from('price_requests')
+            .select('*')
+            .eq('status', 'pending')
+            .order('created_at', { ascending: false });
+
+          statusData.pending_price_requests = pendingRequests ? pendingRequests.length : 0;
+          if (pendingRequests && pendingRequests.length > 0) {
+            statusData.pending_details = pendingRequests.map(r => ({
+              code: r.request_code,
+              vehicle: `${r.make} ${r.model} ${r.year}`,
+              service: r.service_type,
+              created: r.created_at
+            }));
+          }
+
+          // Leads recientes (últimos 5)
+          if (args.include_leads !== false) {
+            const { data: recentLeads } = await supabase
+              .from('leads')
+              .select('name, phone, make, model, year, pipeline_status, created_at')
+              .order('created_at', { ascending: false })
+              .limit(5);
+
+            if (recentLeads) {
+              statusData.recent_leads = recentLeads.map(l => ({
+                name: l.name,
+                phone: l.phone?.replace('@s.whatsapp.net', ''),
+                vehicle: l.make ? `${l.make} ${l.model} ${l.year}` : 'Sin vehículo',
+                status: l.pipeline_status
+              }));
+            }
+          }
+
+          messagesForAI.push({
+            tool_call_id: toolCall.id,
+            role: 'tool',
+            name: 'get_system_status',
+            content: JSON.stringify(statusData),
+          });
+        } else if (toolCall.function.name === 'lookup_vin') {
           const args = JSON.parse(toolCall.function.arguments);
           logger.info(`🔧 GPT Tool Call: lookup_vin(${args.vin})`);
 
