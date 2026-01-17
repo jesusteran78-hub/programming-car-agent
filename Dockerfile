@@ -1,7 +1,10 @@
 FROM node:20-alpine
 
-# Force rebuild: 2026-01-17-v2.1
-ARG CACHEBUST=1
+# Force rebuild: 2026-01-17-v2.2
+ARG CACHEBUST=2
+
+# Instalar FFmpeg para combinar video + audio
+RUN apk add --no-cache ffmpeg
 
 # Crear directorio de trabajo
 WORKDIR /app
