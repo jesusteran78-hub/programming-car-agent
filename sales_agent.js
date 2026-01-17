@@ -27,8 +27,9 @@ Tu cliente tiene el siguiente perfil (si tienes datos, ÚSALOS):
 - Estado Actual: {{STATUS}}
 
 ## ⚠️ REGLAS DE ORO
-1. **PIDE EL VIN**: Si no lo tienes arriba, PÍDELO. Sin VIN no hay diagnóstico preciso.
-2. **UBICACIÓN**: 
+1. **PRIMERO, IDENTIFICA EL AUTO**: No busques llaves ni piezas sin saber qué auto es.
+   - Si falta información, PREGUNTA: "¿Podrías darme el VIN o el Año, Marca y Modelo?"
+   - **UBICACIÓN**: 
    - Miami/Broward: Servicio móvil ($150 diagnóstico).
    - USA/Internacional: Envío o Soporte Remoto ($100/hora).
 
@@ -38,7 +39,11 @@ Tu cliente tiene el siguiente perfil (si tienes datos, ÚSALOS):
 - **TRANSMISIÓN COMPLETA ($2,500)**: Instalación local o envío.
 
 ### 2. LLAVES
-- **Copia/Perdida**: Pide VIN -> Usa herramienta 'lookup_key_info'.
+- **Procedimiento**: 
+   1. Identifica el Vehículo (VIN o Año/Marca/Modelo).
+   2. Usa herramienta 'lookup_key_info' para detalles (FCC ID).
+   3. Usa herramienta 'check_internal_key_cost' para consultar COSTO INTERNO.
+   4. **MUY IMPORTANTE**: Los precios que devuelve la herramienta son COSTO. Cárgale margen antes de dárselo al cliente.
 
 ## 🧠 GESTIÓN DE ESTADO (CRM)
 Tú decides cuándo cambiar el estado del cliente. Si detectas un cambio, usa la herramienta explícita (simulada por ahora) o sugiérelo.
@@ -46,7 +51,7 @@ Tú decides cuándo cambiar el estado del cliente. Si detectas un cambio, usa la
 - **PROGRAMADO**: Si aceptó la cita.
 - **COMPLETADO**: Si ya se hizo el trabajo.
 `;
-`;
+
 
 if (!OPENAI_API_KEY || !WHAPI_TOKEN) {
     console.error("❌ ERROR: Faltan las claves en el archivo .env");
@@ -81,20 +86,20 @@ app.post('/webhook', async (req, res) => {
 
         if (!userText && !userImage) return res.sendStatus(200);
 
-        console.log(`💬 Cliente(${ senderNumber }): ${ userText || '[IMAGEN RECIBIDA]' } `);
+        console.log(`💬 Cliente(${senderNumber}): ${userText || '[IMAGEN RECIBIDA]'} `);
 
         // 🧠 PENSAR (Consultar a OpenAI)
         // Pasamos tanto texto como imagen a la función
         const aiResponse = await getAIResponse(userText, senderNumber, userImage);
-        console.log(`🤖 Agente: ${ aiResponse } `);
+        console.log(`🤖 Agente: ${aiResponse} `);
 
         // 🗣️ RESPONDER (Enviar a Whapi)
         const sentResult = await sendToWhapi(senderNumber, aiResponse);
         console.log('📤 Resultado envío Whapi:', JSON.stringify(sentResult));
 
         // 📝 AUDITAR (Guardar para revisión de Jesus y Antigravity)
-        const logEntry = `[${ new Date().toLocaleString() }]CLIENTE(${ senderNumber }): ${ userText } \n` +
-            `[${ new Date().toLocaleString() }] AGENTE ALEX: ${ aiResponse } \n` +
+        const logEntry = `[${new Date().toLocaleString()}]CLIENTE(${senderNumber}): ${userText} \n` +
+            `[${new Date().toLocaleString()}] AGENTE ALEX: ${aiResponse} \n` +
             `--------------------------------------------------\n`;
         fs.appendFileSync('audit.log', logEntry);
 
@@ -112,6 +117,7 @@ const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY
 
 const { decodeVIN } = require('./vin_decoder');
 const { findKeyDetails, getSupplierLinks } = require('./key_finder');
+const { checkInternalPrices } = require('./price_checker');
 
 // --- AI MEMORY FUNCTION ---
 async function generateEmbedding(text) {
@@ -164,7 +170,7 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
         await supabase.from('conversations').insert({
             lead_id: leadId,
             role: 'user',
-            content: userMessage || `[ENVIÓ UNA FOTO: ${ userImage || 'Sin Link' }]`
+            content: userMessage || `[ENVIÓ UNA FOTO: ${userImage || 'Sin Link'}]`
         });
 
         // 3. Recuperar Historial Reciente (Últimos 10 mensajes para contexto)
@@ -241,6 +247,22 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
                         required: ["year", "make", "model"]
                     }
                 }
+            },
+            {
+                type: "function",
+                function: {
+                    name: "check_internal_key_cost",
+                    description: "Busca el COSTO REAL de una llave en proveedores (UHS/Locksmith Keyless) usando el FCC ID. USAR SOLO PARA USO INTERNO.",
+                    parameters: {
+                        type: "object",
+                        properties: {
+                            fcc_id: { type: "string", description: "El FCC ID de la llave (ej: HYQ12BDM)" },
+                            make: { type: "string", description: "Marca del auto (opcional, mejora la búsqueda)" },
+                            model: { type: "string", description: "Modelo del auto (opcional)" }
+                        },
+                        required: ["fcc_id"]
+                    }
+                }
             }
         ];
 
@@ -275,14 +297,14 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
             for (const toolCall of message.tool_calls) {
                 if (toolCall.function.name === 'lookup_vin') {
                     const args = JSON.parse(toolCall.function.arguments);
-                    console.log(`🔧 GPT Tool Call: lookup_vin(${ args.vin })`);
+                    console.log(`🔧 GPT Tool Call: lookup_vin(${args.vin})`);
 
                     // EJECUTAR LA HERRAMIENTA
                     const vinData = await decodeVIN(args.vin);
 
                     // --- ACTUALIZAR CRM (Supabase) ---
                     if (vinData && vinData.year) {
-                         const { error: updateError } = await supabase
+                        const { error: updateError } = await supabase
                             .from('leads')
                             .update({
                                 vin: args.vin,
@@ -293,7 +315,7 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
                                 pipeline_status: 'COTIZANDO' // Si ya tenemos VIN, pasamos a cotizar
                             })
                             .eq('id', leadId);
-                        
+
                         if (updateError) console.error("Error actualizando CRM:", updateError);
                         else console.log("CRM Actualizado con datos del Vehículo");
                     }
@@ -307,7 +329,7 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
                     });
                 } else if (toolCall.function.name === 'lookup_key_info') {
                     const args = JSON.parse(toolCall.function.arguments);
-                    console.log(`🔧 GPT Tool Call: lookup_key_info(${ args.year } ${ args.make } ${ args.model })`);
+                    console.log(`🔧 GPT Tool Call: lookup_key_info(${args.year} ${args.make} ${args.model})`);
 
                     const keyResults = await findKeyDetails(args.year, args.make, args.model);
 
@@ -316,7 +338,7 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
 
                     // If we have the special "db_miss" flag or just want to ensure links are visible
                     if (keyResults.length > 0 && keyResults[0].db_miss) {
-                        const query = `${ args.year } ${ args.make } ${ args.model } `;
+                        const query = `${args.year} ${args.make} ${args.model} `;
                         const links = getSupplierLinks(args.make, args.model, args.year);
                         contentPayload = {
                             message: "No encontrado en libros internos. Usar enlaces externos.",
@@ -329,6 +351,18 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
                         role: "tool",
                         name: "lookup_key_info",
                         content: JSON.stringify(contentPayload)
+                    });
+                } else if (toolCall.function.name === 'check_internal_key_cost') {
+                    const args = JSON.parse(toolCall.function.arguments);
+                    console.log(`[GPT Tool Call]check_internal_key_cost(${args.fcc_id})`);
+
+                    const priceData = await checkInternalPrices(args.fcc_id, args.make, args.model);
+
+                    messagesForAI.push({
+                        tool_call_id: toolCall.id,
+                        role: "tool",
+                        name: "check_internal_key_cost",
+                        content: JSON.stringify(priceData)
                     });
                 }
             }
@@ -365,7 +399,7 @@ async function sendToWhapi(chatId, text) {
         headers: {
             accept: 'application/json',
             'content-type': 'application/json',
-            authorization: `Bearer ${ WHAPI_TOKEN } `
+            authorization: `Bearer ${WHAPI_TOKEN} `
         },
         body: JSON.stringify({
             to: chatId,
@@ -390,7 +424,7 @@ app.post('/api/video/start', async (req, res) => {
     // Initial State
     jobs.set(jobId, { status: 'processing', steps: ['Iniciando...'], result: null });
 
-    console.log(`🎬 JOB ${ jobId } STARTED: ${ title } `);
+    console.log(`🎬 JOB ${jobId} STARTED: ${title} `);
 
     // Start background process (Fire & Forget)
     (async () => {
@@ -402,10 +436,10 @@ app.post('/api/video/start', async (req, res) => {
 
             const result = await generateViralVideo(title, idea, image);
             jobs.set(jobId, { status: 'completed', steps: ['Done'], result: result });
-            console.log(`✅ JOB ${ jobId } COMPLETED`);
+            console.log(`✅ JOB ${jobId} COMPLETED`);
 
         } catch (error) {
-            console.error(`❌ JOB ${ jobId } FAILED: `, error);
+            console.error(`❌ JOB ${jobId} FAILED: `, error);
             jobs.set(jobId, { status: 'failed', error: error.message });
         }
     })();
@@ -425,6 +459,6 @@ app.get('/api/video/status/:id', (req, res) => {
 // ----------------------------------------------------
 
 app.listen(PORT, () => {
-    console.log(`🚀 Agente de Ventas escuchando en puerto ${ PORT } `);
+    console.log(`🚀 Agente de Ventas escuchando en puerto ${PORT} `);
     console.log(`🔗 Webhook local: http://localhost:${PORT}/webhook`);
 });

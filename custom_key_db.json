@@ -9,9 +9,25 @@
   },
   {
     "make": "Acura",
-    "model": "RDX",
+    "model": "HON-V-4TRK BHO02-PT HO03-PT HD112-PHT TP12HOND31",
+    "startYear": 5907,
+    "endYear": 5907,
+    "fccId": "Info",
+    "freq": "Unknown"
+  },
+  {
+    "make": "Acura",
+    "model": "a o",
     "startYear": 2007,
-    "endYear": 2012,
+    "endYear": 3511,
+    "fccId": "Info",
+    "freq": "313"
+  },
+  {
+    "make": "Acura",
+    "model": "a o",
+    "startYear": 2007,
+    "endYear": 3511,
     "fccId": "MLBHLIK-1T",
     "freq": "314"
   },
@@ -81,9 +97,9 @@
   },
   {
     "make": "Acura",
-    "model": "RL",
-    "startYear": 2005,
-    "endYear": 2012,
+    "model": "MASTER",
+    "startYear": 5001,
+    "endYear": 8442,
     "fccId": "ACIBD8E24A04",
     "freq": "311"
   },
@@ -105,9 +121,9 @@
   },
   {
     "make": "Honda",
-    "model": "Accord",
-    "startYear": 2016,
-    "endYear": 2021,
+    "model": "No",
+    "startYear": 3511,
+    "endYear": 3511,
     "fccId": "ACI932HKI3IOA",
     "freq": "433"
   },
@@ -121,17 +137,17 @@
   },
   {
     "make": "Honda",
-    "model": "Accord",
-    "startYear": 2013,
-    "endYear": 2015,
+    "model": "E o",
+    "startYear": 2017,
+    "endYear": 2021,
     "fccId": "KR5V2X",
     "freq": "434"
   },
   {
     "make": "Honda",
-    "model": "Accord",
-    "startYear": 2013,
-    "endYear": 2015,
+    "model": "E o",
+    "startYear": 2017,
+    "endYear": 2021,
     "fccId": "ACI932HK12104",
     "freq": "313"
   },
@@ -169,7 +185,7 @@
   },
   {
     "make": "Honda",
-    "model": "Clarity Electric",
+    "model": "Oy",
     "startYear": 2017,
     "endYear": 2018,
     "fccId": "KR5VIX",
@@ -281,9 +297,9 @@
   },
   {
     "make": "Honda",
-    "model": "Ridgeline",
-    "startYear": 2006,
-    "endYear": 2014,
+    "model": "an",
+    "startYear": 2009,
+    "endYear": 2013,
     "fccId": "Info",
     "freq": "313"
   },
@@ -305,9 +321,9 @@
   },
   {
     "make": "Honda",
-    "model": "there was a mid-year change 2898-09 EOS",
-    "startYear": 2006,
-    "endYear": 2006,
+    "model": "HON-V-4TRK BHO02-PT HO03-PT HD112-PHT TEIZHONDST",
+    "startYear": 5907,
+    "endYear": 5907,
     "fccId": "Info",
     "freq": "313"
   },
@@ -321,6 +337,14 @@
   },
   {
     "make": "Honda",
+    "model": "En",
+    "startYear": 2002,
+    "endYear": 2004,
+    "fccId": "Info",
+    "freq": "313"
+  },
+  {
+    "make": "Honda",
     "model": "Fit",
     "startYear": 2007,
     "endYear": 2007,
@@ -329,73 +353,73 @@
   },
   {
     "make": "Acura",
-    "model": "Prelude",
-    "startYear": 1997,
-    "endYear": 2002,
+    "model": "MASTER",
+    "startYear": 5001,
+    "endYear": 8442,
     "fccId": "Info",
     "freq": "Unknown"
   },
   {
     "make": "Acura",
-    "model": "Prelude",
-    "startYear": 1997,
-    "endYear": 2002,
+    "model": "MASTER",
+    "startYear": 5001,
+    "endYear": 8442,
     "fccId": "AZ69ZUA1O1",
     "freq": "Unknown"
   },
   {
     "make": "Acura",
-    "model": "RSX",
-    "startYear": 2002,
-    "endYear": 2006,
+    "model": ". MASTER",
+    "startYear": 5001,
+    "endYear": 8442,
     "fccId": "EJEG8D-",
     "freq": "Unknown"
   },
   {
     "make": "Acura",
-    "model": "RSX",
-    "startYear": 2002,
-    "endYear": 2006,
+    "model": ". MASTER",
+    "startYear": 5001,
+    "endYear": 8442,
     "fccId": "Info",
     "freq": "307"
   },
   {
     "make": "Acura",
-    "model": "RSX",
-    "startYear": 2002,
-    "endYear": 2006,
+    "model": ". MASTER",
+    "startYear": 5001,
+    "endYear": 8442,
     "fccId": "E4EG8D-444H-A",
     "freq": "307"
   },
   {
     "make": "Acura",
-    "model": "RSX",
-    "startYear": 2002,
-    "endYear": 2006,
+    "model": ". MASTER",
+    "startYear": 5001,
+    "endYear": 8442,
     "fccId": "EAEG8D-",
     "freq": "307"
   },
   {
     "make": "Acura",
-    "model": "RSX",
-    "startYear": 2002,
-    "endYear": 2006,
+    "model": ". MASTER",
+    "startYear": 5001,
+    "endYear": 8442,
     "fccId": "EAEG8D-444H-A",
     "freq": "Unknown"
   },
   {
     "make": "Honda",
-    "model": "Insight",
-    "startYear": 2000,
-    "endYear": 2006,
+    "model": "MASTER [|",
+    "startYear": 5001,
+    "endYear": 8442,
     "fccId": "Info",
     "freq": "Unknown"
   },
   {
     "make": "Honda",
-    "model": "Insight",
-    "startYear": 2000,
-    "endYear": 2006,
+    "model": "MASTER [|",
+    "startYear": 5001,
+    "endYear": 8442,
     "fccId": "NHVWB1U523",
     "freq": "433"
   },
@@ -425,9 +449,9 @@
   },
   {
     "make": "Acura",
-    "model": "NSX",
-    "startYear": 1991,
-    "endYear": 1996,
+    "model": "MASTER |",
+    "startYear": 5001,
+    "endYear": 8442,
     "fccId": "Info",
     "freq": "434"
   },
@@ -481,6 +505,14 @@
   },
   {
     "make": "Audi",
+    "model": "Pre Ts ent 4F0 837 220 AG (some",
+    "startYear": 2005,
+    "endYear": 2011,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "Audi",
     "model": "A3",
     "startYear": 2015,
     "endYear": 2021,
@@ -513,8 +545,8 @@
   },
   {
     "make": "Porsche",
-    "model": "Passat Sedan",
-    "startYear": 2001,
+    "model": "(Split Year",
+    "startYear": 2005,
     "endYear": 2005,
     "fccId": "Info",
     "freq": "315"
@@ -548,6 +580,14 @@
     "model": "Jetta  2017-21 Passat (VW",
     "startYear": 2017,
     "endYear": 2018,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "Porsche",
+    "model": "VAS",
+    "startYear": 6150,
+    "endYear": 6150,
     "fccId": "Info",
     "freq": "315"
   },
@@ -745,35 +785,43 @@
   },
   {
     "make": "Ram",
-    "model": "Remote",
-    "startYear": 2011,
-    "endYear": 2014,
+    "model": "in",
+    "startYear": 2007,
+    "endYear": 2009,
     "fccId": "tee",
     "freq": "Unknown"
   },
   {
     "make": "Ram",
-    "model": "Remote",
-    "startYear": 2011,
-    "endYear": 2014,
+    "model": "in",
+    "startYear": 2007,
+    "endYear": 2009,
     "fccId": "OHT692714AA",
     "freq": "Unknown"
   },
   {
     "make": "Ram",
-    "model": "Remote",
-    "startYear": 2011,
-    "endYear": 2014,
+    "model": "in",
+    "startYear": 2007,
+    "endYear": 2009,
     "fccId": "0HT692427AA",
     "freq": "Unknown"
   },
   {
     "make": "Ram",
-    "model": "Remote",
-    "startYear": 2011,
-    "endYear": 2014,
+    "model": "in",
+    "startYear": 2007,
+    "endYear": 2009,
     "fccId": "OHT692714",
     "freq": "Unknown"
+  },
+  {
+    "make": "Chrysler",
+    "model": "pe",
+    "startYear": 2008,
+    "endYear": 2010,
+    "fccId": "OHT692714AA",
+    "freq": "315"
   },
   {
     "make": "Chrysler",
@@ -921,7 +969,7 @@
   },
   {
     "make": "Ram",
-    "model": "Active",
+    "model": "Code Series:",
     "startYear": 3501,
     "endYear": 6700,
     "fccId": "M3N-97395900",
@@ -929,7 +977,7 @@
   },
   {
     "make": "Chrysler",
-    "model": "Active",
+    "model": "Code Series:",
     "startYear": 3501,
     "endYear": 6700,
     "fccId": "M3N-97395900",
@@ -937,7 +985,7 @@
   },
   {
     "make": "Ram",
-    "model": "Active",
+    "model": "Code Series:",
     "startYear": 3501,
     "endYear": 6700,
     "fccId": "Info",
@@ -945,7 +993,7 @@
   },
   {
     "make": "Chrysler",
-    "model": "Active",
+    "model": "Code Series:",
     "startYear": 3501,
     "endYear": 6700,
     "fccId": "Info",
@@ -964,6 +1012,14 @@
     "model": "Fob",
     "startYear": 2001,
     "endYear": 2005,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "Chrysler",
+    "model": "CODE SERIES: F",
+    "startYear": 1,
+    "endYear": 1571,
     "fccId": "Info",
     "freq": "315"
   },
@@ -1016,6 +1072,14 @@
     "freq": "315"
   },
   {
+    "make": "Jeep",
+    "model": "Most",
+    "startYear": 1993,
+    "endYear": 1993,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
     "make": "Ram",
     "model": "NEON",
     "startYear": 1994,
@@ -1025,81 +1089,81 @@
   },
   {
     "make": "Ram",
-    "model": "NEON",
-    "startYear": 1994,
-    "endYear": 1994,
+    "model": "- Some models starting in",
+    "startYear": 2018,
+    "endYear": 2018,
     "fccId": "Info",
     "freq": "433.90"
   },
   {
     "make": "Dodge",
-    "model": "NEON",
-    "startYear": 1994,
-    "endYear": 1994,
+    "model": "- Some models starting in",
+    "startYear": 2018,
+    "endYear": 2018,
     "fccId": "Info",
     "freq": "433.90"
   },
   {
     "make": "Dodge",
-    "model": "Dart",
-    "startYear": 2012,
-    "endYear": 2016,
+    "model": "- Some models starting in",
+    "startYear": 2018,
+    "endYear": 2018,
     "fccId": "M3N-40821302",
     "freq": "433"
   },
   {
     "make": "Dodge",
-    "model": "Dart",
-    "startYear": 2012,
-    "endYear": 2016,
+    "model": "- Some models starting in",
+    "startYear": 2018,
+    "endYear": 2018,
     "fccId": "M3N40821302",
     "freq": "Unknown"
   },
   {
     "make": "Ram",
-    "model": "Dart",
-    "startYear": 2012,
-    "endYear": 2016,
+    "model": "- Some models starting in",
+    "startYear": 2018,
+    "endYear": 2018,
     "fccId": "M3N-40821302",
     "freq": "433"
   },
   {
     "make": "Ram",
-    "model": "Dart",
-    "startYear": 2012,
-    "endYear": 2016,
+    "model": "- Some models starting in",
+    "startYear": 2018,
+    "endYear": 2018,
     "fccId": "GQ4-54T",
     "freq": "433"
   },
   {
     "make": "Ram",
-    "model": "Dart",
-    "startYear": 2012,
-    "endYear": 2016,
+    "model": "- Some models starting in",
+    "startYear": 2018,
+    "endYear": 2018,
     "fccId": "GO4-54T",
     "freq": "433"
   },
   {
     "make": "Dodge",
-    "model": "Dart",
-    "startYear": 2012,
-    "endYear": 2016,
+    "model": "ro",
+    "startYear": 2013,
+    "endYear": 2021,
     "fccId": "IYZ-COIC",
     "freq": "433"
   },
   {
     "make": "Dodge",
-    "model": "Dart",
-    "startYear": 2012,
-    "endYear": 2016,
+    "model": "ro",
+    "startYear": 2013,
+    "endYear": 2021,
     "fccId": "1YZ-COIC",
     "freq": "433"
   },
   {
     "make": "Jeep",
-    "model": "Dart",
-    "startYear": 2012,
-    "endYear": 2016,
+    "model": "ro",
+    "startYear": 2013,
+    "endYear": 2021,
     "fccId": "IYZ-COIC",
     "freq": "433"
   },
@@ -1208,26 +1272,42 @@
     "freq": "433"
   },
   {
+    "make": "Ram",
+    "model": "ia",
+    "startYear": 2011,
+    "endYear": 2013,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
     "make": "Dodge",
-    "model": "RAM P/U",
-    "startYear": 2009,
-    "endYear": 2010,
+    "model": "ia",
+    "startYear": 2011,
+    "endYear": 2013,
     "fccId": "OHT692714AA",
     "freq": "Unknown"
   },
   {
     "make": "Dodge",
-    "model": "RAM P/U",
-    "startYear": 2009,
-    "endYear": 2010,
+    "model": "ia",
+    "startYear": 2011,
+    "endYear": 2013,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "Dodge",
+    "model": "ia",
+    "startYear": 2011,
+    "endYear": 2013,
     "fccId": "OHTE92713AA",
     "freq": "315"
   },
   {
     "make": "Dodge",
-    "model": "RAM P/U",
-    "startYear": 2009,
-    "endYear": 2010,
+    "model": "ia",
+    "startYear": 2011,
+    "endYear": 2013,
     "fccId": "OHT692713AA",
     "freq": "315"
   },
@@ -1257,25 +1337,33 @@
   },
   {
     "make": "Ram",
-    "model": "Only",
+    "model": "e)",
     "startYear": 2004,
-    "endYear": 2005,
+    "endYear": 2004,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "Ram",
-    "model": "Only",
+    "make": "Dodge",
+    "model": "e)",
     "startYear": 2004,
-    "endYear": 2005,
+    "endYear": 2004,
+    "fccId": "KOBDTO4A",
+    "freq": "Unknown"
+  },
+  {
+    "make": "Ram",
+    "model": "e)",
+    "startYear": 2004,
+    "endYear": 2004,
     "fccId": "OHT692713AA",
     "freq": "315"
   },
   {
     "make": "Dodge",
-    "model": "Only",
+    "model": "e)",
     "startYear": 2004,
-    "endYear": 2005,
+    "endYear": 2004,
     "fccId": "Info",
     "freq": "315"
   },
@@ -1353,25 +1441,25 @@
   },
   {
     "make": "Jeep",
-    "model": "Viper",
-    "startYear": 1998,
-    "endYear": 2002,
+    "model": "Mi57/ YI59 BY157 Y157 / Y159 Y157 / Y159 CHR-14",
+    "startYear": 5965,
+    "endYear": 5965,
     "fccId": "Info",
     "freq": "315"
   },
   {
     "make": "Dodge",
-    "model": "Viper",
-    "startYear": 1998,
-    "endYear": 2002,
+    "model": "Mi57/ YI59 BY157 Y157 / Y159 Y157 / Y159 CHR-14",
+    "startYear": 5965,
+    "endYear": 5965,
     "fccId": "Info",
     "freq": "315"
   },
   {
     "make": "Ram",
-    "model": "Viper",
-    "startYear": 1998,
-    "endYear": 2002,
+    "model": "Mi57/ YI59 BY157 Y157 / Y159 Y157 / Y159 CHR-14",
+    "startYear": 5965,
+    "endYear": 5965,
     "fccId": "Info",
     "freq": "Unknown"
   },
@@ -1393,33 +1481,33 @@
   },
   {
     "make": "Ram",
-    "model": "Sprinter",
-    "startYear": 2007,
-    "endYear": 2009,
+    "model": "startting in",
+    "startYear": 2019,
+    "endYear": 2019,
     "fccId": "Info",
     "freq": "433"
   },
   {
     "make": "Jeep",
-    "model": "Sprinter",
-    "startYear": 2007,
-    "endYear": 2009,
+    "model": "- Some models starting in",
+    "startYear": 2018,
+    "endYear": 2018,
     "fccId": "Info",
     "freq": "433"
   },
   {
     "make": "Jeep",
-    "model": "Sprinter",
-    "startYear": 2007,
-    "endYear": 2009,
+    "model": "- Some models starting in",
+    "startYear": 2018,
+    "endYear": 2018,
     "fccId": "GQ4-54T",
     "freq": "Unknown"
   },
   {
     "make": "Jeep",
-    "model": "Sprinter",
-    "startYear": 2007,
-    "endYear": 2009,
+    "model": "- Some models starting in",
+    "startYear": 2018,
+    "endYear": 2018,
     "fccId": "M3N-40821302",
     "freq": "433"
   },
@@ -1529,22 +1617,30 @@
   },
   {
     "make": "Jeep",
-    "model": "Wrangler 703719C",
-    "startYear": 1998,
-    "endYear": 2001,
+    "model": "MASTER -Y160-PT BY160-PT YI60-PT Y160-PHT TP21-CHRI5P",
+    "startYear": 6923,
+    "endYear": 6923,
     "fccId": "GQ43VT9T",
     "freq": "315"
   },
   {
     "make": "Jeep",
-    "model": "Wrangler 703719C",
-    "startYear": 1998,
-    "endYear": 2001,
+    "model": "MASTER -Y160-PT BY160-PT YI60-PT Y160-PHT TP21-CHRI5P",
+    "startYear": 6923,
+    "endYear": 6923,
     "fccId": "Info",
     "freq": "433"
   },
   {
     "make": "Dodge",
+    "model": "Wrangler 703719C",
+    "startYear": 1998,
+    "endYear": 2001,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "Jeep",
     "model": "Wrangler 703719C",
     "startYear": 1998,
     "endYear": 2001,
@@ -1569,9 +1665,9 @@
   },
   {
     "make": "Fiat",
-    "model": "DblSided",
-    "startYear": 6100,
-    "endYear": 8309,
+    "model": "Code Series:",
+    "startYear": 2100,
+    "endYear": 2309,
     "fccId": "Info",
     "freq": "433"
   },
@@ -1585,9 +1681,9 @@
   },
   {
     "make": "Ford",
-    "model": "Key FORD-D11 86",
-    "startYear": 1993,
-    "endYear": 1995,
+    "model": "oO",
+    "startYear": 2005,
+    "endYear": 2006,
     "fccId": "CWTWBIU33",
     "freq": "315"
   },
@@ -1617,17 +1713,25 @@
   },
   {
     "make": "Ford",
-    "model": "Windstar Not available from Strattec",
+    "model": "Mountaineer",
+    "startYear": 7076,
+    "endYear": 7076,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "Ford",
+    "model": "ben) 1",
     "startYear": 1997,
-    "endYear": 1997,
+    "endYear": 1998,
     "fccId": "GQ43VT4T",
     "freq": "315"
   },
   {
     "make": "Ford",
-    "model": "Windstar Not available from Strattec",
+    "model": "ben) 1",
     "startYear": 1997,
-    "endYear": 1997,
+    "endYear": 1998,
     "fccId": "CWTWB1U331",
     "freq": "315"
   },
@@ -1689,25 +1793,41 @@
   },
   {
     "make": "Ford",
-    "model": "Ranger 707624C",
-    "startYear": 2007,
-    "endYear": 2007,
+    "model": "More",
+    "startYear": 1996,
+    "endYear": 1996,
     "fccId": "Info",
     "freq": "315"
   },
   {
     "make": "Ford",
-    "model": "Ranger 707624C",
-    "startYear": 2007,
-    "endYear": 2007,
+    "model": "More",
+    "startYear": 1996,
+    "endYear": 1996,
     "fccId": "CWTWB1U793",
     "freq": "315"
   },
   {
+    "make": "Ford",
+    "model": "H74-PT BH74-PT H74-PT H74-PHT n/a",
+    "startYear": 6916,
+    "endYear": 6916,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "Ford",
+    "model": "> Mike's Tip: PATS 4 for 2009 | PATS 5 for",
+    "startYear": 2010,
+    "endYear": 2012,
+    "fccId": "Info",
+    "freq": "Unknown"
+  },
+  {
     "make": "Lincoln",
-    "model": "Ranger 707624C",
-    "startYear": 2007,
-    "endYear": 2007,
+    "model": "> Mike's Tip: PATS 4 for 2009 | PATS 5 for",
+    "startYear": 2010,
+    "endYear": 2012,
     "fccId": "Info",
     "freq": "315"
   },
@@ -1817,17 +1937,25 @@
   },
   {
     "make": "Ford",
-    "model": "Taurus",
-    "startYear": 2013,
-    "endYear": 2018,
+    "model": "> Mike's Tip: PATS 4 - 2008 | PATS 5 -",
+    "startYear": 2009,
+    "endYear": 2012,
     "fccId": "OUCD6000022",
     "freq": "Unknown"
   },
   {
+    "make": "Ford",
+    "model": "> Mike's Tip: PATS 4 - 2008 | PATS 5 -",
+    "startYear": 2009,
+    "endYear": 2012,
+    "fccId": "CWTWBI1U793",
+    "freq": "Unknown"
+  },
+  {
     "make": "Mercury",
-    "model": "Taurus",
-    "startYear": 2013,
-    "endYear": 2018,
+    "model": "> Mike's Tip: PATS 4 - 2008 | PATS 5 -",
+    "startYear": 2009,
+    "endYear": 2012,
     "fccId": "OUCD6000022",
     "freq": "315"
   },
@@ -1881,26 +2009,58 @@
   },
   {
     "make": "Ford",
-    "model": "Mountaineer",
-    "startYear": 2008,
-    "endYear": 2011,
+    "model": "os",
+    "startYear": 2011,
+    "endYear": 2015,
+    "fccId": "CWTWB1U793",
+    "freq": "315"
+  },
+  {
+    "make": "Ford",
+    "model": "os",
+    "startYear": 2011,
+    "endYear": 2015,
+    "fccId": "CWTWBIU793",
+    "freq": "315"
+  },
+  {
+    "make": "Ford",
+    "model": "os",
+    "startYear": 2011,
+    "endYear": 2015,
     "fccId": "OUCD6000022",
     "freq": "315"
   },
   {
     "make": "Ford",
-    "model": "Mountaineer",
-    "startYear": 2008,
-    "endYear": 2011,
+    "model": "os",
+    "startYear": 2011,
+    "endYear": 2015,
     "fccId": "eae",
     "freq": "Unknown"
   },
   {
     "make": "Lincoln",
-    "model": "Mountaineer",
-    "startYear": 2008,
-    "endYear": 2011,
+    "model": "os",
+    "startYear": 2011,
+    "endYear": 2015,
     "fccId": "CWTWBIU793",
+    "freq": "Unknown"
+  },
+  {
+    "make": "Ford",
+    "model": "As",
+    "startYear": 2007,
+    "endYear": 2010,
+    "fccId": "CWTWBIU793",
+    "freq": "Unknown"
+  },
+  {
+    "make": "Ford",
+    "model": "As",
+    "startYear": 2007,
+    "endYear": 2010,
+    "fccId": "OUCD6000022",
     "freq": "Unknown"
   },
   {
@@ -1944,18 +2104,10 @@
     "freq": "Unknown"
   },
   {
-    "make": "Ford",
-    "model": "MKS",
-    "startYear": 2008,
-    "endYear": 2009,
-    "fccId": "Info",
-    "freq": "315"
-  },
-  {
     "make": "Lincoln",
-    "model": "MKS",
-    "startYear": 2008,
-    "endYear": 2009,
+    "model": "H74-PT BH74-PT H74-PT H74-PHT n/a",
+    "startYear": 6916,
+    "endYear": 6916,
     "fccId": "Info",
     "freq": "315"
   },
@@ -1981,6 +2133,14 @@
     "startYear": 2010,
     "endYear": 2012,
     "fccId": "CWTWB1U793",
+    "freq": "315"
+  },
+  {
+    "make": "Ford",
+    "model": "Mok Transponder was optional starting in",
+    "startYear": 1997,
+    "endYear": 1998,
+    "fccId": "Info",
     "freq": "315"
   },
   {
@@ -2025,33 +2185,33 @@
   },
   {
     "make": "Ford",
-    "model": "Fiesta",
-    "startYear": 2011,
-    "endYear": 2014,
+    "model": ": Ecosport:",
+    "startYear": 1,
+    "endYear": 4000,
     "fccId": "N5F-A08TAA",
     "freq": "315"
   },
   {
     "make": "Ford",
-    "model": "Fiesta",
-    "startYear": 2011,
-    "endYear": 2014,
+    "model": ": Ecosport:",
+    "startYear": 1,
+    "endYear": 4000,
     "fccId": "N5F-AO8TAA",
     "freq": "315"
   },
   {
     "make": "Ford",
-    "model": "Fiesta",
-    "startYear": 2011,
-    "endYear": 2014,
+    "model": ": Ecosport:",
+    "startYear": 1,
+    "endYear": 4000,
     "fccId": "N5F-AO8TDA",
     "freq": "902"
   },
   {
     "make": "Ford",
-    "model": "Fiesta",
-    "startYear": 2011,
-    "endYear": 2014,
+    "model": ": Ecosport:",
+    "startYear": 1,
+    "endYear": 4000,
     "fccId": "N5F-AOSTAA",
     "freq": "315"
   },
@@ -2073,43 +2233,59 @@
   },
   {
     "make": "Ford",
-    "model": "Fusion -",
-    "startYear": 2013,
-    "endYear": 2016,
+    "model": "ag",
+    "startYear": 2017,
+    "endYear": 2020,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "Ford",
+    "model": "ag",
+    "startYear": 2017,
+    "endYear": 2020,
     "fccId": "OUCD6000022",
     "freq": "315"
   },
   {
     "make": "Ford",
-    "model": "Fusion -",
-    "startYear": 2013,
-    "endYear": 2016,
+    "model": "ag",
+    "startYear": 2017,
+    "endYear": 2020,
     "fccId": "KR55WK48801",
     "freq": "433"
   },
   {
     "make": "Ford",
-    "model": "Fusion -",
-    "startYear": 2013,
-    "endYear": 2016,
+    "model": "ag",
+    "startYear": 2017,
+    "endYear": 2020,
     "fccId": "KR5876268",
     "freq": "Unknown"
   },
   {
     "make": "Ford",
-    "model": "Fusion -",
-    "startYear": 2013,
-    "endYear": 2016,
+    "model": "ag",
+    "startYear": 2017,
+    "endYear": 2020,
     "fccId": "M3N5WY8609",
     "freq": "315"
   },
   {
     "make": "Ford",
-    "model": "Fusion -",
-    "startYear": 2013,
-    "endYear": 2016,
+    "model": "ag",
+    "startYear": 2017,
+    "endYear": 2020,
     "fccId": "nfo",
     "freq": "315"
+  },
+  {
+    "make": "Lincoln",
+    "model": "ag",
+    "startYear": 2017,
+    "endYear": 2020,
+    "fccId": "Info",
+    "freq": "902"
   },
   {
     "make": "Ford",
@@ -2129,6 +2305,14 @@
   },
   {
     "make": "Ford",
+    "model": "Ecosport:",
+    "startYear": 1,
+    "endYear": 4000,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "Ford",
     "model": "Fusion",
     "startYear": 2017,
     "endYear": 2021,
@@ -2137,58 +2321,82 @@
   },
   {
     "make": "Ford",
-    "model": "Fiesta",
-    "startYear": 2011,
-    "endYear": 2019,
+    "model": "Prox - No Ignition -",
+    "startYear": 7020,
+    "endYear": 7020,
     "fccId": "Info",
     "freq": "868"
   },
   {
     "make": "Ford",
-    "model": "Mustang",
-    "startYear": 2018,
-    "endYear": 2021,
+    "model": "P0001 - P",
+    "startYear": 9710,
+    "endYear": 9710,
     "fccId": "Info",
     "freq": "315"
   },
   {
     "make": "Ford",
-    "model": "Mustang",
-    "startYear": 2018,
-    "endYear": 2021,
+    "model": "P0001 - P",
+    "startYear": 9710,
+    "endYear": 9710,
     "fccId": "M3N-A2C93142300",
     "freq": "315"
   },
   {
     "make": "Ford",
-    "model": "Mustang",
-    "startYear": 2018,
-    "endYear": 2021,
+    "model": "P0001 - P",
+    "startYear": 9710,
+    "endYear": 9710,
     "fccId": "M3N-A2C93142600",
     "freq": "902"
   },
   {
+    "make": "Ford",
+    "model": "Strat",
+    "startYear": 5923,
+    "endYear": 5923,
+    "fccId": "Info",
+    "freq": "902"
+  },
+  {
     "make": "Lincoln",
-    "model": "Mustang",
-    "startYear": 2018,
-    "endYear": 2021,
+    "model": "Strat",
+    "startYear": 5923,
+    "endYear": 5923,
     "fccId": "Info",
     "freq": "902"
   },
   {
     "make": "Ford",
-    "model": "Mustang",
-    "startYear": 2018,
+    "model": "wide nla H128-PT nla nla",
+    "startYear": 5923,
+    "endYear": 5923,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "Ford",
+    "model": "ae",
+    "startYear": 2021,
     "endYear": 2021,
     "fccId": "N5F-AO8TAA",
     "freq": "315"
   },
   {
     "make": "Ford",
-    "model": "Mustang",
-    "startYear": 2018,
+    "model": "ae",
+    "startYear": 2021,
     "endYear": 2021,
     "fccId": "N5F-AOSTAA",
+    "freq": "315"
+  },
+  {
+    "make": "Ford",
+    "model": "Qo",
+    "startYear": 3944,
+    "endYear": 3944,
+    "fccId": "Info",
     "freq": "315"
   },
   {
@@ -2217,7 +2425,15 @@
   },
   {
     "make": "Lincoln",
-    "model": "High Sec 2 nla n/a Yes Active",
+    "model": "Code Series:",
+    "startYear": 1,
+    "endYear": 4000,
+    "fccId": "Info",
+    "freq": "902"
+  },
+  {
+    "make": "Ford",
+    "model": "Code Series:",
     "startYear": 1,
     "endYear": 4000,
     "fccId": "Info",
@@ -2272,231 +2488,247 @@
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Key GM-B36 98",
-    "startYear": 2002,
-    "endYear": 2007,
+    "make": "Pontiac",
+    "model": "B44 B44 B44 B44",
+    "startYear": 3204,
+    "endYear": 3204,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Corsica",
-    "startYear": 1991,
-    "endYear": 1991,
+    "make": "Pontiac",
+    "model": "B78 n/a PI098WE",
+    "startYear": 3220,
+    "endYear": 3220,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Cutlass 2Dr 701406 700850 700842 605533 701129",
-    "startYear": 1991,
-    "endYear": 1993,
+    "make": "Buick",
+    "model": "B64 nla P1098WC GM-19",
+    "startYear": 3217,
+    "endYear": 3217,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Regal  701406 608170 607868",
-    "startYear": 1990,
-    "endYear": 1993,
-    "fccId": "Info",
-    "freq": "315"
-  },
-  {
-    "make": "GM",
-    "model": "S-10 Pickup 701398 608170 607868 -",
-    "startYear": 1983,
-    "endYear": 1992,
-    "fccId": "Info",
-    "freq": "315"
-  },
-  {
-    "make": "GM",
-    "model": "Sonoma 701398 608170 607868",
-    "startYear": 1991,
-    "endYear": 1992,
-    "fccId": "Info",
-    "freq": "315"
-  },
-  {
-    "make": "GM",
-    "model": "Firebird 700754",
+    "make": "Buick",
+    "model": "Impala",
     "startYear": 1993,
-    "endYear": 2002,
+    "endYear": 1994,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Allante",
-    "startYear": 1987,
-    "endYear": 1993,
+    "make": "GMC",
+    "model": "B45 B45 B45 B45 GM-12",
+    "startYear": 3204,
+    "endYear": 3204,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Corvette",
-    "startYear": 1997,
-    "endYear": 2004,
+    "make": "Pontiac",
+    "model": "Introduced first on the",
+    "startYear": 1986,
+    "endYear": 1986,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Cavalier",
+    "make": "Cadillac",
+    "model": "Introduced first on the",
+    "startYear": 1986,
+    "endYear": 1986,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "Buick",
+    "model": "Introduced first on the",
+    "startYear": 1986,
+    "endYear": 1986,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "Pontiac",
+    "model": "B86 B86",
+    "startYear": 5975,
+    "endYear": 5975,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "Pontiac",
+    "model": "B86 / B89 B86 B86 B86 / B89 GM-25",
+    "startYear": 5975,
+    "endYear": 5975,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "GMC",
+    "model": "B102 B86 B102 B102 GM-39",
+    "startYear": 5928,
+    "endYear": 5928,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "GMC",
+    "model": "B102 B86 B102 B102 GM-39",
+    "startYear": 5928,
+    "endYear": 5928,
+    "fccId": "MYT3X6898B",
+    "freq": "315"
+  },
+  {
+    "make": "Pontiac",
+    "model": "from",
+    "startYear": 2003,
+    "endYear": 2003,
+    "fccId": "KOBLEARIXT",
+    "freq": "315"
+  },
+  {
+    "make": "Pontiac",
+    "model": "from",
+    "startYear": 2003,
+    "endYear": 2003,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "Pontiac",
+    "model": "from",
+    "startYear": 2003,
+    "endYear": 2003,
+    "fccId": "KOBUTIBT",
+    "freq": "315"
+  },
+  {
+    "make": "Cadillac",
+    "model": "NATIONAL",
+    "startYear": 1996,
+    "endYear": 1998,
+    "fccId": "MYT3X6898B",
+    "freq": "315"
+  },
+  {
+    "make": "Cadillac",
+    "model": "NATIONAL",
+    "startYear": 1996,
+    "endYear": 1998,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "GMC",
+    "model": "B102 n/a B102 Bi02 GM-39",
+    "startYear": 5928,
+    "endYear": 5928,
+    "fccId": "KOBLEARIXT",
+    "freq": "315"
+  },
+  {
+    "make": "GMC",
+    "model": "B102 n/a B102 Bi02 GM-39",
+    "startYear": 5928,
+    "endYear": 5928,
+    "fccId": "KOBUTIBT",
+    "freq": "315"
+  },
+  {
+    "make": "GMC",
+    "model": "B102 n/a B102 Bi02 GM-39",
+    "startYear": 5928,
+    "endYear": 5928,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "Pontiac",
+    "model": "Introduced by General Motors on the",
     "startYear": 1995,
     "endYear": 1995,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Spectrum",
-    "startYear": 1985,
-    "endYear": 1989,
-    "fccId": "Info",
-    "freq": "315"
-  },
-  {
-    "make": "GM",
-    "model": "Spectrum",
-    "startYear": 1985,
-    "endYear": 1989,
-    "fccId": "MYT3X6898B",
-    "freq": "315"
-  },
-  {
-    "make": "GM",
-    "model": "Trailblazer 707758",
-    "startYear": 2002,
-    "endYear": 2003,
+    "make": "Pontiac",
+    "model": "Introduced by General Motors on the",
+    "startYear": 1995,
+    "endYear": 1995,
     "fccId": "KOBLEARIXT",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Trailblazer 707758",
-    "startYear": 2002,
-    "endYear": 2003,
-    "fccId": "Info",
-    "freq": "315"
-  },
-  {
-    "make": "GM",
-    "model": "Trailblazer 707758",
-    "startYear": 2002,
-    "endYear": 2003,
-    "fccId": "KOBUTIBT",
-    "freq": "315"
-  },
-  {
-    "make": "GM",
-    "model": "NATIONAL",
-    "startYear": 1996,
-    "endYear": 1998,
-    "fccId": "MYT3X6898B",
-    "freq": "315"
-  },
-  {
-    "make": "GM",
-    "model": "NATIONAL",
-    "startYear": 1996,
-    "endYear": 1998,
-    "fccId": "Info",
-    "freq": "315"
-  },
-  {
-    "make": "GM",
-    "model": "Bravada 702671",
-    "startYear": 1996,
-    "endYear": 1997,
+    "make": "GMC",
+    "model": "Introduced by General Motors on the",
+    "startYear": 1995,
+    "endYear": 1995,
     "fccId": "KOBLEARIXT",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Bravada 702671",
-    "startYear": 1996,
-    "endYear": 1997,
-    "fccId": "KOBUTIBT",
-    "freq": "315"
-  },
-  {
-    "make": "GM",
-    "model": "Bravada 702671",
-    "startYear": 1996,
-    "endYear": 1997,
+    "make": "GMC",
+    "model": "Introduced by General Motors on the",
+    "startYear": 1995,
+    "endYear": 1995,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Safari Van 704600",
-    "startYear": 1999,
-    "endYear": 2000,
-    "fccId": "Info",
-    "freq": "315"
-  },
-  {
-    "make": "GM",
-    "model": "Safari Van 704600",
-    "startYear": 1999,
-    "endYear": 2000,
-    "fccId": "KOBLEARIXT",
-    "freq": "315"
-  },
-  {
-    "make": "GM",
-    "model": "Safari Van 704600",
-    "startYear": 1999,
-    "endYear": 2000,
+    "make": "GMC",
+    "model": "Introduced by General Motors on the",
+    "startYear": 1995,
+    "endYear": 1995,
     "fccId": "eccee",
     "freq": "Unknown"
   },
   {
-    "make": "GM",
-    "model": "Sierra Pick Up",
-    "startYear": 1999,
-    "endYear": 2006,
+    "make": "GMC",
+    "model": "B102 n/a B102 B102 GM-39",
+    "startYear": 5928,
+    "endYear": 5928,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Full Size P/U 704600 706592",
-    "startYear": 2001,
-    "endYear": 2001,
+    "make": "GMC",
+    "model": "B89 B89 B89 B89 GM-30",
+    "startYear": 5962,
+    "endYear": 5962,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Full Size P/U 704600 706592",
-    "startYear": 2001,
-    "endYear": 2001,
+    "make": "GMC",
+    "model": "B89 B89 B89 B89 GM-30",
+    "startYear": 5962,
+    "endYear": 5962,
     "fccId": "info",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Ford E-Series Van",
-    "startYear": 2000,
-    "endYear": 2000,
+    "make": "GMC",
+    "model": "manually enter the this is a",
+    "startYear": 2005,
+    "endYear": 2005,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Silhouette 702671 703287 703288",
-    "startYear": 1997,
-    "endYear": 1998,
+    "make": "Pontiac",
+    "model": "B89 B89 B89 B89 GM-30",
+    "startYear": 5962,
+    "endYear": 5962,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Pontiac",
     "model": "SSR No listing from Strattec",
     "startYear": 2003,
     "endYear": 2006,
@@ -2504,7 +2736,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Pontiac",
     "model": "SSR No listing from Strattec",
     "startYear": 2003,
     "endYear": 2006,
@@ -2512,15 +2744,15 @@
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Grand Prix",
-    "startYear": 1997,
-    "endYear": 1999,
+    "make": "Pontiac",
+    "model": "B92 n/a B92 B92 GM-36",
+    "startYear": 5972,
+    "endYear": 5972,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Hummer",
     "model": "H2  sae",
     "startYear": 2003,
     "endYear": 2007,
@@ -2528,47 +2760,47 @@
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Cobalt",
-    "startYear": 2005,
-    "endYear": 2005,
+    "make": "Hummer",
+    "model": "B106 n/a B106 Bi06 / B109 GM-37",
+    "startYear": 5928,
+    "endYear": 5928,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "COBALT",
-    "startYear": 2005,
-    "endYear": 2005,
+    "make": "Saturn",
+    "model": "B96 nva B96 B96 GM-40",
+    "startYear": 6920,
+    "endYear": 6920,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "All Models",
-    "startYear": 1997,
-    "endYear": 2001,
+    "make": "Saturn",
+    "model": "B96 n/a B96 B96 GM-40",
+    "startYear": 6920,
+    "endYear": 6920,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "All Models",
-    "startYear": 1997,
-    "endYear": 2001,
+    "make": "Saturn",
+    "model": "B96 n/a B96 B96 GM-40",
+    "startYear": 6920,
+    "endYear": 6920,
     "fccId": "L2CO0OST",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "ION",
-    "startYear": 2003,
-    "endYear": 2007,
+    "make": "Saturn",
+    "model": "B106 n/a B106 B106 / B109 GM-37",
+    "startYear": 5928,
+    "endYear": 5928,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Saturn",
     "model": "Impala Limited PPV",
     "startYear": 2012,
     "endYear": 2016,
@@ -2576,7 +2808,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Saturn",
     "model": "Impala Limited PPV",
     "startYear": 2012,
     "endYear": 2016,
@@ -2584,7 +2816,7 @@
     "freq": "Unknown"
   },
   {
-    "make": "GM",
+    "make": "Pontiac",
     "model": "Torrent",
     "startYear": 2006,
     "endYear": 2006,
@@ -2592,15 +2824,15 @@
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Captiva Sport",
-    "startYear": 2011,
-    "endYear": 2015,
+    "make": "Saturn",
+    "model": "MASTER V",
+    "startYear": 2001,
+    "endYear": 3200,
     "fccId": "0UC60221",
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Saturn",
     "model": "Metro (Chevy",
     "startYear": 1998,
     "endYear": 2000,
@@ -2608,55 +2840,55 @@
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "LeMans",
-    "startYear": 1988,
-    "endYear": 1992,
+    "make": "Saturn",
+    "model": "Saturn All Models",
+    "startYear": 1991,
+    "endYear": 1996,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Park Avenue",
+    "make": "Buick",
+    "model": "Key",
     "startYear": 1997,
-    "endYear": 2005,
+    "endYear": 1999,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Silhouette",
-    "startYear": 1999,
-    "endYear": 2004,
+    "make": "Buick",
+    "model": "B97-PT B97-PT B97-PT B97-PHT TPOSGM27P",
+    "startYear": 6905,
+    "endYear": 6905,
     "fccId": "L2C0007T",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Silhouette",
-    "startYear": 1999,
-    "endYear": 2004,
+    "make": "Buick",
+    "model": "B97-PT B97-PT B97-PT B97-PHT TPOSGM27P",
+    "startYear": 6905,
+    "endYear": 6905,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Silhouette",
-    "startYear": 1999,
-    "endYear": 2004,
+    "make": "Saturn",
+    "model": "B97-PT B97-PT B97-PT B97-PHT TPOSGM27P",
+    "startYear": 6905,
+    "endYear": 6905,
     "fccId": "KOBGTO4A",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Silhouette",
-    "startYear": 1999,
-    "endYear": 2004,
+    "make": "Saturn",
+    "model": "B97-PT B97-PT B97-PT B97-PHT TPOSGM27P",
+    "startYear": 6905,
+    "endYear": 6905,
     "fccId": "KOBGTOAA",
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Pontiac",
     "model": "Montana",
     "startYear": 1999,
     "endYear": 2004,
@@ -2664,7 +2896,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Pontiac",
     "model": "Montana",
     "startYear": 1999,
     "endYear": 2004,
@@ -2672,63 +2904,63 @@
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Grand Prix",
-    "startYear": 2000,
-    "endYear": 2003,
+    "make": "Pontiac",
+    "model": "B103-PT B103-PT B103-PT B103-PHT nia",
+    "startYear": 6905,
+    "endYear": 6905,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Grand Prix 704602",
-    "startYear": 2000,
-    "endYear": 2001,
+    "make": "Pontiac",
+    "model": "B99-PT B99-PT B99-PT B99-PHT n/a",
+    "startYear": 5928,
+    "endYear": 5928,
     "fccId": "KOBLEARIXT",
     "freq": "Unknown"
   },
   {
-    "make": "GM",
-    "model": "Grand Prix 704602",
-    "startYear": 2000,
-    "endYear": 2001,
+    "make": "Pontiac",
+    "model": "B99-PT B99-PT B99-PT B99-PHT n/a",
+    "startYear": 5928,
+    "endYear": 5928,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Bonneville",
-    "startYear": 2000,
-    "endYear": 2005,
+    "make": "Pontiac",
+    "model": "B99-PT B99-PT B99-PT B99-PHT nla",
+    "startYear": 5928,
+    "endYear": 5928,
     "fccId": "KOBLEARIXT",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Bonneville",
-    "startYear": 2000,
-    "endYear": 2005,
+    "make": "Pontiac",
+    "model": "B99-PT B99-PT B99-PT B99-PHT nla",
+    "startYear": 5928,
+    "endYear": 5928,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "DeVille",
-    "startYear": 2000,
-    "endYear": 2005,
+    "make": "Cadillac",
+    "model": "B99-PT B99-PT B99-PT B99-PHT TPO5GM28P",
+    "startYear": 5928,
+    "endYear": 5928,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "DeVille",
-    "startYear": 2000,
-    "endYear": 2005,
+    "make": "Cadillac",
+    "model": "B99-PT B99-PT B99-PT B99-PHT TPO5GM28P",
+    "startYear": 5928,
+    "endYear": 5928,
     "fccId": "KOBLEARIXT",
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Pontiac",
     "model": "Grand Prix",
     "startYear": 2004,
     "endYear": 2008,
@@ -2736,7 +2968,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Buick",
     "model": "LaCrosse",
     "startYear": 2005,
     "endYear": 2009,
@@ -2744,7 +2976,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Cadillac",
     "model": "CTS",
     "startYear": 2003,
     "endYear": 2007,
@@ -2752,7 +2984,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "GMC",
     "model": "Express Van",
     "startYear": 2008,
     "endYear": 2014,
@@ -2760,7 +2992,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "GMC",
     "model": "Express Van",
     "startYear": 2008,
     "endYear": 2014,
@@ -2768,7 +3000,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "GMC",
     "model": "Savanna Van",
     "startYear": 2008,
     "endYear": 2014,
@@ -2776,7 +3008,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "GMC",
     "model": "Savanna Van",
     "startYear": 2008,
     "endYear": 2014,
@@ -2784,15 +3016,15 @@
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Catera",
-    "startYear": 1997,
-    "endYear": 2001,
+    "make": "Cadillac",
+    "model": "NATL-CAT-KEY n/a n/a n/a n/a n/a",
+    "startYear": 9054,
+    "endYear": 9054,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Buick",
     "model": "Lucerne",
     "startYear": 2006,
     "endYear": 2011,
@@ -2800,7 +3032,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Buick",
     "model": "Lucerne",
     "startYear": 2006,
     "endYear": 2011,
@@ -2808,15 +3040,23 @@
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Lucerne",
-    "startYear": 2006,
-    "endYear": 2011,
+    "make": "Saturn",
+    "model": "ere",
+    "startYear": 2008,
+    "endYear": 2017,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "Saturn",
+    "model": "ere",
+    "startYear": 2008,
+    "endYear": 2017,
     "fccId": "OUC60221",
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Saturn",
     "model": "Malibu",
     "startYear": 2004,
     "endYear": 2005,
@@ -2824,7 +3064,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Cadillac",
     "model": "SRX",
     "startYear": 2004,
     "endYear": 2006,
@@ -2832,7 +3072,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Cadillac",
     "model": "SRX",
     "startYear": 2004,
     "endYear": 2006,
@@ -2840,7 +3080,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Cadillac",
     "model": "SRX  acial",
     "startYear": 2007,
     "endYear": 2009,
@@ -2848,7 +3088,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Cadillac",
     "model": "DTS",
     "startYear": 2006,
     "endYear": 2011,
@@ -2856,7 +3096,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Cadillac",
     "model": "DTS",
     "startYear": 2006,
     "endYear": 2011,
@@ -2864,7 +3104,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Cadillac",
     "model": "DTS",
     "startYear": 2006,
     "endYear": 2011,
@@ -2872,7 +3112,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Cadillac",
     "model": "DTS",
     "startYear": 2006,
     "endYear": 2011,
@@ -2880,7 +3120,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Cadillac",
     "model": "Escalade",
     "startYear": 2007,
     "endYear": 2014,
@@ -2888,7 +3128,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Cadillac",
     "model": "Escalade",
     "startYear": 2007,
     "endYear": 2014,
@@ -2896,7 +3136,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Cadillac",
     "model": "Escalade 709271",
     "startYear": 2007,
     "endYear": 2014,
@@ -2904,7 +3144,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Cadillac",
     "model": "Escalade 709271",
     "startYear": 2007,
     "endYear": 2014,
@@ -2912,7 +3152,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Cadillac",
     "model": "Escalade 709271",
     "startYear": 2007,
     "endYear": 2014,
@@ -2920,23 +3160,23 @@
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "G6",
-    "startYear": 2005,
-    "endYear": 2010,
+    "make": "Pontiac",
+    "model": "Bil1-PTS BB112-PT Bii1-PT B1i2-CP-PHT TP12GM37P",
+    "startYear": 5928,
+    "endYear": 5928,
     "fccId": "KOBGTO4A",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "G6",
-    "startYear": 2005,
-    "endYear": 2010,
+    "make": "Pontiac",
+    "model": "Bil1-PTS BB112-PT Bii1-PT B1i2-CP-PHT TP12GM37P",
+    "startYear": 5928,
+    "endYear": 5928,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Pontiac",
     "model": "forrent",
     "startYear": 2007,
     "endYear": 2010,
@@ -2944,7 +3184,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Pontiac",
     "model": "forrent",
     "startYear": 2007,
     "endYear": 2010,
@@ -2952,15 +3192,15 @@
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Solstice",
-    "startYear": 2006,
-    "endYear": 2010,
+    "make": "Pontiac",
+    "model": "BI11-PTS BB112-PT Bil1-PT B1i2-CP-PHT TP12GM37P",
+    "startYear": 5928,
+    "endYear": 5928,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Pontiac",
     "model": "G5",
     "startYear": 2007,
     "endYear": 2010,
@@ -2968,7 +3208,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Pontiac",
     "model": "Cobalt",
     "startYear": 2006,
     "endYear": 2010,
@@ -2976,15 +3216,15 @@
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Malibu",
-    "startYear": 2006,
-    "endYear": 2012,
+    "make": "Pontiac",
+    "model": "MALIBU",
+    "startYear": 2008,
+    "endYear": 2008,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Saturn",
     "model": "Aura",
     "startYear": 2007,
     "endYear": 2009,
@@ -2992,7 +3232,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Saturn",
     "model": "Aura",
     "startYear": 2007,
     "endYear": 2009,
@@ -3000,31 +3240,47 @@
     "freq": "Unknown"
   },
   {
-    "make": "GM",
-    "model": "Aura",
-    "startYear": 2007,
-    "endYear": 2009,
+    "make": "GMC",
+    "model": "Strattec",
+    "startYear": 5927,
+    "endYear": 5927,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "GMC",
+    "model": "Strattec",
+    "startYear": 5927,
+    "endYear": 5927,
     "fccId": "OUC60221",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Aura",
-    "startYear": 2007,
-    "endYear": 2009,
+    "make": "GMC",
+    "model": "Strattec",
+    "startYear": 5927,
+    "endYear": 5927,
     "fccId": "0UC60221",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Aura",
-    "startYear": 2007,
-    "endYear": 2009,
+    "make": "GMC",
+    "model": "BI11-PTS BB112-PT B111-PT B112-CP-PHT TP12GM37P",
+    "startYear": 5928,
+    "endYear": 5928,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "GMC",
+    "model": "BI11-PTS BB112-PT B111-PT B112-CP-PHT TP12GM37P",
+    "startYear": 5928,
+    "endYear": 5928,
     "fccId": "OUC60270",
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "GMC",
     "model": "Monte Carlo",
     "startYear": 2006,
     "endYear": 2007,
@@ -3032,7 +3288,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "GMC",
     "model": "Monte Carlo",
     "startYear": 2006,
     "endYear": 2007,
@@ -3040,23 +3296,23 @@
     "freq": "Unknown"
   },
   {
-    "make": "GM",
-    "model": "Impala",
-    "startYear": 2006,
-    "endYear": 2013,
+    "make": "GMC",
+    "model": "B111-PTS BB112-PT Bil1-PT B1l2-CP-PHT FP12GM37P",
+    "startYear": 5928,
+    "endYear": 5928,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Impala",
-    "startYear": 2006,
-    "endYear": 2013,
+    "make": "GMC",
+    "model": "B111-PTS BB112-PT Bil1-PT B1l2-CP-PHT FP12GM37P",
+    "startYear": 5928,
+    "endYear": 5928,
     "fccId": "OUC60221",
     "freq": "Unknown"
   },
   {
-    "make": "GM",
+    "make": "Cadillac",
     "model": "CTS 2",
     "startYear": 2008,
     "endYear": 2013,
@@ -3064,7 +3320,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Cadillac",
     "model": "Corvette",
     "startYear": 2005,
     "endYear": 2013,
@@ -3072,7 +3328,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Cadillac",
     "model": "STS",
     "startYear": 2005,
     "endYear": 2011,
@@ -3080,15 +3336,15 @@
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "XLR",
-    "startYear": 2004,
+    "make": "Cadillac",
+    "model": "> There was",
+    "startYear": 2008,
     "endYear": 2009,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Cadillac",
     "model": "CTS-V",
     "startYear": 2014,
     "endYear": 2015,
@@ -3096,15 +3352,15 @@
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "- There are 7 tumblers in the door lock with NO sidebar",
-    "startYear": 2010,
-    "endYear": 2015,
+    "make": "Pontiac",
+    "model": "> >",
+    "startYear": 2004,
+    "endYear": 2008,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Hummer",
     "model": "Spark",
     "startYear": 2015,
     "endYear": 2015,
@@ -3112,15 +3368,15 @@
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Astra  ae",
-    "startYear": 2008,
-    "endYear": 2008,
+    "make": "Saturn",
+    "model": "B120-PT B120-PT B120-PT B121-PHT nla",
+    "startYear": 5928,
+    "endYear": 5928,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Saturn",
     "model": "Astra",
     "startYear": 2008,
     "endYear": 2008,
@@ -3128,14 +3384,6 @@
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Canyon Pick Up",
-    "startYear": 2015,
-    "endYear": 2021,
-    "fccId": "Info",
-    "freq": "315"
-  },
-  {
     "make": "GMC",
     "model": "Canyon Pick Up",
     "startYear": 2015,
@@ -3144,15 +3392,23 @@
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Canyon Pick Up",
+    "make": "Buick",
+    "model": "om)",
+    "startYear": 2015,
+    "endYear": 2021,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "Buick",
+    "model": "om)",
     "startYear": 2015,
     "endYear": 2021,
     "fccId": "AVL-BOITIAC",
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "GMC",
     "model": "Trax No listing from Strattec",
     "startYear": 2014,
     "endYear": 2018,
@@ -3160,7 +3416,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "GMC",
     "model": "Trax No listing from Strattec",
     "startYear": 2014,
     "endYear": 2018,
@@ -3168,7 +3424,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "GMC",
     "model": "Trax No listing from Strattec",
     "startYear": 2014,
     "endYear": 2018,
@@ -3176,7 +3432,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "GMC",
     "model": "Trax No listing from Strattec",
     "startYear": 2014,
     "endYear": 2018,
@@ -3184,7 +3440,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Buick",
     "model": "Terrain 7012918 7012919 - 7023068",
     "startYear": 2010,
     "endYear": 2017,
@@ -3192,31 +3448,39 @@
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Terrain 7012918 7012919 - 7023068",
-    "startYear": 2010,
-    "endYear": 2017,
+    "make": "Buick",
+    "model": "Strattec",
+    "startYear": 5912,
+    "endYear": 5912,
     "fccId": "KR55WK50073",
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Sierra Pick Up",
-    "startYear": 2014,
-    "endYear": 2019,
+    "make": "GMC",
+    "model": "Strattec",
+    "startYear": 5912,
+    "endYear": 5912,
     "fccId": "Info",
     "freq": "315"
   },
   {
     "make": "GMC",
-    "model": "Sierra Pick Up",
-    "startYear": 2014,
-    "endYear": 2019,
+    "model": "MASTER V",
+    "startYear": 1,
+    "endYear": 5718,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "GMC",
+    "model": "n/a",
+    "startYear": 7022,
+    "endYear": 7022,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "GMC",
     "model": "Spark chen)",
     "startYear": 2016,
     "endYear": 2018,
@@ -3232,7 +3496,7 @@
     "freq": "304"
   },
   {
-    "make": "GM",
+    "make": "Pontiac",
     "model": "G8",
     "startYear": 2008,
     "endYear": 2009,
@@ -3240,15 +3504,15 @@
     "freq": "315"
   },
   {
-    "make": "GM",
-    "model": "Vibe",
-    "startYear": 2003,
+    "make": "Pontiac",
+    "model": "= | >",
+    "startYear": 2009,
     "endYear": 2010,
     "fccId": "Info",
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Pontiac",
     "model": "City Express Van",
     "startYear": 2016,
     "endYear": 2018,
@@ -3256,7 +3520,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Pontiac",
     "model": "Spark",
     "startYear": 2019,
     "endYear": 2021,
@@ -3264,7 +3528,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Pontiac",
     "model": "Spark",
     "startYear": 2019,
     "endYear": 2021,
@@ -3272,7 +3536,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Pontiac",
     "model": "Spark",
     "startYear": 2019,
     "endYear": 2021,
@@ -3280,7 +3544,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Pontiac",
     "model": "Spark",
     "startYear": 2019,
     "endYear": 2021,
@@ -3288,7 +3552,23 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Buick",
+    "model": "Strattec",
+    "startYear": 5921,
+    "endYear": 5921,
+    "fccId": "OHT01060512",
+    "freq": "Unknown"
+  },
+  {
+    "make": "Buick",
+    "model": "Strattec",
+    "startYear": 5921,
+    "endYear": 5921,
+    "fccId": "OHTO1060512",
+    "freq": "315"
+  },
+  {
+    "make": "Cadillac",
     "model": "Regal",
     "startYear": 2011,
     "endYear": 2017,
@@ -3296,7 +3576,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Cadillac",
     "model": "Regal",
     "startYear": 2011,
     "endYear": 2017,
@@ -3304,7 +3584,7 @@
     "freq": "Unknown"
   },
   {
-    "make": "GM",
+    "make": "Buick",
     "model": "Regal Sportback",
     "startYear": 2018,
     "endYear": 2020,
@@ -3320,23 +3600,7 @@
     "freq": "Unknown"
   },
   {
-    "make": "Buick",
-    "model": "Regal Sportback",
-    "startYear": 2018,
-    "endYear": 2020,
-    "fccId": "Info",
-    "freq": "433"
-  },
-  {
-    "make": "GM",
-    "model": "Regal TourX No listing from Strattec",
-    "startYear": 2018,
-    "endYear": 2020,
-    "fccId": "Info",
-    "freq": "433"
-  },
-  {
-    "make": "GM",
+    "make": "GMC",
     "model": "Camaro",
     "startYear": 2016,
     "endYear": 2021,
@@ -3344,7 +3608,7 @@
     "freq": "433"
   },
   {
-    "make": "GM",
+    "make": "GMC",
     "model": "Camaro",
     "startYear": 2016,
     "endYear": 2021,
@@ -3352,7 +3616,7 @@
     "freq": "433"
   },
   {
-    "make": "GM",
+    "make": "GMC",
     "model": "Bolt",
     "startYear": 2017,
     "endYear": 2022,
@@ -3360,7 +3624,7 @@
     "freq": "433"
   },
   {
-    "make": "GM",
+    "make": "GMC",
     "model": "Bolt",
     "startYear": 2017,
     "endYear": 2022,
@@ -3368,7 +3632,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "GMC",
     "model": "Traverse",
     "startYear": 2018,
     "endYear": 2021,
@@ -3376,7 +3640,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "GMC",
     "model": "Traverse",
     "startYear": 2018,
     "endYear": 2021,
@@ -3384,7 +3648,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Cadillac",
     "model": "CTS",
     "startYear": 2016,
     "endYear": 2019,
@@ -3392,7 +3656,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Cadillac",
     "model": "XTS",
     "startYear": 2020,
     "endYear": 2021,
@@ -3400,7 +3664,7 @@
     "freq": "315"
   },
   {
-    "make": "GM",
+    "make": "Cadillac",
     "model": "C14",
     "startYear": 2020,
     "endYear": 2021,
@@ -3408,7 +3672,7 @@
     "freq": "433"
   },
   {
-    "make": "GM",
+    "make": "GMC",
     "model": "Sierra",
     "startYear": 2019,
     "endYear": 2021,
@@ -3416,7 +3680,7 @@
     "freq": "433"
   },
   {
-    "make": "GM",
+    "make": "GMC",
     "model": "Sierra Pick Up",
     "startYear": 2020,
     "endYear": 2021,
@@ -3513,9 +3777,9 @@
   },
   {
     "make": "Kia",
-    "model": "Optima Hybrid",
-    "startYear": 2017,
-    "endYear": 2020,
+    "model": "(23 Fa cee (E",
+    "startYear": 8199,
+    "endYear": 8199,
     "fccId": "Info",
     "freq": "433"
   },
@@ -3545,9 +3809,9 @@
   },
   {
     "make": "Kia",
-    "model": "Carnival",
-    "startYear": 2021,
-    "endYear": 2022,
+    "model": "CARNIVAL",
+    "startYear": 9544,
+    "endYear": 9544,
     "fccId": "eoue5e",
     "freq": "Unknown"
   },
@@ -3561,9 +3825,17 @@
   },
   {
     "make": "Kia",
-    "model": "Soul",
-    "startYear": 2020,
-    "endYear": 2021,
+    "model": "Cor UM",
+    "startYear": 1001,
+    "endYear": 3500,
+    "fccId": "Info",
+    "freq": "316"
+  },
+  {
+    "make": "Kia",
+    "model": "Cor UM",
+    "startYear": 1001,
+    "endYear": 3500,
     "fccId": "T08-FOB-4F06",
     "freq": "433"
   },
@@ -3729,17 +4001,17 @@
   },
   {
     "make": "Kia",
-    "model": "NATIONAL",
-    "startYear": 2007,
-    "endYear": 2009,
+    "model": "sar",
+    "startYear": 2004,
+    "endYear": 2006,
     "fccId": "Info",
     "freq": "315"
   },
   {
     "make": "Hyundai",
-    "model": "Accent (Hyundai 2013-17 Elantra Coupe",
-    "startYear": 2012,
-    "endYear": 2017,
+    "model": "XorT",
+    "startYear": 1001,
+    "endYear": 3500,
     "fccId": "Info",
     "freq": "433"
   },
@@ -3753,17 +4025,17 @@
   },
   {
     "make": "Kia",
-    "model": "Spectra",
-    "startYear": 1998,
-    "endYear": 2004,
+    "model": "master | Y",
+    "startYear": 2001,
+    "endYear": 3000,
     "fccId": "Info",
     "freq": "314"
   },
   {
     "make": "Kia",
-    "model": "Spectra",
-    "startYear": 1998,
-    "endYear": 2004,
+    "model": "Code Series: Y",
+    "startYear": 2001,
+    "endYear": 3000,
     "fccId": "CCHS",
     "freq": "Unknown"
   },
@@ -3825,25 +4097,25 @@
   },
   {
     "make": "Kia",
-    "model": "Tucson",
-    "startYear": 2015,
-    "endYear": 2021,
+    "model": "_| > Mike's Tip: Kia Sportage",
+    "startYear": 2011,
+    "endYear": 2016,
     "fccId": "Info",
     "freq": "315"
   },
   {
     "make": "Kia",
-    "model": "Tucson",
-    "startYear": 2015,
-    "endYear": 2021,
+    "model": "_| > Mike's Tip: Kia Sportage",
+    "startYear": 2011,
+    "endYear": 2016,
     "fccId": "NYOSEKSAMIIATX",
     "freq": "315"
   },
   {
     "make": "Kia",
-    "model": "Tucson",
-    "startYear": 2015,
-    "endYear": 2021,
+    "model": "_| > Mike's Tip: Kia Sportage",
+    "startYear": 2011,
+    "endYear": 2016,
     "fccId": "info",
     "freq": "433"
   },
@@ -3897,17 +4169,9 @@
   },
   {
     "make": "Kia",
-    "model": "Sorento",
-    "startYear": 2015,
-    "endYear": 2019,
-    "fccId": "Info",
-    "freq": "433"
-  },
-  {
-    "make": "Kia",
-    "model": "Sorento",
-    "startYear": 2015,
-    "endYear": 2019,
+    "model": "Cor UM",
+    "startYear": 1001,
+    "endYear": 3500,
     "fccId": "OSLOKA-S10T",
     "freq": "Unknown"
   },
@@ -3977,17 +4241,17 @@
   },
   {
     "make": "Land Rover",
-    "model": "Discovery",
-    "startYear": 1994,
-    "endYear": 2004,
+    "model": "MASTER | NSP",
+    "startYear": 7000,
+    "endYear": 9000,
     "fccId": "Info",
     "freq": "315"
   },
   {
     "make": "Land Rover",
-    "model": "Discovery",
-    "startYear": 1994,
-    "endYear": 2004,
+    "model": "Code Series: NSP",
+    "startYear": 7000,
+    "endYear": 9060,
     "fccId": "SCS",
     "freq": "Unknown"
   },
@@ -3996,6 +4260,14 @@
     "model": "oer",
     "startYear": 7000,
     "endYear": 9000,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "Land Rover",
+    "model": "tip to work smoothly on",
+    "startYear": 2000,
+    "endYear": 2000,
     "fccId": "Info",
     "freq": "315"
   },
@@ -4017,25 +4289,33 @@
   },
   {
     "make": "Jaguar",
-    "model": "LR3",
-    "startYear": 2005,
-    "endYear": 2009,
+    "model": "Code Series: E",
+    "startYear": 8000,
+    "endYear": 9000,
     "fccId": "Info",
     "freq": "Unknown"
   },
   {
     "make": "Jaguar",
-    "model": "S-Type",
-    "startYear": 2000,
-    "endYear": 2008,
+    "model": "DBC10084 (some",
+    "startYear": 1993,
+    "endYear": 1995,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "Jaguar",
+    "model": "XJ Series - CAN",
+    "startYear": 2004,
+    "endYear": 2009,
     "fccId": "Info",
     "freq": "314.5"
   },
   {
     "make": "Land Rover",
-    "model": "or 4000-9000",
-    "startYear": 1,
-    "endYear": 4000,
+    "model": "Code Series: 001-4000 or",
+    "startYear": 4000,
+    "endYear": 9000,
     "fccId": "Info",
     "freq": "Unknown"
   },
@@ -4049,9 +4329,9 @@
   },
   {
     "make": "Lexus",
-    "model": "Key TOY-29 48",
-    "startYear": 2007,
-    "endYear": 2019,
+    "model": "Yaris IA",
+    "startYear": 2017,
+    "endYear": 2020,
     "fccId": "Info",
     "freq": "314"
   },
@@ -4089,17 +4369,17 @@
   },
   {
     "make": "Lexus",
-    "model": "- 2006-08 mid",
+    "model": "> 2 =",
     "startYear": 2010,
-    "endYear": 2019,
+    "endYear": 2015,
     "fccId": "Info",
     "freq": "315"
   },
   {
     "make": "Lexus",
-    "model": "Is 250C",
-    "startYear": 2010,
-    "endYear": 2015,
+    "model": "Ze Mid year change for",
+    "startYear": 2008,
+    "endYear": 2008,
     "fccId": "e0o",
     "freq": "Unknown"
   },
@@ -4249,25 +4529,25 @@
   },
   {
     "make": "Toyota",
-    "model": "Highlander",
-    "startYear": 2001,
-    "endYear": 2003,
+    "model": "> Camry Tip: There are variations for",
+    "startYear": 2002,
+    "endYear": 2006,
     "fccId": "Info",
     "freq": "315"
   },
   {
     "make": "Toyota",
-    "model": "Highlander",
-    "startYear": 2001,
-    "endYear": 2003,
+    "model": "> Camry Tip: There are variations for",
+    "startYear": 2002,
+    "endYear": 2006,
     "fccId": "HYQI2BBX",
     "freq": "314"
   },
   {
     "make": "Toyota",
-    "model": "Highlander",
-    "startYear": 2001,
-    "endYear": 2003,
+    "model": "> Camry Tip: There are variations for",
+    "startYear": 2002,
+    "endYear": 2006,
     "fccId": "GQ43V120T",
     "freq": "315"
   },
@@ -4353,17 +4633,17 @@
   },
   {
     "make": "Toyota",
-    "model": "Highlander",
-    "startYear": 2011,
-    "endYear": 2013,
+    "model": "More NOTE about Toyota",
+    "startYear": 2010,
+    "endYear": 2010,
     "fccId": "Info",
     "freq": "315"
   },
   {
     "make": "Toyota",
-    "model": "Highlander",
-    "startYear": 2011,
-    "endYear": 2013,
+    "model": "More NOTE about Toyota",
+    "startYear": 2010,
+    "endYear": 2010,
     "fccId": "HYQI2BDM",
     "freq": "315"
   },
@@ -4712,6 +4992,54 @@
     "freq": "315"
   },
   {
+    "make": "Chevrolet",
+    "model": "Astra",
+    "startYear": 2004,
+    "endYear": 2006,
+    "fccId": "ionar",
+    "freq": "Unknown"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Aveo",
+    "startYear": 2008,
+    "endYear": 2018,
+    "fccId": "ionar",
+    "freq": "Unknown"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Beat",
+    "startYear": 2017,
+    "endYear": 2022,
+    "fccId": "ionar",
+    "freq": "Unknown"
+  },
+  {
+    "make": "Buick",
+    "model": "Colorado",
+    "startYear": 2004,
+    "endYear": 2012,
+    "fccId": "ionar",
+    "freq": "Unknown"
+  },
+  {
+    "make": "Buick",
+    "model": "Optra",
+    "startYear": 2006,
+    "endYear": 2011,
+    "fccId": "ionar",
+    "freq": "Unknown"
+  },
+  {
+    "make": "GMC",
+    "model": "Canyon",
+    "startYear": 2004,
+    "endYear": 2012,
+    "fccId": "ionar",
+    "freq": "Unknown"
+  },
+  {
     "make": "Mazda",
     "model": "Navajo",
     "startYear": 1991,
@@ -4769,17 +5097,25 @@
   },
   {
     "make": "Mazda",
-    "model": "Millenia",
-    "startYear": 1995,
-    "endYear": 2002,
+    "model": "More |»",
+    "startYear": 1988,
+    "endYear": 1031,
     "fccId": "Info",
     "freq": "315"
   },
   {
     "make": "Mazda",
-    "model": "MX-5 Miata",
-    "startYear": 2000,
-    "endYear": 2003,
+    "model": "info> |»",
+    "startYear": 1988,
+    "endYear": 1012,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "Mazda",
+    "model": "wenn",
+    "startYear": 1010,
+    "endYear": 1010,
     "fccId": "Info",
     "freq": "315"
   },
@@ -4857,6 +5193,14 @@
   },
   {
     "make": "Mazda",
+    "model": "Mazda 3",
+    "startYear": 2019,
+    "endYear": 2021,
+    "fccId": "Info",
+    "freq": "315"
+  },
+  {
+    "make": "Mazda",
     "model": "Protege",
     "startYear": 1990,
     "endYear": 2003,
@@ -4897,33 +5241,33 @@
   },
   {
     "make": "Mazda",
-    "model": "Lancer 1993-02 Mirage",
-    "startYear": 2002,
-    "endYear": 2006,
+    "model": "/-",
+    "startYear": 3001,
+    "endYear": 3001,
     "fccId": "Info",
     "freq": "314"
   },
   {
     "make": "Mazda",
-    "model": "Fuso",
-    "startYear": 1985,
-    "endYear": 1996,
+    "model": "Code Series:",
+    "startYear": 8100,
+    "endYear": 9113,
     "fccId": "oucasD-",
     "freq": "Unknown"
   },
   {
     "make": "Mazda",
-    "model": "Fuso",
-    "startYear": 1985,
-    "endYear": 1996,
+    "model": "Code Series:",
+    "startYear": 8100,
+    "endYear": 9113,
     "fccId": "Info",
     "freq": "Unknown"
   },
   {
     "make": "Mazda",
-    "model": "Fuso",
-    "startYear": 1985,
-    "endYear": 1996,
+    "model": "Code Series:",
+    "startYear": 8100,
+    "endYear": 9113,
     "fccId": "OUCG8D-",
     "freq": "Unknown"
   },
@@ -4953,26 +5297,34 @@
   },
   {
     "make": "Mazda",
-    "model": "Eclipse 2004-05 Endeavor",
-    "startYear": 2000,
-    "endYear": 2005,
+    "model": "STRATTEC",
+    "startYear": 6925,
+    "endYear": 6925,
     "fccId": "Info",
     "freq": "315"
   },
   {
     "make": "Mazda",
-    "model": "Eclipse 2004-05 Endeavor",
-    "startYear": 2000,
-    "endYear": 2005,
+    "model": "STRATTEC",
+    "startYear": 6925,
+    "endYear": 6925,
     "fccId": "OUCG8D-525M-A",
     "freq": "314"
   },
   {
     "make": "Mazda",
-    "model": "Eclipse 2004-05 Endeavor",
-    "startYear": 2000,
-    "endYear": 2005,
+    "model": "STRATTEC",
+    "startYear": 6925,
+    "endYear": 6925,
     "fccId": "OUCG8D-525M-",
+    "freq": "314"
+  },
+  {
+    "make": "Mazda",
+    "model": "-STRATTEC",
+    "startYear": 6925,
+    "endYear": 6925,
+    "fccId": "Info",
     "freq": "314"
   },
   {
@@ -5025,33 +5377,33 @@
   },
   {
     "make": "Mitsubishi",
-    "model": "Lancer 1993-02 Mirage",
-    "startYear": 2002,
-    "endYear": 2006,
+    "model": "/-",
+    "startYear": 3001,
+    "endYear": 3001,
     "fccId": "Info",
     "freq": "314"
   },
   {
     "make": "Mitsubishi",
-    "model": "Fuso",
-    "startYear": 1985,
-    "endYear": 1996,
+    "model": "Code Series:",
+    "startYear": 8100,
+    "endYear": 9113,
     "fccId": "oucasD-",
     "freq": "Unknown"
   },
   {
     "make": "Mitsubishi",
-    "model": "Fuso",
-    "startYear": 1985,
-    "endYear": 1996,
+    "model": "Code Series:",
+    "startYear": 8100,
+    "endYear": 9113,
     "fccId": "Info",
     "freq": "Unknown"
   },
   {
     "make": "Mitsubishi",
-    "model": "Fuso",
-    "startYear": 1985,
-    "endYear": 1996,
+    "model": "Code Series:",
+    "startYear": 8100,
+    "endYear": 9113,
     "fccId": "OUCG8D-",
     "freq": "Unknown"
   },
@@ -5081,26 +5433,34 @@
   },
   {
     "make": "Mitsubishi",
-    "model": "Eclipse 2004-05 Endeavor",
-    "startYear": 2000,
-    "endYear": 2005,
+    "model": "STRATTEC",
+    "startYear": 6925,
+    "endYear": 6925,
     "fccId": "Info",
     "freq": "315"
   },
   {
     "make": "Mitsubishi",
-    "model": "Eclipse 2004-05 Endeavor",
-    "startYear": 2000,
-    "endYear": 2005,
+    "model": "STRATTEC",
+    "startYear": 6925,
+    "endYear": 6925,
     "fccId": "OUCG8D-525M-A",
     "freq": "314"
   },
   {
     "make": "Mitsubishi",
-    "model": "Eclipse 2004-05 Endeavor",
-    "startYear": 2000,
-    "endYear": 2005,
+    "model": "STRATTEC",
+    "startYear": 6925,
+    "endYear": 6925,
     "fccId": "OUCG8D-525M-",
+    "freq": "314"
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "-STRATTEC",
+    "startYear": 6925,
+    "endYear": 6925,
+    "fccId": "Info",
     "freq": "314"
   },
   {
@@ -5329,9 +5689,9 @@
   },
   {
     "make": "Nissan",
-    "model": "Pathfinder",
-    "startYear": 2007,
-    "endYear": 2012,
+    "model": "ge",
+    "startYear": 2021,
+    "endYear": 2021,
     "fccId": "Info",
     "freq": "315"
   },
@@ -5393,17 +5753,17 @@
   },
   {
     "make": "Nissan",
-    "model": "JX35 (nfit",
-    "startYear": 2013,
-    "endYear": 2013,
+    "model": "oeoeoaxe",
+    "startYear": 20,
+    "endYear": 20,
     "fccId": "KR55WK48903",
     "freq": "315"
   },
   {
     "make": "Nissan",
-    "model": "JX35 (nfit",
-    "startYear": 2013,
-    "endYear": 2013,
+    "model": "oeoeoaxe",
+    "startYear": 20,
+    "endYear": 20,
     "fccId": "Info",
     "freq": "315"
   },
@@ -5729,17 +6089,17 @@
   },
   {
     "make": "Volvo",
-    "model": "S40 2000-04 V40",
-    "startYear": 2000,
-    "endYear": 2004,
+    "model": "eadd",
+    "startYear": 3066,
+    "endYear": 3066,
     "fccId": "info",
     "freq": "314"
   },
   {
     "make": "Volvo",
-    "model": "S40 2000-04 V40",
-    "startYear": 2000,
-    "endYear": 2004,
+    "model": "eadd",
+    "startYear": 3066,
+    "endYear": 3066,
     "fccId": "Info",
     "freq": "314"
   },

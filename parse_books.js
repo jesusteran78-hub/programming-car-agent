@@ -11,8 +11,9 @@ const FILES_MAP = {
     'chevy-dodge-jeep.txt': ['Chevrolet', 'Dodge', 'Jeep', 'Chrysler', 'Ram'],
     'fiat-alfa romero.txt': ['Fiat', 'Alfa Romeo'],
     'ford-lincoln-mercury.txt': ['Ford', 'Lincoln', 'Mercury'],
-    'gm.txt': ['GM', 'Buick', 'Cadillac', 'Chevrolet', 'GMC', 'Hummer', 'Oldsmobile', 'Pontiac', 'Saturn'],
-    'gm,txt': ['GM', 'Buick', 'Cadillac', 'Chevrolet', 'GMC', 'Hummer', 'Oldsmobile', 'Pontiac', 'Saturn'],
+    'gm.txt': ['Buick', 'Cadillac', 'Chevrolet', 'GMC', 'Hummer', 'Oldsmobile', 'Pontiac', 'Saturn'],
+    'gm,txt': ['Buick', 'Cadillac', 'Chevrolet', 'GMC', 'Hummer', 'Oldsmobile', 'Pontiac', 'Saturn'],
+    'libro_maestro_gm.txt': ['Chevrolet', 'Buick', 'Cadillac', 'GMC', 'Pontiac', 'Saturn'], // NEW GLOBAL GM BOOK
     'hyundai-kia.txt': ['Hyundai', 'Kia'],
     'jaguar-land rover.txt': ['Jaguar', 'Land Rover'],
     'lexus-scion-toyota.txt': ['Lexus', 'Scion', 'Toyota'],
@@ -64,11 +65,13 @@ function processFile(filename) {
     let currentStartYear = 0;
     let currentEndYear = 0;
 
-    const isDebug = filename.includes('acura');
+    const isDebug = filename.includes('libro_maestro'); // Debug focus on new file
 
-    // Improved Regexes
-    // Heuristic: "2007-13 MDX" possibly followed by other text
-    const headerRegex = /^\s*(\d{4}(?:\s*-\s*\d{2,4})?)\s+([A-Z0-9\s\(\)\/-]+)/i;
+    // Regex 1: "2007-13 MDX" (Year First)
+    const headerRegexYearFirst = /^\s*(\d{4}(?:\s*-\s*\d{2,4})?)\s+([A-Z0-9\s\(\)\/-]+)/i;
+    // Regex 2: "Astra 2000-2003" (Model First)
+    // Removed $ anchor to handle trailing noise/comments/CRLF issues better
+    const headerRegexModelFirst = /^\s*([A-Z0-9\s\(\)\/-]+?)\s+(\d{4}(?:\s*-\s*\d{2,4})?)/i;
 
     const fccRegex = /(?:FCC|ECC|FCC ID|ECC ID|FV-|FV\s|FOC)\s*[:\.]?\s*([A-Z0-9-]+)/i;
     const freqRegex = /(\d{3}(?:\.\d+)?)\s*MHz/i;
@@ -84,12 +87,35 @@ function processFile(filename) {
             }
         });
 
-        // Try to match Header
-        const headerMatch = line.match(headerRegex);
-        if (headerMatch) {
-            const yearRange = parseYearRange(headerMatch[1]);
-            let modelCandidate = headerMatch[2].trim();
+        // Try to match Headers
+        let yearRange = null;
+        let modelCandidate = null;
 
+        const matchYearFirst = line.match(headerRegexYearFirst);
+        const matchModelFirst = line.match(headerRegexModelFirst);
+
+        if (matchYearFirst) {
+            yearRange = parseYearRange(matchYearFirst[1]);
+            modelCandidate = matchYearFirst[2];
+        } else if (matchModelFirst) {
+            // Check if capture group 1 looks like a model and not just garbage
+            // "Astra 2000-2003" -> Model: Astra, Year: 2000-2003
+            yearRange = parseYearRange(matchModelFirst[2]);
+            modelCandidate = matchModelFirst[1];
+        }
+
+        // --- FALLBACK FOR GM BOOK ---
+        // If strict regex failed, but we see a clear year range like "2000-2005"
+        if (!yearRange && line.match(/\d{4}\s*-\s*\d{4}/)) {
+            const fallbackMatch = line.match(/(.*?)\s+(\d{4}\s*-\s*\d{4})/);
+            if (fallbackMatch) {
+                modelCandidate = fallbackMatch[1];
+                yearRange = parseYearRange(fallbackMatch[2]);
+                // console.log(`[DEBUG] Fallback Header: ${modelCandidate} [${fallbackMatch[2]}]`);
+            }
+        }
+
+        if (yearRange && modelCandidate) {
             // Clean up: stop at "Key", "Prox", "Remote"
             const cleanupRegex = /\s(Key|Prox|Remote|Fob|Smart|System).*/i;
             modelCandidate = modelCandidate.replace(cleanupRegex, '').trim();
@@ -97,7 +123,9 @@ function processFile(filename) {
 
             const isJustBrand = brands.some(b => b.toLowerCase() === modelCandidate.toLowerCase());
 
-            if (yearRange && modelCandidate.length > 1 && !isJustBrand && !modelCandidate.match(/^\d/)) {
+            // Extra validity check: Model shouldn't be too long or numeric
+            // Also ignore if model candidate is empty
+            if (modelCandidate.length > 1 && !isJustBrand && !modelCandidate.match(/^\d/)) {
                 currentStartYear = yearRange.start;
                 currentEndYear = yearRange.end;
                 currentModel = modelCandidate;
