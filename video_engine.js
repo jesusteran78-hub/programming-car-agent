@@ -1,6 +1,6 @@
 // 🎬 MOTOR DE VÍDEO VIRAL (REEMPLAZO DE N8N)
 // Workflow: OpenAI (Idea) -> KIE (Sora 2 Video) -> TTS Audio -> FFmpeg -> Blotato (Posting)
-// VERSION: 2.7 - Saludo "Hola Miami" al inicio del TTS
+// VERSION: 2.9 - Alex en audio y captions (wa.me/17864782531)
 
 const OpenAI = require('openai');
 const axios = require('axios');
@@ -17,7 +17,7 @@ const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
 // Log version on load
-console.log('🎬 video_engine.js v2.7 loaded - Saludo Hola Miami');
+console.log('🎬 video_engine.js v2.9 loaded - Alex en audio y captions');
 
 // Owner phone for notifications
 const OWNER_PHONE = process.env.OWNER_PHONE || '17868164874@s.whatsapp.net';
@@ -446,22 +446,34 @@ async function generateViralCaption(title, script) {
 
             Estructura esperada:
             {
-                "tiktok": "Texto corto + EXACTAMENTE 5 hashtags",
-                "instagram": "Texto estético + EXACTAMENTE 5 hashtags + llamado al link en bio",
-                "facebook": "Texto informativo + EXACTAMENTE 5 hashtags",
-                "youtube": "Título SEO + Descripción + EXACTAMENTE 5 hashtags",
-                "twitter": "Texto corto (max 280 chars) + EXACTAMENTE 5 hashtags"
+                "tiktok": "Texto corto + CTA + EXACTAMENTE 5 hashtags",
+                "instagram": "Texto estético + CTA + EXACTAMENTE 5 hashtags",
+                "facebook": "Texto informativo + CTA + EXACTAMENTE 5 hashtags",
+                "youtube": "Título SEO + Descripción + CTA + EXACTAMENTE 5 hashtags",
+                "twitter": "Texto corto (max 280 chars) + CTA + EXACTAMENTE 5 hashtags"
             }
+
+            REGLAS DE CTA (CALL TO ACTION) - OBLIGATORIO:
+            - SIEMPRE mencionar a "Alex" como el asistente que responde por WhatsApp
+            - SIEMPRE incluir el link de WhatsApp: wa.me/17864782531
+            - Ejemplos de CTA:
+              * "Escríbele a Alex: wa.me/17864782531"
+              * "Alex te atiende al momento: wa.me/17864782531"
+              * "Cotiza con Alex: wa.me/17864782531"
+              * "WhatsApp Alex: wa.me/17864782531"
+            - El CTA va ANTES de los hashtags
 
             REGLAS ESTRICTAS DE HASHTAGS:
             - SIEMPRE incluir EXACTAMENTE 5 hashtags en CADA plataforma
-            - Los hashtags van AL FINAL del texto
+            - Los hashtags van AL FINAL del texto (después del CTA)
             - Formato: #Hashtag1 #Hashtag2 #Hashtag3 #Hashtag4 #Hashtag5
             - Hashtags recomendados: #ProgrammingCar #MiamiLocksmith #CarKeys #AllKeysLost #LostCarKeys #AutoKeys #KeyFob #MiamiAuto
 
             Reglas del Negocio:
-            - Teléfono: 786-816-4874
+            - Asistente: Alex (responde por WhatsApp 24/7)
+            - WhatsApp de Alex: wa.me/17864782531
             - Ubicación: Miami-Dade & Broward
+            - Servicio MÓVIL - vamos a donde está el cliente
             - Tono: Profesional pero cercano, estilo Miami`,
       },
       {
@@ -634,13 +646,14 @@ REGLAS ESTRICTAS:
 1. El script debe durar MÁXIMO 15 segundos al hablarse
 2. SIEMPRE empieza con un saludo local: "¡Hola Miami!" o "¿Qué tal Miami?" o "Miami, ¿qué lo qué?"
 3. Después del saludo, menciona "Programming Car"
-4. SIEMPRE termina con el teléfono: "786-816-4874"
-5. Tono: Confiado, profesional, Miami latino
-6. NO uses emojis ni hashtags (esto es para TTS)
-7. Escribe en español Miami (puedes mezclar inglés si suena natural)
+4. SIEMPRE menciona a "Alex" como el asistente que responde: "Escríbele a Alex" o "Alex te atiende"
+5. SIEMPRE termina invitando a escribir a Alex por WhatsApp
+6. Tono: Confiado, profesional, Miami latino
+7. NO uses emojis ni hashtags (esto es para TTS)
+8. Escribe en español Miami (puedes mezclar inglés si suena natural)
 
 ESTRUCTURA:
-[Saludo Miami] + [Mensaje sobre el servicio con Programming Car] + [Teléfono]
+[Saludo Miami] + [Programming Car + servicio] + [Escríbele a Alex por WhatsApp]
 
 FORMATO:
 [Solo el texto del script, nada más]`,
@@ -658,8 +671,8 @@ FORMATO:
     return script;
   } catch (e) {
     logger.warn(`⚠️ Error generando script con GPT, usando fallback: ${e.message}`);
-    // Fallback simple con saludo Miami
-    return `¡Hola Miami! Aquí Programming Car, tu solución en llaves de auto. Llámanos al 786-816-4874.`;
+    // Fallback simple con saludo Miami y Alex
+    return `¡Hola Miami! Aquí Programming Car, tu solución en llaves de auto. Escríbele a Alex por WhatsApp y te atiende al momento.`;
   }
 }
 
