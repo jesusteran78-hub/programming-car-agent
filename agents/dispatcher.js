@@ -12,9 +12,10 @@ const logger = require('../logger');
 /**
  * Process a command from the owner
  * @param {string} message - Full message from owner
+ * @param {string|null} imageUrl - Optional image URL from WhatsApp
  * @returns {Promise<{handled: boolean, response?: string, department?: string}>}
  */
-async function processOwnerCommand(message) {
+async function processOwnerCommand(message, imageUrl = null) {
   const lowerMsg = message.toLowerCase().trim();
 
   // Help command
@@ -71,7 +72,7 @@ async function processOwnerCommand(message) {
           response = await processVentasCommand(subCommand);
           break;
         case 'marketing':
-          response = await processMarketingCommand(subCommand);
+          response = await processMarketingCommand(subCommand, imageUrl);
           break;
         case 'operaciones':
           response = await processOperacionesCommand(subCommand);

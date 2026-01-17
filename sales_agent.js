@@ -170,7 +170,8 @@ app.post('/webhook', async (req, res) => {
       }
 
       // 2. Route through department dispatcher (ventas, marketing, operaciones, contabilidad)
-      const dispatchResult = await processOwnerCommand(userText);
+      // Pass image URL if present (for mkt video with image)
+      const dispatchResult = await processOwnerCommand(userText, userImage);
       if (dispatchResult.handled) {
         logger.info(`📬 Routed to ${dispatchResult.department}: "${userText.substring(0, 30)}..."`);
         await sendToWhapi(senderNumber, dispatchResult.response);

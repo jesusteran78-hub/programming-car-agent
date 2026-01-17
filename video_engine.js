@@ -70,11 +70,41 @@ async function generateViralVideo(title, idea, imageUrl, jobId = null) {
 
   let usedFallback = false;
   let kieErrorMsg = null;
+  let finalImageUrl = imageUrl || KIE_DEFAULT_IMAGE;
+  let enhancedPromptFromGemini = null;
 
   try {
+    // PASO 0: MEJORAR IMAGEN CON GEMINI (si hay imagen del usuario)
+    if (imageUrl && process.env.GEMINI_API_KEY) {
+      logger.info('🎨 0. Analizando imagen con Gemini para mejora UGC...');
+      try {
+        const { enhanceImageForVideo, uploadToCloudinary } = require('./image_enhancer');
+
+        // Subir imagen a Cloudinary para URL permanente
+        finalImageUrl = await uploadToCloudinary(imageUrl);
+
+        // Analizar y obtener prompt mejorado
+        const enhancement = await enhanceImageForVideo(finalImageUrl, idea);
+        if (enhancement.enhancedPrompt) {
+          enhancedPromptFromGemini = enhancement.enhancedPrompt;
+          logger.info(`✅ Gemini analizó: ${enhancement.productType || 'producto'}`);
+        }
+      } catch (geminiError) {
+        logger.warn(`⚠️ Gemini falló, usando imagen original: ${geminiError.message}`);
+        finalImageUrl = imageUrl;
+      }
+    }
+
     // PASO 1: GENERAR PROMPT CINEMATOGRÁFICO (OpenAI)
     logger.info('🧠 1. Diseñando Escena Cinematic (GPT-4o)...');
-    const soraPrompt = await generateSoraPrompt(title, idea);
+    let soraPrompt = await generateSoraPrompt(title, idea);
+
+    // Si Gemini dio un prompt mejorado, combinarlo
+    if (enhancedPromptFromGemini) {
+      soraPrompt = `${soraPrompt}\n\nADDITIONAL VISUAL CONTEXT FROM IMAGE ANALYSIS:\n${enhancedPromptFromGemini}`;
+      logger.info('✅ Prompt enriquecido con análisis de Gemini');
+    }
+
     logger.info(`✅ Prompt de Dirección: "${soraPrompt.substring(0, 50)}..."`);
 
     // PASO 2: VIDEO (KIE / SORA 2)
@@ -90,7 +120,7 @@ async function generateViralVideo(title, idea, imageUrl, jobId = null) {
             model: 'sora-2-image-to-video',
             input: {
               prompt: soraPrompt,
-              image_urls: [imageUrl || KIE_DEFAULT_IMAGE],
+              image_urls: [finalImageUrl],
               aspect_ratio: 'portrait',
               n_frames: '15',
               size: 'standard',

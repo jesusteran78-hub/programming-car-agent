@@ -120,30 +120,36 @@ async function getScheduledPosts() {
  * Generate viral video using video_engine
  * Jobs are persisted in Supabase automatically by video_engine
  * @param {string} idea - Video idea/concept
+ * @param {string|null} imageUrl - Optional image URL from WhatsApp
  * @returns {Promise<{success: boolean, message: string, jobId?: string}>}
  */
-async function generateVideo(idea) {
+async function generateVideo(idea, imageUrl = null) {
   try {
     const { generateViralVideo } = require('../video_engine');
     const jobId = Date.now().toString();
     const title = idea.substring(0, 50);
 
     logger.info(`🎬 Video job ${jobId} started: ${title}`);
+    if (imageUrl) {
+      logger.info(`📸 Con imagen adjunta: ${imageUrl.substring(0, 50)}...`);
+    }
 
     // Start async generation (don't await - let it run in background)
-    // video_engine handles persistence and notifications automatically
+    // video_engine handles persistence, image enhancement, and notifications automatically
     (async () => {
       try {
-        await generateViralVideo(title, idea, null, jobId);
+        await generateViralVideo(title, idea, imageUrl, jobId);
         logger.info(`✅ Video job ${jobId} completed`);
       } catch (error) {
         logger.error(`❌ Video job ${jobId} failed: ${error.message}`);
       }
     })();
 
+    const hasImage = imageUrl ? '\n📸 Imagen detectada - se mejorará con IA' : '';
+
     return {
       success: true,
-      message: `🎬 Video en proceso (#${jobId})\nIdea: "${title}..."\n\n⏳ Generando con IA (5-10 min).\nRecibirás WhatsApp cuando termine.\nUsa \`mkt video status\` para ver progreso.`,
+      message: `🎬 Video en proceso (#${jobId})\nIdea: "${title}..."${hasImage}\n\n⏳ Generando con IA (5-10 min).\nRecibirás WhatsApp cuando termine.\nUsa \`mkt video status\` para ver progreso.`,
       jobId,
     };
   } catch (error) {
@@ -192,9 +198,10 @@ async function getVideoJobsStatus() {
 /**
  * Process marketing command from owner
  * @param {string} command - Command after "marketing"
+ * @param {string|null} imageUrl - Optional image URL from WhatsApp
  * @returns {Promise<string>}
  */
-async function processMarketingCommand(command) {
+async function processMarketingCommand(command, imageUrl = null) {
   const lowerCmd = command.toLowerCase().trim();
 
   // Status command
@@ -222,8 +229,8 @@ async function processMarketingCommand(command) {
       return await getVideoJobsStatus();
     }
 
-    // Generate new video
-    const result = await generateVideo(subCmd);
+    // Generate new video (with optional image)
+    const result = await generateVideo(subCmd, imageUrl);
     return result.message;
   }
 
