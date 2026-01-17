@@ -117,6 +117,23 @@ function findKeyDetails(year, make, model) {
         }
     });
 
+    // 3. Fallback: If no results found in DBs, return Web Search Links
+    if (results.length === 0) {
+        const links = getSupplierLinks(make, model, year);
+        const linksText = links.map(l => `${l.name}: ${l.url}`).join('\n');
+
+        results.push({
+            fccId: "No encontrado en base de datos",
+            source: "Búsqueda Web (Respaldo)",
+            note: "Intente buscar manualmente en los siguientes enlaces:",
+            links: links // Pass links object for frontend/agent to parse if needed
+        });
+
+        // Also append text representation for simple agents
+        results[0].frequency = "N/A";
+        results[0].db_miss = true; // Flag for agent handling
+    }
+
     return results;
 }
 

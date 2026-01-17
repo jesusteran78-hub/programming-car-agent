@@ -257,13 +257,26 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
                     const args = JSON.parse(toolCall.function.arguments);
                     console.log(`🔧 GPT Tool Call: lookup_key_info(${args.year} ${args.make} ${args.model})`);
 
-                    const keyData = await findKeyDetails(args.year, args.make, args.model);
+                    const keyResults = await findKeyDetails(args.year, args.make, args.model);
+
+                    // If fallback to web, formatting for GPT
+                    let contentPayload = keyResults;
+
+                    // If we have the special "db_miss" flag or just want to ensure links are visible
+                    if (keyResults.length > 0 && keyResults[0].db_miss) {
+                        const query = `${args.year} ${args.make} ${args.model}`;
+                        const links = getSupplierLinks(args.make, args.model, args.year);
+                        contentPayload = {
+                            message: "No encontrado en libros internos. Usar enlaces externos.",
+                            search_links: links
+                        };
+                    }
 
                     messagesForAI.push({
                         tool_call_id: toolCall.id,
                         role: "tool",
                         name: "lookup_key_info",
-                        content: JSON.stringify(keyData)
+                        content: JSON.stringify(contentPayload)
                     });
                 }
             }
