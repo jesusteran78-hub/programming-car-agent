@@ -1,6 +1,6 @@
 // 🎬 MOTOR DE VÍDEO VIRAL (REEMPLAZO DE N8N)
 // Workflow: OpenAI (Idea) -> KIE (Sora 2 Video) -> TTS Audio -> FFmpeg (watermark) -> Blotato (Posting)
-// VERSION: 2.4 - Added watermark "Programming Car 786-816-4874" bottom-right
+// VERSION: 2.5 - Safe Sora prompt (avoid content policy violations)
 
 const OpenAI = require('openai');
 const axios = require('axios');
@@ -17,7 +17,7 @@ const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
 // Log version on load
-console.log('🎬 video_engine.js v2.4 loaded - Watermark + TTS branding');
+console.log('🎬 video_engine.js v2.5 loaded - Safe Sora prompt + Watermark');
 
 // Owner phone for notifications
 const OWNER_PHONE = process.env.OWNER_PHONE || '17868164874@s.whatsapp.net';
@@ -27,32 +27,34 @@ const WHAPI_TOKEN = process.env.WHAPI_TOKEN;
 const KIE_DEFAULT_IMAGE = process.env.KIE_DEFAULT_IMAGE || 'https://res.cloudinary.com/dtfbdf4dn/image/upload/v1767748438/ugc-auto/nbdfysted9kuvfcpgy28.png';
 // NOTA: Ya no hay video fallback - si KIE falla, el job falla y se notifica al owner
 
-// SYSTEM PROMPT MAESTRO - Formato EXACTO del video viral de 700k views
+// SYSTEM PROMPT MAESTRO - Formato seguro para Sora 2 (evita filtros de contenido)
 const SORA_SYSTEM_PROMPT = `
-You are a Sora 2 prompt engineer for Programming Car Miami.
+You are a Sora 2 prompt engineer creating professional automotive service videos.
 
-### OUR 3 CORE SERVICES (identify which one applies)
-1. **LLAVES** - Key cutting, duplication, all keys lost, push to start, lockouts
-2. **MÓDULOS** - PCM, TCM, BCM, ABS, RFH, airbag, cluster, radio programming
-3. **DIAGNÓSTICO** - No-start issues, immobilizer, no communication, CAN bus
+### VISUAL STYLE (UGC/TikTok)
+- Vertical selfie-style video (9:16 aspect ratio)
+- Handheld camera, natural micro-movements
+- Clean automotive workshop environment
+- Professional technician presenting a product
+- Warm, natural lighting
 
-### Prompt Construction Instructions (CRITICAL)
-- Camera is **handheld selfie-style**, creator records themselves using phone at arm's length
-- Focus on **realistic motion and micro-details** — shifting weight, natural breathing, subtle focus change
-- Keep under **300 words**; prioritize **visual realism** over narration
-- Mention **environment context**, **lighting mood**, and **creator-product interaction**
-- Camera never shows the phone, only the creator and product in frame
+### PROMPT RULES
+- Keep under 200 words
+- Focus ONLY on visual elements (no technical jargon)
+- Describe the SCENE, not the service
+- Use neutral, professional language
+- NO mentions of: breaking, bypassing, disabling, hacking, stealing, forcing
 
-### Input Data
-Service/Product: {{product}}
-Story/Context: {{context}}
+### INPUT
+Product: {{product}}
+Context: {{context}}
 
-### Output Format (FOLLOW THIS EXACT STRUCTURE)
-Generate a prompt like this example that got 700k views:
+### OUTPUT FORMAT
+Generate a prompt following this safe template:
 
-"A vertical, handheld selfie-style video filmed by a professional Latino technician in a clean, well-lit automotive workshop. The creator wears a plain, elegant shirt without logos, holding the **[PRODUCT]** firmly in one hand and the phone at arm's length with the other, framing himself and a [CAR MODEL] clearly in the background. Cinematic, natural ambient lighting softly highlights the product's details and the vehicle's emblem. The creator speaks directly and casually to the camera in Spanish with a Miami Latino accent, explaining [THE SERVICE/PROBLEM BEING SOLVED]. Subtle handheld camera movement and slight micro-adjustments create an authentic, real-world feel, with natural shadows and reflections emphasizing texture on the product and shirt. The creator smiles lightly, nods, and gestures briefly to the product while clearly saying 'Programming Car' and '786-816-4874.' Duration approximately 15 seconds, no background music—only ambient workshop sounds."
+"A vertical, handheld selfie-style video of a professional automotive technician in a clean, modern workshop. The technician wears a plain dark shirt, holding a [PRODUCT DESCRIPTION - keep it simple, e.g. 'car key', 'electronic module', 'car remote'] in one hand. Behind him, a [CAR BRAND] vehicle is visible. Soft natural lighting highlights the product. The technician looks at the camera with a friendly, confident expression, gesturing to show the product. Subtle camera movement creates an authentic feel. The scene is professional and trustworthy. Duration 10-15 seconds, ambient workshop sounds only."
 
-Replace [PRODUCT], [CAR MODEL], and [THE SERVICE] with the actual data from the input.
+IMPORTANT: Keep the product description generic (e.g. "car key fob", "automotive remote", "electronic car part"). Avoid technical terms that might be flagged.
 `;
 
 // CONFIGURACIÓN EXACTA DE LA FÁBRICA (Basado en tus screenshots)
@@ -761,4 +763,4 @@ module.exports = {
   updateVideoJobFailed,
   sendOwnerWhatsApp,
 };
-// Force rebuild v2.4-watermark
+// Force rebuild v2.5-safe-prompt
