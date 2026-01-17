@@ -1,6 +1,6 @@
 // 🎬 MOTOR DE VÍDEO VIRAL (REEMPLAZO DE N8N)
 // Workflow: OpenAI (Idea) -> KIE (Sora 2 Video) -> TTS Audio -> FFmpeg -> Blotato (Posting)
-// VERSION: 2.2 - Fixed Blotato auth header (blotato-api-key)
+// VERSION: 2.3 - Improved TTS script with GPT-4o (always mentions Programming Car + phone)
 
 const OpenAI = require('openai');
 const axios = require('axios');
@@ -17,7 +17,7 @@ const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
 // Log version on load
-console.log('🎬 video_engine.js v2.2 loaded - Blotato uses blotato-api-key header');
+console.log('🎬 video_engine.js v2.3 loaded - TTS script con GPT-4o (Programming Car + 786-816-4874)');
 
 // Owner phone for notifications
 const OWNER_PHONE = process.env.OWNER_PHONE || '17868164874@s.whatsapp.net';
@@ -610,12 +610,45 @@ async function notifyFallbackUsed(jobId, errorMsg) {
 // ==========================================
 
 /**
- * Generar script de audio para el video
+ * Generar script de audio para el video usando GPT-4o
+ * El script es corto (15 seg), natural, y SIEMPRE menciona la marca y teléfono
  */
 async function generateAudioScript(title, idea) {
-  // Script fijo + contexto dinámico
-  const contextPart = idea.length > 100 ? idea.substring(0, 100) + '...' : idea;
-  return `Programming Car, tu solución en llaves de auto. ${contextPart}. Llámanos al 786-816-4874.`;
+  try {
+    const response = await openai.chat.completions.create({
+      model: 'gpt-4o',
+      messages: [
+        {
+          role: 'system',
+          content: `Eres un copywriter para videos de TikTok/Reels de Programming Car Miami.
+
+REGLAS ESTRICTAS:
+1. El script debe durar MÁXIMO 15 segundos al hablarse
+2. SIEMPRE empieza con "Programming Car" o menciona la marca en las primeras 3 palabras
+3. SIEMPRE termina con el teléfono: "786-816-4874"
+4. Tono: Confiado, profesional, Miami latino
+5. NO uses emojis ni hashtags (esto es para TTS)
+6. Escribe en español Miami (puedes mezclar inglés si suena natural)
+
+FORMATO:
+[Solo el texto del script, nada más]`,
+        },
+        {
+          role: 'user',
+          content: `Título: ${title}\nContexto: ${idea}\n\nGenera el script de voz para este video de 15 segundos.`,
+        },
+      ],
+      max_tokens: 150,
+    });
+
+    const script = response.choices[0].message.content.trim();
+    logger.info(`📝 Script TTS generado: "${script.substring(0, 50)}..."`);
+    return script;
+  } catch (e) {
+    logger.warn(`⚠️ Error generando script con GPT, usando fallback: ${e.message}`);
+    // Fallback simple
+    return `Programming Car, tu solución en llaves de auto en Miami. ${idea.substring(0, 50)}. Llámanos al 786-816-4874.`;
+  }
 }
 
 /**
@@ -721,4 +754,4 @@ module.exports = {
   updateVideoJobFailed,
   sendOwnerWhatsApp,
 };
-// Force rebuild v2.2-blotato-header
+// Force rebuild v2.3-tts-branding
