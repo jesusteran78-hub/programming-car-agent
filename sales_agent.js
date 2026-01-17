@@ -108,6 +108,7 @@ const { createClient } = require('@supabase/supabase-js');
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
 const { decodeVIN } = require('./vin_decoder');
+const { findKeyDetails } = require('./key_finder');
 
 async function getAIResponse(userMessage, senderNumber, userImage = null) {
     try {
@@ -190,6 +191,22 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
                         required: ["vin"]
                     }
                 }
+            },
+            {
+                type: "function",
+                function: {
+                    name: "lookup_key_info",
+                    description: "Busca información de llaves (FCC ID) y enlaces de compra para un auto específico. Úsalo cuando el cliente pregunte por llaves o copias.",
+                    parameters: {
+                        type: "object",
+                        properties: {
+                            year: { type: "string", description: "Año del auto (ej: 2019)" },
+                            make: { type: "string", description: "Marca del auto (ej: Toyota)" },
+                            model: { type: "string", description: "Modelo del auto (ej: Corolla)" }
+                        },
+                        required: ["year", "make", "model"]
+                    }
+                }
             }
         ];
 
@@ -235,6 +252,18 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
                         role: "tool",
                         name: "lookup_vin",
                         content: JSON.stringify(vinData)
+                    });
+                } else if (toolCall.function.name === 'lookup_key_info') {
+                    const args = JSON.parse(toolCall.function.arguments);
+                    console.log(`🔧 GPT Tool Call: lookup_key_info(${args.year} ${args.make} ${args.model})`);
+
+                    const keyData = await findKeyDetails(args.year, args.make, args.model);
+
+                    messagesForAI.push({
+                        tool_call_id: toolCall.id,
+                        role: "tool",
+                        name: "lookup_key_info",
+                        content: JSON.stringify(keyData)
                     });
                 }
             }
