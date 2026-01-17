@@ -1,5 +1,8 @@
 FROM node:20-alpine
 
+# Force rebuild: 2026-01-17-v2.1
+ARG CACHEBUST=1
+
 # Crear directorio de trabajo
 WORKDIR /app
 
