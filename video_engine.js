@@ -1,6 +1,6 @@
 // 🎬 MOTOR DE VÍDEO VIRAL (REEMPLAZO DE N8N)
-// Workflow: OpenAI (Idea) -> KIE (Sora 2 Video) -> TTS Audio -> FFmpeg -> Blotato (Posting)
-// VERSION: 2.3 - Improved TTS script with GPT-4o (always mentions Programming Car + phone)
+// Workflow: OpenAI (Idea) -> KIE (Sora 2 Video) -> TTS Audio -> FFmpeg (watermark) -> Blotato (Posting)
+// VERSION: 2.4 - Added watermark "Programming Car 786-816-4874" bottom-right
 
 const OpenAI = require('openai');
 const axios = require('axios');
@@ -17,7 +17,7 @@ const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
 // Log version on load
-console.log('🎬 video_engine.js v2.3 loaded - TTS script con GPT-4o (Programming Car + 786-816-4874)');
+console.log('🎬 video_engine.js v2.4 loaded - Watermark + TTS branding');
 
 // Owner phone for notifications
 const OWNER_PHONE = process.env.OWNER_PHONE || '17868164874@s.whatsapp.net';
@@ -678,14 +678,14 @@ async function generateTTSAudio(text, outputPath) {
 }
 
 /**
- * Combinar video y audio con FFmpeg
+ * Combinar video y audio con FFmpeg + agregar marca de agua
  * @param {string} videoUrl - URL del video sin audio
  * @param {string} audioPath - Ruta del archivo de audio local
  * @returns {Promise<string>} - URL del video final (subido a Cloudinary)
  */
 async function mergeVideoWithAudio(videoUrl, audioPath) {
   try {
-    logger.info('🎞️ Combinando video + audio con FFmpeg...');
+    logger.info('🎞️ Combinando video + audio + watermark con FFmpeg...');
 
     const tempDir = path.join(__dirname, 'temp');
     if (!fs.existsSync(tempDir)) {
@@ -699,11 +699,18 @@ async function mergeVideoWithAudio(videoUrl, audioPath) {
     const videoResponse = await axios.get(videoUrl, { responseType: 'arraybuffer' });
     fs.writeFileSync(videoPath, videoResponse.data);
 
-    // Combinar con FFmpeg
-    const ffmpegCmd = `ffmpeg -i "${videoPath}" -i "${audioPath}" -c:v copy -c:a aac -map 0:v:0 -map 1:a:0 -shortest -y "${outputPath}"`;
+    // Watermark text config
+    const watermarkText = 'Programming Car 786-816-4874';
+    // FFmpeg drawtext filter: texto blanco con sombra negra, abajo derecha, fuente bold
+    // x=w-tw-20 significa: ancho del video - ancho del texto - 20px margen
+    // y=h-th-30 significa: alto del video - alto del texto - 30px margen (evita zona de TikTok)
+    const drawTextFilter = `drawtext=text='${watermarkText}':fontcolor=white:fontsize=28:borderw=2:bordercolor=black:x=w-tw-20:y=h-th-80`;
+
+    // Combinar video + audio + watermark en un solo comando
+    const ffmpegCmd = `ffmpeg -i "${videoPath}" -i "${audioPath}" -vf "${drawTextFilter}" -c:v libx264 -preset fast -crf 23 -c:a aac -map 0:v:0 -map 1:a:0 -shortest -y "${outputPath}"`;
 
     await execPromise(ffmpegCmd);
-    logger.info('✅ Video + audio combinados');
+    logger.info('✅ Video + audio + watermark combinados');
 
     // Subir a Cloudinary
     const finalUrl = await uploadToCloudinary(outputPath);
@@ -715,7 +722,7 @@ async function mergeVideoWithAudio(videoUrl, audioPath) {
 
     return finalUrl;
   } catch (e) {
-    logger.error(`❌ Error combinando video/audio: ${e.message}`);
+    logger.error(`❌ Error combinando video/audio/watermark: ${e.message}`);
     return videoUrl; // Devolver video original si falla
   }
 }
@@ -754,4 +761,4 @@ module.exports = {
   updateVideoJobFailed,
   sendOwnerWhatsApp,
 };
-// Force rebuild v2.3-tts-branding
+// Force rebuild v2.4-watermark
