@@ -418,6 +418,9 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
 
     } catch (e) {
         console.error("Error Critical (Supabase/OpenAI):", e);
+        if (e.response) {
+            console.error("OpenAI Response Data:", JSON.stringify(e.response.data));
+        }
         return "Dame un segundo, estoy actualizando mi base de datos...";
     }
 }
