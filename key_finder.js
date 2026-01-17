@@ -145,7 +145,10 @@ function findKeyDetails(year, make, model) {
  * @param {string} [fccId] Optional FCC ID to refine search
  */
 function getSupplierLinks(make, model, year, fccId) {
-    const query = `${year} ${make} ${model} ${fccId || ''}`.trim();
+    const safeYear = year || '';
+    const safeMake = make || '';
+    const safeModel = model || '';
+    const query = `${safeYear} ${safeMake} ${safeModel} ${fccId || ''}`.trim();
     const encodedQuery = encodeURIComponent(query);
 
     return [

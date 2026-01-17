@@ -14,10 +14,12 @@ const PORT = process.env.PORT || 3000;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const WHAPI_TOKEN = process.env.WHAPI_TOKEN;
 
-// Agente de Ventas "Alex" - Version 8.0 (CRM & AI Memory)
+// Agente de Ventas "Alex" - Version 8.1 (Spam Protection & Strict Pricing)
 const BASE_SYSTEM_PROMPT = `
 ## 🎯 TU MISIÓN
 Eres Alex, el cerebro de ventas de "Programming Car".
+HOY ES: {{CURRENT_DATE}} (Asegúrate de usar esta fecha como referencia actual).
+
 Tu objetivo es CATEGORIZAR, DIAGNOSTICAR y CERRAR.
 
 ## 📊 ESTADO DEL CRM
@@ -29,25 +31,31 @@ Tu cliente tiene el siguiente perfil (si tienes datos, ÚSALOS):
 ## ⚠️ REGLAS DE ORO
 1. **PRIMERO, IDENTIFICA EL AUTO**: No busques llaves ni piezas sin saber qué auto es.
    - **SI RECIBES UNA IMAGEN**: Tu prioridad #1 es VERLA y buscar un VIN (17 caracteres). Si lo encuentras, EJECUTA \`lookup_vin\` INMEDIATAMENTE. ¡No preguntes el VIN si ya está en la foto!
-   - Si falta información y NO hay foto, PREGUNTA: "¿Podrías darme el VIN o el Año, Marca y Modelo?"
+   - Si falta información, PREGUNTA: "¿Podrías darme el VIN o el Año, Marca y Modelo?"
    - **UBICACIÓN**: 
    - Miami/Broward: Servicio móvil ($150 diagnóstico).
    - USA/Internacional: Envío o Soporte Remoto ($100/hora).
 
-## 🛠️ SERVICIOS Y PRECIOS
+2. **ANTI-SPAM Y PACIENCIA**:
+   - Si el usuario envía mensajes repetidos (ej. "Hola", "Hola", "Hola"), NO respondas a cada uno. Ignora los repetidos o responde UNA sola vez diciendo: "Ya te leí, dame un segundo...".
+
+## 🛠️ SERVICIOS Y PRECIOS (ESTRICTO)
 ### 1. TRANSMISIONES
 - **TEHCM ($500)**: Programada, calibrada, envío gratis USA.
 - **TRANSMISIÓN COMPLETA ($2,500)**: Instalación local o envío.
 
-### 2. LLAVES
-- **Procedimiento**: 
-   1. Identifica el Vehículo (VIN o Año/Marca/Modelo).
-   2. Usa herramienta 'lookup_key_info' para detalles (FCC ID).
-   3. Usa herramienta 'check_internal_key_cost' para consultar COSTO INTERNO.
-   4. **MUY IMPORTANTE**: Los precios que devuelve la herramienta son COSTO. Cárgale margen antes de dárselo al cliente.
+### 2. LLAVES (PROTOCOLO OBLIGATORIO)
+CUANDO EL CLIENTE PIDA UNA LLAVE, SIGUE ESTOS PASOS EXACTOS:
+   1. **Identifica** el Vehículo (VIN o Año/Marca/Modelo).
+   2. Usa \`lookup_key_info\` para encontrar el FCC ID y frecuencia.
+   3. **CRÍTICO**: ANTES de dar cualquier enlace o precio, EL EJECUTAR \`check_internal_key_cost\` ES OBLIGATORIO.
+      - Debes buscar el precio interno en la base de datos o proveedores.
+      - **NUNCA envíes enlaces crudos de UHS o Locksmith Keyless al cliente** a menos que 'check_internal_key_cost' falle totalmente.
+      - Tu trabajo es VENDER la llave, no mandar al cliente a comprarla a otro lado.
+   4. **COTIZACIÓN**: Toma el precio de COSTO que te da la herramienta y MULTIPLÍCALO x2 (o x3 si es rara) para dar el PRECIO FINAL al cliente.
 
 ## 🧠 GESTIÓN DE ESTADO (CRM)
-Tú decides cuándo cambiar el estado del cliente. Si detectas un cambio, usa la herramienta explícita (simulada por ahora) o sugiérelo.
+Tú decides cuándo cambiar el estado del cliente.
 - **COTIZANDO**: Si le diste precio.
 - **PROGRAMADO**: Si aceptó la cita.
 - **COMPLETADO**: Si ya se hizo el trabajo.
@@ -103,14 +111,19 @@ app.post('/webhook', async (req, res) => {
         console.log(`🤖 Agente: ${aiResponse} `);
 
         // 🗣️ RESPONDER (Enviar a Whapi)
-        const sentResult = await sendToWhapi(senderNumber, aiResponse);
-        console.log('📤 Resultado envío Whapi:', JSON.stringify(sentResult));
+        // 🗣️ RESPONDER (Enviar a Whapi)
+        if (aiResponse) {
+            const sentResult = await sendToWhapi(senderNumber, aiResponse);
+            console.log('📤 Resultado envío Whapi:', JSON.stringify(sentResult));
 
-        // 📝 AUDITAR (Guardar para revisión de Jesus y Antigravity)
-        const logEntry = `[${new Date().toLocaleString()}]CLIENTE(${senderNumber}): ${userText} \n` +
-            `[${new Date().toLocaleString()}] AGENTE ALEX: ${aiResponse} \n` +
-            `--------------------------------------------------\n`;
-        fs.appendFileSync('audit.log', logEntry);
+            // 📝 AUDITAR (Guardar para revisión)
+            const logEntry = `[${new Date().toLocaleString()}]CLIENTE(${senderNumber}): ${userText} \n` +
+                `[${new Date().toLocaleString()}] AGENTE ALEX: ${aiResponse} \n` +
+                `--------------------------------------------------\n`;
+            fs.appendFileSync('audit.log', logEntry);
+        } else {
+            console.log("🤐 Silencio (Spam ignorado o respuesta vacía)");
+        }
 
         res.sendStatus(200);
 
@@ -176,6 +189,26 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
             var currentLeadData = { pipeline_status: 'NUEVO' };
         }
 
+        // --- SPAM CHECK (Deduplication) ---
+        if (userMessage) {
+            const { data: lastUserMsg } = await supabase
+                .from('conversations')
+                .select('content, created_at')
+                .eq('lead_id', leadId)
+                .eq('role', 'user')
+                .order('created_at', { ascending: false })
+                .limit(1)
+                .single();
+
+            if (lastUserMsg && lastUserMsg.content === userMessage) {
+                const timeDiff = new Date() - new Date(lastUserMsg.created_at);
+                if (timeDiff < 60000) { // < 60 seconds
+                    console.log(`🚫 SPAM DETECTADO (Ignorando): ${userMessage}`);
+                    return null; // Return null to signal "No Reply"
+                }
+            }
+        }
+
         // 2. Guardar el mensaje del USUARIO en la BBDD
         await supabase.from('conversations').insert({
             lead_id: leadId,
@@ -199,6 +232,7 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
         // Construimos el array para OpenAI (System Prompt + Historia)
         // Inject dynamic data into prompt
         let dynamicPrompt = BASE_SYSTEM_PROMPT
+            .replace('{{CURRENT_DATE}}', new Date().toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' }))
             .replace('{{VIN}}', currentLeadData.vin || 'NO DISPONIBLE')
             .replace('{{YEAR}}', currentLeadData.year || '')
             .replace('{{MAKE}}', currentLeadData.make || '')
@@ -512,7 +546,17 @@ app.get('/api/video/status/:id', (req, res) => {
 });
 // ----------------------------------------------------
 
-app.listen(PORT, () => {
-    console.log(`🚀 Agente de Ventas escuchando en puerto ${PORT} `);
-    console.log(`🔗 Webhook local: http://localhost:${PORT}/webhook`);
-});
+// ----------------------------------------------------
+
+if (require.main === module) {
+    app.listen(PORT, () => {
+        console.log(`🚀 Agente de Ventas escuchando en puerto ${PORT} `);
+        console.log(`🔗 Webhook local: http://localhost:${PORT}/webhook`);
+    });
+}
+
+module.exports = {
+    app,
+    getAIResponse,
+    generateEmbedding
+};
