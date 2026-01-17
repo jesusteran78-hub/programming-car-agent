@@ -343,35 +343,51 @@ async function pollKieTask(taskId) {
         headers: { Authorization: `Bearer ${process.env.KIE_API_KEY}` },
       });
 
-      const taskData = response.data.data;
-      // Estado puede variar según API, asumimos 'status' field: 0=pending, 1=processing, 2=success, 3=failed (O similar)
-      // KIE doc usually returns 'status' as string or int.
-      // Si status es success/completed
-      // Nota: En la doc de user no especificaron los estados, pero es estándar.
-      // Investigando KIE responses patterns: status usually 1 (waiting), 2 (running), 3 (success), 4 (failed).
-      // O texto: "SUCCEEDED", "FAILED".
+      const taskData = response.data?.data || response.data;
 
-      // Asumiremos que el campo 'url' o 'result' existe cuando termina.
+      // Debug: Log full response structure on first poll
+      if (i === 0) {
+        logger.info(`🔍 KIE Response structure: ${JSON.stringify(response.data).substring(0, 500)}`);
+      }
 
-      logger.info(`⏳ Polling KIE (${i + 1}/${maxAttempts}): Status ${taskData?.status}`);
+      logger.info(`⏳ Polling KIE (${i + 1}/${maxAttempts}): Status ${taskData?.status || taskData?.state || 'unknown'} | Progress: ${taskData?.progress || 'N/A'}`);
 
-      if (
+      // Check various success conditions
+      const isSuccess =
         taskData?.status === 3 ||
         taskData?.status === 'SUCCEEDED' ||
         taskData?.status === 'completed' ||
-        (taskData?.result && taskData?.result.video_url)
-      ) {
-        // Success!
-        const finalUrl = taskData.result?.video_url || taskData.url || taskData.result;
-        // Adjust based on actual response structure. Typically nested in result.
-        // User doc didn't show GET response schema fully, so being defensive.
-        if (!finalUrl) {
-          // Maybe in a list?
-          if (Array.isArray(taskData.result)) {
-            return taskData.result[0];
-          }
+        taskData?.status === 'success' ||
+        taskData?.state === 'completed' ||
+        taskData?.state === 'success' ||
+        taskData?.videoUrl ||
+        taskData?.video_url ||
+        taskData?.result?.videoUrl ||
+        taskData?.result?.video_url ||
+        taskData?.output?.video;
+
+      if (isSuccess) {
+        // Extract video URL from various possible locations
+        const finalUrl =
+          taskData.videoUrl ||
+          taskData.video_url ||
+          taskData.result?.videoUrl ||
+          taskData.result?.video_url ||
+          taskData.output?.video ||
+          taskData.url ||
+          taskData.result;
+
+        if (finalUrl && typeof finalUrl === 'string') {
+          logger.info(`✅ KIE Video URL found: ${finalUrl.substring(0, 80)}...`);
+          return finalUrl;
         }
-        return finalUrl;
+
+        // Maybe in a list?
+        if (Array.isArray(taskData.result)) {
+          return taskData.result[0];
+        }
+
+        logger.warn(`⚠️ Success status but no URL found: ${JSON.stringify(taskData).substring(0, 300)}`);
       }
 
       if (taskData?.status === 4 || taskData?.status === 'FAILED') {
