@@ -1,7 +1,8 @@
 // key_finder.js
 const fs = require('fs');
 const path = require('path');
-const Papa = require('papaparse'); // We'll need to install this or use simple split if no dependency desired. Let's use simple split for zero-dep.
+// CSV parser logic using native split
+// const Papa = require('papaparse'); // Removed to avoid dependency crash
 
 // Cargar la base de datos en memoria al iniciar (es pequeña)
 let keyDatabase = [];
