@@ -161,19 +161,21 @@ app.post('/webhook', async (req, res) => {
     logger.info(`💬 Cliente(${senderNumber}): ${userText || '[IMAGEN RECIBIDA]'}`);
 
     // --- OWNER COMMAND ROUTING (Multi-Agent Dispatcher) ---
-    if (isOwner(senderNumber) && userText) {
+    if (isOwner(senderNumber)) {
       // 1. Check if it's a price response first (e.g., "180" or "#abc123 180")
-      const priceHandled = await handleOwnerResponse(sendToWhapi, userText);
-      if (priceHandled.handled) {
-        logger.info('✅ Owner price response processed');
-        return res.sendStatus(200);
+      if (userText) {
+        const priceHandled = await handleOwnerResponse(sendToWhapi, userText);
+        if (priceHandled.handled) {
+          logger.info('✅ Owner price response processed');
+          return res.sendStatus(200);
+        }
       }
 
       // 2. Route through department dispatcher (ventas, marketing, operaciones, contabilidad)
-      // Pass image URL if present (for mkt video with image)
+      // IMPORTANTE: También procesar imágenes solas (para flujo de video pendiente)
       const dispatchResult = await processOwnerCommand(userText, userImage);
       if (dispatchResult.handled) {
-        logger.info(`📬 Routed to ${dispatchResult.department}: "${userText.substring(0, 30)}..."`);
+        logger.info(`📬 Routed to ${dispatchResult.department}: "${userText?.substring(0, 30) || '[IMAGEN]'}..."`);
         await sendToWhapi(senderNumber, dispatchResult.response);
         return res.sendStatus(200);
       }
