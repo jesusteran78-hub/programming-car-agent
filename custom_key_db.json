@@ -1,0 +1,6594 @@
+[
+  {
+    "make": "Chevrolet",
+    "model": "Astra",
+    "startYear": 2000,
+    "endYear": 2003,
+    "fccId": "93336541",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Astra",
+    "startYear": 2004,
+    "endYear": 2006,
+    "fccId": "93286048",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Astra",
+    "startYear": 2007,
+    "endYear": 2008,
+    "fccId": "KEYDIY",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Astro",
+    "startYear": 1997,
+    "endYear": 1999,
+    "fccId": "ABO1502T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Astro",
+    "startYear": 1999,
+    "endYear": 2000,
+    "fccId": "KOBUT1BT",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Astro",
+    "startYear": 2001,
+    "endYear": 2006,
+    "fccId": "KOBLEAR1XT",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Avalanche",
+    "startYear": 2001,
+    "endYear": 2002,
+    "fccId": "KOBLEAR1XT",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Avalanche",
+    "startYear": 2003,
+    "endYear": 2006,
+    "fccId": "LHJ011",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Avalanche",
+    "startYear": 2007,
+    "endYear": 2013,
+    "fccId": "OUC60270",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Aveo",
+    "startYear": 2008,
+    "endYear": 2018,
+    "fccId": "RK950EUT",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Aveo",
+    "startYear": 2018,
+    "endYear": 2022,
+    "fccId": "2ALBS-ISG24",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Beat",
+    "startYear": 2017,
+    "endYear": 2022,
+    "fccId": "A2GM3AFUS03",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "startYear": 1992,
+    "endYear": 1996,
+    "fccId": "ABO0104T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "startYear": 1997,
+    "endYear": 1997,
+    "fccId": "ABO1502T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "startYear": 1998,
+    "endYear": 2001,
+    "fccId": "KOBUT1BT",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "startYear": 2002,
+    "endYear": 2009,
+    "fccId": "MYT3X6898B",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Blazer",
+    "startYear": 2019,
+    "endYear": 2020,
+    "fccId": "HYQ4EA",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Blazer y Trailblazer",
+    "startYear": 2021,
+    "endYear": 2022,
+    "fccId": "HYQ4ES",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Camaro",
+    "startYear": 1996,
+    "endYear": 2002,
+    "fccId": "ABO1502T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Camaro",
+    "startYear": 2010,
+    "endYear": 2019,
+    "fccId": "OHT01060512",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Camaro",
+    "startYear": 2016,
+    "endYear": 2020,
+    "fccId": "HYQ4EA",
+    "freq": "433.92 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Camaro",
+    "startYear": 2021,
+    "endYear": 2022,
+    "fccId": "HYQ4ES",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Captiva",
+    "startYear": 2007,
+    "endYear": 2015,
+    "fccId": "OUC60270",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Captiva",
+    "startYear": 2021,
+    "endYear": 2022,
+    "fccId": "KEYDIY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Captiva",
+    "startYear": 2021,
+    "endYear": 2022,
+    "fccId": "KEYDIY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Cavalier",
+    "startYear": 1997,
+    "endYear": 1999,
+    "fccId": "ABO1502T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Cavalier",
+    "startYear": 2000,
+    "endYear": 2005,
+    "fccId": "L2C0005T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Cavalier",
+    "startYear": 2018,
+    "endYear": 2022,
+    "fccId": "2ALBS-1SG27",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Colorado",
+    "startYear": 2004,
+    "endYear": 2012,
+    "fccId": "L2C0007T",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Colorado",
+    "startYear": 2015,
+    "endYear": 2021,
+    "fccId": "M3N-32337100",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Corsa (Opel)",
+    "startYear": 2003,
+    "endYear": 2008,
+    "fccId": "93316265",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "startYear": 1997,
+    "endYear": 2000,
+    "fccId": "ABO0216T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Chevrolet Corvette",
+    "startYear": 2001,
+    "endYear": 2004,
+    "fccId": "KOBLEAR1XT",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "startYear": 2005,
+    "endYear": 2007,
+    "fccId": "M3N65981403",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "startYear": 2008,
+    "endYear": 2013,
+    "fccId": "M3N5WY7777A",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "startYear": 2014,
+    "endYear": 2015,
+    "fccId": "G09C04EEC4P",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "startYear": 2016,
+    "endYear": 2019,
+    "fccId": "NBGGD9C04",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "startYear": 2020,
+    "endYear": 2021,
+    "fccId": "YG0G20TB1",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Cruze",
+    "startYear": 2016,
+    "endYear": 2019,
+    "fccId": "LXP-T003",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Cruze",
+    "startYear": 2016,
+    "endYear": 2019,
+    "fccId": "LXP-T004",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Equinox",
+    "startYear": 2005,
+    "endYear": 2006,
+    "fccId": "LHJ011",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Equinox",
+    "startYear": 2007,
+    "endYear": 2009,
+    "fccId": "OUC60270",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Equinox",
+    "startYear": 2010,
+    "endYear": 2018,
+    "fccId": "OHT01060512",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Equinox",
+    "startYear": 2018,
+    "endYear": 2021,
+    "fccId": "HYQ4AA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Equinox",
+    "startYear": 2022,
+    "endYear": 2022,
+    "fccId": "HYQ4AS",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Express Van",
+    "startYear": 1998,
+    "endYear": 2002,
+    "fccId": "ABO1502T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Express Van",
+    "startYear": 2003,
+    "endYear": 2007,
+    "fccId": "KOBLEAR1XT",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Express Van",
+    "startYear": 2003,
+    "endYear": 2007,
+    "fccId": "OUC60270",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Express Van",
+    "startYear": 2008,
+    "endYear": 2014,
+    "fccId": "OUC60270",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Express Van",
+    "startYear": 2015,
+    "endYear": 2021,
+    "fccId": "OUC60270",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Groove",
+    "startYear": 2021,
+    "endYear": 2022,
+    "fccId": "KEYDIY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Groove",
+    "startYear": 2021,
+    "endYear": 2022,
+    "fccId": "KEYDIY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "HHR",
+    "startYear": 2006,
+    "endYear": 2011,
+    "fccId": "KOBGT04A",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "startYear": 1997,
+    "endYear": 1999,
+    "fccId": "ABO1502T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "startYear": 2000,
+    "endYear": 2000,
+    "fccId": "KOBUT1BT",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "startYear": 2001,
+    "endYear": 2005,
+    "fccId": "KOBLEAR1XT",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "startYear": 2004,
+    "endYear": 2007,
+    "fccId": "KOBGT04A",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "startYear": 2008,
+    "endYear": 2012,
+    "fccId": "KOBGT04A",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "startYear": 2013,
+    "endYear": 2016,
+    "fccId": "OHT01060512",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "startYear": 2016,
+    "endYear": 2021,
+    "fccId": "HYQ4EA",
+    "freq": "433.92 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "startYear": 2016,
+    "endYear": 2021,
+    "fccId": "HYQ4ES",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "startYear": 2022,
+    "endYear": 2022,
+    "fccId": "HYQ4ES",
+    "freq": "433.92 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Meriva (Opel)",
+    "startYear": 2004,
+    "endYear": 2008,
+    "fccId": "93316265",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Monte Carlo",
+    "startYear": 2001,
+    "endYear": 2005,
+    "fccId": "KOBLEAR1XT",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Monte Carlo",
+    "startYear": 2006,
+    "endYear": 2007,
+    "fccId": "0UC60221",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "ONIX",
+    "startYear": 2020,
+    "endYear": 2022,
+    "fccId": "KEYDIY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "ONIX",
+    "startYear": 2020,
+    "endYear": 2022,
+    "fccId": "HYQ4AA",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Optra",
+    "startYear": 2006,
+    "endYear": 2011,
+    "fccId": "NYOSAKS-01TX",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "S-10",
+    "startYear": 1998,
+    "endYear": 2001,
+    "fccId": "KOBUT1BT",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "S-10",
+    "startYear": 2001,
+    "endYear": 2004,
+    "fccId": "KOBLEAR1XT",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Silverado",
+    "startYear": 1993,
+    "endYear": 1996,
+    "fccId": "ABO0104T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Silverado",
+    "startYear": 1997,
+    "endYear": 1998,
+    "fccId": "ABO1502T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Silverado",
+    "startYear": 1999,
+    "endYear": 2001,
+    "fccId": "KOBUT1BT",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Silverado",
+    "startYear": 2001,
+    "endYear": 2002,
+    "fccId": "KOBLEAR1XT",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Silverado",
+    "startYear": 2003,
+    "endYear": 2006,
+    "fccId": "LHJ011",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Silverado",
+    "startYear": 2007,
+    "endYear": 2014,
+    "fccId": "OUC60270",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Silverado",
+    "startYear": 2014,
+    "endYear": 2018,
+    "fccId": "M3N-32337-100",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Silverado",
+    "startYear": 2019,
+    "endYear": 2021,
+    "fccId": "M3N32337200",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Silverado",
+    "startYear": 2021,
+    "endYear": 2021,
+    "fccId": "HYQ1ES",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sonic",
+    "startYear": 2010,
+    "endYear": 2017,
+    "fccId": "OHT01060512",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Spark",
+    "startYear": 2011,
+    "endYear": 2013,
+    "fccId": "RK970EUT",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Spark",
+    "startYear": 2013,
+    "endYear": 2016,
+    "fccId": "A2GM3AFUS03",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Spark",
+    "startYear": 2016,
+    "endYear": 2018,
+    "fccId": "OHT01060512",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Spark",
+    "startYear": 2019,
+    "endYear": 2021,
+    "fccId": "LXPT003",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Spark",
+    "startYear": 2018,
+    "endYear": 2022,
+    "fccId": "HYQ4AA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Suburban",
+    "startYear": 2000,
+    "endYear": 2001,
+    "fccId": "KOBUT1BT",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Suburban",
+    "startYear": 2001,
+    "endYear": 2002,
+    "fccId": "KOBLEAR1XT",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Suburban",
+    "startYear": 2003,
+    "endYear": 2006,
+    "fccId": "LHJ011",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Suburban",
+    "startYear": 2007,
+    "endYear": 2014,
+    "fccId": "OUC60270",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Suburban",
+    "startYear": 2015,
+    "endYear": 2020,
+    "fccId": "M3N-32337-100",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Suburban",
+    "startYear": 2015,
+    "endYear": 2020,
+    "fccId": "HYQ1AA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Suburban",
+    "startYear": 2015,
+    "endYear": 2020,
+    "fccId": "HYQ1EA",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Suburban",
+    "startYear": 2021,
+    "endYear": 2022,
+    "fccId": "YG0G21TB2",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tahoe",
+    "startYear": 2000,
+    "endYear": 2001,
+    "fccId": "KOBUT1BT",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tahoe",
+    "startYear": 2001,
+    "endYear": 2002,
+    "fccId": "KOBLEAR1XT",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tahoe",
+    "startYear": 2003,
+    "endYear": 2006,
+    "fccId": "LHJ011",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tahoe",
+    "startYear": 2007,
+    "endYear": 2015,
+    "fccId": "OUC60270",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tahoe",
+    "startYear": 2015,
+    "endYear": 2016,
+    "fccId": "M3N-32337-100",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tahoe",
+    "startYear": 2015,
+    "endYear": 2020,
+    "fccId": "HYQ1AA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tahoe",
+    "startYear": 2015,
+    "endYear": 2020,
+    "fccId": "HYQ1EA",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tahoe",
+    "startYear": 2021,
+    "endYear": 2022,
+    "fccId": "YG0G21TB2",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tornado (Opel)",
+    "startYear": 2004,
+    "endYear": 2011,
+    "fccId": "93316265",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tornado (Opel)",
+    "startYear": 2011,
+    "endYear": 2014,
+    "fccId": "KEIDY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tornado (Opel)",
+    "startYear": 2015,
+    "endYear": 2020,
+    "fccId": "KEYDIY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tornado",
+    "startYear": 2021,
+    "endYear": 2022,
+    "fccId": "KEYDIY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Traverse",
+    "startYear": 2009,
+    "endYear": 2017,
+    "fccId": "OUC60270",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Traverse",
+    "startYear": 2018,
+    "endYear": 2020,
+    "fccId": "HYQ4EA",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Trax",
+    "startYear": 2012,
+    "endYear": 2018,
+    "fccId": "OHT01060512",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Trax",
+    "startYear": 2019,
+    "endYear": 2021,
+    "fccId": "LXP-T003",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Trax",
+    "startYear": 2017,
+    "endYear": 2020,
+    "fccId": "HYQ4AA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Uplander",
+    "startYear": 2005,
+    "endYear": 2009,
+    "fccId": "KOBGT04A",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Venture",
+    "startYear": 2002,
+    "endYear": 2005,
+    "fccId": "L2C0007T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "200 (Chrysler)",
+    "startYear": 2011,
+    "endYear": 2013,
+    "fccId": "KOBDT04A",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "200 (Chrysler)",
+    "startYear": 2011,
+    "endYear": 2017,
+    "fccId": "M3N40821302",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "300 (Chrysler)",
+    "startYear": 2005,
+    "endYear": 2007,
+    "fccId": "KOBDT04A",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "300 (Chrysler)",
+    "startYear": 2008,
+    "endYear": 2012,
+    "fccId": "M3N5WY783X",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "300 (Chrysler)",
+    "startYear": 2011,
+    "endYear": 2018,
+    "fccId": "M3N-40821302",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "300 (Chrysler)",
+    "startYear": 2019,
+    "endYear": 2022,
+    "fccId": "M3N-40821302",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Attitude (Dodge)",
+    "startYear": 2006,
+    "endYear": 2011,
+    "fccId": "TFKB1G012A",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Attitude (Dodge)",
+    "startYear": 2012,
+    "endYear": 2014,
+    "fccId": "KEYDY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Avenger (Dodge)",
+    "startYear": 2008,
+    "endYear": 2014,
+    "fccId": "KOBDT04A",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Caliber (Dodge)",
+    "startYear": 2007,
+    "endYear": 2012,
+    "fccId": "KOBDT04A",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Caravan y Grand Caravan (Dodge)",
+    "startYear": 1996,
+    "endYear": 1998,
+    "fccId": "GQ43VT7T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Caravan Y Gran Caravan (Dodge)",
+    "startYear": 1999,
+    "endYear": 2003,
+    "fccId": "GQ43VT17T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Caravan (Dodge)",
+    "startYear": 2004,
+    "endYear": 2007,
+    "fccId": "M3N5WY72XX",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Caravan (Dodge)",
+    "startYear": 2008,
+    "endYear": 2020,
+    "fccId": "M3N5WY783X",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Challenger (Dodge)",
+    "startYear": 2008,
+    "endYear": 2015,
+    "fccId": "IYZ-C01C",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Challenger (Dodge)",
+    "startYear": 2015,
+    "endYear": 2022,
+    "fccId": "M3N-40821302",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Charger (Dodge)",
+    "startYear": 2005,
+    "endYear": 2007,
+    "fccId": "KOBDT04A",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Charger (Dodge)",
+    "startYear": 2008,
+    "endYear": 2014,
+    "fccId": "IYZ-C01C",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Charger (Dodge)",
+    "startYear": 2011,
+    "endYear": 2018,
+    "fccId": "M3N-40821302",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Cherokee (Jeep)",
+    "startYear": 1997,
+    "endYear": 1998,
+    "fccId": "GQ43VT10T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Cherokee (Jeep)",
+    "startYear": 1999,
+    "endYear": 2001,
+    "fccId": "GQ43VT9T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Cherokee (Jeep)",
+    "startYear": 2014,
+    "endYear": 2022,
+    "fccId": "GQ4-54T",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Grand Cherokee (Jeep)",
+    "startYear": 1996,
+    "endYear": 1998,
+    "fccId": "GQ43VT7T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Grand Cherokee (Jeep)",
+    "startYear": 1999,
+    "endYear": 2004,
+    "fccId": "GQ43VT9T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Grand Cherokee (Jeep)",
+    "startYear": 2005,
+    "endYear": 2007,
+    "fccId": "KOBDT04A",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Grand Cherokee (Jeep)",
+    "startYear": 2008,
+    "endYear": 2010,
+    "fccId": "IYZ-C01C",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Grand Cherokee (Jeep)",
+    "startYear": 2011,
+    "endYear": 2013,
+    "fccId": "IYZ-C01C",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Grand Cherokee (Jeep)",
+    "startYear": 2014,
+    "endYear": 2021,
+    "fccId": "M3N-40821302",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Grand Cherokee (Jeep)",
+    "startYear": 2021,
+    "endYear": 2022,
+    "fccId": "M3NWXFOB",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Gladiator (Jeep)",
+    "startYear": 2019,
+    "endYear": 2022,
+    "fccId": "OHT1130261",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Commander (Jeep)",
+    "startYear": 2006,
+    "endYear": 2007,
+    "fccId": "KOBDT04A",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Commander (Jeep)",
+    "startYear": 2008,
+    "endYear": 2010,
+    "fccId": "IYZC01C",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Compass (Jeep)",
+    "startYear": 2007,
+    "endYear": 2018,
+    "fccId": "OHT692427AA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Compass (Jeep)",
+    "startYear": 2018,
+    "endYear": 2021,
+    "fccId": "M3N40821302",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Concorde (Chrysler)",
+    "startYear": 1998,
+    "endYear": 2004,
+    "fccId": "GQ43VT17T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Crossfire (Chrysler)",
+    "startYear": 2004,
+    "endYear": 2008,
+    "fccId": "KR55",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Dakota (Dodge)",
+    "startYear": 2001,
+    "endYear": 2004,
+    "fccId": "GQ43VT17T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Dakota (Dodge)",
+    "startYear": 2005,
+    "endYear": 2013,
+    "fccId": "OHT69242713AA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Dart (Dodge)",
+    "startYear": 2012,
+    "endYear": 2016,
+    "fccId": "M3N32297100",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Dart (Dodge)",
+    "startYear": 2012,
+    "endYear": 2016,
+    "fccId": "M3N-40821302",
+    "freq": "433.90 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Durango (Dodge)",
+    "startYear": 1998,
+    "endYear": 2000,
+    "fccId": "GQ43VT7T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Durango (Dodge)",
+    "startYear": 2001,
+    "endYear": 2003,
+    "fccId": "GQ43VT17T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Durango (Dodge)",
+    "startYear": 2004,
+    "endYear": 2010,
+    "fccId": "OHT692427AA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Durango (Dodge)",
+    "startYear": 2011,
+    "endYear": 2013,
+    "fccId": "IYZ-C01C",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Durango (Dodge)",
+    "startYear": 2014,
+    "endYear": 2022,
+    "fccId": "M3N-40821302",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Intrepid (Chrysler)",
+    "startYear": 2001,
+    "endYear": 2004,
+    "fccId": "GQ43VT7T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Journey (Dodge)",
+    "startYear": 2008,
+    "endYear": 2011,
+    "fccId": "M3N5WY783X",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Journey (Dodge)",
+    "startYear": 2012,
+    "endYear": 2020,
+    "fccId": "M3N-40821302",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Journey (Dodge)",
+    "startYear": 2022,
+    "endYear": 2022,
+    "fccId": "2016DP6557",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Liberty (Jeep)",
+    "startYear": 2002,
+    "endYear": 2004,
+    "fccId": "GQ43VT17T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Liberty (Jeep)",
+    "startYear": 2005,
+    "endYear": 2007,
+    "fccId": "M3N5WY72XX",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Liberty (Jeep)",
+    "startYear": 2008,
+    "endYear": 2012,
+    "fccId": "OHT692427AA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Neon (Dodge)",
+    "startYear": 2000,
+    "endYear": 2005,
+    "fccId": "GQ43VT9T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Nitro (Dodge)",
+    "startYear": 2007,
+    "endYear": 2012,
+    "fccId": "OHT692427AA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Pacifica (Chrysler)",
+    "startYear": 2004,
+    "endYear": 2008,
+    "fccId": "M3N5WY72XX",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Pacifica (Chrysler)",
+    "startYear": 2017,
+    "endYear": 2022,
+    "fccId": "M3N-97395900",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Patriot (Jeep)",
+    "startYear": 2007,
+    "endYear": 2018,
+    "fccId": "OHT692427AA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "PT Cruiser (Chrysler)",
+    "startYear": 2001,
+    "endYear": 2005,
+    "fccId": "GQ43VT13T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "PT Cruiser (Chrysler)",
+    "startYear": 2006,
+    "endYear": 2010,
+    "fccId": "OHT692427AA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ram Pick Up (Dodge)",
+    "startYear": 1998,
+    "endYear": 2001,
+    "fccId": "GQ43VT9T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ram Pick Up (Dodge)",
+    "startYear": 1998,
+    "endYear": 2001,
+    "fccId": "GQ43VT9T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ram Pick Up (Dodge)",
+    "startYear": 2002,
+    "endYear": 2005,
+    "fccId": "GQ43VT17T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ram Pick Up (Dodge)",
+    "startYear": 2006,
+    "endYear": 2012,
+    "fccId": "OHT692427AA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ram Pick Up (Dodge)",
+    "startYear": 2009,
+    "endYear": 2013,
+    "fccId": "M3N5WY783X",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ram Pick Up (Dodge)",
+    "startYear": 2013,
+    "endYear": 2019,
+    "fccId": "GQ4-53T",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ram Pick Up (Dodge)",
+    "startYear": 2013,
+    "endYear": 2018,
+    "fccId": "GQ4-54T",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ram Pick Up 1500 (Dodge)",
+    "startYear": 2019,
+    "endYear": 2022,
+    "fccId": "OHT-4882056",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ram Promaster (Dodge)",
+    "startYear": 2014,
+    "endYear": 2021,
+    "fccId": "RX2TRF198",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Renegade (Jeep)",
+    "startYear": 2015,
+    "endYear": 2020,
+    "fccId": "2ADFTFI5AM433TX",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Renegade (Jeep)",
+    "startYear": 2015,
+    "endYear": 2022,
+    "fccId": "M3N-40821302",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Stratus (Dodge)",
+    "startYear": 1998,
+    "endYear": 2000,
+    "fccId": "KYPT03C98JA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Stratus (Dodge)",
+    "startYear": 1999,
+    "endYear": 2006,
+    "fccId": "GQ43V717T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "siguiendo los pasos explicados en este manual en Concorde",
+    "startYear": 1998,
+    "endYear": 2004,
+    "fccId": "GQ43VT7T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "siguiendo los pasos explicados en este manual en Concorde",
+    "startYear": 1998,
+    "endYear": 2004,
+    "fccId": "GQ43VT17T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "1999-2000 NO USA TRANSPONDER",
+    "startYear": 2001,
+    "endYear": 2003,
+    "fccId": "GQ43VT18T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "1999-2000 NO USA TRANSPONDER",
+    "startYear": 2001,
+    "endYear": 2003,
+    "fccId": "M3N5WY72XX",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "1999-2000 NO USA TRANSPONDER",
+    "startYear": 2001,
+    "endYear": 2003,
+    "fccId": "IYZ-C01C",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Viper (Dodge)",
+    "startYear": 2003,
+    "endYear": 2009,
+    "fccId": "GQ43VT17T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Viper (Dodge)",
+    "startYear": 2013,
+    "endYear": 2017,
+    "fccId": "M3N40821302",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Wagoneer y Gran Wagoner (Jeep)",
+    "startYear": 2022,
+    "endYear": 2022,
+    "fccId": "M3NWXFOB",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Wrangler Rubicon (Jeep)",
+    "startYear": 2001,
+    "endYear": 2006,
+    "fccId": "KEYDIY",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Wrangler Rubicon (Jeep)",
+    "startYear": 2007,
+    "endYear": 2018,
+    "fccId": "OHT692427AA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Wrangler Rubicon (Jeep)",
+    "startYear": 2018,
+    "endYear": 2022,
+    "fccId": "OHT1130261",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Aviator (Lincoln)",
+    "startYear": 2003,
+    "endYear": 2006,
+    "fccId": "CWTWB1U331",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Aviator (Lincoln)",
+    "startYear": 2020,
+    "endYear": 2022,
+    "fccId": "M3N-A2C931426",
+    "freq": "902 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Bronco (Ford)",
+    "startYear": 2021,
+    "endYear": 2022,
+    "fccId": "N5F-A08TAA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Bronco (Ford)",
+    "startYear": 2021,
+    "endYear": 2022,
+    "fccId": "M3N-A2C93142300",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Bronco (Ford)",
+    "startYear": 2021,
+    "endYear": 2022,
+    "fccId": "M3N-A2C931426",
+    "freq": "902 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Continental (Lincoln)",
+    "startYear": 1998,
+    "endYear": 2002,
+    "fccId": "CWTWB1U311",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Continental (Lincoln)",
+    "startYear": 2017,
+    "endYear": 2020,
+    "fccId": "M3N-A2C31243800",
+    "freq": "902 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Contour (Ford)",
+    "startYear": 1996,
+    "endYear": 2000,
+    "fccId": "GQ43VT4T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Courier (Ford)",
+    "startYear": 2001,
+    "endYear": 2008,
+    "fccId": "CWTWB1U345",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Courier (Ford)",
+    "startYear": 2008,
+    "endYear": 2012,
+    "fccId": "CWTWB1U345",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Crown Victoria (Ford)",
+    "startYear": 1998,
+    "endYear": 2011,
+    "fccId": "CWTWB1U331",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ecosport (Ford)",
+    "startYear": 2004,
+    "endYear": 2012,
+    "fccId": "CWTWB1U345",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ecosport (Ford)",
+    "startYear": 2013,
+    "endYear": 2017,
+    "fccId": "5WK49986",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ecosport (Ford)",
+    "startYear": 2018,
+    "endYear": 2022,
+    "fccId": "N5F-A08TAA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ecosport USA (Ford)",
+    "startYear": 2018,
+    "endYear": 2022,
+    "fccId": "M3N-A2C93142300",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Edge (Ford)",
+    "startYear": 2007,
+    "endYear": 2010,
+    "fccId": "OUCD6000022",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Edge (Ford)",
+    "startYear": 2011,
+    "endYear": 2015,
+    "fccId": "CWTWB1U793",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Edge (Ford)",
+    "startYear": 2016,
+    "endYear": 2017,
+    "fccId": "M3N-A2C31243300",
+    "freq": "902 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Edge (Ford)",
+    "startYear": 2016,
+    "endYear": 2017,
+    "fccId": "M3N-A2C31243800",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Edge ST Sport (Ford)",
+    "startYear": 2017,
+    "endYear": 2022,
+    "fccId": "M3N-A2C931426",
+    "freq": "902 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Edge ST Sport (Ford)",
+    "startYear": 2017,
+    "endYear": 2022,
+    "fccId": "M3N-A2C93142300",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Escape (Ford)",
+    "startYear": 2000,
+    "endYear": 2007,
+    "fccId": "CWTWB1U331",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Escape (Ford)",
+    "startYear": 2008,
+    "endYear": 2009,
+    "fccId": "OUCD6000022",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Escape (Ford)",
+    "startYear": 2010,
+    "endYear": 2012,
+    "fccId": "CWTWB1U793",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Escape USA (Ford)",
+    "startYear": 2013,
+    "endYear": 2019,
+    "fccId": "OUCD6000022",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Escape (Ford)",
+    "startYear": 2013,
+    "endYear": 2016,
+    "fccId": "KR55WK48801",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Escape Titanium USA (Ford)",
+    "startYear": 2013,
+    "endYear": 2016,
+    "fccId": "M3N5WY8609",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Escape USA (Ford)",
+    "startYear": 2013,
+    "endYear": 2019,
+    "fccId": "M3N5WY8609",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Escape (Ford)",
+    "startYear": 2020,
+    "endYear": 2022,
+    "fccId": "N5F-A08TAA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Escape (Ford)",
+    "startYear": 2020,
+    "endYear": 2022,
+    "fccId": "KEYDIY",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Escape (Ford)",
+    "startYear": 2020,
+    "endYear": 2022,
+    "fccId": "M3N-A2C931426",
+    "freq": "902 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Excursion (Ford)",
+    "startYear": 2000,
+    "endYear": 2005,
+    "fccId": "CWTWB1U345",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Expedition (Ford)",
+    "startYear": 1997,
+    "endYear": 2002,
+    "fccId": "CWTWB1U345",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Expedition (Ford)",
+    "startYear": 2003,
+    "endYear": 2008,
+    "fccId": "CWTWB1U511",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Expedition (Ford)",
+    "startYear": 2009,
+    "endYear": 2013,
+    "fccId": "CWTWB1U793",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Expedition (Ford)",
+    "startYear": 2015,
+    "endYear": 2017,
+    "fccId": "M3N5WY8609",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Expedition (Ford)",
+    "startYear": 2018,
+    "endYear": 2021,
+    "fccId": "N5F-A08TAA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Expedition (Ford)",
+    "startYear": 2018,
+    "endYear": 2022,
+    "fccId": "M3N-A2C93142300",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Expedition (Ford)",
+    "startYear": 2018,
+    "endYear": 2022,
+    "fccId": "M3N-A2C931426",
+    "freq": "902 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Explorer (Ford)",
+    "startYear": 1995,
+    "endYear": 1997,
+    "fccId": "GQ43VT4T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Explorer (Ford)",
+    "startYear": 1998,
+    "endYear": 2005,
+    "fccId": "CWTWB1U345",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Explorer (Ford)",
+    "startYear": 2006,
+    "endYear": 2010,
+    "fccId": "CWTWB1U345",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Explorer (Ford)",
+    "startYear": 2011,
+    "endYear": 2015,
+    "fccId": "CWTWB1U793",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Explorer (Ford)",
+    "startYear": 2011,
+    "endYear": 2015,
+    "fccId": "M3N5WY8609",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Explorer (Ford)",
+    "startYear": 2016,
+    "endYear": 2021,
+    "fccId": "N5F-A08TAA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Explorer (Ford)",
+    "startYear": 2016,
+    "endYear": 2017,
+    "fccId": "M3N-A2C31243800",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Explorer (Ford)",
+    "startYear": 2016,
+    "endYear": 2017,
+    "fccId": "M3N-A2C31243300",
+    "freq": "902 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Explorer (Ford)",
+    "startYear": 2018,
+    "endYear": 2022,
+    "fccId": "M3N-A2C93142300",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Explorer (Ford)",
+    "startYear": 2018,
+    "endYear": 2022,
+    "fccId": "M3N-A2C931426",
+    "freq": "902 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Explorer Sport Trac (Ford)",
+    "startYear": 2000,
+    "endYear": 2001,
+    "fccId": "CWTWB1U345",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Explorer Sport Trac (Ford)",
+    "startYear": 2001,
+    "endYear": 2011,
+    "fccId": "CWTWB1U345",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Fiesta (Ford)",
+    "startYear": 1999,
+    "endYear": 2002,
+    "fccId": "CWTWB1U345",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Fiesta (Ford)",
+    "startYear": 2003,
+    "endYear": 2010,
+    "fccId": "CWTWB1U331",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Fiesta (Ford)",
+    "startYear": 2011,
+    "endYear": 2013,
+    "fccId": "KEYDIY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Fiesta (Ford)",
+    "startYear": 2013,
+    "endYear": 2016,
+    "fccId": "KEYDIY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Fiesta (Ford)",
+    "startYear": 2015,
+    "endYear": 2019,
+    "fccId": "CWTWB1U793",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Fiesta (Ford)",
+    "startYear": 2011,
+    "endYear": 2019,
+    "fccId": "KR55WK48801",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Fiesta Ikon (Ford)",
+    "startYear": 2001,
+    "endYear": 2008,
+    "fccId": "CWTWB1U345",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Five Hundred (Ford)",
+    "startYear": 2005,
+    "endYear": 2007,
+    "fccId": "CWTWB1U331",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Five Hundred (Ford)",
+    "startYear": 2008,
+    "endYear": 2008,
+    "fccId": "OUCD6000022",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Focus (Ford)",
+    "startYear": 2000,
+    "endYear": 2005,
+    "fccId": "CWTWB1U331",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Focus (Ford)",
+    "startYear": 2004,
+    "endYear": 2006,
+    "fccId": "CWTWB1U331",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Focus (Ford)",
+    "startYear": 2006,
+    "endYear": 2007,
+    "fccId": "CWTWB1U331",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Focus Europa (Ford)",
+    "startYear": 2012,
+    "endYear": 2016,
+    "fccId": "KEYDIY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Focus USA (Ford)",
+    "startYear": 2008,
+    "endYear": 2019,
+    "fccId": "OUCD6000022",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Focus USA (Ford)",
+    "startYear": 2015,
+    "endYear": 2019,
+    "fccId": "KR5876268",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Frestar (Ford)",
+    "startYear": 2004,
+    "endYear": 2007,
+    "fccId": "CWTWB1U511",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Frestar (Ford)",
+    "startYear": 2004,
+    "endYear": 2007,
+    "fccId": "CWTWB1U345",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "F-Series (Ford)",
+    "startYear": 1998,
+    "endYear": 2009,
+    "fccId": "CWTWB1U345",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "F-Series (Ford)",
+    "startYear": 2004,
+    "endYear": 2010,
+    "fccId": "OUCD6000022",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "F-Series (Ford)",
+    "startYear": 2011,
+    "endYear": 2015,
+    "fccId": "CWTWB1U793",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "F-Series (Ford)",
+    "startYear": 2015,
+    "endYear": 2018,
+    "fccId": "N5F-A08TAA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "F-Series (Ford)",
+    "startYear": 2018,
+    "endYear": 2022,
+    "fccId": "M3N-A2C93142300",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "F-Series (Ford)",
+    "startYear": 2018,
+    "endYear": 2022,
+    "fccId": "M3N-A2C93142600",
+    "freq": "902 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Fusion (Ford)",
+    "startYear": 2006,
+    "endYear": 2012,
+    "fccId": "OUCD6000022",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Fusion (Ford)",
+    "startYear": 2013,
+    "endYear": 2016,
+    "fccId": "N5F-A08TAA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Fusion (Ford)",
+    "startYear": 2017,
+    "endYear": 2021,
+    "fccId": "M3N-A2C93142300",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Fusion (Ford)",
+    "startYear": 2017,
+    "endYear": 2021,
+    "fccId": "M3N-A2C93142600",
+    "freq": "902 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Grand Marquis (Mercury)",
+    "startYear": 1998,
+    "endYear": 2011,
+    "fccId": "CWTWB1U331",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ikon (Ford)",
+    "startYear": 2012,
+    "endYear": 2015,
+    "fccId": "KR55WK47899",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mariner (Mercury)",
+    "startYear": 2003,
+    "endYear": 2007,
+    "fccId": "CWTWB1U331",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mariner (Mercury)",
+    "startYear": 2008,
+    "endYear": 2011,
+    "fccId": "OUCD6000022",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mark LT (Lincoln)",
+    "startYear": 2005,
+    "endYear": 2008,
+    "fccId": "OUCD6000022",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mark LT (Lincoln)",
+    "startYear": 2009,
+    "endYear": 2013,
+    "fccId": "CWTWB1U793",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Maverick (Ford)",
+    "startYear": 2022,
+    "endYear": 2022,
+    "fccId": "N5F-A08TAA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Maverick (Ford)",
+    "startYear": 2022,
+    "endYear": 2022,
+    "fccId": "M3N-A2C93142300",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Maverick (Ford)",
+    "startYear": 2022,
+    "endYear": 2022,
+    "fccId": "M3N-A2C931426",
+    "freq": "902 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Milan (Mercury)",
+    "startYear": 2006,
+    "endYear": 2011,
+    "fccId": "OUCD6000022",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "MKC (Lincoln)",
+    "startYear": 2014,
+    "endYear": 2016,
+    "fccId": "M3NA2C31243300",
+    "freq": "902 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "MKC (Lincoln)",
+    "startYear": 2017,
+    "endYear": 2021,
+    "fccId": "M3N-A2C31243800",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "MKC (Lincoln)",
+    "startYear": 2017,
+    "endYear": 2021,
+    "fccId": "M3N-A2C940780",
+    "freq": "902 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "MKS (Lincoln)",
+    "startYear": 2009,
+    "endYear": 2013,
+    "fccId": "OUCD6000022",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "MKS (Lincoln)",
+    "startYear": 2013,
+    "endYear": 2016,
+    "fccId": "M3N5WY8609",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "MKZ (Lincoln)",
+    "startYear": 2007,
+    "endYear": 2016,
+    "fccId": "CWTWB1U793",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "MKZ (Lincoln)",
+    "startYear": 2017,
+    "endYear": 2019,
+    "fccId": "M3N-A2C31243800",
+    "freq": "902 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mondeo (Ford)",
+    "startYear": 2001,
+    "endYear": 2007,
+    "fccId": "KEYDIY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Monterey (Mercury)",
+    "startYear": 2004,
+    "endYear": 2007,
+    "fccId": "CWTWB1U511",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Monterey (Mercury)",
+    "startYear": 2004,
+    "endYear": 2007,
+    "fccId": "CWTWB1U345",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mountaineer (Mercury)",
+    "startYear": 1998,
+    "endYear": 2003,
+    "fccId": "CWTWB1U345",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mountaineer (Mercury)",
+    "startYear": 2004,
+    "endYear": 2011,
+    "fccId": "CWTWB1U345",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mustang (Ford)",
+    "startYear": 1996,
+    "endYear": 1998,
+    "fccId": "GQ43VT4T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mustang (Ford)",
+    "startYear": 1999,
+    "endYear": 2009,
+    "fccId": "CWTWB1U331",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mustang (Ford)",
+    "startYear": 2010,
+    "endYear": 2010,
+    "fccId": "OUCD6000022",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mustang (Ford)",
+    "startYear": 2011,
+    "endYear": 2013,
+    "fccId": "CWTWB1U793",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mustang (Ford)",
+    "startYear": 2015,
+    "endYear": 2017,
+    "fccId": "M3NA2C31243800",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mustang (Ford)",
+    "startYear": 2015,
+    "endYear": 2017,
+    "fccId": "M3N-A2C31243300",
+    "freq": "902 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mustang (Ford)",
+    "startYear": 2018,
+    "endYear": 2020,
+    "fccId": "M3N-A2C93142300",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mustang (Ford)",
+    "startYear": 2018,
+    "endYear": 2020,
+    "fccId": "M3N-A2C93142600",
+    "freq": "902 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mystique (Mercury)",
+    "startYear": 1995,
+    "endYear": 2000,
+    "fccId": "GQ43VT4T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Navigator (Lincoln)",
+    "startYear": 1999,
+    "endYear": 2002,
+    "fccId": "CWTWB1U345",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Navigator (Lincoln)",
+    "startYear": 2003,
+    "endYear": 2008,
+    "fccId": "CWTWB1U551",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Navigator (Lincoln)",
+    "startYear": 2007,
+    "endYear": 2011,
+    "fccId": "OUCD6000022",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Navigator (Lincoln)",
+    "startYear": 2012,
+    "endYear": 2013,
+    "fccId": "CWTWB1U793",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Navigator (Lincoln)",
+    "startYear": 2014,
+    "endYear": 2017,
+    "fccId": "M3N5WY8609",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Navigator (Lincoln)",
+    "startYear": 2018,
+    "endYear": 2021,
+    "fccId": "M3N-A2C940780",
+    "freq": "902 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ranger (Ford)",
+    "startYear": 1999,
+    "endYear": 2000,
+    "fccId": "CWTWB1U345",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ranger (Ford)",
+    "startYear": 2001,
+    "endYear": 2012,
+    "fccId": "CWTWB1U345",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ranger (Ford)",
+    "startYear": 2018,
+    "endYear": 2022,
+    "fccId": "N5F-A08TAA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sable (Mercury)",
+    "startYear": 1996,
+    "endYear": 1997,
+    "fccId": "GQ43VT4T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sable (Mercury)",
+    "startYear": 1998,
+    "endYear": 2005,
+    "fccId": "CWTWB1U345",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sable (Mercury)",
+    "startYear": 2008,
+    "endYear": 2009,
+    "fccId": "OUCD6000022",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Taurus (Ford)",
+    "startYear": 2004,
+    "endYear": 2009,
+    "fccId": "CWTWB1U331",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Taurus USA (Ford)",
+    "startYear": 2010,
+    "endYear": 2019,
+    "fccId": "CWTWB1U793",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Taurus USA (Ford)",
+    "startYear": 2013,
+    "endYear": 2019,
+    "fccId": "M3N5WY8609",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Thunderbird (Ford)",
+    "startYear": 2002,
+    "endYear": 2005,
+    "fccId": "CWTWB1U345",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Transit (Ford)",
+    "startYear": 2010,
+    "endYear": 2014,
+    "fccId": "6C1T15K601",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Transit (Ford)",
+    "startYear": 2016,
+    "endYear": 2018,
+    "fccId": "A2C53435329",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Transit Van (Ford)",
+    "startYear": 2015,
+    "endYear": 2020,
+    "fccId": "OUCD6000022",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Town Car (Lincoln)",
+    "startYear": 1995,
+    "endYear": 1997,
+    "fccId": "LHJ002",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Town Car (Lincoln)",
+    "startYear": 1995,
+    "endYear": 1997,
+    "fccId": "CWTWB1U313",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Town Car (Lincoln)",
+    "startYear": 1998,
+    "endYear": 2011,
+    "fccId": "CWTWB1U345",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Windstar (Ford)",
+    "startYear": 1999,
+    "endYear": 2004,
+    "fccId": "CWTWB1U345",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Acadia",
+    "startYear": 2007,
+    "endYear": 2017,
+    "fccId": "OUC60270",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Acadia",
+    "startYear": 2017,
+    "endYear": 2021,
+    "fccId": "HYQ1EA",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Acadia",
+    "startYear": 2021,
+    "endYear": 2022,
+    "fccId": "HYQ1ES",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Canyon",
+    "startYear": 2004,
+    "endYear": 2012,
+    "fccId": "L2C0007T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Canyon",
+    "startYear": 2015,
+    "endYear": 2022,
+    "fccId": "M3N-32337100",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Envoy",
+    "startYear": 2002,
+    "endYear": 2009,
+    "fccId": "MYT3X6898B",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Safari",
+    "startYear": 2002,
+    "endYear": 2005,
+    "fccId": "KOBLEAR1XT",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Savana",
+    "startYear": 2003,
+    "endYear": 2007,
+    "fccId": "KOBLEAR1XT",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Savana",
+    "startYear": 2008,
+    "endYear": 2014,
+    "fccId": "OUC60270",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Savana",
+    "startYear": 2015,
+    "endYear": 2020,
+    "fccId": "OUC60270",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sierra Pick Up",
+    "startYear": 1999,
+    "endYear": 2001,
+    "fccId": "KOBUT1BT",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sierra Pick Up",
+    "startYear": 2001,
+    "endYear": 2002,
+    "fccId": "KOBLEAR1XT",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sierra Pick Up",
+    "startYear": 2003,
+    "endYear": 2007,
+    "fccId": "LHJ011",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sierra Pick Up",
+    "startYear": 2007,
+    "endYear": 2013,
+    "fccId": "OUC60270",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sierra Pick Up",
+    "startYear": 2014,
+    "endYear": 2019,
+    "fccId": "M3N-32337100",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sierra Pick Up",
+    "startYear": 2019,
+    "endYear": 2020,
+    "fccId": "HYQ1EA",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sierra Pick Up",
+    "startYear": 2019,
+    "endYear": 2021,
+    "fccId": "M3N-32337200",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sierra Pick Up",
+    "startYear": 2021,
+    "endYear": 2022,
+    "fccId": "HYQ1ES",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sonoma Pick Up",
+    "startYear": 1998,
+    "endYear": 2001,
+    "fccId": "KOBUT1BT",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Terrain",
+    "startYear": 2010,
+    "endYear": 2018,
+    "fccId": "OHT01060512",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Terrain",
+    "startYear": 2018,
+    "endYear": 2021,
+    "fccId": "HYQ1AA",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Terrain",
+    "startYear": 2022,
+    "endYear": 2022,
+    "fccId": "HYQ1ES",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Yukon",
+    "startYear": 1999,
+    "endYear": 2000,
+    "fccId": "AB01502T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Yukon",
+    "startYear": 2000,
+    "endYear": 2001,
+    "fccId": "KOBUT1BT",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Yukon",
+    "startYear": 2001,
+    "endYear": 2002,
+    "fccId": "KOBLEAR1XT",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Yukon",
+    "startYear": 2003,
+    "endYear": 2006,
+    "fccId": "LHJ011",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Yukon",
+    "startYear": 2007,
+    "endYear": 2014,
+    "fccId": "OUC60270",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Yukon",
+    "startYear": 2015,
+    "endYear": 2020,
+    "fccId": "M3N-32337100",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Yukon",
+    "startYear": 2015,
+    "endYear": 2020,
+    "fccId": "HYQ1AA",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Accord",
+    "startYear": 1998,
+    "endYear": 2002,
+    "fccId": "KOBUTAH2T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Accord Sedan/Coupe",
+    "startYear": 2003,
+    "endYear": 2007,
+    "fccId": "OUCG8D-380H-A",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Accord (4 Puertas)",
+    "startYear": 2008,
+    "endYear": 2014,
+    "fccId": "KR55WK49308",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Accord Coupe",
+    "startYear": 2008,
+    "endYear": 2012,
+    "fccId": "MLBHLIK-1T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Accord",
+    "startYear": 2013,
+    "endYear": 2015,
+    "fccId": "MLBHLIK6-1T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Accord Proximity",
+    "startYear": 2013,
+    "endYear": 2015,
+    "fccId": "ACJ932HK1210A",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Accord",
+    "startYear": 2016,
+    "endYear": 2017,
+    "fccId": "MLBHL1K6-1TA",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Accord Proximity",
+    "startYear": 2016,
+    "endYear": 2017,
+    "fccId": "ACJ932HK1310A",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Accord Proximity",
+    "startYear": 2018,
+    "endYear": 2021,
+    "fccId": "CWTWB1G0090",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Accord Proximity",
+    "startYear": 2022,
+    "endYear": 2022,
+    "fccId": "KR5TP-4",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "City",
+    "startYear": 2010,
+    "endYear": 2013,
+    "fccId": "HLIK-1T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "City",
+    "startYear": 2014,
+    "endYear": 2021,
+    "fccId": "MLBHLIK6-1T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "City Proximity",
+    "startYear": 2014,
+    "endYear": 2021,
+    "fccId": "KR5V1X",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Civic",
+    "startYear": 2001,
+    "endYear": 2002,
+    "fccId": "NHVWB1U523",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Civic",
+    "startYear": 2003,
+    "endYear": 2005,
+    "fccId": "NHVWB1U523",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Civic",
+    "startYear": 2006,
+    "endYear": 2013,
+    "fccId": "N5F-S0084A",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Civic",
+    "startYear": 2012,
+    "endYear": 2013,
+    "fccId": "N5F-A05TAA",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Civic",
+    "startYear": 2014,
+    "endYear": 2015,
+    "fccId": "MLBHLIK6-1T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Civic Proximity",
+    "startYear": 2014,
+    "endYear": 2015,
+    "fccId": "ACJ932HK1210A",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Civic",
+    "startYear": 2016,
+    "endYear": 2021,
+    "fccId": "MLBHL1K6-1TA",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Civic Proximity",
+    "startYear": 2016,
+    "endYear": 2021,
+    "fccId": "KR5V2X",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Crosstour",
+    "startYear": 2010,
+    "endYear": 2012,
+    "fccId": "MLBHLIK-1T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Crosstour",
+    "startYear": 2013,
+    "endYear": 2015,
+    "fccId": "MLBHLIK6-1T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "CR-V",
+    "startYear": 1997,
+    "endYear": 2001,
+    "fccId": "A269ZUA101",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "CR-V",
+    "startYear": 2002,
+    "endYear": 2004,
+    "fccId": "OUCG8D-344H-A",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "CR-V",
+    "startYear": 2005,
+    "endYear": 2007,
+    "fccId": "OUCG8D-380H-A",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "CR-V",
+    "startYear": 2007,
+    "endYear": 2013,
+    "fccId": "MLBHLIK-1T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "CR-V",
+    "startYear": 2014,
+    "endYear": 2016,
+    "fccId": "ML-IK6-1T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "CR-V",
+    "startYear": 2017,
+    "endYear": 2020,
+    "fccId": "MLBHLIK6-1TA",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "CR-V Proximity",
+    "startYear": 2015,
+    "endYear": 2016,
+    "fccId": "ACJ932HK1210A",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "CR-V Proximity",
+    "startYear": 2017,
+    "endYear": 2020,
+    "fccId": "KR5V2X",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Element",
+    "startYear": 2003,
+    "endYear": 2005,
+    "fccId": "NHVWB1U521",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Element",
+    "startYear": 2003,
+    "endYear": 2005,
+    "fccId": "OUCG8D-344H-A",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Element",
+    "startYear": 2006,
+    "endYear": 2012,
+    "fccId": "NHVWB1U521",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Element",
+    "startYear": 2006,
+    "endYear": 2012,
+    "fccId": "OUCG8D-344H-A",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Fit",
+    "startYear": 2006,
+    "endYear": 2008,
+    "fccId": "08E51-EP4-8MO-1B",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Fit",
+    "startYear": 2009,
+    "endYear": 2013,
+    "fccId": "MLBHLIK-1T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Fit",
+    "startYear": 2015,
+    "endYear": 2020,
+    "fccId": "MLBHL1K6-1T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Fit Proximity",
+    "startYear": 2015,
+    "endYear": 2020,
+    "fccId": "KR5V1X",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "H-RV",
+    "startYear": 2015,
+    "endYear": 2021,
+    "fccId": "MLBHLIK6-1T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "H-RV Proximity",
+    "startYear": 2016,
+    "endYear": 2021,
+    "fccId": "KR5V1X",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Insight",
+    "startYear": 2010,
+    "endYear": 2014,
+    "fccId": "MLBHLIK-1T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Insight EX Hybrid",
+    "startYear": 2019,
+    "endYear": 2021,
+    "fccId": "CWTWB1G0090",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Odyssey",
+    "startYear": 1998,
+    "endYear": 2002,
+    "fccId": "A269ZUA101",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Odyssey",
+    "startYear": 2000,
+    "endYear": 2002,
+    "fccId": "OUCG8D-440H-A",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Odyssey",
+    "startYear": 2003,
+    "endYear": 2004,
+    "fccId": "A269ZUA101",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Odyssey",
+    "startYear": 2003,
+    "endYear": 2004,
+    "fccId": "OUCG8D-440H-A",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Odyssey",
+    "startYear": 2005,
+    "endYear": 2010,
+    "fccId": "OUCG8D-399H-A",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Odyssey",
+    "startYear": 2010,
+    "endYear": 2014,
+    "fccId": "N5F-S0084A",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Odyssey",
+    "startYear": 2011,
+    "endYear": 2017,
+    "fccId": "N5F-A04TAA",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Odyssey",
+    "startYear": 2014,
+    "endYear": 2017,
+    "fccId": "KR5V1X",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Odyssey",
+    "startYear": 2018,
+    "endYear": 2020,
+    "fccId": "KR5V2X",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Pilot",
+    "startYear": 2003,
+    "endYear": 2007,
+    "fccId": "NHVWB1U523",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Pilot",
+    "startYear": 2005,
+    "endYear": 2009,
+    "fccId": "CWTWB1U545",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Pilot",
+    "startYear": 2009,
+    "endYear": 2015,
+    "fccId": "KR55WK49308",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Pilot",
+    "startYear": 2016,
+    "endYear": 2018,
+    "fccId": "KR5V2X",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Pilot",
+    "startYear": 2019,
+    "endYear": 2021,
+    "fccId": "KR5V41",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ridgeline",
+    "startYear": 2005,
+    "endYear": 2014,
+    "fccId": "OUCG8D-380H-A",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ridgeline",
+    "startYear": 2017,
+    "endYear": 2019,
+    "fccId": "A2C97488400",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ridgeline",
+    "startYear": 2021,
+    "endYear": 2021,
+    "fccId": "KR5T41",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Accent",
+    "startYear": 2006,
+    "endYear": 2008,
+    "fccId": "PLNHM-T002",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Accent",
+    "startYear": 2009,
+    "endYear": 2011,
+    "fccId": "PINHA-T038",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Accent",
+    "startYear": 2012,
+    "endYear": 2014,
+    "fccId": "TQ8RKE-3F03",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Accent",
+    "startYear": 2014,
+    "endYear": 2017,
+    "fccId": "TQ8-RKE-4F145",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Accent",
+    "startYear": 2018,
+    "endYear": 2021,
+    "fccId": "NYOSYEC4TX1707",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Attitude",
+    "startYear": 2006,
+    "endYear": 2011,
+    "fccId": "TFKB1G012A",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Attitude",
+    "startYear": 2012,
+    "endYear": 2014,
+    "fccId": "KEYDY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Atos",
+    "startYear": 2001,
+    "endYear": 2012,
+    "fccId": "NO",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Creta",
+    "startYear": 2016,
+    "endYear": 2018,
+    "fccId": "95430-A0100",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Creta",
+    "startYear": 2019,
+    "endYear": 2022,
+    "fccId": "95430-A0100",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Elantra",
+    "startYear": 2006,
+    "endYear": 2011,
+    "fccId": "OSLOKA-310T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Elantra",
+    "startYear": 2011,
+    "endYear": 2016,
+    "fccId": "TQ8RKE-3F03",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Elantra",
+    "startYear": 2014,
+    "endYear": 2016,
+    "fccId": "SY5MDFNA433",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Elantra",
+    "startYear": 2016,
+    "endYear": 2020,
+    "fccId": "OSLOKA-423T",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Elantra",
+    "startYear": 2017,
+    "endYear": 2020,
+    "fccId": "CQ0FD00120",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Elantra",
+    "startYear": 2021,
+    "endYear": 2021,
+    "fccId": "NYOMBEC4TX20040",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "i10",
+    "startYear": 2012,
+    "endYear": 2014,
+    "fccId": "TFKB1G014A",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Grand i10",
+    "startYear": 2015,
+    "endYear": 2021,
+    "fccId": "KEYDY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Santa Fe",
+    "startYear": 2007,
+    "endYear": 2012,
+    "fccId": "PINHA-T038",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Santa Fe",
+    "startYear": 2013,
+    "endYear": 2016,
+    "fccId": "TQ8-RKE-3F04",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Santa Fe",
+    "startYear": 2013,
+    "endYear": 2016,
+    "fccId": "2AOKM-HK2",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Santa Fe",
+    "startYear": 2017,
+    "endYear": 2018,
+    "fccId": "TQ8-RKE-4F31",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Santa Fe (No Sport y XL)",
+    "startYear": 2014,
+    "endYear": 2018,
+    "fccId": "SY5DMFNA433",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Santa Fe Sport",
+    "startYear": 2014,
+    "endYear": 2018,
+    "fccId": "SY5DMFNA04",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Santa Fe",
+    "startYear": 2018,
+    "endYear": 2021,
+    "fccId": "TQ8-RKE-4F39",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Santa Fe",
+    "startYear": 2019,
+    "endYear": 2020,
+    "fccId": "TQ8-FOB-4F19",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Santa Fe",
+    "startYear": 2021,
+    "endYear": 2022,
+    "fccId": "TQ8FOB4F2",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sonata",
+    "startYear": 2011,
+    "endYear": 2014,
+    "fccId": "OSLOKA-950T",
+    "freq": "313 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sonata",
+    "startYear": 2011,
+    "endYear": 2014,
+    "fccId": "SY5HMFNA04",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sonata",
+    "startYear": 2015,
+    "endYear": 2017,
+    "fccId": "TQ8-RKE-4F16",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sonata",
+    "startYear": 2014,
+    "endYear": 2017,
+    "fccId": "TQ8-F0B-4F03",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sonata",
+    "startYear": 2018,
+    "endYear": 2019,
+    "fccId": "CQOFD00120",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sonata",
+    "startYear": 2019,
+    "endYear": 2022,
+    "fccId": "TQ8RKE4F40",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sonata",
+    "startYear": 2020,
+    "endYear": 2022,
+    "fccId": "TQ8-F08-4F27",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tucson",
+    "startYear": 2010,
+    "endYear": 2011,
+    "fccId": "OSLOKA-850T",
+    "freq": "314 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tucson",
+    "startYear": 2011,
+    "endYear": 2014,
+    "fccId": "OSLOKA-850T",
+    "freq": "314 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tucson",
+    "startYear": 2015,
+    "endYear": 2019,
+    "fccId": "TQ8-RKE-4F25",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tucson",
+    "startYear": 2014,
+    "endYear": 2018,
+    "fccId": "TQ8-F0B-4F03",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tucson",
+    "startYear": 2019,
+    "endYear": 2021,
+    "fccId": "TQ8FOB4F11",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tucson",
+    "startYear": 2021,
+    "endYear": 2022,
+    "fccId": "TQ8-RKE-4F40",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Veloster",
+    "startYear": 2012,
+    "endYear": 2017,
+    "fccId": "NYOSEKS-TF10ATX",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Veloster",
+    "startYear": 2012,
+    "endYear": 2017,
+    "fccId": "SY5HMFNA04",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Veloster",
+    "startYear": 2018,
+    "endYear": 2019,
+    "fccId": "SY5IGRGE04",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Veracruz",
+    "startYear": 2008,
+    "endYear": 2012,
+    "fccId": "SY55WY8212",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Forte",
+    "startYear": 2013,
+    "endYear": 2016,
+    "fccId": "OSLOKA-870T",
+    "freq": "314 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Forte",
+    "startYear": 2014,
+    "endYear": 2016,
+    "fccId": "CQOFN00040",
+    "freq": "314 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Forte",
+    "startYear": 2016,
+    "endYear": 2018,
+    "fccId": "OSLOKA-875T",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Forte",
+    "startYear": 2019,
+    "endYear": 2021,
+    "fccId": "CQ0TD00660",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Optima",
+    "startYear": 2014,
+    "endYear": 2015,
+    "fccId": "NY0DD4TX1306-TFL",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Optima",
+    "startYear": 2016,
+    "endYear": 2020,
+    "fccId": "SY5JFRGE04",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Optima",
+    "startYear": 2017,
+    "endYear": 2020,
+    "fccId": "SY5JFFGE04",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Rio",
+    "startYear": 2014,
+    "endYear": 2017,
+    "fccId": "TQ8-RKE-3F05",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Rio",
+    "startYear": 2014,
+    "endYear": 2017,
+    "fccId": "SY5XMFNA04",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Rio",
+    "startYear": 2018,
+    "endYear": 2022,
+    "fccId": "NY0SYEC3TX1611",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Rio",
+    "startYear": 2018,
+    "endYear": 2022,
+    "fccId": "NY0SYEC4F0B1611",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sedona",
+    "startYear": 2006,
+    "endYear": 2014,
+    "fccId": "SV3-100060234",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sedona",
+    "startYear": 2015,
+    "endYear": 2021,
+    "fccId": "TQ8-RKE-4F19",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sedona",
+    "startYear": 2015,
+    "endYear": 2021,
+    "fccId": "SY5YPFGE06",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sorento",
+    "startYear": 2013,
+    "endYear": 2014,
+    "fccId": "SY5XMFNA04",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sorento",
+    "startYear": 2013,
+    "endYear": 2015,
+    "fccId": "TQ8-RKE-3F05",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sorento",
+    "startYear": 2015,
+    "endYear": 2018,
+    "fccId": "TQ8-FOB-4F06",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sorento",
+    "startYear": 2016,
+    "endYear": 2020,
+    "fccId": "OSLOKA-910T",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sorento",
+    "startYear": 2021,
+    "endYear": 2021,
+    "fccId": "SY5MQ4FGE05",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Soul",
+    "startYear": 2014,
+    "endYear": 2019,
+    "fccId": "OSLOKA875T",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Soul",
+    "startYear": 2014,
+    "endYear": 2019,
+    "fccId": "CQ0FN00100",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Soul",
+    "startYear": 2019,
+    "endYear": 2021,
+    "fccId": "SY5SKRGE04",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sportage",
+    "startYear": 2014,
+    "endYear": 2016,
+    "fccId": "NY0DD4TX1306-TFL",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sportage",
+    "startYear": 2016,
+    "endYear": 2020,
+    "fccId": "TQ8-RKE-4F27",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sportage",
+    "startYear": 2014,
+    "endYear": 2019,
+    "fccId": "TQ8-FOB-4F06",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sportage",
+    "startYear": 2021,
+    "endYear": 2021,
+    "fccId": "TQ8-FOB-4F24",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mazda 2",
+    "startYear": 2011,
+    "endYear": 2015,
+    "fccId": "BGBX1T478SKE125-01",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mazda 2",
+    "startYear": 2015,
+    "endYear": 2022,
+    "fccId": "WAZSKE13D01",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mazda 2 Sedan",
+    "startYear": 2015,
+    "endYear": 2022,
+    "fccId": "WAZSKE13D01",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mazda 3",
+    "startYear": 2004,
+    "endYear": 2006,
+    "fccId": "KPU41846",
+    "freq": "314 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mazda 3",
+    "startYear": 2007,
+    "endYear": 2009,
+    "fccId": "KPU41794",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mazda 3",
+    "startYear": 2005,
+    "endYear": 2009,
+    "fccId": "KPU41788",
+    "freq": "314 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mazda 3",
+    "startYear": 2010,
+    "endYear": 2013,
+    "fccId": "BGBX1T478SKE12501",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mazda 3 Sedan",
+    "startYear": 2014,
+    "endYear": 2018,
+    "fccId": "WAZSKE13D01",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mazda 3 Hatchback",
+    "startYear": 2019,
+    "endYear": 2020,
+    "fccId": "WAZSKE11D01",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mazda 3 Sedan",
+    "startYear": 2019,
+    "endYear": 2021,
+    "fccId": "WAZSKE11D01",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mazda 5",
+    "startYear": 2006,
+    "endYear": 2015,
+    "fccId": "BGBX1T478SKE125-01",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mazda 6",
+    "startYear": 2005,
+    "endYear": 2008,
+    "fccId": "KPU41788",
+    "freq": "314 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mazda 6",
+    "startYear": 2009,
+    "endYear": 2013,
+    "fccId": "BGBX1T478SKE12501",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mazda 6",
+    "startYear": 2009,
+    "endYear": 2013,
+    "fccId": "KR55WK49383",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mazda 6",
+    "startYear": 2014,
+    "endYear": 2019,
+    "fccId": "WAZSKE13D01",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mazda 6 Sedan",
+    "startYear": 2019,
+    "endYear": 2020,
+    "fccId": "WAZSKE13D03",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "CX-3",
+    "startYear": 2016,
+    "endYear": 2020,
+    "fccId": "WAZSKE13D01",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mazda CX3",
+    "startYear": 2021,
+    "endYear": 2022,
+    "fccId": "WAZSKE13D03",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "CX-5",
+    "startYear": 2010,
+    "endYear": 2012,
+    "fccId": "WAZX1T768SKE11A03",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "CX5",
+    "startYear": 2013,
+    "endYear": 2019,
+    "fccId": "WAZSKE13D01",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mazda CX5",
+    "startYear": 2020,
+    "endYear": 2022,
+    "fccId": "WAZSKE13D03",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "CX7",
+    "startYear": 2007,
+    "endYear": 2009,
+    "fccId": "BGBX1T458SKE11A01",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "CX7",
+    "startYear": 2007,
+    "endYear": 2012,
+    "fccId": "BGBX1T478SKE125-01",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "CX-7",
+    "startYear": 2010,
+    "endYear": 2015,
+    "fccId": "WAZX1T768SKE11A04",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "CX-9",
+    "startYear": 2007,
+    "endYear": 2011,
+    "fccId": "BGBX1T458SKE11A01",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "CX-9",
+    "startYear": 2007,
+    "endYear": 2015,
+    "fccId": "BGBX1T478SKE125-01",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "CX-9",
+    "startYear": 2016,
+    "endYear": 2019,
+    "fccId": "WAZSKE13D01",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mazda CX9",
+    "startYear": 2020,
+    "endYear": 2021,
+    "fccId": "WAZSKE13D03",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mazda CX30",
+    "startYear": 2020,
+    "endYear": 2021,
+    "fccId": "WAZSKE11D01",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "MX-5 Miata",
+    "startYear": 2006,
+    "endYear": 2015,
+    "fccId": "BGBX1T478SKE125-01",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "MX-5 Miata",
+    "startYear": 2010,
+    "endYear": 2014,
+    "fccId": "WAZX1T768SKE11A04",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "MX-5 Miata",
+    "startYear": 2016,
+    "endYear": 2019,
+    "fccId": "WAZSKE13D01",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mazda CX5",
+    "startYear": 2020,
+    "endYear": 2021,
+    "fccId": "WAZSKE11D01",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "RX-8",
+    "startYear": 2004,
+    "endYear": 2008,
+    "fccId": "KPU41805",
+    "freq": "313 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "RX-8",
+    "startYear": 2004,
+    "endYear": 2011,
+    "fccId": "KPU41788",
+    "freq": "313 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "RX-8",
+    "startYear": 2004,
+    "endYear": 2011,
+    "fccId": "BGBX1T458SKE11A01",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mazda Tribute",
+    "startYear": 2001,
+    "endYear": 2007,
+    "fccId": "CWTWB1U345",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mazda Tribute",
+    "startYear": 2008,
+    "endYear": 2011,
+    "fccId": "CWTWB1U722",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "ASX",
+    "startYear": 2010,
+    "endYear": 2016,
+    "fccId": "G8D-644M-KEY-E",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "ASX",
+    "startYear": 2015,
+    "endYear": 2019,
+    "fccId": "KEYDIY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Diamante",
+    "startYear": 2000,
+    "endYear": 2004,
+    "fccId": "E4EG8D-522M-A",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Eclipse",
+    "startYear": 2002,
+    "endYear": 2006,
+    "fccId": "OUCG8D-525M-A",
+    "freq": "314 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Eclipse",
+    "startYear": 2006,
+    "endYear": 2007,
+    "fccId": "OUCG8D-620M-A",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Eclipse",
+    "startYear": 2007,
+    "endYear": 2012,
+    "fccId": "OUCG8D-620M-A",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Eclipse Cross",
+    "startYear": 2018,
+    "endYear": 2020,
+    "fccId": "OUCJ166N",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Eclipse Cross",
+    "startYear": 2018,
+    "endYear": 2022,
+    "fccId": "OUCGHR-M013",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Endeavor",
+    "startYear": 2004,
+    "endYear": 2006,
+    "fccId": "OUCG8D-525M-A",
+    "freq": "314 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Endeavor",
+    "startYear": 2006,
+    "endYear": 2007,
+    "fccId": "OUCG8D-620M-A",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Endeavor",
+    "startYear": 2007,
+    "endYear": 2012,
+    "fccId": "OUCG8D-620M-A",
+    "freq": "314 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Galant",
+    "startYear": 2002,
+    "endYear": 2003,
+    "fccId": "OUCG8D-525M-A",
+    "freq": "314 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Galant",
+    "startYear": 2004,
+    "endYear": 2005,
+    "fccId": "OUCG8D-525M-A",
+    "freq": "314 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Galant",
+    "startYear": 2006,
+    "endYear": 2007,
+    "fccId": "OUCG8D-620M-A",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Galant",
+    "startYear": 2007,
+    "endYear": 2012,
+    "fccId": "OUCG8D-620M-A",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Grandis",
+    "startYear": 2004,
+    "endYear": 2010,
+    "fccId": "G8D-571M-A",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Lancer",
+    "startYear": 2002,
+    "endYear": 2007,
+    "fccId": "OUCG8D-525M-A",
+    "freq": "314 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Lancer",
+    "startYear": 2007,
+    "endYear": 2016,
+    "fccId": "OUCG8D-625M-A",
+    "freq": "314 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Lancer",
+    "startYear": 2008,
+    "endYear": 2017,
+    "fccId": "OUCG8D-644M-KEY-N",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "L-200",
+    "startYear": 2008,
+    "endYear": 2020,
+    "fccId": "KEYDIY",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Mirage",
+    "startYear": 2015,
+    "endYear": 2022,
+    "fccId": "KEYDIY",
+    "freq": "433.92 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Montero",
+    "startYear": 1998,
+    "endYear": 2004,
+    "fccId": "E4EG8D-522M-A",
+    "freq": "314 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Montero Sport",
+    "startYear": 2001,
+    "endYear": 2008,
+    "fccId": "E4EG8D-522M-A",
+    "freq": "314 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Outlander",
+    "startYear": 2002,
+    "endYear": 2006,
+    "fccId": "OUCG8D-525M-A",
+    "freq": "314 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Outlander",
+    "startYear": 2007,
+    "endYear": 2007,
+    "fccId": "OUCG8D-640M-KEY-N",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Outlander",
+    "startYear": 2007,
+    "endYear": 2015,
+    "fccId": "OUCG8D-625M-A",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Outlander",
+    "startYear": 2008,
+    "endYear": 2020,
+    "fccId": "OUC644M-KEY-N",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Outlander",
+    "startYear": 2016,
+    "endYear": 2021,
+    "fccId": "OUCJ166N",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Almera",
+    "startYear": 2001,
+    "endYear": 2007,
+    "fccId": "KEYDIY",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Altima",
+    "startYear": 1999,
+    "endYear": 2000,
+    "fccId": "KOBUTA3T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Altima",
+    "startYear": 2001,
+    "endYear": 2004,
+    "fccId": "KBRASTU15",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Altima",
+    "startYear": 2005,
+    "endYear": 2006,
+    "fccId": "KBRASTU15",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Altima",
+    "startYear": 2007,
+    "endYear": 2012,
+    "fccId": "KR55WK48903",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Altima",
+    "startYear": 2013,
+    "endYear": 2015,
+    "fccId": "KR5S180144014",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Altima",
+    "startYear": 2016,
+    "endYear": 2018,
+    "fccId": "KR5S180144014",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Altima",
+    "startYear": 2019,
+    "endYear": 2022,
+    "fccId": "KR5TXN4",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Aprio",
+    "startYear": 2008,
+    "endYear": 2011,
+    "fccId": "KEYDIY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Armada",
+    "startYear": 2004,
+    "endYear": 2013,
+    "fccId": "KBRASTU15",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Armada",
+    "startYear": 2008,
+    "endYear": 2016,
+    "fccId": "CWTWBU729",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Armada",
+    "startYear": 2008,
+    "endYear": 2016,
+    "fccId": "CWTWBU624",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Armada",
+    "startYear": 2017,
+    "endYear": 2020,
+    "fccId": "CWTWB1G744",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Armada",
+    "startYear": 2017,
+    "endYear": 2022,
+    "fccId": "CWTWB1U825",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Armada",
+    "startYear": 2017,
+    "endYear": 2022,
+    "fccId": "CWTWB1U773",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Frontier",
+    "startYear": 1998,
+    "endYear": 2000,
+    "fccId": "KOBUTA3T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Frontier",
+    "startYear": 2000,
+    "endYear": 2001,
+    "fccId": "KBRASTU10",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Frontier",
+    "startYear": 2002,
+    "endYear": 2015,
+    "fccId": "KBRASTU15",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Frontier",
+    "startYear": 2007,
+    "endYear": 2015,
+    "fccId": "KEYDIY",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Frontier NP 300",
+    "startYear": 2016,
+    "endYear": 2020,
+    "fccId": "CWT-WBIU761",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Frontier",
+    "startYear": 2018,
+    "endYear": 2020,
+    "fccId": "KBRASTU15",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Frontier NP 300",
+    "startYear": 2018,
+    "endYear": 2022,
+    "fccId": "CWTWB1U825",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Juke",
+    "startYear": 2011,
+    "endYear": 2017,
+    "fccId": "CWTWB1U808",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Kicks",
+    "startYear": 2017,
+    "endYear": 2021,
+    "fccId": "KR5TXN1",
+    "freq": "433.9 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Leaf",
+    "startYear": 2011,
+    "endYear": 2012,
+    "fccId": "CWTWB1U808",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Leaf",
+    "startYear": 2013,
+    "endYear": 2017,
+    "fccId": "CWTWB1U840",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Leaf",
+    "startYear": 2018,
+    "endYear": 2020,
+    "fccId": "CWTWB1G0168",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "March",
+    "startYear": 2011,
+    "endYear": 2022,
+    "fccId": "CWTWB1U751",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "March",
+    "startYear": 2015,
+    "endYear": 2022,
+    "fccId": "CWTWB1U771",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Maxima",
+    "startYear": 1996,
+    "endYear": 1999,
+    "fccId": "A269ZUA078",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Maxima",
+    "startYear": 2000,
+    "endYear": 2003,
+    "fccId": "KBRASTU10",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Maxima",
+    "startYear": 2001,
+    "endYear": 2006,
+    "fccId": "KBRASTU15",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Maxima",
+    "startYear": 2007,
+    "endYear": 2008,
+    "fccId": "CWTWBU735",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Maxima",
+    "startYear": 2009,
+    "endYear": 2014,
+    "fccId": "KR55WK48903",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Maxima",
+    "startYear": 2016,
+    "endYear": 2018,
+    "fccId": "KR5S180144014",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Maxima",
+    "startYear": 2019,
+    "endYear": 2021,
+    "fccId": "KR5TXN7",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Murano",
+    "startYear": 2003,
+    "endYear": 2008,
+    "fccId": "KBRASTU15",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Murano",
+    "startYear": 2004,
+    "endYear": 2008,
+    "fccId": "KBRTN001",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Murano",
+    "startYear": 2009,
+    "endYear": 2014,
+    "fccId": "KR55WK49622",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Murano",
+    "startYear": 2015,
+    "endYear": 2018,
+    "fccId": "KR5S180144014",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Murano",
+    "startYear": 2019,
+    "endYear": 2021,
+    "fccId": "KR5TXN7",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Note",
+    "startYear": 2014,
+    "endYear": 2019,
+    "fccId": "CWTWB1U771",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "NP300",
+    "startYear": 2016,
+    "endYear": 2022,
+    "fccId": "KEYDIY",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Pathfinder",
+    "startYear": 1996,
+    "endYear": 1999,
+    "fccId": "KOBUTA3T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Pathfinder",
+    "startYear": 1999,
+    "endYear": 2000,
+    "fccId": "KBRASTU10",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Pathfinder",
+    "startYear": 2001,
+    "endYear": 2004,
+    "fccId": "KBRASTU15",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Pathfinder",
+    "startYear": 2005,
+    "endYear": 2012,
+    "fccId": "CWTWB1U415",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Pathfinder",
+    "startYear": 2013,
+    "endYear": 2018,
+    "fccId": "KR5S180144014",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Pathfinder",
+    "startYear": 2019,
+    "endYear": 2021,
+    "fccId": "KR5TXN7",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Platina",
+    "startYear": 2002,
+    "endYear": 2009,
+    "fccId": "KEYDIY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Quest",
+    "startYear": 2004,
+    "endYear": 2011,
+    "fccId": "KBRASTU51",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Quest",
+    "startYear": 2011,
+    "endYear": 2017,
+    "fccId": "CWTWB1U818",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Rogue",
+    "startYear": 2008,
+    "endYear": 2015,
+    "fccId": "CWTWBU729",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Rogue",
+    "startYear": 2015,
+    "endYear": 2018,
+    "fccId": "KR5S180144106",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Rogue",
+    "startYear": 2014,
+    "endYear": 2020,
+    "fccId": "CWTWB1G767",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Rogue",
+    "startYear": 2019,
+    "endYear": 2021,
+    "fccId": "KR5TXN4",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sentra",
+    "startYear": 2000,
+    "endYear": 2006,
+    "fccId": "NHVBU427",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sentra",
+    "startYear": 2000,
+    "endYear": 2004,
+    "fccId": "KEYDIY",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sentra",
+    "startYear": 2003,
+    "endYear": 2006,
+    "fccId": "CWTWB1U429",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sentra",
+    "startYear": 2007,
+    "endYear": 2012,
+    "fccId": "KBRASTU15",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sentra",
+    "startYear": 2008,
+    "endYear": 2012,
+    "fccId": "CWTWBU735",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sentra",
+    "startYear": 2013,
+    "endYear": 2019,
+    "fccId": "CWTWB1U815",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sentra",
+    "startYear": 2013,
+    "endYear": 2019,
+    "fccId": "CWTWB1U840",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sentra",
+    "startYear": 2020,
+    "endYear": 2022,
+    "fccId": "KR5TXN4",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tiida",
+    "startYear": 2007,
+    "endYear": 2019,
+    "fccId": "KBRASTU15",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tiida",
+    "startYear": 2010,
+    "endYear": 2015,
+    "fccId": "CWTWBU729",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tiida",
+    "startYear": 2010,
+    "endYear": 2015,
+    "fccId": "KBRASTU15",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Titan",
+    "startYear": 2004,
+    "endYear": 2015,
+    "fccId": "KBRASTU15",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Titan",
+    "startYear": 2016,
+    "endYear": 2018,
+    "fccId": "KR5S180144014",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Titan",
+    "startYear": 2019,
+    "endYear": 2021,
+    "fccId": "KR5TXN7",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tsuru",
+    "startYear": 2007,
+    "endYear": 2017,
+    "fccId": "KEYDIY",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "V- drive",
+    "startYear": 2021,
+    "endYear": 2022,
+    "fccId": "CWTWB1U751",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Versa",
+    "startYear": 2010,
+    "endYear": 2020,
+    "fccId": "CWTWB1U751",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Versa",
+    "startYear": 2013,
+    "endYear": 2020,
+    "fccId": "CWTWB1U815",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Versa",
+    "startYear": 2020,
+    "endYear": 2022,
+    "fccId": "KEYDIY",
+    "freq": "433.9 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Versa",
+    "startYear": 2020,
+    "endYear": 2022,
+    "fccId": "KR5TXN1",
+    "freq": "433.9 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "X-terra",
+    "startYear": 2000,
+    "endYear": 2001,
+    "fccId": "KBRASTU10",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "X-terra",
+    "startYear": 2002,
+    "endYear": 2004,
+    "fccId": "KBRASTU15",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "X-terra",
+    "startYear": 2005,
+    "endYear": 2013,
+    "fccId": "CWTWB1U751",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "X-trail",
+    "startYear": 2002,
+    "endYear": 2007,
+    "fccId": "KBRASTU15",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "X-trail",
+    "startYear": 2008,
+    "endYear": 2013,
+    "fccId": "CWTWB1U751",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "X-Trail",
+    "startYear": 2015,
+    "endYear": 2020,
+    "fccId": "KR5S180144106",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Peugeot 206",
+    "startYear": 2003,
+    "endYear": 2010,
+    "fccId": "KEYDIY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Peugeot 207",
+    "startYear": 2007,
+    "endYear": 2010,
+    "fccId": "KEYDIY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Peugeot 207",
+    "startYear": 2011,
+    "endYear": 2018,
+    "fccId": "KEYDIY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Peugeot 208",
+    "startYear": 2013,
+    "endYear": 2019,
+    "fccId": "2013DJ0113",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Peugeot 307",
+    "startYear": 2004,
+    "endYear": 2012,
+    "fccId": "CE0523",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Peugeot 308",
+    "startYear": 2013,
+    "endYear": 2019,
+    "fccId": "2013DJ0113",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Peugeot 406",
+    "startYear": 2002,
+    "endYear": 2005,
+    "fccId": "KEYDIY",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Peugeot 508",
+    "startYear": 2013,
+    "endYear": 2018,
+    "fccId": "2013DJ0113",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Peugeot 3008",
+    "startYear": 2010,
+    "endYear": 2016,
+    "fccId": "CE0536",
+    "freq": "434 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Peugeot 3008",
+    "startYear": 2016,
+    "endYear": 2019,
+    "fccId": "98105588ZD",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Peugeot 5008",
+    "startYear": 2017,
+    "endYear": 2020,
+    "fccId": "98105588ZD",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Peugeot Partner",
+    "startYear": 2013,
+    "endYear": 2019,
+    "fccId": "KEYDIY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Peugeot Partner",
+    "startYear": 2020,
+    "endYear": 2020,
+    "fccId": "KEYDIY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Peugeot Rifther",
+    "startYear": 2019,
+    "endYear": 2022,
+    "fccId": "KEYDIY",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Aztek",
+    "startYear": 2001,
+    "endYear": 2005,
+    "fccId": "L2C0007T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Bonneville",
+    "startYear": 2000,
+    "endYear": 2005,
+    "fccId": "L2C0007T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Bonneville",
+    "startYear": 2000,
+    "endYear": 2005,
+    "fccId": "NO",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "G3 (Aveo)",
+    "startYear": 2007,
+    "endYear": 2009,
+    "fccId": "RK950EUT",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "G5",
+    "startYear": 2007,
+    "endYear": 2010,
+    "fccId": "KOBGT04A",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "G6",
+    "startYear": 2007,
+    "endYear": 2010,
+    "fccId": "KOBGT04A",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Grand Prix",
+    "startYear": 2000,
+    "endYear": 2003,
+    "fccId": "L2C0007T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Montana",
+    "startYear": 1997,
+    "endYear": 2000,
+    "fccId": "ABO0204T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Montana",
+    "startYear": 2001,
+    "endYear": 2005,
+    "fccId": "L2C0007T",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Montana",
+    "startYear": 2005,
+    "endYear": 2008,
+    "fccId": "KOBGT04A",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Solstice",
+    "startYear": 2006,
+    "endYear": 2010,
+    "fccId": "OUC60270",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Torrent",
+    "startYear": 2007,
+    "endYear": 2010,
+    "fccId": "OUC60270",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Arona",
+    "startYear": 2018,
+    "endYear": 2022,
+    "fccId": "NBGFS173NP",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Cordoba",
+    "startYear": 2004,
+    "endYear": 2007,
+    "fccId": "HL0",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Cordoba",
+    "startYear": 2008,
+    "endYear": 2009,
+    "fccId": "HL0",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ibiza",
+    "startYear": 2003,
+    "endYear": 2009,
+    "fccId": "HL0",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ibiza",
+    "startYear": 2009,
+    "endYear": 2012,
+    "fccId": "1K0959753P",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ibiza",
+    "startYear": 2010,
+    "endYear": 2016,
+    "fccId": "NBG010180T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ibiza",
+    "startYear": 2010,
+    "endYear": 2016,
+    "fccId": "NBG010180T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Ibiza",
+    "startYear": 2016,
+    "endYear": 2020,
+    "fccId": "NBGFS173NPM",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Leon",
+    "startYear": 2002,
+    "endYear": 2009,
+    "fccId": "HL0",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Leon",
+    "startYear": 2010,
+    "endYear": 2016,
+    "fccId": "NBG010180T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Leon",
+    "startYear": 2010,
+    "endYear": 2016,
+    "fccId": "NBG010180T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Leon",
+    "startYear": 2017,
+    "endYear": 2020,
+    "fccId": "NBGFS173NPM",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tarraco",
+    "startYear": 2019,
+    "endYear": 2022,
+    "fccId": "NBGFS12A01",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Toledo",
+    "startYear": 2002,
+    "endYear": 2008,
+    "fccId": "HL0",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Toledo",
+    "startYear": 2013,
+    "endYear": 2015,
+    "fccId": "NBG010180T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Toledo",
+    "startYear": 2013,
+    "endYear": 2015,
+    "fccId": "NBG010180T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Toledo",
+    "startYear": 2016,
+    "endYear": 2019,
+    "fccId": "NBGFS12A01",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "4Runner",
+    "startYear": 2001,
+    "endYear": 2002,
+    "fccId": "HYQ12BBX",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "4Runner",
+    "startYear": 2003,
+    "endYear": 2009,
+    "fccId": "HYQ12BBX",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "4Runner",
+    "startYear": 2010,
+    "endYear": 2019,
+    "fccId": "HYQ12BBY",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "4Runner",
+    "startYear": 2010,
+    "endYear": 2019,
+    "fccId": "HYQ14ACX",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "4Runner",
+    "startYear": 2020,
+    "endYear": 2021,
+    "fccId": "HYQ12BEL",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "4Runner",
+    "startYear": 2020,
+    "endYear": 2021,
+    "fccId": "HYQ14FBA",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "4Runner",
+    "startYear": 2022,
+    "endYear": 2022,
+    "fccId": "HYQ14FBB",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Avanza",
+    "startYear": 2007,
+    "endYear": 2015,
+    "fccId": "89742-BZ030",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Avanza",
+    "startYear": 2016,
+    "endYear": 2021,
+    "fccId": "KEYDIY",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Avalon",
+    "startYear": 2005,
+    "endYear": 2008,
+    "fccId": "GQ43VT20T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Avalon",
+    "startYear": 2007,
+    "endYear": 2012,
+    "fccId": "GQ4-29T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Avalon",
+    "startYear": 2013,
+    "endYear": 2018,
+    "fccId": "HYQ14FBA",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Avalon",
+    "startYear": 2019,
+    "endYear": 2021,
+    "fccId": "HYQ14FBE",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Camry",
+    "startYear": 2000,
+    "endYear": 2002,
+    "fccId": "GQ43VT14T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Camry",
+    "startYear": 2003,
+    "endYear": 2006,
+    "fccId": "GQ43VT14T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Camry",
+    "startYear": 2007,
+    "endYear": 2010,
+    "fccId": "HYQ12BBY",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Camry",
+    "startYear": 2010,
+    "endYear": 2013,
+    "fccId": "HYQ12BBY",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Camry",
+    "startYear": 2012,
+    "endYear": 2013,
+    "fccId": "HYQ12BDM",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Camry",
+    "startYear": 2014,
+    "endYear": 2016,
+    "fccId": "HYQ12BDM",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Camry",
+    "startYear": 2012,
+    "endYear": 2017,
+    "fccId": "HYQ14FBA",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Camry",
+    "startYear": 2017,
+    "endYear": 2021,
+    "fccId": "HYQ14FBC",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "C-HR",
+    "startYear": 2018,
+    "endYear": 2020,
+    "fccId": "MOZB97TZ",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "C-HR",
+    "startYear": 2018,
+    "endYear": 2021,
+    "fccId": "MOZB97TZ",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Corolla",
+    "startYear": 1998,
+    "endYear": 2002,
+    "fccId": "BAB237131-022",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Corolla",
+    "startYear": 2003,
+    "endYear": 2006,
+    "fccId": "GQ43VT14T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Corolla",
+    "startYear": 2007,
+    "endYear": 2010,
+    "fccId": "GQ429T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Corolla",
+    "startYear": 2007,
+    "endYear": 2010,
+    "fccId": "HYQ12BBY",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Corolla",
+    "startYear": 2010,
+    "endYear": 2013,
+    "fccId": "GQ4-29T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Corolla",
+    "startYear": 2014,
+    "endYear": 2019,
+    "fccId": "HYQ12BEL",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Corolla",
+    "startYear": 2020,
+    "endYear": 2021,
+    "fccId": "HYQ12BFB",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Corolla",
+    "startYear": 2014,
+    "endYear": 2020,
+    "fccId": "HYQ14FBA",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Corolla",
+    "startYear": 2019,
+    "endYear": 2021,
+    "fccId": "HYQ14FBN",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "FJ Cruiser",
+    "startYear": 2007,
+    "endYear": 2008,
+    "fccId": "HYQ12BBX",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "FJ Cruiser",
+    "startYear": 2007,
+    "endYear": 2008,
+    "fccId": "HYQ12BAN",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "FJ Cruiser",
+    "startYear": 2008,
+    "endYear": 2010,
+    "fccId": "HYQ12BAN",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "FJ Cruiser",
+    "startYear": 2011,
+    "endYear": 2015,
+    "fccId": "HYQ12BAN",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "FJ Cruiser",
+    "startYear": 2011,
+    "endYear": 2015,
+    "fccId": "HYQ1512V",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Highlander",
+    "startYear": 2001,
+    "endYear": 2003,
+    "fccId": "HYQ12BAN",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Highlander",
+    "startYear": 2001,
+    "endYear": 2003,
+    "fccId": "HYQ1512BBX",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Highlander",
+    "startYear": 2001,
+    "endYear": 2003,
+    "fccId": "HYQ12BAN",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Highlander",
+    "startYear": 2001,
+    "endYear": 2003,
+    "fccId": "HYQ1512BBX",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Highlander",
+    "startYear": 2004,
+    "endYear": 2007,
+    "fccId": "HYQ12BAN",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Highlander",
+    "startYear": 2004,
+    "endYear": 2007,
+    "fccId": "HYQ1512BBX",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Highlander",
+    "startYear": 2007,
+    "endYear": 2010,
+    "fccId": "GQ43VT20T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Highlander",
+    "startYear": 2008,
+    "endYear": 2013,
+    "fccId": "HYQ14AAB",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Highlander",
+    "startYear": 2010,
+    "endYear": 2014,
+    "fccId": "GQ43VT20T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Highlander",
+    "startYear": 2014,
+    "endYear": 2019,
+    "fccId": "GQ4-52T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Highlander",
+    "startYear": 2014,
+    "endYear": 2019,
+    "fccId": "HYQ14FBA",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Hilux",
+    "startYear": 2007,
+    "endYear": 2013,
+    "fccId": "B41TA",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Hilux",
+    "startYear": 2011,
+    "endYear": 2015,
+    "fccId": "B41TA",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Hilux",
+    "startYear": 2016,
+    "endYear": 2022,
+    "fccId": "BA2TH",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Land Cruiser",
+    "startYear": 2008,
+    "endYear": 2010,
+    "fccId": "HYQ1512V",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Land Cruiser",
+    "startYear": 2008,
+    "endYear": 2016,
+    "fccId": "HYQ14AEM",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Land Cruiser",
+    "startYear": 2018,
+    "endYear": 2019,
+    "fccId": "HYQ14FBA",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Land Cruiser",
+    "startYear": 2020,
+    "endYear": 2021,
+    "fccId": "HYQ14FBB",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Matrix",
+    "startYear": 2003,
+    "endYear": 2008,
+    "fccId": "GQ43VT14T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Matrix",
+    "startYear": 2008,
+    "endYear": 2014,
+    "fccId": "GQ4-29T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Prius",
+    "startYear": 2010,
+    "endYear": 2015,
+    "fccId": "HYQ14ACX",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Prius C",
+    "startYear": 2012,
+    "endYear": 2016,
+    "fccId": "HYQ12BDM",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Prius C",
+    "startYear": 2012,
+    "endYear": 2019,
+    "fccId": "HYQ14FBA",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Prius",
+    "startYear": 2016,
+    "endYear": 2021,
+    "fccId": "HYQ14FBC",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Prius",
+    "startYear": 2021,
+    "endYear": 2022,
+    "fccId": "HYQ14FLA",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Rav 4",
+    "startYear": 2001,
+    "endYear": 2005,
+    "fccId": "HYQ12BAN",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Rav 4",
+    "startYear": 2006,
+    "endYear": 2010,
+    "fccId": "HYQ12BBY",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Rav 4",
+    "startYear": 2010,
+    "endYear": 2012,
+    "fccId": "HYQ12BBY",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Rav 4",
+    "startYear": 2013,
+    "endYear": 2016,
+    "fccId": "HYQ12BDP",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Rav 4 USA",
+    "startYear": 2013,
+    "endYear": 2018,
+    "fccId": "GQ4-52T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Rav 4",
+    "startYear": 2013,
+    "endYear": 2018,
+    "fccId": "HYQ14FBA",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Rav 4",
+    "startYear": 2019,
+    "endYear": 2021,
+    "fccId": "GQ4-73T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Rav 4",
+    "startYear": 2019,
+    "endYear": 2021,
+    "fccId": "HYQ14FBC",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sequoia",
+    "startYear": 2001,
+    "endYear": 2002,
+    "fccId": "HYQ12BBX",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sequoia",
+    "startYear": 2003,
+    "endYear": 2007,
+    "fccId": "HYQ12BBX",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sequoia",
+    "startYear": 2008,
+    "endYear": 2010,
+    "fccId": "GQ43VT20T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sequoia",
+    "startYear": 2011,
+    "endYear": 2013,
+    "fccId": "GQ43VT20T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sequoia",
+    "startYear": 2014,
+    "endYear": 2016,
+    "fccId": "GQ43VT20T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sequoia",
+    "startYear": 2017,
+    "endYear": 2020,
+    "fccId": "GQ4-52T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sequoia",
+    "startYear": 2019,
+    "endYear": 2021,
+    "fccId": "HYQ14FBA",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sequoia",
+    "startYear": 2022,
+    "endYear": 2022,
+    "fccId": "HYQ14FBB",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sienna",
+    "startYear": 2004,
+    "endYear": 2010,
+    "fccId": "GQ43VT20T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sienna",
+    "startYear": 2011,
+    "endYear": 2014,
+    "fccId": "GQ43VT20T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sienna",
+    "startYear": 2015,
+    "endYear": 2020,
+    "fccId": "GQ43VT20T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sienna",
+    "startYear": 2011,
+    "endYear": 2020,
+    "fccId": "HYQ14ADR",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sienna",
+    "startYear": 2021,
+    "endYear": 2022,
+    "fccId": "HYQ14FBX",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tacoma",
+    "startYear": 2005,
+    "endYear": 2010,
+    "fccId": "GQ43VT20T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tacoma",
+    "startYear": 2011,
+    "endYear": 2015,
+    "fccId": "GQ43VT20T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tacoma",
+    "startYear": 2015,
+    "endYear": 2015,
+    "fccId": "HYQ14FBA",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tundra",
+    "startYear": 2005,
+    "endYear": 2010,
+    "fccId": "GQ43VT20T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tundra",
+    "startYear": 2010,
+    "endYear": 2015,
+    "fccId": "GQ43VT20T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tundra",
+    "startYear": 2016,
+    "endYear": 2017,
+    "fccId": "GQ43VT20T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tundra",
+    "startYear": 2017,
+    "endYear": 2019,
+    "fccId": "GQ4-52T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Yaris",
+    "startYear": 2007,
+    "endYear": 2012,
+    "fccId": "MOZB41TG",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Yaris",
+    "startYear": 2012,
+    "endYear": 2015,
+    "fccId": "HYQ12BBY",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Yaris",
+    "startYear": 2015,
+    "endYear": 2019,
+    "fccId": "KEYDIY",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Yaris IA",
+    "startYear": 2017,
+    "endYear": 2020,
+    "fccId": "WAZSKE13D01",
+    "freq": "315 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Amarok",
+    "startYear": 2010,
+    "endYear": 2015,
+    "fccId": "NBG010180T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Amarok",
+    "startYear": 2016,
+    "endYear": 2021,
+    "fccId": "NBG010180T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Beatle",
+    "startYear": 1999,
+    "endYear": 2001,
+    "fccId": "HL0",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Beatle",
+    "startYear": 1999,
+    "endYear": 2001,
+    "fccId": "HL0",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Beatle",
+    "startYear": 2001,
+    "endYear": 2010,
+    "fccId": "HLO",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Beatle",
+    "startYear": 2011,
+    "endYear": 2019,
+    "fccId": "NBG010180T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Bora",
+    "startYear": 2005,
+    "endYear": 2006,
+    "fccId": "HLO",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Bora",
+    "startYear": 2007,
+    "endYear": 2011,
+    "fccId": "HLO",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Cabrio",
+    "startYear": 2000,
+    "endYear": 2002,
+    "fccId": "M3GHU01WT",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Cross Fox",
+    "startYear": 2007,
+    "endYear": 2010,
+    "fccId": "5Z0959753C",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Cross Fox",
+    "startYear": 2010,
+    "endYear": 2014,
+    "fccId": "6QE959753",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Cross Fox",
+    "startYear": 2015,
+    "endYear": 2019,
+    "fccId": "5K0837202AD",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "EURO VAN",
+    "startYear": 2000,
+    "endYear": 2011,
+    "fccId": "1J0959753CT",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Gol",
+    "startYear": 2008,
+    "endYear": 2013,
+    "fccId": "6QE959753",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Gol",
+    "startYear": 2013,
+    "endYear": 2020,
+    "fccId": "5K0837202AD",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Golf",
+    "startYear": 1999,
+    "endYear": 2001,
+    "fccId": "HL0",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Golf",
+    "startYear": 1999,
+    "endYear": 2001,
+    "fccId": "HL0",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Golf",
+    "startYear": 2002,
+    "endYear": 2007,
+    "fccId": "HLO",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Golf",
+    "startYear": 2010,
+    "endYear": 2014,
+    "fccId": "NBG010180T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Golf",
+    "startYear": 2015,
+    "endYear": 2019,
+    "fccId": "NBGFS12A01",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Jetta",
+    "startYear": 1995,
+    "endYear": 1999,
+    "fccId": "M3GHU01WT",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Jetta",
+    "startYear": 1999,
+    "endYear": 2001,
+    "fccId": "HL0",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Jetta",
+    "startYear": 1999,
+    "endYear": 2001,
+    "fccId": "HL0",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Jetta",
+    "startYear": 2002,
+    "endYear": 2010,
+    "fccId": "HLO",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Jetta Clasico",
+    "startYear": 2011,
+    "endYear": 2015,
+    "fccId": "NBG010180T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Jetta MK6",
+    "startYear": 2010,
+    "endYear": 2016,
+    "fccId": "NBG010180T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Jetta MK6",
+    "startYear": 2012,
+    "endYear": 2014,
+    "fccId": "NBG010206T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Jetta MK6",
+    "startYear": 2017,
+    "endYear": 2018,
+    "fccId": "NBGFS93N",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Jetta",
+    "startYear": 2019,
+    "endYear": 2022,
+    "fccId": "NBGFS12A01",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Jetta",
+    "startYear": 2019,
+    "endYear": 2022,
+    "fccId": "NBGFS12A01",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Lupo",
+    "startYear": 2005,
+    "endYear": 2007,
+    "fccId": "5Z0959753C",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Passat",
+    "startYear": 1999,
+    "endYear": 2001,
+    "fccId": "HL0",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Passat",
+    "startYear": 1999,
+    "endYear": 2001,
+    "fccId": "HL0",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Passat",
+    "startYear": 2002,
+    "endYear": 2005,
+    "fccId": "HLO",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Passat",
+    "startYear": 2006,
+    "endYear": 2013,
+    "fccId": "HLO",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Passat",
+    "startYear": 2012,
+    "endYear": 2019,
+    "fccId": "NBG010180T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Pointer",
+    "startYear": 1998,
+    "endYear": 2008,
+    "fccId": "KEYDIY",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Polo",
+    "startYear": 2002,
+    "endYear": 2008,
+    "fccId": "HLO",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Polo",
+    "startYear": 2013,
+    "endYear": 2019,
+    "fccId": "NBG010180T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Routan",
+    "startYear": 2009,
+    "endYear": 2012,
+    "fccId": "M3N5WY783X",
+    "freq": "433 MHz"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Saveiro",
+    "startYear": 2010,
+    "endYear": 2013,
+    "fccId": "6QE959753",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Saveiro (Robust)",
+    "startYear": 2014,
+    "endYear": 2022,
+    "fccId": "5K0837202AD",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sharan",
+    "startYear": 2004,
+    "endYear": 2008,
+    "fccId": "7M3959753",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Sport Van",
+    "startYear": 2007,
+    "endYear": 2010,
+    "fccId": "5Z0959753C",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Taos",
+    "startYear": 2021,
+    "endYear": 2022,
+    "fccId": "KR5FS14",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tiguan",
+    "startYear": 2009,
+    "endYear": 2013,
+    "fccId": "HLO",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tiguan",
+    "startYear": 2011,
+    "endYear": 2017,
+    "fccId": "NBG010180T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Tiguan",
+    "startYear": 2018,
+    "endYear": 2019,
+    "fccId": "NBGFS12A01",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Touareg",
+    "startYear": 2004,
+    "endYear": 2010,
+    "fccId": "KR55WK45032",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Touareg",
+    "startYear": 2011,
+    "endYear": 2018,
+    "fccId": "IYZVWTOUA",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Up",
+    "startYear": 2016,
+    "endYear": 2019,
+    "fccId": "5K0837202AD",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Vento",
+    "startYear": 2013,
+    "endYear": 2022,
+    "fccId": "NBG010180T",
+    "freq": null
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Virtus",
+    "startYear": 2020,
+    "endYear": 2022,
+    "fccId": "NBGFS1744M",
+    "freq": null
+  }
+]
