@@ -1,6 +1,6 @@
 // 🎬 MOTOR DE VÍDEO VIRAL (REEMPLAZO DE N8N)
-// Workflow: OpenAI (Idea) -> KIE (Sora 2 Video) -> TTS Audio -> FFmpeg (watermark) -> Blotato (Posting)
-// VERSION: 2.5 - Safe Sora prompt (avoid content policy violations)
+// Workflow: OpenAI (Idea) -> KIE (Sora 2 Video) -> TTS Audio -> FFmpeg -> Blotato (Posting)
+// VERSION: 2.6 - No watermark, 5 hashtags en cada caption
 
 const OpenAI = require('openai');
 const axios = require('axios');
@@ -17,7 +17,7 @@ const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
 // Log version on load
-console.log('🎬 video_engine.js v2.5 loaded - Safe Sora prompt + Watermark');
+console.log('🎬 video_engine.js v2.6 loaded - No watermark, 5 hashtags');
 
 // Owner phone for notifications
 const OWNER_PHONE = process.env.OWNER_PHONE || '17868164874@s.whatsapp.net';
@@ -441,22 +441,28 @@ async function generateViralCaption(title, script) {
       {
         role: 'system',
         content: `Eres un experto Social Media Manager. Tu único trabajo es generar los textos (captions) perfectos para cada plataforma.
-            
+
             Debes devolver la respuesta estrictamente en formato JSON válido.
-            
+
             Estructura esperada:
             {
-                "tiktok": "Texto corto, emojis, hashtags virales",
-                "instagram": "Texto estético, hashtags separados, llamado al link en bio",
-                "facebook": "Texto más informativo, tono profesional de servicio, link directo",
-                "youtube": "Título SEO + Descripción larga con keywords",
-                "twitter": "Texto muy corto (max 280 caracteres), hashtags clave, urgente"
+                "tiktok": "Texto corto + EXACTAMENTE 5 hashtags",
+                "instagram": "Texto estético + EXACTAMENTE 5 hashtags + llamado al link en bio",
+                "facebook": "Texto informativo + EXACTAMENTE 5 hashtags",
+                "youtube": "Título SEO + Descripción + EXACTAMENTE 5 hashtags",
+                "twitter": "Texto corto (max 280 chars) + EXACTAMENTE 5 hashtags"
             }
+
+            REGLAS ESTRICTAS DE HASHTAGS:
+            - SIEMPRE incluir EXACTAMENTE 5 hashtags en CADA plataforma
+            - Los hashtags van AL FINAL del texto
+            - Formato: #Hashtag1 #Hashtag2 #Hashtag3 #Hashtag4 #Hashtag5
+            - Hashtags recomendados: #ProgrammingCar #MiamiLocksmith #CarKeys #AllKeysLost #LostCarKeys #AutoKeys #KeyFob #MiamiAuto
 
             Reglas del Negocio:
             - Teléfono: 786-816-4874
             - Ubicación: Miami-Dade & Broward
-            - Hashtags base: #AllKeysLost #LostCarKeys #ProgrammingCar #MiamiLocksmith`,
+            - Tono: Profesional pero cercano, estilo Miami`,
       },
       {
         role: 'user',
@@ -680,14 +686,14 @@ async function generateTTSAudio(text, outputPath) {
 }
 
 /**
- * Combinar video y audio con FFmpeg + agregar marca de agua
+ * Combinar video y audio con FFmpeg
  * @param {string} videoUrl - URL del video sin audio
  * @param {string} audioPath - Ruta del archivo de audio local
  * @returns {Promise<string>} - URL del video final (subido a Cloudinary)
  */
 async function mergeVideoWithAudio(videoUrl, audioPath) {
   try {
-    logger.info('🎞️ Combinando video + audio + watermark con FFmpeg...');
+    logger.info('🎞️ Combinando video + audio con FFmpeg...');
 
     const tempDir = path.join(__dirname, 'temp');
     if (!fs.existsSync(tempDir)) {
@@ -701,18 +707,11 @@ async function mergeVideoWithAudio(videoUrl, audioPath) {
     const videoResponse = await axios.get(videoUrl, { responseType: 'arraybuffer' });
     fs.writeFileSync(videoPath, videoResponse.data);
 
-    // Watermark text config
-    const watermarkText = 'Programming Car 786-816-4874';
-    // FFmpeg drawtext filter: texto blanco con sombra negra, abajo derecha, fuente bold
-    // x=w-tw-20 significa: ancho del video - ancho del texto - 20px margen
-    // y=h-th-30 significa: alto del video - alto del texto - 30px margen (evita zona de TikTok)
-    const drawTextFilter = `drawtext=text='${watermarkText}':fontcolor=white:fontsize=28:borderw=2:bordercolor=black:x=w-tw-20:y=h-th-80`;
-
-    // Combinar video + audio + watermark en un solo comando
-    const ffmpegCmd = `ffmpeg -i "${videoPath}" -i "${audioPath}" -vf "${drawTextFilter}" -c:v libx264 -preset fast -crf 23 -c:a aac -map 0:v:0 -map 1:a:0 -shortest -y "${outputPath}"`;
+    // Combinar video + audio (sin watermark)
+    const ffmpegCmd = `ffmpeg -i "${videoPath}" -i "${audioPath}" -c:v libx264 -preset fast -crf 23 -c:a aac -map 0:v:0 -map 1:a:0 -shortest -y "${outputPath}"`;
 
     await execPromise(ffmpegCmd);
-    logger.info('✅ Video + audio + watermark combinados');
+    logger.info('✅ Video + audio combinados');
 
     // Subir a Cloudinary
     const finalUrl = await uploadToCloudinary(outputPath);
