@@ -1,6 +1,6 @@
 // 🎬 MOTOR DE VÍDEO VIRAL (REEMPLAZO DE N8N)
 // Workflow: OpenAI (Idea) -> KIE (Sora 2 Video) -> TTS Audio -> FFmpeg -> Blotato (Posting)
-// VERSION: 2.6 - No watermark, 5 hashtags en cada caption
+// VERSION: 2.7 - Saludo "Hola Miami" al inicio del TTS
 
 const OpenAI = require('openai');
 const axios = require('axios');
@@ -17,7 +17,7 @@ const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
 // Log version on load
-console.log('🎬 video_engine.js v2.6 loaded - No watermark, 5 hashtags');
+console.log('🎬 video_engine.js v2.7 loaded - Saludo Hola Miami');
 
 // Owner phone for notifications
 const OWNER_PHONE = process.env.OWNER_PHONE || '17868164874@s.whatsapp.net';
@@ -632,11 +632,15 @@ async function generateAudioScript(title, idea) {
 
 REGLAS ESTRICTAS:
 1. El script debe durar MÁXIMO 15 segundos al hablarse
-2. SIEMPRE empieza con "Programming Car" o menciona la marca en las primeras 3 palabras
-3. SIEMPRE termina con el teléfono: "786-816-4874"
-4. Tono: Confiado, profesional, Miami latino
-5. NO uses emojis ni hashtags (esto es para TTS)
-6. Escribe en español Miami (puedes mezclar inglés si suena natural)
+2. SIEMPRE empieza con un saludo local: "¡Hola Miami!" o "¿Qué tal Miami?" o "Miami, ¿qué lo qué?"
+3. Después del saludo, menciona "Programming Car"
+4. SIEMPRE termina con el teléfono: "786-816-4874"
+5. Tono: Confiado, profesional, Miami latino
+6. NO uses emojis ni hashtags (esto es para TTS)
+7. Escribe en español Miami (puedes mezclar inglés si suena natural)
+
+ESTRUCTURA:
+[Saludo Miami] + [Mensaje sobre el servicio con Programming Car] + [Teléfono]
 
 FORMATO:
 [Solo el texto del script, nada más]`,
@@ -654,8 +658,8 @@ FORMATO:
     return script;
   } catch (e) {
     logger.warn(`⚠️ Error generando script con GPT, usando fallback: ${e.message}`);
-    // Fallback simple
-    return `Programming Car, tu solución en llaves de auto en Miami. ${idea.substring(0, 50)}. Llámanos al 786-816-4874.`;
+    // Fallback simple con saludo Miami
+    return `¡Hola Miami! Aquí Programming Car, tu solución en llaves de auto. Llámanos al 786-816-4874.`;
   }
 }
 
