@@ -165,7 +165,7 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
             {
                 role: "user",
                 content: [
-                    { type: "text", text: userMessage || "Aquí está la foto de mi VIN/Auto. Analízala y decodifica el VIN si es visible." },
+                    { type: "text", text: userText || "Esta es una foto de mi vehículo o del VIN. TU TAREA PRINCIPAL ES: \n1. Examinar la imagen buscando un código de 17 caracteres (VIN).\n2. Si lo encuentras, EJECUTA INMEDIATAMENTE la herramienta `lookup_vin` con ese código.\n3. Si no es legible, dímelo." },
                     { type: "image_url", image_url: { url: userImage } }
                 ]
             } :
