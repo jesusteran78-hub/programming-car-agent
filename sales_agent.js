@@ -111,7 +111,22 @@ const { createClient } = require('@supabase/supabase-js');
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
 const { decodeVIN } = require('./vin_decoder');
-const { findKeyDetails } = require('./key_finder');
+const { findKeyDetails, getSupplierLinks } = require('./key_finder');
+
+// --- AI MEMORY FUNCTION ---
+async function generateEmbedding(text) {
+    if (!text || typeof text !== 'string') return null;
+    try {
+        const response = await openai.embeddings.create({
+            model: "text-embedding-3-small",
+            input: text.replace(/\n/g, ' ')
+        });
+        return response.data[0].embedding;
+    } catch (e) {
+        console.error("Error generando embedding:", e.message);
+        return null; // Fail gracefully
+    }
+}
 
 async function getAIResponse(userMessage, senderNumber, userImage = null) {
     try {
@@ -321,10 +336,13 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
         }
 
         // 5. Guardar respuesta FINAL del AGENTE en la BBDD
+        const agentEmbedding = await generateEmbedding(finalReply);
+
         await supabase.from('conversations').insert({
             lead_id: leadId,
             role: 'assistant',
-            content: finalReply
+            content: finalReply,
+            embedding: agentEmbedding
         });
 
         return finalReply;
