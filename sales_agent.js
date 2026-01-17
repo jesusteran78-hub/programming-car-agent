@@ -86,7 +86,15 @@ app.post('/webhook', async (req, res) => {
 
         if (!userText && !userImage) return res.sendStatus(200);
 
-        console.log(`💬 Cliente(${senderNumber}): ${userText || '[IMAGEN RECIBIDA]'} `);
+        console.log(`💬 Cliente(${senderNumber}): ${userText || '[IMAGEN RECIBIDA]'}`);
+
+        // --- MODO ENTRENAMIENTO (Training Mode) ---
+        if (userText && userText.toLowerCase().startsWith('aprende:')) {
+            console.log(`🎓 Modo Entrenamiento Detectado: ${userText}`);
+            const learnResult = await learnNewPrice(userText);
+            await sendToWhapi(senderNumber, learnResult.message);
+            return res.sendStatus(200);
+        }
 
         // 🧠 PENSAR (Consultar a OpenAI)
         // Pasamos tanto texto como imagen a la función
@@ -118,6 +126,7 @@ const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY
 const { decodeVIN } = require('./vin_decoder');
 const { findKeyDetails, getSupplierLinks } = require('./key_finder');
 const { checkInternalPrices } = require('./price_checker');
+const { getStoredPrice, learnNewPrice } = require('./price_manager');
 
 // --- AI MEMORY FUNCTION ---
 async function generateEmbedding(text) {
@@ -257,8 +266,9 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
                         type: "object",
                         properties: {
                             fcc_id: { type: "string", description: "El FCC ID de la llave (ej: HYQ12BDM)" },
-                            make: { type: "string", description: "Marca del auto (opcional, mejora la búsqueda)" },
-                            model: { type: "string", description: "Modelo del auto (opcional)" }
+                            make: { type: "string", description: "Marca del auto" },
+                            model: { type: "string", description: "Modelo del auto" },
+                            year: { type: "integer", description: "Año del auto" }
                         },
                         required: ["fcc_id"]
                     }
@@ -354,9 +364,32 @@ async function getAIResponse(userMessage, senderNumber, userImage = null) {
                     });
                 } else if (toolCall.function.name === 'check_internal_key_cost') {
                     const args = JSON.parse(toolCall.function.arguments);
-                    console.log(`[GPT Tool Call]check_internal_key_cost(${args.fcc_id})`);
+                    console.log(`[GPT Tool Call] check_internal_key_cost(${args.fcc_id})`);
 
-                    const priceData = await checkInternalPrices(args.fcc_id, args.make, args.model);
+                    // 1. Check Database First (Fixed Prices)
+                    // We use year from args or currentLeadData context if available
+                    // Note: accessing currentLeadData here requires it to be in scope or passed. 
+                    // Since it's block-scoped above, we might need to rely on args or default.
+                    // For now, let's rely on args provided by GPT (we added 'year' to tool def).
+
+                    let priceData = null;
+                    if (args.make && args.model && args.year) {
+                        const dbPrice = await getStoredPrice(args.make, args.model, parseInt(args.year));
+                        if (dbPrice) {
+                            priceData = {
+                                source: 'INTERNAL_DB',
+                                price: dbPrice.price,
+                                description: dbPrice.description,
+                                note: "PRECIO FIJO/APRENDIDO"
+                            };
+                            console.log(`✅ Precio encontrado en DB: $${dbPrice.price}`);
+                        }
+                    }
+
+                    // 2. If no DB hit, use Scraping
+                    if (!priceData) {
+                        priceData = await checkInternalPrices(args.fcc_id, args.make, args.model);
+                    }
 
                     messagesForAI.push({
                         tool_call_id: toolCall.id,
