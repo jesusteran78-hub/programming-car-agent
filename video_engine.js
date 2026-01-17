@@ -21,7 +21,7 @@ const WHAPI_TOKEN = process.env.WHAPI_TOKEN;
 
 // Configurable URLs (can be overridden in .env)
 const KIE_DEFAULT_IMAGE = process.env.KIE_DEFAULT_IMAGE || 'https://res.cloudinary.com/dtfbdf4dn/image/upload/v1767748438/ugc-auto/nbdfysted9kuvfcpgy28.png';
-const KIE_FALLBACK_VIDEO = process.env.KIE_FALLBACK_VIDEO || 'https://res.cloudinary.com/dtfbdf4dn/video/upload/v1767949970/ugc-watermarked/hiu2w9fv9ksvnhrzcvgp.mp4';
+// NOTA: Ya no hay video fallback - si KIE falla, el job falla y se notifica al owner
 
 // SYSTEM PROMPT MAESTRO - Formato EXACTO del video viral de 700k views
 const SORA_SYSTEM_PROMPT = `
@@ -66,7 +66,6 @@ async function generateViralVideo(title, idea, imageUrl, jobId = null) {
   // Guardar en Supabase al inicio
   await saveVideoJob(internalJobId, title, idea);
 
-  let usedFallback = false;
   let kieErrorMsg = null;
   let finalImageUrl = imageUrl || KIE_DEFAULT_IMAGE;
   let enhancedPromptFromGemini = null;
@@ -149,20 +148,17 @@ async function generateViralVideo(title, idea, imageUrl, jobId = null) {
           kieError.response?.status,
           kieError.response?.data || kieError.message
         );
-        logger.info('⚠️ KIE falló. Usando video de respaldo.');
-        videoUrl = KIE_FALLBACK_VIDEO;
-        usedFallback = true;
+        // NO usar fallback - notificar error y abortar
+        await notifyFallbackUsed(internalJobId, kieErrorMsg);
+        await updateVideoJobFailed(internalJobId, `KIE Error: ${kieErrorMsg}`);
+        throw new Error(`KIE falló: ${kieErrorMsg}. No se generó video.`);
       }
     } else {
-      logger.info('⚠️ MODO SIMULACIÓN (Falta API Key de KIE)');
-      videoUrl = KIE_FALLBACK_VIDEO;
-      usedFallback = true;
+      logger.error('❌ FALTA KIE_API_KEY - No se puede generar video');
+      await updateVideoJobFailed(internalJobId, 'Falta KIE_API_KEY');
+      throw new Error('KIE_API_KEY no configurada. No se puede generar video.');
     }
 
-    // Notificar si usó fallback
-    if (usedFallback && kieErrorMsg) {
-      await notifyFallbackUsed(internalJobId, kieErrorMsg);
-    }
 
     // PASO 2.5: AGREGAR AUDIO TTS
     logger.info('🔊 2.5. Generando audio TTS...');
