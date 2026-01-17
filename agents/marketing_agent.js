@@ -1,11 +1,15 @@
 /**
  * Marketing Agent
  * Handles social media publishing via Blotato API
+ * Includes video generation via KIE (Sora 2)
  */
 const logger = require('../logger');
 require('dotenv').config();
 
 const BLOTATO_API_KEY = process.env.BLOTATO_API_KEY;
+
+// Video generation status tracking
+const videoJobs = new Map();
 const BLOTATO_ACCOUNTS = {
   tiktok: process.env.BLOTATO_ACCOUNT_ID,
   instagram: process.env.BLOTATO_INSTAGRAM_ID,
@@ -102,6 +106,80 @@ async function getScheduledPosts() {
 }
 
 /**
+ * Generate viral video using video_engine
+ * @param {string} idea - Video idea/concept
+ * @returns {Promise<{success: boolean, message: string, jobId?: string}>}
+ */
+async function generateVideo(idea) {
+  try {
+    const { generateViralVideo } = require('../video_engine');
+    const jobId = Date.now().toString();
+    const title = idea.substring(0, 50);
+
+    // Track job
+    videoJobs.set(jobId, { status: 'processing', idea, startedAt: new Date() });
+
+    logger.info(`🎬 Video job ${jobId} started: ${title}`);
+
+    // Start async generation (don't await - let it run in background)
+    (async () => {
+      try {
+        const result = await generateViralVideo(title, idea);
+        videoJobs.set(jobId, {
+          status: 'completed',
+          result,
+          completedAt: new Date()
+        });
+        logger.info(`✅ Video job ${jobId} completed`);
+      } catch (error) {
+        videoJobs.set(jobId, {
+          status: 'failed',
+          error: error.message,
+          failedAt: new Date()
+        });
+        logger.error(`❌ Video job ${jobId} failed: ${error.message}`);
+      }
+    })();
+
+    return {
+      success: true,
+      message: `🎬 Video en proceso (#${jobId})\nIdea: "${title}..."\n\n⏳ Generando con IA (3-5 min).\nUsa \`mkt video status\` para ver progreso.`,
+      jobId,
+    };
+  } catch (error) {
+    logger.error(`Video generation error: ${error.message}`);
+    return { success: false, message: `❌ Error: ${error.message}` };
+  }
+}
+
+/**
+ * Get video jobs status
+ * @returns {string}
+ */
+function getVideoJobsStatus() {
+  if (videoJobs.size === 0) {
+    return '📹 No hay videos en proceso.';
+  }
+
+  let status = '🎬 **VIDEOS EN PROCESO**\n\n';
+
+  for (const [jobId, job] of videoJobs) {
+    const emoji = job.status === 'completed' ? '✅' :
+                  job.status === 'failed' ? '❌' : '⏳';
+    status += `${emoji} #${jobId}: ${job.status}\n`;
+
+    if (job.status === 'completed' && job.result?.video) {
+      status += `   📹 ${job.result.video.substring(0, 50)}...\n`;
+    }
+    if (job.status === 'failed') {
+      status += `   ❌ ${job.error}\n`;
+    }
+  }
+
+  return status;
+}
+
+/**
  * Process marketing command from owner
  * @param {string} command - Command after "marketing"
  * @returns {Promise<string>}
@@ -112,13 +190,30 @@ async function processMarketingCommand(command) {
   // Status command
   if (lowerCmd === 'status' || lowerCmd === '') {
     const scheduled = await getScheduledPosts();
+    const videoStatus = videoJobs.size > 0 ? `\n\n${getVideoJobsStatus()}` : '';
+
     return `📱 **MARKETING STATUS**\n\n` +
-      `Plataformas configuradas: ${Object.keys(BLOTATO_ACCOUNTS).filter(k => BLOTATO_ACCOUNTS[k]).join(', ')}\n` +
-      `Posts programados: ${scheduled.length}\n\n` +
+      `Plataformas: ${Object.keys(BLOTATO_ACCOUNTS).filter(k => BLOTATO_ACCOUNTS[k]).join(', ')}\n` +
+      `Posts programados: ${scheduled.length}${videoStatus}\n\n` +
       `Comandos:\n` +
-      `• \`marketing publica [texto]\` - Publicar en todas las redes\n` +
-      `• \`marketing tiktok [texto]\` - Solo TikTok\n` +
-      `• \`marketing instagram [texto]\` - Solo Instagram`;
+      `• \`mkt video [idea]\` - Generar video con IA\n` +
+      `• \`mkt video status\` - Ver videos en proceso\n` +
+      `• \`mkt publica [texto]\` - Publicar en todas las redes\n` +
+      `• \`mkt tiktok [texto]\` - Solo TikTok`;
+  }
+
+  // Video generation command
+  if (lowerCmd.startsWith('video')) {
+    const subCmd = command.substring(5).trim();
+
+    // Video status
+    if (subCmd.toLowerCase() === 'status' || subCmd === '') {
+      return getVideoJobsStatus();
+    }
+
+    // Generate new video
+    const result = await generateVideo(subCmd);
+    return result.message;
   }
 
   // Publish to specific platform
@@ -151,5 +246,7 @@ module.exports = {
   publishToSocial,
   publishToAll,
   getScheduledPosts,
+  generateVideo,
+  getVideoJobsStatus,
   processMarketingCommand,
 };

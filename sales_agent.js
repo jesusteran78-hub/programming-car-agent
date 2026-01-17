@@ -41,10 +41,11 @@ Jesús puede acceder a cada departamento con estos prefijos:
 - "ventas buscar [texto]" → Buscar cliente
 
 ### 📱 MARKETING
-- "marketing status" → Estado redes sociales
-- "marketing publica [texto]" → Publicar en todas las redes
+- "mkt status" → Estado redes sociales
+- "mkt video [idea]" → Generar video viral con IA
+- "mkt video status" → Ver videos en proceso
+- "mkt publica [texto]" → Publicar en todas las redes
 - "mkt tiktok [texto]" → Publicar solo en TikTok
-- "mkt instagram [texto]" → Publicar solo en Instagram
 
 ### 🔧 OPERACIONES
 - "ops status" → Agenda del día
