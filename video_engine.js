@@ -12,7 +12,7 @@ const execPromise = util.promisify(exec);
 require('dotenv').config();
 const logger = require('./logger');
 const { createClient } = require('@supabase/supabase-js');
-const { enhanceImageForVideo, uploadToCloudinary } = require('./image_enhancer');
+const { enhanceImageForVideo, uploadToCloudinary: uploadImageToCloudinary } = require('./image_enhancer');
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
@@ -117,7 +117,7 @@ async function generateViralVideo(title, idea, imageUrl, jobId = null) {
       logger.info('🎨 0. Analizando imagen con Gemini para mejora UGC...');
       try {
         // Subir imagen a Cloudinary para URL permanente
-        finalImageUrl = await uploadToCloudinary(imageUrl);
+        finalImageUrl = await uploadImageToCloudinary(imageUrl);
 
         // Analizar y obtener prompt mejorado
         const enhancement = await enhanceImageForVideo(finalImageUrl, idea);
@@ -792,7 +792,6 @@ async function mergeVideoWithAudio(videoUrl, audioPath) {
     fs.unlinkSync(audioPath);
     fs.unlinkSync(outputPath);
 
-    return finalUrl;
     return finalUrl;
   } catch (e) {
     logger.error(`❌ CRITICAL FFmpeg/Watermark Error: ${e.message}`);
