@@ -1,6 +1,10 @@
 const OpenAI = require('openai');
 const { createClient } = require('@supabase/supabase-js');
 const logger = require('../logger');
+const axios = require('axios');
+const fs = require('fs');
+const path = require('path');
+const os = require('os');
 require('dotenv').config();
 
 // Initialize OpenAI and Supabase clients
@@ -299,8 +303,70 @@ async function generateEmbedding(text) {
     }
 }
 
-async function getAIResponse(userMessage, senderNumber, userImage = null, notificationCallback = null) {
+/**
+ * Transcribe audio using OpenAI Whisper
+ * @param {string} audioUrl - URL of the audio file
+ * @returns {Promise<string|null>} - Transcribed text
+ */
+async function transcribeAudio(audioUrl) {
+    if (!audioUrl) return null;
+
+    let tempFilePath = null;
+    try {
+        logger.info('🎙️ Descargando audio para transcribir...');
+
+        // Download audio file
+        const response = await axios.get(audioUrl, { responseType: 'arraybuffer' });
+        const buffer = Buffer.from(response.data);
+
+        // Save to temp file (Whisper needs a file, not just buffer usually)
+        const tempDir = os.tmpdir();
+        // WhatsApp audio often comes as .ogg or .aac, but Whisper supports them. 
+        // We'll try to detect ext or default to .ogg which is common for voice notes.
+        const ext = audioUrl.includes('.mp3') ? '.mp3' : '.ogg';
+        tempFilePath = path.join(tempDir, `audio_${Date.now()}${ext}`);
+
+        fs.writeFileSync(tempFilePath, buffer);
+
+        logger.info(`🎙️ Enviando a Whisper API (${tempFilePath})...`);
+
+        const transcription = await openai.audio.transcriptions.create({
+            file: fs.createReadStream(tempFilePath),
+            model: 'whisper-1',
+            language: 'es', // Hint to prioritize Spanish as per user preference
+        });
+
+        logger.info(`📝 Transcripción: "${transcription.text}"`);
+        return transcription.text;
+
+    } catch (error) {
+        logger.error(`❌ Error transcribiendo audio: ${error.message}`);
+        return null;
+    } finally {
+        // Cleanup
+        if (tempFilePath && fs.existsSync(tempFilePath)) {
+            try {
+                fs.unlinkSync(tempFilePath);
+            } catch (e) { /* ignore cleanup error */ }
+        }
+    }
+}
+
+async function getAIResponse(userMessage, senderNumber, userImage = null, notificationCallback = null, userAudio = null) {
     let leadId;
+
+    // --- AUDIO HANDLING ---
+    // If audio is present, transcribe it and use it as userMessage (if userMessage is empty)
+    if (userAudio && !userMessage) {
+        const transcription = await transcribeAudio(userAudio);
+        if (transcription) {
+            userMessage = transcription;
+            logger.info(`🗣️ Audio convertido a texto: "${userMessage}"`);
+        } else {
+            userMessage = "(Audio ininteligible o fallo en transcripción)";
+        }
+    }
+
     try {
         // 1. Identificar al CLiente (Lead)
         // Recuperar datos completos del Lead para contexto

@@ -57,10 +57,11 @@ app.post('/webhook', async (req, res) => {
     const senderNumber = incomingMsg.chat_id; // ID del chat (ej: 1786...@s.whatsapp.net)
     const userText = incomingMsg.text?.body || '';
     const userImage = incomingMsg.image?.link || null; // Link a la imagen de Whapi
+    const userAudio = incomingMsg.voice?.link || incomingMsg.audio?.link || null; // Link al audio/nota de voz
 
-    if (!userText && !userImage) { return res.sendStatus(200); }
+    if (!userText && !userImage && !userAudio) { return res.sendStatus(200); }
 
-    logger.info(`💬 Cliente(${senderNumber}): ${userText || '[IMAGEN RECIBIDA]'}`);
+    logger.info(`💬 Cliente(${senderNumber}): ${userText || (userAudio ? '[AUDIO]' : '[IMAGEN]')}`);
 
     // --- OWNER COMMAND ROUTING (Multi-Agent Dispatcher) ---
     if (isOwner(senderNumber)) {
@@ -77,7 +78,7 @@ app.post('/webhook', async (req, res) => {
       // IMPORTANTE: También procesar imágenes solas (para flujo de video pendiente)
       const dispatchResult = await processOwnerCommand(userText, userImage);
       if (dispatchResult.handled) {
-        logger.info(`📬 Routed to ${dispatchResult.department}: "${userText?.substring(0, 30) || '[IMAGEN]'}..."`);
+        logger.info(`📬 Routed to ${dispatchResult.department}: "${userText?.substring(0, 30) || '[MEDIA]'}..."`);
         await sendToWhapi(senderNumber, dispatchResult.response);
         return res.sendStatus(200);
       }
@@ -94,10 +95,9 @@ app.post('/webhook', async (req, res) => {
     }
 
     // 🧠 PENSAR (Consultar a OpenAI)
-    // Pasamos tanto texto como imagen a la función
-    // 🧠 PENSAR (Consultar a OpenAI)
-    // Pasamos tanto texto como imagen a la función, Y el callback para notificar
-    const aiResponse = await getAIResponse(userText, senderNumber, userImage, sendToWhapi);
+    // Pasamos tanto texto, imagen y AUDIO a la función, Y el callback para notificar
+    // Firma: getAIResponse(userMessage, senderNumber, userImage, notificationCallback, userAudio)
+    const aiResponse = await getAIResponse(userText, senderNumber, userImage, sendToWhapi, userAudio);
     logger.info(`🤖 Agente: ${aiResponse} `);
 
     // 🗣️ RESPONDER (Enviar a Whapi)
