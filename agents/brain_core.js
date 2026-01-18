@@ -766,10 +766,11 @@ async function getAIResponse(userMessage, senderNumber, userImage = null, notifi
                         (!Array.isArray(priceData) && priceData.price)
                     );
 
+                    logger.info(`🔍 DEBUG COST CHECK: Make=${args.make}, ValidPrice=${hasValidPrice}, PriceData=${JSON.stringify(priceData)}`);
+
                     if (!hasValidPrice && args.make && args.model && args.year) {
                         // Generate supplier links for OWNER ONLY (never for client)
                         const supplierLinks = getSupplierLinks(args.make, args.model, args.year, args.fcc_id);
-                        // const linksText = supplierLinks.map(l => `• ${l.name}: ${l.url}`).join('\n'); // Not used directly here
 
                         // Request price from owner via WhatsApp WITH supplier links
                         if (notificationCallback) {
