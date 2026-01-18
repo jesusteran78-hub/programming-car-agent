@@ -12,6 +12,7 @@ const execPromise = util.promisify(exec);
 require('dotenv').config();
 const logger = require('./logger');
 const { createClient } = require('@supabase/supabase-js');
+const { enhanceImageForVideo, uploadToCloudinary } = require('./image_enhancer');
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
@@ -115,8 +116,6 @@ async function generateViralVideo(title, idea, imageUrl, jobId = null) {
     if (imageUrl && process.env.GEMINI_API_KEY) {
       logger.info('🎨 0. Analizando imagen con Gemini para mejora UGC...');
       try {
-        const { enhanceImageForVideo, uploadToCloudinary } = require('./image_enhancer');
-
         // Subir imagen a Cloudinary para URL permanente
         finalImageUrl = await uploadToCloudinary(imageUrl);
 
@@ -684,7 +683,8 @@ REGLAS ESTRICTAS:
 5. SIEMPRE termina invitando a escribir a Alex por WhatsApp
 6. Tono: Confiado, profesional, Miami latino
 7. NO uses emojis ni hashtags (esto es para TTS)
-8. Escribe en español Miami (puedes mezclar inglés si suena natural)
+8. IDIOMA: 100% ESPAÑOL LATINO (Solo usa Spanglish si es muy común en Miami: "Parking", "Dealer", "Key")
+9. PROHIBIDO generar texto totalmente en inglés. El script es para audiencia latina.
 
 ESTRUCTURA:
 [Saludo Miami] + [Programming Car + servicio] + [Escríbele a Alex por WhatsApp]
