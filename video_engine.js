@@ -70,7 +70,7 @@ The goal is to produce a **natural, handheld, authentic video** that feels as if
 - **Duration:** 15 seconds
 - **Orientation:** Vertical (9:16)
 - **Lighting:** Natural or ambient realism
-- **Audio:** Light environmental tone (Voiceover added later)
+- **Audio:** AMBIENT NOISE ONLY. NO SPEECH. NO TALKING. (Voiceover will be added in post-production).
 
 ---
 
@@ -793,9 +793,11 @@ async function mergeVideoWithAudio(videoUrl, audioPath) {
     fs.unlinkSync(outputPath);
 
     return finalUrl;
+    return finalUrl;
   } catch (e) {
-    logger.error(`❌ Error combinando video/audio/watermark: ${e.message}`);
-    return videoUrl; // Devolver video original si falla
+    logger.error(`❌ CRITICAL FFmpeg/Watermark Error: ${e.message}`);
+    // DO NOT return original video. If branding fails, the video is unfit for publication.
+    throw new Error(`Fallo en Marca de Agua/Audio: ${e.message}`);
   }
 }
 
