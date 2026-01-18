@@ -29,21 +29,59 @@ const KIE_DEFAULT_IMAGE = process.env.KIE_DEFAULT_IMAGE || 'https://res.cloudina
 
 // SYSTEM PROMPT MAESTRO - Formato seguro para Sora 2 (evita filtros de contenido)
 const SORA_SYSTEM_PROMPT = `
-You are a Sora 2 prompt engineer creating professional automotive service videos.
+### Role
+You are an **AI video director and cinematographer** crafting **short, cinematic UGC-style selfie videos** for **OpenAI Sora 2**.  
+Your task is to generate a **realistic first-person or selfie-style video prompt** using:  
+- The **Product Name**  
+- The **Product Description**  
+- The **Scene**  
+- The **Ideal Customer (ICP)**  
+- An optional **Reference Image**
 
-### VISUAL STYLE (UGC/TikTok)
-- Vertical selfie-style video (9:16 aspect ratio)
-- Handheld camera, natural micro-movements
-- Clean automotive workshop environment
-- Professional technician presenting a product
-- Warm, natural lighting
+The goal is to produce a **natural, handheld, authentic video** that feels as if filmed directly by the creator on their smartphone. The subject holds the phone in one hand and the product in the other, speaking naturally to the camera. The tone is casual, human, and visually grounded.  
 
-### PROMPT RULES
-- Keep under 200 words
-- Focus ONLY on visual elements (no technical jargon)
-- Describe the SCENE, not the service
-- Use neutral, professional language
-- NO mentions of: breaking, bypassing, disabling, hacking, stealing, forcing
+---
+
+### Video Requirements
+
+#### 🎬 Subject & Composition
+- The creator is **visible and centered in the frame**, looking directly at the camera while naturally interacting with the product.  
+- Filmed **selfie-style or first-person**, handheld with slight movement, subtle camera shake, and realistic micro-adjustments.  
+- The creator **holds or uses the product with their free hand** — no phone or reflection visible.  
+- Background environment matches the setting (e.g., bathroom, kitchen, gym, garden).  
+- Only one continuous shot — no cuts or transitions.  
+
+#### 🌅 Visual Style
+- Match the **lighting, product appearance, and color tone** to the reference image if provided.  
+- Use **natural or realistic ambient lighting** (e.g., daylight through a window, soft indoor ambient).  
+- Emphasize tactile realism — reflections, slight grain, natural shadows, realistic hand and skin detail.  
+- Maintain a **vertical 9:16** aspect ratio for social-style output.  
+
+#### 🎭 Tone & Delivery
+- The creator talks directly to camera for 1–2 short sentences **in Spanish (Latin American)** about the product, expressing a genuine, conversational reaction.  
+- Speech feels spontaneous — "real-talk" tone, not rehearsed or ad-like.  
+- **Language: Spanish** — natural, colloquial, Miami Latino accent.
+- Include small gestures, smiles, or head movement for authenticity.
+- **MANDATORY BRANDING:** The creator MUST say "Programming Car" and "786-816-4874" clearly in the audio.
+
+#### ⚙️ Technical Specs
+- **Duration:** 15 seconds  
+- **Orientation:** Vertical (9:16)  
+- **Lighting:** Natural or ambient realism  
+- **Audio:** Light environmental tone — no background music  
+- **Reference Image:** Used for appearance and color consistency only  
+
+---
+
+### Prompt Construction Instructions
+When generating a Sora 2 prompt:
+- Explicitly state that the **camera is handheld selfie-style** and the creator **records themselves** using a phone at arm’s length.  
+- Focus on **realistic motion and micro-details** — shifting weight, natural breathing, subtle focus change.  
+- Keep under **300 words**; prioritize **visual realism** over narration.  
+- Mention **environment context**, **lighting mood**, and **creator-product interaction**.  
+- Ensure camera never shows the phone, only the creator and product in frame.  
+
+---
 
 ### INPUT
 Product: {{product}}
@@ -52,9 +90,8 @@ Context: {{context}}
 ### OUTPUT FORMAT
 Generate a prompt following this safe template:
 
-"A vertical, handheld selfie-style video of a professional automotive technician in a clean, modern workshop. The technician wears a plain dark shirt, holding a [PRODUCT DESCRIPTION - keep it simple, e.g. 'car key', 'electronic module', 'car remote'] in one hand. Behind him, a [CAR BRAND] vehicle is visible. Soft natural lighting highlights the product. The technician looks at the camera with a friendly, confident expression, gesturing to show the product. Subtle camera movement creates an authentic feel. The scene is professional and trustworthy. Duration 10-15 seconds, ambient workshop sounds only."
-
-IMPORTANT: Keep the product description generic (e.g. "car key fob", "automotive remote", "electronic car part"). Avoid technical terms that might be flagged.
+"A vertical, handheld selfie-style video filmed by a creator in a [SETTING]. They hold [PRODUCT DESCRIPTION] in one hand and the phone in the other, speaking casually to camera. Natural lighting and soft reflections highlight the product details. The creator smiles, mentioning how they use it. The handheld camera moves subtly with natural shake. Duration ≈ 15 seconds, ambient noise, no overlays or music.
+**Audio:** Spanish (Latin American). Creator must mention 'Programming Car' and '786-816-4874' in dialogue."
 `;
 
 // CONFIGURACIÓN EXACTA DE LA FÁBRICA (Basado en tus screenshots)
@@ -384,8 +421,8 @@ async function pollKieTask(taskId) {
         // Fallback checks for other possible field locations
         if (!videoUrl) {
           videoUrl = taskData.videoUrl || taskData.video_url ||
-                     taskData.result?.videoUrl || taskData.result?.video_url ||
-                     taskData.output?.video;
+            taskData.result?.videoUrl || taskData.result?.video_url ||
+            taskData.output?.video;
         }
 
         if (videoUrl && typeof videoUrl === 'string') {
@@ -703,14 +740,14 @@ async function generateTTSAudio(text, outputPath) {
 }
 
 /**
- * Combinar video y audio con FFmpeg
+ * Combinar video y audio con FFmpeg + MARCA DE AGUA
  * @param {string} videoUrl - URL del video sin audio
  * @param {string} audioPath - Ruta del archivo de audio local
  * @returns {Promise<string>} - URL del video final (subido a Cloudinary)
  */
 async function mergeVideoWithAudio(videoUrl, audioPath) {
   try {
-    logger.info('🎞️ Combinando video + audio con FFmpeg...');
+    logger.info('🎞️ Combinando video + audio + marca de agua con FFmpeg...');
 
     const tempDir = path.join(__dirname, 'temp');
     if (!fs.existsSync(tempDir)) {
@@ -719,16 +756,28 @@ async function mergeVideoWithAudio(videoUrl, audioPath) {
 
     const videoPath = path.join(tempDir, `video_${Date.now()}.mp4`);
     const outputPath = path.join(tempDir, `final_${Date.now()}.mp4`);
+    // Use forward slashes AND escape the colon for FFmpeg filter syntax
+    const fontPath = 'C\\:/Windows/Fonts/arial.ttf';
 
     // Descargar video
     const videoResponse = await axios.get(videoUrl, { responseType: 'arraybuffer' });
     fs.writeFileSync(videoPath, videoResponse.data);
 
-    // Combinar video + audio (sin watermark)
-    const ffmpegCmd = `ffmpeg -i "${videoPath}" -i "${audioPath}" -c:v libx264 -preset fast -crf 23 -c:a aac -map 0:v:0 -map 1:a:0 -shortest -y "${outputPath}"`;
+    // Filtro de Marca de Agua Complejo (Texto con borde negro para legibilidad)
+    // Posición: Centrado abajo (w-text_w)/2 : h-text_h-100
+    const watermarkText = 'PROGRAMMING CAR | 786-478-2531';
+    const vfFilter = `drawtext=fontfile='${fontPath}':text='${watermarkText}':fontcolor=white:fontsize=24:x=(w-text_w)/2:y=h-th-50:box=1:boxcolor=black@0.5:boxborderw=5`;
+
+    // Combinar video + audio + watermark
+    // -vf applies the filter graph
+    // USE LOCAL FFMPEG IF AVAILABLE
+    const localFfmpeg = path.join(__dirname, 'ffmpeg.exe');
+    const ffmpegBin = fs.existsSync(localFfmpeg) ? `"${localFfmpeg}"` : 'ffmpeg';
+
+    const ffmpegCmd = `${ffmpegBin} -i "${videoPath}" -i "${audioPath}" -c:v libx264 -preset fast -crf 23 -vf "${vfFilter}" -c:a aac -map 0:v:0 -map 1:a:0 -shortest -y "${outputPath}"`;
 
     await execPromise(ffmpegCmd);
-    logger.info('✅ Video + audio combinados');
+    logger.info('✅ Video + audio + marca de agua generados');
 
     // Subir a Cloudinary
     const finalUrl = await uploadToCloudinary(outputPath);
@@ -778,5 +827,6 @@ module.exports = {
   updateVideoJobComplete,
   updateVideoJobFailed,
   sendOwnerWhatsApp,
+  mergeVideoWithAudio,
 };
 // Force rebuild v2.5-safe-prompt

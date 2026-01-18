@@ -5,3 +5,10 @@ leads.csv
 sms_targets.csv
 call_targets.csv
 *.log
+
+# Binaries and Temp
+ffmpeg.exe
+ffmpeg_temp/
+ffmpeg_final/
+temp/
+*.zip
