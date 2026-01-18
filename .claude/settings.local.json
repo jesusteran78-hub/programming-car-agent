@@ -12,7 +12,9 @@
       "Bash(node setup_price_requests.js:*)",
       "Bash(git commit:*)",
       "Bash(npm install:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(node generate_bmw_cas3_videos.js:*)",
+      "Bash(node seed_transmissions.js:*)"
     ]
   }
 }

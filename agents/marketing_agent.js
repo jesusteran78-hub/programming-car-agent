@@ -8,6 +8,8 @@
  */
 const logger = require('../logger');
 require('dotenv').config();
+const { createClient } = require('@supabase/supabase-js');
+const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
 const BLOTATO_API_KEY = process.env.BLOTATO_API_KEY;
 const BLOTATO_ACCOUNTS = {
@@ -18,9 +20,6 @@ const BLOTATO_ACCOUNTS = {
   facebook: process.env.BLOTATO_FACEBOOK_ID,
 };
 
-// Estado pendiente de foto para video (en memoria)
-// Se pierde si el servidor reinicia, pero es suficiente para el flujo corto
-let pendingVideoIdea = null;
 
 /**
  * Publish content to social media via Blotato
@@ -181,7 +180,7 @@ async function getVideoJobsStatus() {
 
     for (const job of jobs) {
       const emoji = job.status === 'completed' ? '✅' :
-                    job.status === 'failed' ? '❌' : '⏳';
+        job.status === 'failed' ? '❌' : '⏳';
       status += `${emoji} #${job.job_id}: ${job.status}\n`;
       status += `   📝 ${job.title || job.idea?.substring(0, 30) || 'Sin título'}...\n`;
 
@@ -201,20 +200,76 @@ async function getVideoJobsStatus() {
   }
 }
 
+// Estado pendiente de foto para video (PERSISTENTE en Supabase)
+const MEMORY_KEY_PENDING_VIDEO = 'marketing_pending_video_idea';
+
+
+
 /**
- * Check if there's a pending video idea waiting for image
- * @returns {string|null}
+ * Save pending video idea to Supabase
+ * @param {string} idea
  */
-function getPendingVideoIdea() {
-  return pendingVideoIdea;
+async function savePendingVideoIdea(idea) {
+  try {
+    const { error } = await supabase
+      .from('agent_memory')
+      .upsert({
+        key: MEMORY_KEY_PENDING_VIDEO,
+        value: { idea, created_at: new Date().toISOString() },
+        updated_at: new Date().toISOString()
+      });
+
+    if (error) throw error;
+    logger.info(`💾 Idea guardada en DB: "${idea.substring(0, 30)}..."`);
+  } catch (error) {
+    logger.error('Error saving pending video idea:', error);
+  }
 }
 
 /**
- * Clear the pending video idea
+ * Get pending video idea from Supabase
+ * @returns {Promise<string|null>}
  */
-function clearPendingVideoIdea() {
-  pendingVideoIdea = null;
+async function getPendingVideoIdea() {
+  try {
+    const { data, error } = await supabase
+      .from('agent_memory')
+      .select('value')
+      .eq('key', MEMORY_KEY_PENDING_VIDEO)
+      .single();
+
+    if (error && error.code !== 'PGRST116') { // Ignorar error "no rows found"
+      logger.error('Error fetching pending video idea:', error);
+      return null;
+    }
+
+    if (data && data.value && data.value.idea) {
+      return data.value.idea;
+    }
+    return null;
+  } catch (error) {
+    logger.error('Error getting pending video idea:', error);
+    return null;
+  }
 }
+
+/**
+ * Clear the pending video idea from Supabase
+ */
+async function clearPendingVideoIdea() {
+  try {
+    const { error } = await supabase
+      .from('agent_memory')
+      .delete()
+      .eq('key', MEMORY_KEY_PENDING_VIDEO);
+
+    if (error) throw error;
+    logger.info('🧹 Idea pendiente borrada de DB');
+  } catch (error) {
+    logger.error('Error clearing pending video idea:', error);
+  }
+}
+
 
 /**
  * Process marketing command from owner
@@ -229,10 +284,11 @@ async function processMarketingCommand(command, imageUrl = null) {
   if (lowerCmd === 'status' || lowerCmd === '') {
     const scheduled = await getScheduledPosts();
     const videoStatus = await getVideoJobsStatus();
+    const pendingIdea = await getPendingVideoIdea();
 
     let pendingMsg = '';
-    if (pendingVideoIdea) {
-      pendingMsg = `\n⏳ **ESPERANDO FOTO**\nIdea: "${pendingVideoIdea.substring(0, 40)}..."\nEnvía una foto para continuar.\n`;
+    if (pendingIdea) {
+      pendingMsg = `\n⏳ **ESPERANDO FOTO**\nIdea: "${pendingIdea.substring(0, 40)}..."\nEnvía una foto para continuar.\n`;
     }
 
     return `📱 **MARKETING STATUS**\n\n` +
@@ -257,10 +313,10 @@ async function processMarketingCommand(command, imageUrl = null) {
 
     // Cancel pending video
     if (subCmd.toLowerCase() === 'cancelar' || subCmd.toLowerCase() === 'cancel') {
-      if (pendingVideoIdea) {
-        const cancelled = pendingVideoIdea;
-        pendingVideoIdea = null;
-        return `❌ Video cancelado.\nIdea descartada: "${cancelled.substring(0, 40)}..."`;
+      const pendingIdea = await getPendingVideoIdea();
+      if (pendingIdea) {
+        await clearPendingVideoIdea();
+        return `❌ Video cancelado.\nIdea descartada: "${pendingIdea.substring(0, 40)}..."`;
       }
       return '❓ No hay video pendiente para cancelar.';
     }
@@ -268,7 +324,7 @@ async function processMarketingCommand(command, imageUrl = null) {
     // FLUJO DE 2 PASOS: idea -> pedir foto -> generar
     // Si NO hay imagen, guardar idea y pedir foto
     if (!imageUrl) {
-      pendingVideoIdea = subCmd;
+      await savePendingVideoIdea(subCmd);
       logger.info(`📝 Video idea guardada, esperando foto: "${subCmd.substring(0, 50)}..."`);
       return `📝 **IDEA GUARDADA**\n\n"${subCmd}"\n\n📸 Ahora envía una FOTO del producto/servicio.\n\n💡 La foto se usará como base para el video.\nUsa \`mkt video cancelar\` para descartar.`;
     }
@@ -311,12 +367,13 @@ async function processMarketingCommand(command, imageUrl = null) {
  * @returns {Promise<{handled: boolean, response?: string}>}
  */
 async function handlePendingVideoImage(imageUrl) {
-  if (!pendingVideoIdea || !imageUrl) {
+  const pendingIdea = await getPendingVideoIdea();
+  if (!pendingIdea || !imageUrl) {
     return { handled: false };
   }
 
-  const idea = pendingVideoIdea;
-  pendingVideoIdea = null; // Clear pending state
+  const idea = pendingIdea;
+  await clearPendingVideoIdea(); // Clear pending state
 
   logger.info(`📸 Foto recibida para video: "${idea.substring(0, 50)}..."`);
 

@@ -60,3 +60,13 @@ CREATE TABLE IF NOT EXISTS service_prices (
 
 ALTER TABLE service_prices ENABLE ROW LEVEL SECURITY;
 CREATE POLICY "Enable all for anon" ON service_prices FOR ALL USING (true);
+
+-- 7. Tabla de Memoria de Agentes (Persistencia)
+CREATE TABLE IF NOT EXISTS agent_memory (
+  key TEXT PRIMARY KEY,
+  value JSONB,
+  updated_at TIMESTAMPTZ DEFAULT NOW()
+);
+
+ALTER TABLE agent_memory ENABLE ROW LEVEL SECURITY;
+CREATE POLICY "Enable all for anon" ON agent_memory FOR ALL USING (true);
