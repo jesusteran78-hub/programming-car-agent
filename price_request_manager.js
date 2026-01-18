@@ -18,9 +18,11 @@ const OWNER_PHONE = process.env.OWNER_PHONE || '17868164874@s.whatsapp.net';
  * @param {number} year - Vehicle year
  * @param {string} serviceType - Service type (copy, lost_all, programming)
  * @param {string} fccId - FCC ID of the key
+ * @param {string} [vin] - Vehicle VIN
+ * @param {Array<{name:string, url:string}>} [supplierLinks] - Array of supplier links
  * @returns {Promise<{success: boolean, code?: string, error?: string}>}
  */
-async function createPriceRequest(sendWhatsApp, clientPhone, make, model, year, serviceType, fccId) {
+async function createPriceRequest(sendWhatsApp, clientPhone, make, model, year, serviceType, fccId, vin, supplierLinks) {
   try {
     const code = Math.random().toString(36).substring(2, 8);
 
@@ -39,11 +41,19 @@ async function createPriceRequest(sendWhatsApp, clientPhone, make, model, year, 
       return { success: false, error: error.message };
     }
 
+    const linksText = (supplierLinks || [])
+      .map(l => `• ${l.name}: ${l.url}`)
+      .join('\n');
+
     const msg = `🔔 PRECIO #${code}
-${make} ${model} ${year}
-Servicio: ${serviceType || 'copy'}
-FCC: ${fccId || 'N/A'}
-Cliente: ${clientPhone.replace('@s.whatsapp.net', '')}
+🚗 ${make} ${model} ${year}
+🔢 VIN: ${vin || 'N/A'}
+🔑 FCC: ${fccId || 'N/A'}
+🔧 Servicio: ${serviceType || 'copy'}
+👤 Cliente: ${clientPhone.replace('@s.whatsapp.net', '')}
+
+🔗 LINKS PROVEEDORES:
+${linksText || 'No disponibles'}
 
 💰 Responde con el PRECIO FINAL (ej: 180)`;
 

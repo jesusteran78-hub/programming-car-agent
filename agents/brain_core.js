@@ -773,14 +773,17 @@ async function getAIResponse(userMessage, senderNumber, userImage = null, notifi
 
                         // Request price from owner via WhatsApp WITH supplier links
                         if (notificationCallback) {
+                            const vin = currentLeadData ? currentLeadData.vin : null;
                             const requestResult = await createPriceRequest(
                                 notificationCallback, // Use the callback passed from sales_agent.js
                                 senderNumber,
                                 args.make,
                                 args.model,
                                 args.year,
-                                'copy',
-                                args.fcc_id
+                                'copy', // Default to copy if not specified
+                                args.fcc_id,
+                                vin,
+                                supplierLinks
                             );
                             logger.info('📩 Price request sent to owner via callback');
                         } else {
