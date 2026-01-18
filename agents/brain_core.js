@@ -762,8 +762,8 @@ async function getAIResponse(userMessage, senderNumber, userImage = null, notifi
 
                     // 3. If still no price, request from owner WITH supplier links (INTERNAL ONLY)
                     const hasValidPrice = priceData && (
-                        (Array.isArray(priceData) && priceData.some(p => p.price)) ||
-                        (!Array.isArray(priceData) && priceData.price)
+                        (Array.isArray(priceData) && priceData.some(p => p.price && p.price !== 'Consultar Web' && p.found !== false)) ||
+                        (!Array.isArray(priceData) && priceData.price && priceData.price !== 'Consultar Web' && priceData.found !== false)
                     );
 
                     logger.info(`🔍 DEBUG COST CHECK: Make=${args.make}, ValidPrice=${hasValidPrice}, PriceData=${JSON.stringify(priceData)}`);
@@ -775,6 +775,7 @@ async function getAIResponse(userMessage, senderNumber, userImage = null, notifi
                         // Request price from owner via WhatsApp WITH supplier links
                         if (notificationCallback) {
                             const vin = currentLeadData ? currentLeadData.vin : null;
+                            logger.info(`📝 [DEBUG] Preparing Price Request for ${args.make} ${args.model}...`);
                             const requestResult = await createPriceRequest(
                                 notificationCallback, // Use the callback passed from sales_agent.js
                                 senderNumber,
@@ -786,10 +787,12 @@ async function getAIResponse(userMessage, senderNumber, userImage = null, notifi
                                 vin,
                                 supplierLinks
                             );
-                            logger.info('📩 Price request sent to owner via callback');
+                            logger.info(`📩 Price request result: ${JSON.stringify(requestResult)}`);
                         } else {
                             logger.warn('⚠️ createPriceRequest skipped (Brain decoupling limitation - callback missing)');
                         }
+                    } else {
+                        logger.info(`ℹ️ [DEBUG] Skipped Notification: ValidPrice=${hasValidPrice}, Make=${args.make}, Model=${args.model}, Year=${args.year}`);
                     }
 
                     messagesForAI.push({
