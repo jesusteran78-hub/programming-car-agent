@@ -45,41 +45,39 @@ The goal is to produce a **natural, handheld, authentic video** that feels as if
 ### Video Requirements
 
 #### 🎬 Subject & Composition
-- The creator is **visible and centered in the frame**, looking directly at the camera while naturally interacting with the product.  
-- Filmed **selfie-style or first-person**, handheld with slight movement, subtle camera shake, and realistic micro-adjustments.  
-- The creator **holds or uses the product with their free hand** — no phone or reflection visible.  
-- Background environment matches the setting (e.g., bathroom, kitchen, gym, garden).  
-- Only one continuous shot — no cuts or transitions.  
+- **STYLE: POV / HANDS-ONLY / OVER-THE-SHOULDER** (To match voiceover audio perfectly).
+- **Scene**: A pair of professional hands holding or working on the product securely.
+- **Action**: The technician turns the product to show details, buttons, or connectors.
+- **Avoid showing the technician's moving mouth** to prevent lip-sync mismatch.
+- Can show the technician's face smiling or nodding, but **NOT talking**.
+- Background: Partial view of a modern workshop, diagnostic tools, or a car interior.
 
 #### 🌅 Visual Style
-- Match the **lighting, product appearance, and color tone** to the reference image if provided.  
-- Use **natural or realistic ambient lighting** (e.g., daylight through a window, soft indoor ambient).  
-- Emphasize tactile realism — reflections, slight grain, natural shadows, realistic hand and skin detail.  
-- Maintain a **vertical 9:16** aspect ratio for social-style output.  
+- **Focus**: 80% on the Product, 20% on the context/technician.
+- Match the **lighting, product appearance, and color tone**.
+- Use **natural or realistic ambient lighting**.
+- Emphasize tactile realism — reflections, slight grain, natural shadows.
+- Maintain a **vertical 9:16** aspect ratio.
 
 #### 🎭 Tone & Delivery
-- The creator talks directly to camera for 1–2 short sentences **in Spanish (Latin American)** about the product, expressing a genuine, conversational reaction.  
-- Speech feels spontaneous — "real-talk" tone, not rehearsed or ad-like.  
-- **Language: Spanish** — natural, colloquial, Miami Latino accent.
-- Include small gestures, smiles, or head movement for authenticity.
-- **MANDATORY BRANDING:** The creator MUST say "Programming Car" and "786-816-4874" clearly in the audio.
+- The video acts as a **visual demonstration** while the "Voiceover" (Audio) explains.
+- The movement is confident, showing the quality of the work/part.
+- **Language**: N/A (Visuals only).
+- **MANDATORY BRANDING**: The audio will handle the brand speech. Visuals should be clean.
 
 #### ⚙️ Technical Specs
-- **Duration:** 15 seconds  
-- **Orientation:** Vertical (9:16)  
-- **Lighting:** Natural or ambient realism  
-- **Audio:** Light environmental tone — no background music  
-- **Reference Image:** Used for appearance and color consistency only  
+- **Duration:** 15 seconds
+- **Orientation:** Vertical (9:16)
+- **Lighting:** Natural or ambient realism
+- **Audio:** Light environmental tone (Voiceover added later)
 
 ---
 
 ### Prompt Construction Instructions
-When generating a Sora 2 prompt:
-- Explicitly state that the **camera is handheld selfie-style** and the creator **records themselves** using a phone at arm’s length.  
-- Focus on **realistic motion and micro-details** — shifting weight, natural breathing, subtle focus change.  
-- Keep under **300 words**; prioritize **visual realism** over narration.  
-- Mention **environment context**, **lighting mood**, and **creator-product interaction**.  
-- Ensure camera never shows the phone, only the creator and product in frame.  
+- PRIORITIZE **POV shots** or **Product Close-ups**.
+- If showing the face, describe expression as "confident smile" or "focused check", NEVER "speaking" or "explaining".
+- Focus on **visual details** of the product: "showing the key blade", "checking the circuit board".
+- Keep under **300 words**.
 
 ---
 
@@ -90,8 +88,7 @@ Context: {{context}}
 ### OUTPUT FORMAT
 Generate a prompt following this safe template:
 
-"A vertical, handheld selfie-style video filmed by a creator in a [SETTING]. They hold [PRODUCT DESCRIPTION] in one hand and the phone in the other, speaking casually to camera. Natural lighting and soft reflections highlight the product details. The creator smiles, mentioning how they use it. The handheld camera moves subtly with natural shake. Duration ≈ 15 seconds, ambient noise, no overlays or music.
-**Audio:** Spanish (Latin American). Creator must mention 'Programming Car' and '786-816-4874' in dialogue."
+"A vertical POV video in a modern workshop. Professional hands holding [PRODUCT DESCRIPTION], turning it slowly to show details. Soft natural lighting reflects off the surface. Background shows a blurred [CAR BRAND] vehicle or diagnostic tool. The technician (visible only in partial profile or hands) gestures confidently with the product. High-quality textures, realistic shadows. Duration 15s. Ambient sound."
 `;
 
 // CONFIGURACIÓN EXACTA DE LA FÁBRICA (Basado en tus screenshots)

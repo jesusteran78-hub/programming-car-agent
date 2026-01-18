@@ -18,7 +18,7 @@ async function runTest() {
 
     // Use existing files from temp
     const videoName = 'video_1768653810749.mp4';
-    const audioName = 'audio_1768653613716.mp3';
+    const audioName = 'audio_1768653827107.mp3';
 
     // We need to mock axios.get because mergeVideoWithAudio expects a URL and tries to download it.
     // Instead of mocking a whole HTTP request, let's create a local test wrapper function
