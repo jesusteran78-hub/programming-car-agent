@@ -763,10 +763,18 @@ async function mergeVideoWithAudio(videoUrl, audioPath) {
     const videoResponse = await axios.get(videoUrl, { responseType: 'arraybuffer' });
     fs.writeFileSync(videoPath, videoResponse.data);
 
-    // Filtro de Marca de Agua Complejo (Texto con borde negro para legibilidad)
-    // Posición: Centrado abajo (w-text_w)/2 : h-text_h-100
+    // Filtro de Marca de Agua: FLOTANTE / MOVIMIENTOS SUAVES (Estilo DVD Screensaver elegante)
+    // Se mueve suavemente alrededor del centro para no tapar siempre lo mismo, pero siempre visible.
+    // x = centro + oscilación horizontal
+    // y = centro + oscilación vertical
     const watermarkText = 'PROGRAMMING CAR | 786-478-2531';
-    const vfFilter = `drawtext=fontfile='${fontPath}':text='${watermarkText}':fontcolor=white:fontsize=24:x=(w-text_w)/2:y=h-th-50:box=1:boxcolor=black@0.5:boxborderw=5`;
+
+    // Expression explanation:
+    // (w-text_w)/2 : Center X
+    // (h-text_h)/2 : Center Y
+    // sin(t/1.5)*100 : Move 100px Left/Right every ~3 seconds
+    // cos(t/1.8)*150 : Move 150px Up/Down (slower period)
+    const vfFilter = `drawtext=fontfile='${fontPath}':text='${watermarkText}':fontcolor=white@0.8:fontsize=24:x='(w-text_w)/2+sin(t/1.5)*100':y='(h-text_h)/2+cos(t/1.8)*150':box=1:boxcolor=black@0.5:boxborderw=5`;
 
     // Combinar video + audio + watermark
     // -vf applies the filter graph

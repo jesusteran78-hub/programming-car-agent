@@ -88,17 +88,59 @@ async function runManualPublish() {
     try {
       console.log(`\n👉 Publicando en ${target.platform.toUpperCase()} (ID: ${target.id})...`);
 
+      let targetPayload = {
+        targetType: target.platform,
+        platform: target.platform,
+      };
+
+      // PLATFORM SPECIFIC OVERRIDES (BACKPORTED FROM SUCCESSFUL TEST)
+      if (target.platform === 'tiktok') {
+        targetPayload = {
+          targetType: 'tiktok',
+          platform: 'tiktok',
+          privacyLevel: 'PUBLIC_TO_EVERYONE',
+          disabledComments: false,
+          disabledDuet: false,
+          disabledStitch: false,
+          isYourBrand: false,
+          isAiGenerated: true,
+          isBrandedContent: false,
+        };
+      } else if (target.platform === 'facebook') {
+        targetPayload = {
+          targetType: 'facebook',
+          platform: 'facebook',
+          pageId: process.env.BLOTATO_FACEBOOK_PAGE_ID,
+        };
+      } else if (target.platform === 'youtube') {
+        targetPayload = {
+          targetType: 'youtube',
+          platform: 'youtube',
+          title: 'Programming Car Video ' + Date.now(),
+          privacyStatus: 'public',
+          shouldNotifySubscribers: true,
+        };
+      } else if (target.platform === 'twitter') {
+        targetPayload = {
+          targetType: 'twitter',
+          platform: 'twitter',
+        };
+      } else if (target.platform === 'instagram') {
+        targetPayload = {
+          targetType: 'instagram',
+          platform: 'instagram',
+        }
+      }
+
       const payload = {
         accountId: target.id,
         content: {
           text: target.caption,
           mediaUrls: [videoUrl],
           platform: target.platform,
+          ...(target.platform === 'youtube' ? { title: 'Programming Car Video' } : {})
         },
-        target: {
-          targetType: 'Account',
-          platform: target.platform,
-        },
+        target: targetPayload,
       };
 
       // Console log payload for debugging
