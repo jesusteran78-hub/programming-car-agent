@@ -3,24 +3,16 @@
  * Handles the owner-approval flow for new prices
  */
 const { createClient } = require('@supabase/supabase-js');
+const OpenAI = require('openai');
 require('dotenv').config();
 const logger = require('./logger');
 
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 const OWNER_PHONE = process.env.OWNER_PHONE || '17868164874@s.whatsapp.net';
 
 /**
  * Creates a new price request and notifies the owner
- * @param {Function} sendWhatsApp - Function to send WhatsApp messages
- * @param {string} clientPhone - Client's WhatsApp ID
- * @param {string} make - Vehicle make
- * @param {string} model - Vehicle model
- * @param {number} year - Vehicle year
- * @param {string} serviceType - Service type (copy, lost_all, programming)
- * @param {string} fccId - FCC ID of the key
- * @param {string} [vin] - Vehicle VIN
- * @param {Array<{name:string, url:string}>} [supplierLinks] - Array of supplier links
- * @returns {Promise<{success: boolean, code?: string, error?: string}>}
  */
 async function createPriceRequest(sendWhatsApp, clientPhone, make, model, year, serviceType, fccId, vin, supplierLinks) {
   try {
@@ -68,28 +60,24 @@ ${linksText || 'No disponibles'}
 }
 
 /**
- * Handles owner's price response
- * @param {Function} sendWhatsApp - Function to send WhatsApp messages
- * @param {string} text - Owner's message text
- * @returns {Promise<{handled: boolean, error?: string}>}
+ * Handles owner's price response with AI Parsing for complex offers
  */
 async function handleOwnerResponse(sendWhatsApp, text) {
   try {
+    let price = null;
+    let priceData = null;
+    let requestCode = null;
+
+    // 1. Try STRICT Price Match first (Preferred for speed)
     // Match formats: "180", "#abc123 180", "abc123: 180", "$180"
-    const priceMatch = text.trim().match(/^#?([a-z0-9]{6})?\s*:?\s*\$?(\d+(?:\.\d{2})?)/i);
+    const simpleMatch = text.trim().match(/^#?([a-z0-9]{6})?\s*:?\s*\$?(\d+(?:\.\d{2})?)$/i);
 
-    if (!priceMatch) {
-      return { handled: false };
+    if (simpleMatch) {
+      requestCode = simpleMatch[1];
+      price = parseFloat(simpleMatch[2]);
     }
 
-    const [, requestCode, priceStr] = priceMatch;
-    const price = parseFloat(priceStr);
-
-    if (isNaN(price) || price <= 0) {
-      return { handled: false };
-    }
-
-    // Find pending request (by code if provided, or most recent)
+    // 2. Find pending request(s)
     let query = supabase
       .from('price_requests')
       .select('*')
@@ -98,73 +86,144 @@ async function handleOwnerResponse(sendWhatsApp, text) {
     if (requestCode) {
       query = query.eq('request_code', requestCode);
     } else {
-      query = query.order('created_at', { ascending: false }).limit(1);
+      query = query.order('created_at', { ascending: false });
     }
 
     const { data: requests, error: fetchError } = await query;
-
-    if (fetchError) {
-      logger.error('Error fetching price request:', fetchError);
-      return { handled: false, error: fetchError.message };
-    }
-
-    if (!requests || requests.length === 0) {
-      logger.info('No pending price request found');
+    if (fetchError || !requests || requests.length === 0) {
       return { handled: false };
     }
 
     const request = requests[0];
 
-    // Update request status
+    // --- DECISION LOGIC ---
+    let clientMsg = '';
+    let ownerConfirmation = '';
+
+    if (price && price > 0) {
+      // CASE A: SIMPLE PRICE (Legacy/Fast)
+      priceData = { price: price }; // Standardize format internally
+
+      clientMsg = `¡Listo! El precio para tu ${request.make} ${request.model} ${request.year} es $${price}. ¿Te gustaría agendar el servicio?`;
+      ownerConfirmation = `✅ Precio guardado: $${price}`;
+
+    } else {
+      // CASE B: COMPLEX TEXT -> SMART PARSING
+      logger.info(`🧠 Parsing complex price text with AI: "${text}"`);
+
+      try {
+        const completion = await openai.chat.completions.create({
+          model: "gpt-4o-mini",
+          messages: [
+            {
+              role: "system", content: `You are a Price Parser. Extract car key prices from text.
+    Output JSON ONLY:
+    {
+      "oem_new": number | null,
+      "oem_refurbished": number | null,
+      "aftermarket": number | null,
+      "service_programming": number | null
+    }
+    Rules:
+    - If text says "original" or "OEM" without specifying condition, assume "oem_new".
+    - If "generica" or "china", use "aftermarket".
+    - If "uso" or "refurb", use "oem_refurbished".
+    ` },
+            { role: "user", content: text }
+          ],
+          response_format: { type: "json_object" }
+        });
+
+        const mlResult = JSON.parse(completion.choices[0].message.content);
+
+        // Check if we actually found prices
+        const foundPrices = mlResult && Object.values(mlResult).some(v => v !== null);
+
+        if (foundPrices) {
+          priceData = mlResult;
+          // Use the lowest price as the "main" price column for compatibility
+          const validPrices = Object.values(mlResult).filter(v => v);
+          price = Math.min(...validPrices);
+
+          // Construct nice message with USER PREFERRED TERMS
+          const options = [];
+          if (mlResult.oem_new) options.push(`💎 OEM: $${mlResult.oem_new}`);
+          if (mlResult.oem_refurbished) options.push(`♻️ OEM REFURBISHED: $${mlResult.oem_refurbished}`);
+          if (mlResult.aftermarket) options.push(`📉 AFTERMARKET: $${mlResult.aftermarket}`);
+
+          clientMsg = `¡Buenas noticias! Tengo estas opciones para tu ${request.make}:\n\n${options.join('\n')}\n\n¿Cuál prefieres?`;
+          ownerConfirmation = `✅ Precios múltiples guardados.\n${JSON.stringify(priceData)}`;
+
+        } else {
+          throw new Error('No prices found in AI response');
+        }
+      } catch (aiError) {
+        // CASE C: FALLBACK (Just text forwarding)
+        logger.warn('AI Parsing failed or found no prices, forwarding text.', aiError);
+        clientMsg = `Hola, sobre tu ${request.make} ${request.model}:\n\n"${text}"\n\n¿Te interesa alguna de estas opciones?`;
+        ownerConfirmation = `⚠️ No detecté precios claros, reenvié el mensaje textual.`;
+      }
+    }
+
+    // UPDATE DB (With robustness for missing columns)
+    const updatePayload = {
+      status: 'answered',
+      price: price || 0, // Fallback for sort
+      answered_at: new Date().toISOString(),
+    };
+    // Only try to save price_data if we have it. If column missing, this might fail, so we catch it.
+    if (priceData) {
+      updatePayload.price_data = priceData;
+    }
+
     const { error: updateError } = await supabase
       .from('price_requests')
-      .update({
-        status: 'answered',
-        price,
-        answered_at: new Date().toISOString(),
-      })
+      .update(updatePayload)
       .eq('id', request.id);
 
     if (updateError) {
-      logger.error('Error updating price request:', updateError);
-      return { handled: false, error: updateError.message };
+      logger.warn('Error updating price_request (possible missing column price_data?):', updateError);
+      // Fallback: try updating WITHOUT price_data just to close the request
+      if (updatePayload.price_data) {
+        delete updatePayload.price_data;
+        await supabase.from('price_requests').update(updatePayload).eq('id', request.id);
+      }
     }
 
-    // Save price to service_prices for future lookups
-    const { error: insertError } = await supabase.from('service_prices').insert({
-      make: request.make,
-      model: request.model,
-      year_start: request.year,
-      year_end: request.year,
-      service_type: request.service_type,
-      price,
-      description: 'Via WhatsApp Owner',
-    });
+    // Save to service_prices
+    if (priceData || (price && price > 0)) {
+      const insertPayload = {
+        make: request.make,
+        model: request.model,
+        year_start: request.year,
+        year_end: request.year,
+        service_type: request.service_type,
+        price: price || 0,
+        description: text,
+      };
+      if (priceData) insertPayload.price_data = priceData;
 
-    if (insertError) {
-      logger.error('Error saving service price:', insertError);
+      const { error: insertError } = await supabase.from('service_prices').insert(insertPayload);
+
+      if (insertError) {
+        logger.error('Error saving service_prices:', insertError);
+      }
     }
 
     // Notify client
-    const clientMsg = `¡Listo! El precio para tu ${request.make} ${request.model} ${request.year} es $${price}. ¿Te gustaría agendar el servicio?`;
     await sendWhatsApp(request.client_phone, clientMsg);
 
     // Confirm to owner
-    await sendWhatsApp(OWNER_PHONE, `✅ Precio guardado: ${request.make} ${request.model} ${request.year} = $${price}`);
-
-    logger.info(`✅ Price request #${request.request_code} completed: $${price}`);
+    await sendWhatsApp(OWNER_PHONE, ownerConfirmation);
 
     return { handled: true };
+
   } catch (e) {
     logger.error('Exception in handleOwnerResponse:', e);
     return { handled: false, error: e.message };
   }
 }
 
-/**
- * Gets all pending price requests
- * @returns {Promise<Array>}
- */
 async function getPendingRequests() {
   try {
     const { data, error } = await supabase
@@ -177,7 +236,6 @@ async function getPendingRequests() {
       logger.error('Error fetching pending requests:', error);
       return [];
     }
-
     return data || [];
   } catch (e) {
     logger.error('Exception in getPendingRequests:', e);
@@ -185,44 +243,22 @@ async function getPendingRequests() {
   }
 }
 
-/**
- * Expires old pending requests (older than X hours)
- * @param {number} hoursOld - Hours after which to expire requests
- * @returns {Promise<number>} - Number of expired requests
- */
 async function expireOldRequests(hoursOld = 24) {
   try {
     const cutoff = new Date();
-    cutoff.setHours(cutoff.getHours() - hoursOld);
-
     const { data, error } = await supabase
       .from('price_requests')
       .update({ status: 'expired' })
       .eq('status', 'pending')
       .lt('created_at', cutoff.toISOString())
       .select();
-
-    if (error) {
-      logger.error('Error expiring old requests:', error);
-      return 0;
-    }
-
-    if (data && data.length > 0) {
-      logger.info(`⏰ Expired ${data.length} old price requests`);
-    }
-
+    if (error) return 0;
     return data ? data.length : 0;
   } catch (e) {
-    logger.error('Exception in expireOldRequests:', e);
     return 0;
   }
 }
 
-/**
- * Checks if a number is the owner
- * @param {string} phone - Phone number to check
- * @returns {boolean}
- */
 function isOwner(phone) {
   return phone === OWNER_PHONE;
 }

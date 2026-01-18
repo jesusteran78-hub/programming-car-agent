@@ -3,6 +3,8 @@ import LeadsTable from './LeadsTable';
 import ChatView from './ChatView';
 import MarketingView from './MarketingView';
 import AgendaView from './AgendaView';
+import SupervisorView from './SupervisorView';
+import DataView from './DataView';
 
 function App() {
   const [currentView, setCurrentView] = useState('marketing');
@@ -33,6 +35,10 @@ function App() {
         );
       case 'ops':
         return <AgendaView />;
+      case 'supervisor':
+        return <SupervisorView />;
+      case 'data':
+        return <DataView />;
       case 'marketing':
         return <MarketingView />;
       case 'finance':
@@ -86,6 +92,18 @@ function App() {
             onClick={() => setCurrentView('ops')}
           />
           <NavItem
+            icon="👨‍🏫"
+            label="Supervisor"
+            active={currentView === 'supervisor'}
+            onClick={() => setCurrentView('supervisor')}
+          />
+          <NavItem
+            icon="🗄️"
+            label="Base de Datos"
+            active={currentView === 'data'}
+            onClick={() => setCurrentView('data')}
+          />
+          <NavItem
             icon="💸"
             label="Finanzas"
             active={currentView === 'finance'}
@@ -115,6 +133,8 @@ function App() {
             <h2 className="text-lg font-bold text-slate-800 flex items-center gap-2">
               {currentView === 'sales' && '🧠 Centro de Comando'}
               {currentView === 'ops' && '🔧 Despacho de Campo'}
+              {currentView === 'supervisor' && '👨‍🏫 Panel de Entrenamiento'}
+              {currentView === 'data' && '🗄️ Registros del Sistema'}
               {currentView === 'marketing' && '🚀 Motor de Creación Viral'}
               {currentView === 'finance' && '💸 Finanzas'}
             </h2>
@@ -141,11 +161,10 @@ function NavItem({ icon, label, active, onClick }) {
     <button
       onClick={onClick}
       className={`w-full flex items-center gap-3 px-4 py-2.5 rounded-xl transition-all font-medium text-sm mb-1
-            ${
-              active
-                ? 'bg-white text-emerald-700 font-bold shadow-sm ring-1 ring-slate-200'
-                : 'text-slate-500 hover:bg-slate-100 hover:text-slate-900'
-            }`}
+            ${active
+          ? 'bg-white text-emerald-700 font-bold shadow-sm ring-1 ring-slate-200'
+          : 'text-slate-500 hover:bg-slate-100 hover:text-slate-900'
+        }`}
     >
       <span className="text-lg">{icon}</span>
       {label}

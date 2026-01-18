@@ -456,7 +456,14 @@ async function getAIResponse(userMessage, senderNumber, userImage = null, notifi
         const isOwnerChat = senderNumber === OWNER_PHONE;
 
         // Inject dynamic data into prompt (usar prompt de dueño si corresponde)
-        const basePrompt = isOwnerChat ? OWNER_SYSTEM_PROMPT : BASE_SYSTEM_PROMPT;
+        let trainingManual = '';
+        try {
+            trainingManual = fs.readFileSync(path.join(__dirname, '..', 'alex_training.md'), 'utf8');
+        } catch (e) {
+            logger.warn('⚠️ No training manual found (alex_training.md)');
+        }
+
+        const basePrompt = (isOwnerChat ? OWNER_SYSTEM_PROMPT : BASE_SYSTEM_PROMPT) + "\n\n" + trainingManual;
         const dynamicPrompt = basePrompt.replace(
             '{{CURRENT_DATE}}',
             new Date().toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' })

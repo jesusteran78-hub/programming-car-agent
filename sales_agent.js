@@ -97,6 +97,10 @@ app.post('/webhook', async (req, res) => {
     // 🧠 PENSAR (Consultar a OpenAI)
     // Pasamos tanto texto, imagen y AUDIO a la función, Y el callback para notificar
     // Firma: getAIResponse(userMessage, senderNumber, userImage, notificationCallback, userAudio)
+
+    // --> PERSISTENCE: Save User Message
+    if (userText) saveConversation(senderNumber, 'user', userText).catch(e => logger.error('DbSaveError', e));
+
     const aiResponse = await getAIResponse(userText, senderNumber, userImage, sendToWhapi, userAudio);
     logger.info(`🤖 Agente: ${aiResponse} `);
 
@@ -105,6 +109,9 @@ app.post('/webhook', async (req, res) => {
     if (aiResponse) {
       const sentResult = await sendToWhapi(senderNumber, aiResponse);
       logger.info('📤 Resultado envío Whapi:', JSON.stringify(sentResult));
+
+      // --> PERSISTENCE: Save Agent Response
+      saveConversation(senderNumber, 'assistant', aiResponse).catch(e => logger.error('DbSaveError', e));
 
       // 📝 AUDITAR (Guardar para revisión)
       const logEntry =
@@ -193,6 +200,36 @@ app.get('/api/video/status/:id', (req, res) => {
   }
   res.json({ success: true, job });
 });
+
+// --- SUPERVISOR API ---
+app.post('/api/supervisor/train', async (req, res) => {
+  const { phone } = req.body; // Optional phone, else latest
+  logger.info(`👨‍🏫 Supervisor invocado manualmente para: ${phone || 'Último Chat'}`);
+
+  // Run supervisor logic (We import the function or run as child process)
+  // For simplicity/safety, we'll run the script we just validated as a child process
+  const { exec } = require('child_process');
+  const scriptPath = require('path').join(__dirname, 'agents', 'supervisor.js');
+  const cmd = `node "${scriptPath}" ${phone || ''}`;
+
+  exec(cmd, (error, stdout, stderr) => {
+    if (error) {
+      logger.error(`Supervisor Error: ${error.message}`);
+      return res.json({ success: false, error: error.message });
+    }
+    logger.info(`👨‍🏫 Resultado Supervisor:\n${stdout}`);
+    // Parse stdout to find "Estado:"
+    const approved = stdout.includes('Estado: APROBADO');
+    const improving = stdout.includes('Estado: MEJORAR');
+
+    res.json({
+      success: true,
+      status: approved ? 'APROBADO' : (improving ? 'MEJORANDO' : 'UNKNOWN'),
+      logs: stdout
+    });
+  });
+});
+
 // ----------------------------------------------------
 
 // ----------------------------------------------------
@@ -209,3 +246,68 @@ module.exports = {
   getAIResponse,
   generateEmbedding,
 };
+
+// ==========================================
+// PERSISTENCE LAYER (Supabase)
+// ==========================================
+const { createClient } = require('@supabase/supabase-js');
+const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
+
+/**
+ * Save conversation to Database (and auto-create lead)
+ */
+async function saveConversation(chatId, role, content) {
+  try {
+    // 1. Get or Create Lead
+    let leadId;
+    const { data: existingLead, error: findError } = await supabase
+      .from('leads')
+      .select('id')
+      .eq('phone', chatId)
+      .single();
+
+    if (existingLead) {
+      leadId = existingLead.id;
+    } else {
+      // Create new lead
+      const { data: newLead, error: createError } = await supabase
+        .from('leads')
+        .insert({ phone: chatId, status: 'new' })
+        .select('id')
+        .single();
+
+      if (createError) {
+        // If race condition (already created by parallel request), try fetch again
+        if (createError.code === '23505') { // Unique violation
+          const { data: retryLead } = await supabase
+            .from('leads')
+            .select('id')
+            .eq('phone', chatId)
+            .single();
+          if (retryLead) leadId = retryLead.id;
+        } else {
+          logger.error('Error creating lead:', createError);
+          return;
+        }
+      } else {
+        leadId = newLead.id;
+      }
+    }
+
+    if (!leadId) return;
+
+    // 2. Insert Message
+    const { error: msgError } = await supabase
+      .from('conversations')
+      .insert({
+        lead_id: leadId,
+        role: role,
+        content: content
+      });
+
+    if (msgError) logger.error('Error saving message:', msgError);
+
+  } catch (e) {
+    logger.error('Persistence Error:', e);
+  }
+}
