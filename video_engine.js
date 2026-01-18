@@ -755,8 +755,12 @@ async function mergeVideoWithAudio(videoUrl, audioPath) {
 
     const videoPath = path.join(tempDir, `video_${Date.now()}.mp4`);
     const outputPath = path.join(tempDir, `final_${Date.now()}.mp4`);
-    // Use forward slashes AND escape the colon for FFmpeg filter syntax
-    const fontPath = 'C\\:/Windows/Fonts/arial.ttf';
+
+    // Cross-platform font path (Windows/Linux/Mac)
+    // Needs to be escaped for FFmpeg filter
+    const fontPathRaw = path.join(__dirname, 'assets', 'arial.ttf');
+    // FFmpeg requires forward slashes and escaped colons in filter strings
+    const fontPath = fontPathRaw.replace(/\\/g, '/').replace(/:/g, '\\:');
 
     // Descargar video
     const videoResponse = await axios.get(videoUrl, { responseType: 'arraybuffer' });
@@ -779,7 +783,9 @@ async function mergeVideoWithAudio(videoUrl, audioPath) {
     // -vf applies the filter graph
     // USE LOCAL FFMPEG IF AVAILABLE
     const localFfmpeg = path.join(__dirname, 'ffmpeg.exe');
+    // If local file exists, use it. Otherwise assume 'ffmpeg' is in global PATH (Linux server)
     const ffmpegBin = fs.existsSync(localFfmpeg) ? `"${localFfmpeg}"` : 'ffmpeg';
+    logger.info(`🎞️ Usando binario FFmpeg: ${ffmpegBin} | Font: ${fontPath}`);
 
     const ffmpegCmd = `${ffmpegBin} -i "${videoPath}" -i "${audioPath}" -c:v libx264 -preset fast -crf 23 -vf "${vfFilter}" -c:a aac -map 0:v:0 -map 1:a:0 -shortest -y "${outputPath}"`;
 
