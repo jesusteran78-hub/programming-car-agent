@@ -201,22 +201,24 @@ async function generateViralVideo(title, idea, imageUrl, jobId = null) {
 
     // PASO 2.5: AGREGAR AUDIO TTS
     logger.info('🔊 2.5. Generando audio TTS...');
-    try {
-      const audioScript = await generateAudioScript(title, idea);
-      const tempDir = path.join(__dirname, 'temp');
-      if (!fs.existsSync(tempDir)) {
-        fs.mkdirSync(tempDir);
-      }
-      const audioPath = path.join(tempDir, `audio_${internalJobId}.mp3`);
+    // PASO 2.5: AGREGAR AUDIO TTS
+    logger.info('🔊 2.5. Generando audio TTS...');
+    // REMOVED TRY/CATCH SUPPRESSION: We want to fail if branding fails.
 
-      const audioFile = await generateTTSAudio(audioScript, audioPath);
-      if (audioFile) {
-        videoUrl = await mergeVideoWithAudio(videoUrl, audioFile);
-        logger.info('✅ Audio agregado al video');
-      }
-    } catch (ttsError) {
-      logger.warn(`⚠️ TTS falló, video sin audio: ${ttsError.message}`);
+    const audioScript = await generateAudioScript(title, idea);
+    const tempDir = path.join(__dirname, 'temp');
+    if (!fs.existsSync(tempDir)) {
+      fs.mkdirSync(tempDir);
     }
+    const audioPath = path.join(tempDir, `audio_${internalJobId}.mp3`);
+
+    const audioFile = await generateTTSAudio(audioScript, audioPath);
+    if (!audioFile) {
+      throw new Error("TTS generation failed (returned null) - Aborting to prevent unbranded video");
+    }
+
+    videoUrl = await mergeVideoWithAudio(videoUrl, audioFile);
+    logger.info('✅ Audio agregado al video');
 
     logger.info('✅ Video URL Final:', videoUrl);
 
@@ -732,7 +734,7 @@ async function generateTTSAudio(text, outputPath) {
     return outputPath;
   } catch (e) {
     logger.error(`❌ Error generando TTS: ${e.message}`);
-    return null;
+    throw e; // Throw so we catch it in the main flow
   }
 }
 
