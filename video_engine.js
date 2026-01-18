@@ -217,7 +217,7 @@ async function generateViralVideo(title, idea, imageUrl, jobId = null) {
       throw new Error("TTS generation failed (returned null) - Aborting to prevent unbranded video");
     }
 
-    videoUrl = await mergeVideoWithAudio(videoUrl, audioFile);
+    videoUrl = await mergeVideoWithAudio(videoUrl, audioFile, title);
     logger.info('✅ Audio agregado al video');
 
     logger.info('✅ Video URL Final:', videoUrl);
@@ -739,14 +739,15 @@ async function generateTTSAudio(text, outputPath) {
 }
 
 /**
- * Combinar video y audio con FFmpeg + MARCA DE AGUA
+ * Combinar video y audio con FFmpeg + MARCA DE AGUA + TÍTULO
  * @param {string} videoUrl - URL del video sin audio
  * @param {string} audioPath - Ruta del archivo de audio local
+ * @param {string} title - Título del video para mostrar en pantalla
  * @returns {Promise<string>} - URL del video final (subido a Cloudinary)
  */
-async function mergeVideoWithAudio(videoUrl, audioPath) {
+async function mergeVideoWithAudio(videoUrl, audioPath, title = '') {
   try {
-    logger.info('🎞️ Combinando video + audio + marca de agua con FFmpeg...');
+    logger.info(`🎞️ Combinando video + audio + watermark + título ("${title}")...`);
 
     const tempDir = path.join(__dirname, 'temp');
     if (!fs.existsSync(tempDir)) {
@@ -766,6 +767,7 @@ async function mergeVideoWithAudio(videoUrl, audioPath) {
     const videoResponse = await axios.get(videoUrl, { responseType: 'arraybuffer' });
     fs.writeFileSync(videoPath, videoResponse.data);
 
+    // 1. Watermark Filter (Floating bottom)
     // Filtro de Marca de Agua: FLOTANTE / MOVIMIENTOS SUAVES (Estilo DVD Screensaver elegante)
     // Se mueve suavemente alrededor del centro para no tapar siempre lo mismo, pero siempre visible.
     // x = centro + oscilación horizontal
@@ -777,7 +779,15 @@ async function mergeVideoWithAudio(videoUrl, audioPath) {
     // (h-text_h)/2 : Center Y
     // sin(t/1.5)*100 : Move 100px Left/Right every ~3 seconds
     // cos(t/1.8)*150 : Move 150px Up/Down (slower period)
-    const vfFilter = `drawtext=fontfile='${fontPath}':text='${watermarkText}':fontcolor=white@0.8:fontsize=24:x='(w-text_w)/2+sin(t/1.5)*100':y='(h-text_h)/2+cos(t/1.8)*150':box=1:boxcolor=black@0.5:boxborderw=5`;
+    const watermarkFilter = `drawtext=fontfile='${fontPath}':text='${watermarkText}':fontcolor=white@0.8:fontsize=24:x='(w-text_w)/2+sin(t/1.5)*100':y='(h-text_h)/2+cos(t/1.8)*150':box=1:boxcolor=black@0.5:boxborderw=5`;
+
+    // 2. Title Filter (Fixed Top Center, Yellow/Gold for visibility)
+    // Sanitize title for FFmpeg (escape special chars)
+    const cleanTitle = (title || '').replace(/:/g, '\\:').replace(/'/g, '');
+    const titleFilter = `drawtext=fontfile='${fontPath}':text='${cleanTitle}':fontcolor=yellow:fontsize=48:x=(w-text_w)/2:y=100:box=1:boxcolor=black@0.6:boxborderw=10:shadowx=2:shadowy=2`;
+
+    // Combine filters with comma
+    const vfFilter = `${watermarkFilter},${titleFilter}`;
 
     // Combinar video + audio + watermark
     // -vf applies the filter graph
@@ -790,7 +800,7 @@ async function mergeVideoWithAudio(videoUrl, audioPath) {
     const ffmpegCmd = `${ffmpegBin} -i "${videoPath}" -i "${audioPath}" -c:v libx264 -preset fast -crf 23 -vf "${vfFilter}" -c:a aac -map 0:v:0 -map 1:a:0 -shortest -y "${outputPath}"`;
 
     await execPromise(ffmpegCmd);
-    logger.info('✅ Video + audio + marca de agua generados');
+    logger.info('✅ Video procesado (Título + Watermark + Audio)');
 
     // Subir a Cloudinary
     const finalUrl = await uploadToCloudinary(outputPath);
@@ -804,7 +814,7 @@ async function mergeVideoWithAudio(videoUrl, audioPath) {
   } catch (e) {
     logger.error(`❌ CRITICAL FFmpeg/Watermark Error: ${e.message}`);
     // DO NOT return original video. If branding fails, the video is unfit for publication.
-    throw new Error(`Fallo en Marca de Agua/Audio: ${e.message}`);
+    throw new Error(`Fallo en Edición de Video: ${e.message}`);
   }
 }
 
