@@ -91,11 +91,10 @@ The goal is to produce a **natural, handheld, authentic video** that feels as if
 
 #### 🎬 Subject & Composition
 - The creator is **visible and centered in the frame**, looking directly at the camera while naturally interacting with the product.
-- **APPEARANCE:** The technician is an **elegant, well-groomed, and highly professional Latino man**. He acts with **calm confidence and authority**. He is dressed professionally (e.g., smart polo or crisp work shirt).
+- **APPEARANCE:** The technician is an **elegant, well-groomed, and highly professional Latino man** (approx 30-40s). He acts with **calm confidence and authority**. He is dressed professionally (e.g., smart polo or crisp work shirt).
+- **PHYSICS & GROUNDING:** The product is **HELD FIRMLY** in his hand, **NOT floating**. His arm is visible and connected to his body. Gravity and weight are realistic.
 - Filmed **selfie-style or first-person**, handheld with slight movement, but **steady and controlled** (high production value feel).
-- The creator **holds or uses the product with their free hand** — no phone or reflection visible.
-- Background environment matches the setting (e.g., modern clean workshop, high-end garage).
-- Only one continuous shot — no cuts or transitions.
+- Background environment matches the setting (e.g., modern clean workshop, high-end garage). **Depth of field** is key (background slightly blurred).
 
 #### 🌅 Visual Style
 - Match the **lighting, product appearance, and color tone**.
@@ -104,6 +103,7 @@ The goal is to produce a **natural, handheld, authentic video** that feels as if
 - Maintain a **vertical 9:16** aspect ratio for social-style output.
 
 #### 🎭 Tone & Delivery
+- **AUDIO LANGUAGE:** The character speaks in **SPANISH (Latino Accent)**. Lip movements match Spanish phonetics.
 - The creator speaks with **confidence and empathy**.
 - **Facial expressions:** Friendly, reassuring, knowledgeable.
 - **Action:** He is explaining or demonstrating a solution (e.g., "Don't worry, we fixed it").
@@ -112,14 +112,15 @@ The goal is to produce a **natural, handheld, authentic video** that feels as if
 - **Duration:** 15 seconds
 - **Orientation:** Vertical (9:16)
 - **Lighting:** Cinematic, Professional, Natural
-- **Audio:** High-quality ambient sound (No music, no voiceover needed in prompt).
+- **Audio:** **CLEAR SPEECH IN SPANISH**. Mumbling/Gibberish should sound like Spanish intonation. High-quality ambient sound.
 - **Reference Image:** Used for appearance and color consistency only
 
 ---
 
 ### Prompt Construction Instructions
 When generating a Sora 2 prompt:
-- Explicitly state that the **camera is handheld selfie-style**.
+- **CRITICAL:** Explicitly specify **"Audio: Spanish Speech"** in the prompt text.
+- **CRITICAL:** Describe the **physical connection** of the hand holding the object (e.g., "gripped firmly", "resting on palm"). Avoid "floating" descriptions.
 - Focus on the **elegance and professionalism** of the technician.
 - Keep under **300 words**; prioritize **visual charisma and trust**.
 - Ensure camera never shows the phone, only the creator and product in frame.
@@ -127,7 +128,7 @@ When generating a Sora 2 prompt:
 ---
 
 ### Example Output Prompt
-"A vertical selfie-style video featuring an elegant, confident Latino professional in a pristine modern workshop. He holds a **Smart Key Fob** in one hand, looking directly at the camera with a reassuring smile. The lighting is soft and cinematic, highlighting his professional attire and the premium texture of the key. He gestures slightly as if explaining a successful repair. Handheld camera is steady but natural. Duration ≈ 15 seconds, high-quality ambient workshop silence."
+"A vertical selfie-style video featuring an elegant, confident Latino professional in a pristine modern workshop. He holds a **Smart Key Fob** firmly in his palm (weight is visible), looking directly at the camera with a reassuring smile. **Audio: He speaks clearly in Spanish**. The lighting is soft and cinematic. He gestures slightly with his free hand as if explaining a successful repair. Handheld camera is steady but natural. Duration ≈ 15 seconds, ambient workshop sound + Spanish speech."
 `;
 
 /**
