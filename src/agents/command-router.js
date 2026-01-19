@@ -29,6 +29,8 @@ const COMMAND_PREFIXES = {
   marketing: 'marcus',
   marcus: 'marcus',
   video: 'marcus',
+  selfie: 'marcus',
+  viral: 'marcus',
 
   // Operations (Diego)
   ops: 'diego',
@@ -84,6 +86,7 @@ function getHelpMessage() {
 
 **Marcus (Marketing):**
 - mkt video [idea] - Te pide foto primero
+- mkt selfie [idea] - Video viral (Tu cara)
 - mkt video [idea] | default - Usa imagen default
 - mkt status - Estado de videos
 - mkt pendiente - Ver video esperando foto
@@ -277,6 +280,12 @@ async function routeCommand(rawCommand) {
     if (prefix === 'video') {
       // video is a direct command for marcus
       const result = await processor(`video ${subCommand}`);
+      return { ...result, agent: agentId };
+    }
+
+    if (prefix === 'selfie' || prefix === 'viral') {
+      // selfie/viral are direct commands for marcus
+      const result = await processor(`selfie ${subCommand}`);
       return { ...result, agent: agentId };
     }
 

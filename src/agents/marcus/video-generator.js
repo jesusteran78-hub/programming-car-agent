@@ -60,6 +60,7 @@ The goal is to produce a **natural, handheld, authentic video** that feels as if
 - **Orientation:** Vertical (9:16)
 - **Lighting:** Natural or ambient realism
 - **Audio:** AMBIENT NOISE ONLY. NO SPEECH. (Voiceover will be added in post-production).
+- **Subject Identity:** The technician is **Jesús Terán** (The expert/owner). Do NOT confuse him with Alex (the AI assistant).
 
 ---
 
@@ -70,18 +71,83 @@ Generate a prompt following this safe template:
 `;
 
 /**
+ * System prompt for Sora 2 - Viral Selfie Style
+ */
+const SORA_SELFIE_PROMPT = `
+### Role
+You are an **AI video director and cinematographer** crafting **short, cinematic UGC-style selfie videos** for **OpenAI Sora 2**.
+Your task is to generate a **realistic first-person or selfie-style video prompt** using:
+- The **Product Name**
+- The **Product Description**
+- The **Scene**
+- The **Ideal Customer (ICP)**
+- An optional **Reference Image**
+
+The goal is to produce a **natural, handheld, authentic video** that feels as if filmed directly by the creator on their smartphone. The subject holds the phone in one hand and the product in the other, speaking naturally to the camera. The tone is casual, human, and visually grounded.
+
+---
+
+### Video Requirements
+
+#### 🎬 Subject & Composition
+- The creator is **visible and centered in the frame**, looking directly at the camera while naturally interacting with the product.
+- Filmed **selfie-style or first-person**, handheld with slight movement, subtle camera shake, and realistic micro-adjustments.
+- The creator **holds or uses the product with their free hand** — no phone or reflection visible.
+- Background environment matches the setting (e.g., bathroom, kitchen, gym, garden).
+- Only one continuous shot — no cuts or transitions.
+
+#### 🌅 Visual Style
+- Match the **lighting, product appearance, and color tone** to the reference image if provided.
+- Use **natural or realistic ambient lighting** (e.g., daylight through a window, soft indoor ambient).
+- Emphasize tactile realism — reflections, slight grain, natural shadows, realistic hand and skin detail.
+- Maintain a **vertical 9:16** aspect ratio for social-style output.
+
+#### 🎭 Tone & Delivery
+- The creator talks directly to camera for 1–2 short sentences **in Spanish (Latin American)** about the product, expressing a genuine, conversational reaction.
+- Speech feels spontaneous — "real-talk" tone, not rehearsed or ad-like.
+- **Language: Spanish** — natural, colloquial, Miami Latino accent.
+- Include small gestures, smiles, or head movement for authenticity.
+- **MANDATORY BRANDING:** The creator MUST say "Programming Car" and "786-816-4874" clearly in the audio.
+
+#### ⚙️ Technical Specs
+- **Duration:** 15 seconds
+- **Orientation:** Vertical (9:16)
+- **Lighting:** Natural or ambient realism
+- **Audio:** Light environmental tone — no background music
+- **Reference Image:** Used for appearance and color consistency only
+
+---
+
+### Prompt Construction Instructions
+When generating a Sora 2 prompt:
+- Explicitly state that the **camera is handheld selfie-style** and the creator **records themselves** using a phone at arm’s length.
+- Focus on **realistic motion and micro-details** — shifting weight, natural breathing, subtle focus change.
+- Keep under **300 words**; prioritize **visual realism** over narration.
+- Mention **environment context**, **lighting mood**, and **creator-product interaction**.
+- Ensure camera never shows the phone, only the creator and product in frame.
+
+---
+
+### Example Output Prompt
+"A vertical selfie-style video filmed by a creator at the gym after a workout. They hold **PeakForm Protein Powder** in one hand and the phone in the other, speaking casually to camera. Natural gym lighting and soft reflections highlight the matte black container. The creator smiles slightly, mentioning how they use it for post-workout recovery. The handheld camera moves subtly with natural shake. Duration ≈ 15 seconds, ambient gym noise, no overlays or music.
+**Audio:** Spanish (Latin American). Creator must mention "Programming Car" and "786-816-4874" in dialogue."
+`;
+
+/**
  * Generates a cinematic prompt for Sora 2
  * @param {string} title - Video title
  * @param {string} idea - Video concept
+ * @param {string} style - 'product' or 'selfie'
  * @returns {Promise<string>}
  */
-async function generateSoraPrompt(title, idea) {
+async function generateSoraPrompt(title, idea, style = 'product') {
   const openai = getOpenAI();
+  const systemPrompt = style === 'selfie' ? SORA_SELFIE_PROMPT : SORA_SYSTEM_PROMPT;
 
   const response = await openai.chat.completions.create({
     model: 'gpt-4o',
     messages: [
-      { role: 'system', content: SORA_SYSTEM_PROMPT },
+      { role: 'system', content: systemPrompt },
       {
         role: 'user',
         content: `Product/Service: Automotive Key Programming.\nTitle: ${title}\nContext: ${idea}`,
@@ -227,8 +293,9 @@ REGLAS ESTRICTAS:
 1. El script debe durar MÁXIMO 15 segundos al hablarse
 2. SIEMPRE empieza con un saludo local: "¡Hola Miami!" o "¿Qué tal Miami?"
 3. Después del saludo, menciona "Programming Car"
-4. SIEMPRE menciona a "Alex" como el asistente que responde
-5. SIEMPRE termina invitando a escribir a Alex por WhatsApp
+4. MENCIONA a "Jesús Terán" como el experto/programador que realiza el trabajo técnico
+5. MENCIONA a "Alex" SOLO como el asistente virtual para citas y precios
+6. SIEMPRE termina invitando a escribir a Alex por WhatsApp
 6. Tono: Confiado, profesional, Miami latino
 7. NO uses emojis ni hashtags (esto es para TTS)
 8. IDIOMA: 100% ESPAÑOL LATINO
@@ -238,7 +305,7 @@ FORMATO:
         },
         {
           role: 'user',
-          content: `Título: ${title}\nContexto: ${idea}\n\nGenera el script de voz para este video de 15 segundos.`,
+          content: `Título: ${title}\nContexto: ${idea}\n\nGenera el script de voz para este video de 15 segundos. Asegurate de mencionar que Jesús Terán hace el trabajo y Alex atiende el WhatsApp.`,
         },
       ],
       max_tokens: 150,
@@ -375,12 +442,16 @@ async function generateVideo(title, idea, imageUrl = null, jobId = null) {
     status: 'processing',
     title,
     idea,
+    style: jobId instanceof Object ? jobId.style : 'product', // Store style if passed
   });
+
+  const style = jobId instanceof Object ? jobId.style : 'product';
+  const actualJobId = jobId instanceof Object ? jobId.jobId : (jobId || internalJobId);
 
   try {
     // Step 1: Generate Sora prompt
-    logger.info('Step 1: Generating cinematic prompt...');
-    const soraPrompt = await generateSoraPrompt(title, idea);
+    logger.info(`Step 1: Generating cinematic prompt (Style: ${style})...`);
+    const soraPrompt = await generateSoraPrompt(title, idea, style);
 
     // Step 2: Create video with KIE
     logger.info('Step 2: Creating video with KIE/Sora 2...');

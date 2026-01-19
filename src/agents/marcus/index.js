@@ -80,13 +80,13 @@ async function notifyOwner(message) {
  * @returns {Promise<object>}
  */
 async function handleVideoRequest(payload) {
-  const { jobId, title, idea, image } = payload;
-  logger.info(`Video request: ${title || idea} (Job #${jobId})`);
+  const { jobId, title, idea, image, style } = payload;
+  logger.info(`Video request: ${title || idea} (Job #${jobId}, Style: ${style || 'product'})`);
 
   try {
     // Step 1: Generate video
-    logger.info('Step 1: Generating video...');
-    const videoResult = await generateVideo(title, idea, image, jobId);
+    logger.info(`Step 1: Generating video (${style || 'product'})...`);
+    const videoResult = await generateVideo(title, idea, image, { jobId, style });
 
     if (!videoResult.success) {
       throw new Error('Video generation failed');
@@ -120,9 +120,9 @@ async function handleVideoRequest(payload) {
     const platformList = successful.join(', ') || 'Ninguna';
     await notifyOwner(
       `🎬 *Video #${jobId} completado!*\n\n` +
-        `📹 ${videoResult.videoUrl}\n\n` +
-        `✅ Publicado en: ${platformList}` +
-        (failed.length > 0 ? `\n❌ Falló en: ${failed.map((f) => f.platform).join(', ')}` : '')
+      `📹 ${videoResult.videoUrl}\n\n` +
+      `✅ Publicado en: ${platformList}` +
+      (failed.length > 0 ? `\n❌ Falló en: ${failed.map((f) => f.platform).join(', ')}` : '')
     );
 
     logger.info(`Video workflow complete. Published to: ${platformList}`);
@@ -148,8 +148,8 @@ async function handleVideoRequest(payload) {
     // Notify owner of failure
     await notifyOwner(
       `❌ *Video #${jobId} falló*\n\n` +
-        `Error: ${error.message}\n\n` +
-        `Revisa los logs para más detalles.`
+      `Error: ${error.message}\n\n` +
+      `Revisa los logs para más detalles.`
     );
 
     return { success: false, error: error.message };
@@ -340,20 +340,25 @@ async function processOwnerCommand(command) {
       };
     }
 
+    case 'selfie':
+    case 'viral':
     case 'video': {
+      const isSelfie = action === 'selfie' || action === 'viral';
+      const style = isSelfie ? 'selfie' : 'product';
+
       if (!args) {
         return {
           success: false,
           message:
-            '❌ Falta la idea del video.\n\n' +
+            `❌ Falta la idea del ${isSelfie ? 'selfie' : 'video'}.\n\n` +
             '**Uso:**\n' +
-            '• mkt video [idea] - Te pido foto primero\n' +
-            '• mkt video [idea] | default - Usa imagen por defecto\n' +
-            '• mkt video [idea] | [url_imagen] - Usa tu imagen\n\n' +
+            '• mkt video [idea] - Video de producto (Manos)\n' +
+            '• mkt selfie [idea] - Video viral (Tu cara hablando)\n' +
+            '• mkt selfie [idea] | default - Usa imagen por defecto\n' +
+            '• mkt selfie [idea] | [url_imagen] - Usa tu imagen\n\n' +
             '**Ejemplos:**\n' +
             '• mkt video llave toyota camry 2020\n' +
-            '• mkt video llave bmw | default\n' +
-            '• mkt video llave bmw | https://ejemplo.com/foto.jpg',
+            '• mkt selfie explicando la oferta del mes',
         };
       }
 
@@ -381,7 +386,9 @@ async function processOwnerCommand(command) {
         // Store pending job waiting for photo
         pendingPhotoJobs.set('owner', {
           jobId,
+          jobId,
           idea,
+          style, // Store style
           timestamp: Date.now(),
         });
 
@@ -419,6 +426,7 @@ async function processOwnerCommand(command) {
         title: idea,
         idea: idea,
         image: imageUrl,
+        style, // Pass style
       }).catch((e) => logger.error(`Video job ${jobId} failed: ${e.message}`));
 
       return {
@@ -426,7 +434,8 @@ async function processOwnerCommand(command) {
         message:
           `🎬 **Video #${jobId} iniciado**\n\n` +
           `📝 Idea: ${idea}\n` +
-          `🖼️ Imagen: ${imageUrl ? 'Personalizada' : 'Por defecto'}\n\n` +
+          `🖼️ Imagen: ${imageUrl ? 'Personalizada' : 'Por defecto'}\n` +
+          `🎭 Estilo: ${isSelfie ? '🤳 Viral / Selfie' : '🛠️ Producto / Manos'}\n\n` +
           `⏳ Proceso:\n` +
           `1. Generando prompt cinematográfico...\n` +
           `2. Creando video con Sora 2...\n` +
@@ -457,6 +466,7 @@ async function processOwnerCommand(command) {
         title: pending.idea,
         idea: pending.idea,
         image: null, // Will use default
+        style: pending.style || 'product',
       }).catch((e) => logger.error(`Video job ${pending.jobId} failed: ${e.message}`));
 
       return {
@@ -464,7 +474,8 @@ async function processOwnerCommand(command) {
         message:
           `🎬 **Video #${pending.jobId} iniciado**\n\n` +
           `📝 Idea: ${pending.idea}\n` +
-          `🖼️ Imagen: Por defecto\n\n` +
+          `🖼️ Imagen: Por defecto\n` +
+          `🎭 Estilo: ${pending.style === 'selfie' ? '🤳 Viral / Selfie' : '🛠️ Producto / Manos'}\n\n` +
           `⏳ Proceso:\n` +
           `1. Generando prompt cinematográfico...\n` +
           `2. Creando video con Sora 2...\n` +
@@ -527,7 +538,8 @@ async function processOwnerCommand(command) {
         success: true,
         message:
           '**Marcus (Marketing) Commands:**\n\n' +
-          '• mkt video [idea] - Te pide foto primero\n' +
+          '• mkt video [idea] - Video Producto (Manos)\n' +
+          '• mkt selfie [idea] - Video Selfie (Viral)\n' +
           '• mkt video [idea] | default - Usa imagen por defecto\n' +
           '• mkt video [idea] | [url] - Usa tu imagen URL\n' +
           '• mkt status - Ver videos recientes\n' +
@@ -571,6 +583,7 @@ async function handleIncomingPhoto(imageUrl) {
     title: pending.idea,
     idea: pending.idea,
     image: imageUrl,
+    style: pending.style || 'product',
   }).catch((e) => logger.error(`Video job ${pending.jobId} failed: ${e.message}`));
 
   return {
@@ -578,7 +591,8 @@ async function handleIncomingPhoto(imageUrl) {
     message:
       `🎬 **Video #${pending.jobId} iniciado con tu foto!**\n\n` +
       `📝 Idea: ${pending.idea}\n` +
-      `🖼️ Imagen: Tu foto\n\n` +
+      `🖼️ Imagen: Tu foto\n` +
+      `🎭 Estilo: ${pending.style === 'selfie' ? '🤳 Viral / Selfie' : '🛠️ Producto / Manos'}\n\n` +
       `⏳ Proceso:\n` +
       `1. Generando prompt cinematográfico...\n` +
       `2. Creando video con Sora 2...\n` +
