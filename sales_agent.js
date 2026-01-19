@@ -11,12 +11,13 @@ const logger = require('./logger');
 const USE_ATLAS = process.env.USE_ATLAS === 'true';
 
 // ATLAS Imports (new modular system)
-let atlasAlex, atlasCommandRouter, atlasEventBus;
+let atlasAlex, atlasCommandRouter, atlasEventBus, atlasMarcus;
 if (USE_ATLAS) {
   logger.info('🚀 ATLAS Mode Enabled');
   atlasAlex = require('./src/agents/alex');
   atlasCommandRouter = require('./src/agents/command-router');
   atlasEventBus = require('./src/core/event-bus');
+  atlasMarcus = require('./src/agents/marcus');
 }
 
 // Legacy Imports (original system)
@@ -99,7 +100,23 @@ app.post('/webhook', async (req, res) => {
       });
 
       // --- OWNER COMMAND ROUTING (ATLAS) ---
-      if (isOwner(senderNumber) && userText) {
+      if (isOwner(senderNumber)) {
+        // 0. Check if owner sent a photo while Marcus is waiting for one
+        if (userImage && atlasMarcus.hasPendingPhotoJob()) {
+          logger.info('📸 Owner sent photo, Marcus has pending job');
+          const photoResult = await atlasMarcus.handleIncomingPhoto(userImage);
+          if (photoResult.handled) {
+            logger.info('📬 Photo routed to Marcus for video generation');
+            await sendToWhapi(senderNumber, photoResult.message);
+            return res.sendStatus(200);
+          }
+        }
+
+        // Continue only if there's text
+        if (!userText) {
+          return res.sendStatus(200);
+        }
+
         // 1. Check if it's a price response first
         const priceHandled = await handleOwnerResponse(sendToWhapi, userText);
         if (priceHandled.handled) {

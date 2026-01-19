@@ -28,6 +28,17 @@ const {
 const AGENT_ID = 'marcus';
 
 /**
+ * Pending video jobs waiting for photos
+ * Map of ownerId -> { jobId, idea, timestamp }
+ */
+const pendingPhotoJobs = new Map();
+
+/**
+ * Timeout for pending photo requests (5 minutes)
+ */
+const PHOTO_TIMEOUT_MS = 5 * 60 * 1000;
+
+/**
  * Events that Marcus listens to
  */
 const SUBSCRIBED_EVENTS = [
@@ -336,30 +347,69 @@ async function processOwnerCommand(command) {
           message:
             '❌ Falta la idea del video.\n\n' +
             '**Uso:**\n' +
-            '• mkt video [idea] - Usa imagen por defecto\n' +
+            '• mkt video [idea] - Te pido foto primero\n' +
+            '• mkt video [idea] | default - Usa imagen por defecto\n' +
             '• mkt video [idea] | [url_imagen] - Usa tu imagen\n\n' +
             '**Ejemplos:**\n' +
             '• mkt video llave toyota camry 2020\n' +
+            '• mkt video llave bmw | default\n' +
             '• mkt video llave bmw | https://ejemplo.com/foto.jpg',
         };
       }
 
-      // Check if user provided an image URL (separated by |)
+      // Check if user provided an image URL or "default" (separated by |)
       let idea = args;
       let imageUrl = null;
+      let useDefault = false;
 
       if (args.includes('|')) {
         const parts = args.split('|').map((p) => p.trim());
         idea = parts[0];
-        imageUrl = parts[1] || null;
+        const imageParam = parts[1] || '';
 
-        // Validate URL
-        if (imageUrl && !imageUrl.startsWith('http')) {
-          imageUrl = null;
+        if (imageParam.toLowerCase() === 'default' || imageParam.toLowerCase() === 'defecto') {
+          useDefault = true;
+        } else if (imageParam.startsWith('http')) {
+          imageUrl = imageParam;
         }
       }
 
-      // Start video generation in background
+      // If no | separator, ask for photo first
+      if (!args.includes('|')) {
+        const jobId = Date.now().toString();
+
+        // Store pending job waiting for photo
+        pendingPhotoJobs.set('owner', {
+          jobId,
+          idea,
+          timestamp: Date.now(),
+        });
+
+        logger.info(`Pending video job ${jobId} waiting for photo: ${idea}`);
+
+        // Set timeout to auto-cancel after 5 minutes
+        setTimeout(() => {
+          const pending = pendingPhotoJobs.get('owner');
+          if (pending && pending.jobId === jobId) {
+            pendingPhotoJobs.delete('owner');
+            logger.info(`Pending job ${jobId} expired (no photo received)`);
+          }
+        }, PHOTO_TIMEOUT_MS);
+
+        return {
+          success: true,
+          message:
+            `📸 **Envíame la foto para el video**\n\n` +
+            `📝 Idea: ${idea}\n\n` +
+            `Tienes 5 minutos para enviar la foto.\n\n` +
+            `💡 Opciones:\n` +
+            `• Envía una foto ahora\n` +
+            `• Escribe "mkt usar default" para imagen por defecto\n` +
+            `• Escribe "mkt cancelar" para cancelar`,
+        };
+      }
+
+      // Start video generation in background (with provided image or default)
       const jobId = Date.now().toString();
       logger.info(`Starting video job ${jobId}: ${idea} (image: ${imageUrl || 'default'})`);
 
@@ -386,6 +436,90 @@ async function processOwnerCommand(command) {
       };
     }
 
+    case 'usar': {
+      // "mkt usar default" - use default image for pending job
+      const pending = pendingPhotoJobs.get('owner');
+      if (!pending) {
+        return {
+          success: false,
+          message: '❌ No hay video pendiente esperando foto.\n\nUsa: mkt video [idea]',
+        };
+      }
+
+      // Clear pending job
+      pendingPhotoJobs.delete('owner');
+
+      // Start video with default image
+      logger.info(`Starting pending video job ${pending.jobId} with default image: ${pending.idea}`);
+
+      handleVideoRequest({
+        jobId: pending.jobId,
+        title: pending.idea,
+        idea: pending.idea,
+        image: null, // Will use default
+      }).catch((e) => logger.error(`Video job ${pending.jobId} failed: ${e.message}`));
+
+      return {
+        success: true,
+        message:
+          `🎬 **Video #${pending.jobId} iniciado**\n\n` +
+          `📝 Idea: ${pending.idea}\n` +
+          `🖼️ Imagen: Por defecto\n\n` +
+          `⏳ Proceso:\n` +
+          `1. Generando prompt cinematográfico...\n` +
+          `2. Creando video con Sora 2...\n` +
+          `3. Agregando voz y watermark...\n` +
+          `4. Publicando en 5 redes...\n\n` +
+          `Te notificaré cuando esté listo.`,
+      };
+    }
+
+    case 'cancelar':
+    case 'cancel': {
+      const pending = pendingPhotoJobs.get('owner');
+      if (!pending) {
+        return {
+          success: false,
+          message: '❌ No hay video pendiente para cancelar.',
+        };
+      }
+
+      pendingPhotoJobs.delete('owner');
+      logger.info(`Video job ${pending.jobId} cancelled by owner`);
+
+      return {
+        success: true,
+        message: `✅ Video #${pending.jobId} cancelado.\n\nIdea: ${pending.idea}`,
+      };
+    }
+
+    case 'pendiente':
+    case 'pending': {
+      const pending = pendingPhotoJobs.get('owner');
+      if (!pending) {
+        return {
+          success: true,
+          message: '📭 No hay videos pendientes esperando foto.',
+        };
+      }
+
+      const elapsed = Math.floor((Date.now() - pending.timestamp) / 1000);
+      const remaining = Math.max(0, Math.floor((PHOTO_TIMEOUT_MS - (Date.now() - pending.timestamp)) / 1000));
+
+      return {
+        success: true,
+        message:
+          `📸 **Video pendiente esperando foto**\n\n` +
+          `📝 Idea: ${pending.idea}\n` +
+          `🆔 Job: #${pending.jobId}\n` +
+          `⏱️ Tiempo restante: ${Math.floor(remaining / 60)}:${(remaining % 60).toString().padStart(2, '0')}\n\n` +
+          `💡 Opciones:\n` +
+          `• Envía una foto ahora\n` +
+          `• "mkt usar default" para imagen por defecto\n` +
+          `• "mkt cancelar" para cancelar`,
+      };
+    }
+
     case 'help':
     case 'ayuda':
     default: {
@@ -393,15 +527,73 @@ async function processOwnerCommand(command) {
         success: true,
         message:
           '**Marcus (Marketing) Commands:**\n\n' +
+          '• mkt video [idea] - Te pide foto primero\n' +
+          '• mkt video [idea] | default - Usa imagen por defecto\n' +
+          '• mkt video [idea] | [url] - Usa tu imagen URL\n' +
           '• mkt status - Ver videos recientes\n' +
-          '• mkt video [idea] - Video con imagen default\n' +
-          '• mkt video [idea] | [url] - Video con tu imagen\n\n' +
+          '• mkt pendiente - Ver si hay video esperando foto\n' +
+          '• mkt usar default - Usar imagen default para video pendiente\n' +
+          '• mkt cancelar - Cancelar video pendiente\n\n' +
           '**Ejemplos:**\n' +
           '• mkt video llave bmw serie 3\n' +
+          '• mkt video llave toyota | default\n' +
           '• mkt video llave toyota | https://url.com/foto.jpg',
       };
     }
   }
+}
+
+/**
+ * Handles incoming photo from owner
+ * If there's a pending video job, uses the photo for that job
+ * @param {string} imageUrl - URL of the received image
+ * @returns {Promise<object>}
+ */
+async function handleIncomingPhoto(imageUrl) {
+  const pending = pendingPhotoJobs.get('owner');
+
+  if (!pending) {
+    // No pending job - just acknowledge the photo
+    return {
+      handled: false,
+      message: null,
+    };
+  }
+
+  // Clear pending job
+  pendingPhotoJobs.delete('owner');
+
+  logger.info(`Received photo for pending video job ${pending.jobId}: ${imageUrl}`);
+
+  // Start video with the provided image
+  handleVideoRequest({
+    jobId: pending.jobId,
+    title: pending.idea,
+    idea: pending.idea,
+    image: imageUrl,
+  }).catch((e) => logger.error(`Video job ${pending.jobId} failed: ${e.message}`));
+
+  return {
+    handled: true,
+    message:
+      `🎬 **Video #${pending.jobId} iniciado con tu foto!**\n\n` +
+      `📝 Idea: ${pending.idea}\n` +
+      `🖼️ Imagen: Tu foto\n\n` +
+      `⏳ Proceso:\n` +
+      `1. Generando prompt cinematográfico...\n` +
+      `2. Creando video con Sora 2...\n` +
+      `3. Agregando voz y watermark...\n` +
+      `4. Publicando en 5 redes...\n\n` +
+      `Te notificaré cuando esté listo.`,
+  };
+}
+
+/**
+ * Checks if there's a pending video job waiting for a photo
+ * @returns {boolean}
+ */
+function hasPendingPhotoJob() {
+  return pendingPhotoJobs.has('owner');
 }
 
 module.exports = {
@@ -412,4 +604,6 @@ module.exports = {
   generateViralVideo, // Legacy compatibility
   processOwnerCommand, // Owner commands
   getVideoStatus,
+  handleIncomingPhoto, // Photo handler
+  hasPendingPhotoJob, // Check for pending job
 };

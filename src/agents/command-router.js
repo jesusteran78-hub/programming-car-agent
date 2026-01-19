@@ -83,8 +83,10 @@ function getHelpMessage() {
 - ventas status - Estado de ventas
 
 **Marcus (Marketing):**
-- mkt video [idea] - Generar video viral
+- mkt video [idea] - Te pide foto primero
+- mkt video [idea] | default - Usa imagen default
 - mkt status - Estado de videos
+- mkt pendiente - Ver video esperando foto
 
 **Diego (Operaciones):**
 - ops status - Estado de operaciones
