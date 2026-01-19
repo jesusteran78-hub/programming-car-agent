@@ -294,8 +294,8 @@ REGLAS ESTRICTAS:
 2. SIEMPRE empieza con un saludo local: "¡Hola Miami!" o "¿Qué tal Miami?"
 3. Después del saludo, menciona "Programming Car"
 4. MENCIONA a "Jesús Terán" como el experto/programador que realiza el trabajo técnico
-5. MENCIONA a "Alex" SOLO como el asistente virtual para citas y precios
-6. SIEMPRE termina invitando a escribir a Alex por WhatsApp
+4. MENCIONA a "Jesús Terán" como el experto/programador que realiza el trabajo técnico
+5. SIEMPRE termina invitando a escribir al WhatsApp de Programming Car (sin mencionar nombres de asistentes)
 6. Tono: Confiado, profesional, Miami latino
 7. NO uses emojis ni hashtags (esto es para TTS)
 8. IDIOMA: 100% ESPAÑOL LATINO
@@ -305,7 +305,7 @@ FORMATO:
         },
         {
           role: 'user',
-          content: `Título: ${title}\nContexto: ${idea}\n\nGenera el script de voz para este video de 15 segundos. Asegurate de mencionar que Jesús Terán hace el trabajo y Alex atiende el WhatsApp.`,
+          content: `Título: ${title}\nContexto: ${idea}\n\nGenera el script de voz para este video de 15 segundos. Asegurate de mencionar que Jesús Terán hace el trabajo. NO menciones a Alex.`,
         },
       ],
       max_tokens: 150,
@@ -314,7 +314,7 @@ FORMATO:
     return response.choices[0].message.content.trim();
   } catch (e) {
     logger.warn(`Error generating script: ${e.message}`);
-    return `¡Hola Miami! Aquí Programming Car, tu solución en llaves de auto. Escríbele a Alex por WhatsApp y te atiende al momento.`;
+    return `¡Hola Miami! Aquí Programming Car, tu solución en llaves de auto. Escríbenos por WhatsApp y te atendemos al momento.`;
   }
 }
 
