@@ -333,27 +333,50 @@ async function processOwnerCommand(command) {
       if (!args) {
         return {
           success: false,
-          message: '❌ Falta la idea del video.\n\nUso: mkt video [tu idea]\nEjemplo: mkt video llave toyota camry 2020',
+          message:
+            '❌ Falta la idea del video.\n\n' +
+            '**Uso:**\n' +
+            '• mkt video [idea] - Usa imagen por defecto\n' +
+            '• mkt video [idea] | [url_imagen] - Usa tu imagen\n\n' +
+            '**Ejemplos:**\n' +
+            '• mkt video llave toyota camry 2020\n' +
+            '• mkt video llave bmw | https://ejemplo.com/foto.jpg',
         };
+      }
+
+      // Check if user provided an image URL (separated by |)
+      let idea = args;
+      let imageUrl = null;
+
+      if (args.includes('|')) {
+        const parts = args.split('|').map((p) => p.trim());
+        idea = parts[0];
+        imageUrl = parts[1] || null;
+
+        // Validate URL
+        if (imageUrl && !imageUrl.startsWith('http')) {
+          imageUrl = null;
+        }
       }
 
       // Start video generation in background
       const jobId = Date.now().toString();
-      logger.info(`Starting video job ${jobId}: ${args}`);
+      logger.info(`Starting video job ${jobId}: ${idea} (image: ${imageUrl || 'default'})`);
 
       // Don't await - let it run in background
       handleVideoRequest({
         jobId,
-        title: args,
-        idea: args,
-        image: null,
+        title: idea,
+        idea: idea,
+        image: imageUrl,
       }).catch((e) => logger.error(`Video job ${jobId} failed: ${e.message}`));
 
       return {
         success: true,
         message:
           `🎬 **Video #${jobId} iniciado**\n\n` +
-          `📝 Idea: ${args}\n\n` +
+          `📝 Idea: ${idea}\n` +
+          `🖼️ Imagen: ${imageUrl ? 'Personalizada' : 'Por defecto'}\n\n` +
           `⏳ Proceso:\n` +
           `1. Generando prompt cinematográfico...\n` +
           `2. Creando video con Sora 2...\n` +
@@ -370,9 +393,12 @@ async function processOwnerCommand(command) {
         success: true,
         message:
           '**Marcus (Marketing) Commands:**\n\n' +
-          '- mkt status - Ver videos recientes\n' +
-          '- mkt video [idea] - Generar video viral\n\n' +
-          'Ejemplo: mkt video programacion de llave toyota',
+          '• mkt status - Ver videos recientes\n' +
+          '• mkt video [idea] - Video con imagen default\n' +
+          '• mkt video [idea] | [url] - Video con tu imagen\n\n' +
+          '**Ejemplos:**\n' +
+          '• mkt video llave bmw serie 3\n' +
+          '• mkt video llave toyota | https://url.com/foto.jpg',
       };
     }
   }
