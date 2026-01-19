@@ -6,6 +6,7 @@ export default function DataView() {
     const [activeTab, setActiveTab] = useState('requests'); // requests | prices
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(false);
+    const [errorMessage, setErrorMessage] = useState(null);
 
     useEffect(() => {
         fetchData();
@@ -21,8 +22,16 @@ export default function DataView() {
             .order('created_at', { ascending: false })
             .limit(50);
 
-        if (error) console.error(error);
-        else setData(result || []);
+        if (error) {
+            console.error(error);
+            setData([]);
+            // Show alert or toast? simpler to just log for now, but user says "empty".
+            // Let's add an error display in the UI.
+            setErrorMessage(error.message);
+        } else {
+            setData(result || []);
+            setErrorMessage(null);
+        }
         setLoading(false);
     }
 
@@ -61,6 +70,13 @@ export default function DataView() {
                         </tr>
                     </thead>
                     <tbody>
+                        {errorMessage && (
+                            <tr>
+                                <td colSpan="6" className="p-4 bg-red-50 text-red-600 font-bold text-center border-b border-red-200">
+                                    Error: {errorMessage}
+                                </td>
+                            </tr>
+                        )}
                         {loading ? (
                             <tr><td colSpan="6" className="p-8 text-center">Cargando datos...</td></tr>
                         ) : (data.map((row) => (
