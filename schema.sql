@@ -70,3 +70,20 @@ CREATE TABLE IF NOT EXISTS agent_memory (
 
 ALTER TABLE agent_memory ENABLE ROW LEVEL SECURITY;
 CREATE POLICY "Enable all for anon" ON agent_memory FOR ALL USING (true);
+
+-- 8. Tabla de Trabajos de Video (Video Jobs)
+CREATE TABLE IF NOT EXISTS video_jobs (
+  job_id TEXT PRIMARY KEY,
+  status TEXT,
+  title TEXT,
+  idea TEXT,
+  prompt TEXT,
+  captions JSONB,
+  video_url TEXT,
+  error TEXT,
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  completed_at TIMESTAMPTZ
+);
+
+ALTER TABLE video_jobs ENABLE ROW LEVEL SECURITY;
+CREATE POLICY "Enable all for anon" ON video_jobs FOR ALL USING (true);

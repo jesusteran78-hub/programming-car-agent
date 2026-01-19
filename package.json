@@ -28,7 +28,8 @@
     "express": "^5.2.1",
     "fast-csv": "^5.0.5",
     "google-libphonenumber": "^3.2.43",
-    "openai": "^6.16.0"
+    "openai": "^6.16.0",
+    "pg": "^8.17.1"
   },
   "devDependencies": {
     "eslint": "^8.57.0",

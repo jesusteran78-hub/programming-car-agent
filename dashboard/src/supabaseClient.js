@@ -9,6 +9,7 @@ import { createClient } from '@supabase/supabase-js';
 // Pero el usuario quiere "Total Control" ya.
 
 const supabaseUrl = 'https://fqzhajwnnkrkuktqquuj.supabase.co';
-const supabaseKey = 'sb_secret_I-WDDGh2jIYgkHwk0naeHw_S-RM1GZp';
+// Usando Anon Key (Public) recuperada automáticamente
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZxemhhandubmtya3VrdHFxdXVqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjU4NTQ4NDQsImV4cCI6MjA4MTQzMDg0NH0.X53HMyUj33iKYrxtH5GsXVtaP_rWZtp4UrmzKSiUaB0';
 
 export const supabase = createClient(supabaseUrl, supabaseKey);

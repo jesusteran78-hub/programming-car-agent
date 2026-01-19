@@ -4,7 +4,22 @@ const fs = require('fs');
 require('dotenv').config();
 const logger = require('./logger');
 
-// Importar el CEREBRO CENTRAL (Brain Core)
+// ==========================================
+// ATLAS FEATURE FLAG
+// Set USE_ATLAS=true in .env to use new modular system
+// ==========================================
+const USE_ATLAS = process.env.USE_ATLAS === 'true';
+
+// ATLAS Imports (new modular system)
+let atlasAlex, atlasCommandRouter, atlasEventBus;
+if (USE_ATLAS) {
+  logger.info('🚀 ATLAS Mode Enabled');
+  atlasAlex = require('./src/agents/alex');
+  atlasCommandRouter = require('./src/agents/command-router');
+  atlasEventBus = require('./src/core/event-bus');
+}
+
+// Legacy Imports (original system)
 const { getAIResponse, generateEmbedding } = require('./agents/brain_core');
 const { learnNewPrice } = require('./price_manager');
 const { handleOwnerResponse, isOwner } = require('./price_request_manager');
@@ -19,13 +34,7 @@ app.use(bodyParser.json());
 const PORT = process.env.PORT || 3000;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const WHAPI_TOKEN = process.env.WHAPI_TOKEN;
-
-// Agente de Ventas "Alex" - Version 8.2 (Owner Recognition + Strict Pricing)
 const OWNER_PHONE = process.env.OWNER_PHONE || '17868164874@s.whatsapp.net';
-
-
-// (Prompts movidos a agents/brain_core.js)
-
 
 if (!OPENAI_API_KEY || !WHAPI_TOKEN) {
   logger.error('❌ ERROR: Faltan las claves en el archivo .env');
@@ -33,15 +42,22 @@ if (!OPENAI_API_KEY || !WHAPI_TOKEN) {
   process.exit(1);
 }
 
-
-
 // ==========================================
 // RUTAS
 // ==========================================
 
 // Webhook verification (GET probe for Whapi/Providers)
 app.get('/webhook', (req, res) => res.send('Webhook Active'));
-app.get('/', (req, res) => res.send('Sales Agent Active'));
+app.get('/', (req, res) => res.send(`Sales Agent Active ${USE_ATLAS ? '(ATLAS)' : '(Legacy)'}`));
+
+// Health check for ATLAS
+app.get('/health', (req, res) => {
+  res.json({
+    status: 'ok',
+    mode: USE_ATLAS ? 'ATLAS' : 'Legacy',
+    timestamp: new Date().toISOString(),
+  });
+});
 
 // Webhook que recibe mensajes de Whapi
 app.post('/webhook', async (req, res) => {
@@ -49,23 +65,96 @@ app.post('/webhook', async (req, res) => {
 
   try {
     const messages = req.body.messages;
-    if (!messages || messages.length === 0) { return res.sendStatus(200); }
+    if (!messages || messages.length === 0) {
+      return res.sendStatus(200);
+    }
 
     const incomingMsg = messages[0];
-    if (incomingMsg.from_me) { return res.sendStatus(200); } // Ignorar nuestros propios mensajes
+    if (incomingMsg.from_me) {
+      return res.sendStatus(200);
+    }
 
-    const senderNumber = incomingMsg.chat_id; // ID del chat (ej: 1786...@s.whatsapp.net)
+    const senderNumber = incomingMsg.chat_id;
     const userText = incomingMsg.text?.body || '';
-    const userImage = incomingMsg.image?.link || null; // Link a la imagen de Whapi
-    const userAudio = incomingMsg.voice?.link || incomingMsg.audio?.link || null; // Link al audio/nota de voz
+    const userImage = incomingMsg.image?.link || null;
+    const userAudio = incomingMsg.voice?.link || incomingMsg.audio?.link || null;
 
-    if (!userText && !userImage && !userAudio) { return res.sendStatus(200); }
+    if (!userText && !userImage && !userAudio) {
+      return res.sendStatus(200);
+    }
 
     logger.info(`💬 Cliente(${senderNumber}): ${userText || (userAudio ? '[AUDIO]' : '[IMAGEN]')}`);
 
-    // --- OWNER COMMAND ROUTING (Multi-Agent Dispatcher) ---
+    // ==========================================
+    // ATLAS MODE - Use new modular system
+    // ==========================================
+    if (USE_ATLAS) {
+      // Publish event to Event Bus
+      await atlasEventBus.publishEvent(atlasEventBus.EVENT_TYPES.MESSAGE_RECEIVED, 'gateway', {
+        chatId: senderNumber,
+        text: userText,
+        image: userImage,
+        audio: userAudio,
+        isOwner: isOwner(senderNumber),
+      });
+
+      // --- OWNER COMMAND ROUTING (ATLAS) ---
+      if (isOwner(senderNumber) && userText) {
+        // 1. Check if it's a price response first
+        const priceHandled = await handleOwnerResponse(sendToWhapi, userText);
+        if (priceHandled.handled) {
+          logger.info('✅ Owner price response processed');
+          return res.sendStatus(200);
+        }
+
+        // 2. Check if it's an ATLAS command
+        const isAtlasCmd = atlasCommandRouter.isOwnerCommand(userText);
+        logger.info(`🔍 ATLAS Command Check: "${userText}" => ${isAtlasCmd}`);
+        if (isAtlasCmd) {
+          const result = await atlasCommandRouter.routeCommand(userText);
+          logger.info(`📬 ATLAS Routed to ${result.agent}: "${userText.substring(0, 30)}..."`);
+          await sendToWhapi(senderNumber, result.message);
+          return res.sendStatus(200);
+        }
+
+        // 3. Try legacy dispatcher for non-ATLAS commands (video, etc.)
+        logger.info(`🔄 Trying legacy dispatcher for: "${userText}"`);
+        const dispatchResult = await processOwnerCommand(userText, userImage);
+        if (dispatchResult.handled) {
+          logger.info(`📬 Legacy Routed to ${dispatchResult.department}: "${userText?.substring(0, 30) || '[MEDIA]'}..."`);
+          await sendToWhapi(senderNumber, dispatchResult.response);
+          return res.sendStatus(200);
+        }
+      }
+
+      // --- CUSTOMER CONVERSATION (ATLAS) ---
+      if (userText) {
+        saveConversation(senderNumber, 'user', userText).catch((e) => logger.error('DbSaveError', e));
+      }
+
+      // Use ATLAS Alex for AI response
+      const aiResponse = await atlasAlex.getAIResponse(userText, senderNumber, userImage, sendToWhapi, userAudio);
+
+      if (aiResponse) {
+        await sendToWhapi(senderNumber, aiResponse);
+        saveConversation(senderNumber, 'assistant', aiResponse).catch((e) => logger.error('DbSaveError', e));
+
+        const logEntry =
+          `[${new Date().toLocaleString()}] CLIENTE(${senderNumber}): ${userText}\n` +
+          `[${new Date().toLocaleString()}] AGENTE ALEX (ATLAS): ${aiResponse}\n` +
+          `--------------------------------------------------\n`;
+        fs.appendFileSync('audit.log', logEntry);
+      }
+
+      return res.sendStatus(200);
+    }
+
+    // ==========================================
+    // LEGACY MODE - Original system
+    // ==========================================
+
+    // --- OWNER COMMAND ROUTING (Legacy) ---
     if (isOwner(senderNumber)) {
-      // 1. Check if it's a price response first (e.g., "180" or "#abc123 180")
       if (userText) {
         const priceHandled = await handleOwnerResponse(sendToWhapi, userText);
         if (priceHandled.handled) {
@@ -74,19 +163,15 @@ app.post('/webhook', async (req, res) => {
         }
       }
 
-      // 2. Route through department dispatcher (ventas, marketing, operaciones, contabilidad)
-      // IMPORTANTE: También procesar imágenes solas (para flujo de video pendiente)
       const dispatchResult = await processOwnerCommand(userText, userImage);
       if (dispatchResult.handled) {
         logger.info(`📬 Routed to ${dispatchResult.department}: "${userText?.substring(0, 30) || '[MEDIA]'}..."`);
         await sendToWhapi(senderNumber, dispatchResult.response);
         return res.sendStatus(200);
       }
-
-      // 3. If not handled by dispatcher, continue to GPT for general chat
     }
 
-    // --- MODO ENTRENAMIENTO (Training Mode) ---
+    // --- TRAINING MODE ---
     if (userText && userText.toLowerCase().startsWith('aprende:')) {
       logger.info(`🎓 Modo Entrenamiento Detectado: ${userText}`);
       const learnResult = await learnNewPrice(userText);
@@ -94,29 +179,24 @@ app.post('/webhook', async (req, res) => {
       return res.sendStatus(200);
     }
 
-    // 🧠 PENSAR (Consultar a OpenAI)
-    // Pasamos tanto texto, imagen y AUDIO a la función, Y el callback para notificar
-    // Firma: getAIResponse(userMessage, senderNumber, userImage, notificationCallback, userAudio)
+    // Save user message
+    if (userText) {
+      saveConversation(senderNumber, 'user', userText).catch((e) => logger.error('DbSaveError', e));
+    }
 
-    // --> PERSISTENCE: Save User Message
-    if (userText) saveConversation(senderNumber, 'user', userText).catch(e => logger.error('DbSaveError', e));
-
+    // Get AI response (Legacy)
     const aiResponse = await getAIResponse(userText, senderNumber, userImage, sendToWhapi, userAudio);
-    logger.info(`🤖 Agente: ${aiResponse} `);
+    logger.info(`🤖 Agente: ${aiResponse}`);
 
-    // 🗣️ RESPONDER (Enviar a Whapi)
-    // 🗣️ RESPONDER (Enviar a Whapi)
     if (aiResponse) {
       const sentResult = await sendToWhapi(senderNumber, aiResponse);
       logger.info('📤 Resultado envío Whapi:', JSON.stringify(sentResult));
 
-      // --> PERSISTENCE: Save Agent Response
-      saveConversation(senderNumber, 'assistant', aiResponse).catch(e => logger.error('DbSaveError', e));
+      saveConversation(senderNumber, 'assistant', aiResponse).catch((e) => logger.error('DbSaveError', e));
 
-      // 📝 AUDITAR (Guardar para revisión)
       const logEntry =
-        `[${new Date().toLocaleString()}]CLIENTE(${senderNumber}): ${userText} \n` +
-        `[${new Date().toLocaleString()}] AGENTE ALEX: ${aiResponse} \n` +
+        `[${new Date().toLocaleString()}] CLIENTE(${senderNumber}): ${userText}\n` +
+        `[${new Date().toLocaleString()}] AGENTE ALEX: ${aiResponse}\n` +
         `--------------------------------------------------\n`;
       fs.appendFileSync('audit.log', logEntry);
     } else {
@@ -130,21 +210,18 @@ app.post('/webhook', async (req, res) => {
   }
 });
 
-
-
-// Función para enviar mensaje a Whapi
+// ==========================================
+// WHATSAPP SENDER
+// ==========================================
 async function sendToWhapi(chatId, text) {
   const url = 'https://gate.whapi.cloud/messages/text';
-
-  // NOTA: Aquí podríamos necesitar channel_id si el token es admin,
-  // pero idealmente usaremos un token de canal directo.
 
   const options = {
     method: 'POST',
     headers: {
       accept: 'application/json',
       'content-type': 'application/json',
-      authorization: `Bearer ${WHAPI_TOKEN} `,
+      authorization: `Bearer ${WHAPI_TOKEN}`,
     },
     body: JSON.stringify({
       to: chatId,
@@ -157,29 +234,31 @@ async function sendToWhapi(chatId, text) {
   return data;
 }
 
-// API Endpoint for Dashboard
-// --- JOB SYSTEM FOR VIDEO GEN (To avoid timeouts) ---
+// ==========================================
+// VIDEO API (Dashboard)
+// ==========================================
 const jobs = new Map();
 
 app.post('/api/video/start', (req, res) => {
   logger.info('🎬 Solicitud de video recibida del Dashboard:', req.body);
   const { title, idea, image } = req.body;
-  const jobId = Date.now().toString(); // Simple ID
+  const jobId = Date.now().toString();
 
-  // Initial State
   jobs.set(jobId, { status: 'processing', steps: ['Iniciando...'], result: null });
+  logger.info(`🎬 JOB ${jobId} STARTED: ${title}`);
 
-  logger.info(`🎬 JOB ${jobId} STARTED: ${title} `);
-
-  // Start background process (Fire & Forget)
   (async () => {
     try {
-      const { generateViralVideo } = require('./video_engine');
+      // Use ATLAS Marcus if enabled, otherwise legacy
+      let result;
+      if (USE_ATLAS) {
+        const marcus = require('./src/agents/marcus');
+        result = await marcus.generateViralVideo(title, idea, image);
+      } else {
+        const { generateViralVideo } = require('./video_engine');
+        result = await generateViralVideo(title, idea, image);
+      }
 
-      // Step updates could be implemented in video_engine if passed a callback,
-      // but for now we just wait for final result.
-
-      const result = await generateViralVideo(title, idea, image);
       jobs.set(jobId, { status: 'completed', steps: ['Done'], result: result });
       logger.info(`✅ JOB ${jobId} COMPLETED`);
     } catch (error) {
@@ -201,13 +280,13 @@ app.get('/api/video/status/:id', (req, res) => {
   res.json({ success: true, job });
 });
 
-// --- SUPERVISOR API ---
+// ==========================================
+// SUPERVISOR API
+// ==========================================
 app.post('/api/supervisor/train', async (req, res) => {
-  const { phone } = req.body; // Optional phone, else latest
+  const { phone } = req.body;
   logger.info(`👨‍🏫 Supervisor invocado manualmente para: ${phone || 'Último Chat'}`);
 
-  // Run supervisor logic (We import the function or run as child process)
-  // For simplicity/safety, we'll run the script we just validated as a child process
   const { exec } = require('child_process');
   const scriptPath = require('path').join(__dirname, 'agents', 'supervisor.js');
   const cmd = `node "${scriptPath}" ${phone || ''}`;
@@ -218,26 +297,78 @@ app.post('/api/supervisor/train', async (req, res) => {
       return res.json({ success: false, error: error.message });
     }
     logger.info(`👨‍🏫 Resultado Supervisor:\n${stdout}`);
-    // Parse stdout to find "Estado:"
+
     const approved = stdout.includes('Estado: APROBADO');
     const improving = stdout.includes('Estado: MEJORAR');
 
     res.json({
       success: true,
-      status: approved ? 'APROBADO' : (improving ? 'MEJORANDO' : 'UNKNOWN'),
-      logs: stdout
+      status: approved ? 'APROBADO' : improving ? 'MEJORANDO' : 'UNKNOWN',
+      logs: stdout,
     });
   });
 });
 
-// ----------------------------------------------------
+// ==========================================
+// ATLAS API ENDPOINTS
+// ==========================================
+if (USE_ATLAS) {
+  // Agent status
+  app.get('/api/atlas/status', async (req, res) => {
+    try {
+      const status = await atlasCommandRouter.getAllAgentStatus();
+      res.json({ success: true, mode: 'ATLAS', agents: status });
+    } catch (error) {
+      res.status(500).json({ success: false, error: error.message });
+    }
+  });
 
-// ----------------------------------------------------
+  // Diego operations
+  app.get('/api/atlas/ops/today', async (req, res) => {
+    try {
+      const diego = require('./src/agents/diego');
+      const result = await diego.getTodaysJobs();
+      res.json({ success: true, jobs: result.jobs });
+    } catch (error) {
+      res.status(500).json({ success: false, error: error.message });
+    }
+  });
 
+  // Sofia finance
+  app.get('/api/atlas/finance/monthly', async (req, res) => {
+    try {
+      const sofia = require('./src/agents/sofia');
+      const result = await sofia.getMonthlyExpenses();
+      res.json({ success: true, data: result });
+    } catch (error) {
+      res.status(500).json({ success: false, error: error.message });
+    }
+  });
+
+  // Viper campaigns
+  app.get('/api/atlas/outreach/campaigns', async (req, res) => {
+    try {
+      const viper = require('./src/agents/viper');
+      const result = await viper.getCampaigns();
+      res.json({ success: true, campaigns: result.campaigns });
+    } catch (error) {
+      res.status(500).json({ success: false, error: error.message });
+    }
+  });
+}
+
+// ==========================================
+// START SERVER
+// ==========================================
 if (require.main === module) {
   app.listen(PORT, () => {
-    logger.info(`🚀 Agente de Ventas escuchando en puerto ${PORT} `);
+    logger.info(`🚀 Agente de Ventas escuchando en puerto ${PORT}`);
     logger.info(`🔗 Webhook local: http://localhost:${PORT}/webhook`);
+    logger.info(`📦 Mode: ${USE_ATLAS ? 'ATLAS (Modular)' : 'Legacy'}`);
+
+    if (USE_ATLAS) {
+      logger.info('🤖 ATLAS Agents: Alex, Marcus, Diego, Sofia, Viper');
+    }
   });
 }
 
@@ -253,12 +384,8 @@ module.exports = {
 const { createClient } = require('@supabase/supabase-js');
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
 
-/**
- * Save conversation to Database (and auto-create lead)
- */
 async function saveConversation(chatId, role, content) {
   try {
-    // 1. Get or Create Lead
     let leadId;
     const { data: existingLead, error: findError } = await supabase
       .from('leads')
@@ -269,7 +396,6 @@ async function saveConversation(chatId, role, content) {
     if (existingLead) {
       leadId = existingLead.id;
     } else {
-      // Create new lead
       const { data: newLead, error: createError } = await supabase
         .from('leads')
         .insert({ phone: chatId, status: 'new' })
@@ -277,13 +403,8 @@ async function saveConversation(chatId, role, content) {
         .single();
 
       if (createError) {
-        // If race condition (already created by parallel request), try fetch again
-        if (createError.code === '23505') { // Unique violation
-          const { data: retryLead } = await supabase
-            .from('leads')
-            .select('id')
-            .eq('phone', chatId)
-            .single();
+        if (createError.code === '23505') {
+          const { data: retryLead } = await supabase.from('leads').select('id').eq('phone', chatId).single();
           if (retryLead) leadId = retryLead.id;
         } else {
           logger.error('Error creating lead:', createError);
@@ -296,17 +417,13 @@ async function saveConversation(chatId, role, content) {
 
     if (!leadId) return;
 
-    // 2. Insert Message
-    const { error: msgError } = await supabase
-      .from('conversations')
-      .insert({
-        lead_id: leadId,
-        role: role,
-        content: content
-      });
+    const { error: msgError } = await supabase.from('conversations').insert({
+      lead_id: leadId,
+      role: role,
+      content: content,
+    });
 
     if (msgError) logger.error('Error saving message:', msgError);
-
   } catch (e) {
     logger.error('Persistence Error:', e);
   }

@@ -75,6 +75,34 @@ async function handleOwnerResponse(sendWhatsApp, text) {
     if (simpleMatch) {
       requestCode = simpleMatch[1];
       price = parseFloat(simpleMatch[2]);
+    } else {
+      // NOT a simple price - check if it looks like a price response at all
+      // If it looks like a command or general message, let dispatcher handle it
+      const lowerText = text.toLowerCase().trim();
+
+      // Command prefixes that should NOT be handled as price responses
+      // Includes both legacy and ATLAS commands
+      const commandPrefixes = [
+        'help', 'ayuda', '?',           // Help
+        'status', 'estado',              // Global status
+        'mkt', 'marketing', 'marcus', 'video',  // Marcus
+        'ventas', 'sales', 'alex',       // Alex
+        'ops', 'operaciones', 'diego',   // Diego
+        'fin', 'finanzas', 'sofia', 'gasto',    // Sofia
+        'outreach', 'viper', 'campaign', // Viper
+        'conta', 'contabilidad',         // Legacy
+        'fcc'                            // FCC lookup
+      ];
+      const isCommand = commandPrefixes.some(prefix => lowerText.startsWith(prefix));
+
+      // Price-related keywords that indicate this MIGHT be a price response
+      const priceKeywords = ['$', 'oem', 'original', 'aftermarket', 'generi', 'china', 'refurb', 'uso', 'precio', 'cuesta', 'vale'];
+      const looksLikePrice = priceKeywords.some(kw => lowerText.includes(kw)) || /\d{2,}/.test(text);
+
+      if (isCommand || !looksLikePrice) {
+        // This is a command or doesn't look like a price - let dispatcher handle it
+        return { handled: false };
+      }
     }
 
     // 2. Find pending request(s)
