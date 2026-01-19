@@ -91,46 +91,43 @@ The goal is to produce a **natural, handheld, authentic video** that feels as if
 
 #### 🎬 Subject & Composition
 - The creator is **visible and centered in the frame**, looking directly at the camera while naturally interacting with the product.
-- Filmed **selfie-style or first-person**, handheld with slight movement, subtle camera shake, and realistic micro-adjustments.
+- **APPEARANCE:** The technician is an **elegant, well-groomed, and highly professional Latino man**. He acts with **calm confidence and authority**. He is dressed professionally (e.g., smart polo or crisp work shirt).
+- Filmed **selfie-style or first-person**, handheld with slight movement, but **steady and controlled** (high production value feel).
 - The creator **holds or uses the product with their free hand** — no phone or reflection visible.
-- Background environment matches the setting (e.g., bathroom, kitchen, gym, garden).
+- Background environment matches the setting (e.g., modern clean workshop, high-end garage).
 - Only one continuous shot — no cuts or transitions.
 
 #### 🌅 Visual Style
-- Match the **lighting, product appearance, and color tone** to the reference image if provided.
-- Use **natural or realistic ambient lighting** (e.g., daylight through a window, soft indoor ambient).
-- Emphasize tactile realism — reflections, slight grain, natural shadows, realistic hand and skin detail.
+- Match the **lighting, product appearance, and color tone**.
+- Use **cinematic, flattering lighting** (soft key light, good separation from background).
+- Emphasize **trust, expertise, and premium service**.
 - Maintain a **vertical 9:16** aspect ratio for social-style output.
 
 #### 🎭 Tone & Delivery
-- The creator talks directly to camera for 1–2 short sentences **in Spanish (Latin American)** about the product, expressing a genuine, conversational reaction.
-- Speech feels spontaneous — "real-talk" tone, not rehearsed or ad-like.
-- **Language: Spanish** — natural, colloquial, Miami Latino accent.
-- Include small gestures, smiles, or head movement for authenticity.
-- **MANDATORY BRANDING:** The creator MUST say "Programming Car" and "786-816-4874" clearly in the audio.
+- The creator speaks with **confidence and empathy**.
+- **Facial expressions:** Friendly, reassuring, knowledgeable.
+- **Action:** He is explaining or demonstrating a solution (e.g., "Don't worry, we fixed it").
 
 #### ⚙️ Technical Specs
 - **Duration:** 15 seconds
 - **Orientation:** Vertical (9:16)
-- **Lighting:** Natural or ambient realism
-- **Audio:** Light environmental tone — no background music
+- **Lighting:** Cinematic, Professional, Natural
+- **Audio:** High-quality ambient sound (No music, no voiceover needed in prompt).
 - **Reference Image:** Used for appearance and color consistency only
 
 ---
 
 ### Prompt Construction Instructions
 When generating a Sora 2 prompt:
-- Explicitly state that the **camera is handheld selfie-style** and the creator **records themselves** using a phone at arm’s length.
-- Focus on **realistic motion and micro-details** — shifting weight, natural breathing, subtle focus change.
-- Keep under **300 words**; prioritize **visual realism** over narration.
-- Mention **environment context**, **lighting mood**, and **creator-product interaction**.
+- Explicitly state that the **camera is handheld selfie-style**.
+- Focus on the **elegance and professionalism** of the technician.
+- Keep under **300 words**; prioritize **visual charisma and trust**.
 - Ensure camera never shows the phone, only the creator and product in frame.
 
 ---
 
 ### Example Output Prompt
-"A vertical selfie-style video filmed by a creator at the gym after a workout. They hold **PeakForm Protein Powder** in one hand and the phone in the other, speaking casually to camera. Natural gym lighting and soft reflections highlight the matte black container. The creator smiles slightly, mentioning how they use it for post-workout recovery. The handheld camera moves subtly with natural shake. Duration ≈ 15 seconds, ambient gym noise, no overlays or music.
-**Audio:** Spanish (Latin American). Creator must mention "Programming Car" and "786-816-4874" in dialogue."
+"A vertical selfie-style video featuring an elegant, confident Latino professional in a pristine modern workshop. He holds a **Smart Key Fob** in one hand, looking directly at the camera with a reassuring smile. The lighting is soft and cinematic, highlighting his professional attire and the premium texture of the key. He gestures slightly as if explaining a successful repair. Handheld camera is steady but natural. Duration ≈ 15 seconds, high-quality ambient workshop silence."
 `;
 
 /**
@@ -457,20 +454,31 @@ async function generateVideo(title, idea, imageUrl = null, jobId = null) {
     logger.info('Step 2: Creating video with KIE/Sora 2...');
     let videoUrl = await createKieVideo(soraPrompt, imageUrl || DEFAULT_IMAGE);
 
-    // Step 3: Generate audio
-    logger.info('Step 3: Generating TTS audio...');
-    const tempDir = path.join(__dirname, '..', '..', '..', 'temp');
-    if (!fs.existsSync(tempDir)) {
-      fs.mkdirSync(tempDir, { recursive: true });
+    // Step 3: Publish / Process Video
+    if (style === 'selfie') {
+      // For Selfie/Viral: NO TTS, NO Watermark, Keep Original Audio
+      logger.info('Style is Selfie: Skipping TTS and Watermark. Uploading direct output...');
+
+      // Upload the KIE url directly to Cloudinary to persist it
+      const finalUrl = await uploadToCloudinary(videoUrl);
+      videoUrl = finalUrl;
+
+    } else {
+      // For Product: Generate TTS + Watermark
+      logger.info('Style is Product: Generating TTS audio...');
+      const tempDir = path.join(__dirname, '..', '..', '..', 'temp');
+      if (!fs.existsSync(tempDir)) {
+        fs.mkdirSync(tempDir, { recursive: true });
+      }
+      const audioPath = path.join(tempDir, `audio_${internalJobId}.mp3`);
+
+      const audioScript = await generateAudioScript(title, idea);
+      await generateTTSAudio(audioScript, audioPath);
+
+      // Step 4: Merge video + audio
+      logger.info('Step 4: Merging video with audio and watermark...');
+      videoUrl = await mergeVideoWithAudio(videoUrl, audioPath, title);
     }
-    const audioPath = path.join(tempDir, `audio_${internalJobId}.mp3`);
-
-    const audioScript = await generateAudioScript(title, idea);
-    await generateTTSAudio(audioScript, audioPath);
-
-    // Step 4: Merge video + audio
-    logger.info('Step 4: Merging video with audio and watermark...');
-    videoUrl = await mergeVideoWithAudio(videoUrl, audioPath, title);
 
     // Update job as complete
     await supabase
