@@ -247,10 +247,143 @@ async function generateViralVideo(title, idea, imageUrl = null) {
   });
 }
 
+/**
+ * Gets video job status from database
+ * @returns {Promise<object>}
+ */
+async function getVideoStatus() {
+  const { getSupabase } = require('../../core/supabase');
+  const supabase = getSupabase();
+
+  try {
+    const { data: jobs, error } = await supabase
+      .from('video_jobs')
+      .select('*')
+      .order('created_at', { ascending: false })
+      .limit(5);
+
+    if (error) {
+      return { success: false, error: error.message };
+    }
+
+    return {
+      success: true,
+      jobs: jobs || [],
+      total: jobs?.length || 0,
+    };
+  } catch (e) {
+    return { success: false, error: e.message };
+  }
+}
+
+/**
+ * Formats video status for WhatsApp
+ * @param {object} status - Status data
+ * @returns {string}
+ */
+function formatVideoStatus(status) {
+  if (!status.success) {
+    return `❌ Error: ${status.error}`;
+  }
+
+  if (!status.jobs || status.jobs.length === 0) {
+    return '📹 No hay videos recientes.\n\nUsa: mkt video [idea] para crear uno.';
+  }
+
+  let msg = '**Marcus (Marketing) - Videos Recientes**\n\n';
+
+  for (const job of status.jobs) {
+    const statusIcon = job.status === 'completed' ? '✅' : job.status === 'processing' ? '⏳' : '❌';
+    const date = new Date(job.created_at).toLocaleDateString('es-ES');
+    msg += `${statusIcon} **${job.title || 'Sin título'}**\n`;
+    msg += `   Estado: ${job.status} | ${date}\n`;
+    if (job.video_url) {
+      msg += `   🔗 ${job.video_url.substring(0, 50)}...\n`;
+    }
+    msg += '\n';
+  }
+
+  return msg.trim();
+}
+
+/**
+ * Processes owner commands for Marcus
+ * @param {string} command - Command string (without prefix)
+ * @returns {Promise<object>}
+ */
+async function processOwnerCommand(command) {
+  const cmd = command.trim().toLowerCase();
+  const parts = cmd.split(/\s+/);
+  const action = parts[0];
+  const args = parts.slice(1).join(' ');
+
+  logger.info(`Processing command: ${cmd}`);
+
+  switch (action) {
+    case 'status':
+    case 'estado': {
+      const status = await getVideoStatus();
+      return {
+        success: true,
+        message: formatVideoStatus(status),
+      };
+    }
+
+    case 'video': {
+      if (!args) {
+        return {
+          success: false,
+          message: '❌ Falta la idea del video.\n\nUso: mkt video [tu idea]\nEjemplo: mkt video llave toyota camry 2020',
+        };
+      }
+
+      // Start video generation in background
+      const jobId = Date.now().toString();
+      logger.info(`Starting video job ${jobId}: ${args}`);
+
+      // Don't await - let it run in background
+      handleVideoRequest({
+        jobId,
+        title: args,
+        idea: args,
+        image: null,
+      }).catch((e) => logger.error(`Video job ${jobId} failed: ${e.message}`));
+
+      return {
+        success: true,
+        message:
+          `🎬 **Video #${jobId} iniciado**\n\n` +
+          `📝 Idea: ${args}\n\n` +
+          `⏳ Proceso:\n` +
+          `1. Generando prompt cinematográfico...\n` +
+          `2. Creando video con Sora 2...\n` +
+          `3. Agregando voz y watermark...\n` +
+          `4. Publicando en 5 redes...\n\n` +
+          `Te notificaré cuando esté listo.`,
+      };
+    }
+
+    case 'help':
+    case 'ayuda':
+    default: {
+      return {
+        success: true,
+        message:
+          '**Marcus (Marketing) Commands:**\n\n' +
+          '- mkt status - Ver videos recientes\n' +
+          '- mkt video [idea] - Generar video viral\n\n' +
+          'Ejemplo: mkt video programacion de llave toyota',
+      };
+    }
+  }
+}
+
 module.exports = {
   AGENT_ID,
   startEventLoop,
   handleVideoRequest,
   handleSocialPublish,
   generateViralVideo, // Legacy compatibility
+  processOwnerCommand, // Owner commands
+  getVideoStatus,
 };
