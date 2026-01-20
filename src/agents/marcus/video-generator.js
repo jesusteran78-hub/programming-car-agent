@@ -97,6 +97,7 @@ The goal is to produce a **natural, handheld, authentic video** that feels as if
 - Background environment matches the setting (e.g., modern clean workshop, high-end garage). **Depth of field** is key (background slightly blurred).
 
 #### 🌅 Visual Style
+- **FIDELITY: The product in the video MUST be an EXACT REPLICA of the Reference Image.** Do not warp, resize, or "reimagine" it.
 - Match the **lighting, product appearance, and color tone**.
 - Use **cinematic, flattering lighting** (soft key light, good separation from background).
 - Emphasize **trust, expertise, and premium service**.
@@ -119,6 +120,7 @@ The goal is to produce a **natural, handheld, authentic video** that feels as if
 
 ### Prompt Construction Instructions
 When generating a Sora 2 prompt:
+- **CRITICAL: REFERENCE FIDELITY:** State that the product **MUST LOOK EXACTLY like the reference image**. "Do not alter the shape, size, or details of the object in the reference image."
 - **CRITICAL:** Explicitly specify **"Audio: Spanish Speech"** in the prompt text.
 - **CRITICAL:** Describe the **physical connection** of the hand holding the object (e.g., "gripped firmly", "resting on palm"). Avoid "floating" descriptions.
 - Focus on the **elegance and professionalism** of the technician.
