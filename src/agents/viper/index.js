@@ -10,6 +10,12 @@ require('dotenv').config();
 
 const logger = require('../../core/logger').child('Viper');
 const { getSupabase } = require('../../core/supabase');
+const { dryRunCampaign } = require('./reactivation-campaign');
+
+/**
+ * Viper Agent - Outreach & Growth
+ * Handles reactivation campaigns and automated follow-ups.
+ */
 const {
   consumeEvents,
   markEventProcessing,
@@ -265,23 +271,34 @@ function formatStats(stats) {
  * @returns {Promise<object>}
  */
 async function processOwnerCommand(command) {
-  const cmd = command.toLowerCase().trim();
+  const parts = command.toLowerCase().trim().split(' ');
+  const agentCommand = parts[0]; // Should be 'viper' or 'outreach'
+  const subCommand = parts[1]; // e.g., 'status', 'reactivate', 'list'
+  const args = parts.slice(2).join(' '); // Remaining arguments
 
-  // viper status / stats
-  if (cmd === 'status' || cmd === 'stats' || cmd === 'viper' || cmd === 'outreach') {
-    const result = await getCampaignStats();
-    if (result.error) {
-      return { success: false, message: `Error: ${result.error}` };
-    }
+  if (agentCommand !== 'viper' && agentCommand !== 'outreach') {
+    return { success: false, message: 'Invalid agent command.' };
+  }
+
+  // Handle commands
+  if (subCommand === 'status') {
+    return handleStatus();
+  }
+
+  if (subCommand === 'reactivate') {
+    // Default limit 5 for safety
+    const limit = 5;
+    const results = await dryRunCampaign(limit);
     return {
       success: true,
-      message: formatStats(result.stats),
-      data: result.stats,
+      message: `🐍 **Viper Report (Dry Run)**\n\nFound ${results.length} stale leads.\n\n` +
+        results.map(r => `👤 ${r.name || 'Unknown'} (${r.car})\n📱 ${r.phone}\n💬 "${r.proposedMessage}"`).join('\n\n') +
+        `\n\n*This was a simulation. No messages sent.*`
     };
   }
 
-  // viper list / campaigns
-  if (cmd === 'list' || cmd === 'campaigns' || cmd === 'campanas') {
+  // Existing campaign commands
+  if (subCommand === 'list' || subCommand === 'campaigns' || subCommand === 'campanas') {
     const result = await getCampaigns();
     if (result.error) {
       return { success: false, message: `Error: ${result.error}` };
@@ -293,8 +310,7 @@ async function processOwnerCommand(command) {
     };
   }
 
-  // viper active
-  if (cmd === 'active' || cmd === 'running') {
+  if (subCommand === 'active' || subCommand === 'running') {
     const result = await getCampaigns('running');
     if (result.error) {
       return { success: false, message: `Error: ${result.error}` };
@@ -311,8 +327,7 @@ async function processOwnerCommand(command) {
     };
   }
 
-  // viper types
-  if (cmd === 'types' || cmd === 'tipos') {
+  if (subCommand === 'types' || subCommand === 'tipos') {
     let msg = '**Tipos de Campana:**\n';
     Object.entries(CAMPAIGN_TYPES).forEach(([key, name]) => {
       msg += `- ${key}: ${name}\n`;
@@ -320,15 +335,17 @@ async function processOwnerCommand(command) {
     return { success: true, message: msg.trim() };
   }
 
-  // Unknown command
   return {
     success: false,
-    message:
-      '**Viper Commands:**\n' +
-      '- outreach status - Estadisticas\n' +
-      '- outreach list - Todas las campanas\n' +
-      '- outreach active - Campanas activas\n' +
-      '- outreach types - Tipos de campana',
+    message: 'Unknown Viper command. Try: `viper status` or `viper reactivate`',
+  };
+}
+
+async function handleStatus() {
+  // TODO: Get real stats
+  return {
+    success: true,
+    message: '🐍 Viper Active.\nCampaigns running: 0\nLeads modeled: 0',
   };
 }
 
