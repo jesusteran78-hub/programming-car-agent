@@ -7,6 +7,7 @@
  * @module src/agents/command-router
  */
 const logger = require('../core/logger').child('CmdRouter');
+const healthMonitor = require('../core/health-monitor');
 
 // Import all agents
 const alex = require('./alex');
@@ -110,7 +111,8 @@ function getHelpMessage() {
 
 **General:**
 - help / ayuda - Esta ayuda
-- status - Estado de todos los agentes`;
+- status - Estado de todos los agentes
+- health / salud - Estado de servicios (WhatsApp, OpenAI, DB)`;
 }
 
 /**
@@ -241,6 +243,17 @@ async function routeCommand(rawCommand) {
     };
   }
 
+  // Health check command
+  if (command === 'health' || command === 'salud') {
+    const healthResult = await healthMonitor.runHealthChecks();
+    return {
+      success: true,
+      message: healthMonitor.formatHealthReport(),
+      agent: 'system',
+      data: healthResult,
+    };
+  }
+
   // Find matching prefix
   const parts = command.split(/\s+/);
   const prefix = parts[0];
@@ -293,20 +306,30 @@ async function routeCommand(rawCommand) {
       // gasto is a direct command for sofia
       const result = await processor(`add ${subCommand}`);
       return { ...result, agent: agentId };
-    }
+      if (prefix === 'gasto') {
+        // gasto is a direct command for sofia
+        const result = await processor(`add ${subCommand}`);
+        return { ...result, agent: agentId };
+      }
 
-    // Normal routing - pass subcommand or full command
-    const result = await processor(subCommand || 'status');
-    return { ...result, agent: agentId };
-  } catch (error) {
-    logger.error(`Error processing command for ${agentId}:`, error);
-    return {
-      success: false,
-      message: `Error en agente ${agentId}: ${error.message}`,
-      agent: agentId,
-    };
+      // Explicitly reconstruct Viper commands to include the prefix
+      if (agentId === 'viper') {
+        const result = await processor(`${prefix} ${subCommand}`);
+        return { ...result, agent: agentId };
+      }
+
+      // Normal routing - pass subcommand or full command
+      const result = await processor(subCommand || 'status');
+      return { ...result, agent: agentId };
+    } catch (error) {
+      logger.error(`Error processing command for ${agentId}:`, error);
+      return {
+        success: false,
+        message: `Error en agente ${agentId}: ${error.message}`,
+        agent: agentId,
+      };
+    }
   }
-}
 
 /**
  * Checks if a message is an owner command
@@ -314,28 +337,33 @@ async function routeCommand(rawCommand) {
  * @returns {boolean}
  */
 function isOwnerCommand(message) {
-  const text = message.trim().toLowerCase();
+    const text = message.trim().toLowerCase();
 
-  // Check for help
-  if (text === 'help' || text === 'ayuda' || text === '?') {
-    return true;
+    // Check for help
+    if (text === 'help' || text === 'ayuda' || text === '?') {
+      return true;
+    }
+
+    // Check for status
+    if (text === 'status' || text === 'estado') {
+      return true;
+    }
+
+    // Check for health
+    if (text === 'health' || text === 'salud') {
+      return true;
+    }
+
+    // Check for known prefixes
+    const firstWord = text.split(/\s+/)[0];
+    return COMMAND_PREFIXES.hasOwnProperty(firstWord);
   }
 
-  // Check for status
-  if (text === 'status' || text === 'estado') {
-    return true;
-  }
-
-  // Check for known prefixes
-  const firstWord = text.split(/\s+/)[0];
-  return COMMAND_PREFIXES.hasOwnProperty(firstWord);
-}
-
-module.exports = {
-  routeCommand,
-  isOwnerCommand,
-  getHelpMessage,
-  getAllAgentStatus,
-  formatAllStatus,
-  COMMAND_PREFIXES,
-};
+  module.exports = {
+    routeCommand,
+    isOwnerCommand,
+    getHelpMessage,
+    getAllAgentStatus,
+    formatAllStatus,
+    COMMAND_PREFIXES,
+  };
