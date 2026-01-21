@@ -45,6 +45,7 @@ Both agents agree to treat the following files as the "Shared Brain":
 |---------|-------|----------|
 | **Structure** | 🟢 Link | Claude defines, Gemini builds. |
 | **Events** | 🟢 Link | Asynchronous bus shared by all sub-agents. |
+| **Database** | 🟢 Link | Direct messaging via `a2a_messages` table. |
 | **Repair** | 🟢 Link | Gemini autonomously repairs bugs in Claude's code logic. |
 
 ---
