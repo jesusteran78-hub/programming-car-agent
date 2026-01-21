@@ -283,53 +283,41 @@ async function routeCommand(rawCommand) {
   }
 
   try {
+    let result;
+
     // Special handling for some commands
     if (prefix === 'fcc') {
       // fcc is a direct command, not a prefix
-      const result = await processor(`fcc ${subCommand}`);
-      return { ...result, agent: agentId };
-    }
-
-    if (prefix === 'video') {
+      result = await processor(`fcc ${subCommand}`);
+    } else if (prefix === 'video') {
       // video is a direct command for marcus
-      const result = await processor(`video ${subCommand}`);
-      return { ...result, agent: agentId };
-    }
-
-    if (prefix === 'selfie' || prefix === 'viral') {
+      result = await processor(`video ${subCommand}`);
+    } else if (prefix === 'selfie' || prefix === 'viral') {
       // selfie/viral are direct commands for marcus
-      const result = await processor(`selfie ${subCommand}`);
-      return { ...result, agent: agentId };
-    }
-
-    if (prefix === 'gasto') {
+      result = await processor(`selfie ${subCommand}`);
+    } else if (prefix === 'gasto') {
       // gasto is a direct command for sofia
-      const result = await processor(`add ${subCommand}`);
-      return { ...result, agent: agentId };
-      if (prefix === 'gasto') {
-        // gasto is a direct command for sofia
-        const result = await processor(`add ${subCommand}`);
-        return { ...result, agent: agentId };
-      }
-
+      result = await processor(`add ${subCommand}`);
+    } else if (agentId === 'viper') {
       // Explicitly reconstruct Viper commands to include the prefix
-      if (agentId === 'viper') {
-        const result = await processor(`${prefix} ${subCommand}`);
-        return { ...result, agent: agentId };
-      }
-
+      // because viper agent expects the FULL command string
+      result = await processor(`${prefix} ${subCommand}`);
+    } else {
       // Normal routing - pass subcommand or full command
-      const result = await processor(subCommand || 'status');
-      return { ...result, agent: agentId };
-    } catch (error) {
-      logger.error(`Error processing command for ${agentId}:`, error);
-      return {
-        success: false,
-        message: `Error en agente ${agentId}: ${error.message}`,
-        agent: agentId,
-      };
+      result = await processor(subCommand || 'status');
     }
+
+    return { ...result, agent: agentId };
+
+  } catch (error) {
+    logger.error(`Error processing command for ${agentId}:`, error);
+    return {
+      success: false,
+      message: `Error en agente ${agentId}: ${error.message}`,
+      agent: agentId,
+    };
   }
+}
 
 /**
  * Checks if a message is an owner command
@@ -337,33 +325,33 @@ async function routeCommand(rawCommand) {
  * @returns {boolean}
  */
 function isOwnerCommand(message) {
-    const text = message.trim().toLowerCase();
+  const text = message.trim().toLowerCase();
 
-    // Check for help
-    if (text === 'help' || text === 'ayuda' || text === '?') {
-      return true;
-    }
-
-    // Check for status
-    if (text === 'status' || text === 'estado') {
-      return true;
-    }
-
-    // Check for health
-    if (text === 'health' || text === 'salud') {
-      return true;
-    }
-
-    // Check for known prefixes
-    const firstWord = text.split(/\s+/)[0];
-    return COMMAND_PREFIXES.hasOwnProperty(firstWord);
+  // Check for help
+  if (text === 'help' || text === 'ayuda' || text === '?') {
+    return true;
   }
 
-  module.exports = {
-    routeCommand,
-    isOwnerCommand,
-    getHelpMessage,
-    getAllAgentStatus,
-    formatAllStatus,
-    COMMAND_PREFIXES,
-  };
+  // Check for status
+  if (text === 'status' || text === 'estado') {
+    return true;
+  }
+
+  // Check for health
+  if (text === 'health' || text === 'salud') {
+    return true;
+  }
+
+  // Check for known prefixes
+  const firstWord = text.split(/\s+/)[0];
+  return COMMAND_PREFIXES.hasOwnProperty(firstWord);
+}
+
+module.exports = {
+  routeCommand,
+  isOwnerCommand,
+  getHelpMessage,
+  getAllAgentStatus,
+  formatAllStatus,
+  COMMAND_PREFIXES,
+};
