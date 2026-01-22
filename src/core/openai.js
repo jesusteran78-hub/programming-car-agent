@@ -114,7 +114,7 @@ async function textToSpeech(text, voice = 'onyx') {
     const openai = getOpenAI();
 
     const response = await openai.audio.speech.create({
-      model: 'tts-1',
+      model: 'tts-1-hd', // Premium voice quality
       voice,
       input: text,
     });

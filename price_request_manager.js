@@ -141,7 +141,7 @@ async function handleOwnerResponse(sendWhatsApp, text) {
 
       try {
         const completion = await openai.chat.completions.create({
-          model: "gpt-4o-mini",
+          model: "gpt-4o", // Best model for accurate price parsing
           messages: [
             {
               role: "system", content: `You are a Price Parser. Extract car key prices from text.

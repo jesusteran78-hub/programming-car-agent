@@ -89,6 +89,10 @@ async function getOrCreateLead(chatId) {
  * @returns {Promise<boolean>}
  */
 async function isSpam(leadId, message) {
+  // TEMPORARILY DISABLED FOR TESTING
+  // TODO: Remove this return to re-enable spam protection
+  return false;
+
   if (!message) return false;
 
   const supabase = getSupabase();

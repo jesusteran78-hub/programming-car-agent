@@ -2,7 +2,7 @@
  * ATLAS Agent: Viper (Outreach)
  * Handles outbound marketing campaigns and lead generation
  *
- * STATUS: Placeholder with basic campaign management
+ * STATUS: Active with Apollo integration and lead management
  *
  * @module src/agents/viper
  */
@@ -11,6 +11,7 @@ require('dotenv').config();
 const logger = require('../../core/logger').child('Viper');
 const { getSupabase } = require('../../core/supabase');
 const { dryRunCampaign } = require('./reactivation-campaign');
+const apollo = require('../../services/apollo');
 
 /**
  * Viper Agent - Outreach & Growth
@@ -167,6 +168,141 @@ async function getCampaignStats() {
   } catch (e) {
     logger.error('Error fetching campaign stats:', e);
     return { error: e.message };
+  }
+}
+
+/**
+ * Gets outreach leads with optional filters
+ * @param {object} filters - Filter options (state, status, limit)
+ * @returns {Promise<object>}
+ */
+async function getOutreachLeads(filters = {}) {
+  const supabase = getSupabase();
+  const { state, status, limit = 50, offset = 0 } = filters;
+
+  try {
+    let query = supabase
+      .from('outreach_leads')
+      .select('*')
+      .order('created_at', { ascending: false })
+      .range(offset, offset + limit - 1);
+
+    if (state) {
+      query = query.eq('state', state);
+    }
+    if (status) {
+      query = query.eq('status', status);
+    }
+
+    const { data, error } = await query;
+
+    if (error) {
+      return { success: false, error: error.message };
+    }
+
+    return { success: true, leads: data || [] };
+  } catch (e) {
+    logger.error('Error fetching leads:', e);
+    return { success: false, error: e.message };
+  }
+}
+
+/**
+ * Gets outreach lead statistics
+ * @returns {Promise<object>}
+ */
+async function getLeadStats() {
+  const supabase = getSupabase();
+
+  try {
+    // Total count
+    const { count: total } = await supabase
+      .from('outreach_leads')
+      .select('*', { count: 'exact', head: true });
+
+    // By status
+    const { data: statusData } = await supabase
+      .from('outreach_leads')
+      .select('status');
+
+    const byStatus = {};
+    (statusData || []).forEach((l) => {
+      byStatus[l.status] = (byStatus[l.status] || 0) + 1;
+    });
+
+    // By state (top 10)
+    const { data: stateData } = await supabase
+      .from('outreach_leads')
+      .select('state');
+
+    const byState = {};
+    (stateData || []).forEach((l) => {
+      if (l.state) {
+        byState[l.state] = (byState[l.state] || 0) + 1;
+      }
+    });
+
+    // Sort by count and take top 10
+    const topStates = Object.entries(byState)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 10);
+
+    return {
+      success: true,
+      stats: {
+        total,
+        byStatus,
+        topStates,
+      },
+    };
+  } catch (e) {
+    logger.error('Error fetching lead stats:', e);
+    return { success: false, error: e.message };
+  }
+}
+
+/**
+ * Updates lead status
+ * @param {string} leadId - Lead ID
+ * @param {string} status - New status
+ * @returns {Promise<object>}
+ */
+async function updateLeadStatus(leadId, status) {
+  const supabase = getSupabase();
+
+  try {
+    const { data, error } = await supabase
+      .from('outreach_leads')
+      .update({ status, updated_at: new Date().toISOString() })
+      .eq('id', leadId)
+      .select()
+      .single();
+
+    if (error) {
+      return { success: false, error: error.message };
+    }
+
+    logger.info(`Lead ${leadId} status updated to ${status}`);
+    return { success: true, lead: data };
+  } catch (e) {
+    logger.error('Error updating lead:', e);
+    return { success: false, error: e.message };
+  }
+}
+
+/**
+ * Searches for new leads via Apollo
+ * @param {string} state - US state to search
+ * @param {number} limit - Max results
+ * @returns {Promise<object>}
+ */
+async function searchNewLeads(state = 'Florida', limit = 25) {
+  try {
+    const result = await apollo.searchTransmissionShops(state, limit);
+    return result;
+  } catch (e) {
+    logger.error('Error searching Apollo:', e);
+    return { success: false, error: e.message };
   }
 }
 
@@ -335,18 +471,109 @@ async function processOwnerCommand(command) {
     return { success: true, message: msg.trim() };
   }
 
+  // Lead management commands
+  if (subCommand === 'leads') {
+    const state = args || null;
+    const result = await getOutreachLeads({ state, limit: 10 });
+    if (!result.success) {
+      return { success: false, message: `Error: ${result.error}` };
+    }
+
+    if (result.leads.length === 0) {
+      return { success: true, message: 'No hay leads registrados.' };
+    }
+
+    let msg = `🐍 **LEADS** ${state ? `(${state})` : ''}\n\n`;
+    result.leads.forEach((l, i) => {
+      msg += `${i + 1}. **${l.contact_name || 'Sin nombre'}**\n`;
+      msg += `   ${l.business_name}\n`;
+      msg += `   ${l.email} | ${l.city}, ${l.state}\n`;
+      msg += `   Estado: ${l.status}\n\n`;
+    });
+
+    return { success: true, message: msg.trim() };
+  }
+
+  if (subCommand === 'search') {
+    const state = args || 'Florida';
+    const result = await searchNewLeads(state, 10);
+    if (!result.success) {
+      return { success: false, message: `Error buscando en Apollo: ${result.error}` };
+    }
+
+    let msg = `🔍 **Busqueda Apollo - ${state}**\n\n`;
+    msg += `Encontrados: ${result.total || 0} resultados\n\n`;
+
+    if (result.contacts && result.contacts.length > 0) {
+      result.contacts.slice(0, 5).forEach((c, i) => {
+        msg += `${i + 1}. ${c.name || 'N/A'} @ ${c.organization?.name || 'N/A'}\n`;
+      });
+    } else {
+      msg += 'Sin contactos con detalles visibles (limitacion API free tier)';
+    }
+
+    return { success: true, message: msg };
+  }
+
+  if (subCommand === 'update' && args) {
+    const [leadId, newStatus] = args.split(' ');
+    if (!leadId || !newStatus) {
+      return { success: false, message: 'Uso: viper update <lead_id> <status>' };
+    }
+
+    const result = await updateLeadStatus(leadId, newStatus);
+    if (!result.success) {
+      return { success: false, message: `Error: ${result.error}` };
+    }
+
+    return { success: true, message: `Lead actualizado a: ${newStatus}` };
+  }
+
   return {
     success: false,
-    message: 'Unknown Viper command. Try: `viper status` or `viper reactivate`',
+    message: `Comando desconocido. Comandos disponibles:
+- viper status - Ver estadisticas
+- viper leads [estado] - Ver leads
+- viper search [estado] - Buscar en Apollo
+- viper campaigns - Ver campanas
+- viper reactivate - Simular reactivacion`,
   };
 }
 
 async function handleStatus() {
-  // TODO: Get real stats
-  return {
-    success: true,
-    message: '🐍 Viper Active.\nCampaigns running: 0\nLeads modeled: 0',
-  };
+  const leadResult = await getLeadStats();
+  const campaignResult = await getCampaignStats();
+
+  let message = '🐍 **VIPER - Outreach Agent**\n\n';
+
+  if (leadResult.success) {
+    const { stats } = leadResult;
+    message += `**LEADS:**\n`;
+    message += `Total: ${stats.total}\n`;
+
+    if (Object.keys(stats.byStatus).length > 0) {
+      message += `Por estado:\n`;
+      Object.entries(stats.byStatus).forEach(([status, count]) => {
+        message += `  - ${status}: ${count}\n`;
+      });
+    }
+
+    if (stats.topStates.length > 0) {
+      message += `\nTop estados:\n`;
+      stats.topStates.slice(0, 5).forEach(([state, count]) => {
+        message += `  - ${state}: ${count}\n`;
+      });
+    }
+  }
+
+  if (campaignResult.stats) {
+    message += `\n**CAMPAIGNS:**\n`;
+    message += `Total: ${campaignResult.stats.total}\n`;
+    message += `Enviados: ${campaignResult.stats.total_sent}\n`;
+    message += `Respuestas: ${campaignResult.stats.total_responses}\n`;
+  }
+
+  return { success: true, message };
 }
 
 /**
@@ -417,6 +644,12 @@ module.exports = {
   updateCampaignStatus,
   formatCampaignList,
   formatStats,
+
+  // Lead functions
+  getOutreachLeads,
+  getLeadStats,
+  updateLeadStatus,
+  searchNewLeads,
 
   // Constants
   CAMPAIGN_TYPES,

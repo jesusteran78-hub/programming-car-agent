@@ -340,148 +340,150 @@ async function processOwnerCommand(command) {
       };
     }
 
+    // 10 SUPER BOWL LEVEL STYLES (including UGC - proven viral)
+    case 'cinematic':
+    case 'luxury':
+    case 'story':
+    case 'hypebeast':
+    case 'pov':
     case 'selfie':
+    case 'ugc':
     case 'viral':
+    case 'tech':
+    case 'emergency':
+    case 'satisfying':
     case 'video': {
-      const isSelfie = action === 'selfie' || action === 'viral';
-      const style = isSelfie ? 'selfie' : 'product';
+      // Map action to style
+      const styleMap = {
+        video: 'cinematic',      // Default = Netflix quality
+        cinematic: 'cinematic',  // Hollywood blockbuster
+        viral: 'viral',          // TikTok algorithm crusher
+        luxury: 'luxury',        // Rolex/Mercedes aesthetic
+        story: 'story',          // Mini-movie with narrative
+        hypebeast: 'hypebeast',  // Miami street culture
+        pov: 'pov',              // First-person immersion
+        selfie: 'ugc',           // Now uses PROVEN UGC prompt
+        ugc: 'ugc',              // PROVEN VIRAL - Selfie UGC style
+        tech: 'tech',            // Mr. Robot / Tron cyberpunk
+        emergency: 'emergency',  // 3AM rescue documentary
+        satisfying: 'satisfying', // ASMR / oddly satisfying
+      };
+      const style = styleMap[action] || 'cinematic';
 
       if (!args) {
         return {
           success: false,
           message:
-            `❌ Falta la idea del ${isSelfie ? 'selfie' : 'video'}.\n\n` +
-            '**Uso:**\n' +
-            '• mkt video [idea] - Video de producto (Manos)\n' +
-            '• mkt selfie [idea] - Video viral (Tu cara hablando)\n' +
-            '• mkt selfie [idea] | default - Usa imagen por defecto\n' +
-            '• mkt selfie [idea] | [url_imagen] - Usa tu imagen\n\n' +
-            '**Ejemplos:**\n' +
-            '• mkt video llave toyota camry 2020\n' +
-            '• mkt selfie explicando la oferta del mes',
+            `❌ Falta la idea del video.\n\n` +
+            '**🎬 10 ESTILOS SUPER BOWL LEVEL:**\n\n' +
+            '• **mkt ugc [idea]** - 📱 UGC Selfie (VIRAL PROBADO)\n' +
+            '• **mkt video [idea]** - 🎥 Cinematico (Netflix)\n' +
+            '• **mkt viral [idea]** - 🔥 Hook viral (100M views)\n' +
+            '• **mkt luxury [idea]** - 💎 Premium (Rolex)\n' +
+            '• **mkt story [idea]** - 🎭 Mini-pelicula\n' +
+            '• **mkt hypebeast [idea]** - 🌴 Miami Street\n' +
+            '• **mkt pov [idea]** - 👁️ Primera persona\n' +
+            '• **mkt tech [idea]** - 🤖 Cyberpunk/Hacker\n' +
+            '• **mkt emergency [idea]** - 🚨 Rescate 3AM\n' +
+            '• **mkt satisfying [idea]** - 😌 ASMR/Satisfactorio\n\n' +
+            '**USO:**\n' +
+            '• mkt ugc [idea] → Te pide foto\n' +
+            '• mkt ugc [idea] | [url] → Usa esa imagen\n\n' +
+            '**EJEMPLOS:**\n' +
+            '• mkt ugc acabo de programar llave bmw\n' +
+            '• mkt viral llave bmw perdida a las 3am\n' +
+            '• mkt tech hackeando el sistema de un tesla',
         };
       }
 
-      // Check if user provided an image URL or "default" (separated by |)
+      // Check if user provided an image URL (separated by |)
       let idea = args;
       let imageUrl = null;
-      let useDefault = false;
 
       if (args.includes('|')) {
         const parts = args.split('|').map((p) => p.trim());
         idea = parts[0];
         const imageParam = parts[1] || '';
 
-        if (imageParam.toLowerCase() === 'default' || imageParam.toLowerCase() === 'defecto') {
-          useDefault = true;
-        } else if (imageParam.startsWith('http')) {
+        if (imageParam.startsWith('http')) {
           imageUrl = imageParam;
         }
       }
 
-      // If no | separator, ask for photo first
-      if (!args.includes('|')) {
+      // If user provided URL via |, start immediately
+      if (imageUrl) {
         const jobId = Date.now().toString();
+        logger.info(`Starting video job ${jobId}: ${idea} (image: ${imageUrl})`);
 
-        // Store pending job waiting for photo
-        pendingPhotoJobs.set('owner', {
+        handleVideoRequest({
           jobId,
-          jobId,
-          idea,
-          style, // Store style
-          timestamp: Date.now(),
-        });
+          title: idea,
+          idea: idea,
+          image: imageUrl,
+          style,
+        }).catch((e) => logger.error(`Video job ${jobId} failed: ${e.message}`));
 
-        logger.info(`Pending video job ${jobId} waiting for photo: ${idea}`);
-
-        // Set timeout to auto-cancel after 5 minutes
-        setTimeout(() => {
-          const pending = pendingPhotoJobs.get('owner');
-          if (pending && pending.jobId === jobId) {
-            pendingPhotoJobs.delete('owner');
-            logger.info(`Pending job ${jobId} expired (no photo received)`);
-          }
-        }, PHOTO_TIMEOUT_MS);
+        const styleNames = {
+          ugc: '📱 UGC Selfie (VIRAL PROBADO)',
+          cinematic: '🎥 Cinematico (Netflix)',
+          viral: '🔥 Viral (100M views)',
+          luxury: '💎 Luxury (Rolex)',
+          story: '🎭 Story (Mini-pelicula)',
+          hypebeast: '🌴 Hypebeast (Miami)',
+          pov: '👁️ POV (Primera persona)',
+          tech: '🤖 Tech (Cyberpunk)',
+          emergency: '🚨 Emergency (Rescate)',
+          satisfying: '😌 Satisfying (ASMR)',
+        };
 
         return {
           success: true,
           message:
-            `📸 **Envíame la foto para el video**\n\n` +
-            `📝 Idea: ${idea}\n\n` +
-            `Tienes 5 minutos para enviar la foto.\n\n` +
-            `💡 Opciones:\n` +
-            `• Envía una foto ahora\n` +
-            `• Escribe "mkt usar default" para imagen por defecto\n` +
-            `• Escribe "mkt cancelar" para cancelar`,
+            `🎬 **Video #${jobId} iniciado**\n\n` +
+            `📝 Idea: ${idea}\n` +
+            `🖼️ Imagen: URL proporcionada\n` +
+            `🎭 Estilo: ${styleNames[style] || style}\n\n` +
+            `⏳ Proceso:\n` +
+            `1. Generando prompt cinematográfico...\n` +
+            `2. Creando video con Sora 2...\n` +
+            `3. Agregando voz y watermark...\n` +
+            `4. Publicando en 5 redes...\n\n` +
+            `Te notificaré cuando esté listo.`,
         };
       }
 
-      // Start video generation in background (with provided image or default)
+      // No image provided - ALWAYS wait for photo
       const jobId = Date.now().toString();
-      logger.info(`Starting video job ${jobId}: ${idea} (image: ${imageUrl || 'default'})`);
 
-      // Don't await - let it run in background
-      handleVideoRequest({
+      pendingPhotoJobs.set('owner', {
         jobId,
-        title: idea,
-        idea: idea,
-        image: imageUrl,
-        style, // Pass style
-      }).catch((e) => logger.error(`Video job ${jobId} failed: ${e.message}`));
+        idea,
+        style,
+        timestamp: Date.now(),
+      });
+
+      logger.info(`Pending video job ${jobId} waiting for photo: ${idea}`);
+
+      // Set timeout to auto-cancel after 5 minutes
+      setTimeout(() => {
+        const pending = pendingPhotoJobs.get('owner');
+        if (pending && pending.jobId === jobId) {
+          pendingPhotoJobs.delete('owner');
+          logger.info(`Pending job ${jobId} expired (no photo received)`);
+        }
+      }, PHOTO_TIMEOUT_MS);
 
       return {
         success: true,
         message:
-          `🎬 **Video #${jobId} iniciado**\n\n` +
+          `📸 **ENVÍA LA FOTO para el video**\n\n` +
           `📝 Idea: ${idea}\n` +
-          `🖼️ Imagen: ${imageUrl ? 'Personalizada' : 'Por defecto'}\n` +
-          `🎭 Estilo: ${isSelfie ? '🤳 Viral / Selfie' : '🛠️ Producto / Manos'}\n\n` +
-          `⏳ Proceso:\n` +
-          `1. Generando prompt cinematográfico...\n` +
-          `2. Creando video con Sora 2...\n` +
-          `3. Agregando voz y watermark...\n` +
-          `4. Publicando en 5 redes...\n\n` +
-          `Te notificaré cuando esté listo.`,
-      };
-    }
-
-    case 'usar': {
-      // "mkt usar default" - use default image for pending job
-      const pending = pendingPhotoJobs.get('owner');
-      if (!pending) {
-        return {
-          success: false,
-          message: '❌ No hay video pendiente esperando foto.\n\nUsa: mkt video [idea]',
-        };
-      }
-
-      // Clear pending job
-      pendingPhotoJobs.delete('owner');
-
-      // Start video with default image
-      logger.info(`Starting pending video job ${pending.jobId} with default image: ${pending.idea}`);
-
-      handleVideoRequest({
-        jobId: pending.jobId,
-        title: pending.idea,
-        idea: pending.idea,
-        image: null, // Will use default
-        style: pending.style || 'product',
-      }).catch((e) => logger.error(`Video job ${pending.jobId} failed: ${e.message}`));
-
-      return {
-        success: true,
-        message:
-          `🎬 **Video #${pending.jobId} iniciado**\n\n` +
-          `📝 Idea: ${pending.idea}\n` +
-          `🖼️ Imagen: Por defecto\n` +
-          `🎭 Estilo: ${pending.style === 'selfie' ? '🤳 Viral / Selfie' : '🛠️ Producto / Manos'}\n\n` +
-          `⏳ Proceso:\n` +
-          `1. Generando prompt cinematográfico...\n` +
-          `2. Creando video con Sora 2...\n` +
-          `3. Agregando voz y watermark...\n` +
-          `4. Publicando en 5 redes...\n\n` +
-          `Te notificaré cuando esté listo.`,
+          `🎭 Estilo: ${style}\n\n` +
+          `⏳ Tienes 5 minutos para enviar la foto.\n\n` +
+          `💡 Opciones:\n` +
+          `• Envía una foto por WhatsApp\n` +
+          `• O usa: mkt ${action} [idea] | [URL de imagen]\n` +
+          `• Escribe "mkt cancelar" para cancelar`,
       };
     }
 
@@ -537,19 +539,29 @@ async function processOwnerCommand(command) {
       return {
         success: true,
         message:
-          '**Marcus (Marketing) Commands:**\n\n' +
-          '• mkt video [idea] - Video Producto (Manos)\n' +
-          '• mkt selfie [idea] - Video Selfie (Viral)\n' +
-          '• mkt video [idea] | default - Usa imagen por defecto\n' +
-          '• mkt video [idea] | [url] - Usa tu imagen URL\n' +
-          '• mkt status - Ver videos recientes\n' +
-          '• mkt pendiente - Ver si hay video esperando foto\n' +
-          '• mkt usar default - Usar imagen default para video pendiente\n' +
-          '• mkt cancelar - Cancelar video pendiente\n\n' +
-          '**Ejemplos:**\n' +
-          '• mkt video llave bmw serie 3\n' +
-          '• mkt video llave toyota | default\n' +
-          '• mkt video llave toyota | https://url.com/foto.jpg',
+          '🎬 **VIRAL VIDEO FACTORY - Marcus**\n\n' +
+          '**10 ESTILOS SUPER BOWL LEVEL:**\n' +
+          '• mkt ugc [idea] - 📱 UGC Selfie (VIRAL PROBADO)\n' +
+          '• mkt video [idea] - 🎥 Cinematico (Netflix)\n' +
+          '• mkt viral [idea] - 🔥 Hook viral (100M views)\n' +
+          '• mkt luxury [idea] - 💎 Premium (Rolex)\n' +
+          '• mkt story [idea] - 🎭 Mini-pelicula\n' +
+          '• mkt hypebeast [idea] - 🌴 Miami Street\n' +
+          '• mkt pov [idea] - 👁️ Primera persona\n' +
+          '• mkt tech [idea] - 🤖 Cyberpunk/Hacker\n' +
+          '• mkt emergency [idea] - 🚨 Rescate 3AM\n' +
+          '• mkt satisfying [idea] - 😌 ASMR/Satisfactorio\n\n' +
+          '**USO (siempre requiere foto):**\n' +
+          '• mkt ugc [idea] → Te pide foto por WhatsApp\n' +
+          '• mkt ugc [idea] | [url] → Usa esa imagen URL\n\n' +
+          '**COMANDOS:**\n' +
+          '• mkt status - Videos recientes\n' +
+          '• mkt pendiente - Video esperando foto\n' +
+          '• mkt cancelar - Cancelar pendiente\n\n' +
+          '**EJEMPLOS:**\n' +
+          '• mkt ugc acabo de programar llave mercedes\n' +
+          '• mkt viral rescate bmw 3am en brickell\n' +
+          '• mkt tech descifrando codigo de tesla',
       };
     }
   }
@@ -586,13 +598,27 @@ async function handleIncomingPhoto(imageUrl) {
     style: pending.style || 'product',
   }).catch((e) => logger.error(`Video job ${pending.jobId} failed: ${e.message}`));
 
+  // Style display names for photo handler
+  const styleNamesPhoto = {
+    ugc: '📱 UGC Selfie (VIRAL PROBADO)',
+    cinematic: '🎥 Cinematico (Netflix)',
+    viral: '🔥 Viral (100M views)',
+    luxury: '💎 Luxury (Rolex)',
+    story: '🎭 Story (Mini-pelicula)',
+    hypebeast: '🌴 Hypebeast (Miami)',
+    pov: '👁️ POV (Primera persona)',
+    tech: '🤖 Tech (Cyberpunk)',
+    emergency: '🚨 Emergency (Rescate)',
+    satisfying: '😌 Satisfying (ASMR)',
+  };
+
   return {
     handled: true,
     message:
       `🎬 **Video #${pending.jobId} iniciado con tu foto!**\n\n` +
       `📝 Idea: ${pending.idea}\n` +
       `🖼️ Imagen: Tu foto\n` +
-      `🎭 Estilo: ${pending.style === 'selfie' ? '🤳 Viral / Selfie' : '🛠️ Producto / Manos'}\n\n` +
+      `🎭 Estilo: ${styleNamesPhoto[pending.style] || pending.style}\n\n` +
       `⏳ Proceso:\n` +
       `1. Generando prompt cinematográfico...\n` +
       `2. Creando video con Sora 2...\n` +

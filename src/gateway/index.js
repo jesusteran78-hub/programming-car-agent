@@ -17,6 +17,7 @@ const { publishEvent, EVENT_TYPES, registerHeartbeat } = require('../core/event-
 // Import routes
 const whatsappRoutes = require('./routes/whatsapp');
 const apiRoutes = require('./routes/api');
+const videoFactoryRoutes = require('./routes/video-factory');
 
 /**
  * Creates and configures the Express application
@@ -45,6 +46,7 @@ function createApp() {
   // Mount routes
   app.use('/webhook', whatsappRoutes);
   app.use('/api', apiRoutes);
+  app.use('/video-factory', videoFactoryRoutes);
 
   // Error handler
   app.use((err, req, res, next) => {

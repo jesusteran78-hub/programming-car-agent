@@ -32,6 +32,7 @@ const COMMAND_PREFIXES = {
   video: 'marcus',
   selfie: 'marcus',
   viral: 'marcus',
+  ugc: 'marcus',
 
   // Operations (Diego)
   ops: 'diego',
@@ -86,11 +87,13 @@ function getHelpMessage() {
 - ventas status - Estado de ventas
 
 **Marcus (Marketing):**
-- mkt video [idea] - Te pide foto primero
-- mkt selfie [idea] - Video viral (Tu cara)
-- mkt video [idea] | default - Usa imagen default
+- mkt ugc [idea] - UGC Selfie viral (SIEMPRE pide foto)
+- mkt video [idea] - Video cinematico
+- mkt viral [idea] - Hook viral TikTok
+- mkt [estilo] [idea] | [url] - Usar imagen URL
 - mkt status - Estado de videos
 - mkt pendiente - Ver video esperando foto
+- mkt cancelar - Cancelar video pendiente
 
 **Diego (Operaciones):**
 - ops status - Estado de operaciones
@@ -292,9 +295,9 @@ async function routeCommand(rawCommand) {
     } else if (prefix === 'video') {
       // video is a direct command for marcus
       result = await processor(`video ${subCommand}`);
-    } else if (prefix === 'selfie' || prefix === 'viral') {
-      // selfie/viral are direct commands for marcus
-      result = await processor(`selfie ${subCommand}`);
+    } else if (prefix === 'selfie' || prefix === 'viral' || prefix === 'ugc') {
+      // selfie/viral/ugc are direct commands for marcus
+      result = await processor(`${prefix} ${subCommand}`);
     } else if (prefix === 'gasto') {
       // gasto is a direct command for sofia
       result = await processor(`add ${subCommand}`);

@@ -128,10 +128,16 @@ app.post('/webhook', async (req, res) => {
         const isAtlasCmd = atlasCommandRouter.isOwnerCommand(userText);
         logger.info(`🔍 ATLAS Command Check: "${userText}" => ${isAtlasCmd}`);
         if (isAtlasCmd) {
-          const result = await atlasCommandRouter.routeCommand(userText);
-          logger.info(`📬 ATLAS Routed to ${result.agent}: "${userText.substring(0, 30)}..."`);
-          await sendToWhapi(senderNumber, result.message);
-          return res.sendStatus(200);
+          try {
+            const result = await atlasCommandRouter.routeCommand(userText);
+            logger.info(`📬 ATLAS Routed to ${result.agent}: "${userText.substring(0, 30)}..."`);
+            await sendToWhapi(senderNumber, result.message);
+            return res.sendStatus(200);
+          } catch (routeError) {
+            logger.error(`❌ ATLAS Command Error: ${routeError.message}`);
+            await sendToWhapi(senderNumber, `Error procesando comando: ${routeError.message}`);
+            return res.sendStatus(200);
+          }
         }
 
         // 3. Try legacy dispatcher for non-ATLAS commands (video, etc.)
@@ -378,6 +384,9 @@ if (USE_ATLAS) {
 // START SERVER
 // ==========================================
 if (require.main === module) {
+  // Import health monitor for auto-start
+  const healthMonitor = require('./src/core/health-monitor');
+
   app.listen(PORT, () => {
     logger.info(`🚀 Agente de Ventas escuchando en puerto ${PORT}`);
     logger.info(`🔗 Webhook local: http://localhost:${PORT}/webhook`);
@@ -385,6 +394,10 @@ if (require.main === module) {
 
     if (USE_ATLAS) {
       logger.info('🤖 ATLAS Agents: Alex, Marcus, Diego, Sofia, Viper');
+
+      // Start health monitoring (checks every 5 minutes, alerts via WhatsApp)
+      healthMonitor.startMonitoring(sendToWhapi, 300000);
+      logger.info('🏥 Health Monitor: ACTIVE (5min intervals)');
     }
   });
 }

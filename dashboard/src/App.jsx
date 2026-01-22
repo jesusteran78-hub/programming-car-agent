@@ -5,6 +5,7 @@ import MarketingView from './MarketingView';
 import AgendaView from './AgendaView';
 import SupervisorView from './SupervisorView';
 import DataView from './DataView';
+import OutreachView from './OutreachView';
 
 function App() {
   const [currentView, setCurrentView] = useState('marketing');
@@ -41,6 +42,8 @@ function App() {
         return <DataView />;
       case 'marketing':
         return <MarketingView />;
+      case 'outreach':
+        return <OutreachView />;
       case 'finance':
         return (
           <div className="flex flex-col items-center justify-center h-full bg-white rounded-2xl border border-dashed border-slate-300 m-4">
@@ -104,6 +107,12 @@ function App() {
             onClick={() => setCurrentView('data')}
           />
           <NavItem
+            icon="🐍"
+            label="Outreach (Viper)"
+            active={currentView === 'outreach'}
+            onClick={() => setCurrentView('outreach')}
+          />
+          <NavItem
             icon="💸"
             label="Finanzas"
             active={currentView === 'finance'}
@@ -136,6 +145,7 @@ function App() {
               {currentView === 'supervisor' && '👨‍🏫 Panel de Entrenamiento'}
               {currentView === 'data' && '🗄️ Registros del Sistema'}
               {currentView === 'marketing' && '🚀 Motor de Creación Viral'}
+              {currentView === 'outreach' && '🐍 Outreach - Viper'}
               {currentView === 'finance' && '💸 Finanzas'}
             </h2>
           </div>

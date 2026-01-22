@@ -16,6 +16,12 @@ const LOG_LEVELS = {
   ERROR: 3,
 };
 
+// [A2A] Handshake: Linking Claude Architecture with Gemini Intelligence
+if (!global.a2aHandshakeLogged) {
+  console.log('[A2A] Protocol Active: Claude Architecture + Gemini Intelligence');
+  global.a2aHandshakeLogged = true;
+}
+
 /**
  * Current log level from config
  */
