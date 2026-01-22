@@ -806,6 +806,56 @@ async function generateTTSAudio(text, outputPath) {
 }
 
 /**
+ * Adds watermark ONLY to video, keeping original Sora 2 audio
+ * @param {string} videoUrl - Video URL
+ * @param {string} title - Video title for watermark
+ * @returns {Promise<string>} - Final video URL
+ */
+async function addWatermarkOnly(videoUrl, title = '') {
+  const tempDir = path.join(__dirname, '..', '..', '..', 'temp');
+  if (!fs.existsSync(tempDir)) {
+    fs.mkdirSync(tempDir, { recursive: true });
+  }
+
+  const videoPath = path.join(tempDir, `video_${Date.now()}.mp4`);
+  const outputPath = path.join(tempDir, `final_${Date.now()}.mp4`);
+
+  // Font path for watermark
+  const fontPathRaw = path.join(__dirname, '..', '..', '..', 'assets', 'arial.ttf');
+  const fontPath = fontPathRaw.replace(/\\/g, '/').replace(/:/g, '\\:');
+
+  // Download video
+  logger.info('Downloading video for watermark processing...');
+  const videoResponse = await axios.get(videoUrl, { responseType: 'arraybuffer' });
+  fs.writeFileSync(videoPath, videoResponse.data);
+
+  // Watermark filter (animated floating text)
+  const watermarkText = 'PROGRAMMING CAR | 786-478-2531';
+  const watermarkFilter = `drawtext=fontfile='${fontPath}':text='${watermarkText}':fontcolor=white@0.8:fontsize=24:x='(w-text_w)/2+sin(t/1.5)*100':y='(h-text_h)/2+cos(t/1.8)*150':box=1:boxcolor=black@0.5:boxborderw=5`;
+
+  // FFmpeg binary
+  const localFfmpeg = path.join(__dirname, '..', '..', '..', 'ffmpeg.exe');
+  const ffmpegBin = fs.existsSync(localFfmpeg) ? `"${localFfmpeg}"` : 'ffmpeg';
+
+  logger.info(`Using FFmpeg: ${ffmpegBin}`);
+
+  // Keep original audio (-c:a copy), only add watermark to video
+  const ffmpegCmd = `${ffmpegBin} -i "${videoPath}" -c:v libx264 -preset fast -crf 23 -vf "${watermarkFilter}" -c:a copy -y "${outputPath}"`;
+
+  await execPromise(ffmpegCmd);
+  logger.info('Video processed with watermark (original audio preserved)');
+
+  // Upload to Cloudinary
+  const finalUrl = await uploadToCloudinary(outputPath);
+
+  // Cleanup
+  fs.unlinkSync(videoPath);
+  fs.unlinkSync(outputPath);
+
+  return finalUrl;
+}
+
+/**
  * Merges video with audio using FFmpeg
  * @param {string} videoUrl - Video URL
  * @param {string} audioPath - Audio file path
@@ -921,13 +971,12 @@ async function generateVideo(title, idea, imageUrl = null, jobId = null) {
     let videoUrl = await createKieVideo(soraPrompt, imageUrl || DEFAULT_IMAGE);
 
     // Step 3: Publish / Process Video
-    if (style === 'selfie') {
-      // For Selfie/Viral: NO TTS, NO Watermark, Keep Original Audio
-      logger.info('Style is Selfie: Skipping TTS and Watermark. Uploading direct output...');
+    if (style === 'selfie' || style === 'ugc' || style === 'viral') {
+      // For Selfie/UGC/Viral: Add watermark but KEEP original Sora 2 audio (no TTS)
+      logger.info('Style is UGC/Selfie: Adding watermark, keeping original audio...');
 
-      // Upload the KIE url directly to Cloudinary to persist it
-      const finalUrl = await uploadToCloudinary(videoUrl);
-      videoUrl = finalUrl;
+      // Add watermark only, preserve original audio
+      videoUrl = await addWatermarkOnly(videoUrl, title);
 
     } else {
       // For Product: Generate TTS + Watermark
@@ -987,6 +1036,7 @@ module.exports = {
   createKieVideo,
   generateAudioScript,
   generateTTSAudio,
+  addWatermarkOnly,
   mergeVideoWithAudio,
   uploadToCloudinary,
 };
