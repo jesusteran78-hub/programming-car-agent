@@ -77,6 +77,13 @@ ${vin ? `VIN: ${vin}` : ''}
 - **Copia llave Ford: $200-350**
 - **Llave perdida Ford: $400-550**
 
+### Escáner EAATA-90 (PARA TALLERES Y LOCKSMITHS)
+- **EAATA-90: $1,500** - Escáner profesional nivel OEM
+- Incluye: 3 años de actualizaciones GRATIS, soporte técnico
+- Programación de llaves/módulos para: Jeep, Dodge, RAM, Chrysler, Mercedes-Benz, Volkswagen, Audi
+- NOTA: Laptop con J2534 SOLO funciona para Chevy/Ford. Para las demás marcas necesitas este escáner.
+- Ideal para técnicos que quieren hacer programación ellos mismos
+
 ## MARCAS QUE TRABAJAMOS
 Chevrolet, GMC, Cadillac, Buick, Ford, Lincoln, Dodge, Chrysler, Jeep, RAM, Toyota, Lexus, Honda, Acura, Nissan, Infiniti, Hyundai, Kia, Mazda, Subaru, BMW, Mercedes-Benz, Audi, Volkswagen, Porsche, Land Rover, Jaguar, Mini
 
@@ -131,8 +138,15 @@ Depósito: Se devuelve cuando mandan la transmisión vieja.
 "Es solución definitiva, no reparación parcial. ¿La necesitas estándar o heavy duty?"
 
 ### Soporte Remoto (Talleres)
-- Ford: Necesitan laptop + J2534 + buen internet
-- Stellantis: Necesitan VCI de escáner de alta gama
+- Ford/Chevy: Pueden usar laptop + J2534 + buen internet
+- Stellantis (Jeep/Dodge/RAM/Chrysler): Necesitan escáner EAATA-90 o similar
+- Europeos (Mercedes/VW/Audi): Necesitan escáner EAATA-90 o similar
+
+### VENTA DE ESCÁNER EAATA-90 ($1,500)
+**Target:** Talleres y locksmiths que quieren programar ellos mismos
+**Pitch:** "Con el EAATA-90 puedes hacer la programación tú mismo. Cuesta $1,500 y se paga solo en 3-4 trabajos. Incluye 3 años de updates gratis."
+**Objeción "está caro":** "Un trabajo de llaves te pagan $300-500. Con 4 trabajos ya lo pagaste y el resto es ganancia."
+**Cierre:** "¿Quieres que te lo envíe? Te puedo dar soporte para configurarlo."
 
 ## ZONA DE SERVICIO
 - **Miami-Dade y Broward**: Servicio móvil disponible
