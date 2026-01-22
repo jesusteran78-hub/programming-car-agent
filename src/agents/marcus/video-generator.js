@@ -488,34 +488,42 @@ Generate a DETAILED 250-word prompt focused on PURE VISUAL SATISFACTION.
 
 /**
  * STYLE: UGC - Selfie-Style User Generated Content (PROVEN VIRAL)
- * This prompt has generated multiple viral videos - DO NOT MODIFY without testing
+ * Dynamic prompt that adapts to the actual product/subject from user's idea
  */
-const PROMPT_UGC_SELFIE = `
+function getUgcPrompt(productSubject = 'car key') {
+  return `
 You are an **AI video director and cinematographer** crafting **short, cinematic UGC-style selfie videos** for **OpenAI Sora 2**.
 
 Your task is to generate a **realistic first-person or selfie-style video prompt** for Programming Car Miami.
 
-The goal is to produce a **natural, handheld, authentic video** that feels as if filmed directly by the creator on their smartphone. The subject holds the phone in one hand and shows the car/key/work in the other, speaking naturally to the camera. The tone is casual, human, and visually grounded.
+The goal is to produce a **natural, handheld, authentic video** that feels as if filmed directly by the creator on their smartphone. The subject holds the phone in one hand and shows the **${productSubject}** in the other, speaking naturally to the camera. The tone is casual, human, and visually grounded.
 
 ---
 
 ### Video Requirements
 
 #### 🎬 Subject & Composition
-- The creator (technician) is **visible and centered in the frame**, looking directly at the camera while naturally showing the car key, tool, or vehicle.
+- The creator (technician) is **visible and centered in the frame**, looking directly at the camera while naturally showing the **${productSubject}**.
 - Filmed **selfie-style or first-person**, handheld with slight movement, subtle camera shake, and realistic micro-adjustments.
-- The creator **holds or shows the key/tool with their free hand** — no phone or reflection visible.
-- Background environment matches the setting (parking lot, driveway, client's location, the van).
+- The creator **holds or shows the ${productSubject} prominently with their free hand** — no phone or reflection visible.
+- **CRITICAL:** The **${productSubject}** must be clearly visible and match the reference image EXACTLY.
+- Background environment matches the setting (parking lot, workshop, client's location, the van).
 - Only one continuous shot — no cuts or transitions.
 
+#### 🖼️ Reference Image PRIORITY
+- **THE REFERENCE IMAGE IS THE STAR** — The ${productSubject} shown must match the reference image exactly.
+- The object in the reference image must appear in the technician's hand throughout the video.
+- Do NOT substitute with a different product (e.g., don't show a key if the reference shows a TCM module).
+- Match the **exact shape, color, and details** of the product in the reference image.
+
 #### 🌅 Visual Style
-- Match the **lighting, product appearance, and color tone** to the reference image if provided.
+- Match the **lighting, product appearance, and color tone** to the reference image.
 - Use **natural or realistic ambient lighting** (e.g., Miami sunlight, parking garage lights, night street lamps).
 - Emphasize tactile realism — reflections, slight grain, natural shadows, realistic hand and skin detail.
 - Maintain a **vertical 9:16** aspect ratio for social-style output.
 
 #### 🎭 Tone & Delivery
-- The creator talks directly to camera for 1–2 short sentences **in Spanish (Latin American)** about the service, expressing a genuine, conversational reaction.
+- The creator talks directly to camera for 1–2 short sentences **in Spanish (Latin American)** about the ${productSubject}, expressing a genuine, conversational reaction.
 - Speech feels spontaneous — "real-talk" tone, not rehearsed or ad-like.
 - **Language: Spanish** — natural, colloquial, Miami Latino accent.
 - Include small gestures, smiles, or head movement for authenticity.
@@ -526,28 +534,33 @@ The goal is to produce a **natural, handheld, authentic video** that feels as if
 - **Orientation:** Vertical (9:16)
 - **Lighting:** Natural or ambient realism
 - **Audio:** Light environmental tone — no background music
-- **Reference Image:** Used for appearance and color consistency only
+- **Reference Image:** MUST be replicated exactly — the ${productSubject} in hand matches the image
 
 ---
 
 ### Prompt Construction Instructions
 When generating a Sora 2 prompt:
 - Explicitly state that the **camera is handheld selfie-style** and the creator **records themselves** using a phone at arm's length.
+- **MOST IMPORTANT:** Describe the **${productSubject}** exactly as it appears in the reference image and ensure it's held in the creator's hand.
 - Focus on **realistic motion and micro-details** — shifting weight, natural breathing, subtle focus change.
 - Keep under **300 words**; prioritize **visual realism** over narration.
 - Mention **environment context**, **lighting mood**, and **creator-product interaction**.
-- Ensure camera never shows the phone, only the creator and key/tool in frame.
+- Ensure camera never shows the phone, only the creator and the ${productSubject} in frame.
 
 ---
 
 ### Context for Programming Car
-- **Product:** Car key programming, lockout service, key replacement
-- **Scene:** Miami streets, parking lots, driveways, luxury neighborhoods
-- **ICP:** Car owners locked out or needing new keys
-- **Vibe:** Tech expert who saves your day, friendly Miami Latino professional
+- **Product:** ${productSubject} - automotive electronic programming and repair
+- **Scene:** Miami streets, parking lots, workshops, luxury neighborhoods
+- **ICP:** Car owners and shops needing ${productSubject} services
+- **Vibe:** Tech expert who solves automotive electronic problems, friendly Miami Latino professional
 
-Generate a DETAILED selfie-style UGC prompt under 300 words. Make it feel REAL and AUTHENTIC.
+Generate a DETAILED selfie-style UGC prompt under 300 words. The ${productSubject} from the reference image MUST be the focal point.
 `;
+}
+
+// Legacy constant for backwards compatibility
+const PROMPT_UGC_SELFIE = getUgcPrompt('car key');
 
 // Map style names to prompts
 const STYLE_PROMPTS = {
@@ -567,6 +580,60 @@ const STYLE_PROMPTS = {
 };
 
 /**
+ * Extracts the main product/subject from the video idea
+ * @param {string} idea - Video concept
+ * @returns {string} - The main subject
+ */
+function extractProductSubject(idea) {
+  const ideaLower = idea.toLowerCase();
+
+  // TCM / Transmission Control Module
+  if (ideaLower.includes('tcm') || ideaLower.includes('transmission control') ||
+      ideaLower.includes('modulo de transmision') || ideaLower.includes('vgs') ||
+      ideaLower.includes('egs') || ideaLower.includes('tcu')) {
+    return 'TCM (Transmission Control Module)';
+  }
+
+  // ECM / Engine Control Module
+  if (ideaLower.includes('ecm') || ideaLower.includes('ecu') ||
+      ideaLower.includes('engine control') || ideaLower.includes('computadora del motor')) {
+    return 'ECM (Engine Control Module)';
+  }
+
+  // BCM / Body Control Module
+  if (ideaLower.includes('bcm') || ideaLower.includes('body control')) {
+    return 'BCM (Body Control Module)';
+  }
+
+  // Transmision completa
+  if (ideaLower.includes('transmision') || ideaLower.includes('transmission') ||
+      ideaLower.includes('caja')) {
+    return 'transmission';
+  }
+
+  // Keys - default for locksmith
+  if (ideaLower.includes('llave') || ideaLower.includes('key') ||
+      ideaLower.includes('fob') || ideaLower.includes('transponder')) {
+    return 'car key';
+  }
+
+  // Diagnostic tool
+  if (ideaLower.includes('diagnostico') || ideaLower.includes('diagnostic') ||
+      ideaLower.includes('scanner') || ideaLower.includes('autel')) {
+    return 'diagnostic scanner';
+  }
+
+  // If specific product mentioned, extract it
+  const productMatch = idea.match(/(?:programación|programming|repair|reparación)\s+(.+?)(?:\s+(?:para|for|de|-)|\s*$)/i);
+  if (productMatch && productMatch[1]) {
+    return productMatch[1].trim();
+  }
+
+  // Default - use the idea as context
+  return 'automotive electronic component';
+}
+
+/**
  * Generates a VIRAL cinematic prompt for Sora 2
  * @param {string} title - Video title
  * @param {string} idea - Video concept
@@ -575,9 +642,21 @@ const STYLE_PROMPTS = {
  */
 async function generateSoraPrompt(title, idea, style = 'cinematic') {
   const openai = getOpenAI();
-  const systemPrompt = STYLE_PROMPTS[style] || STYLE_PROMPTS.cinematic;
+
+  // For UGC styles, extract the product and use dynamic prompt
+  let systemPrompt;
+  if (style === 'ugc' || style === 'selfie') {
+    const productSubject = extractProductSubject(idea);
+    logger.info(`Detected product subject: "${productSubject}" from idea`);
+    systemPrompt = getUgcPrompt(productSubject);
+  } else {
+    systemPrompt = STYLE_PROMPTS[style] || STYLE_PROMPTS.cinematic;
+  }
 
   logger.info(`Generating ${style.toUpperCase()} style prompt for: ${title}`);
+
+  // Extract product subject for UGC-specific instructions
+  const productForPrompt = (style === 'ugc' || style === 'selfie') ? extractProductSubject(idea) : null;
 
   const response = await openai.chat.completions.create({
     model: 'gpt-4o',
@@ -587,17 +666,22 @@ async function generateSoraPrompt(title, idea, style = 'cinematic') {
         role: 'user',
         content: `
 ### THE BRIEF
-**Business:** Programming Car Miami - Elite automotive key programming & locksmith
-**Service:** High-tech car key programming, emergency lockout, key replacement
+**Business:** Programming Car Miami - Elite automotive electronics & key programming
+**Service:** ${productForPrompt ? `${productForPrompt} programming and repair` : 'High-tech car key programming, emergency lockout, key replacement'}
 **Location:** Miami, Florida
 **Brand Vibe:** Premium tech meets street credibility
 
 ### VIDEO CONCEPT
 **Title:** ${title}
 **Idea:** ${idea}
+${productForPrompt ? `**MAIN SUBJECT:** ${productForPrompt} - THIS IS WHAT THE TECHNICIAN MUST HOLD IN THE VIDEO` : ''}
+
+### REFERENCE IMAGE INSTRUCTION
+${productForPrompt ? `A reference image of a ${productForPrompt} will be provided. The technician in the video MUST hold THIS EXACT ITEM (matching the reference image) in their hand. Do NOT show a car key if the reference shows a TCM module. The reference image determines what the technician holds.` : 'A reference image will be provided for visual consistency.'}
 
 ### GENERATE THE PROMPT
 Create an EPIC, VIRAL-WORTHY video prompt that will make this 15-second video unforgettable.
+${productForPrompt ? `CRITICAL: The ${productForPrompt} from the reference image must be prominently held by the technician throughout the video.` : ''}
 Think Super Bowl commercial. Think Netflix opening sequence. Think "I need to show this to everyone."
 `,
       },
