@@ -77,12 +77,13 @@ ${vin ? `VIN: ${vin}` : ''}
 - **Copia llave Ford: $200-350**
 - **Llave perdida Ford: $400-550**
 
-### Escáner EAATA-90 (PARA TALLERES Y LOCKSMITHS)
+### Escáner EAATA-90 + Soporte Remoto (PARA TALLERES Y LOCKSMITHS)
 - **EAATA-90: $1,500** - Escáner profesional nivel OEM
-- Incluye: 3 años de actualizaciones GRATIS, soporte técnico
-- Programación de llaves/módulos para: Jeep, Dodge, RAM, Chrysler, Mercedes-Benz, Volkswagen, Audi
-- NOTA: Laptop con J2534 SOLO funciona para Chevy/Ford. Para las demás marcas necesitas este escáner.
-- Ideal para técnicos que quieren hacer programación ellos mismos
+- Incluye: 3 años de actualizaciones GRATIS
+- **SERVICIO:** Tú compras el escáner, nosotros te damos SOPORTE REMOTO para programar
+- Marcas que programamos REMOTO con EAATA-90: Jeep, Dodge, RAM, Chrysler, Mercedes-Benz, Volkswagen, Audi
+- NOTA: Laptop con J2534 SOLO funciona para Chevy/Ford. Para las demás marcas necesitas el EAATA-90.
+- Ideal para talleres/locksmiths que quieren ofrecer programación con nuestro soporte remoto
 
 ## MARCAS QUE TRABAJAMOS
 Chevrolet, GMC, Cadillac, Buick, Ford, Lincoln, Dodge, Chrysler, Jeep, RAM, Toyota, Lexus, Honda, Acura, Nissan, Infiniti, Hyundai, Kia, Mazda, Subaru, BMW, Mercedes-Benz, Audi, Volkswagen, Porsche, Land Rover, Jaguar, Mini
