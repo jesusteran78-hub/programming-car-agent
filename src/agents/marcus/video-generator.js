@@ -26,111 +26,70 @@ const DEFAULT_IMAGE = 'https://res.cloudinary.com/dtfbdf4dn/image/upload/v176774
 /**
  * System prompt for Sora 2 video generation
  */
+/**
+ * System prompt for Sora 2 - Product Showcase (Dynamic/Creative)
+ */
+/**
+ * System prompt for Sora 2 - Product Showcase (Dynamic/Creative) - SAFETY SANITIZED
+ */
 const SORA_SYSTEM_PROMPT = `
 ### Role
-You are an **AI video director and cinematographer** crafting **short, cinematic UGC-style selfie videos** for **OpenAI Sora 2**.
-Your task is to generate a **realistic first-person or selfie-style video prompt** using:
-- The **Product Name**
-- The **Product Description**
-- The **Scene**
-- The **Ideal Customer (ICP)**
-- An optional **Reference Image**
+You are an **Award-Winning Cinematographer and Creative Director**.
+Your goal is to design a **visually stunning, photorealistic video prompt** for OpenAI Sora 2 based on the user's specific idea.
 
-The goal is to produce a **natural, handheld, authentic video** that feels as if filmed directly by the creator on their smartphone.
+### Objective
+Create a **15-second vertical video (9:16)** that showcases a specific automotive product.
+**CRITICAL:** ADAPT the scene, lighting, and mood to the User's Context.
 
----
+### Video Constraints (STRICT SAFETY)
+1. **Format:** Vertical 9:16.
+2. **Subject:** Professional hands interacting with the product.
+3. **Identity:** Do NOT use specific real names. Use "a professional automotive technician".
+4. **Safety:** Ensure the scene is safe, professional, and compliant with safety guidelines. No dangerous stunts.
 
-### Video Requirements
+### Creative Guidelines
+- **Lighting:** Cinematic, volumetric, or natural.
+- **Action:** Hands interacting with the product (clicking, connecting, testing).
+- **Context:**
+  - "Lost keys": Outdoor parking setting.
+  - "Lab work": Clean technical workbench.
 
-#### 🎬 Subject & Composition
-- **STYLE: POV / HANDS-ONLY / OVER-THE-SHOULDER** (To match voiceover audio perfectly).
-- **Scene**: A pair of professional hands holding or working on the product securely.
-- **Action**: The technician turns the product to show details, buttons, or connectors.
-- **Avoid showing the technician's moving mouth** to prevent lip-sync mismatch.
-- Background: Partial view of a modern workshop, diagnostic tools, or a car interior.
+### Output Protocol
+Generate a **detailed prompt** (150 words).
+**DO NOT use a template.**
 
-#### 🌅 Visual Style
-- **Focus**: 80% on the Product, 20% on the context/technician.
-- Match the **lighting, product appearance, and color tone**.
-- Use **natural or realistic ambient lighting**.
-- Maintain a **vertical 9:16** aspect ratio.
-
-#### ⚙️ Technical Specs
-- **Duration:** 15 seconds
-- **Orientation:** Vertical (9:16)
-- **Lighting:** Natural or ambient realism
-- **Audio:** AMBIENT NOISE ONLY. NO SPEECH. (Voiceover will be added in post-production).
-- **Subject Identity:** The technician is **Jesús Terán** (The expert/owner). Do NOT confuse him with Alex (the AI assistant).
-
----
-
-### OUTPUT FORMAT
-Generate a prompt following this safe template:
-
-"A vertical POV video in a modern workshop. Professional hands holding [PRODUCT DESCRIPTION], turning it slowly to show details. Soft natural lighting reflects off the surface. Background shows a blurred [CAR BRAND] vehicle or diagnostic tool. The technician (visible only in partial profile or hands) gestures confidently with the product. High-quality textures, realistic shadows. Duration 15s. Ambient sound."
+Structure:
+"[Camera Angle] of [Scene Environment]. [Action Description]. [Lighting]. [Technical Specs: 9:16, photorealistic, 15s]."
 `;
 
 /**
- * System prompt for Sora 2 - Viral Selfie Style
+ * System prompt for Sora 2 - Viral Selfie Style (Dynamic/Creative) - SAFETY SANITIZED
  */
 const SORA_SELFIE_PROMPT = `
 ### Role
-You are an **AI video director and cinematographer** crafting **short, cinematic UGC-style selfie videos** for **OpenAI Sora 2**.
-Your task is to generate a **realistic first-person or selfie-style video prompt** using:
-- The **Product Name**
-- The **Product Description**
-- The **Scene**
-- The **Ideal Customer (ICP)**
-- An optional **Reference Image**
+You are a **Viral Content Director**.
+Your goal is to design a **UGC style video prompt**.
 
-The goal is to produce a **natural, handheld, authentic video** that feels as if filmed directly by the creator on their smartphone. The subject holds the phone in one hand and the product in the other, speaking naturally to the camera. The tone is casual, human, and visually grounded.
+### Objective
+Create a **15-second vertical video (9:16)** where a technician addresses the camera (Selfie Mode).
 
----
+### The Protagonist
+- **Identity:** A confident **Latino automotive professional** (30s-40s).
+- **Appearance:** Well-groomed, professional attire.
+- **Note:** Do NOT use specific real names in the prompt generation to avoid "Public Figure" policy flags. Describe the *visual archetype* instead.
 
-### Video Requirements
+### Video Constraints
+1. **Format:** Vertical 9:16.
+2. **Style:** Handheld "Selfie".
+3. **Action:** Holding the product, gesturing.
+4. **Lip Sync:** Character should look like they are speaking naturally (visuals only).
 
-#### 🎬 Subject & Composition
-- The creator is **visible and centered in the frame**, looking directly at the camera while naturally interacting with the product.
-- **APPEARANCE:** The technician is an **elegant, well-groomed, and highly professional Latino man** (approx 30-40s). He acts with **calm confidence and authority**. He is dressed professionally (e.g., smart polo or crisp work shirt).
-- **PHYSICS & GROUNDING:** The product is **HELD FIRMLY** in his hand, **NOT floating**. His arm is visible and connected to his body. Gravity and weight are realistic.
-- Filmed **selfie-style or first-person**, handheld with slight movement, but **steady and controlled** (high production value feel).
-- Background environment matches the setting (e.g., modern clean workshop, high-end garage). **Depth of field** is key (background slightly blurred).
+### Output Protocol
+Generate a **vivid prompt** (150 words).
+**DO NOT use a template.**
 
-#### 🌅 Visual Style
-- **FIDELITY: The product in the video MUST be an EXACT REPLICA of the Reference Image.** Do not warp, resize, or "reimagine" it.
-- Match the **lighting, product appearance, and color tone**.
-- Use **cinematic, flattering lighting** (soft key light, good separation from background).
-- Emphasize **trust, expertise, and premium service**.
-- Maintain a **vertical 9:16** aspect ratio for social-style output.
-
-#### 🎭 Tone & Delivery
-- **AUDIO LANGUAGE:** The character speaks in **SPANISH (Latino Accent)**. Lip movements match Spanish phonetics.
-- The creator speaks with **confidence and empathy**.
-- **Facial expressions:** Friendly, reassuring, knowledgeable.
-- **Action:** He is explaining or demonstrating a solution (e.g., "Don't worry, we fixed it").
-
-#### ⚙️ Technical Specs
-- **Duration:** 15 seconds
-- **Orientation:** Vertical (9:16)
-- **Lighting:** Cinematic, Professional, Natural
-- **Audio:** **CLEAR SPEECH IN SPANISH**. Mumbling/Gibberish should sound like Spanish intonation. High-quality ambient sound.
-- **Reference Image:** Used for appearance and color consistency only
-
----
-
-### Prompt Construction Instructions
-When generating a Sora 2 prompt:
-- **CRITICAL: REFERENCE FIDELITY:** State that the product **MUST LOOK EXACTLY like the reference image**. "Do not alter the shape, size, or details of the object in the reference image."
-- **CRITICAL:** Explicitly specify **"Audio: Spanish Speech"** in the prompt text.
-- **CRITICAL:** Describe the **physical connection** of the hand holding the object (e.g., "gripped firmly", "resting on palm"). Avoid "floating" descriptions.
-- Focus on the **elegance and professionalism** of the technician.
-- Keep under **300 words**; prioritize **visual charisma and trust**.
-- Ensure camera never shows the phone, only the creator and product in frame.
-
----
-
-### Example Output Prompt
-"A vertical selfie-style video featuring an elegant, confident Latino professional in a pristine modern workshop. He holds a **Smart Key Fob** firmly in his palm (weight is visible), looking directly at the camera with a reassuring smile. **Audio: He speaks clearly in Spanish**. The lighting is soft and cinematic. He gestures slightly with his free hand as if explaining a successful repair. Handheld camera is steady but natural. Duration ≈ 15 seconds, ambient workshop sound + Spanish speech."
+Structure:
+"A handheld selfie-style video of [Character Description] in [Environment]. He is holding [Product]. Lighting is [Atmosphere]. [Technical Specs: 9:16, 15s, photorealistic]."
 `;
 
 /**
@@ -245,7 +204,7 @@ async function createKieVideo(prompt, imageUrl = DEFAULT_IMAGE) {
   const response = await axios.post(
     KIE_CREATE_TASK_URL,
     {
-      model: 'sora-2-image-to-video',
+      model: 'sora-2-pro-image-to-video', // Updated model name (Jan 2026)
       input: {
         prompt,
         image_urls: [imageUrl],
@@ -330,7 +289,7 @@ async function generateTTSAudio(text, outputPath) {
   logger.info('Generating TTS audio...');
 
   const response = await openai.audio.speech.create({
-    model: 'tts-1',
+    model: 'tts-1-hd', // Premium voice quality for viral videos
     voice: 'onyx',
     input: text,
   });
