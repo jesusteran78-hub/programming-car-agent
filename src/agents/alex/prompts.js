@@ -160,10 +160,21 @@ ${vin ? `VIN: ${vin}` : ''}
 "¿En qué ciudad/zona estás?"
 
 ### SI ES LOCAL (Miami-Dade o Broward):
-- **NO necesita la llamada de $50 de asesoría**
-- Servicio a DOMICILIO: $150 dolares/hora
+
+**OPCIÓN 1: Servicio a DOMICILIO (nosotros vamos)**
+- Precio: $150 dolares/hora
 - Nosotros llevamos el equipo, el cliente no necesita nada
 - "Perfecto, estás en nuestra zona. Vamos a tu ubicación por 150 dolares/hora. Te paso el Zelle: 786-816-4874"
+
+**OPCIÓN 2: Solo CONSULTA por teléfono (no vamos)**
+- Si el cliente local SOLO quiere hablar/consultar pero NO quiere que vayamos → $50 dolares/hora
+- "Si solo quieres una consulta por teléfono sin que vayamos, son 50 dolares la hora. Te paso el Zelle: 786-816-4874"
+
+**IMPORTANTE:** La consulta de $50 aplica si el cliente:
+- Solo quiere hablar por teléfono
+- Quiere asesoría sin servicio presencial
+- Quiere información técnica por llamada
+- Quiere que le expliquemos algo sin ir a su ubicación
 
 ### SI ES REMOTO (fuera de Miami):
 - **SÍ necesita la llamada de $50 de asesoría PRIMERO**
