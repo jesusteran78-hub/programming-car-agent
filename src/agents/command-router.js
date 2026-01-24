@@ -33,6 +33,9 @@ const COMMAND_PREFIXES = {
   selfie: 'marcus',
   viral: 'marcus',
   ugc: 'marcus',
+  txt: 'marcus',       // TEXT-TO-VIDEO (no photo)
+  txt2vid: 'marcus',   // TEXT-TO-VIDEO alias
+  texto: 'marcus',     // TEXT-TO-VIDEO Spanish alias
 
   // Operations (Diego)
   ops: 'diego',
@@ -87,7 +90,8 @@ function getHelpMessage() {
 - ventas status - Estado de ventas
 
 **Marcus (Marketing):**
-- mkt ugc [idea] - UGC Selfie viral (SIEMPRE pide foto)
+- mkt ugc [idea] - UGC Selfie viral (pide foto)
+- mkt txt [idea] - TEXT-TO-VIDEO (SIN foto)
 - mkt video [idea] - Video cinematico
 - mkt viral [idea] - Hook viral TikTok
 - mkt [estilo] [idea] | [url] - Usar imagen URL
@@ -296,8 +300,11 @@ async function routeCommand(rawCommand) {
       // video is a direct command for marcus
       result = await processor(`video ${subCommand}`);
     } else if (prefix === 'selfie' || prefix === 'viral' || prefix === 'ugc') {
-      // selfie/viral/ugc are direct commands for marcus
+      // selfie/viral/ugc are direct commands for marcus (image-to-video)
       result = await processor(`${prefix} ${subCommand}`);
+    } else if (prefix === 'txt' || prefix === 'txt2vid' || prefix === 'texto') {
+      // txt/txt2vid/texto are direct commands for marcus (text-to-video, no photo)
+      result = await processor(`txt ${subCommand}`);
     } else if (prefix === 'gasto') {
       // gasto is a direct command for sofia
       result = await processor(`add ${subCommand}`);

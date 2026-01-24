@@ -696,7 +696,7 @@ async function pollKieTask(taskId) {
 }
 
 /**
- * Creates video using KIE/Sora 2 API
+ * Creates video using KIE/Sora 2 API (IMAGE-TO-VIDEO)
  * @param {string} prompt - Video prompt
  * @param {string} imageUrl - Reference image URL
  * @returns {Promise<string>} - Video URL
@@ -719,7 +719,7 @@ async function createKieVideo(prompt, imageUrl = DEFAULT_IMAGE) {
     logger.warn(`Upscaler not available: ${e.message}`);
   }
 
-  logger.info('Creating KIE task...');
+  logger.info('Creating KIE IMAGE-TO-VIDEO task...');
 
   const response = await axios.post(
     KIE_CREATE_TASK_URL,
@@ -748,6 +748,46 @@ async function createKieVideo(prompt, imageUrl = DEFAULT_IMAGE) {
   }
 
   logger.info(`KIE Task created: ${taskId}`);
+  return pollKieTask(taskId);
+}
+
+/**
+ * Creates video using KIE/Sora 2 TEXT-TO-VIDEO (NO IMAGE REQUIRED)
+ * @param {string} prompt - Video prompt (describes entire scene)
+ * @returns {Promise<string>} - Video URL
+ */
+async function createKieTextToVideo(prompt) {
+  if (!config.kieApiKey) {
+    throw new Error('KIE_API_KEY not configured');
+  }
+
+  logger.info('Creating KIE TEXT-TO-VIDEO task...');
+
+  const response = await axios.post(
+    KIE_CREATE_TASK_URL,
+    {
+      model: 'sora-2-pro-text-to-video', // Text-to-video (no image)
+      input: {
+        prompt,
+        aspect_ratio: 'portrait',
+        n_frames: '15',
+        size: 'standard',
+      },
+    },
+    {
+      headers: {
+        Authorization: `Bearer ${config.kieApiKey}`,
+        'Content-Type': 'application/json',
+      },
+    }
+  );
+
+  const taskId = response.data.data?.taskId;
+  if (!taskId) {
+    throw new Error('No Task ID received from KIE');
+  }
+
+  logger.info(`KIE Text-to-Video Task created: ${taskId}`);
   return pollKieTask(taskId);
 }
 
@@ -1046,10 +1086,85 @@ async function generateVideo(title, idea, imageUrl = null, jobId = null) {
   }
 }
 
+/**
+ * Generates video using TEXT-TO-VIDEO (no image required)
+ * For concept videos, ideas, promotional content
+ * @param {string} title - Video title
+ * @param {string} idea - Video concept/prompt
+ * @param {object} options - Options (jobId, style)
+ * @returns {Promise<object>}
+ */
+async function generateTextToVideo(title, idea, options = {}) {
+  const { jobId: inputJobId, style = 'cinematic' } = options;
+  const internalJobId = inputJobId || `txt2vid-${Date.now()}`;
+  const supabase = getSupabase();
+
+  logger.info(`Starting TEXT-TO-VIDEO generation: ${title} (Job #${internalJobId})`);
+
+  // Save job to database
+  await supabase.from('video_jobs').insert({
+    job_id: internalJobId,
+    status: 'processing',
+    title,
+    idea,
+    style: `txt2vid-${style}`,
+  });
+
+  try {
+    // Step 1: Generate Sora prompt for text-to-video
+    logger.info(`Step 1: Generating text-to-video prompt (Style: ${style})...`);
+    const soraPrompt = await generateSoraPrompt(title, idea, style);
+
+    // Step 2: Create video with KIE TEXT-TO-VIDEO
+    logger.info('Step 2: Creating video with KIE/Sora 2 TEXT-TO-VIDEO...');
+    let videoUrl = await createKieTextToVideo(soraPrompt);
+
+    // Step 3: Add watermark only (no TTS for text-to-video)
+    logger.info('Step 3: Adding watermark...');
+    videoUrl = await addWatermarkOnly(videoUrl, title);
+
+    // Update job as complete
+    await supabase
+      .from('video_jobs')
+      .update({
+        status: 'completed',
+        video_url: videoUrl,
+        prompt: soraPrompt,
+        completed_at: new Date().toISOString(),
+      })
+      .eq('job_id', internalJobId);
+
+    logger.info(`TEXT-TO-VIDEO generation complete: ${videoUrl}`);
+
+    return {
+      success: true,
+      jobId: internalJobId,
+      videoUrl,
+      prompt: soraPrompt,
+      mode: 'text-to-video',
+    };
+  } catch (error) {
+    logger.error(`TEXT-TO-VIDEO generation failed: ${error.message}`);
+
+    await supabase
+      .from('video_jobs')
+      .update({
+        status: 'failed',
+        error: error.message,
+        completed_at: new Date().toISOString(),
+      })
+      .eq('job_id', internalJobId);
+
+    throw error;
+  }
+}
+
 module.exports = {
   generateVideo,
+  generateTextToVideo,  // NEW: Text-to-video (no image required)
   generateSoraPrompt,
   createKieVideo,
+  createKieTextToVideo, // NEW: Direct KIE text-to-video
   generateAudioScript,
   generateTTSAudio,
   addWatermarkOnly,

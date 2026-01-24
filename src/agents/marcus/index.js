@@ -17,7 +17,7 @@ const {
   registerHeartbeat,
 } = require('../../core/event-bus');
 
-const { generateVideo } = require('./video-generator');
+const { generateVideo, generateTextToVideo } = require('./video-generator');
 const {
   generateCaptions,
   publishToAllPlatforms,
@@ -487,6 +487,66 @@ async function processOwnerCommand(command) {
       };
     }
 
+    // TEXT-TO-VIDEO: No photo required - generates from text only
+    case 'txt':
+    case 'txt2vid':
+    case 'texto': {
+      if (!args) {
+        return {
+          success: false,
+          message:
+            `❌ Falta la idea del video.\n\n` +
+            '**🎬 TEXT-TO-VIDEO (Sin foto)**\n\n' +
+            '• **mkt txt [idea]** - Video desde texto\n\n' +
+            '**EJEMPLOS:**\n' +
+            '• mkt txt tecnico programando TCM en taller miami\n' +
+            '• mkt txt manos sosteniendo llave ford f150\n' +
+            '• mkt txt van de servicio llegando a parking\n\n' +
+            '**NOTA:** Este modo NO requiere foto.\n' +
+            'Para videos con TU foto real, usa:\n' +
+            '• mkt ugc [idea] → Te pide foto por WhatsApp',
+        };
+      }
+
+      const jobId = `txt2vid-${Date.now()}`;
+      logger.info(`Starting TEXT-TO-VIDEO job ${jobId}: ${args}`);
+
+      // Start text-to-video generation (no photo needed)
+      generateTextToVideo(args, args, { jobId, style: 'cinematic' })
+        .then((result) => {
+          if (result.success) {
+            notifyOwner(
+              `🎬 **Video TXT2VID #${jobId} completado!**\n\n` +
+              `📝 Idea: ${args}\n` +
+              `📹 ${result.videoUrl}\n\n` +
+              `✅ Generado desde TEXTO (sin foto)`
+            );
+          }
+        })
+        .catch((e) => {
+          logger.error(`Text-to-video job ${jobId} failed: ${e.message}`);
+          notifyOwner(
+            `❌ **Video TXT2VID #${jobId} falló**\n\n` +
+            `Error: ${e.message}`
+          );
+        });
+
+      return {
+        success: true,
+        message:
+          `🎬 **Video TEXT-TO-VIDEO iniciado**\n\n` +
+          `🆔 Job: #${jobId}\n` +
+          `📝 Idea: ${args}\n` +
+          `🖼️ Modo: Sin foto (texto puro)\n\n` +
+          `⏳ Proceso:\n` +
+          `1. Generando prompt cinematográfico...\n` +
+          `2. Creando video con Sora 2 TEXT-TO-VIDEO...\n` +
+          `3. Agregando watermark...\n` +
+          `4. Publicando en redes...\n\n` +
+          `Te notificaré cuando esté listo.`,
+      };
+    }
+
     case 'cancelar':
     case 'cancel': {
       const pending = pendingPhotoJobs.get('owner');
@@ -540,28 +600,23 @@ async function processOwnerCommand(command) {
         success: true,
         message:
           '🎬 **VIRAL VIDEO FACTORY - Marcus**\n\n' +
-          '**10 ESTILOS SUPER BOWL LEVEL:**\n' +
-          '• mkt ugc [idea] - 📱 UGC Selfie (VIRAL PROBADO)\n' +
-          '• mkt video [idea] - 🎥 Cinematico (Netflix)\n' +
-          '• mkt viral [idea] - 🔥 Hook viral (100M views)\n' +
-          '• mkt luxury [idea] - 💎 Premium (Rolex)\n' +
-          '• mkt story [idea] - 🎭 Mini-pelicula\n' +
-          '• mkt hypebeast [idea] - 🌴 Miami Street\n' +
-          '• mkt pov [idea] - 👁️ Primera persona\n' +
-          '• mkt tech [idea] - 🤖 Cyberpunk/Hacker\n' +
-          '• mkt emergency [idea] - 🚨 Rescate 3AM\n' +
-          '• mkt satisfying [idea] - 😌 ASMR/Satisfactorio\n\n' +
-          '**USO (siempre requiere foto):**\n' +
-          '• mkt ugc [idea] → Te pide foto por WhatsApp\n' +
-          '• mkt ugc [idea] | [url] → Usa esa imagen URL\n\n' +
+          '**DOS MODOS DE GENERACION:**\n\n' +
+          '**📸 CON FOTO (Image-to-Video):**\n' +
+          '• mkt ugc [idea] - 📱 UGC Selfie (pide foto)\n' +
+          '• mkt video [idea] - 🎥 Cinematico\n' +
+          '• mkt viral [idea] - 🔥 Hook viral\n' +
+          '• mkt luxury [idea] - 💎 Premium\n' +
+          '• mkt [estilo] [idea] | [url] - Con URL imagen\n\n' +
+          '**📝 SIN FOTO (Text-to-Video):**\n' +
+          '• mkt txt [idea] - 🎬 Video desde TEXTO\n\n' +
           '**COMANDOS:**\n' +
           '• mkt status - Videos recientes\n' +
           '• mkt pendiente - Video esperando foto\n' +
           '• mkt cancelar - Cancelar pendiente\n\n' +
           '**EJEMPLOS:**\n' +
-          '• mkt ugc acabo de programar llave mercedes\n' +
-          '• mkt viral rescate bmw 3am en brickell\n' +
-          '• mkt tech descifrando codigo de tesla',
+          '• mkt ugc acabo de programar llave → Te pide foto\n' +
+          '• mkt txt tecnico sosteniendo TCM miami → Sin foto\n' +
+          '• mkt viral rescate 3am | http://imagen.jpg → Con URL',
       };
     }
   }
