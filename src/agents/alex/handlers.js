@@ -14,6 +14,9 @@ const { checkInternalPrices } = require('../../../price_checker');
 const { getStoredPrice } = require('../../../price_manager');
 const { createPriceRequest } = require('../../../price_request_manager');
 
+// Google Calendar integration
+const googleCalendar = require('../../services/google-calendar');
+
 /**
  * Handles get_system_status tool call
  * @param {object} args - Tool arguments
@@ -272,18 +275,153 @@ async function handleUpdateLeadStatus(args, leadId) {
 }
 
 /**
- * Handles schedule_appointment tool call
- * @param {object} args - Tool arguments
- * @param {string} leadId - Lead ID
+ * Handles check_calendar tool call
+ * Uses Google Calendar for real availability
+ * @param {object} args - Tool arguments (date, range)
  * @returns {Promise<object>}
  */
-async function handleScheduleAppointment(args, leadId) {
+async function handleCheckCalendar(args) {
+  const { date, range = 'day' } = args;
+
+  try {
+    // Default to today if no date provided
+    const targetDate = date ? new Date(date) : new Date();
+    const dateStr = targetDate.toISOString().split('T')[0]; // YYYY-MM-DD
+
+    if (range === 'week') {
+      // Get week view from Google Calendar
+      const endDate = new Date(targetDate);
+      endDate.setDate(endDate.getDate() + 7);
+      const endDateStr = endDate.toISOString().split('T')[0];
+
+      const result = await googleCalendar.getEventsInRange(dateStr, endDateStr);
+
+      if (!result.success) {
+        logger.error('Error checking Google Calendar:', result.error);
+        return { error: result.error };
+      }
+
+      if (!result.events || result.events.length === 0) {
+        return {
+          message: 'No hay citas programadas para esta semana',
+          appointments: [],
+          available: true,
+        };
+      }
+
+      // Format appointments for display
+      const appointments = result.events.map((event) => {
+        const eventDate = new Date(event.start);
+        return {
+          date: eventDate.toLocaleDateString('es-ES', { weekday: 'short', day: 'numeric', month: 'short' }),
+          time: eventDate.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' }),
+          service: event.summary,
+          location: event.location || 'Por confirmar',
+        };
+      });
+
+      logger.info(`Calendar check (week): ${appointments.length} appointments found`);
+      return {
+        message: `${appointments.length} cita(s) programada(s) esta semana`,
+        appointments,
+        available: true,
+      };
+    } else {
+      // Single day - check availability
+      const result = await googleCalendar.checkAvailability(dateStr);
+
+      if (!result.success) {
+        logger.error('Error checking Google Calendar:', result.error);
+        return { error: result.error };
+      }
+
+      const formattedDate = targetDate.toLocaleDateString('es-ES', {
+        weekday: 'long',
+        day: 'numeric',
+        month: 'long',
+      });
+
+      if (!result.events || result.events.length === 0) {
+        return {
+          message: `No hay citas programadas para ${formattedDate}`,
+          appointments: [],
+          available: true,
+          freeSlots: result.freeSlots,
+        };
+      }
+
+      // Format appointments for display
+      const appointments = result.events.map((event) => {
+        const eventDate = new Date(event.start);
+        return {
+          date: formattedDate,
+          time: eventDate.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' }),
+          service: event.summary,
+        };
+      });
+
+      logger.info(`Calendar check: ${appointments.length} appointments found`);
+      return {
+        message: `${appointments.length} cita(s) programada(s) para ${formattedDate}`,
+        appointments,
+        available: result.freeSlots && result.freeSlots.length > 0,
+        freeSlots: result.freeSlots,
+        busySlots: result.busySlots,
+      };
+    }
+  } catch (error) {
+    logger.error('Error in handleCheckCalendar:', error);
+    return { error: error.message };
+  }
+}
+
+/**
+ * Handles schedule_appointment tool call
+ * Creates appointment in both Supabase and Google Calendar
+ * @param {object} args - Tool arguments
+ * @param {string} leadId - Lead ID
+ * @param {object} context - Additional context (notificationCallback, leadData)
+ * @returns {Promise<object>}
+ */
+async function handleScheduleAppointment(args, leadId, context = {}) {
   const { date, time, service_type, location, notes } = args;
+  const { notificationCallback, leadData } = context;
 
   try {
     const supabase = getSupabase();
 
-    // Create scheduled job
+    // Build client info
+    const vehicle = leadData?.make
+      ? `${leadData.make} ${leadData.model || ''} ${leadData.year || ''}`.trim()
+      : 'Sin vehículo';
+    const clientPhone = leadData?.phone?.replace('@s.whatsapp.net', '') || 'Desconocido';
+    const clientName = leadData?.name || 'Cliente';
+
+    // 1. Create Google Calendar event FIRST
+    let calendarEvent = null;
+    try {
+      const calendarResult = await googleCalendar.createAppointment({
+        date,
+        time,
+        serviceType: service_type,
+        clientName,
+        clientPhone,
+        vehicle,
+        location: location || '',
+        notes: notes || '',
+      });
+
+      if (calendarResult.success) {
+        calendarEvent = calendarResult.event;
+        logger.info(`Google Calendar event created: ${calendarEvent.id}`);
+      } else {
+        logger.warn('Failed to create Google Calendar event:', calendarResult.error);
+      }
+    } catch (calError) {
+      logger.warn('Google Calendar error (non-blocking):', calError.message);
+    }
+
+    // 2. Create scheduled job in Supabase (backup/CRM tracking)
     const { data, error } = await supabase
       .from('scheduled_jobs')
       .insert({
@@ -292,7 +430,12 @@ async function handleScheduleAppointment(args, leadId) {
         job_type: service_type,
         scheduled_for: `${date}T${time}:00`,
         status: 'scheduled',
-        payload: { location, notes },
+        payload: {
+          location,
+          notes,
+          google_calendar_id: calendarEvent?.id || null,
+          google_calendar_link: calendarEvent?.htmlLink || null,
+        },
         notes: notes,
       })
       .select()
@@ -302,7 +445,7 @@ async function handleScheduleAppointment(args, leadId) {
       return { error: error.message };
     }
 
-    // Update lead status
+    // 3. Update lead status
     if (leadId) {
       await supabase
         .from('leads')
@@ -310,8 +453,39 @@ async function handleScheduleAppointment(args, leadId) {
         .eq('id', leadId);
     }
 
-    logger.info(`Appointment scheduled for ${date} at ${time}`);
-    return { success: true, appointment: data };
+    // 4. NOTIFY OWNER about new appointment
+    if (notificationCallback) {
+      const calendarLink = calendarEvent?.htmlLink ? `\n🔗 Calendar: ${calendarEvent.htmlLink}` : '';
+
+      const ownerNotification = `🗓️ *NUEVA CITA AGENDADA*
+
+📅 Fecha: ${date}
+⏰ Hora: ${time}
+🔧 Servicio: ${service_type}
+🚗 Vehículo: ${vehicle}
+👤 Cliente: ${clientName}
+📞 Teléfono: ${clientPhone}
+📍 Ubicación: ${location || 'Por confirmar'}
+${notes ? `📝 Notas: ${notes}` : ''}${calendarLink}
+
+⚠️ *PENDIENTE: Confirmar pago antes de la cita*`;
+
+      try {
+        const OWNER_NUMBER = process.env.OWNER_PHONE || '17864782531';
+        await notificationCallback(`${OWNER_NUMBER}@s.whatsapp.net`, ownerNotification);
+        logger.info('Owner notified about new appointment');
+      } catch (notifyError) {
+        logger.warn('Failed to notify owner:', notifyError.message);
+      }
+    }
+
+    logger.info(`Appointment scheduled for ${date} at ${time} (Calendar: ${calendarEvent?.id || 'none'})`);
+    return {
+      success: true,
+      appointment: data,
+      google_calendar: calendarEvent ? { id: calendarEvent.id, link: calendarEvent.htmlLink } : null,
+      owner_notified: !!notificationCallback,
+    };
   } catch (error) {
     logger.error('Error in handleScheduleAppointment:', error);
     return { error: error.message };
@@ -344,8 +518,11 @@ async function executeTool(toolName, args, context = {}) {
     case 'update_lead_status':
       return handleUpdateLeadStatus(args, leadId);
 
+    case 'check_calendar':
+      return handleCheckCalendar(args);
+
     case 'schedule_appointment':
-      return handleScheduleAppointment(args, leadId);
+      return handleScheduleAppointment(args, leadId, { notificationCallback, leadData });
 
     default:
       logger.warn(`Unknown tool: ${toolName}`);
@@ -359,6 +536,7 @@ module.exports = {
   handleLookupKeyInfo,
   handleCheckInternalKeyCost,
   handleUpdateLeadStatus,
+  handleCheckCalendar,
   handleScheduleAppointment,
   executeTool,
 };

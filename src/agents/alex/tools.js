@@ -107,9 +107,25 @@ const TOOLS = [
   {
     type: 'function',
     function: {
+      name: 'check_calendar',
+      description:
+        'Consulta la agenda para ver citas existentes. USAR ANTES de agendar para verificar disponibilidad. Devuelve las citas del día o semana solicitada.',
+      parameters: {
+        type: 'object',
+        properties: {
+          date: { type: 'string', description: 'Fecha a consultar (YYYY-MM-DD). Si no se especifica, usa hoy.' },
+          range: { type: 'string', enum: ['day', 'week'], description: 'Ver solo el día o toda la semana (default: day)' },
+        },
+        required: [],
+      },
+    },
+  },
+  {
+    type: 'function',
+    function: {
       name: 'schedule_appointment',
       description:
-        'Programa una cita para servicio. Usar cuando el cliente confirma fecha y hora.',
+        'Programa una cita para servicio. IMPORTANTE: Primero usar check_calendar para verificar disponibilidad. Solo agendar DESPUÉS de confirmar pago.',
       parameters: {
         type: 'object',
         properties: {

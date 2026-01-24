@@ -29,6 +29,7 @@
     "express": "^5.2.1",
     "fast-csv": "^5.0.5",
     "google-libphonenumber": "^3.2.43",
+    "googleapis": "^170.1.0",
     "openai": "^6.16.0",
     "pg": "^8.17.2",
     "replicate": "^1.4.0"
