@@ -225,10 +225,23 @@ function formatAllStatus(status) {
  * @param {string} rawCommand - Raw command string from owner
  * @returns {Promise<object>}
  */
-async function routeCommand(rawCommand) {
+async function routeCommand(rawCommand, imageUrl = null) {
   const command = rawCommand.trim().toLowerCase();
 
-  logger.info(`Routing command: ${command}`);
+  logger.info(`Routing command: ${command} ${imageUrl ? '(with image)' : ''}`);
+
+  // 0. Intercept images for Marcus (Pending Photo Jobs)
+  if (imageUrl && marcus.hasPendingPhotoJob()) {
+    logger.info('Intercepting photo for Marcus pending job');
+    const photoResult = await marcus.handleIncomingPhoto(imageUrl);
+    if (photoResult.handled) {
+      return {
+        success: true,
+        message: photoResult.message,
+        agent: 'marcus',
+      };
+    }
+  }
 
   // Help command
   if (command === 'help' || command === 'ayuda' || command === '?') {
