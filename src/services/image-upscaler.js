@@ -64,7 +64,7 @@ async function upscaleImage(imageUrl, options = {}) {
     if (result.status === 'failed') {
       // Check for authentication error in the error message
       const errorMessage = result.error || 'Prediction failed';
-      if (errorMessage.includes('Unauthenticated') || errorMessage.includes('401')) {
+      if (errorMessage.includes('Unauthenticated') || errorMessage.includes('401') || errorMessage.includes('authentication failed')) {
         logger.warn('Replicate authentication failed (Image Upscaler). Continuing with original image.');
         return { success: false, error: 'Replicate authentication failed', originalUrl: imageUrl };
       }
