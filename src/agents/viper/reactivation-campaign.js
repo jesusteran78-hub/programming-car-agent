@@ -1,89 +1,75 @@
 /**
  * Viper Reactivation Campaign Logic
- * Locates stale leads and generates re-engagement messages
+ * CAMPAIGN: EXPERT CONSULTANT ($50 Credit)
+ * Target: Recent stuck leads or anyone with unsolved problems.
  *
  * @module src/agents/viper/reactivation-campaign
  */
 const { getSupabase } = require('../../core/supabase');
-const { getOpenAI } = require('../../core/openai');
 const logger = require('../../core/logger').child('ViperCampaign');
 
 /**
- * Finds leads that have gone cold (no interaction for > 30 days)
+ * Finds recent leads that are NOT 'won' (Stuck/Ghosted)
+ * Target: Last 45 days.
  * @param {number} limit - Max leads to fetch
- * @returns {Promise<Array>} List of stale leads
+ * @returns {Promise<Array>} List of target leads
  */
-async function findStaleLeads(limit = 5) {
+async function findStaleLeads(limit = 20) {
     try {
         const supabase = getSupabase();
 
-        // Logic:
-        // 1. Created more than 30 days ago
-        // 2. Status is NOT 'won' (we don't want to bug happy customers yet)
-        // 3. Status is NOT 'lost' (unless we want to try to win them back, but let's start with stalled ones)
-        // 4. Ideally, we'd check last_interaction, but for now we'll use created_at as a proxy if interaction log isn't robust
+        // We want RECENT stuck leads (active in last 45 days but not closed)
+        const fortyFiveDaysAgo = new Date();
+        fortyFiveDaysAgo.setDate(fortyFiveDaysAgo.getDate() - 45);
 
-        const thirtyDaysAgo = new Date();
-        thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
-
-        const { data: leads, error } = await supabase
-            .from('leads')
-            .select('*')
-            .lt('created_at', thirtyDaysAgo.toISOString())
-            .neq('status', 'won')
-            .neq('status', 'lost') // Optional: remove this if you want to reactivate lost leads
-            .order('created_at', { ascending: false }) // Newest "old" leads first
-            .limit(limit);
+        // Perform JOIN to get lead details (phone, name)
+        const { data: conversations, error } = await supabase
+            .from('conversations')
+            .select('*, leads!inner(id, phone, name)') // Use inner join to ensure lead exists
+            .gt('created_at', fortyFiveDaysAgo.toISOString())
+            .order('created_at', { ascending: false })
+            .limit(limit * 3); // Fetch more to deduplicate
 
         if (error) throw error;
 
-        return leads || [];
+        // Deduplicate by phone number and map to flat structure
+        const uniqueLeads = new Map();
+
+        for (const conv of conversations) {
+            if (conv.leads && conv.leads.phone) {
+                if (!uniqueLeads.has(conv.leads.phone)) {
+                    uniqueLeads.set(conv.leads.phone, {
+                        ...conv,
+                        phone_number: conv.leads.phone,
+                        name: conv.leads.name,
+                        real_lead_id: conv.leads.id // Explicitly capturing true lead ID
+                    });
+                }
+            }
+        }
+
+        return Array.from(uniqueLeads.values()).slice(0, limit);
     } catch (e) {
-        logger.error('Error finding stale leads:', e);
+        logger.error('Error finding target leads:', e);
         return [];
     }
 }
 
 /**
- * Generates a personalized reactivation message using GPT-4o
+ * Generates the "Expert Consultant" message
  * @param {object} lead - Lead object
- * @returns {Promise<string>} The generated message
+ * @returns {Promise<string>} The fixed message
  */
 async function generateReactivationMessage(lead) {
-    try {
-        const openai = getOpenAI();
-        const carInfo = lead.vehicle_year && lead.vehicle_model
-            ? `${lead.vehicle_year} ${lead.vehicle_make} ${lead.vehicle_model}`
-            : 'su auto';
+    // FIXED COPY WRITING: SYSTEM UPDATE APOLOGY + CONSULTANT OFFER
+    return `Hola ${lead.name || ''}, habla el Ing. Jesús Terán.
 
-        const response = await openai.chat.completions.create({
-            model: 'gpt-4o',
-            messages: [
-                {
-                    role: 'system',
-                    content: `You are Viper, a helpful automotive locksmith assistant.
-Your goal: Re-engage a customer who asked about a key months ago but stopped replying.
-Tone: Casual, friendly, short (WhatsApp style). "Did you ever fix this?" approach.
-Language: Spanish (Latin American).
-Constraints:
-- Mention the specific car if known (${carInfo}).
-- DO NOT sound like a sales bot. Sound like a human checking in.
-- Max 2 sentences.
-- End with a low-pressure question.`
-                },
-                {
-                    role: 'user',
-                    content: `Customer Name: ${lead.name || 'Amigo'}\nCar: ${carInfo}\nOriginal Request: ${lead.notes || 'Car key quote'}`
-                }
-            ],
-            max_tokens: 100
-        });
+Te escribo porque **actualizamos nuestra plataforma** y noté que tu caso se quedó sin respuesta por un error del sistema anterior. Una disculpa por la demora. 🙏
 
-        return response.choices[0].message.content.trim();
-    } catch (e) {
-        logger.error('Error generating reactivation message:', e);
-        return `Hola ${lead.name || ''}, ¿cómo estás? Quería saber si lograste resolver lo de la llave de ${lead.vehicle_make || 'tu auto'}. Avisame si necesitas ayuda todavía.`;
-    }
+Para compensarlo y darte la atención que mereces, he abierto mi **Agenda de Consultoría ($50 USD)** para casos como el tuyo.
+En 1 hora revisamos a fondo tu auto. Si decides hacer el trabajo con nosotros, **te abono el 100% de la consulta**.
+
+¿Te interesa reactivar tu caso hoy?`;
 }
 
 /**
@@ -91,25 +77,30 @@ Constraints:
  * @param {number} limit 
  */
 async function dryRunCampaign(limit = 5) {
-    logger.info(`Starting DRY RUN campaign (Limit: ${limit})...`);
+    logger.info(`Starting EXPERT CONSULTANT Campaign (Limit: ${limit})...`);
     const leads = await findStaleLeads(limit);
 
     if (leads.length === 0) {
-        logger.info('No stale leads found.');
+        logger.info('No leads found.');
         return [];
     }
 
+    const uniquePhones = new Set();
     const results = [];
+
     for (const lead of leads) {
+        if (uniquePhones.has(lead.phone_number)) continue;
+        uniquePhones.add(lead.phone_number);
+
         const message = await generateReactivationMessage(lead);
         const result = {
-            phone: lead.phone,
-            name: lead.name,
-            car: `${lead.vehicle_year || ''} ${lead.vehicle_make || ''} ${lead.vehicle_model || ''}`,
+            phone: lead.phone_number,
             proposedMessage: message
         };
-        logger.info(`[DRY RUN] Would send to ${lead.phone}: "${message}"`);
+        logger.info(`[TARGET] ${lead.phone_number}`);
         results.push(result);
+
+        if (results.length >= limit) break;
     }
     return results;
 }
@@ -119,3 +110,4 @@ module.exports = {
     generateReactivationMessage,
     dryRunCampaign
 };
+
