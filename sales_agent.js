@@ -102,13 +102,18 @@ app.post('/webhook', async (req, res) => {
       // --- OWNER COMMAND ROUTING (ATLAS) ---
       if (isOwner(senderNumber)) {
         // 0. Check if owner sent a photo while Marcus is waiting for one
-        if (userImage && atlasMarcus.hasPendingPhotoJob()) {
-          logger.info('📸 Owner sent photo, Marcus has pending job');
-          const photoResult = await atlasMarcus.handleIncomingPhoto(userImage);
-          if (photoResult.handled) {
-            logger.info('📬 Photo routed to Marcus for video generation');
-            await sendToWhapi(senderNumber, photoResult.message);
-            return res.sendStatus(200);
+        if (userImage) {
+          const hasPending = atlasMarcus.hasPendingPhotoJob();
+          logger.info(`📸 Image received. Marcus pending job check: ${hasPending}`);
+
+          if (hasPending) {
+            logger.info('📸 Owner sent photo, Marcus has pending job');
+            const photoResult = await atlasMarcus.handleIncomingPhoto(userImage);
+            if (photoResult.handled) {
+              logger.info('📬 Photo routed to Marcus for video generation');
+              await sendToWhapi(senderNumber, photoResult.message);
+              return res.sendStatus(200);
+            }
           }
         }
 
@@ -129,7 +134,8 @@ app.post('/webhook', async (req, res) => {
         logger.info(`🔍 ATLAS Command Check: "${userText}" => ${isAtlasCmd}`);
         if (isAtlasCmd) {
           try {
-            const result = await atlasCommandRouter.routeCommand(userText);
+            // PASS userImage TO ROUTER
+            const result = await atlasCommandRouter.routeCommand(userText, userImage);
             logger.info(`📬 ATLAS Routed to ${result.agent}: "${userText.substring(0, 30)}..."`);
             await sendToWhapi(senderNumber, result.message);
             return res.sendStatus(200);

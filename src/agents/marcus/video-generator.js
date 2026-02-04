@@ -19,6 +19,7 @@ const logger = require('../../core/logger').child('VideoGen');
 // KIE API Endpoints
 const KIE_CREATE_TASK_URL = 'https://api.kie.ai/api/v1/jobs/createTask';
 const KIE_GET_TASK_URL = 'https://api.kie.ai/api/v1/jobs/recordInfo';
+const BLOTATO_API_URL = 'https://backend.blotato.com/v2/posts';
 
 // Default image for video generation
 const DEFAULT_IMAGE = 'https://res.cloudinary.com/dtfbdf4dn/image/upload/v1767748438/ugc-auto/nbdfysted9kuvfcpgy28.png';
@@ -604,17 +605,18 @@ async function generateSoraPrompt(title, idea, style = 'cinematic') {
 **Location:** Miami, Florida
 **Brand Vibe:** Premium tech meets street credibility
 
-### VIDEO CONCEPT
-**Title:** ${title}
-**Idea/Product:** ${idea}
+### INPUT DATA
+Video Title: "${title}"
+Video Idea: "${idea}"
 
-### REFERENCE IMAGE INSTRUCTION
-${isUgcStyle ? `**CRITICAL:** A reference image will be provided showing the EXACT PRODUCT. The creator in the video MUST hold THIS EXACT PRODUCT from the reference image in their hand. Whatever is in the reference image (TCM, key, module, transmission part, etc.) is what appears in the video. Do NOT substitute with a different product.` : 'A reference image will be provided for visual consistency.'}
+### MANDATORY REQUIREMENTS
+1. **PHONE NUMBER:** The video (if it contains text or audio) MUST display/say exactly: "786-478-2531". NO OTHER NUMBER.
+2. **BRAND:** "Programming Car Miami"
 
 ### GENERATE THE PROMPT
 Create an EPIC, VIRAL-WORTHY video prompt that will make this 15-second video unforgettable.
 ${isUgcStyle ? `The product from the reference image MUST be held/shown by the creator throughout the video.` : ''}
-Think Super Bowl commercial. Think Netflix opening sequence. Think "I need to show this to everyone."
+IMPORTANT: Keep the prompt CONCISE and EFFICIENT (under 40 words) to optimize generation costs. Focus on the core visual elements only.
 `,
       },
     ],
@@ -760,7 +762,7 @@ async function createKieVideo(prompt, imageUrl = DEFAULT_IMAGE) {
   const response = await axios.post(
     KIE_CREATE_TASK_URL,
     {
-      model: 'sora-2-pro-image-to-video', // Updated model name (Jan 2026)
+      model: 'sora-2-image-to-video', // User requested SORA 2 (Cheaper)
       input: {
         prompt,
         image_urls: [finalImageUrl],
@@ -802,7 +804,7 @@ async function createKieTextToVideo(prompt) {
   const response = await axios.post(
     KIE_CREATE_TASK_URL,
     {
-      model: 'sora-2-pro-text-to-video', // Text-to-video (no image)
+      model: 'sora-2-text-to-video', // User requested SORA 2 (Cheaper)
       input: {
         prompt,
         aspect_ratio: 'portrait',
@@ -1047,7 +1049,7 @@ async function generateVideo(title, idea, imageUrl = null, jobId = null) {
     status: 'processing',
     title,
     idea,
-    style: jobId instanceof Object ? jobId.style : 'product', // Store style if passed
+    // style: jobId instanceof Object ? jobId.style : 'product', // Column missing in DB
   });
 
   const style = jobId instanceof Object ? jobId.style : 'product';
@@ -1085,6 +1087,19 @@ async function generateVideo(title, idea, imageUrl = null, jobId = null) {
       // Step 4: Merge video + audio
       logger.info('Step 4: Merging video with audio and watermark...');
       videoUrl = await mergeVideoWithAudio(videoUrl, audioPath, title);
+    }
+
+    // Step 5: Publish to Blotato
+    logger.info('Step 5: Publishing to Blotato...');
+    let captions = {};
+    let postResults = {};
+    try {
+      const publishResult = await publishToBlotato(internalJobId, videoUrl, title, soraPrompt);
+      captions = publishResult.captions;
+      postResults = publishResult.results;
+    } catch (pubError) {
+      logger.error(`Publishing failed: ${pubError.message}`);
+      // Don't fail the whole job, just log it
     }
 
     // Update job as complete
@@ -1138,13 +1153,18 @@ async function generateTextToVideo(title, idea, options = {}) {
   logger.info(`Starting TEXT-TO-VIDEO generation: ${title} (Job #${internalJobId})`);
 
   // Save job to database
-  await supabase.from('video_jobs').insert({
+  const { error: dbError } = await supabase.from('video_jobs').insert({
     job_id: internalJobId,
     status: 'processing',
     title,
     idea,
-    style: `txt2vid-${style}`,
+    // style: `txt2vid-${style}`, // Column missing in DB
   });
+
+  if (dbError) {
+    logger.error(`DB INSERT FAILED: ${dbError.message}`, dbError);
+    // process continues but at least we know
+  }
 
   try {
     // Step 1: Generate Sora prompt for text-to-video
@@ -1158,6 +1178,18 @@ async function generateTextToVideo(title, idea, options = {}) {
     // Step 3: Add watermark only (no TTS for text-to-video)
     logger.info('Step 3: Adding watermark...');
     videoUrl = await addWatermarkOnly(videoUrl, title);
+
+    // Step 4: Publish to Blotato
+    logger.info('Step 4: Publishing to Blotato...');
+    let captions = {};
+    let postResults = {};
+    try {
+      const publishResult = await publishToBlotato(internalJobId, videoUrl, title, soraPrompt);
+      captions = publishResult.captions;
+      postResults = publishResult.results;
+    } catch (pubError) {
+      logger.error(`Publishing failed: ${pubError.message}`);
+    }
 
     // Update job as complete
     await supabase
@@ -1206,4 +1238,166 @@ module.exports = {
   addWatermarkOnly,
   mergeVideoWithAudio,
   uploadToCloudinary,
+  publishToBlotato, // Export for manual scripts
+  generateViralCaption,
 };
+
+// ==========================================
+// BLOTATO PUBLISHING
+// ==========================================
+
+async function generateViralCaption(title, script) {
+  const openai = getOpenAI();
+  const response = await openai.chat.completions.create({
+    model: 'gpt-4o',
+    messages: [
+      {
+        role: 'system',
+        content: `Eres un experto Social Media Manager. Tu único trabajo es generar los textos (captions) perfectos para cada plataforma.
+  
+              Debes devolver la respuesta estrictamente en formato JSON válido.
+  
+              Estructura esperada:
+              {
+                  "tiktok": "Texto corto + CTA + EXACTAMENTE 5 hashtags",
+                  "instagram": "Texto estético + CTA + EXACTAMENTE 5 hashtags",
+                  "facebook": "Texto informativo + CTA + EXACTAMENTE 5 hashtags",
+                  "youtube": "Título SEO + Descripción + CTA + EXACTAMENTE 5 hashtags",
+                  "twitter": "Texto corto (max 280 chars) + CTA + EXACTAMENTE 5 hashtags"
+              }
+  
+              REGLAS DE CTA (CALL TO ACTION) - OBLIGATORIO:
+              - SIEMPRE mencionar a "Alex" como el asistente que responde por WhatsApp
+              - SIEMPRE incluir el link de WhatsApp: wa.me/17864782531
+              - Ejemplos de CTA:
+                * "Escríbele a Alex: wa.me/17864782531"
+                * "Alex te atiende al momento: wa.me/17864782531"
+                * "Cotiza con Alex: wa.me/17864782531"
+                * "WhatsApp Alex: wa.me/17864782531"
+              - El CTA va ANTES de los hashtags
+  
+              REGLAS ESTRICTAS DE HASHTAGS:
+              - SIEMPRE incluir EXACTAMENTE 5 hashtags en CADA plataforma
+              - Los hashtags van AL FINAL del texto (después del CTA)
+              - Formato: #Hashtag1 #Hashtag2 #Hashtag3 #Hashtag4 #Hashtag5
+              - Hashtags recomendados: #ProgrammingCar #MiamiLocksmith #CarKeys #AllKeysLost #LostCarKeys #AutoKeys #KeyFob #MiamiAuto
+  
+              Reglas del Negocio:
+              - Asistente: Alex (responde por WhatsApp 24/7)
+              - WhatsApp de Alex: wa.me/17864782531
+              - Ubicación: Miami-Dade & Broward
+              - Servicio MÓVIL - vamos a donde está el cliente
+              - Tono: Profesional pero cercano, estilo Miami`,
+      },
+      {
+        role: 'user',
+        content: `Título del video: ${title}\nContexto Visual: ${script}`,
+      },
+    ],
+  });
+  return response.choices[0].message.content;
+}
+
+async function publishToBlotato(jobId, videoUrl, title, prompt) {
+  logger.info(`📡 Publishing Job ${jobId} to Blotato...`);
+
+  // 1. Generate Captions
+  const viralCaption = await generateViralCaption(title, prompt);
+  let captions;
+  try {
+    const cleanJson = viralCaption
+      .replace(/\`\`\`json/g, '')
+      .replace(/\`\`\`/g, '')
+      .trim();
+    captions = JSON.parse(cleanJson);
+  } catch (e) {
+    logger.warn('JSON parse failed for captions, using raw text');
+    captions = { tiktok: viralCaption };
+  }
+
+  const postResults = {};
+
+  if (config.blotatoApiKey || process.env.BLOTATO_API_KEY) {
+    const apiKey = config.blotatoApiKey || process.env.BLOTATO_API_KEY;
+
+    // Define targets
+    const targets = [
+      { id: process.env.BLOTATO_ACCOUNT_ID, platform: 'tiktok', caption: captions.tiktok },
+      { id: process.env.BLOTATO_INSTAGRAM_ID, platform: 'instagram', caption: captions.instagram },
+      { id: process.env.BLOTATO_YOUTUBE_ID, platform: 'youtube', caption: captions.youtube },
+      { id: process.env.BLOTATO_TWITTER_ID, platform: 'twitter', caption: captions.twitter },
+      { id: process.env.BLOTATO_FACEBOOK_ID, platform: 'facebook', caption: captions.facebook },
+    ].filter(t => t.id);
+
+    if (targets.length === 0) {
+      logger.warn('No Blotato Target IDs configured.');
+      return { captions, results: { error: 'No targets' } };
+    }
+
+    for (const target of targets) {
+      try {
+        logger.info(`🚀 Sending to ${target.platform}...`);
+
+        let targetPayload = {};
+        // Platform specific payloads
+        switch (target.platform) {
+          case 'tiktok':
+            targetPayload = {
+              targetType: 'tiktok', platform: 'tiktok',
+              privacyLevel: 'PUBLIC_TO_EVERYONE', disabledComments: false,
+              disabledDuet: false, disabledStitch: false,
+              isYourBrand: false, isAiGenerated: true, isBrandedContent: false
+            };
+            break;
+          case 'youtube':
+            targetPayload = {
+              targetType: 'youtube', platform: 'youtube',
+              title: title || 'Programming Car Video',
+              privacyStatus: 'public', shouldNotifySubscribers: true
+            };
+            break;
+          case 'facebook':
+            targetPayload = {
+              targetType: 'facebook', platform: 'facebook',
+              pageId: process.env.BLOTATO_FACEBOOK_PAGE_ID
+            };
+            break;
+          default:
+            targetPayload = { targetType: target.platform, platform: target.platform };
+        }
+
+        const response = await axios.post(
+          BLOTATO_API_URL,
+          {
+            post: {
+              accountId: target.id,
+              content: {
+                text: target.caption || captions.tiktok,
+                mediaUrls: [videoUrl],
+                platform: target.platform
+              },
+              target: targetPayload
+            }
+          },
+          {
+            headers: {
+              'Content-Type': 'application/json',
+              'blotato-api-key': apiKey
+            }
+          }
+        );
+
+        logger.info(`✅ Published to ${target.platform}: ${response.data?.id}`);
+        postResults[target.platform] = { status: 'success', data: response.data };
+
+      } catch (error) {
+        logger.error(`❌ Failed ${target.platform}: ${error.message}`);
+        postResults[target.platform] = { status: 'failed', error: error.message };
+      }
+    }
+  } else {
+    logger.warn('⚠️ No Blotato API Key found.');
+  }
+
+  return { captions, results: postResults };
+}

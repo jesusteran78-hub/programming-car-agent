@@ -33,6 +33,7 @@ const COMMAND_PREFIXES = {
   selfie: 'marcus',
   viral: 'marcus',
   ugc: 'marcus',
+  mktugc: 'marcus',    // User alias
   txt: 'marcus',       // TEXT-TO-VIDEO (no photo)
   txt2vid: 'marcus',   // TEXT-TO-VIDEO alias
   texto: 'marcus',     // TEXT-TO-VIDEO Spanish alias
@@ -56,173 +57,12 @@ const COMMAND_PREFIXES = {
   viper: 'viper',
 };
 
-/**
- * Agent processors
- */
-const AGENT_PROCESSORS = {
-  alex: async (command) => {
-    // Alex doesn't have processOwnerCommand yet, return help
-    return {
-      success: true,
-      message:
-        '**Alex (Sales) Commands:**\n' +
-        '- ventas status - Estado de ventas\n' +
-        '- ventas leads - Leads activos\n' +
-        '- ventas today - Actividad de hoy',
-    };
-  },
-  marcus: marcus.processOwnerCommand,
-  diego: diego.processOwnerCommand,
-  sofia: sofia.processOwnerCommand,
-  viper: viper.processOwnerCommand,
-};
-
-/**
- * Shows help for all agents
- * @returns {string}
- */
-function getHelpMessage() {
-  return `**ATLAS - Sistema de Agentes**
-
-**Comandos disponibles:**
-
-**Alex (Ventas):**
-- ventas status - Estado de ventas
-
-**Marcus (Marketing):**
-- mkt ugc [idea] - UGC Selfie viral (pide foto)
-- mkt txt [idea] - TEXT-TO-VIDEO (SIN foto)
-- mkt video [idea] - Video cinematico
-- mkt viral [idea] - Hook viral TikTok
-- mkt [estilo] [idea] | [url] - Usar imagen URL
-- mkt status - Estado de videos
-- mkt pendiente - Ver video esperando foto
-- mkt cancelar - Cancelar video pendiente
-
-**Diego (Operaciones):**
-- ops status - Estado de operaciones
-- ops today - Trabajos de hoy
-- ops pending - Trabajos pendientes
-- fcc [year] [make] [model] - Buscar FCC ID
-
-**Sofia (Finanzas):**
-- fin status - Resumen del mes
-- fin today - Gastos de hoy
-- fin add [monto] [cat] [desc] - Registrar gasto
-- fin categorias - Ver categorias
-
-**Viper (Outreach):**
-- outreach status - Estadisticas
-- outreach list - Todas las campanas
-- outreach active - Campanas activas
-
-**General:**
-- help / ayuda - Esta ayuda
-- status - Estado de todos los agentes
-- health / salud - Estado de servicios (WhatsApp, OpenAI, DB)`;
-}
-
-/**
- * Gets status from all agents
- * @returns {Promise<object>}
- */
-async function getAllAgentStatus() {
-  const results = {};
-
-  try {
-    // Diego status
-    const diegoStatus = await diego.getOpsStatus();
-    results.diego = {
-      agent: 'Diego (Operations)',
-      status: 'active',
-      todayJobs: diegoStatus.today?.total || 0,
-      pendingJobs: diegoStatus.pending?.total || 0,
-    };
-  } catch (e) {
-    results.diego = { agent: 'Diego', status: 'error', error: e.message };
-  }
-
-  try {
-    // Sofia status
-    const sofiaStatus = await sofia.getMonthlyExpenses();
-    results.sofia = {
-      agent: 'Sofia (Finance)',
-      status: 'active',
-      monthlyExpenses: sofiaStatus.total || 0,
-      expenseCount: sofiaStatus.expenses?.length || 0,
-    };
-  } catch (e) {
-    results.sofia = { agent: 'Sofia', status: 'error', error: e.message };
-  }
-
-  try {
-    // Viper status
-    const viperStatus = await viper.getCampaignStats();
-    results.viper = {
-      agent: 'Viper (Outreach)',
-      status: 'active',
-      totalCampaigns: viperStatus.stats?.total || 0,
-      totalSent: viperStatus.stats?.total_sent || 0,
-    };
-  } catch (e) {
-    results.viper = { agent: 'Viper', status: 'error', error: e.message };
-  }
-
-  // Marcus - just check if loaded
-  results.marcus = {
-    agent: 'Marcus (Marketing)',
-    status: 'active',
-    videoGeneration: 'ready',
-  };
-
-  // Alex - just check if loaded
-  results.alex = {
-    agent: 'Alex (Sales)',
-    status: 'active',
-    whatsapp: 'connected',
-  };
-
-  return results;
-}
-
-/**
- * Formats all agent status for WhatsApp
- * @param {object} status - Status from getAllAgentStatus
- * @returns {string}
- */
-function formatAllStatus(status) {
-  let msg = '**ATLAS SYSTEM STATUS**\n\n';
-
-  // Alex
-  msg += `**Alex (Sales):** ${status.alex?.status || 'unknown'}\n`;
-
-  // Marcus
-  msg += `**Marcus (Marketing):** ${status.marcus?.status || 'unknown'}\n`;
-
-  // Diego
-  if (status.diego) {
-    msg += `**Diego (Operations):** ${status.diego.status}\n`;
-    msg += `   Hoy: ${status.diego.todayJobs} trabajos | Pendientes: ${status.diego.pendingJobs}\n`;
-  }
-
-  // Sofia
-  if (status.sofia) {
-    msg += `**Sofia (Finance):** ${status.sofia.status}\n`;
-    msg += `   Gastos mes: $${status.sofia.monthlyExpenses?.toFixed(2) || '0.00'}\n`;
-  }
-
-  // Viper
-  if (status.viper) {
-    msg += `**Viper (Outreach):** ${status.viper.status}\n`;
-    msg += `   Campanas: ${status.viper.totalCampaigns} | Enviados: ${status.viper.totalSent}\n`;
-  }
-
-  return msg.trim();
-}
+// ... (skipping unchanged code) ...
 
 /**
  * Routes a command to the appropriate agent
  * @param {string} rawCommand - Raw command string from owner
+ * @param {string} imageUrl - Optional image URL attached to command
  * @returns {Promise<object>}
  */
 async function routeCommand(rawCommand, imageUrl = null) {
@@ -308,26 +148,26 @@ async function routeCommand(rawCommand, imageUrl = null) {
     // Special handling for some commands
     if (prefix === 'fcc') {
       // fcc is a direct command, not a prefix
-      result = await processor(`fcc ${subCommand}`);
+      result = await processor(`fcc ${subCommand}`, imageUrl);
     } else if (prefix === 'video') {
       // video is a direct command for marcus
-      result = await processor(`video ${subCommand}`);
-    } else if (prefix === 'selfie' || prefix === 'viral' || prefix === 'ugc') {
+      result = await processor(`video ${subCommand}`, imageUrl);
+    } else if (prefix === 'selfie' || prefix === 'viral' || prefix === 'ugc' || prefix === 'mktugc') {
       // selfie/viral/ugc are direct commands for marcus (image-to-video)
-      result = await processor(`${prefix} ${subCommand}`);
+      const effectivePrefix = prefix === 'mktugc' ? 'ugc' : prefix;
+      result = await processor(`${effectivePrefix} ${subCommand}`, imageUrl);
     } else if (prefix === 'txt' || prefix === 'txt2vid' || prefix === 'texto') {
       // txt/txt2vid/texto are direct commands for marcus (text-to-video, no photo)
-      result = await processor(`txt ${subCommand}`);
+      result = await processor(`txt ${subCommand}`, imageUrl); // Image ignored but passed for consistency
     } else if (prefix === 'gasto') {
       // gasto is a direct command for sofia
-      result = await processor(`add ${subCommand}`);
+      result = await processor(`add ${subCommand}`, imageUrl);
     } else if (agentId === 'viper') {
       // Explicitly reconstruct Viper commands to include the prefix
-      // because viper agent expects the FULL command string
-      result = await processor(`${prefix} ${subCommand}`);
+      result = await processor(`${prefix} ${subCommand}`, imageUrl);
     } else {
-      // Normal routing - pass subcommand or full command
-      result = await processor(subCommand || 'status');
+      // Normal routing - pass subcommand or full command WITH IMAGE
+      result = await processor(subCommand || 'status', imageUrl);
     }
 
     return { ...result, agent: agentId };

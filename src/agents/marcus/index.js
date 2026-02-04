@@ -320,15 +320,16 @@ function formatVideoStatus(status) {
 /**
  * Processes owner commands for Marcus
  * @param {string} command - Command string (without prefix)
+ * @param {string} imageUrl - Optional image URL attached to command
  * @returns {Promise<object>}
  */
-async function processOwnerCommand(command) {
+async function processOwnerCommand(command, imageUrl = null) {
   const cmd = command.trim().toLowerCase();
   const parts = cmd.split(/\s+/);
   const action = parts[0];
   const args = parts.slice(1).join(' ');
 
-  logger.info(`Processing command: ${cmd}`);
+  logger.info(`Processing command: ${cmd} ${imageUrl ? '(with image)' : ''}`);
 
   switch (action) {
     case 'status':
@@ -396,30 +397,31 @@ async function processOwnerCommand(command) {
         };
       }
 
-      // Check if user provided an image URL (separated by |)
+      // Check if user provided an image URL (separated by |) OR passed as argument
       let idea = args;
-      let imageUrl = null;
+      let targetImageUrl = imageUrl; // Use passed image by default
 
+      // Explicit URL in text overrides passed image
       if (args.includes('|')) {
         const parts = args.split('|').map((p) => p.trim());
         idea = parts[0];
         const imageParam = parts[1] || '';
 
         if (imageParam.startsWith('http')) {
-          imageUrl = imageParam;
+          targetImageUrl = imageParam;
         }
       }
 
-      // If user provided URL via |, start immediately
-      if (imageUrl) {
+      // If we have an image (either passed or parsed), start immediately
+      if (targetImageUrl) {
         const jobId = Date.now().toString();
-        logger.info(`Starting video job ${jobId}: ${idea} (image: ${imageUrl})`);
+        logger.info(`Starting video job ${jobId}: ${idea} (image: ${targetImageUrl})`);
 
         handleVideoRequest({
           jobId,
           title: idea,
           idea: idea,
-          image: imageUrl,
+          image: targetImageUrl,
           style,
         }).catch((e) => logger.error(`Video job ${jobId} failed: ${e.message}`));
 
@@ -439,9 +441,9 @@ async function processOwnerCommand(command) {
         return {
           success: true,
           message:
-            `🎬 **Video #${jobId} iniciado**\n\n` +
-            `📝 Idea: ${idea}\n` +
-            `🖼️ Imagen: URL proporcionada\n` +
+            `🎬 **Video #${jobId} iniciado**\n` +
+            (imageUrl ? `(Imagen recibida de adjunto)\n` : ``) +
+            `\n📝 Idea: ${idea}\n` +
             `🎭 Estilo: ${styleNames[style] || style}\n\n` +
             `⏳ Proceso:\n` +
             `1. Generando prompt cinematográfico...\n` +

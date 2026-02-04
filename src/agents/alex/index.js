@@ -62,13 +62,16 @@ async function getOrCreateLead(chatId) {
     return existingLead;
   }
 
+  // Check for international numbers (spam filtering)
+  const isInternational = chatId.includes('@s.whatsapp.net') && !chatId.startsWith('1'); // Assuming +1 for US/Canada
+
   // Create new lead
   const { data: newLead, error } = await supabase
     .from('leads')
     .insert({
       phone: chatId,
       name: 'WhatsApp User',
-      pipeline_status: 'NUEVO',
+      pipeline_status: isInternational ? 'INTERNATIONAL' : 'NUEVO',
     })
     .select()
     .single();
@@ -78,7 +81,14 @@ async function getOrCreateLead(chatId) {
     return null;
   }
 
-  logger.info(`New lead created: ${newLead.id}`);
+  if (isInternational) {
+    logger.info(`New INTERNATIONAL lead detected (ignoring): ${newLead.id} (${chatId})`);
+    // OPTIONAL: You could return null here to completely ignore them,
+    // but tagging them allows us to keep a record without processing logic.
+  } else {
+    logger.info(`New lead created: ${newLead.id}`);
+  }
+
   return newLead;
 }
 
@@ -166,6 +176,12 @@ async function processMessage(payload, sendMessage) {
     const lead = await getOrCreateLead(chatId);
     if (!lead) {
       return 'Lo siento, hubo un error al procesar tu solicitud.';
+    }
+
+    // IGNORE INTERNATIONAL TRAFFIC (Anti-Spam)
+    if (lead.pipeline_status === 'INTERNATIONAL') {
+      logger.info(`Ignoring message from INTERNATIONAL lead: ${lead.id}`);
+      return null;
     }
 
     // Handle audio transcription
