@@ -1,0 +1,105 @@
+/* Auto Hub / Jesus Teran Styles */
+:root {
+    --bg-color: #0A192F;
+    --text-color: #E0E0E0;
+    --accent-color: #00F0FF;
+    --toyota-red: #EB0A1E;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.logo-sub {
+    font-size: 0.8rem;
+    color: var(--toyota-red);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, #fff, #aaa);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    color: #8892b0;
+}
+
+.cta-button {
+    background-color: var(--toyota-red);
+    color: white;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.2s;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    background-color: #ff1f35;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    padding: 60px 0;
+}
+
+.feature-card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.feature-card h3 {
+    color: var(--accent-color);
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    font-size: 0.9rem;
+    color: #8892b0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}

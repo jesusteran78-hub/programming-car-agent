@@ -30,6 +30,9 @@ function createApp() {
   app.use(cors());
   app.use(bodyParser.json());
 
+  // Serve static files (Auto Hub Landing Page)
+  app.use(express.static('public'));
+
   // Request logging (only in debug mode)
   if (config.logLevel === 'DEBUG') {
     app.use((req, res, next) => {

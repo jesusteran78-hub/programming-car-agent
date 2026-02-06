@@ -15,6 +15,7 @@ const marcus = require('./marcus');
 const diego = require('./diego');
 const sofia = require('./sofia');
 const viper = require('./viper');
+const kai = require('./kai');
 
 /**
  * Command prefixes mapped to agents
@@ -24,6 +25,14 @@ const COMMAND_PREFIXES = {
   ventas: 'alex',
   sales: 'alex',
   alex: 'alex',
+
+  // Auto Hub (Kai) - NEW
+  auto: 'kai',
+  hub: 'kai',
+  vender: 'kai',
+  sell: 'kai',
+  kai: 'kai',
+  inventario: 'kai',
 
   // Marketing (Marcus)
   mkt: 'marcus',
