@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-cyan: #00f0ff;
+  --color-brand-dark: #0a0a0c;
+  --color-brand-gray: #1f1f22;
+  --color-brand-light: #e0e0e0;
+}
+
+@layer base {
+  :root {
+    --background: #0a0a0c;
+    --foreground: #e0e0e0;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.glass-panel {
+  background: rgba(31, 31, 34, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.neon-text {
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.5), 0 0 20px rgba(0, 240, 255, 0.3);
+}
+
+.btn-glow:hover {
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
+}
