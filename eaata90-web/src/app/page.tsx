@@ -29,7 +29,7 @@ export default function Home() {
               target="_blank"
               className="btn-glow bg-brand-cyan text-brand-dark px-6 py-2.5 rounded-full font-bold text-sm tracking-wide transition-all shadow-[0_0_15px_rgba(0,240,255,0.4)]"
             >
-              ORDER NOW
+              WhatsApp - Ing. Jesus
             </a>
           </div>
         </div>
@@ -254,6 +254,6 @@ export default function Home() {
         <p>Official US Distributor. Shipped from Miami, FL.</p>
         <p className="mt-2 text-sm">© {new Date().getFullYear()} All rights reserved. Not affiliated with VAG or FCA.</p>
       </footer>
-    </main>
+    </main >
   );
 }
