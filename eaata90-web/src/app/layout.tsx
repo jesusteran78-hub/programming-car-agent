@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: "EAATA 90 USA",
     images: [
       {
-        url: "https://res.cloudinary.com/dtfbdf4dn/image/upload/v1767748438/ugc-auto/nbdfysted9kuvfcpgy28.png",
+        url: "https://res.cloudinary.com/dtfbdf4dn/image/upload/v1772429094/eaata-90/a1nogdp3zzg9ztkljsm7.png",
         width: 1200,
         height: 630,
         alt: "EAATA 90 Tool",
