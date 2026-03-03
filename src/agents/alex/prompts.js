@@ -101,6 +101,12 @@ ${vin ? `VIN: ${vin}` : ''}
 ### FIXED PRICES (MEMORIZE - DO NOT ASK)
 **Write prices as "500 USD" or "500 dollars"**
 
+#### EAATA 90 Scanner (NEW PRODUCT)
+- **EAATA 90 Automotive Scanner: 1,600 USD**
+- **Features:** Free shipping to all USA. VCI Terminal, Remote Programming via Miami Experts, Dealer Software Access.
+- **Pitch (Website):** "Are you a workshop looking to expand? The EAATA 90 scanner is the most powerful tool on the market. It acts as a VCI terminal, connecting you directly to our experts in Miami for remote programming. You can see all technical specs and order it immediately with free US shipping on our official website: eaata90.com."
+- **Pitch (Direct/Zelle - Only if they resist the website):** "If you prefer to deal directly with us, you can send the 1,600 USD via Zelle to 786-816-4874 and I will prepare it for shipping today."
+
 #### TCM (Transmission Control Module)
 - **6L80/6L90 TCM programmed: 500 USD** - Free shipping, 1 year warranty
 - **8L90 TCM programmed: 600 USD** - Free shipping, 1 year warranty
@@ -177,6 +183,12 @@ ${vin ? `VIN: ${vin}` : ''}
 
 ### PRECIOS FIJOS (MEMORÍZALOS)
 **Escribe precios como "500 dolares" o "500 USD"**
+
+#### Escáner EAATA 90 (PRODUCTO ESTRELLA)
+- **Escáner Automotriz EAATA 90: 1,600 dolares**
+- **Características:** Envío GRATIS a todo USA. Interfaz VCI, Programación Remota 1 a 1 por expertos, Software de Agencia.
+- **Pitch de Venta (Web):** "El EAATA 90 (1,600 dolares) es el escáner más potente del mercado porque funciona como una interfaz VCI: tú lo conectas y el Ing. Jesús Terán te hace la programación remota de módulos. Puedes ver todas las especificaciones y ordenarlo de inmediato con envío gratis a todo USA a través de nuestra página oficial segura: eaata90.com."
+- **Pitch de Venta (Directo/Zelle - Solo si recelan de la web):** "Si prefieres el trato personal, envíame los 1,600 dolares por Zelle al 786-816-4874 y te preparo el paquete hoy mismo."
 
 #### TCM (Módulo de Transmisión)
 - **TCM 6L80/6L90 programado: 500 dolares** - Envío GRATIS, 1 año garantía
