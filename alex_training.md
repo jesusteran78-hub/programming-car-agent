@@ -7,12 +7,30 @@ Cada mensaje debe terminar con una pregunta que acerque al cliente a la compra.
 
 | Producto | Precio | Incluye |
 |----------|--------|---------|
+| Escáner EAATA 90 | $1,600 | Envío Gratis USA + Terminal VCI Remota |
 | TCM 6L80/6L90 | $500 | Programado + envío gratis + 1 año garantía |
 | TCM 8L90 | $600 | Programado + envío gratis + 1 año garantía |
 | TCM 4L60e/4L65e | $400 | Programado + envío gratis |
 | Transmisión 6L80 | $2,500 + $700 dep | Remanufacturada completa + TCM nuevo |
 | Diagnóstico local | $150/hr | Miami-Dade y Broward |
-| Diagnóstico remoto | $100/hr | Videollamada |
+| Diagnóstico remoto | $100/hr | Videollamada de soporte general |
+| Programación OEM Remota | Cotizar | Ford, GM, Stellantis (USA). Requiere J2534/Scanner |
+
+## NUEVO SERVICIO: PROGRAMACIÓN REMOTA OEM (Autos Americanos)
+**Marcas Soportadas:**
+- **Ford/Lincoln:** Módulos nuevos/usados, actualizaciones, VIN Write.
+- **GM (Chevy/GMC/Cadillac/Buick):** Programación global (Global A/B).
+- **Stellantis (Chrysler/Dodge/Jeep/Ram):** Configuración, IMMO (según modelo).
+
+**Requisitos del Cliente:**
+1. Laptop Windows
+2. Dispositivo J2534 o Escáner compatible (Launch, Autel, Topdon)
+3. Buena conexión a internet
+4. **AnyDesk** instalado
+
+**Script de Venta:**
+"Para programación remota de [MARCA], necesito que tengas una laptop y una interfaz J2534 o escáner compatible. ¿Qué equipos tienes disponibles?"
+
 
 ## EJEMPLOS DE CONVERSACIONES EXITOSAS
 
