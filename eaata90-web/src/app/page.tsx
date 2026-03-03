@@ -183,7 +183,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               { icon: Cpu, title: "Bidirectional Control", desc: "Command components instantly. Test solenoides, ABS pumps, and actuators without guessing." },
-              { icon: Tool, title: "Module Programming", desc: "Code and program ECUs, PCMs, and VCIs safely with OE-level access." },
+              { icon: Tool, title: "Module Programming", desc: "Code and program ECUs and PCMs safely with OE-level access via remote programming using the VCI." },
               { icon: Wifi, title: "Remote Diagnostics", desc: "Built-in VCI interface connects you directly to our expert engineers for complex jobs." }
             ].map((feature, i) => (
               <div key={i} className="glass-panel p-8 rounded-2xl border border-white/5 hover:border-brand-cyan/50 transition-colors group">
