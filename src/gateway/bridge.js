@@ -67,7 +67,7 @@ async function handleWebhook(body, sendToWhapi) {
     // Publish event to bus (for future agents to consume)
     if (config.useEventBus) {
       const eventType = isOwnerMsg ? EVENT_TYPES.MESSAGE_OWNER : EVENT_TYPES.MESSAGE_RECEIVED;
-      await publishEvent(
+      const pubResult = await publishEvent(
         eventType,
         'gateway',
         {
@@ -80,6 +80,15 @@ async function handleWebhook(body, sendToWhapi) {
         },
         isOwnerMsg ? null : 'alex'
       );
+
+      // CRITICAL FIX: If event published successfully, STOP legacy processing
+      // This prevents double-handling (Event Bus + Legacy Direct Call)
+      if (pubResult.success) {
+        logger.debug('Event published successfully. Stopping legacy processing to prevent duplicates.');
+        return { handled: true };
+      } else {
+        logger.warn('Event publication failed. Falling back to legacy processing.');
+      }
     }
 
     // Continue with legacy processing

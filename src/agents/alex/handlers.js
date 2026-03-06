@@ -422,26 +422,36 @@ async function handleScheduleAppointment(args, leadId, context = {}) {
     }
 
     // 2. Create scheduled job in Supabase (backup/CRM tracking)
+    // FIX: leads.id is INTEGER, scheduled_jobs.lead_id is UUID
+    // If leadId is not a UUID, we must set lead_id to null and store the real ID in payload
+    const isUUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(leadId);
+
+    const jobPayload = {
+      lead_id: isUUID ? leadId : null, // Only set if valid UUID
+      agent_id: 'alex',
+      job_type: service_type,
+      scheduled_for: `${date}T${time}:00`,
+      status: 'scheduled',
+      payload: {
+        location,
+        notes,
+        google_calendar_id: calendarEvent?.id || null,
+        google_calendar_link: calendarEvent?.htmlLink || null,
+        original_lead_id: isUUID ? null : leadId, // Store integer ID here
+      },
+      notes: notes,
+    };
+
     const { data, error } = await supabase
       .from('scheduled_jobs')
-      .insert({
-        lead_id: leadId,
-        agent_id: 'alex',
-        job_type: service_type,
-        scheduled_for: `${date}T${time}:00`,
-        status: 'scheduled',
-        payload: {
-          location,
-          notes,
-          google_calendar_id: calendarEvent?.id || null,
-          google_calendar_link: calendarEvent?.htmlLink || null,
-        },
-        notes: notes,
-      })
+      .insert(jobPayload)
       .select()
       .single();
 
     if (error) {
+      logger.error('Error creating scheduled job:', error);
+      // Don't fail the whole operation if DB log fails, since Calendar might be OK
+      // keeping original return logic but logging error specifically
       return { error: error.message };
     }
 

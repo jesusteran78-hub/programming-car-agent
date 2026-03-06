@@ -14,7 +14,11 @@
       "Bash(npm install:*)",
       "Bash(curl:*)",
       "Bash(node generate_bmw_cas3_videos.js:*)",
-      "Bash(node seed_transmissions.js:*)"
+      "Bash(node seed_transmissions.js:*)",
+      "Bash(dir:*)",
+      "Bash(node:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)"
     ]
   }
 }

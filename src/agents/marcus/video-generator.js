@@ -34,9 +34,15 @@ const DEFAULT_IMAGE = 'https://res.cloudinary.com/dtfbdf4dn/image/upload/v176774
  */
 
 /**
- * BRAND CONTEXT - Injected into all prompts
+ * DEFAULT BRANDING (Programming Car)
  */
-const BRAND_CONTEXT = `
+const DEFAULT_BRANDING = {
+  name: "Programming Car Miami",
+  phone: "786-478-2531",
+  expert: "Jesús Terán",
+  location: "Miami, Florida",
+  website: "programmingcar.com",
+  context: `
 ### PROGRAMMING CAR - BRAND DNA
 **WHO:** Elite automotive key programming specialists in Miami
 **WHAT:** High-tech car key programming, emergency lockouts, smart key cloning, transponder programming, proximity key solutions
@@ -51,17 +57,32 @@ const BRAND_CONTEXT = `
 
 ### THE HERO
 A skilled technician with steady hands and confident movements. NOT a locksmith from the 90s - a TECH SPECIALIST who looks like he could hack NASA but chooses to save stranded drivers instead.
-`;
+`
+};
 
 /**
- * STYLE: CINEMATIC - Hollywood blockbuster quality
+ * Generates BRAND CONTEXT based on configuration
  */
-const PROMPT_CINEMATIC = `
-${BRAND_CONTEXT}
+const getBrandContext = (branding) => {
+  const b = { ...DEFAULT_BRANDING, ...branding };
+  return `
+### ${b.name.toUpperCase()} - BRAND DNA
+${b.context}
+**PHONE:** ${b.phone}
+**EXPERT:** ${b.expert}
+`;
+};
+
+/**
+ * STYLE GENERATORS
+ */
+const STYLES = {
+  cinematic: (b) => `
+${getBrandContext(b)}
 
 You are a **Hollywood Director of Photography** who just wrapped a James Bond film.
 
-CREATE a **15-second vertical cinematic MASTERPIECE (9:16)** for Programming Car Miami.
+CREATE a **15-second vertical cinematic MASTERPIECE (9:16)** for ${b.name}.
 
 ### THE VISION - AUTOMOTIVE TECH THRILLER
 This is not a service video. This is a **TECH HEIST MOVIE** where the hero SAVES the day.
@@ -69,13 +90,13 @@ This is not a service video. This is a **TECH HEIST MOVIE** where the hero SAVES
 ### SHOT BREAKDOWN
 **0-2s COLD OPEN:** Macro shot INSIDE a car lock mechanism - pins dropping, tumblers rotating, the internal ballet of security being defeated. Metallic textures, shallow depth of field, light catching chrome.
 
-**2-5s THE CALL:** A distressed driver's reflection in a car window. Miami skyline glowing behind. The phone lights up - "Programming Car" on screen. Hope arrives.
+**2-5s THE CALL:** A distressed driver's reflection in a car window. Miami skyline glowing behind. The phone lights up - "${b.name}" on screen. Hope arrives.
 
 **5-10s THE WORK:** Cinematic sequence of high-tech tools meeting luxury vehicle. AUTEL tablet screen reflecting in technician's glasses. Sparks of data flowing. Macro of transponder chip being programmed. The satisfying CLICK of a new key being cut.
 
 **10-13s THE MOMENT:** Slow motion - key sliding into ignition. Dashboard lights awakening like a spaceship coming online. Engine ROARS to life.
 
-**13-15s THE HERO:** Wide shot pullback. Miami night. Job done. The van drives off into neon-lit streets. PROGRAMMING CAR.
+**13-15s THE HERO:** Wide shot pullback. Miami night. Job done. The van drives off into neon-lit streets. ${b.name.toUpperCase()}.
 
 ### CINEMATOGRAPHY
 - **Lighting:** Blade Runner meets Michael Mann's Miami Vice
@@ -84,17 +105,14 @@ This is not a service video. This is a **TECH HEIST MOVIE** where the hero SAVES
 - **Texture:** Metal, glass, leather, circuits, screens
 
 Generate a DETAILED 250-word prompt. Every frame should be POSTER-WORTHY.
-`;
+`,
 
-/**
- * STYLE: VIRAL - TikTok algorithm DESTROYER
- */
-const PROMPT_VIRAL_HOOK = `
-${BRAND_CONTEXT}
+  viral: (b) => `
+${getBrandContext(b)}
 
 You are the **VIRAL CONTENT GOD** - every video you touch hits 100M views.
 
-CREATE a **15-second vertical video (9:16)** that will BREAK THE ALGORITHM for Programming Car.
+CREATE a **15-second vertical video (9:16)** that will BREAK THE ALGORITHM for ${b.name}.
 
 ### THE HOOK FORMULA - AUTOMOTIVE EDITION
 **0-2s PATTERN INTERRUPT:**
@@ -127,17 +145,14 @@ Options (pick the most shocking for the context):
 - ASMR: Close-up textures, mechanical sounds
 
 Generate a DETAILED 250-word prompt with EXACT shot-by-shot timing.
-`;
+`,
 
-/**
- * STYLE: LUXURY - Premium brand aesthetic
- */
-const PROMPT_LUXURY = `
-${BRAND_CONTEXT}
+  luxury: (b) => `
+${getBrandContext(b)}
 
 You are the **Creative Director for Bentley and Patek Philippe**.
 
-CREATE a **15-second vertical video (9:16)** that positions Programming Car as a LUXURY CONCIERGE service.
+CREATE a **15-second vertical video (9:16)** that positions ${b.name} as a LUXURY CONCIERGE service.
 
 ### THE LUXURY AUTOMOTIVE EXPERIENCE
 This isn't a locksmith. This is a **BESPOKE KEY ARTISAN** serving Miami's elite.
@@ -167,17 +182,14 @@ Color palette: Black, gold, deep midnight blue, silver
 No rushed cuts. Let the luxury BREATHE.
 
 Generate a DETAILED 250-word prompt. This should feel like a $10 MILLION commercial.
-`;
+`,
 
-/**
- * STYLE: STORY - Mini-movie with narrative arc
- */
-const PROMPT_STORY = `
-${BRAND_CONTEXT}
+  story: (b) => `
+${getBrandContext(b)}
 
 You are a **Sundance Award-Winning Director** making a 15-second short film.
 
-CREATE a **15-second vertical MINI-MOVIE (9:16)** with a complete EMOTIONAL ARC for Programming Car.
+CREATE a **15-second vertical MINI-MOVIE (9:16)** with a complete EMOTIONAL ARC for ${b.name}.
 
 ### THE STORY: "STRANDED"
 A real human moment. Fear to relief. Darkness to light. Problem to solution.
@@ -191,7 +203,7 @@ The universal nightmare: LOCKED OUT.
 Mood: Isolation, vulnerability, that sinking feeling.
 
 **ACT 2 - THE HERO ARRIVES (4-10s)**
-Headlights sweep across the garage. The Programming Car van arrives like cavalry.
+Headlights sweep across the garage. The ${b.name} van arrives like cavalry.
 MEDIUM SHOT: Technician steps out, toolkit in hand. Confident stride.
 CLOSE-UPS: Tools being deployed. Screen lighting up with diagnostics. Skilled hands moving with PURPOSE.
 The tension builds but hope is rising. This person KNOWS what they're doing.
@@ -211,17 +223,14 @@ Mood: Victory, gratitude, trust established.
 - CONTRAST: Dark/light, fear/relief, problem/solution
 
 Generate a DETAILED 250-word prompt with EMOTIONAL BEATS clearly marked.
-`;
+`,
 
-/**
- * STYLE: HYPEBEAST - Miami street culture energy
- */
-const PROMPT_HYPEBEAST = `
-${BRAND_CONTEXT}
+  hypebeast: (b) => `
+${getBrandContext(b)}
 
 You are the **Director of Travis Scott and Nike commercials** shooting in MIAMI.
 
-CREATE a **15-second vertical video (9:16)** with RAW MIAMI ENERGY for Programming Car.
+CREATE a **15-second vertical video (9:16)** with RAW MIAMI ENERGY for ${b.name}.
 
 ### THE MIAMI VIBE
 Late night. Neon reflections on wet streets. Bass in the air. The city that never sleeps calling for help at 3AM.
@@ -255,7 +264,7 @@ Neon reflections dancing on fresh paint.
 **12-15s THE PULLBACK:**
 Wide shot: Job done. Fist bump with the client.
 The van pulls away into Miami night.
-City lights blur. PROGRAMMING CAR.
+City lights blur. ${b.name.toUpperCase()}.
 
 ### TECHNICAL STYLE
 - Whip pans between shots
@@ -264,17 +273,14 @@ City lights blur. PROGRAMMING CAR.
 - Intentional motion blur
 
 Generate a DETAILED 250-word prompt with MIAMI LOCATIONS and STREET ENERGY.
-`;
+`,
 
-/**
- * STYLE: POV - First person immersion
- */
-const PROMPT_POV = `
-${BRAND_CONTEXT}
+  pov: (b) => `
+${getBrandContext(b)}
 
 You are creating a **FIRST-PERSON EXPERIENCE** - the viewer IS the technician.
 
-CREATE a **15-second vertical video (9:16)** from the Programming Car TECHNICIAN'S POV.
+CREATE a **15-second vertical video (9:16)** from the ${b.name} TECHNICIAN'S POV.
 
 ### THE CONCEPT
 Put the viewer IN THE DRIVER'S SEAT. They ARE the hero. They have the skills. They save the day.
@@ -318,17 +324,14 @@ Turn to walk away. Miami skyline ahead. Another save.
 - Reflections showing "you" subtly
 
 Generate a DETAILED 250-word prompt that makes viewer FEEL like the hero.
-`;
+`,
 
-/**
- * STYLE: TECH - Hacker/Cyberpunk aesthetic
- */
-const PROMPT_TECH = `
-${BRAND_CONTEXT}
+  tech: (b) => `
+${getBrandContext(b)}
 
 You are the **Director of MR. ROBOT and TRON: LEGACY**.
 
-CREATE a **15-second vertical video (9:16)** that shows Programming Car as HIGH-TECH WIZARDRY.
+CREATE a **15-second vertical video (9:16)** that shows ${b.name} as HIGH-TECH WIZARDRY.
 
 ### THE CONCEPT: AUTOMOTIVE HACKING
 This isn't key cutting. This is DIGITAL WARFARE against locked doors.
@@ -364,23 +367,20 @@ Like a digital weapon being armed.
 Key enters ignition. The car's computer ACCEPTS it.
 Dashboard lights up like a spaceship.
 HUD-style overlay: "ACCESS GRANTED"
-PROGRAMMING CAR logo glitches onto screen.
+${b.name.toUpperCase()} logo glitches onto screen.
 
 Generate a DETAILED 250-word prompt with TECH ELEMENTS and CYBERPUNK AESTHETIC.
-`;
+`,
 
-/**
- * STYLE: EMERGENCY - Dramatic rescue narrative
- */
-const PROMPT_EMERGENCY = `
-${BRAND_CONTEXT}
+  emergency: (b) => `
+${getBrandContext(b)}
 
 You are directing a **24-HOUR EMERGENCY RESPONSE** documentary.
 
-CREATE a **15-second vertical video (9:16)** showing Programming Car as MIAMI'S 24/7 HERO.
+CREATE a **15-second vertical video (9:16)** showing ${b.name} as MIAMI'S 24/7 HERO.
 
 ### THE CONCEPT: 3AM RESCUE
-When everyone else is sleeping, Programming Car is SAVING LIVES.
+When everyone else is sleeping, ${b.name} is SAVING LIVES.
 
 ### DRAMATIC TENSION
 - Someone NEEDS help NOW
@@ -393,7 +393,7 @@ When everyone else is sleeping, Programming Car is SAVING LIVES.
 **0-3s THE CRISIS:**
 TITLE CARD: "3:47 AM - SOUTH BEACH"
 Distressed person by their car. Empty street. Rain starting.
-Phone screen: "Calling Programming Car..."
+Phone screen: "Calling ${b.name}..."
 Their face: worry, desperation, hope.
 
 **3-7s THE RESPONSE:**
@@ -414,7 +414,7 @@ FAST but PRECISE movements:
 CLICK. Engine starts. RELIEF floods the client's face.
 Wide shot: Rain continuing, but the crisis is OVER.
 Technician nods - just another night.
-TEXT OVERLAY: "24/7 EMERGENCY - PROGRAMMING CAR - 786-XXX-XXXX"
+TEXT OVERLAY: "24/7 EMERGENCY - ${b.name.toUpperCase()} - ${b.phone}"
 
 ### DOCUMENTARY STYLE
 - Handheld urgency
@@ -423,13 +423,10 @@ TEXT OVERLAY: "24/7 EMERGENCY - PROGRAMMING CAR - 786-XXX-XXXX"
 - The drama of being someone's HERO at 3AM
 
 Generate a DETAILED 250-word prompt with EMERGENCY ENERGY and DOCUMENTARY REALISM.
-`;
+`,
 
-/**
- * STYLE: SATISFYING - ASMR/Oddly Satisfying content
- */
-const PROMPT_SATISFYING = `
-${BRAND_CONTEXT}
+  satisfying: (b) => `
+${getBrandContext(b)}
 
 You create **ODDLY SATISFYING** content with 500M+ cumulative views.
 
@@ -485,13 +482,9 @@ Quick flash of before/after.
 - ASMR-inducing precision
 
 Generate a DETAILED 250-word prompt focused on PURE VISUAL SATISFACTION.
-`;
+`,
 
-/**
- * STYLE: UGC - Selfie-Style User Generated Content
- * Reference image driven - Sora replicates whatever product is in the image
- */
-const PROMPT_UGC_SELFIE = `
+  ugc: (b) => `
 You are an **AI video director and cinematographer** crafting **short, cinematic UGC-style selfie videos** for **OpenAI Sora 2**.
 
 Your task is to generate a **realistic first-person or selfie-style video prompt** using:
@@ -529,7 +522,7 @@ The goal is to produce a **natural, handheld, authentic video** that feels as if
 - Speech feels spontaneous — "real-talk" tone, not rehearsed or ad-like.
 - **Language: Spanish** — natural, colloquial, Miami Latino accent.
 - Include small gestures, smiles, or head movement for authenticity.
-- **MANDATORY BRANDING:** The creator MUST say "Programming Car" and "786-478-2531" clearly.
+- **MANDATORY BRANDING:** The creator MUST say "${b.name}" and "${b.phone}" clearly.
 
 #### ⚙️ Technical Specs
 - **Duration:** 15 seconds
@@ -552,40 +545,33 @@ When generating a Sora 2 prompt:
 ---
 
 ### Example Output Prompt (for Sora 2)
-> "A vertical selfie-style video filmed by a technician in a workshop. They hold **the product from the reference image** in one hand and the phone in the other, speaking casually to camera. Natural workshop lighting and soft reflections highlight the product details matching the reference image exactly. The creator smiles slightly, mentioning Programming Car Miami. The handheld camera moves subtly with natural shake. Duration ≈ 15 seconds, ambient workshop noise, no overlays or music.
+> "A vertical selfie-style video filmed by a technician in a workshop. They hold **the product from the reference image** in one hand and the phone in the other, speaking casually to camera. Natural workshop lighting and soft reflections highlight the product details matching the reference image exactly. The creator smiles slightly, mentioning ${b.name}. The handheld camera moves subtly with natural shake. Duration ≈ 15 seconds, ambient workshop noise, no overlays or music.
 >
-> **Audio:** Spanish (Latin American). Creator must mention "Programming Car" and "786-478-2531" in dialogue."
+> **Audio:** Spanish (Latin American). Creator must mention "${b.name}" and "${b.phone}" in dialogue."
 
 Generate a DETAILED selfie-style UGC prompt under 300 words. THE PRODUCT FROM THE REFERENCE IMAGE is what the creator holds.
-`;
-
-// Map style names to prompts
-const STYLE_PROMPTS = {
-  cinematic: PROMPT_CINEMATIC,
-  viral: PROMPT_VIRAL_HOOK,
-  luxury: PROMPT_LUXURY,
-  story: PROMPT_STORY,
-  hypebeast: PROMPT_HYPEBEAST,
-  pov: PROMPT_POV,
-  tech: PROMPT_TECH,
-  emergency: PROMPT_EMERGENCY,
-  satisfying: PROMPT_SATISFYING,
-  ugc: PROMPT_UGC_SELFIE,      // PROVEN VIRAL - Selfie UGC style
-  // Legacy compatibility
-  product: PROMPT_CINEMATIC,
-  selfie: PROMPT_UGC_SELFIE,   // Now uses the proven UGC prompt
+`
 };
+
+// Aliases
+STYLES.product = STYLES.cinematic;
+STYLES.selfie = STYLES.ugc;
 
 /**
  * Generates a VIRAL cinematic prompt for Sora 2
  * @param {string} title - Video title
  * @param {string} idea - Video concept
  * @param {string} style - 'cinematic', 'viral', 'luxury', 'story', 'hypebeast', 'pov', 'ugc', 'selfie'
+ * @param {object} branding - Branding override
  * @returns {Promise<string>}
  */
-async function generateSoraPrompt(title, idea, style = 'cinematic') {
+async function generateSoraPrompt(title, idea, style = 'cinematic', branding = {}) {
   const openai = getOpenAI();
-  const systemPrompt = STYLE_PROMPTS[style] || STYLE_PROMPTS.cinematic;
+  const b = { ...DEFAULT_BRANDING, ...branding };
+
+  // Resolve system prompt function or string
+  const styleFn = STYLES[style] || STYLES.cinematic;
+  const systemPrompt = typeof styleFn === 'function' ? styleFn(b) : styleFn; // Handle legacy strings if any
 
   logger.info(`Generating ${style.toUpperCase()} style prompt for: ${title}`);
 
@@ -600,18 +586,18 @@ async function generateSoraPrompt(title, idea, style = 'cinematic') {
         role: 'user',
         content: `
 ### THE BRIEF
-**Business:** Programming Car Miami - Elite automotive electronics & key programming
-**Service:** Automotive programming, TCM, ECM, keys, transmissions, diagnostics
-**Location:** Miami, Florida
-**Brand Vibe:** Premium tech meets street credibility
+**Business:** ${b.name} - ${b.context ? 'Elite automotive services' : 'Elite automotive electronics & key programming'}
+**Service:** ${b.context ? 'Automotive sales and export' : 'Automotive programming, TCM, ECM, keys, transmissions, diagnostics'}
+**Location:** ${b.location}
+**Brand Vibe:** ${b.name.includes('Toyota') ? 'Professional, reliable, direct' : 'Premium tech meets street credibility'}
 
 ### INPUT DATA
 Video Title: "${title}"
 Video Idea: "${idea}"
 
 ### MANDATORY REQUIREMENTS
-1. **PHONE NUMBER:** The video (if it contains text or audio) MUST display/say exactly: "786-478-2531". NO OTHER NUMBER.
-2. **BRAND:** "Programming Car Miami"
+1. **PHONE NUMBER:** The video (if it contains text or audio) MUST display/say exactly: "${b.phone}". NO OTHER NUMBER.
+2. **BRAND:** "${b.name}"
 
 ### GENERATE THE PROMPT
 Create an EPIC, VIRAL-WORTHY video prompt that will make this 15-second video unforgettable.
@@ -637,9 +623,18 @@ async function pollKieTask(taskId) {
 
   for (let i = 0; i < maxAttempts; i++) {
     try {
-      const response = await axios.get(`${KIE_GET_TASK_URL}?taskId=${taskId}`, {
-        headers: { Authorization: `Bearer ${config.kieApiKey}` },
+      const safeTaskId = String(taskId).trim();
+      let realKey = '';
+      if (process.env.KIE_API_KEY) realKey = process.env.KIE_API_KEY.trim();
+      else if (config.kieApiKey) realKey = config.kieApiKey.trim();
+
+      const response = await axios.get(`${KIE_GET_TASK_URL}?taskId=${safeTaskId}`, {
+        headers: {
+          'Authorization': `Bearer ${realKey}`,
+          'Content-Type': 'application/json'
+        },
       });
+      logger.info(`Polling KIE with Key: ${realKey.substring(0, 5)}...`); // DEBUG
 
       const taskData = response.data?.data || response.data;
       const state = taskData?.state || 'unknown';
@@ -690,6 +685,9 @@ async function pollKieTask(taskId) {
         throw e;
       }
       logger.warn(`Error polling KIE (attempt ${i + 1}): ${e.message}`);
+      if (e.response) {
+        logger.warn(`Response output: ${JSON.stringify(e.response.data)}`); // DEBUG
+      }
       await new Promise((resolve) => setTimeout(resolve, interval));
     }
   }
@@ -774,7 +772,7 @@ async function createKieVideo(prompt, imageUrl = DEFAULT_IMAGE) {
     },
     {
       headers: {
-        Authorization: `Bearer ${config.kieApiKey}`,
+        Authorization: `Bearer ${process.env.KIE_API_KEY ? process.env.KIE_API_KEY.trim() : config.kieApiKey.trim()}`,
         'Content-Type': 'application/json',
       },
     }
@@ -804,9 +802,9 @@ async function createKieTextToVideo(prompt) {
   const response = await axios.post(
     KIE_CREATE_TASK_URL,
     {
-      model: 'sora-2-text-to-video', // User requested SORA 2 (Cheaper)
+      model: prompt.includes('--model') ? prompt.split('--model')[1].trim().split(' ')[0] : 'hailuo-text-to-video', // Fallback to Hailuo
       input: {
-        prompt,
+        prompt: prompt.replace(/--model[\s\S]*?(?=\s|$)/g, '').trim(),
         aspect_ratio: 'portrait',
         n_frames: '15',
         size: 'standard',
@@ -814,7 +812,7 @@ async function createKieTextToVideo(prompt) {
     },
     {
       headers: {
-        Authorization: `Bearer ${config.kieApiKey}`,
+        Authorization: `Bearer ${process.env.KIE_API_KEY ? process.env.KIE_API_KEY.trim() : config.kieApiKey.trim()}`,
         'Content-Type': 'application/json',
       },
     }
@@ -833,10 +831,12 @@ async function createKieTextToVideo(prompt) {
  * Generates TTS audio script
  * @param {string} title - Video title
  * @param {string} idea - Video concept
+ * @param {object} branding - Branding override
  * @returns {Promise<string>}
  */
-async function generateAudioScript(title, idea) {
+async function generateAudioScript(title, idea, branding = {}) {
   const openai = getOpenAI();
+  const b = { ...DEFAULT_BRANDING, ...branding };
 
   try {
     const response = await openai.chat.completions.create({
@@ -844,15 +844,14 @@ async function generateAudioScript(title, idea) {
       messages: [
         {
           role: 'system',
-          content: `Eres un copywriter para videos de TikTok/Reels de Programming Car Miami.
+          content: `Eres un copywriter para videos de TikTok/Reels de ${b.name}.
 
 REGLAS ESTRICTAS:
 1. El script debe durar MÁXIMO 15 segundos al hablarse
-2. SIEMPRE empieza con un saludo local: "¡Hola Miami!" o "¿Qué tal Miami?"
-3. Después del saludo, menciona "Programming Car"
-4. MENCIONA a "Jesús Terán" como el experto/programador que realiza el trabajo técnico
-4. MENCIONA a "Jesús Terán" como el experto/programador que realiza el trabajo técnico
-5. SIEMPRE termina invitando a escribir al WhatsApp de Programming Car (sin mencionar nombres de asistentes)
+2. SIEMPRE empieza con un saludo local: "¡Hola Miami!" o "¿Qué tal Venezuela?" (si menciona exportación)
+3. Después del saludo, menciona "${b.name}"
+4. MENCIONA a "${b.expert}" como el experto que realiza el trabajo
+5. SIEMPRE termina invitando a escribir al WhatsApp de ${b.name}
 6. Tono: Confiado, profesional, Miami latino
 7. NO uses emojis ni hashtags (esto es para TTS)
 8. IDIOMA: 100% ESPAÑOL LATINO
@@ -862,7 +861,7 @@ FORMATO:
         },
         {
           role: 'user',
-          content: `Título: ${title}\nContexto: ${idea}\n\nGenera el script de voz para este video de 15 segundos. Asegurate de mencionar que Jesús Terán hace el trabajo. NO menciones a Alex.`,
+          content: `Título: ${title}\nContexto: ${idea}\n\nGenera el script de voz para este video de 15 segundos. Menciona que ${b.expert} hace el trabajo.`,
         },
       ],
       max_tokens: 150,
@@ -871,7 +870,7 @@ FORMATO:
     return response.choices[0].message.content.trim();
   } catch (e) {
     logger.warn(`Error generating script: ${e.message}`);
-    return `¡Hola Miami! Aquí Programming Car, tu solución en llaves de auto. Escríbenos por WhatsApp y te atendemos al momento.`;
+    return `¡Hola Miami! Aquí ${b.name}, tu solución experta. Escríbenos por WhatsApp y te atendemos al momento.`;
   }
 }
 
@@ -903,9 +902,11 @@ async function generateTTSAudio(text, outputPath) {
  * Adds watermark ONLY to video, keeping original Sora 2 audio
  * @param {string} videoUrl - Video URL
  * @param {string} title - Video title for watermark
+ * @param {object} branding - Branding override
  * @returns {Promise<string>} - Final video URL
  */
-async function addWatermarkOnly(videoUrl, title = '') {
+async function addWatermarkOnly(videoUrl, title = '', branding = {}) {
+  const b = { ...DEFAULT_BRANDING, ...branding };
   const tempDir = path.join(__dirname, '..', '..', '..', 'temp');
   if (!fs.existsSync(tempDir)) {
     fs.mkdirSync(tempDir, { recursive: true });
@@ -924,8 +925,11 @@ async function addWatermarkOnly(videoUrl, title = '') {
   fs.writeFileSync(videoPath, videoResponse.data);
 
   // Watermark filter (animated floating text)
-  const watermarkText = 'PROGRAMMING CAR | 786-478-2531';
-  const watermarkFilter = `drawtext=fontfile='${fontPath}':text='${watermarkText}':fontcolor=white@0.8:fontsize=24:x='(w-text_w)/2+sin(t/1.5)*100':y='(h-text_h)/2+cos(t/1.8)*150':box=1:boxcolor=black@0.5:boxborderw=5`;
+  // Watermark filter (animated floating text - "Rotating")
+  // User request: "jesus teran toyota hollywood 7868164874 rotando"
+  const watermarkText = `${b.name} ${b.phone.replace(/-/g, '')}`;
+  // Wider rotation: 300px radius
+  const watermarkFilter = `drawtext=fontfile='${fontPath}':text='${watermarkText}':fontcolor=white@0.9:fontsize=36:x='(w-text_w)/2+sin(t)*300':y='(h-text_h)/2+cos(t)*400':box=1:boxcolor=black@0.6:boxborderw=10`;
 
   // FFmpeg binary
   const localFfmpeg = path.join(__dirname, '..', '..', '..', 'ffmpeg.exe');
@@ -954,9 +958,11 @@ async function addWatermarkOnly(videoUrl, title = '') {
  * @param {string} videoUrl - Video URL
  * @param {string} audioPath - Audio file path
  * @param {string} title - Video title for watermark
+ * @param {object} branding - Branding override
  * @returns {Promise<string>} - Final video URL
  */
-async function mergeVideoWithAudio(videoUrl, audioPath, title = '') {
+async function mergeVideoWithAudio(videoUrl, audioPath, title = '', branding = {}) {
+  const b = { ...DEFAULT_BRANDING, ...branding };
   const tempDir = path.join(__dirname, '..', '..', '..', 'temp');
   if (!fs.existsSync(tempDir)) {
     fs.mkdirSync(tempDir, { recursive: true });
@@ -974,9 +980,9 @@ async function mergeVideoWithAudio(videoUrl, audioPath, title = '') {
   const videoResponse = await axios.get(videoUrl, { responseType: 'arraybuffer' });
   fs.writeFileSync(videoPath, videoResponse.data);
 
-  // Watermark filter
-  const watermarkText = 'PROGRAMMING CAR | 786-478-2531';
-  const watermarkFilter = `drawtext=fontfile='${fontPath}':text='${watermarkText}':fontcolor=white@0.8:fontsize=24:x='(w-text_w)/2+sin(t/1.5)*100':y='(h-text_h)/2+cos(t/1.8)*150':box=1:boxcolor=black@0.5:boxborderw=5`;
+  // Watermark filter (animated floating text - "Rotating")
+  const watermarkText = `${b.name} ${b.phone.replace(/-/g, '')}`;
+  const watermarkFilter = `drawtext=fontfile='${fontPath}':text='${watermarkText}':fontcolor=white@0.9:fontsize=36:x='(w-text_w)/2+sin(t)*300':y='(h-text_h)/2+cos(t)*400':box=1:boxcolor=black@0.6:boxborderw=10`;
 
   // Title filter
   const cleanTitle = (title || '').replace(/:/g, '\\:').replace(/'/g, '');
@@ -1011,7 +1017,7 @@ async function mergeVideoWithAudio(videoUrl, audioPath, title = '') {
  * @param {string} filePath - Local file path
  * @returns {Promise<string>} - Cloudinary URL
  */
-async function uploadToCloudinary(filePath) {
+async function uploadToCloudinary(filePath, resourceType = 'video') {
   const cloudinary = require('cloudinary').v2;
 
   cloudinary.config({
@@ -1021,7 +1027,7 @@ async function uploadToCloudinary(filePath) {
   });
 
   const result = await cloudinary.uploader.upload(filePath, {
-    resource_type: 'video',
+    resource_type: resourceType,
     folder: 'ugc-auto',
   });
 
@@ -1030,15 +1036,46 @@ async function uploadToCloudinary(filePath) {
 }
 
 /**
+ * Generates an image using DALL-E 3 and uploads to Cloudinary
+ * @param {string} prompt - Image prompt
+ * @returns {Promise<string>} - Cloudinary URL
+ */
+async function generateDalleImage(prompt) {
+  const openai = getOpenAI();
+  const tempDir = path.join(__dirname, '..', '..', '..', 'temp');
+  if (!fs.existsSync(tempDir)) fs.mkdirSync(tempDir, { recursive: true });
+
+  const imgPath = path.join(tempDir, `dalle_${Date.now()}.png`);
+
+  logger.info(`Generating DALL-E 3 image: ${prompt.substring(0, 50)}...`);
+
+  const response = await openai.images.generate({
+    model: "dall-e-3",
+    prompt: prompt,
+    n: 1,
+    size: "1024x1792", // Vertical for video
+    quality: "standard",
+    response_format: "b64_json"
+  });
+
+  const b64 = response.data[0].b64_json;
+  fs.writeFileSync(imgPath, Buffer.from(b64, 'base64'));
+
+  const url = await uploadToCloudinary(imgPath, 'image');
+  fs.unlinkSync(imgPath);
+  return url;
+}
+
+/**
  * Main video generation function
  * @param {string} title - Video title
  * @param {string} idea - Video concept
  * @param {string} imageUrl - Reference image
- * @param {string} jobId - Job ID for tracking
+ * @param {string|object} jobId - Job ID for tracking, or object with options
  * @returns {Promise<object>}
  */
 async function generateVideo(title, idea, imageUrl = null, jobId = null) {
-  const internalJobId = jobId || Date.now().toString();
+  const internalJobId = jobId instanceof Object ? jobId.jobId : (jobId || Date.now().toString());
   const supabase = getSupabase();
 
   logger.info(`Starting video generation: ${title} (Job #${internalJobId})`);
@@ -1053,24 +1090,32 @@ async function generateVideo(title, idea, imageUrl = null, jobId = null) {
   });
 
   const style = jobId instanceof Object ? jobId.style : 'product';
-  const actualJobId = jobId instanceof Object ? jobId.jobId : (jobId || internalJobId);
+  const branding = jobId instanceof Object ? jobId.branding : {};
 
   try {
     // Step 1: Generate Sora prompt
     logger.info(`Step 1: Generating cinematic prompt (Style: ${style})...`);
-    const soraPrompt = await generateSoraPrompt(title, idea, style);
+    const soraPrompt = await generateSoraPrompt(title, idea, style, branding);
 
     // Step 2: Create video with KIE
     logger.info('Step 2: Creating video with KIE/Sora 2...');
     let videoUrl = await createKieVideo(soraPrompt, imageUrl || DEFAULT_IMAGE);
 
     // Step 3: Publish / Process Video
-    if (style === 'selfie' || style === 'ugc' || style === 'viral') {
-      // For Selfie/UGC/Viral: Add watermark but KEEP original Sora 2 audio (no TTS)
-      logger.info('Style is UGC/Selfie: Adding watermark, keeping original audio...');
+    if (style === 'selfie' || style === 'ugc' || style === 'viral' || (branding && branding.useKieAudio)) {
+      // For Selfie/UGC/Viral OR Explicit Override: Add watermark but KEEP original Sora 2 audio (no TTS)
+      logger.info('Style preserves audio (UGC/Viral/Override): Adding watermark, keeping original audio...');
+
+      logger.info(`Pre-watermark video URL: ${videoUrl}`); // DEBUG
 
       // Add watermark only, preserve original audio
-      videoUrl = await addWatermarkOnly(videoUrl, title);
+      try {
+        videoUrl = await addWatermarkOnly(videoUrl, title, branding);
+        logger.info(`Post-watermark video URL: ${videoUrl}`); // DEBUG
+      } catch (wmError) {
+        logger.error(`Watermark processing failed: ${wmError.message || wmError}`);
+        throw wmError;
+      }
 
     } else {
       // For Product: Generate TTS + Watermark
@@ -1081,12 +1126,19 @@ async function generateVideo(title, idea, imageUrl = null, jobId = null) {
       }
       const audioPath = path.join(tempDir, `audio_${internalJobId}.mp3`);
 
-      const audioScript = await generateAudioScript(title, idea);
+      let audioScript;
+      if (branding.customScript) {
+        logger.info('Using custom audio script from branding override.');
+        audioScript = branding.customScript;
+      } else {
+        audioScript = await generateAudioScript(title, idea, branding);
+      }
+
       await generateTTSAudio(audioScript, audioPath);
 
       // Step 4: Merge video + audio
       logger.info('Step 4: Merging video with audio and watermark...');
-      videoUrl = await mergeVideoWithAudio(videoUrl, audioPath, title);
+      videoUrl = await mergeVideoWithAudio(videoUrl, audioPath, title, branding);
     }
 
     // Step 5: Publish to Blotato
@@ -1094,7 +1146,7 @@ async function generateVideo(title, idea, imageUrl = null, jobId = null) {
     let captions = {};
     let postResults = {};
     try {
-      const publishResult = await publishToBlotato(internalJobId, videoUrl, title, soraPrompt);
+      const publishResult = await publishToBlotato(internalJobId, videoUrl, title, soraPrompt, branding);
       captions = publishResult.captions;
       postResults = publishResult.results;
     } catch (pubError) {
@@ -1142,11 +1194,11 @@ async function generateVideo(title, idea, imageUrl = null, jobId = null) {
  * For concept videos, ideas, promotional content
  * @param {string} title - Video title
  * @param {string} idea - Video concept/prompt
- * @param {object} options - Options (jobId, style)
+ * @param {object} options - Options (jobId, style, branding)
  * @returns {Promise<object>}
  */
 async function generateTextToVideo(title, idea, options = {}) {
-  const { jobId: inputJobId, style = 'cinematic' } = options;
+  const { jobId: inputJobId, style = 'cinematic', branding = {} } = options;
   const internalJobId = inputJobId || `txt2vid-${Date.now()}`;
   const supabase = getSupabase();
 
@@ -1169,7 +1221,7 @@ async function generateTextToVideo(title, idea, options = {}) {
   try {
     // Step 1: Generate Sora prompt for text-to-video
     logger.info(`Step 1: Generating text-to-video prompt (Style: ${style})...`);
-    const soraPrompt = await generateSoraPrompt(title, idea, style);
+    const soraPrompt = await generateSoraPrompt(title, idea, style, branding);
 
     // Step 2: Create video with KIE TEXT-TO-VIDEO
     logger.info('Step 2: Creating video with KIE/Sora 2 TEXT-TO-VIDEO...');
@@ -1177,14 +1229,14 @@ async function generateTextToVideo(title, idea, options = {}) {
 
     // Step 3: Add watermark only (no TTS for text-to-video)
     logger.info('Step 3: Adding watermark...');
-    videoUrl = await addWatermarkOnly(videoUrl, title);
+    videoUrl = await addWatermarkOnly(videoUrl, title, branding);
 
     // Step 4: Publish to Blotato
     logger.info('Step 4: Publishing to Blotato...');
     let captions = {};
     let postResults = {};
     try {
-      const publishResult = await publishToBlotato(internalJobId, videoUrl, title, soraPrompt);
+      const publishResult = await publishToBlotato(internalJobId, videoUrl, title, soraPrompt, branding);
       captions = publishResult.captions;
       postResults = publishResult.results;
     } catch (pubError) {
@@ -1228,6 +1280,7 @@ async function generateTextToVideo(title, idea, options = {}) {
 }
 
 module.exports = {
+  generateDalleImage,
   generateVideo,
   generateTextToVideo,  // NEW: Text-to-video (no image required)
   generateSoraPrompt,
@@ -1246,14 +1299,16 @@ module.exports = {
 // BLOTATO PUBLISHING
 // ==========================================
 
-async function generateViralCaption(title, script) {
+async function generateViralCaption(title, script, branding = {}) {
   const openai = getOpenAI();
+  const b = { ...DEFAULT_BRANDING, ...branding };
+
   const response = await openai.chat.completions.create({
     model: 'gpt-4o',
     messages: [
       {
         role: 'system',
-        content: `Eres un experto Social Media Manager. Tu único trabajo es generar los textos (captions) perfectos para cada plataforma.
+        content: `Eres un experto Social Media Manager para ${b.name}. Tu único trabajo es generar los textos (captions) perfectos para cada plataforma.
   
               Debes devolver la respuesta estrictamente en formato JSON válido.
   
@@ -1267,26 +1322,24 @@ async function generateViralCaption(title, script) {
               }
   
               REGLAS DE CTA (CALL TO ACTION) - OBLIGATORIO:
-              - SIEMPRE mencionar a "Alex" como el asistente que responde por WhatsApp
-              - SIEMPRE incluir el link de WhatsApp: wa.me/17864782531
+              - SIEMPRE mencionar a "${b.expert}" o "al asistente"
+              - SIEMPRE incluir el link de WhatsApp: wa.me/${b.phone.replace(/-/g, '')}
               - Ejemplos de CTA:
-                * "Escríbele a Alex: wa.me/17864782531"
-                * "Alex te atiende al momento: wa.me/17864782531"
-                * "Cotiza con Alex: wa.me/17864782531"
-                * "WhatsApp Alex: wa.me/17864782531"
+                * "Contáctanos: wa.me/${b.phone.replace(/-/g, '')}"
+                * "Tu solución experta: wa.me/${b.phone.replace(/-/g, '')}"
               - El CTA va ANTES de los hashtags
   
               REGLAS ESTRICTAS DE HASHTAGS:
               - SIEMPRE incluir EXACTAMENTE 5 hashtags en CADA plataforma
               - Los hashtags van AL FINAL del texto (después del CTA)
               - Formato: #Hashtag1 #Hashtag2 #Hashtag3 #Hashtag4 #Hashtag5
-              - Hashtags recomendados: #ProgrammingCar #MiamiLocksmith #CarKeys #AllKeysLost #LostCarKeys #AutoKeys #KeyFob #MiamiAuto
+              - Hashtags recomendados: #${b.name.replace(/\s+/g, '')} #Miami #AutoServices #{ModeloDelAuto}
   
               Reglas del Negocio:
-              - Asistente: Alex (responde por WhatsApp 24/7)
-              - WhatsApp de Alex: wa.me/17864782531
-              - Ubicación: Miami-Dade & Broward
-              - Servicio MÓVIL - vamos a donde está el cliente
+              - Negocio: ${b.name}
+              - WhatsApp: ${b.branding?.phone || b.phone}
+              - Ubicación: ${b.location}
+              - Vibe: ${b.name.includes('Toyota') ? 'Venta de Autos / Exportación' : 'Programación de Llaves / Cerrajería'}
               - Tono: Profesional pero cercano, estilo Miami`,
       },
       {
@@ -1298,11 +1351,11 @@ async function generateViralCaption(title, script) {
   return response.choices[0].message.content;
 }
 
-async function publishToBlotato(jobId, videoUrl, title, prompt) {
+async function publishToBlotato(jobId, videoUrl, title, prompt, branding = {}, platformFilter = null) {
   logger.info(`📡 Publishing Job ${jobId} to Blotato...`);
 
   // 1. Generate Captions
-  const viralCaption = await generateViralCaption(title, prompt);
+  const viralCaption = await generateViralCaption(title, prompt, branding);
   let captions;
   try {
     const cleanJson = viralCaption
@@ -1316,18 +1369,26 @@ async function publishToBlotato(jobId, videoUrl, title, prompt) {
   }
 
   const postResults = {};
+  const b = { ...DEFAULT_BRANDING, ...branding };
+  const socialIds = b.socials || {};
 
   if (config.blotatoApiKey || process.env.BLOTATO_API_KEY) {
     const apiKey = config.blotatoApiKey || process.env.BLOTATO_API_KEY;
 
-    // Define targets
-    const targets = [
-      { id: process.env.BLOTATO_ACCOUNT_ID, platform: 'tiktok', caption: captions.tiktok },
-      { id: process.env.BLOTATO_INSTAGRAM_ID, platform: 'instagram', caption: captions.instagram },
-      { id: process.env.BLOTATO_YOUTUBE_ID, platform: 'youtube', caption: captions.youtube },
-      { id: process.env.BLOTATO_TWITTER_ID, platform: 'twitter', caption: captions.twitter },
-      { id: process.env.BLOTATO_FACEBOOK_ID, platform: 'facebook', caption: captions.facebook },
+    // Define targets - Prioritize dynamic socialIds, fallback to ENV
+    let targets = [
+      { id: socialIds.tiktok || process.env.BLOTATO_ACCOUNT_ID, platform: 'tiktok', caption: captions.tiktok },
+      { id: socialIds.instagram || process.env.BLOTATO_INSTAGRAM_ID, platform: 'instagram', caption: captions.instagram },
+      { id: socialIds.youtube || process.env.BLOTATO_YOUTUBE_ID, platform: 'youtube', caption: captions.youtube },
+      { id: socialIds.twitter || process.env.BLOTATO_TWITTER_ID, platform: 'twitter', caption: captions.twitter },
+      { id: socialIds.facebook || process.env.BLOTATO_FACEBOOK_ID, platform: 'facebook', caption: captions.facebook },
     ].filter(t => t.id);
+
+    // Apply Platform Filter
+    if (platformFilter && Array.isArray(platformFilter)) {
+      logger.info(`🔍 Filtering platforms: ${platformFilter.join(', ')}`);
+      targets = targets.filter(t => platformFilter.includes(t.platform));
+    }
 
     if (targets.length === 0) {
       logger.warn('No Blotato Target IDs configured.');
@@ -1336,7 +1397,7 @@ async function publishToBlotato(jobId, videoUrl, title, prompt) {
 
     for (const target of targets) {
       try {
-        logger.info(`🚀 Sending to ${target.platform}...`);
+        logger.info(`🚀 Sending to ${target.platform} (ID: ${target.id})...`);
 
         let targetPayload = {};
         // Platform specific payloads
@@ -1352,14 +1413,14 @@ async function publishToBlotato(jobId, videoUrl, title, prompt) {
           case 'youtube':
             targetPayload = {
               targetType: 'youtube', platform: 'youtube',
-              title: title || 'Programming Car Video',
+              title: title || `${b.name} Video`,
               privacyStatus: 'public', shouldNotifySubscribers: true
             };
             break;
           case 'facebook':
             targetPayload = {
               targetType: 'facebook', platform: 'facebook',
-              pageId: process.env.BLOTATO_FACEBOOK_PAGE_ID
+              pageId: socialIds.facebookPageId || socialIds.facebook || process.env.BLOTATO_FACEBOOK_PAGE_ID
             };
             break;
           default:
