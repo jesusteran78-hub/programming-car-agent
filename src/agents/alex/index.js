@@ -173,12 +173,12 @@ async function processMessage(payload, sendMessage) {
 
   try {
     // === HUMAN OVERRIDE (AGENT PAUSED) ===
-    // if (!isOwner) {
-    //   logger.info(`Alex is PAUSED. Ignoring message from customer: ${chatId}`);
-    //   // return null to silently ignore without AI response, 
-    //   // letting the human "Alexandra" handle the WhatsApp natively.
-    //   // return null;
-    // }
+    if (!isOwner) {
+      logger.info(`Alex is PAUSED. Ignoring message from customer: ${chatId}`);
+      // return null to silently ignore without AI response, 
+      // letting the human "Alexandra" handle the WhatsApp natively.
+      return null;
+    }
     // =====================================
 
     // Get or create lead
