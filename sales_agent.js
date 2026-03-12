@@ -36,6 +36,7 @@ const PORT = process.env.PORT || 3000;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const WHAPI_TOKEN = process.env.WHAPI_TOKEN;
 const OWNER_PHONE = process.env.OWNER_PHONE || '17868164874@s.whatsapp.net';
+const DISABLE_AI_REPLIES = true; // Added to stop AI responses as per user request
 
 if (!OPENAI_API_KEY || !WHAPI_TOKEN) {
   logger.error('❌ ERROR: Faltan las claves en el archivo .env');
@@ -161,6 +162,11 @@ app.post('/webhook', async (req, res) => {
         saveConversation(senderNumber, 'user', userText).catch((e) => logger.error('DbSaveError', e));
       }
 
+      if (DISABLE_AI_REPLIES) {
+        logger.info('🛑 AI replies are DISABLED globally. Ignoring customer message.');
+        return res.sendStatus(200);
+      }
+
       // Use ATLAS Alex for AI response
       const aiResponse = await atlasAlex.getAIResponse(userText, senderNumber, userImage, sendToWhapi, userAudio);
 
@@ -211,6 +217,11 @@ app.post('/webhook', async (req, res) => {
     // Save user message
     if (userText) {
       saveConversation(senderNumber, 'user', userText).catch((e) => logger.error('DbSaveError', e));
+    }
+
+    if (DISABLE_AI_REPLIES) {
+      logger.info('🛑 AI replies are DISABLED globally. Ignoring customer message.');
+      return res.sendStatus(200);
     }
 
     // Get AI response (Legacy)
